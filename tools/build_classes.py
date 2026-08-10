@@ -17,6 +17,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
+import build_codex as K
 import chrome as C
 import classes_meta as M
 
@@ -147,7 +148,9 @@ def game_rows(slug):
     rows = []
     for sk in entry["skills"]:
         lines = [l for l in sk["desc"].split("\n") if l.strip()]
-        desc = "".join("<p>%s</p>" % esc(l) for l in lines)
+        # Skill text is where the game's private vocabulary is thickest, so
+        # this is where the codex earns its keep.
+        desc = "".join("<p>%s</p>" % K.mark(esc(l), "../") for l in lines)
         meta = []
         if sk["target"]:
             meta.append('<span class="chip chip--sm">%s</span>' % esc(sk["target"]))

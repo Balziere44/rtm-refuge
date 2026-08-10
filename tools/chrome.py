@@ -53,6 +53,7 @@ NAV = [
     ("gear.html", "Gear"),
     ("world.html", "World"),
     ("database.html", "Database"),
+    ("codex.html", "Codex"),
     ("guides.html", "Guides"),
     ("join.html", "Join"),
 ]
@@ -74,6 +75,7 @@ FOOTER_COLUMNS = [
     ("Reference", [
         ("changes.html", "Changes from the original"),
         ("database.html", "Items and monsters"),
+        ("codex.html", "What the words mean"),
         ("guides.html", "Player-written guides"),
         ("llms.txt", "llms.txt"),
         ("sitemap.xml", "Sitemap"),

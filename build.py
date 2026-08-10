@@ -15,6 +15,7 @@ import sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 
 STEPS = [
+    "build_codex.py",     # the glossary, and the term table the others use
     "build.py",           # home and the short pages
     "build_docs.py",      # start / mechanics / gear / world
     "build_classes.py",   # the tree and every class page

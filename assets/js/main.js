@@ -96,6 +96,10 @@
     if (!scope) return;
     var rows = Array.prototype.slice.call(scope.querySelectorAll('[data-row]'));
     var count = document.getElementById(input.getAttribute('data-filter-count') || '');
+    var empty = document.getElementById(input.getAttribute('data-filter-empty') || '');
+    // A filtered list that leaves five headings with nothing under them reads
+    // as broken, so a group with no surviving rows goes too.
+    var groups = Array.prototype.slice.call(scope.querySelectorAll('[data-filter-group]'));
 
     function apply() {
       var q = fold(input.value.trim());
@@ -105,7 +109,11 @@
         r.hidden = !hit;
         if (hit) shown++;
       });
+      groups.forEach(function (g) {
+        g.hidden = !g.querySelector('[data-row]:not([hidden])');
+      });
       if (count) count.textContent = shown + ' / ' + rows.length;
+      if (empty) empty.hidden = shown > 0;
     }
 
     input.addEventListener('input', apply);

@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Codex | Return to Morroc: Refuge</title>
+<meta name="description" content="Every recurring word in the game's item and skill text, explained in one line: combo windows, cast timing, gear bonuses, status effects and the six stats.">
+<link rel="canonical" href="https://rtmrefuge.pages.dev/codex.html">
+
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#06040a">
+<meta name="theme-color" content="#06040a" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f2f0f5" media="(prefers-color-scheme: light)">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Return to Morroc: Refuge">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://rtmrefuge.pages.dev/codex.html">
+<meta property="og:title" content="Codex | Return to Morroc: Refuge">
+<meta property="og:description" content="Every recurring word in the game's item and skill text, explained in one line: combo windows, cast timing, gear bonuses, status effects and the six stats.">
+<meta property="og:image" content="https://rtmrefuge.pages.dev/assets/social/og-cover.jpg?v=c886e96b">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Return to Morroc: Refuge">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Codex | Return to Morroc: Refuge">
+<meta name="twitter:description" content="Every recurring word in the game's item and skill text, explained in one line: combo windows, cast timing, gear bonuses, status effects and the six stats.">
+<meta name="twitter:image" content="https://rtmrefuge.pages.dev/assets/social/og-cover.jpg?v=c886e96b">
+
+<link rel="icon" href="assets/img/icon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="assets/img/icon-180.png">
+<link rel="manifest" href="site.webmanifest">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+
+<script>
+/* The only blocking script on the site. It has to run before the first paint
+   or the wrong theme shows for a frame. */
+(function () {
+  try {
+    var t = localStorage.getItem('rtmr-theme');
+    if (!t) t = matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+    document.documentElement.dataset.theme = t;
+  } catch (e) {}
+})();
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "item": "https://rtmrefuge.pages.dev/index.html", "name": "Home"},
+    {"@type": "ListItem", "position": 2,  "name": "Codex"}
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main" data-i18n="a11y.skip">Skip to content</a>
+<header class="site-header">
+  <div class="shell header-inner">
+    <a class="brand" href="index.html">
+      <img class="mark" src="assets/img/icon-192.png" width="34" height="34" alt="" aria-hidden="true">
+      <span class="brand-text">
+        <span class="brand-name">RETURN TO MORROC</span>
+        <span class="brand-sub">Refuge</span>
+      </span>
+    </a>
+    <!-- NAV:START -->
+    <nav class="nav" aria-label="Main">
+      <a href="index.html" data-i18n="nav.home">Home</a>
+      <a href="server.html" data-i18n="nav.server">The Server</a>
+      <a href="start.html" data-i18n="nav.start">Start Here</a>
+      <a href="classes.html" data-i18n="nav.classes">Classes</a>
+      <a href="mechanics.html" data-i18n="nav.mechanics">Mechanics</a>
+      <a href="gear.html" data-i18n="nav.gear">Gear</a>
+      <a href="world.html" data-i18n="nav.world">World</a>
+      <a href="database.html" data-i18n="nav.database">Database</a>
+      <a href="codex.html" aria-current="page" data-i18n="nav.codex">Codex</a>
+      <a href="guides.html" data-i18n="nav.guides">Guides</a>
+      <a href="join.html" data-i18n="nav.join">Join</a>
+    </nav>
+    <!-- NAV:END -->
+    <div class="header-actions">
+      <button class="icon-btn search-btn" type="button" data-search-open
+              aria-label="Search this site" data-i18n-attr="aria-label:search.title">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true">
+          <circle cx="11" cy="11" r="7"/><path d="M20 20l-3.6-3.6" stroke-linecap="round"/>
+        </svg>
+        <kbd>Ctrl K</kbd>
+      </button>
+      <div class="lang" data-open="false">
+        <button class="icon-btn" type="button" data-lang-open aria-expanded="false"
+                aria-haspopup="true" aria-label="Change language"
+                data-i18n-attr="aria-label:lang.change">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+            <circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 2.5 15.4 0 18M12 3c-2.5 2.6-2.5 15.4 0 18"/>
+          </svg>
+        </button>
+        <div class="lang-menu" role="menu">
+          <button type="button" role="menuitem" data-lang-pick="en" aria-current="true">
+            English <span class="lang-code">EN</span>
+          </button>
+          <button type="button" role="menuitem" data-lang-pick="pt" aria-current="false">
+            Portugu&ecirc;s <span class="lang-code">PT</span>
+          </button>
+        </div>
+      </div>
+      <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch theme"
+              data-i18n-attr="aria-label:theme.switch">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+          <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" stroke-linejoin="round"/>
+        </svg>
+      </button>
+      <a class="icon-btn" href="https://discord.gg/a5P3PFNMhn" rel="noopener" aria-label="Community chat server">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M19.6 5.6A16 16 0 0 0 15.7 4.4l-.2.4a12 12 0 0 1 3.4 1.7 14 14 0 0 0-12-.6 13 13 0 0 0-1.7.6 12 12 0 0 1 3.4-1.7l-.2-.4A16 16 0 0 0 4.4 5.6C2 9.2 1.3 12.7 1.6 16.2a16 16 0 0 0 4.9 2.5l1-1.6a10 10 0 0 1-1.6-.8l.4-.3a11 11 0 0 0 9.4 0l.4.3a10 10 0 0 1-1.6.8l1 1.6a16 16 0 0 0 4.9-2.5c.4-4-.7-7.5-2.8-10.6zM8.6 14.3c-1 0-1.7-.9-1.7-1.9s.8-1.9 1.7-1.9 1.8.9 1.7 1.9c0 1-.7 1.9-1.7 1.9zm6.3 0c-1 0-1.7-.9-1.7-1.9s.8-1.9 1.7-1.9 1.8.9 1.7 1.9c0 1-.7 1.9-1.7 1.9z"/>
+        </svg>
+      </a>
+      <button class="icon-btn nav-toggle" type="button" data-drawer-open aria-expanded="false" aria-controls="drawer" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+          <path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="drawer" id="drawer" data-open="false" role="dialog" aria-modal="true" aria-label="Menu">
+  <div class="shell">
+    <div class="drawer-head">
+      <span class="eyebrow">Menu</span>
+      <button class="icon-btn" type="button" data-drawer-close aria-label="Close menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+          <path d="M6 6l12 12M18 6L6 18" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+    <!-- DRAWER:START -->
+    <nav aria-label="Mobile">
+      <a href="index.html" data-i18n="nav.home">Home</a>
+      <a href="server.html" data-i18n="nav.server">The Server</a>
+      <a href="start.html" data-i18n="nav.start">Start Here</a>
+      <a href="classes.html" data-i18n="nav.classes">Classes</a>
+      <a href="mechanics.html" data-i18n="nav.mechanics">Mechanics</a>
+      <a href="gear.html" data-i18n="nav.gear">Gear</a>
+      <a href="world.html" data-i18n="nav.world">World</a>
+      <a href="database.html" data-i18n="nav.database">Database</a>
+      <a href="codex.html" aria-current="page" data-i18n="nav.codex">Codex</a>
+      <a href="guides.html" data-i18n="nav.guides">Guides</a>
+      <a href="join.html" data-i18n="nav.join">Join</a>
+    </nav>
+    <!-- DRAWER:END -->
+  </div>
+</div>
+<main id="main">
+<section class="page-hero page-hero--tight">
+  <div class="shell">
+    <p class="crumbs"><a href="index.html" data-i18n="ui.home">Home</a><span>/</span><span>Codex</span></p>
+    <h1 data-i18n="codex.h1">Codex</h1>
+    <p class="lede" data-i18n="codex.lede">
+      Item and skill descriptions are written for people who already play.
+      These are the words they lean on, in plain language. Wherever one of them
+      turns up on this site it is underlined in its own colour, and it links
+      back here.
+    </p>
+    <div class="pill-row" style="margin-top:1.4rem"><a class="pill" href="#g-states">States you build up</a><a class="pill" href="#g-timing">Timing</a><a class="pill" href="#g-gear">Words on gear</a><a class="pill" href="#g-offence">Attack</a><a class="pill" href="#g-defence">Defence and survival</a><a class="pill" href="#g-status">Status effects</a><a class="pill" href="#g-stats">The six stats</a></div>
+  </div>
+</section>
+
+<div class="shell codex">
+  <div class="codex-tools">
+    <label class="visually-hidden" for="codex-q">Filter</label>
+    <input id="codex-q" class="field" type="search" autocomplete="off"
+           placeholder="Filter the codex..." data-i18n-attr="placeholder:codex.filter"
+           data-filter="codex-body" data-filter-empty="codex-empty">
+  </div>
+  <div id="codex-body">
+    <section class="codex-group codex-group--st" id="g-states" data-filter-group>
+      <h2>States you build up</h2>
+      <p class="codex-blurb">Conditions your own actions put you in. Almost every job has at least one, and using a skill at the wrong moment usually means wasting it.</p>
+      <dl class="codex-list">
+        <div class="codex-row" id="combo-ready" data-row>
+          <dt><span class="term term--st term--static">Combo Ready</span></dt>
+          <dd>A short window opened by one skill in which the next one hits harder or behaves differently.</dd>
+        </div>
+        <div class="codex-row" id="cast-ready" data-row>
+          <dt><span class="term term--st term--static">Cast Ready</span></dt>
+          <dd>A window in which a skill that normally needs channelling goes off instantly.</dd>
+        </div>
+        <div class="codex-row" id="finisher-ready" data-row>
+          <dt><span class="term term--st term--static">Finisher Ready</span></dt>
+          <dd>A window in which a job's closing skill gains its full effect.</dd>
+        </div>
+        <div class="codex-row" id="duel-counter" data-row>
+          <dt><span class="term term--st term--static">Duel Counter</span></dt>
+          <dd>Charges a Duelist accumulates by fighting; several skills spend them or scale on them.</dd>
+        </div>
+        <div class="codex-row" id="rolling-counter" data-row>
+          <dt><span class="term term--st term--static">Rolling Counter</span></dt>
+          <dd>Charges built by an Assassin's spinning attacks, spent by the heavier follow-ups.</dd>
+        </div>
+        <div class="codex-row" id="overslash-stack" data-row>
+          <dt><span class="term term--st term--static">Overslash Stack</span></dt>
+          <dd>Charges that build as you keep swinging and raise the damage of the skill that consumes them.</dd>
+        </div>
+        <div class="codex-row" id="harvest-mode" data-row>
+          <dt><span class="term term--st term--static">Harvest Mode</span></dt>
+          <dd>A Dark Knight stance that blocks healing from skills in exchange for far heavier hits.</dd>
+        </div>
+        <div class="codex-row" id="assault-mode" data-row>
+          <dt><span class="term term--st term--static">Assault Mode</span></dt>
+          <dd>A Peacekeeper stance that trades defence for the ability to cut through armour.</dd>
+        </div>
+      </dl>
+    </section>
+    <section class="codex-group codex-group--ti" id="g-timing" data-filter-group>
+      <h2>Timing</h2>
+      <p class="codex-blurb">How long things take. Most of what separates a job that feels fast from one that feels heavy is here, not in its damage.</p>
+      <dl class="codex-list">
+        <div class="codex-row" id="cast-time" data-row>
+          <dt><span class="term term--ti term--static">Cast Time</span></dt>
+          <dd>The channel before a skill goes off. Being hit can interrupt it.</dd>
+        </div>
+        <div class="codex-row" id="fixed-cast" data-row>
+          <dt><span class="term term--ti term--static">Fixed Cast</span></dt>
+          <dd>The part of a cast that stats cannot shorten - only gear made for it will.</dd>
+        </div>
+        <div class="codex-row" id="after-cast-delay" data-row>
+          <dt><span class="term term--ti term--static">After Cast Delay</span></dt>
+          <dd>The pause after a skill during which you cannot use another. Often the real limit on a rotation.</dd>
+        </div>
+        <div class="codex-row" id="cooldown" data-row>
+          <dt><span class="term term--ti term--static">Base Starting Cooldown</span></dt>
+          <dd>The wait before a skill can be used again, before any gear reduces it.</dd>
+        </div>
+        <div class="codex-row" id="aspd" data-row>
+          <dt><span class="term term--ti term--static">ASPD</span></dt>
+          <dd>Attack speed: how quickly you swing between skills. Capped, and the cap differs per job.</dd>
+        </div>
+      </dl>
+    </section>
+    <section class="codex-group codex-group--ge" id="g-gear" data-filter-group>
+      <h2>Words on gear</h2>
+      <p class="codex-blurb">The vocabulary of equipment. These appear on almost every piece in the database.</p>
+      <dl class="codex-list">
+        <div class="codex-row" id="set-bonus" data-row>
+          <dt><span class="term term--ge term--static">Set Bonus</span></dt>
+          <dd>An extra effect you only get while wearing every piece of a named set.</dd>
+        </div>
+        <div class="codex-row" id="piece-bonus" data-row>
+          <dt><span class="term term--ge term--static">Piece Bonus</span></dt>
+          <dd>What a single shadow piece gives you on its own, without the rest of its set.</dd>
+        </div>
+        <div class="codex-row" id="per-refine" data-row>
+          <dt><span class="term term--ge term--static">Per Refine</span></dt>
+          <dd>A bonus that grows with each successful refine, so the same item improves as you invest in it.</dd>
+        </div>
+        <div class="codex-row" id="random-options" data-row>
+          <dt><span class="term term--ge term--static">Random Options</span></dt>
+          <dd>Bonuses rolled when an item drops. What it rolled is what it is - the Refuge has no rerolling.</dd>
+        </div>
+        <div class="codex-row" id="boss-relic" data-row>
+          <dt><span class="term term--ge term--static">Boss Relic</span></dt>
+          <dd>A piece dropped by an MVP that upgrades a weapon into its relic form.</dd>
+        </div>
+        <div class="codex-row" id="card-slot" data-row>
+          <dt><span class="term term--ge term--static">Card Slot</span></dt>
+          <dd>A socket for a card. How many an item has is fixed when it drops.</dd>
+        </div>
+      </dl>
+    </section>
+    <section class="codex-group codex-group--of" id="g-offence" data-filter-group>
+      <h2>Attack</h2>
+      <p class="codex-blurb">How damage is worked out. Worth knowing which of these your build actually scales with before buying gear for it.</p>
+      <dl class="codex-list">
+        <div class="codex-row" id="defense-pierce" data-row>
+          <dt><span class="term term--of term--static">Defense Pierce</span></dt>
+          <dd>Ignores a share of the target's armour, so heavily armoured enemies stop being immune to you.</dd>
+        </div>
+        <div class="codex-row" id="magic-defense-pierce" data-row>
+          <dt><span class="term term--of term--static">Magic Defense Pierce</span></dt>
+          <dd>The same, against magic resistance.</dd>
+        </div>
+        <div class="codex-row" id="critical-rate" data-row>
+          <dt><span class="term term--of term--static">Critical Rate</span></dt>
+          <dd>How often you land a critical hit.</dd>
+        </div>
+        <div class="codex-row" id="critical-damage" data-row>
+          <dt><span class="term term--of term--static">Critical Damage</span></dt>
+          <dd>How much extra a critical hit does when it lands.</dd>
+        </div>
+        <div class="codex-row" id="ranged-damage" data-row>
+          <dt><span class="term term--of term--static">Ranged Damage</span></dt>
+          <dd>A bonus that only applies to attacks made from a distance.</dd>
+        </div>
+        <div class="codex-row" id="splash-range" data-row>
+          <dt><span class="term term--of term--static">Splash Range</span></dt>
+          <dd>How far a hit spreads to enemies around the target.</dd>
+        </div>
+        <div class="codex-row" id="attack-range" data-row>
+          <dt><span class="term term--of term--static">Attack Range</span></dt>
+          <dd>How far away you can be and still hit. Measured in cells.</dd>
+        </div>
+        <div class="codex-row" id="endow" data-row>
+          <dt><span class="term term--of term--static">Endow</span></dt>
+          <dd>Temporarily gives your weapon an element, which changes how much damage it does to what.</dd>
+        </div>
+      </dl>
+    </section>
+    <section class="codex-group codex-group--de" id="g-defence" data-filter-group>
+      <h2>Defence and survival</h2>
+      <p class="codex-blurb">What keeps you standing. Monsters in the Refuge hit harder than they did and healing is slower, so these matter more than they used to.</p>
+      <dl class="codex-list">
+        <div class="codex-row" id="perfect-dodge" data-row>
+          <dt><span class="term term--de term--static">Perfect Dodge</span></dt>
+          <dd>A flat chance to avoid a hit outright, no matter how accurate the attacker is.</dd>
+        </div>
+        <div class="codex-row" id="flee" data-row>
+          <dt><span class="term term--de term--static">Flee</span></dt>
+          <dd>Ordinary evasion. Works against accuracy, and stops working when you are outnumbered.</dd>
+        </div>
+        <div class="codex-row" id="hit" data-row>
+          <dt><span class="term term--de term--static">Hit</span></dt>
+          <dd>Accuracy. Enough of it and the target's evasion stops mattering.</dd>
+        </div>
+        <div class="codex-row" id="neutral-resistance" data-row>
+          <dt><span class="term term--de term--static">Neutral Resistance</span></dt>
+          <dd>Reduction against plain physical damage, which is most of what hits you.</dd>
+        </div>
+        <div class="codex-row" id="healing-received" data-row>
+          <dt><span class="term term--de term--static">Healing Received</span></dt>
+          <dd>How much good a heal does on you. Some very strong gear cuts it.</dd>
+        </div>
+        <div class="codex-row" id="leech" data-row>
+          <dt><span class="term term--de term--static">Leech</span></dt>
+          <dd>Recovers HP from a share of the damage you deal.</dd>
+        </div>
+        <div class="codex-row" id="overheal" data-row>
+          <dt><span class="term term--de term--static">Overheal</span></dt>
+          <dd>Healing beyond your maximum, turned into a temporary shield instead of being wasted.</dd>
+        </div>
+      </dl>
+    </section>
+    <section class="codex-group codex-group--sx" id="g-status" data-filter-group>
+      <h2>Status effects</h2>
+      <p class="codex-blurb">What you inflict, and what gets inflicted on you. In the Refuge several of these now work on bosses, which they did not before.</p>
+      <dl class="codex-list">
+        <div class="codex-row" id="poison" data-row>
+          <dt><span class="term term--sx term--static">Poison</span></dt>
+          <dd>Damage over time that also softens defence. Now applies to bosses.</dd>
+        </div>
+        <div class="codex-row" id="burning" data-row>
+          <dt><span class="term term--sx term--static">Burning</span></dt>
+          <dd>Fire damage over time.</dd>
+        </div>
+        <div class="codex-row" id="frost" data-row>
+          <dt><span class="term term--sx term--static">Frost</span></dt>
+          <dd>Slows the target and sets up the heavier freeze.</dd>
+        </div>
+        <div class="codex-row" id="frozen" data-row>
+          <dt><span class="term term--sx term--static">Frozen</span></dt>
+          <dd>The target cannot act, and takes more from some skills while it lasts.</dd>
+        </div>
+        <div class="codex-row" id="bleeding" data-row>
+          <dt><span class="term term--sx term--static">Bleeding</span></dt>
+          <dd>Damage over time that also blocks natural recovery.</dd>
+        </div>
+        <div class="codex-row" id="stun" data-row>
+          <dt><span class="term term--sx term--static">Stun</span></dt>
+          <dd>The target cannot act for a moment.</dd>
+        </div>
+        <div class="codex-row" id="knockback" data-row>
+          <dt><span class="term term--sx term--static">Knockback</span></dt>
+          <dd>Pushes the target away, measured in cells. Useful for control, awkward in a party.</dd>
+        </div>
+        <div class="codex-row" id="hiding" data-row>
+          <dt><span class="term term--sx term--static">Hiding</span></dt>
+          <dd>Drops you out of sight. Capped at a fixed two seconds in the Refuge, but it now works on bosses, insects and demons.</dd>
+        </div>
+        <div class="codex-row" id="cloaking" data-row>
+          <dt><span class="term term--sx term--static">Cloaking</span></dt>
+          <dd>Move while unseen. Ordinary monsters lose you; bosses do not.</dd>
+        </div>
+      </dl>
+    </section>
+    <section class="codex-group codex-group--sa" id="g-stats" data-filter-group>
+      <h2>The six stats</h2>
+      <p class="codex-blurb">What you put your points into. Every skill scales off at least one of them, and the scaling is listed on the skill.</p>
+      <dl class="codex-list">
+        <div class="codex-row" id="str" data-row>
+          <dt><span class="term term--sa term--static">STR</span></dt>
+          <dd>Physical attack, and how much you can carry.</dd>
+        </div>
+        <div class="codex-row" id="agi" data-row>
+          <dt><span class="term term--sa term--static">AGI</span></dt>
+          <dd>Attack speed and evasion.</dd>
+        </div>
+        <div class="codex-row" id="vit" data-row>
+          <dt><span class="term term--sa term--static">VIT</span></dt>
+          <dd>Health, defence and resistance to status effects.</dd>
+        </div>
+        <div class="codex-row" id="int" data-row>
+          <dt><span class="term term--sa term--static">INT</span></dt>
+          <dd>Magic attack, SP and magic defence.</dd>
+        </div>
+        <div class="codex-row" id="dex" data-row>
+          <dt><span class="term term--sa term--static">DEX</span></dt>
+          <dd>Accuracy, ranged damage and shorter casting.</dd>
+        </div>
+        <div class="codex-row" id="luk" data-row>
+          <dt><span class="term term--sa term--static">LUK</span></dt>
+          <dd>Criticals, perfect dodge, and a quiet hand in a lot of formulas.</dd>
+        </div>
+      </dl>
+    </section>
+  </div>
+  <p class="codex-empty" id="codex-empty" hidden data-i18n="codex.empty">
+    Nothing by that name. Try the database instead.
+  </p>
+</div>
+
+</main>
+<!-- FOOTER:START -->
+<footer class="site-footer">
+  <div class="shell">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="index.html">
+          <img class="mark" src="assets/img/icon-192.png" width="34" height="34" alt="" aria-hidden="true">
+          <span class="brand-text">
+            <span class="brand-name">RETURN TO MORROC</span>
+            <span class="brand-sub">Refuge</span>
+          </span>
+        </a>
+        <p class="muted" data-i18n="foot.blurb" style="margin-top:1rem;font-size:0.92rem;max-width:34ch">
+          A free, non-commercial hobby world built and run by a handful of players
+          for anyone who wants somewhere unhurried to play.
+        </p>
+        <p class="cluster" style="margin-top:1rem">
+          <a class="btn btn--ghost" href="https://discord.gg/a5P3PFNMhn" rel="noopener" data-i18n="cta.chat">Community chat</a>
+        </p>
+      </div>
+      <div>
+        <h4 data-i18n="foot.col0">Start here</h4>
+        <ul>
+        <li><a href="server.html" data-i18n="foot.server">What the Refuge is</a></li>
+        <li><a href="start.html" data-i18n="foot.start">New player guide</a></li>
+        <li><a href="join.html" data-i18n="foot.join">How to join</a></li>
+        <li><a href="faq.html" data-i18n="foot.faq">Questions and answers</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="foot.col1">The game</h4>
+        <ul>
+        <li><a href="classes.html" data-i18n="foot.classes">All 42 classes</a></li>
+        <li><a href="newjobs.html" data-i18n="foot.newjobs">Bouncer and Pit Boss</a></li>
+        <li><a href="mechanics.html" data-i18n="foot.mechanics">Combat and stats</a></li>
+        <li><a href="gear.html" data-i18n="foot.gear">Items, refining, shadows</a></li>
+        <li><a href="world.html" data-i18n="foot.world">Regions, dungeons, MVPs</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="foot.col2">Reference</h4>
+        <ul>
+        <li><a href="changes.html" data-i18n="foot.changes">Changes from the original</a></li>
+        <li><a href="database.html" data-i18n="foot.database">Items and monsters</a></li>
+        <li><a href="codex.html" data-i18n="foot.codex">What the words mean</a></li>
+        <li><a href="guides.html" data-i18n="foot.guides">Player-written guides</a></li>
+        <li><a href="llms.txt" data-i18n="foot.llms">llms.txt</a></li>
+        <li><a href="sitemap.xml" data-i18n="foot.sitemap">Sitemap</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-legal" data-i18n="foot.legal">
+      Return to Morroc: Refuge is an unofficial fan project with no affiliation to, sponsorship by
+      or endorsement from any game publisher, developer or rights holder. It is
+      free to play, it accepts no real-money trading, and it will never sell
+      in-game power. All third-party names that appear anywhere on this site
+      belong to their respective owners and are used only to describe gameplay.
+      <br><br>
+      Built by the community, in the open. Site content is free to copy.
+    </p>
+  </div>
+</footer>
+<!-- FOOTER:END -->
+
+<script>window.RTMR_PREFIX = "";</script>
+<script src="assets/js/main.js" defer></script>
+<script src="assets/js/search.js" defer></script>
+<script src="assets/js/i18n.js" defer></script>
+</body>
+</html>

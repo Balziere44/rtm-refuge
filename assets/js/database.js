@@ -73,6 +73,37 @@
     return 'is-veryrare';
   }
 
+  /* ---- the codex ---------------------------------------------------------
+     The same term table the skill tables are marked up with at build time.
+     Item text arrives with the payload, so the marking has to happen here.
+     Loaded once, lazily, and the drawer renders fine without it. */
+
+  var codex = null;
+  fetch(PREFIX + 'assets/data/codex.json')
+    .then(function (r) { return r.json(); })
+    .then(function (d) {
+      // Longest spelling first, so "Magic Defense Pierce" wins over
+      // "Defense Pierce". The payload is already in that order.
+      codex = {
+        map: {},
+        re: new RegExp('(?<![\\w-])(' + d.terms.map(function (t) {
+          return t[0].replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        }).join('|') + ')(?![\\w-])', 'g')
+      };
+      d.terms.forEach(function (t) { codex.map[t[0]] = t; });
+    })
+    .catch(function () { codex = null; });
+
+  /* Takes escaped text, returns escaped text with links added. */
+  function terms(escaped) {
+    if (!codex) return escaped;
+    return escaped.replace(codex.re, function (m) {
+      var t = codex.map[m];
+      return '<a class="term term--' + t[3] + '" href="' + PREFIX + 'codex.html#' +
+        t[1] + '" title="' + esc(t[2]) + '">' + m + '</a>';
+    });
+  }
+
   function sprite(id, name) {
     // The box is taller than it is wide because the sprites are: a Poring is
     // a ball and a Seyren is a man on a horse. Reserving the tall box for all
@@ -394,7 +425,7 @@
 
     if (row[C.desc]) {
       html += '<div class="db-desc">' + row[C.desc].split('\n').map(function (line) {
-        return line.trim() ? '<p>' + esc(line) + '</p>' : '';
+        return line.trim() ? '<p>' + terms(esc(line)) + '</p>' : '';
       }).join('') + '</div>';
     }
 
@@ -448,7 +479,7 @@
     ]);
 
     if (row[C.card]) {
-      html += '<h3>Its card</h3><div class="db-desc"><p>' + esc(row[C.card]) + '</p>' +
+      html += '<h3>Its card</h3><div class="db-desc"><p>' + terms(esc(row[C.card])) + '</p>' +
         (row[C.cslot] ? '<p class="dim">Goes in: ' + esc(row[C.cslot]) + '</p>' : '') +
         '</div>';
     }

@@ -1,0 +1,172 @@
+{
+ "threads": [
+  {
+   "channel": "Information",
+   "messages": [
+    {
+     "at": "04/05/2026 20:46",
+     "author": "Ornstein",
+     "text": "Hello and Welcome to Return to Morroc: Refuge!\n\nThere is no set date for launch as of now, but it should not be far!\n\nYou can check details on #🔍information-and-guides and talk to people on #✉general-chat\n\nFeel free to ask anything you want about it in the mean time o/\n\nReminder this is not meant to be a \"professional\" server, just a cool experience for people who want to have a cool server to play, that adds content, addresses issues and respects your time and intent.\n\nThis project is not related to Luna Obscura in any way. (edited)"
+    },
+    {
+     "at": "06/05/2026 13:25",
+     "author": "NOT Orn",
+     "text": "@Ping for Everything @Ping for Essentials\n\n@Metta has been working on a pretty cool database, i can show a small bit for now.\n\nThe plan is to make this a server where everyone can contribute, and while the database stills work in progress, i wanna share a look at how it is.\n\nThe database includes fields to discuss and add notes about what needs buffs, nerfs or fixes, tabs for skills, mobs, maps and so much more, all easy to find and provide feedback on.\n\nWORK IN PROGRESS, TAKE WITH A GRAIN OF SALT."
+    },
+    {
+     "at": "07/05/2026 20:45",
+     "author": "NOT Orn",
+     "text": "@Ping for Everything\n\nPreview for all job changes done to Assassin job specs and final jobs.\n\nhttps://discord.com/channels/1500898812942745602/1502093768302530690\n\nNote: Reminder we dont have job sets anymore. So power curve is overall lower."
+    },
+    {
+     "at": "10/05/2026 01:23",
+     "author": "Metta",
+     "text": "Hey @everyone, happy to have you all onboard! It's incredible to see all the support in a short time.\nAll the cool stuff the team is creating making has me itching to play...\n\nHere's what we have going on\n- We are already checking suggestions and ideas on #suggestions and #📕job-discussions , if you have feedback from PRM, Croc or EoM please let us know!\n\n- @NOT Orn just finished adding more job re balances, you can check them out on #👁️previews, the Rogue tree adjustments were just posted and they come with A LOT of changes to major complaints. Orn will be moving on to content work...since we will have plenty of new areas, including Amatsu SS for ultra endgame stuff.\n\nSpoiler: Amatsu SS will have the very friendly penalty of losing a base level on death.\n- @croc is hard at work making us even more cool shadow sets, I can't spoil much but you can see some images here and there.\n\nSpoiler: We're testing a set that will put you at 1 HP but allow you to use a lot of skills in sequence, why not get a little bit crazy?\n\nAnd finally...\n\nWe will have our very own Einherjar Challenge Mode, updated from CrocPRM.\n\n- Your max level is locked, it can only be increased by defeating a MVP of the same level as you.\n\n- When you get to a level of a boss, you will receive 1 OF EACH RELIC from a boss of that level. Ready to be used!\n\n- No longer will you find competition for bosses hindering your progress or wanting to try out fights.\n\n- Both modes will have access to the entire game, but this challenge will give you a new way to experience the game\n\nThanks for coming and hope to see you very soon in Refuge"
+    },
+    {
+     "at": "14/05/2026 09:02",
+     "author": "NOT Orn",
+     "text": "@Ping for Essentials\n\nHello guys, today the ping is from me.\n\nDaily reminder the job shadow sets no longer exist. This is being asked frequently. The sets croc show you are for all jobs. The previous job sets are removed from the game.\n\nI know everyone is curious about the new job.\n\nWhile the design for it was done by me, @Metta was the one responsible for the themes... And I found it to be a great one.\n\nThe new jobs for Return to Morroc: Refuge are:\n\nBouncer (1st Job) and Pit Boss (2nd, final job)\n\nHere are the details shared for now:\n\n- Jobs will have a 1st and 2nd job. Progression timing will be same as Raider - Dracomancer, so getting to 2nd job is fast.\n\n- Bouncer uses fists, Pit Boss uses a brand new weapon type with unique visuals and sounds.\n\n- the job can be described as \"ultra aggressive melee caster\"\n\n- it has a unique questline\n\n- it plays very differently from othe jobs (not related or similar to any luna job)\n\n- \"big setup for big hits\"\n\nBouncer uses Monk sprite. Pit Boss uses Shadow Chaser sprite.\n\n\"but orn its the same as phantom thief\"\n\nExpect news about these jobs before launch anyway. Details about them will be posted on #👁️previews with a @Ping for Everything\n\nRegards,\nOrnstein (edited)"
+    },
+    {
+     "at": "14/05/2026 18:55",
+     "author": "croc",
+     "text": "@Ping for Essentials\nEinhejar Challenge wont award free relics, only costumes.\nIt is just a bonus mode, for those who wants challenge. As giving relics will make it a min maxing super duper farm fest, we're not implementing it.\n\"It'll be harder for us\"\n\"How are we going to kill the mvps?\"\n\"You suck\"\n\"This is madness\"\n\nNo....\nTHIS....\nIS....\nPRM: REFUGE!!!!!!!!!!!!!!!\n\nYou guys will figure it out, I'm pretty sure."
+    },
+    {
+     "at": "07/06/2026 16:13",
+     "author": "NOT Orn",
+     "text": "@Ping for Essentials\n\nBouncer gameplay.\n\nWork in progress data + items, so keep it in mind.\n\nJob is essentially finished.\n\nPros: Tankish, versatile, flexible builds\nCons: Huge SP cost sink, you can make it go fast, but it will eat your sp.\n\nReminder this is the 1st job, like Raider -> Dracomancer.\n\nThis job was comissioned by @Metta specially for RTMR.\n\nETA for launch: None yet, but we are aiming for \"Before World Cup Ends\"\n\nEdit: Forgot to mention to not expect anything similar or related to Luna, PRM/RTMR is its own thing and doesn't fit the same flavor or fanciness in some aspects, its more about utility. (edited)"
+    },
+    {
+     "at": "27/06/2026 17:08",
+     "author": "NOT Orn",
+     "text": "Today I bring you guys the complete design for the Pit Boss job.\n\non the video above you can see the gameplay for Bouncer, the first job.\n\nAnd while I still can't show pitboss, as im working on balancing and cleaning up, you can see the entire skill tree for the job below.\n\n-------\nCore Design of Pit Boss\n-------\n\nWhile the Bouncer job can use quick punch combos and has the first casting skills, Pit Boss doubles down on the core identity of the job tree: Prepare big swings for big strikes.\n\nMost Pit Boss skills have Fixed Cast Time, so they need proper gear to be reduced.\n\nThe job is also very durable overall and uses 2 specific types of weapons:\n\nGolf Clubs : They have innate bonus of decreasing Fixed Cast by a given %, making skills faster to use\nChains: They focus on directly boosting defensive properties of the job, with % bonuses to your current defense\n\nAs for the skills (Some minor changes may be done, as Im still working on them):\n\nDiplomacy: huge hit with a chance to cause stun, boosted by how many stacks you have from the punch combos.\nRebound Bash: Chance to re-cast multiple times, boosted by DEX\nThug Might: Shoots a small wave of pure rage, dealing damage to all enemies in a long line before and after target\nStalemate: Like Root from monk, adapted to this job\nSoul Guard: Like shadowseer's, brief damage reduction\nRetreat Order: Increase defensive powers of all party members\nMerry-Go-Round : AoE around a nearby enemy that spins it and hits all enemies around it for partial damage (Under testing if the enemies around damage is based on the main target health, would be good for bosses to kill adds for example)\nIntimidating Glare: Instantly breaks defenses and debuffs an enemy at range, mild damage\nCross Punch: Slow hit that instantly gets you to 5 stacks of combo hits\nRuthless Mastery: Increases powers of skills of the job\nRough Skin: Increases defenses and damage mitigation\nSwanton Bomb: Goes up and falls down in a huge explosion dealing damage to self and enemies, based on HP (yes, the WWE move)\n\nThe job has around the same HP of the Dracomancer and slightly more SP than it by comparison\nIt should feel like a very flexible job, but focused on either being very quick with combos or very slow with focused hits.\n\nLaunch Date? none yet, but hopefully by the end of the world cup o/\n\n@everyone thanks for coming\n\nOrnstein (edited)"
+    },
+    {
+     "at": "05/07/2026 16:28",
+     "author": "NOT Orn",
+     "text": "Hello @everyone o/\n\nPit Boss has been finished, its just awaiting final approval from Metta!\n\nToday I come to talk about something else Im now working on: Nightmare in Amatsu, the SS dungeon.\n\n------ Theme and Lore -----\n\nThe Priestess has been slain... hundreds of times... this has fulfilled the prophecy. The Samurai Specter is no longer just a specter, but an army that came to fight once more after death.\n\nYou will find the usual MVP but with a twist... not really a ghost, not being summoned...directly.\n\nAnd quite a few other surprises, along with the new MVP we won't spoil for now...\n--------------------------------\n\nThis will be a special dungeon for ultra-endgame, where Lv 150 will be recommended.\n\nThe map is a very customized version of the classic 1F... but without hidden doors, and more, actual real openings to walk around.\n\nThey key part is: You will spawn on a random-ish location when you spawn... and there is no minimap.\n\nYou can locate yourself using the map shadows, as the light source is on the center.\n\nOr... you can pay zeny to spawn at a specific location that is safe .\n\nBe mindful monsters -will- require planning and coordination to take down.\n\n@croc will be making the gear for it too o/\n\nMore news in the near future o/\n\nOrnstein"
+    },
+    {
+     "at": "10/07/2026 12:37",
+     "author": "NOT Orn",
+     "text": "@everyone Pit Boss Demonstration\n\nWas waiting for final approval by metta (then me stopping being lazy to record it)\n\nSmall showcase of the job, for actual gameplay... wait for launch (soon(tm))\n\n(It follows most of the design concept of PRM, being simple, easy to understand and with varied skills by utility, if you are expecting a \"luna job\", wrong game :P) (edited)"
+    },
+    {
+     "at": "17/07/2026 01:11",
+     "author": "NOT Orn",
+     "text": "@everyone Guys, update on expected launch dates and details:\n\n-------------------------\nOriginal Plan:\n\nBy the end of world cup, no this won't happen, sorry\n------------------------\nWhat Happened:\n\nReal life happened, to all 3 of us\n------------------------\nWhat is being done now:\n\n@Metta is working on the \"outside the game\" stuff\nTesting is being done for bugs and issues\n\n- endgame dungeon\n\n- endgame items\n\n- a special thing @croc is cooking\n\nWhat needs to be done after:\n\n- boss changes\n\n- pitboss and bouncer items/updates\n\n- clean up any remaining stuff\n\n- outside the game stuff (registering, security, - double checking patchers, etc)\n\n------------------------\nHow long will this take:\n\nI have given an estimate of by the end of the world cup for launch, currently I cannot give a 100% precise estimate.\n\nBy the amount of work to be done, it -CAN- be done in 10-12 days. If it will actually get done depends on our IRL behaving properly.\n------------------------\nGive me something to hold on to:\n\nWe are making some pretty cool stuff to deliver on what truly should feel like \"PRM 2.0\", even if our schedules are dying for it.\n\nCheck the images for a few things to expect\n\nAnd there are some fun stuff we have not announced or discussed that is also being added, specially for the ultra-hardcore guys. (edited)"
+    },
+    {
+     "at": "01/08/2026 23:36",
+     "author": "NOT Orn",
+     "text": "@everyone\n\nIm tagging you all to let you know there will be two brand new SS dungeons.\n\nAnd they are both already finished.\n\nAnd both have full custom maps\n\nAnd no details will be posted about the second, only thing I can say is that it really owns its title.\n\nThanks.\n\nServer when?\n\nCurrent plans are August.\n\nIf the world doesnt end, its like... 95% likely.\n\nUnless @Metta says otherwise, i didnt ask for permission to post this.\n\nThanks. (edited)"
+    }
+   ],
+   "topic": "announcements"
+  },
+  {
+   "channel": "👁️previews",
+   "messages": [
+    {
+     "at": "06/05/2026 21:23",
+     "author": "croc",
+     "text": "I'll just drop this here.... some unchained love we building"
+    },
+    {
+     "at": "09/05/2026 18:03",
+     "author": "croc",
+     "text": "How would you guys make this work?? LEMME KNOW IN GENERAL CHAT"
+    },
+    {
+     "at": "11/05/2026 19:37",
+     "author": "croc",
+     "text": "@Ping for Everything"
+    },
+    {
+     "at": "16/05/2026 21:04",
+     "author": "croc",
+     "text": "@Ping for Everything\nset bonus is -5% fixed cast, not +5% (edited)"
+    }
+   ],
+   "topic": "Random Images that may be interesting."
+  },
+  {
+   "channel": "👁️previews",
+   "messages": [
+    {
+     "at": "07/05/2026 20:44",
+     "author": "NOT Orn",
+     "text": "Blade Dancer/Night Raven\nCrocPRM: Added Leech and Ranged bonuses to bird skills, will be kept.\n\nSoul Destroyer\n\n- applies poison(any target, incl. bosses) if player has Enchant Poison buff. Chance is 25+5%/Lv 5+1s/Lv duration.\n\nCounter Slash\n\n- Starting Cooldown 0.5s -> 0.6s\n\nNight Hunt\n\n- Hit count doubled (up to 20 hits at lv10), HP loss per hit 5% -> 7%, Damage increases 1% <-> 1% missing HP\n\n- Damage becomes 1.25x at red health (25%)\n\nBloody Fangs\n\n- Range Decreased to 11 -> 3 cells, Cooldown 4s -> 5s\n\n- No More Double Damage with Dual Axes, Double is now \"regular\" damage. (Increased to 50%/Lv +5%/Int), stills MATK based.\n\n- Deals 3x damage if caster is at red health, Ends Night Hunt status early.\n\nCloaking Exceed\n\n- Move Speed changed 90+10%/Lv ->40%/Lv (140 -> 200% potential increase)\n\nTyphoon Edge\n\n- Damage is boosted by Dual Axes. ( like Def. Dagger's Dagger boost and Northern Cross Swords boost)\n\nDefinitive Dagger\n\n- Range increased to 3 cells\n\n-------------------------------------------\n\nScoundrel/Black Plague\nCrocPRM: Most toxins affect bosses, will be kept(for now).\n\nVenom Buster\n\n- Base Cooldown 10s -> 5s\n\nSpiral Blade\n\n- Repeat Speed increased slightly\n\n- Damage per level 10% -> 15%\n\nMjolnir's Fall\n\n- Damage per level 10% -> 25%\n\nEnchant Deadly Poison\n\n- Deadly poison now negates the entire flat def, not just 75%\n\n-------------------------------------------\n\nExecutioner/Gravekeeper\nCrocPRM: Adjusted animation lock timers to weight more on ACD, will be kept.\n\nMeteor Assault\n\n- Damage +5% per Rolling Counter\n\nExale Rage\n\n- Area size doubled (11x11)\n\nMass Grave\n\n- Cast Time Removed\n\nGuard Breaker\n\n- Final damage increases 25% per \"Defensive Buff\" on enemy. Kyrie, Assumptio, Auto Guard, Defender, Reflect,etc.\n\nFissure Tooth\n\n- Dex Scaling 2% -> 3%\n\n-------------------------------------------\n\nShinobi/Satsujin\nCrocPRM: No changes were done to it directly.\n\nHonestly Satsujin is the most balanced (and one of the hardest to play) jobs. It doesn't need any real changes.\n\n- There is a huge case of skill issue on satsujin since PRM's original launch. good luck.\n\nDragon Omamori\n\n-Dex Scaling 2%- > 3%\n\nMillion Stab\n\n- Cooldown 15s -> 7s (As it lost gear that supports it)\n\n(edited)"
+    }
+   ],
+   "topic": "Sneak Peek at Job Changes for Assassin Jobs"
+  },
+  {
+   "channel": "👁️previews",
+   "messages": [
+    {
+     "at": "04/05/2026 20:52",
+     "author": "Ornstein",
+     "text": "Major Updates\n- Work in Progress\n\n- Hiding works against Insects, Demons and Bosses now. Cooldown increased to 5s, Duration fixed 2s.\n\n- Monsters now deal more damage overall and healing is slower.\n\n- Many damage improvements on skill will be seen below, This accounts for the increased monster power and density\n\nJob Updates\n\nOrphan Updates\nHeal, Hiding and Increase AGI SP cost changed to 15+5% of Max SP\n\n- Heal max level reduced to 1, formula updated to scale better with base level. Cooldown increased 5s -> 7s\n\n- Hiding Capped to Lv1, lasts only 2 seconds, 5s cooldown, cant be canceled early.\n\n- Increase Agility no longer increases ASPD and AGI, slightly increased move speed bonus, duration 20s +2s per agi.\n\n- Added Warp Portal (Max Lv1) as a core skill, can memorize 3 locations(+Save Point) and warp self + all party members around to target location.\n\n- Added Teleport Lv1, 60s Cooldown, Fly Wing behavior, No SP Cost, Removed Teleport Lv2.\n\nThief Updates\n- Envenom can apply poison status to bosses. Increased INT bonus, Chance and duration increase with skill level.\n\n- Double Strafe 50+7%/Lv -> 50+10%/Lv\n\n- Arrow Shower 80% Combo Damage -> 100% on Combo use\n\n- Improve Defense changed from 15 HP per level to 2 HP per skill level, per base Level (150 -> 3900 at Lv 130)\n\n- Improve Wisdom changed from 15 SP per level to 2 SP per skill level, per 3 base Levels (150 -> 1300 at Lv 130)\n\n- 3 Element spells boost per focus stack 6% -> 7%\n\n- Backstab scaling per level of Improve Dodge 3%/lv -> 5%/Lv\n\n- Cross Ripper Slasher damage per counter 20% -> 25%\n\nAssassin Updates\n- Axe Tornado damage per Rolling Cutter Counter 15% -> 25%\n\n- Axe Boomerang Base Damage 60% -> 100%\n\n- Sonic Blow LUK Scaling 1%/Luk -> 2%/Luk\n\n- Burst Petals Base Damage 60% -> 100%, fixed bug with hit counts\n\n- Magic Pierce no longers add 1% Def pierce per level active\n\n- Cloaking not detected by non-bosses, detected by bosses\n\nRogue Updates\n- Decoy Cooldown 5s -> 8s, works on non bosses\n\n- Ricochet Arrow Base DMG 50% -> 75% , Combo Bonus 70% -> 75%\n\n- Shield Mastery bonus to shield skills 5%/Lv -> 10%/Lv\n\n- Sneak Attack Damage bonus 30% -> 20%, still halved for bosses\n\nJester Updates\n\n- Gift Card Damage 70+7%/LV -> 77+7%/Lv, Cooldown 5s -> 3s\n\n- Stack Deck's chance to proc Joker's Draw 30% -> 5% per 7 Luk\n\n- Joker's Draw Damage 70+5%/Lv -> 77+7%/Lv, Also regains 77 SP on use\n\n- Double Down Damage 30+10%/Lv -> 35+15%/Lv\n\nIllusionist Updates\n- Life Strings now grants 10%->20% of player's stats per level, Duration and Cooldown 10s -> 30s\n\nDark Knight Updates\n- Conflagration added 50% base Damage, Adjusted HP scaling\n\n- Vengeance Cooldown 1.4s -> 2s, Reduced HP based scaling\n\n- Fatal Menace 150+10%/Lv + 30% per Missing HP -> 150+15%/Lv + 10% per Missing HP\n\n- Night Menace 150+10%/Lv + 50% per Missing HP -> 150+20%/Lv +25% per Missing HP\n\n- Shatter Cross dmg vs frozen enemies 3% -> 10% per STR\n\n- Knight Ritual now boosts STR and VIT instead of AGI and DEX\n\nJudge Updates\n- Adding X New Revolvers\n\n- Death Sentence Damage 50%+10%/Lv -> 100%+10%/Lv, Scaling 1% Dex -> 3% Dex, Combo Bonus 50% -> 100%\n\n- Violent Barrage Base Damage 60% -> 75%\n\n- Gun Swap Dex Bonus from combo is 2% -> 3% per DEX"
+    },
+    {
+     "at": "04/05/2026 20:52",
+     "author": "Ornstein",
+     "text": "Vagabond & Legend Updates\n- No direct changes, only minors based on other job passives, like ImproveDef/ImproveWisdom\n\nRaider Updates\n- ImproveDef/Wisdom changes like Thief\n\n- Dragon Thrust Base Damage 120% -> 110%\n\n- Heavy Stab Full Damage 50+30%/Lv+2%/VIT -> 100+25%/Lv+3%/VIT\n\n- Wind Cutter Base Damage 40 -> 60%\n\n- Spear Mastery 1H Spear HP 30 -> 25/Lv, 2H Spear 2 -> 3 Flee/Lv\n\nDracomancer Updates\n- Dragon Orbs are meant to be a cool extra, not a \"press button, always transform and stomp stuff\"\n\n- Cooldowns changed from 60-5s/Lv -> 90s at all levels\n\n- Duration changed from 10s all levels -> 10+2s/Lv\n\n- Sky Prophecy Cooldown 15s -> 12s, Cast Time set to 2s\n\n- Crescent Dive Scaling 15%/Lv -> 25%/Lv\n\n- Geirskogul Base Damage 80% -> 100%, 25% chance to stun dragons -> 10% chance to stun any enemy\n\n- Draco Wings no longer consumes 5% Max HP\n\n- Dragon breath damage per level 25%/Lv -> 30%/Lv, Cast time no longer increases per level\n\nTrickster Updates\n- Hellraiser Base Damage 110% -> 150%, Finisher Ready condition of Lv10 removed, 3s -> 5s duration\n\n- Sweeping Slash now deals 3 hits if used during Finisher Ready (granted from Hellraiser and other sources)\n\nRevenant Updates\n- Includes Croc's Overheal mechanic on Ominous Presence, removed its hit and critical damage. 3%/Lv of \"extra leeched damage\" goes to shield.\n\n- Flaming Wave no longer has a casting time, Burning duration 0.5s+0.5s/Lv -> 2.5s+0.5s/Lv, Cooldown fixed 5s at all levels, Damage 25%/Lv -> 30%/Lv\n\n- Final Orchestra Flat HP healing -> Converted into 1%/Skill Lv of caster's max HP per pulse\n\n- Also Half that as damage to ANY enemy standing + knockback. Reduced Max SP Cost 50% -> 25%, reduced cast times slightly\n\nPeacekeeper Updates\n- Chain mastery ATK per lv 3 -> 1\n\n- Assault Mode DEF/MDEF Pierce 5%/Lv -> 3%/Lv\n\n- Use Trinket Base Damage 50% -> 100% , 1%/Dex -> 3%/Dex, Cooldowns 5s-> 4s (Regular) 15s -> 10s (Crash)\n\n- Lashing Andromeda 50+10%/Lv+1%/Dex -> 50+15%/Lv+2%/Dex, Cooldown 10s -> 7s, Max SP Cost 10% -> 15%\n\n- Wrecking Andromeda 50+10%/Lv+1%/Dex -> 100+15%/Lv+2%/Dex, Cooldown 10s -> 7s, Max SP Cost 10% -> 15%\n\nRonin Updates\n- Ascending and Descending Steel Scaling 1% INT -> 2% INT\n\n- Ascending Steel Grants Kaupe for 1s\n\nShadowseer Updates\n- Max Job Level reduced to 50 from 70\n\n- Removed Magic Pierce from skill tree\n\nProwler Updates\n- Max Job Level reduced to 50 from 70\n\n- No other changes"
+    }
+   ],
+   "topic": "Sneak Peek at Job Changes for Early Game"
+  },
+  {
+   "channel": "👁️previews",
+   "messages": [
+    {
+     "at": "10/05/2026 01:08",
+     "author": "NOT Orn",
+     "text": "-------------------------------------------------\nMystic/Arcane Master\nCrocPRM: Nothing worth mentioning, changes were on items.\n\nNote: Job stills one of the hardest to play to full capacity, git gud.\n\nDual Cast\n-Duration and cooldown 15s -> 30s\n\nUnlimited Power\n\n- Duration set to 30s, cooldown to 60s\n\n- Magic Defense Pierce reduced 3%/Lv -> 1%/Lv\n\n- MATK bonus 3%/Lv -> 5%/Lv\n\n- While Active:\n\n- All Skills have no cooldown (all skills in the game)\n\n- All Skills receive 1s absolute cast time (all skills. Includes Heal, Hiding, etc), that can't be reduced anyway.\n\n- All Skills cost 2x SP\n\nComet\n\n- Cooldown 20s -> 10s\n\n- Int Scaling 6% -> 7%\n\n-------------------------------------------------\nSaboteur/Blast Juggler\nNote: Reminder Croc PRM changed weight from STR to Base Level Scaling, carrying materials is also easier.\nCrocPRM: Had already buffed Mr. Bombastic Scaling\n\nBurning Field\n\n- Scaling 1%/Lv -> 2%/Lv\n\n- Cooldown 5s -> 4s\n\n- Fire Bottle Cost 3 -> 2\n\nGreater Explosion\n\n-Cooldown 10s -> 8s\n\n- Acid Bottle Cost 3 -> 2\n\nHot Trap\n\n- Ignores Defenses\n\n- New Formula\n\nOld: 150+5 x Skill Lv x INT\nNew: 100+10 x Skill Lv x INT\n\nCold Trap\n\n- Ignores Defenses\n\n- New Formula\n\nOld: 150+5 x Skill Lv x INT\nNew: 100+10 x Skill Lv x INT\n\nClaymore Trap\n\n- Ignores Defenses\n\n- Damage vs enemies with 100% HP is now tripled\n\nCluster Bomb\n\n- Damage vs enemies under 10% HP is now tripled\n\n(This one Doesn't ignore defenses)\n\nRolling Flames\n\n- Area size reduced by half (5x5 -> 3x3)\n\n- Hit detection speed doubled (Can deal multihits easier)\n\n- No longer removes traps, spells and such (Use Mr. Bombastic for that)\n\n- Damage Scaling 15%/Lv -> 10%/Lv\n\nFire Expansion\n\n-Rolling Flames Passive bonus 20%/Lv -> 15%/Lv\n\nMr. Bombastic\n\n- INT Scaling 3% -> 2%/INT , was 1% on original PRM\n\n- Still clears ground stuff, intended.\n\n-------------------------------------------------\n\nDuelist/Kingslayer\nCrocPRM: had some minor changes to Pawn's cure for example and buff timers, also Rook's Smash cooldowns.\n\nDuel Stance\n-Riposte and Delta Skyfall now get 1%/Vit per 2 Duel Counter player has (5% per VIT)\n\nRetribution\n\n- Damage per counter doubled\n\n- SP Cost 50 -> 10\n\nKing's Chains\n\n- Increased Weight influence on formula slightly (around 8%)\n\n- Adds your soft and hard Def as extra % to final damage\n\n- Cooldown 5s -> 8s\n\nQueen's Gambit\n\n-Gives you 5 Duel Counters if it hits an enemy\n\nKing's Gambit\n-Gives you 5 Duel Counters if it clears anything on ground\n\nCheck Mate\nBrand New Formula:\n\nOld: Attack was fixed to 400 ATK, damage would be multiplied by 2x you SP total. Doubled if 5+ Duel Counters\nnew: Normal Formula, Damage is 100+3*CurrentSP + CurrentHP/10 % of Attack.\n\nBishop's Tax\n\n- Damage bonus vs afflicted targets 30%/20% for boss -> 15% to all enemies\n\n-------------------------------------------------\n\nDeadeye/Sinner\nCrocPRM: Better Godhand Arrow combo ready window\n\nSniper Nest\n(Had no bugs on original, just badly designed)\n-Complete Rework:\nOld: Reduce Move Speed and flee to increase damage, unlock headshot damage power\nNew: Reduces Flee by 150, Increases Hit by 150, Headshot and Aimed Bolt always crit while active, increases all SP usage by 25%\n\nHeadshot\n\n- Damage dealt is always full, regardless of Sniper Nest\n\n- Cooldown is Halved if cast from Sniper Nest\n\n- Bonus per DEX while Combo Ready 15% -> 10%\n\nAimed Bolt\n\n- Critical if used while in Sniper Nest\n\nCannon Turret\n\n- Now Receives 7% per level of its master's Atk\n\n- Walks along master and attacks same target\n\nArrow Storm\n\n- Cooldown 7s -> 10s\n\n- Damage per level 20%/lv -> 25%/Lv, Dex Scaling Base 4%/Dex -> 5%\n\n(edited)"
+    }
+   ],
+   "topic": "Sneak Peek at Job Changes for Rogue Jobs"
+  },
+  {
+   "channel": "👁️previews",
+   "messages": [
+    {
+     "at": "04/06/2026 17:12",
+     "author": "NOT Orn",
+     "text": "Work in Progress.\n\n@Ping for Everything"
+    },
+    {
+     "at": "26/06/2026 22:57",
+     "author": "NOT Orn",
+     "text": "levels non final"
+    }
+   ],
+   "topic": "Sneak Peeks for Bouncer and Pit Boss"
+  },
+  {
+   "channel": "🔍information-and-guides",
+   "messages": [
+    {
+     "at": "04/05/2026 20:40",
+     "author": "Ornstein",
+     "text": "While we have - A LOT- of differences, they focus more on expanding what was good and fixing what wasn't that great.\n\nWork for launch is split as follows:\n\n@Metta\n- Handles hosting, costs, planning and server progression\n\n@croc\n- Handles items, coding and development\n\n@Ornstein\n- Handles design, job adjustments and gameplay plan\n\nWhat was Transformed:\n- Many Manuals were changed into new things, specially Orphan Skills Manuals.\n\n- Heal and Hiding are now capped at Lv1. Heal scales with your stats and levels better. Hiding is now a fixed 2 second duration but also works on bosses, insects, demons and such. Hiding no longer becomes useful later in the game.\n\n- Warp Portals were changed into a Orphan default skill. It now warps caster + all party members to a memo location.\n\n- All Players have access to Teleport Lv1 by default, with a 60s cooldown.\n\n- Jobs had major rebalances, specially around their less useful skills.\n\n- Experience rate is slightly lower than PRM had it. But more rewarding.\n\n- Some debuffs can be applied on bosses (Like thief's Envenom applying poison).\n\n- Re-Adjusted base ASPD of some jobs to not be weird.\n\n- Quite a lot more stuff, such as an Orphanage visual update, quality of Life NPCs and more.\n\n- It also includes many changes done to crocPRM, seen here: https://concs93.github.io/CrocPRMsite/\n\nWhat was Added:\n- Over 300 New items. Including Over 50 new Shadow sets for all dungeons past Lv100.\n\n- Amatsu SS, a High-End Lv145+ Dungeon\n\n- Some new areas.. more about it soon.\n\n- Bosses had rebalanced skills due to the addition of Hiding working against them\n\n- New Locations will be added, including some dungeons.\n\n- New End Game content is being added.\n\n- New items for jobs that needed more gear (Ronin and Peacekeeper got cool extras).\n\n- The much needed Job Rebalances that never came with 1.4\n\n- Fixed most bugs present in PRM\n\nWhat was Removed:\n- Lv100+ Job Shadow Sets. They would lock people to specific playstyles past Lv100, we are instead adding cool new sets to play with that bring more build variety and improving less used skills.\n\n- Some Manuals were removed or entirely reworked due to the changes to Heal, Hiding, Warp Portal and so on.\n\n- Some Quests were changed slightly to make room for more options.\n\n- Drop Rate Bonuses from gear no longer exist.\n\n- Cash Shop was removed.\n\nPlenty of other things were done and will be shown and discussed as the server evolves.\n\n(edited)"
+    }
+   ],
+   "topic": "Differences between PRM vs RTMR"
+  },
+  {
+   "channel": "🔍information-and-guides",
+   "messages": [
+    {
+     "at": "04/05/2026 20:09",
+     "author": "Ornstein",
+     "text": "Return to Morroc: Refuge(RTMR) is a special take on Return to Morroc(PRM), which itself is a custom RO server.\n\n1. Who is the Staff?\n@Metta is the Head Admin, responsible for keeping things running and the lights on, if you have a cool server to play, he is the guy responsible for it.\n\n@Ornstein and @croc are the Co-Developers to handle the work. While I focus more on design and directions (and assistance in specific things), Croc is responsible for developing, coding and overall handling of the server.\n\nWe also have the @Moderation team to assist with issues and community where needed.\n\n(I want to take the chance to make sure you understand this is not my project, but I will assist it directly in any way I can, as long as it doesn't harm Luna Obscura's development.)\n\n2. How is monetization and Website?\nThe Server will not feature any sort of cash shop on launch.\n\nThe server will feature a Database of information and \"possibly\" a control panel ( or registrations will be done through _M/_F), this is pending confirmation and decision by us so far.\n\n@Metta has the intention of recouping the server costs as he covered all costs about the development and maintenance of the server, this will be discussed with the community in the future, be it a cash shop, founding packs, patreon, direct voluntary donations or what not.\n\nThe server will not feature any sort of RMT.\n\n3. Why does this server exist?\ncheck the post on #rules . TLDR: Meta wanted to play a cool game, so we banded together to make a better PRM.\n\n4. What are the main differences vs original PRM?\nYou can check the post about it here: https://discord.com/channels/1500898812942745602/1501005561401970988\n\n5. Will the server close soon/when luna launches/later?\nThe server will be handled like a \"small cozy town\" where updates will happen in a reasonable time frame, new stuff will come and everyone can enjoy the game. There are no plans for it to close as it's meant to be much bigger than PRM was. The idea is to go much further than PRM ever went.\n\n6. Where did the idea come from?\nWhen I made a poll in Luna Obscura's discord about making a \"OrnRO\" Meta reached out to me and we had a multi-hour long call about how instead he wanted to bring PRM back and make it much better... croc is extremely talented and... the rest is history\n\n7. When did the project start?\n\nIt started on 19/04/26. All credits to @Metta for it existing , I'm just being used positively here. (edited)"
+    }
+   ],
+   "topic": "What is Return to Morroc_ Refuge_"
+  }
+ ]
+}

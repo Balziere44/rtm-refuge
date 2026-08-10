@@ -1899,3 +1899,120 @@ html[data-theme="light"] {
 }
 
 @media print { .js .reveal { opacity: 1; transform: none; } }
+
+/* ==========================================================================
+  22. The codex
+   ==========================================================================
+   Item and skill text leans on about fifty words it never explains. Every one
+   of them is underlined in its group's colour wherever it appears, and links
+   to its line on the codex page. The colour is the point: after a few minutes
+   a reader stops needing the link, because "this is a timing word" and "this
+   is a status effect" are legible at a glance.
+
+   A dotted underline rather than a link colour - forty links in one skill
+   table would read as noise, and these are annotations, not navigation. */
+
+:root {
+  --t-st: #c4a6ff;  /* states you build up */
+  --t-ti: #74dfbe;  /* timing */
+  --t-ge: #ffd479;  /* words on gear */
+  --t-of: #ffa768;  /* attack */
+  --t-de: #8fbcff;  /* defence */
+  --t-sx: #ff93b6;  /* status effects */
+  --t-sa: #a8b2c6;  /* the six stats */
+}
+
+html[data-theme="light"] {
+  --t-st: #6b46c1;
+  --t-ti: #0e7048;
+  --t-ge: #8a6000;
+  --t-of: #a1500b;
+  --t-de: #1c5aa8;
+  --t-sx: #a82c55;
+  --t-sa: #4a5568;
+}
+
+.term {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px dotted currentColor;
+  /* The colour lives on a custom property so the underline, the hover fill
+     and the codex chip all read from one value. */
+  border-bottom-color: var(--term);
+  cursor: help;
+}
+.term:hover, .term:focus-visible {
+  color: var(--term);
+  border-bottom-style: solid;
+}
+.term--st { --term: var(--t-st); }
+.term--ti { --term: var(--t-ti); }
+.term--ge { --term: var(--t-ge); }
+.term--of { --term: var(--t-of); }
+.term--de { --term: var(--t-de); }
+.term--sx { --term: var(--t-sx); }
+.term--sa { --term: var(--t-sa); }
+
+/* On the codex page itself the term is the heading of its own row, so it gets
+   the full colour instead of a hint of it. */
+.term--static {
+  color: var(--term);
+  border-bottom: 0;
+  font-weight: 700;
+  cursor: default;
+}
+
+.codex { padding-block: var(--gap-xl) var(--gap-2xl); }
+.codex-tools { max-width: 26rem; margin-bottom: var(--gap-lg); }
+.codex-tools .field { width: 100%; }
+
+.codex-group { margin-bottom: var(--gap-2xl); scroll-margin-top: calc(var(--header-h) + 1rem); }
+.codex-group h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  font-size: var(--step-2);
+}
+/* A bar of the group's colour, so the heading and its terms are obviously the
+   same family. */
+.codex-group h2::before {
+  content: "";
+  width: 5px;
+  align-self: stretch;
+  min-height: 1.4em;
+  border-radius: 999px;
+  background: var(--group);
+}
+.codex-group--st { --group: var(--t-st); }
+.codex-group--ti { --group: var(--t-ti); }
+.codex-group--ge { --group: var(--t-ge); }
+.codex-group--of { --group: var(--t-of); }
+.codex-group--de { --group: var(--t-de); }
+.codex-group--sx { --group: var(--t-sx); }
+.codex-group--sa { --group: var(--t-sa); }
+
+.codex-blurb { color: var(--text-muted); max-width: 60ch; margin-bottom: var(--gap-md); }
+
+.codex-list {
+  display: grid;
+  gap: 0;
+  margin: 0;
+  border-top: 1px solid var(--glass-edge);
+}
+.codex-row {
+  display: grid;
+  grid-template-columns: minmax(0, 14rem) minmax(0, 1fr);
+  gap: var(--gap-md);
+  padding: 0.7rem 0.2rem;
+  border-bottom: 1px solid var(--glass-edge);
+  scroll-margin-top: calc(var(--header-h) + 1rem);
+}
+.codex-row:target { background: var(--glass-fill-strong); border-radius: var(--radius-sm); }
+.codex-row dt { min-width: 0; }
+.codex-row dd { margin: 0; color: var(--text-muted); min-width: 0; }
+
+@media (max-width: 620px) {
+  .codex-row { grid-template-columns: minmax(0, 1fr); gap: 0.2rem; }
+}
+
+.codex-empty { padding: var(--gap-xl) 0; text-align: center; color: var(--text-dim); }

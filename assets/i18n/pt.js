@@ -19,6 +19,7 @@ window.RTMR_I18N_REGISTER('pt', {
   'nav.mechanics': 'Mecânicas',
   'nav.gear': 'Equipamentos',
   'nav.world': 'Mundo',
+  'nav.codex': 'Codex',
   'nav.guides': 'Guias',
   'nav.join': 'Entrar',
 
@@ -128,6 +129,16 @@ window.RTMR_I18N_REGISTER('pt', {
   'db.note.link': 'Veja o que mudou',
   'nav.database': 'Database',
   'foot.database': 'Itens e monstros',
+  'foot.codex': 'O que as palavras significam',
+
+  /* --- codex ------------------------------------------------------------ */
+  'codex.h1': 'Codex',
+  'codex.lede': 'As descrições de itens e habilidades são escritas para quem ' +
+    'já joga. Estas são as palavras em que elas se apoiam, em português claro. ' +
+    'Onde qualquer uma delas aparece no site, ela vem sublinhada na sua cor e ' +
+    'aponta de volta para cá.',
+  'codex.filter': 'Filtrar o codex...',
+  'codex.empty': 'Nada com esse nome. Tente a database.',
 
   /* --- 404 -------------------------------------------------------------- */
   'lost.code': 'Erro 404',
