@@ -36,10 +36,29 @@ DROP = {
     ("Main_Features", "Server Information"),
     ("Main_Features", "Contents"),
     ("Main_Page", ""),
+
+    # The rarity tiers and the reroll orbs are theirs. The Refuge has neither,
+    # and the gear page says so in a callout - which used to sit directly on
+    # top of six sections explaining how they work.
+    ("Random_Options", "Rarity System & Rerolling"),
+    ("Random_Options", "Rarity Levels"),
+    ("Random_Options", "Important Notes"),
+    ("Random_Options", "Reroll System"),
+    ("Random_Options", "Normal Monster Orbs"),
+    ("Random_Options", "MVP Orbs"),
 }
 
-# Any bullet or paragraph naming that server is theirs, not ours.
-DROP_IF = ("Echoes of Morroc", "Echoes rates")
+# Any bullet or paragraph naming that server, or a system it has and we do
+# not, is theirs. These are whole phrases on purpose: "orb" alone would take
+# Draco Orbs, the Bifrost Mirror's blue orbs and shadow orbs with it, and
+# "reroll" alone would take the Illusionist's kimi.
+DROP_IF = (
+    "Echoes of Morroc", "Echoes rates",
+    "rarity system", "rarities system", "reroll system",
+    "rarity level", "have a rarity", "Orb Types",
+    # Wiki markup and embeds that should never have survived the parse.
+    "__TOC__", "media.tenor.com", "https://", "http://",
+)
 
 
 def esc(s):
@@ -321,12 +340,12 @@ def build_gear():
          wiki_block("NPC_Equipment")),
 
         ("random-options", "Random options",
-         "Rebuilt from the ground up so that a roll is interesting rather than a "
-         "lottery you reroll until it stops insulting you.",
+         "Rebuilt from the ground up so that a roll is interesting on its own "
+         "terms, rather than a lottery you have to keep playing.",
          callout("Not in the Refuge", [
              "There are <strong>no orbs for rerolling random options</strong>. What a piece rolls is what it rolled - the roll is the item, not a starting position you buy your way out of.",
              "There is <strong>no weapon rarity system</strong> either. A weapon is judged on what it does, not on a tier printed above its name.",
-             "Both exist on the other successor server. They are a deliberate difference, not an omission.",
+             "Both are a deliberate difference, not an omission.",
          ], kind="warn") + "\n      " + wiki_block("Random_Options")),
 
         ("refine", "Refining that respects your time",

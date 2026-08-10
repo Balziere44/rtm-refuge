@@ -92,6 +92,9 @@ TYPOS = [
 # say the same thing in generic terms. tools/check.py fails the build if one
 # slips through, which is how this list stays honest.
 SCRUB = [
+    # Table-of-contents markers and bare media embeds are markup, not prose.
+    ("__TOC__", ""),
+    ("__NOTOC__", ""),
     ("refined Ragnarok Online experience", "refined take on the classic experience"),
     ("familiar with classic Ragnarok Online mechanics", "familiar with classic MMO mechanics"),
     ("for Classic Ragnarok players", "for players of the classic game"),

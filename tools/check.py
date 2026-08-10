@@ -34,6 +34,21 @@ FORBIDDEN = [
     "gravity interactive",
     "kro ", "iro ",
     "—",  # em dash: house style uses a plain hyphen or a rewrite
+
+    # Systems the Refuge does not have. These came in with a wiki page once
+    # and landed under a callout that said the opposite. Phrases, not words:
+    # Draco Orbs, the Bifrost Mirror's blue orbs and shadow orbs are all real,
+    # and the gear page is allowed to say there is "no weapon rarity system".
+    "rarities system",
+    "reroll system",
+    "rarity level",
+    "orb types",
+    "orb drop rates",
+    "have a rarity",
+
+    # Wiki markup and third-party embeds that leaked through the parser.
+    "__toc__",
+    "media.tenor.com",
 ]
 
 # Emulator bonus scripts and damage formulas. The site prints what the game
