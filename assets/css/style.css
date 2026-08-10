@@ -316,7 +316,10 @@ hr { border: 0; border-top: 1px solid var(--line); margin: var(--gap-lg) 0; }
   border-bottom: 1px solid var(--line);
 }
 
-.header-inner { display: flex; align-items: center; gap: var(--gap-md); width: 100%; }
+/* min-width: 0 lets the row shrink instead of pushing the page sideways, and
+   the nav scrolls inside itself if it is ever still too wide. Belt and braces:
+   the breakpoint below should mean it never has to. */
+.header-inner { display: flex; align-items: center; gap: var(--gap-md); width: 100%; min-width: 0; }
 
 .brand { display: flex; align-items: center; gap: 0.6rem; text-decoration: none; color: var(--text); flex: 0 0 auto; }
 .brand img { width: 34px; height: 34px; filter: drop-shadow(0 0 10px var(--glow)); }
@@ -324,12 +327,20 @@ hr { border: 0; border-top: 1px solid var(--line); margin: var(--gap-lg) 0; }
 .brand-name { font-family: var(--font-display); font-weight: 700; font-size: 0.98rem; letter-spacing: 0.06em; }
 .brand-sub { font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--accent); }
 
-.nav { display: flex; gap: 0.15rem; margin-left: auto; }
+.nav {
+  display: flex;
+  gap: 0.1rem;
+  margin-left: auto;
+  min-width: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.nav::-webkit-scrollbar { display: none; }
 .nav a {
   display: block;
-  padding: 0.45rem 0.7rem;
+  padding: 0.45rem 0.55rem;
   border-radius: var(--radius-sm);
-  font-size: 0.9rem;
+  font-size: 0.86rem;
   font-weight: 500;
   color: var(--text-muted);
   text-decoration: none;
@@ -338,7 +349,10 @@ hr { border: 0; border-top: 1px solid var(--line); margin: var(--gap-lg) 0; }
 .nav a:hover { color: var(--text); background: var(--bg-elevated); }
 .nav a[aria-current="page"] { color: var(--text); background: color-mix(in srgb, var(--accent) 16%, transparent); }
 
-.header-actions { display: flex; align-items: center; gap: 0.4rem; }
+/* margin-left:auto keeps the buttons on the right edge once the nav collapses
+   into the drawer - without it they bunch up next to the mark and the
+   language menu, which is right-anchored to its button, hangs off screen. */
+.header-actions { display: flex; align-items: center; gap: 0.4rem; margin-left: auto; }
 
 .icon-btn {
   display: grid;
@@ -356,14 +370,26 @@ hr { border: 0; border-top: 1px solid var(--line); margin: var(--gap-lg) 0; }
 
 .nav-toggle { display: none; }
 
-@media (max-width: 1000px) {
+/* Nine links plus four action buttons need about 1200px. Measured: at 1024px
+   the header was pushing the page 176px wide, and at 1100px, 100px. The
+   drawer takes over well before that now. */
+@media (max-width: 1180px) {
   .nav { display: none; }
   .nav-toggle { display: grid; }
 }
 
+/* The keyboard hint is the first thing to go when space gets tight. */
+@media (max-width: 1320px) { .search-btn kbd { display: none; } }
+
 /* On a narrow phone the wordmark plus three buttons is wider than the shell,
    and the header is the one row that cannot be allowed to push the page
    sideways. Measured, not guessed: 375px was overflowing by 13px. */
+/* Below 400px the wordmark and four buttons stop fitting. The mark alone is
+   still a recognisable home link, and it was overflowing 64px at 320px. */
+@media (max-width: 400px) {
+  .brand-text { display: none; }
+}
+
 @media (max-width: 560px) {
   .header-inner { gap: var(--gap-sm); }
   .brand img { width: 30px; height: 30px; }
@@ -444,7 +470,10 @@ body.no-scroll { overflow: hidden; }
 .btn svg { width: 18px; height: 18px; }
 
 .btn--primary {
-  background: linear-gradient(135deg, var(--pur-500), var(--pur-700));
+  /* The flat colour is what shows if the gradient ever fails to paint; white
+     text on nothing is the failure mode worth avoiding. */
+  background-color: var(--pur-600);
+  background-image: linear-gradient(135deg, var(--pur-500), var(--pur-700));
   color: #fff;
   box-shadow: var(--shadow-glow);
 }
@@ -577,6 +606,8 @@ td.num { font-family: var(--font-mono); white-space: nowrap; }
 
 .hero h1 { font-size: var(--step-5); margin-bottom: var(--gap-md); }
 .hero h1 .accent {
+  /* The ramp has to be re-picked per theme. The pale version below is
+     invisible on the light background - the silver stop sat at 1.1:1. */
   background: linear-gradient(120deg, var(--pur-300), var(--sil-200) 55%, var(--pur-400));
   -webkit-background-clip: text;
   background-clip: text;
@@ -586,6 +617,10 @@ td.num { font-family: var(--font-mono); white-space: nowrap; }
 
 .hero-art { position: relative; }
 .hero-art img { filter: drop-shadow(0 0 60px var(--glow)); }
+
+html[data-theme="light"] .hero h1 .accent {
+  background: linear-gradient(120deg, var(--pur-600), var(--sil-700) 55%, var(--pur-700));
+}
 
 /* The mark turns slowly. Purely decorative, and switched off for anyone who
    asked the OS for less motion. */
@@ -1164,7 +1199,10 @@ details.faq::before {
 }
 
 thead th {
-  background: color-mix(in srgb, var(--bg) 72%, transparent);
+  /* Opaque, not translucent: a sticky header that lets rows show through as
+     they scroll under it is unreadable, and it measured 3.61:1 on light. */
+  background: var(--bg-soft);
+  color: var(--text-muted);
   -webkit-backdrop-filter: blur(12px);
   backdrop-filter: blur(12px);
 }
@@ -1285,7 +1323,7 @@ body:has(.aurora)::before { display: none; }
   font-size: 0.68rem;
   color: var(--text-dim);
 }
-@media (max-width: 700px) { .search-btn kbd { display: none; } }
+
 
 .search-overlay {
   position: fixed;
@@ -1376,6 +1414,12 @@ body:has(.aurora)::before { display: none; }
   z-index: 80;
 }
 .lang[data-open="true"] .lang-menu { display: block; }
+/* Below this width the menu is wider than the space left of its button, so
+   pin it to the viewport instead of to the button. */
+@media (max-width: 420px) {
+  .lang-menu { position: fixed; right: 0.75rem; left: auto; top: calc(var(--header-h) - 6px); }
+}
+
 .lang-menu button {
   display: flex;
   width: 100%;
@@ -1428,6 +1472,10 @@ body:has(.aurora)::before { display: none; }
   padding: 0.55rem 1.2rem;
   border-radius: 999px;
   border: 1px solid var(--glass-edge);
+  /* A <button> keeps the UA's opaque buttonface colour unless it is cleared,
+     and background-image alone does not clear it. Without this line every
+     tab renders as a grey pill. */
+  background-color: transparent;
   background-image: linear-gradient(160deg, var(--glass-fill-strong), var(--glass-fill));
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
@@ -1439,6 +1487,7 @@ body:has(.aurora)::before { display: none; }
 .db-tab[aria-selected="true"] {
   color: var(--accent-ink);
   border-color: transparent;
+  background-color: var(--pur-600);
   background-image: linear-gradient(135deg, var(--pur-500), var(--pur-700));
   box-shadow: var(--shadow-glow);
 }
@@ -1549,6 +1598,9 @@ html[data-theme="light"] .db-tab[aria-selected="true"] { color: #fff; }
   text-align: left;
   border: 1px solid var(--glass-edge);
   border-radius: var(--radius-sm);
+  /* Same buttonface trap as .db-tab - this one turned all eleven thousand
+     rows into grey boxes. */
+  background-color: transparent;
   background-image: linear-gradient(160deg, var(--glass-fill-strong), var(--glass-fill));
   color: inherit;
   font: inherit;
