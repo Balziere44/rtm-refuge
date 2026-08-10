@@ -265,6 +265,8 @@ TRANSFORMED = [
     "Warp Portal became a default orphan skill that moves the caster and the whole party to a memorised point.",
     "Every player has Teleport level 1 by default, on a 60 second cooldown.",
     "Major rebalances across every job, aimed squarely at the skills nobody used.",
+    "Monsters hit harder across the board, and healing is slower. The damage on a lot of skills went up to match.",
+    "Shadowseer and Prowler top out at job level 50 instead of 70.",
     "Experience rate is slightly lower than the original, but the curve is more rewarding.",
     "Some debuffs land on bosses now - a thief's Envenom can poison one.",
     "Base attack speed re-adjusted on the jobs where it was simply strange.",
@@ -275,8 +277,7 @@ TRANSFORMED = [
 ADDED = [
     "Over 300 new items.",
     "Over 50 new shadow sets covering every dungeon past level 100.",
-    "Amatsu SS - a high-end level 145+ dungeon.",
-    "Two brand new SS dungeons, both finished, both on fully custom maps.",
+    "Two SS dungeons, both finished, both on fully custom maps. One is Nightmare in Amatsu, for level 145 and up; the second has not been described.",
     "Bosses had their skills rebalanced, because Hiding now works against them.",
     "New locations, including new dungeons.",
     "New endgame content.",

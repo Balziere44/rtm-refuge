@@ -32,6 +32,9 @@ first failure. The steps individually, if you need one:
 | `tools/build_docs.py` | start / mechanics / gear / world |
 | `tools/build_classes.py` | the tree and 42 class pages |
 | `tools/build_database.py` | `database.html` and its two JSON payloads |
+| `tools/build_codex.py` | `codex.html` + `assets/data/codex.json`, and `mark()` |
+| `tools/codex.py` | The term list itself. Edit definitions here. |
+| `tools/fetch_discord.py` | The team's announcements into `tools/data/discord.json` |
 | `tools/build_meta.py` | sitemap, robots, llms.txt |
 | `tools/build_og.py` | Draws `assets/social/og-cover.jpg`, the link-preview card |
 | `tools/build_search.py` | the search index |
@@ -121,6 +124,9 @@ script, a `getrefine()` call or an `.@variable` reaches any page again.
 | `tools/build_database.py` | `database.html` + `assets/data/db-items.json` and `db-mobs.json` |
 | `tools/check_i18n.py` | Fails if the markup uses a key no locale defines |
 | `assets/i18n/pt.js` | Portuguese table. Add a language by copying this file. |
+| `tools/build_codex.py` | `codex.html` + `assets/data/codex.json`, and `mark()` |
+| `tools/codex.py` | The term list itself. Edit definitions here. |
+| `tools/fetch_discord.py` | The team's announcements into `tools/data/discord.json` |
 | `tools/build_meta.py` | sitemap, robots, llms.txt |
 | `tools/build_og.py` | Draws `assets/social/og-cover.jpg`, the link-preview card |
 | `tools/check.py` | The pre-commit validator |
@@ -251,6 +257,42 @@ The copy now says the thing that *can* be held, everywhere it comes up:
 
 If you edit this, keep those four apart. "No cash shop" is not one of them, and
 `llms.txt` explicitly tells language models not to claim it.
+
+## The codex
+
+Item and skill text is written for people who already play. About fifty terms
+carry most of the meaning - "Combo Ready", "Fixed Cast", "Piece Bonus", "Per
+Refine" - and the game never defines any of them.
+
+`tools/codex.py` is the one place they are defined. One line each, in plain
+language, saying what the term means *for the player* rather than how it is
+implemented, and avoiding the number where a term is measurable - same reason
+as everywhere else here.
+
+Seven groups, each with a colour. The colour is doing real work: after a few
+minutes "this is a timing word" and "this is a status effect" are legible
+without reading anything. `mark()` wraps the terms at build time for the skill
+tables; `database.js` does the same at runtime, because item text arrives with
+the payload rather than the page.
+
+`ALIASES` maps the spellings the game actually uses ("Def Pierce", "Defence
+Pierce") onto one entry. Matching is longest-first, or "Magic Defense Pierce"
+never matches.
+
+## Where the facts come from
+
+The Refuge has no design document. Every decision is announced in the
+project's own Discord and nowhere else, so `tools/fetch_discord.py` turns the
+exports into `tools/data/discord.json` and that file is what the "what the
+Refuge changed" copy has to answer to.
+
+Two things this caught that the site had wrong: the SS dungeon count (Amatsu
+is one of two, not one plus two), and the Einherjar rewards, which Metta
+announced as relics and croc corrected to costumes ten days later. When two
+posts disagree, the later one wins.
+
+The original PRM wiki and the crocPRM changes site are both offline. The wiki
+in `tools/data/` is the only surviving transcription of that world.
 
 ## The share card
 

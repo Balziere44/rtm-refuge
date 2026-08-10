@@ -222,6 +222,7 @@
     <section id="stats">
       <h2>Stats and the cost curve</h2>
       <p>Points get more expensive as they climb, breakpoints survived from pre-renewal, and almost every skill now scales off a stat.</p>
+      <p>What each of the six actually does is one line each in the <a href="codex.html#g-stats">codex</a>, along with Hit, Flee, Perfect Dodge and the rest of the vocabulary. What follows is the part that is specific to this world.</p>
       <h3 id="main-features-character-stats">Character Stats</h3>
       <p>The stats have been fully reworked. You no longer requires 2 points per stat with an increasing cost every 10 points:</p>
       <p>We also kept the great Pre-Renewal Breakpoints! However, added in a linear growth, so players can get small, extra bonuses when they have multiples of 10 in a given stat.</p>
@@ -240,47 +241,8 @@
       <p>The following table is a representation of the total status points you have per level.</p>
       <h3 id="stat-changes-status-growth">Status Growth</h3>
       <ul><li>All Stats have a Breakpoint Bonus when they are multiple of 10. This includes Base + Bonus amounts.</li><li>Max Stat points for any stat is 99. There's no limit on bonuses from items/skills.</li><li>Skills now have direct stat point scalings. You can for example have a skill with +2% per AGI scaling (giving you 60% extra damage with 30 AGI).</li><li>Some cards and equipments can add stronger/new scaling to skills.</li><li>Stat points no longer require 2 points +1 every 10 points to increase.</li><li>Stat points now require 1 point up to 50, 2 points up to 98, and 3 points for 99.</li><li>The amount of stat points granted varies by level. Multiple of 10 usually grant bette bonuses.</li><li>Certain items require 99 in a given stat to activate strong bonuses.</li><li>A Lv150 character has enough points to get 99 in 3 stats, and having 3 other stats at 1.</li></ul>
-      <h3 id="stat-changes-strength--str">Strength (STR)</h3>
-      <p>Breakpoint: Every 10 points, adds +1 ATK(any weapon).</p>
-      <h3 id="stat-changes-agility--agi">Agility (AGI)</h3>
-      <p>Breakpoint: Every 10 points, adds +1 ASPD and +3 Flee. Extra +1 ASPD if dual-wielding every 20 points.</p>
-      <ul><li>ASPD percentage bonuses are now fully based on the character's AGI.</li><li>For example, Getting 20% ASPD with 50 total agi grants only 10% ASPD. For 200 Agi, the bonus is 40% ASPD.</li><li>Effect in escaping from Snare traps increased 50%.</li><li>ASPD is capped depending on your class.</li><li>Every 40 points of AGI increases the cap by 1.</li><li>Equipment can also increase this limit with varied ASPD Limit+x bonuses.</li><li>Jester and Legend jobs have special ways to push this limit with skills.</li><li>Now influences Perfect Dodge chance.</li></ul>
-      <h3 id="stat-changes-vitality--vit">Vitality (VIT)</h3>
-      <p>Breakpoint: Every 10 points, adds +5 Flat DEF and MDEF.</p>
-      <ul><li>Flat DEF bonus is for every point of VIT, instead of every 2 points.</li><li>Resistance to poison status has been severely reduced.</li><li>Increased HP natural regeneration by 25%.</li></ul>
-      <h3 id="stat-changes-intelligence--int">Intelligence (INT)</h3>
-      <p>Breakpoint: Every 10 points, adds +1 MATK.</p>
-      <ul><li>Increased SP natural regeneration by 50% per 6 points.</li><li>Resistance to silence status has been reduced.</li></ul>
-      <h3 id="stat-changes-dexterity--dex">Dexterity (DEX)</h3>
-      <p>Breakpoint: Every 10 points, adds +1 ATK/MATK.</p>
-      <ul><li>Increased effect on cast times.</li><li>Increased amount of hit gained per point from 1 to 2.</li></ul>
-      <h3 id="stat-changes-luck--luk">Luck (LUK)</h3>
-      <p>Breakpoint: Every 10 points, adds +2 Critical Rate and +1% Critical Damage.</p>
-      <ul><li>Increased effect on status resistances by 50 to 100%.</li><li>Now applies to more status effects.</li><li>Shares Perfect Dodge weight from weapons</li><li>Decreased hit gained from every 3 to every 5 points.</li></ul>
-      <h3 id="stat-changes-attack--atk">Attack (ATK)</h3>
-      <ul><li>Overall item bonuses greatly reduced. Increased weight of status bonuses on damage.</li><li>Damage calculations are same as renewal.</li><li>Bonus when upgrading is 0.5/Weapon Level per refine.</li></ul>
-      <h3 id="stat-changes-magic-attack--matk">Magic Attack (MATK)</h3>
-      <ul><li>Has been added as a natural bonus, like ATK.</li><li>Weapons with base MATK increase it with refine rate.</li><li>Damage calculations are same as renewal.</li></ul>
-      <h3 id="stat-changes-critical-rate-and-damage">Critical Rate and Damage</h3>
-      <ul><li>Damage bonus is only 1.2x instead of 1.4x from Renewal</li><li>Bonus from cards and modifiers halved.</li><li>Skills now take full critical modifier, instead of halved.</li><li>Monsters have 5% base critical chance on all attacks.</li><li>Extra 1% Critical Damage per 10 LUK as part of the breakpoint bonus.</li><li>Katars have 1.5x bonus critical rate, instead of 2x.</li><li>Double-Attack can be critical.</li></ul>
-      <h3 id="stat-changes-cast-time">Cast Time</h3>
-      <p>Example:</p>
-      <p>If skill has 10 seconds variable cast time</p>
-      <p>You have 300(INT/DEX) Total stats = Variable cast time is reduced by ~75-80%</p>
-      <p>10 x 0.25 = 2.5 seconds cast time</p>
-      <p>Gear cast time equals to 50% Variable cast time reduction</p>
-      <p>2.5 x 0.5 = 1.25 Variable cast time - Final variable cast time.</p>
-      <ul><li>Basic Correlation between fixed cast/variable cast has been changed from 20/80 to 10/90. This has many exceptions.</li><li>Variable Cast time formula changed completely.</li><li>Previous: DEX*2+INT = 530</li><li>New: DEX*2+INT = 400</li><li>% Variable/Fixed Cast time on gear works after "stat reduction" cast time of skill.</li><li>Some skills have greatly increased cast times/fixed cast times.</li><li>Some specific skills have irreductible cast time or can work with Cast Ready</li></ul>
-      <h3 id="stat-changes-hit-rate--hit">Hit Rate (Hit)</h3>
-      <ul><li>Player Minimum hit rate has been improved from 5% to 10%.</li><li>Base Hit Rate of Players increased by 25 (through the Orphan Skills starter passive).</li><li>Keep in mind monsters have higher flee overall.</li></ul>
-      <h3 id="stat-changes-flee-rate--flee">Flee Rate (Flee)</h3>
-      <ul><li>Flee penalty per attacking monsters increase from 3 to 4 monsters.</li><li>Flee penalty per monster increased from 10% to 20%.</li><li>This means fightning 4 monsters at the same time reduces your flee by 80%.</li></ul>
-      <h3 id="stat-changes-perfect-dodge">Perfect Dodge</h3>
-      <ul><li>Can stack beyond 100 Perfect Dodge (to protect against reduction/negation).</li><li>Increases by 1 every 10 TOTAL of AGI/LUK instead of only LUK.</li><li>Core bonus of the Prowler Job.</li></ul>
       <h3 id="stat-changes-natural-regeneration">Natural Regeneration</h3>
       <ul><li>HP Regeneration tick is every 2 seconds (vs 6 seconds from vanilla, 3x faster).</li><li>SP Regeneration tick is every 1.2 seconds(vs 8 seconds from vanilla, 6,6x faster).</li><li>SP Regeneration when equipped with Revolvers (Judge) is tripled . Job has a very small SP pool.</li><li>SP Regeneration happens in movement. Specific bonuses enable HP Regen in movement.</li><li>All Regeneration happens even in combat.</li></ul>
-      <h3 id="stat-changes-attack-speed--aspd">Attack Speed (ASPD)</h3>
-      <ul><li>Attack speed base has been greatly reduced.</li><li>Attack speed scaling with AGI has been increased slightly.</li><li>ASPD is now greatly based on overall AGI of the character.</li><li>Flat ASPD bonuses are more prevalent.</li><li>Dual Wield ASPD penalty has been increased by 25%.</li><li>Hard ASPD cap for every job is 193. Soft Cap [Increased with ASPD limit gear] check your soft cap here in Base ASPD Limit Table</li></ul>
       <h3 id="stat-changes-physical-attack-card-bonuses">Physical Attack Card Bonuses</h3>
       <ul><li>Card bonuses follow a unique formula due to the balance of status and equipment.</li><li>Bonuses are applied 1/2 to Status Attack and 1/2 to Equipment Attack.</li></ul>
       <h3 id="stat-changes-size-penalty-for-weapons">Size Penalty for Weapons</h3>
@@ -297,18 +259,6 @@
       <ul><li>MVP monsters have 50% final damage reduction.</li><li>All MVPs have 45-60% chance to drop a unique costume.</li><li>All MVPs have half their level as chance to drop a MVP Rewards Box.</li><li>Ankle Snare duration reduced by 95%.</li><li>No longer can rude-teleport.</li><li>MVPs have a unique Relic System in place, where monsters from their area have a 0.10% chance to drop their Relic. Using the Relic on the correct MVP map will summon the MVP to fight (usual rules of Free-For-All apply).</li><li>MVPs still have their random time based spawn and locations. Relic Summons are an extra.</li></ul>
       <h3 id="stat-changes-zeny">Zeny</h3>
       <ul><li>Equipments are sold to NPCs for a small fraction of their value.</li><li>Monsters drop zeny on kill. This value can be increased with items.</li><li>Overall zeny generation is greatly reduced and no longer has items that provide a ton of it (Gold, Witherless Roses, Crystal Mirrors, etc).</li></ul>
-      <h3 id="stat-changes-stun">Stun</h3>
-      <ul><li>VIT resistance halved.</li><li>LUK resistance doubled.</li><li>LUK decreases duration.</li></ul>
-      <h3 id="stat-changes-silence">Silence</h3>
-      <ul><li>INT resistance halved.</li><li>LUK resistance doubled.</li><li>LUK decreases duration.</li></ul>
-      <h3 id="stat-changes-all-status-effects">All Status Effects</h3>
-      <ul><li>Silence and Stun are twice as hard to apply on monsters.</li><li>Silence and Stun last less time according to monster's LUK.</li><li>Monster resistance to all other status greatly reduced.</li></ul>
-      <h3 id="stat-changes-poison">Poison</h3>
-      <ul><li>20% higher damage.</li><li>Resistance to it reduced by 80%.</li><li>VIT defense debuff amount increased by 50%.</li><li>Can affect all races and elements except poison.</li><li>Can affect bosses if the user is a Black Plague Using Enchant Deadly Poison.</li></ul>
-      <h3 id="stat-changes-burning">Burning</h3>
-      <ul><li>Damage is fixed at 200 + 1% Max HP per tick.</li><li>Minimum duration if not resistant is 10 seconds.</li></ul>
-      <h3 id="stat-changes-freeze">Freeze</h3>
-      <ul><li>Increases damage taken by Illusionist's Real Magic Attack and Kimi Puppet skills.</li><li>Increase damage of some bomb skills by Saboteur and Blast Juggler.</li><li>Has all original effects besides the ones above.</li></ul>
     </section>
     <section id="aspd">
       <h2>Attack speed</h2>
@@ -366,17 +316,6 @@
       <h3 id="combos-rotations-new-powers">New Powers</h3>
       <p>In Return to Morroc, spamming a single skill over and over is the least efficient way to play (Unless you're a Jester, of course.), multiple cooldowns, costs, variations and combo interactions exist.</p>
       <p>There are multiple ways skills can interact with one another to enable combos.</p>
-      <h3 id="combos-rotations-combo-ready">Combo Ready</h3>
-      <p>Combo Ready is denoted by the icon above that shows up on the right side when some specific skills are used. These skills are usually refered as Openers.</p>
-      <p>Examples:</p>
-      <ul><li>Combo Ready skills are skills that can be used without an opener, but they have diminished effects.</li><li>These skills can have either situational or direct requirements.</li><li>Combo Ready status lasts for a few seconds depending on the job class/skill used. Some Openers in this case allows up to 2 skills to be used if the After-Cast Delay is fast enough.</li><li>ANY Opener skill can be used to trigger the combo ready status. That means if a job has 2 different openers, any of them can be used to use the follow-up skills.</li><li>Revenant's Roaring Overslash deals extra 10% +1% per LUK damage if used during Combo Ready, You can get Combo Ready with both Scythe Reap (From Trickster) or from Reaping Slash.</li><li>Raider/Dracomancer's Spears Innate Fixed Bonus is Dragon Thrust. It enables Combo Ready by a few seconds, allowing the other skills from those jobs (like Heavy Stab or Crescent Dive) to deal full damage.</li><li>Jester's First Hand lasts enough for up to 3 skills according to ASPD/Delay of the user, many skills require it to deal full damage.</li></ul>
-      <h3 id="combos-rotations-cast-ready">Cast Ready</h3>
-      <p>Cast Ready reduces the variable cast time of skills by 95% for duration. This enables some skills to be used much faster under specific cases.</p>
-      <ul><li>Shadowseer has this as a class mechanic, as most of their buffs have very long but mostly variable cast times. Their core skill, Equinox, grants Cast Ready for a short duration so they can quickly cast follow-up skills after it.</li><li>Some items grant Cast Ready when specific conditions are met, enabling quicker casting.</li></ul>
-      <h3 id="combos-rotations-stance">Stance</h3>
-      <p>Some skills may require stances to be activated to either use a skill to it's full power, or unlock the use of some skills.</p>
-      <p>Examples:</p>
-      <ul><li>Stances usually don't have a fixed duration, and are used to change the combat flow for a job directly.</li><li>Stances have bonuses associated when they are turned on. They may also have downsides.</li><li>Deadeye's Headshot deals 1/10 damage if the user is not in Sniper's Nest stance. This stance massively reduces movement speed, while boosting final attack damage for all attacks.</li><li>Satsujin's Darkness Rises causes Satsujin's Curse status to all targets, other Satsujin skills deal extra damage against enemies afflicted by it.</li><li>Dracomancer's Dragon Force and Dragon Pact enable different skills to be used. Dragon Force allows use of the strongest spear skills, while Dragon Pact allows use of the draconic skills from the tree.</li><li>Duelist's Duel Stance increases defensive capabilities while allowing hits received to be stacked as Duel Counters. These counters can be used to deal direct damage to an enemy the more counters the character has.</li><li>Assassin's Fury Status boosts critical rate while enabling use of Executioner(and Gravekeeper) class skills. It has a fixed duration and Alpha, Omega, Cursed Coffin and Desolated Burial all require fury status. Gravekeepers have a secondary skill that allows then to enter fury status anytime with little restrictions.</li></ul>
       <h3 id="combos-rotations-direct-combo">Direct Combo</h3>
       <p>Direct combo skills are skills you need to use right after the first skill, they cannot be used otherwise.</p>
       <p>Examples:</p>
@@ -398,6 +337,7 @@
       <p>Example:</p>
       <p>Dracomancer Burning:</p>
       <ul><li>Burst Petals hit to distant targets.</li><li>Shadow Slash to teleport near it.</li><li>Fan of Knives to deal AoE damage.</li><li>Throw Molotov/Acid.</li><li>Face-off or Backstab to gap close to enemy.</li><li>Hide to dodge any skills, Sneak Attack follow up from hide.</li><li>Decoy to move out.</li><li>Cause Burning status with Dragon Breath (or other cards/skills).</li><li>Dragon Claw deals extra damage vs burning targets.</li></ul>
+      <p>The three states a skill can leave you in - <a href="codex.html#combo-ready">Combo Ready</a>, <a href="codex.html#cast-ready">Cast Ready</a> and the job stances - are defined in the codex, and underlined wherever they appear.</p>
     </section>
     <section id="bonuses">
       <h2>Innate and unique bonuses</h2>
@@ -473,42 +413,7 @@
       <p>The Ranks that shows the difficulty levels can be found on the World Map (Default shortcut: CTRL + ') and map banners when a map is entered.</p>
       <p>In most cases, a higher rank dungeon will have better drops and provide more exp, as long as a player/party can handle it's difficulty. Lower rank dungeons may sometimes present mechanics from higher rank dungeons under specific circunstances.</p>
       <ul><li>Distortion Dungeons are only available in Ranks B, A or S.</li></ul>
-      <h3 id="ranking-system-rank-e">RANK E</h3>
-      <p>Rank E dungeons are very easy overall. They are meant for players that don't want to stress over long fights and want an easier time. This doesn't mean they are boring or don't have mechanics, they can still hurt those unprepared.</p>
-      <p>Recommendations</p>
-      <p>Party: Any party with any level of preparation.</p>
-      <p>Solo: Any player with any level of preparation.</p>
-      <ul><li>Rank E dungeons usually are recommended for players who are not used to the combat mechanics of Return to Morroc.</li><li>Rank E dungeon have difficulty similar or slightly below fields.</li><li>Rank E mechanics usually are easy to predict, avoidable, require no specific gears and rarely have potential to one shot on major mistakes.</li></ul>
-      <h3 id="ranking-system-rank-d">RANK D</h3>
-      <p>Rank D dungeons require attention and managing resources to farm effectively. They can still be handled with basic gear, but mistakes are more punishing and luring too many monsters can prove fatal.</p>
-      <p>Recommendations</p>
-      <p>Party: Any party with any level of preparation. A party of 2+ is recommended for ungeared parties.</p>
-      <p>Solo: Any player with basic level of preparation. Access to Heal Lv5 is greatly recommended.</p>
-      <ul><li>Rank D dungeons usually are recommended for players who understand basic mechanics of Return to Morroc.</li><li>Rank D dungeon have difficulty slightly above fields.</li><li>Rank D mechanics usually are reasonable to predict, avoidable, require no specific gears and have very minor potential to one shot. Monsters may have minor combo sequences.</li></ul>
-      <h3 id="ranking-system-rank-c">RANK C</h3>
-      <p>Rank C dungeons can hurt unprepared players. They usually require basic cards or reactions based on enemy behavior. They can still be handled when undergeared but they may provide a challenge and mistakes can be crippling.</p>
-      <p>Recommendations</p>
-      <p>Party: Any party with basic level of preparation. A party of 3+ is recommended for ungeared parties.</p>
-      <p>Solo: Any player with cards and reasonable level of preparation. Access to Heal Lv5 is greatly recommended.</p>
-      <ul><li>Rank C dungeons usually are recommended for players who know the skill mechanics of Return to Morroc.</li><li>Rank C dungeon monsters may have multiple patterns/mechanics.</li><li>Rank C mechanics usually are predictable, avoidable, require no specific gears and have minor potential to one shot. Monsters may have minor combo sequences and reactive skills under specific cases.</li></ul>
-      <h3 id="ranking-system-rank-b">RANK B</h3>
-      <p>Rank B dungeons are always a challenge when a player is on the same level range. They require reasonable cards and knowing the job potential and limits. Monsters usually require multiple rotations to be killed and can force the player to fight under their rules in specific cases.</p>
-      <p>Recommendations</p>
-      <p>Party: Any party with cards and good level of preparation. A party of 5+ is recommended for undergeared parties. Not recommended for ungeared parties.</p>
-      <p>Solo: Any player with good cards and decent level of preparation. Access to Heal Lv10 is greatly recommended.</p>
-      <ul><li>Rank B dungeons usually are recommended for players who are very comfortable with the combat of Return to Morroc.</li><li>Rank B dungeon monsters have varied engaging ways, may disrupt player actions and apply status effects.</li><li>Rank B mechanics are predictable and avoidable, but require precision. They require moderate gear and have some potential for one shots when damage is ignored. Monsters may have combo sequences, reactive skills and disruptions such as status effects and movement impairment.</li></ul>
-      <h3 id="ranking-system-rank-a">RANK A</h3>
-      <p>Rank A dungeons are harder dungeons that have small margin for error. They punish players for any mistakes and in some cases can be fatal. Cards and refined gear are regular needs, along with status resistances. A player who is not prepared may fight for some time, but death is sure to come eventually.</p>
-      <p>Recommendations</p>
-      <p>Party: Prepared party with cards and decent equipment. A party of 4+ is recommended for mid-geared parties. Not recommended for undergeared parties.</p>
-      <p>Solo: Any player with good cards and decent level of preparation. Access to Heal Lv10 is greatly recommended.</p>
-      <ul><li>Rank A dungeons are recommended only for players who are very comfortable and understand the combat of Return to Morroc.</li><li>Rank A dungeon monsters have multiple mechanics, minor phase changes and react in unpredictable ways.</li><li>Rank A mechanics are both avoidable and precise. Monsters may include unavoidable mechanics to act as checks for resistances, prediction and defenses under specific cases. Monsters may have specific status immunities or knockback resistances.</li></ul>
-      <h3 id="ranking-system-rank-s">RANK S</h3>
-      <p>Rank S dungeons are among the hardest challenges in Return to Morroc. They can take down even prepared parties with a barrage of skills, status, monsters and phases. They are always punishing and failing a very clear, very obvious long mechanic pretty much guarantees death.</p>
-      <p>Recommendations</p>
-      <p>Party: Prepared party with good cards and good equipment. A party of 6 is recommended for mid-geared parties. Not recommended for low-geared parties.</p>
-      <p>Solo: A very well prepared and experient player. Access to Heal Lv10 is required for any chance of success.</p>
-      <ul><li>Rank S dungeons are recommended only for players who mastered the combat of Return to Morroc.</li><li>Rank S dungeon monsters have multiple mechanics, aggression and can be unpredictable. They can use skills under new rules, have specific counters to specific combat methods or require strong mitigation or some equip swapping.</li><li>Rank S mechanics can be split in multiple parts, ensuring a player needs to pay attention to what a monster already did to know what to expect. Monsters may change behavior and require careful positioning during the fight so as not to kill a party member as colateral damage while handling a skill.</li><li>Mistakes can be punished with one shots or even party wipes.</li></ul>
+      <p>Every dungeon and the rank it carries is in the table on the <a href="world.html#distortions">world page</a>, which is sortable and searchable. Six paragraphs describing six ranks were the same information, arranged worse.</p>
     </section>
     <p class="source-note">
       Material on this page is transcribed from the community wiki for the world

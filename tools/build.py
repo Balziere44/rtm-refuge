@@ -221,7 +221,7 @@ def build_home():
       </a>
       <a class="card card--link" href="world.html#endgame">
         <span class="card-kicker">New</span>
-        <h3>Three SS dungeons</h3>
+        <h3>Two SS dungeons</h3>
         <p>Custom maps. In one of them there is no minimap and dying costs a level.</p>
       </a>
       <a class="card card--link" href="changes.html">

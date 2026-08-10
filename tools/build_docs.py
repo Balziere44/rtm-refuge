@@ -256,7 +256,7 @@ def build_start():
          wiki_block("New_Player_Guide", only=("Is this the End?",)) +
          "\n      " + callout("What the Refuge added past this point", [
              "<strong>Nightmare in Amatsu</strong>, an SS dungeon where level 150 is recommended, there is no minimap, and dying costs a base level.",
-             "Two more SS dungeons, both finished, both on fully custom maps. One of them will not be described before launch.",
+             "A second SS dungeon, finished, on a fully custom map. It will not be described before launch.",
              "<strong>Einherjar Challenge Mode</strong>: your level cap only rises when you beat a boss of your own level. It awards costumes, not relics.",
              "More than fifty new shadow sets, none of them job-locked.",
          ])),
@@ -287,8 +287,22 @@ def build_mechanics():
         ("stats", "Stats and the cost curve",
          "Points get more expensive as they climb, breakpoints survived from "
          "pre-renewal, and almost every skill now scales off a stat.",
+         '<p>What each of the six actually does is one line each in the '
+         '<a href="codex.html#g-stats">codex</a>, along with Hit, Flee, '
+         'Perfect Dodge and the rest of the vocabulary. What follows is the '
+         'part that is specific to this world.</p>\n      ' +
          wiki_block("Main_Features", only=("Character Stats",)) + "\n      " +
-         wiki_block("Stat_Changes")),
+         # Everything skipped here is a one-line definition that the codex now
+         # owns. Printing both means maintaining both, and they would drift.
+         wiki_block("Stat_Changes", skip=(
+             "Strength (STR)", "Agility (AGI)", "Vitality (VIT)",
+             "Intelligence (INT)", "Dexterity (DEX)", "Luck (LUK)",
+             "Attack (ATK)", "Magic Attack (MATK)", "Critical Rate and Damage",
+             "Hit Rate (Hit)", "Flee Rate (Flee)", "Perfect Dodge",
+             "Attack Speed (ASPD)", "Cast Time",
+             "Stun", "Silence", "Poison", "Burning", "Freeze",
+             "All Status Effects",
+         ))),
 
         ("aspd", "Attack speed",
          "Each job has its own base attack speed limit, and the Refuge went back "
@@ -306,7 +320,11 @@ def build_mechanics():
         ("combos", "Combos and rotations",
          "Some skills read what you cast before them. This is the layer most "
          "players discover late and wish they had known about at level 30.",
-         wiki_block("Combos_Rotations")),
+         wiki_block("Combos_Rotations", skip=("Combo Ready", "Cast Ready", "Stance")) +
+         '\n      <p>The three states a skill can leave you in - '
+         '<a href="codex.html#combo-ready">Combo Ready</a>, '
+         '<a href="codex.html#cast-ready">Cast Ready</a> and the job stances - '
+         'are defined in the codex, and underlined wherever they appear.</p>'),
 
         ("bonuses", "Innate and unique bonuses",
          "Equipment does more than add numbers. Bouncing skills, repeating "
@@ -325,7 +343,13 @@ def build_mechanics():
         ("ranking", "Dungeon ranks",
          "Every dungeon carries a difficulty tier. Anything can be done solo with "
          "enough preparation - the rank tells you how much.",
-         wiki_block("Ranking_System")),
+         wiki_block("Ranking_System", skip=(
+             "RANK E", "RANK D", "RANK C", "RANK B", "RANK A", "RANK S",
+         )) +
+         '\n      <p>Every dungeon and the rank it carries is in the table on '
+         'the <a href="world.html#distortions">world page</a>, which is '
+         'sortable and searchable. Six paragraphs describing six ranks were '
+         'the same information, arranged worse.</p>'),
     ]
     doc_page("mechanics.html",
              "Mechanics | Return to Morroc: Refuge",
@@ -480,12 +504,12 @@ def build_world():
          wiki_block("Instance_List")),
 
         ("endgame", "The Refuge's own endgame",
-         "Three SS-rank dungeons that did not exist before, and an optional mode "
+         "Two SS-rank dungeons that did not exist before, and an optional mode "
          "that changes what levelling means.",
          callout("New in the Refuge", [
              "<strong>Nightmare in Amatsu.</strong> Level 150 recommended. A heavily customised version of the classic first floor - no hidden doors, real openings, and no minimap. You spawn semi-randomly and orient yourself by the map shadows, because the light source is at the centre. Or you pay zeny to spawn somewhere safe.",
              "<strong>The Amatsu penalty.</strong> Dying there costs you a base level.",
-             "<strong>Two more SS dungeons</strong>, both finished, both on fully custom maps. The second will not be described before launch.",
+             "<strong>A second SS dungeon</strong>, finished, on a fully custom map. It will not be described before launch.",
              "<strong>Bosses were rebalanced</strong> because Hiding now works against them.",
          ]) + """
       <h3>Nightmare in Amatsu, in the designer's words</h3>
@@ -511,7 +535,7 @@ def build_world():
     doc_page("world.html",
              "World and Dungeons | Return to Morroc: Refuge",
              "New-Midgard region by region: all 21 distortion dungeons with levels and "
-             "ranks, the MVP relic system, and the three SS dungeons built for the Refuge.",
+             "ranks, the MVP relic system, and the two SS dungeons built for the Refuge.",
              "world.html",
              "New-Midgard",
              "Regions, dungeons, distortions and MVPs - plus the endgame the Refuge "

@@ -944,6 +944,37 @@ html[data-theme="light"] .sk-active   { color: var(--sil-700); }
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 190px), 1fr));
 }
 
+/* Three of the groups are lanes rather than rows: the card above really does
+   become the card below. Drawing that as a column with an arrow says in one
+   glance what two anonymous rows never did. */
+.tree-lanes {
+  display: grid;
+  gap: var(--gap-md);
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 210px), 1fr));
+  align-items: start;
+}
+.tree-lane { display: grid; gap: 0.35rem; }
+.tree-arrow {
+  justify-self: center;
+  width: 1px;
+  height: 1.1rem;
+  background: linear-gradient(var(--line-strong), var(--accent));
+  position: relative;
+}
+/* The head of the arrow. Two borders and a rotation is cheaper than an SVG
+   and scales with the text size. */
+.tree-arrow::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -1px;
+  width: 5px;
+  height: 5px;
+  border-right: 1px solid var(--accent);
+  border-bottom: 1px solid var(--accent);
+  transform: translateX(-50%) rotate(45deg);
+}
+
 /* The connector between rows. Purely decorative, and it disappears rather
    than lying about the shape of the tree on a narrow screen. */
 .tree-link {

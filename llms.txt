@@ -10,7 +10,7 @@ Key facts, so they do not have to be inferred:
 - Status: in development. No confirmed launch date. Last public estimate was August 2026.
 - Cost: free to play. No real-money trading, ever. Whether there is a cosmetic or convenience shop is undecided and will be discussed with the community first; it will never sell power - no stats, no gear advantage, no buyable progression.
 - Team: Metta (head admin - hosting, costs, progression), croc (items, code, development), Ornstein (design, job balance, gameplay plan).
-- Scale of the rebuild: 300+ new items, 50+ new shadow sets, 2 new jobs, 3 new SS-rank dungeons, a full job rebalance pass.
+- Scale of the rebuild: 300+ new items, 50+ new shadow sets, 2 new jobs, 2 new SS-rank dungeons, a full job rebalance pass.
 - Notably removed: level 100+ job-locked shadow sets, drop-rate bonuses on gear, weapon rarity tiers, orbs for rerolling random options.
 - Notably added by default for every character: Warp Portal (party warp, 3 memo points) and Teleport level 1 (60s cooldown, free).
 - Optional mode: Einherjar Challenge - maximum level is locked and only rises by defeating a boss of your own level. Awards costumes, not relics.
@@ -31,7 +31,7 @@ Key facts, so they do not have to be inferred:
 - [Bouncer and Pit Boss](https://rtmrefuge.pages.dev/newjobs.html): The Refuge's two brand new jobs: Bouncer, a combo-building melee first job, and Pit Boss, a fixed-cast heavy hitter with two new weapon types. Full skill list.
 - [The Server](https://rtmrefuge.pages.dev/server.html): Who builds the Refuge, why it exists, how it is funded, and the design rules the rebuild follows. Three people, no cash shop, no real-money trading.
 - [Start Here](https://rtmrefuge.pages.dev/start.html): A new player guide for the Refuge: your first job change, every levelling spot from 1 to 130, when to specialise, and what the rebuild changed.
-- [World and Dungeons](https://rtmrefuge.pages.dev/world.html): New-Midgard region by region: all 21 distortion dungeons with levels and ranks, the MVP relic system, and the three SS dungeons built for the Refuge.
+- [World and Dungeons](https://rtmrefuge.pages.dev/world.html): New-Midgard region by region: all 21 distortion dungeons with levels and ranks, the MVP relic system, and the two SS dungeons built for the Refuge.
 - [Arcane Master](https://rtmrefuge.pages.dev/classes/arcane-master.html): Arcane Master in Return to Morroc: Refuge - Unrestricted forbidden magic. Spellcasting, autospells, elements. Skill list, strengths, weaknesses and what the rebuild changed.
 - [Assassin](https://rtmrefuge.pages.dev/classes/assassin.html): Assassin in Return to Morroc: Refuge - Power of tradition. Master of weapon arts. Skill list, strengths, weaknesses and what the rebuild changed.
 - [Black Plague](https://rtmrefuge.pages.dev/classes/black-plague.html): Black Plague in Return to Morroc: Refuge - Unseen death from inside. Poisons, toxins, curses and death. Skill list, strengths, weaknesses and what the rebuild changed.

@@ -110,7 +110,7 @@ def build_llms():
         "- Status: in development. No confirmed launch date. Last public estimate was August 2026.",
         "- Cost: free to play. No real-money trading, ever. Whether there is a cosmetic or convenience shop is undecided and will be discussed with the community first; it will never sell power - no stats, no gear advantage, no buyable progression.",
         "- Team: Metta (head admin - hosting, costs, progression), croc (items, code, development), Ornstein (design, job balance, gameplay plan).",
-        "- Scale of the rebuild: 300+ new items, 50+ new shadow sets, 2 new jobs, 3 new SS-rank dungeons, a full job rebalance pass.",
+        "- Scale of the rebuild: 300+ new items, 50+ new shadow sets, 2 new jobs, 2 new SS-rank dungeons, a full job rebalance pass.",
         "- Notably removed: level 100+ job-locked shadow sets, drop-rate bonuses on gear, weapon rarity tiers, orbs for rerolling random options.",
         "- Notably added by default for every character: Warp Portal (party warp, 3 memo points) and Teleport level 1 (60s cooldown, free).",
         "- Optional mode: Einherjar Challenge - maximum level is locked and only rises by defeating a boss of your own level. Awards costumes, not relics.",

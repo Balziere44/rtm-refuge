@@ -401,10 +401,47 @@ def node(slug):
             f'<span class="node-tag">{esc(meta["tagline"])}</span></span></a>')
 
 
+def paired(rows):
+    """True when the two rows of a group are lanes, not just two rows.
+
+    In three of the groups the columns line up: Blade Dancer becomes Night
+    Raven, Shinobi becomes Satsujin, and so on down the row. That is the most
+    useful fact on the page and it was invisible - the reader had to notice
+    that two separate rows happened to be in the same order.
+
+    This checks the relationship really holds before drawing it. A tree that
+    claims a job leads somewhere it does not is worse than no arrow at all,
+    so a mismatch fails the build rather than rendering a lie.
+    """
+    if len(rows) != 2 or len(rows[0]) != len(rows[1]):
+        return False
+    for parent, child in zip(*rows):
+        if child not in (M.BY_SLUG[parent].get("leads_to") or []):
+            raise SystemExit(
+                "tree: %s is drawn above %s but does not lead to it" % (parent, child))
+    return True
+
+
 def overview():
     blocks = []
     for title, blurb, rows in M.TREE:
         row_html = []
+        if paired(rows):
+            lanes = []
+            for parent, child in zip(*rows):
+                lanes.append('      <div class="tree-lane">\n%s\n'
+                             '        <span class="tree-arrow" aria-hidden="true"></span>\n%s\n'
+                             '      </div>' % (node(parent), node(child)))
+            row_html.append('    <div class="tree-lanes">\n' + "\n".join(lanes) + "\n    </div>")
+            blocks.append(f"""  <section class="tree-group reveal">
+    <div class="tree-head">
+      <h2>{title}</h2>
+      <p>{blurb}</p>
+    </div>
+{chr(10).join(row_html)}
+  </section>""")
+            continue
+
         for i, row in enumerate(rows):
             if i:
                 row_html.append('    <div class="tree-link" aria-hidden="true"></div>')
