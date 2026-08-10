@@ -120,6 +120,12 @@ def plain(s):
         s = s.replace(wrong, right)
     for term, replacement in SCRUB:
         s = s.replace(term, replacement)
+    # External wiki links point at the other successor server. Keep the label,
+    # drop the destination: this site does not link to a competitor, and the
+    # words themselves describe the shared world.
+    s = re.sub(r"\[https?://[^\s\]]+\s+([^\]]+)\]", r"\1", s)
+    s = re.sub(r"\[https?://[^\s\]]+\]", "", s)
+    s = re.sub(r"https?://\S*echoesofmorroc\S*", "", s)
     s = re.sub(r"\[\[File:[^\]]*\]\]", "", s)
     s = re.sub(r"\[\[([^\]|]+)\|([^\]]+)\]\]", r"\2", s)
     s = re.sub(r"\[\[([^\]]+)\]\]", r"\1", s)

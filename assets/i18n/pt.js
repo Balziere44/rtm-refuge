@@ -50,21 +50,14 @@ window.RTMR_I18N_REGISTER('pt', {
   /* --- calls to action -------------------------------------------------- */
   'cta.join': 'Entrar no servidor da comunidade',
   'cta.start': 'Começar a jogar',
-  'cta.browse': 'Ver as 42 classes',
   'cta.howto': 'Como entrar',
   'cta.chat': 'Chat da comunidade',
 
   /* --- home ------------------------------------------------------------- */
   'home.status': 'Em desenvolvimento &middot; ainda sem data de lançamento',
   'home.h1': 'Os Orphans têm o seu <span class="accent">velho lar</span> de volta.',
-  'home.lede': 'O orfanato apagou as luzes quando o mundo original fechou. ' +
-    'Elas estão sendo acesas de novo - mesmo lugar, estrutura melhor. Todos os jobs ' +
-    'rebalanceados, dois novos, três masmorras de fim de jogo inéditas, e absolutamente ' +
-    'nada à venda.',
-  'chip.free': '<strong>Gratuito</strong> para sempre',
-  'chip.shop': 'Sem <strong>cash shop</strong>',
-  'chip.rmt': 'Sem <strong>RMT</strong>',
-  'chip.solo': 'PvE <strong>solo</strong>',
+  'home.lede': 'Um mundo customizado, reconstruído das cinzas por quem o jogava. ' +
+    'Gratuito para jogar, e nunca vai te vender poder.',
 
   /* --- footer ----------------------------------------------------------- */
   'foot.col0': 'Comece por aqui',
@@ -80,20 +73,54 @@ window.RTMR_I18N_REGISTER('pt', {
   'foot.gear': 'Itens, refino, shadows',
   'foot.world': 'Regiões, masmorras, MVPs',
   'foot.changes': 'Mudanças em relação ao original',
-  'foot.database': 'Banco de dados da comunidade',
   'foot.guides': 'Guias escritos por jogadores',
   'foot.llms': 'llms.txt',
   'foot.sitemap': 'Mapa do site',
-  'foot.blurb': 'Um mundo gratuito e sem fins lucrativos, construído e mantido ' +
-    'por um punhado de jogadores para quem quiser um lugar tranquilo para jogar.',
-  'foot.legal': 'Return to Morroc: Refuge é um projeto de fãs, não oficial e sem ' +
-    'fins lucrativos, sem qualquer afiliação, patrocínio ou endosso de nenhuma ' +
-    'publicadora, desenvolvedora ou detentora de direitos. Não hospeda loja ' +
-    'comercial, não vende nada e não aceita comércio por dinheiro real. Todos os ' +
-    'nomes de terceiros que aparecem no site pertencem aos seus respectivos donos e ' +
-    'são usados apenas para descrever a jogabilidade. Nada aqui é distribuído com ' +
-    'fins lucrativos.<br><br>Feito pela comunidade, às claras. O conteúdo do site ' +
-    'pode ser copiado livremente.',
+  'foot.blurb': 'Um mundo gratuito para jogar, construído e mantido por um punhado ' +
+    'de jogadores para quem quiser um lugar tranquilo para jogar.',
+  'foot.legal': 'Return to Morroc: Refuge é um projeto de fãs, não oficial, sem ' +
+    'qualquer afiliação, patrocínio ou endosso de nenhuma publicadora, desenvolvedora ' +
+    'ou detentora de direitos. É gratuito para jogar, não aceita comércio por dinheiro ' +
+    'real e nunca venderá poder dentro do jogo. Todos os nomes de terceiros que ' +
+    'aparecem no site pertencem aos seus respectivos donos e são usados apenas para ' +
+    'descrever a jogabilidade.<br><br>Feito pela comunidade, às claras. O conteúdo do ' +
+    'site pode ser copiado livremente.',
+
+  /* --- quick actions ---------------------------------------------------- */
+  'quick.db': 'Database',
+  'quick.dbSub': 'Todo item, todo monstro, todo drop',
+  'quick.classes': 'Classes',
+  'quick.classesSub': 'A árvore de jobs inteira',
+  'quick.start': 'Comece aqui',
+  'quick.startSub': 'Do nível 1 ao 130, em ordem',
+  'quick.world': 'Mundo',
+  'quick.worldSub': 'Masmorras e fim de jogo',
+
+  /* --- home promises ---------------------------------------------------- */
+  'home.p1t': 'Nunca pague para vencer',
+  'home.p1': 'O servidor precisa se pagar e pagar quem o constrói, e isso será ' +
+    'discutido abertamente com a comunidade. Seja lá o que for, não venderá poder ' +
+    'e não venderá o seu tempo.',
+  'home.p2t': 'Não existe build correta',
+  'home.p2': 'Os sets travados por job que empurravam todo mundo para o mesmo ' +
+    'estilo depois do nível 100 acabaram. Mais de cinquenta sets novos entraram no ' +
+    'lugar, e nenhum pertence a um job.',
+  'home.p3t': 'Construído à vista',
+  'home.p3': 'Listas de balanceamento, árvores de skill e prazos perdidos são ' +
+    'publicados antes do lançamento. O retorno da comunidade já mudou o projeto ' +
+    'mais de uma vez.',
+
+  /* --- database --------------------------------------------------------- */
+  'db.h1': 'Database',
+  'db.lede': 'Todo item e todo monstro, direto dos arquivos do servidor. ' +
+    'Filtre, ordene e siga um drop nos dois sentidos.',
+  'db.items': 'Itens',
+  'db.monsters': 'Monstros',
+  'db.search': 'Buscar por nome ou efeito...',
+  'db.reset': 'Limpar filtros',
+  'db.empty': 'Nada corresponde a esses filtros.',
+  'nav.database': 'Database',
+  'foot.database': 'Database do servidor',
 
   /* --- 404 -------------------------------------------------------------- */
   'lost.code': 'Erro 404',

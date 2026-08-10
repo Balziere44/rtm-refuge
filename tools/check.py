@@ -25,6 +25,11 @@ DESC_MIN, DESC_MAX = 70, 175
 # well-meaning edit from quietly reintroducing one.
 FORBIDDEN = [
     "ragnarok",
+    # The other successor server. Its wiki is a source for the inherited world
+    # and stays credited in the README, but the site links to no competitor
+    # and names none.
+    "echoesofmorroc",
+    "echoes of morroc",
     "gravity co",
     "gravity interactive",
     "kro ", "iro ",

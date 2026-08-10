@@ -1411,4 +1411,282 @@ body:has(.aurora)::before { display: none; }
 .lost p { color: var(--text-muted); max-width: 52ch; margin-inline: auto; }
 .lost-links { margin-top: var(--gap-lg); }
 
+/* ==========================================================================
+  20. The database
+   ==========================================================================
+   A filter rail and a result list, both scrolling independently on desktop
+   and stacking on a phone. The list is painted in blocks, so these rules have
+   to hold for sixty rows and for six thousand without changing.
+   -------------------------------------------------------------------------- */
+
+.page-hero--tight { padding-block: var(--gap-lg) var(--gap-md); }
+
+.db { padding-block: var(--gap-lg) var(--gap-xl); }
+
+.db-tabs { display: flex; gap: 0.4rem; margin-bottom: var(--gap-md); }
+.db-tab {
+  padding: 0.55rem 1.2rem;
+  border-radius: 999px;
+  border: 1px solid var(--glass-edge);
+  background-image: linear-gradient(160deg, var(--glass-fill-strong), var(--glass-fill));
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  color: var(--text-muted);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+.db-tab[aria-selected="true"] {
+  color: var(--accent-ink);
+  border-color: transparent;
+  background-image: linear-gradient(135deg, var(--pur-500), var(--pur-700));
+  box-shadow: var(--shadow-glow);
+}
+html[data-theme="light"] .db-tab[aria-selected="true"] { color: #fff; }
+
+.db-shell { display: grid; gap: var(--gap-md); grid-template-columns: minmax(0, 1fr); }
+.db-main { min-width: 0; }
+
+@media (min-width: 900px) {
+  .db-shell { grid-template-columns: 268px minmax(0, 1fr); align-items: start; }
+  .db-filters {
+    position: sticky;
+    top: calc(var(--header-h) + 1rem);
+    max-height: calc(100vh - var(--header-h) - 2rem);
+    overflow-y: auto;
+  }
+}
+
+.db-filters {
+  min-width: 0;
+  border: 1px solid var(--glass-edge);
+  border-radius: var(--radius);
+  padding: var(--gap-sm);
+  background-image: linear-gradient(160deg, var(--glass-fill-strong), var(--glass-fill));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  backdrop-filter: blur(var(--glass-blur));
+}
+.db-search { margin-bottom: var(--gap-sm); }
+.db-search .field { width: 100%; }
+
+.db-facet { border-top: 1px solid var(--glass-edge); }
+.db-facet:first-of-type { border-top: 0; }
+.db-facet summary {
+  cursor: pointer;
+  padding: 0.6rem 0.2rem;
+  font-weight: 700;
+  font-size: 0.9rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.db-facet summary::-webkit-details-marker { display: none; }
+.db-facet summary::after { content: "+"; color: var(--accent); font-family: var(--font-mono); }
+.db-facet[open] summary::after { content: "\2212"; }
+.db-facet-body { padding: 0 0.2rem 0.7rem; }
+
+.db-check {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.22rem 0;
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  cursor: pointer;
+}
+.db-check:hover { color: var(--text); }
+.db-check input { accent-color: var(--accent); flex: 0 0 auto; }
+.db-check span:first-of-type { flex: 1 1 auto; }
+.db-n { flex: 0 0 auto; font-size: var(--font-min); color: var(--text-dim); }
+
+/* Long facet lists collapse rather than filling the rail. */
+.db-check.is-extra { display: none; }
+.db-facet-body.is-expanded .db-check.is-extra { display: flex; }
+.db-more {
+  margin-top: 0.35rem;
+  padding: 0.2rem 0;
+  border: 0;
+  background: none;
+  color: var(--accent);
+  font: inherit;
+  font-size: var(--step--1);
+  cursor: pointer;
+}
+
+.db-range { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); gap: 0.4rem; align-items: center; }
+.db-range .field {
+  padding: 0.4rem 0.5rem;
+  text-align: center;
+  /* Number inputs carry an intrinsic width that ignores the track. Without
+     this the two of them push the whole page sideways on a phone. */
+  min-width: 0;
+  width: 100%;
+}
+.db-range span { color: var(--text-dim); font-size: var(--step--1); }
+
+.btn--block { width: 100%; justify-content: center; margin-top: var(--gap-sm); }
+
+.db-bar {
+  display: flex;
+  gap: var(--gap-sm);
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--gap-sm);
+  flex-wrap: wrap;
+}
+.db-count { color: var(--text-dim); font-size: var(--step--1); margin: 0; }
+.field--select { flex: 0 0 auto; padding-block: 0.5rem; }
+
+.db-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.5rem; }
+.db-row { margin: 0; }
+
+.db-entry {
+  display: grid;
+  gap: 0.3rem;
+  width: 100%;
+  padding: 0.7rem 0.9rem;
+  text-align: left;
+  border: 1px solid var(--glass-edge);
+  border-radius: var(--radius-sm);
+  background-image: linear-gradient(160deg, var(--glass-fill-strong), var(--glass-fill));
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+.db-entry:hover { border-color: var(--accent); }
+.db-name { font-weight: 700; }
+.db-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: center; }
+.db-sub { font-size: var(--step--1); color: var(--text-dim); }
+.db-stats { display: flex; flex-wrap: wrap; gap: 0.7rem; font-size: var(--font-min); color: var(--text-muted); }
+.db-fx {
+  font-size: var(--step--1);
+  color: var(--text-dim);
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.db-empty { padding: var(--gap-xl) 0; text-align: center; color: var(--text-dim); }
+
+/* The detail panel: a drawer on desktop, a sheet on a phone. */
+.db-detail {
+  position: fixed;
+  z-index: 100;
+  right: 0;
+  top: var(--header-h);
+  bottom: 0;
+  width: min(100%, 420px);
+  overflow-y: auto;
+  border-left: 1px solid var(--glass-edge);
+  background: color-mix(in srgb, var(--bg) 92%, transparent);
+  -webkit-backdrop-filter: blur(26px);
+  backdrop-filter: blur(26px);
+  box-shadow: var(--glass-shadow);
+  transform: translateX(100%);
+  transition: transform 0.24s var(--ease);
+}
+.db-detail[data-open="true"] { transform: none; }
+.db-detail-inner { padding: var(--gap-md); position: relative; }
+.db-close { position: absolute; top: var(--gap-sm); right: var(--gap-sm); }
+.db-detail h2 { font-size: var(--step-2); padding-right: 3rem; }
+.db-detail h3 { margin-top: var(--gap-lg); font-size: 1rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--accent); }
+
+@media (max-width: 640px) {
+  .db-detail {
+    top: auto;
+    left: 0;
+    width: 100%;
+    max-height: 78vh;
+    border-left: 0;
+    border-top: 1px solid var(--glass-edge);
+    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+    transform: translateY(100%);
+  }
+}
+
+.db-detail-stats { display: grid; gap: 0; margin: var(--gap-md) 0 0; }
+.db-detail-stats > div {
+  display: grid;
+  grid-template-columns: 45% 1fr;
+  gap: var(--gap-sm);
+  padding: 0.4rem 0;
+  border-bottom: 1px solid var(--glass-edge);
+}
+.db-detail-stats dt { color: var(--text-dim); font-size: 0.88rem; }
+.db-detail-stats dd { margin: 0; font-weight: 700; }
+
+.db-script {
+  margin: var(--gap-sm) 0 0;
+  padding: var(--gap-sm);
+  border: 1px solid var(--glass-edge);
+  border-radius: var(--radius-sm);
+  background: var(--glass-fill);
+  font-family: var(--font-mono);
+  font-size: var(--font-min);
+  color: var(--text-muted);
+  white-space: pre-wrap;
+  overflow-x: auto;
+}
+
+.db-drops { list-style: none; margin: var(--gap-sm) 0 0; padding: 0; }
+.db-drops li {
+  display: flex;
+  gap: 0.6rem;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 0.35rem 0;
+  border-bottom: 1px solid var(--glass-edge);
+  font-size: 0.9rem;
+}
+.db-drops li span:first-child { flex: 1 1 auto; }
+
+/* ==========================================================================
+  21. Quick actions
+   ==========================================================================
+   Big, obvious, few. The home page had six cards of prose above the fold and
+   nobody read them; these are the four things a visitor actually wants.
+   -------------------------------------------------------------------------- */
+
+.quick {
+  display: grid;
+  gap: var(--gap-sm);
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr));
+}
+
+.quick a {
+  display: grid;
+  gap: 0.2rem;
+  align-content: center;
+  min-height: 132px;
+  padding: var(--gap-md);
+  border-radius: var(--radius);
+  border: 1px solid var(--glass-edge);
+  background-image: linear-gradient(150deg, var(--glass-fill-strong), var(--glass-fill) 55%, var(--glass-tint));
+  -webkit-backdrop-filter: blur(var(--glass-blur));
+  backdrop-filter: blur(var(--glass-blur));
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.18s var(--ease), border-color 0.18s var(--ease);
+}
+.quick a:hover { transform: translateY(-3px); border-color: var(--accent); color: inherit; }
+.quick .q-title { font-family: var(--font-display); font-size: var(--step-2); line-height: 1.1; }
+.quick .q-sub { font-size: var(--step--1); color: var(--text-dim); }
+.quick svg { width: 26px; height: 26px; color: var(--accent); margin-bottom: 0.35rem; }
+
+/* The one card that should pull harder than the others. */
+.quick a.q-lead {
+  background-image: linear-gradient(140deg, color-mix(in srgb, var(--accent) 34%, transparent), color-mix(in srgb, var(--pur-700) 30%, transparent));
+  border-color: color-mix(in srgb, var(--accent) 45%, transparent);
+}
+.quick a.q-lead .q-sub { color: var(--text-muted); }
+
+/* The hero pair. Big enough to be the obvious next move on a phone, where
+   the fold arrives right underneath them. */
+.btn--lg { padding: 0.95rem 1.7rem; font-size: 1.02rem; }
+
+@media (max-width: 480px) {
+  .btn--lg { width: 100%; justify-content: center; }
+}
+
 @media print { .js .reveal { opacity: 1; transform: none; } }

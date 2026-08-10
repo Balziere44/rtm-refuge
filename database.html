@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Database | Return to Morroc: Refuge</title>
-<meta name="description" content="The Refuge's community reference database - items, skills, monsters and maps, open for player corrections - plus the reference pages hosted on this site.">
+<meta name="description" content="Searchable database of 11,098 items and 2,073 monsters with 8,112 drops - filter by type, slot, level, job, race and element.">
 <link rel="canonical" href="https://rtmrefuge.pages.dev/database.html">
 
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
@@ -18,7 +18,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:url" content="https://rtmrefuge.pages.dev/database.html">
 <meta property="og:title" content="Database | Return to Morroc: Refuge">
-<meta property="og:description" content="The Refuge's community reference database - items, skills, monsters and maps, open for player corrections - plus the reference pages hosted on this site.">
+<meta property="og:description" content="Searchable database of 11,098 items and 2,073 monsters with 8,112 drops - filter by type, slot, level, job, race and element.">
 <meta property="og:image" content="https://rtmrefuge.pages.dev/assets/social/og-cover.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -26,7 +26,7 @@
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Database | Return to Morroc: Refuge">
-<meta name="twitter:description" content="The Refuge's community reference database - items, skills, monsters and maps, open for player corrections - plus the reference pages hosted on this site.">
+<meta name="twitter:description" content="Searchable database of 11,098 items and 2,073 monsters with 8,112 drops - filter by type, slot, level, job, race and element.">
 <meta name="twitter:image" content="https://rtmrefuge.pages.dev/assets/social/og-cover.jpg">
 
 <link rel="icon" href="assets/img/icon-32.png" sizes="32x32">
@@ -60,6 +60,7 @@
   ]
 }
 </script>
+<script>window.RTMR_DB = {items: 11098, mobs: 2073, drops: 8112};</script>
 </head>
 <body>
 <a class="skip-link" href="#main" data-i18n="a11y.skip">Skip to content</a>
@@ -81,6 +82,7 @@
       <a href="mechanics.html" data-i18n="nav.mechanics">Mechanics</a>
       <a href="gear.html" data-i18n="nav.gear">Gear</a>
       <a href="world.html" data-i18n="nav.world">World</a>
+      <a href="database.html" aria-current="page" data-i18n="nav.database">Database</a>
       <a href="guides.html" data-i18n="nav.guides">Guides</a>
       <a href="join.html" data-i18n="nav.join">Join</a>
     </nav>
@@ -149,6 +151,7 @@
       <a href="mechanics.html" data-i18n="nav.mechanics">Mechanics</a>
       <a href="gear.html" data-i18n="nav.gear">Gear</a>
       <a href="world.html" data-i18n="nav.world">World</a>
+      <a href="database.html" aria-current="page" data-i18n="nav.database">Database</a>
       <a href="guides.html" data-i18n="nav.guides">Guides</a>
       <a href="join.html" data-i18n="nav.join">Join</a>
     </nav>
@@ -156,84 +159,71 @@
   </div>
 </div>
 <main id="main">
-<section class="page-hero">
+<section class="page-hero page-hero--tight">
   <div class="shell">
     <p class="crumbs"><a href="index.html" data-i18n="ui.home">Home</a><span>/</span><span>Database</span></p>
-    <h1>The database</h1>
-    <p>
-      Items, skills, monsters and maps, maintained in the open and built so the
-      people who play can correct it.
+    <h1 data-i18n="db.h1">Database</h1>
+    <p class="lede" data-i18n="db.lede">
+      Every item and every monster, straight out of the server's own files.
+      Filter it, sort it, and follow a drop in either direction.
     </p>
   </div>
 </section>
 
-<section class="section">
-  <div class="shell">
-    <div class="grid grid--wide">
-      <div class="prose reveal">
-        <h2>What it covers</h2>
-        <p>
-          The head admin has been building a reference database alongside the
-          server itself. It carries tabs for skills, monsters, maps and items,
-          plus fields for discussion - notes on what needs a buff, a nerf or a
-          fix, attached to the thing being discussed rather than lost in a chat
-          channel.
-        </p>
-        <p>
-          That last part is the point. The plan is a world where everyone can
-          contribute, and the database is the mechanism.
-        </p>
-        <div class="panel panel--warn">
-          <p>
-            <strong>Work in progress.</strong> Take numbers with a grain of salt.
-            The server has not launched, the balance lists are still moving, and
-            the database is being filled in as the build settles.
-          </p>
-        </div>
-        <p class="cluster" style="margin-top:1.6rem">
-          <a class="btn btn--primary" href="https://rtm-internal-e.vercel.app/" rel="noopener">Open the database</a>
-          <a class="btn btn--ghost" href="https://discord.gg/a5P3PFNMhn" rel="noopener">Report a correction</a>
-        </p>
+<div class="shell db" id="db">
+  <div class="db-tabs" role="tablist" aria-label="Database">
+    <button class="db-tab" role="tab" id="tab-items" aria-controls="panel-items"
+            aria-selected="true" data-db-tab="items" data-i18n="db.items">Items</button>
+    <button class="db-tab" role="tab" id="tab-mobs" aria-controls="panel-mobs"
+            aria-selected="false" data-db-tab="mobs" data-i18n="db.monsters">Monsters</button>
+  </div>
+
+  <div class="db-shell">
+    <form class="db-filters" id="db-filters" aria-label="Filters">
+      <div class="db-search">
+        <label class="visually-hidden" for="db-q">Search</label>
+        <input id="db-q" class="field" type="search" autocomplete="off"
+               placeholder="Search by name or effect..."
+               data-i18n-attr="placeholder:db.search">
       </div>
-      <div class="stack">
-        <div class="card reveal">
-          <span class="card-kicker">Maintained by</span>
-          <h3>Metta</h3>
-          <p>Head admin. The same person paying for the hardware.</p>
-        </div>
-        <div class="card reveal">
-          <span class="card-kicker">Also on this site</span>
-          <h3>Reference pages</h3>
-          <ul>
-            <li><a href="classes.html">Every job rebalance</a></li>
-            <li><a href="newjobs.html">Bouncer and Pit Boss skills</a></li>
-            <li><a href="world.html">All 21 distortion dungeons</a></li>
-            <li><a href="changes.html">Changes from the original</a></li>
-          </ul>
-        </div>
-        <div class="card reveal">
-          <span class="card-kicker">For machines</span>
-          <h3>llms.txt</h3>
-          <p>
-            A plain-text map of this site for language models and other tools, so
-            an answer about the Refuge can be sourced instead of guessed.
-          </p>
-          <p><a href="llms.txt">/llms.txt</a></p>
-        </div>
+      <div id="db-facets"></div>
+      <button type="button" class="btn btn--ghost btn--block" id="db-reset"
+              data-i18n="db.reset">Clear filters</button>
+    </form>
+
+    <div class="db-main">
+      <div class="db-bar">
+        <p class="db-count mono" id="db-count" aria-live="polite">Loading...</p>
+        <label class="visually-hidden" for="db-sort">Sort</label>
+        <select id="db-sort" class="field field--select"></select>
+      </div>
+      <div id="panel-items" role="tabpanel" aria-labelledby="tab-items">
+        <ul class="db-list" id="db-list"></ul>
+        <div id="db-sentinel" aria-hidden="true"></div>
+        <p class="db-empty" id="db-empty" hidden data-i18n="db.empty">
+          Nothing matches those filters.
+        </p>
       </div>
     </div>
   </div>
-</section>
+</div>
+
+<aside class="db-detail" id="db-detail" data-open="false" role="dialog"
+       aria-modal="false" aria-label="Entry details" hidden>
+  <div class="db-detail-inner" id="db-detail-inner"></div>
+</aside>
 
 <section class="section section--tight">
   <div class="shell">
-    <div class="cta-band reveal">
-      <h2>Found something wrong?</h2>
-      <p>Corrections are the most useful thing you can contribute before launch. Every balance list on this site changed at least once because someone said so in chat.</p>
-      <div class="cluster">
-        <a class="btn btn--primary" href="https://discord.gg/a5P3PFNMhn" rel="noopener" data-i18n="cta.join">Join the community server</a>
-        <a class="btn btn--ghost" href="join.html" data-i18n="cta.howto">How to get in</a>
-      </div>
+    <div class="panel">
+      <p>
+        <strong>These are the original world's numbers.</strong> They are read
+        directly from the server files the project inherited, which makes them
+        the most accurate reference that exists today - and it also means the
+        Refuge's rebalance passes are not in them yet. Where a page on this
+        site says something different, that page wins.
+        <a href="changes.html">See what changed</a>.
+      </p>
     </div>
   </div>
 </section>
@@ -290,12 +280,11 @@
       </div>
     </div>
     <p class="footer-legal" data-i18n="foot.legal">
-      Return to Morroc: Refuge is an unofficial, non-commercial fan project with no affiliation to,
-      sponsorship by or endorsement from any game publisher, developer or rights
-      holder. It hosts no commercial storefront, sells nothing, and accepts no
-      real-money trading. All third-party names that appear anywhere on this site
+      Return to Morroc: Refuge is an unofficial fan project with no affiliation to, sponsorship by
+      or endorsement from any game publisher, developer or rights holder. It is
+      free to play, it accepts no real-money trading, and it will never sell
+      in-game power. All third-party names that appear anywhere on this site
       belong to their respective owners and are used only to describe gameplay.
-      Nothing here is distributed for profit.
       <br><br>
       Built by the community, in the open. Site content is free to copy.
     </p>
@@ -305,6 +294,7 @@
 
 <script>window.RTMR_PREFIX = "";</script>
 <script src="assets/js/main.js" defer></script>
+<script src="assets/js/database.js" defer></script>
 <script src="assets/js/search.js" defer></script>
 <script src="assets/js/i18n.js" defer></script>
 </body>

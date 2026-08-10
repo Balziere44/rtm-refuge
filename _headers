@@ -24,3 +24,8 @@
 
 /assets/js/*
   Cache-Control: public, max-age=3600, must-revalidate
+
+# The database payload is 1.7 MB and is regenerated only when the game data
+# changes, so it revalidates daily rather than on every visit.
+/assets/data/*
+  Cache-Control: public, max-age=86400, must-revalidate

@@ -608,7 +608,7 @@
      "NOTE: You can buy the raw materials as well as ready to use toxins.",
      "Ready to use toxins are heavy and not cost-effective but have no requirements.",
      "Toxins should, when possible, be crafted since their materials are MUCH lighter to carry.",
-     "Toxin effects can be checked on the [https://web.archive.org/web/20231127163022/https://returntomorroc.com/wiki/index.php/Black_Plague Black Plague] job page."
+     "Toxin effects can be checked on the Black Plague job page."
     ],
     "skills": [],
     "title": "Poison Inventory"
@@ -1060,7 +1060,7 @@
     "bullets": [
      "Some equipment may have extra slots, such as accessories with 2 slots, or similar effects.",
      "Paradox equipment, that can be obtained in Varmundt's Mansion have 2 slots. They have negligible bonuses by themselves.",
-     "Sage equipment, that can be obtained in Dicastes Diel have 3 slots. These equipment require many Distortion Essences, items obtained from the [https://web.archive.org/web/20231127162729/https://returntomorroc.com/wiki/index.php/Distortion_Dungeons Distortion Dungeons], and are a very good goal for end-game farming. They have very basic bonuses, but their versatility due to 3 slots is unmatched."
+     "Sage equipment, that can be obtained in Dicastes Diel have 3 slots. These equipment require many Distortion Essences, items obtained from the Distortion Dungeons, and are a very good goal for end-game farming. They have very basic bonuses, but their versatility due to 3 slots is unmatched."
     ],
     "level": 2,
     "paras": [
@@ -1522,7 +1522,7 @@
     "bullets": [],
     "level": 2,
     "paras": [
-     "Distortion Dungeons are unique [https://returntomorroc.com/wiki/index.php/Regions_and_Dungeons.html#Dungeons dungeons] that require precise gameplay while under new rules.",
+     "Distortion Dungeons are unique dungeons that require precise gameplay while under new rules.",
      "The biggest difference for those is that each one has a unique mechanic, either simple or complex and take place in a different time period/timeline.",
      "Distortions are either in the Past or in the Future, and when entering one, it tells you how far from the original timeline it takes place.",
      "They are also always Rank B or higher."
@@ -1534,7 +1534,7 @@
     "bullets": [],
     "level": 2,
     "paras": [
-     "The Dungeons require a powered-up [https://returntomorroc.com/wiki/index.php/Bifrost_Mirror Bifrost Mirror], each type of dungeon requires a a different level of it. The Bifrost Mirror has 4 levels of energy, depending on the current eyes slotted into it.",
+     "The Dungeons require a powered-up Bifrost Mirror, each type of dungeon requires a a different level of it. The Bifrost Mirror has 4 levels of energy, depending on the current eyes slotted into it.",
      "You can find the location of all pieces and details about them on the page linked above.",
      "Reminder that Bifrost Mirror and the 4 Eyes cannot be stored or traded and are character bound.",
      "Eye of Vidar: Travel to the past.",
@@ -3009,7 +3009,7 @@
     "bullets": [],
     "level": 1,
     "paras": [
-     "[https://echoesofmorroc.com/quests 🔗 Job quests can be found at the database ]",
+     "🔗 Job quests can be found at the database",
      "Jobs are not only ways to play here, but also a unique identity of the player. The Job Change Quests are an essential part of this."
     ],
     "skills": [],
@@ -4342,10 +4342,10 @@
     "level": 1,
     "paras": [
      "Disclaimer: This is a wiki based on the original PRM wiki. All credits belong to the original editors and to the future contributors of this wiki.",
-     "Need an introduction to our server? Look no further! [https://www.youtube.com/watch?v=H9le2rRJDIE What is Return to Morroc?]",
-     "Feeling Lost? Check out [https://wiki.echoesofmorroc.org/New_Player_Guide New Player Guide].",
-     "Check our [https://discord.gg/VKwgZRDcGf Discord] server for daily updates!",
-     "You can Download the game and create an account [https://echoesofmorroc.org/account Here!]",
+     "Need an introduction to our server? Look no further! What is Return to Morroc?",
+     "Feeling Lost? Check out New Player Guide.",
+     "Check our Discord server for daily updates!",
+     "You can Download the game and create an account Here!",
      "Current Patch: 1.3.1"
     ],
     "skills": [],
@@ -4387,7 +4387,7 @@
      "rect 555 141 664 163 Cards Accessory",
      "rect 725 141 828 163 Cards Accessory",
      "desc none",
-     "[https://echoesofmorroc.com/items 🔗 Updated items can be found at the database ]"
+     "🔗 Updated items can be found at the database"
     ],
     "skills": [],
     "title": "Click the Equip slots to see the Items!"
@@ -4555,7 +4555,7 @@
     "level": 1,
     "paras": [
      "Echoes of Morroc is based on \"Return To Morroc\" project, created by Ornstein \"Father of Orphans\" .",
-     "Project Return to Morroc [\"PRM\" for short] Is fully custom server that gives unique player experience for players of the classic game. WIth custom and remade Jobs/Dungeons/Mechanics/Gear/Stats(for more info check out [https://wiki.echoesofmorroc.com/Main_Features Main Features]"
+     "Project Return to Morroc [\"PRM\" for short] Is fully custom server that gives unique player experience for players of the classic game. WIth custom and remade Jobs/Dungeons/Mechanics/Gear/Stats(for more info check out Main Features"
     ],
     "skills": [],
     "title": "Echoes of Morroc info"
@@ -4586,7 +4586,7 @@
      "Night Raven, Prowler, Jester.",
      "on.",
      "movement speed.",
-     "After Tutorial quest is finished, you will be teleported to the Orphange, the \"Orphans\" Hub area. [https://wiki.echoesofmorroc.com/The_Orphanage The Orphanage]",
+     "After Tutorial quest is finished, you will be teleported to the Orphange, the \"Orphans\" Hub area. The Orphanage",
      "Once you are in Real World you are welcomed by Shadow of Ornstein, further in the hall you can speak with Nanny, who will give you some basic items for your journey in New-Midgard."
     ],
     "skills": [],
@@ -4611,18 +4611,18 @@
      "Level here until you get 10/10[Normal Jobs] or 15/10[Expert Jobs](except mimic he needs 25/10) for first Job Change.",
      "Then proceed on changing jobs to:",
      "Normal Jobs:",
-     "[https://wiki.echoesofmorroc.com/Thief Thief] - The Default Class in PRM. Has variety of skills, from melee/magic/ranged and passive to increase your Resource management or stat increases such as HP/SP/Flee.",
-     "[https://wiki.echoesofmorroc.com/Raider Raider] - Physical Bruiser Class. Unique job that focuses on using spears, dealing average damage and high survivability.",
-     "[https://wiki.echoesofmorroc.com/Trickster Trickster] - Physical Bruiser leech based class. has inbuilt Leech from using Scythes. Fire Endow/AutoGuard and 1-2-3 combo playstyle.",
-     "[https://wiki.echoesofmorroc.com/Jester Jester] - Hybrid Physical/Magical class. Uses Unique Decks of cards that gives different effects depending on suit used. High ASPD limit. Burst and Spam Skills. and strong finisher that consumes HP to deal damage.",
-     "[https://wiki.echoesofmorroc.com/Ronin Ronin] - Physical DPS Class. Excells on High Evade and burst damage with combo skills. Way of the Blade buff increases damage dealt with skills, but lost on taking any damage. Blade Skill Deals Melee damage in combo style. Void Dash skill deals Ranged damage by dashing behind target dealing delayed damage.",
+     "Thief - The Default Class in PRM. Has variety of skills, from melee/magic/ranged and passive to increase your Resource management or stat increases such as HP/SP/Flee.",
+     "Raider - Physical Bruiser Class. Unique job that focuses on using spears, dealing average damage and high survivability.",
+     "Trickster - Physical Bruiser leech based class. has inbuilt Leech from using Scythes. Fire Endow/AutoGuard and 1-2-3 combo playstyle.",
+     "Jester - Hybrid Physical/Magical class. Uses Unique Decks of cards that gives different effects depending on suit used. High ASPD limit. Burst and Spam Skills. and strong finisher that consumes HP to deal damage.",
+     "Ronin - Physical DPS Class. Excells on High Evade and burst damage with combo skills. Way of the Blade buff increases damage dealt with skills, but lost on taking any damage. Blade Skill Deals Melee damage in combo style. Void Dash skill deals Ranged damage by dashing behind target dealing delayed damage.",
      "Expert Jobs:",
-     "[https://wiki.echoesofmorroc.com/Vagabond Vagabond] - Physical DPS class. Deals high dps, with low survivability. Has All element Endows with \"Seven Winds\". Passsives that increase ASPD/ATK and Flee. Frenzy that sets your APSD to 193 with increased ATK, and disables HP regenration.",
-     "[https://wiki.echoesofmorroc.com/Judge Judge] - Ranged DPS Class. Has burst damage with skills. High Mobility with Vault skill. Seals Management enables/boosts skills. Has access to variety of Revolvers made in [https://wiki.echoesofmorroc.com/Judge_Headquarters Judge HQ]",
-     "[https://wiki.echoesofmorroc.com/Darkknight Dark Knight] - Melee/Magic DPS/Bruiser Class. Harvest Buff Removes Regen, but increases Skill damage based on missing health. Black Heart gives 100% leech chance with 10% amount.",
-     "[https://wiki.echoesofmorroc.com/Peacekeeper Peacekeeper] - Melee/Ranged Class. Combo Style Character that has continuous combo gameplay. Damage scaled on dex, and other stats while under crash trinket effect. Trinkets can grant unique effects from Stat Scaling/Buffs/Debuffs.",
-     "[https://wiki.echoesofmorroc.com/Illusionist Illusionist] - Magic based Summoner class. Can summon Kimi to assist caster in combat. Uses Unique Gloves to change effect on Real Magic Attack. Grand Summoning can summon up to 5 monster to fight alongside Illusionist.",
-     "[https://wiki.echoesofmorroc.com/Mimic Mimic] - 4fun Class. Can cast all 150 skills in the game depending on RNG with Abracadabra. Plagiarism can Save skill from other classes that he can use manually."
+     "Vagabond - Physical DPS class. Deals high dps, with low survivability. Has All element Endows with \"Seven Winds\". Passsives that increase ASPD/ATK and Flee. Frenzy that sets your APSD to 193 with increased ATK, and disables HP regenration.",
+     "Judge - Ranged DPS Class. Has burst damage with skills. High Mobility with Vault skill. Seals Management enables/boosts skills. Has access to variety of Revolvers made in Judge HQ",
+     "Dark Knight - Melee/Magic DPS/Bruiser Class. Harvest Buff Removes Regen, but increases Skill damage based on missing health. Black Heart gives 100% leech chance with 10% amount.",
+     "Peacekeeper - Melee/Ranged Class. Combo Style Character that has continuous combo gameplay. Damage scaled on dex, and other stats while under crash trinket effect. Trinkets can grant unique effects from Stat Scaling/Buffs/Debuffs.",
+     "Illusionist - Magic based Summoner class. Can summon Kimi to assist caster in combat. Uses Unique Gloves to change effect on Real Magic Attack. Grand Summoning can summon up to 5 monster to fight alongside Illusionist.",
+     "Mimic - 4fun Class. Can cast all 150 skills in the game depending on RNG with Abracadabra. Plagiarism can Save skill from other classes that he can use manually."
     ],
     "skills": [],
     "title": "First Job Change"
@@ -4661,18 +4661,18 @@
    },
    {
     "bullets": [
-     "[https://wiki.echoesofmorroc.com/Rogue Rogue] - Hybrid Class with multiple \"build\" skill tree, depending on skill tree chosen can be Melee Bruiser, Creator or Hunter type classes and also having shield mastery tree. Can further change jobs by getting specialization or Unchained evolution.",
-     "[https://wiki.echoesofmorroc.com/Assassin Assassin] - Hybrid Class with multiple \"build\" skill tree, depending on skill tree chosen utilize weapons used from Sword, Axe ,Katar and Shadow skill mastery. Can further change jobs by getting specialization or Unchained evolution.",
-     "[https://wiki.echoesofmorroc.com/Prowler Prowler] - Melee Dps class. Scales Flee and Perfect Dodge. Improves Backstab from thief skill kit. High Burst damage and evasion. Uses Unique Off-hand.",
-     "[https://wiki.echoesofmorroc.com/Shadowseer Shadowseer] - Pseudo Melee Magic class. Adds MATK as ATK. Uses Off-hand dagger that increases range(Class is still melee). Depends on Auto spell skil, bursting enemy with autocasting spells. High DPS and ASPD. Squishy.",
-     "[https://wiki.echoesofmorroc.com/Unchained_Evolutions Unchained Thief] - Super Novice of PRM. Unlocks core skills from both Rogue/Assassin classes. Can further Unchain by getting core skills of all Specialization classes."
+     "Rogue - Hybrid Class with multiple \"build\" skill tree, depending on skill tree chosen can be Melee Bruiser, Creator or Hunter type classes and also having shield mastery tree. Can further change jobs by getting specialization or Unchained evolution.",
+     "Assassin - Hybrid Class with multiple \"build\" skill tree, depending on skill tree chosen utilize weapons used from Sword, Axe ,Katar and Shadow skill mastery. Can further change jobs by getting specialization or Unchained evolution.",
+     "Prowler - Melee Dps class. Scales Flee and Perfect Dodge. Improves Backstab from thief skill kit. High Burst damage and evasion. Uses Unique Off-hand.",
+     "Shadowseer - Pseudo Melee Magic class. Adds MATK as ATK. Uses Off-hand dagger that increases range(Class is still melee). Depends on Auto spell skil, bursting enemy with autocasting spells. High DPS and ASPD. Squishy.",
+     "Unchained Thief - Super Novice of PRM. Unlocks core skills from both Rogue/Assassin classes. Can further Unchain by getting core skills of all Specialization classes."
     ],
     "level": 1,
     "paras": [
      "Now you should have Base/Job level 50. And its time to change jobs, Expert Jobs can't change job further. Trickster and Vagabond need level 99/70 before changing to 2nd job.",
      "Thief Job change:",
      "Raider Job change:",
-     "[https://wiki.echoesofmorroc.com/Dracomancer Dracomancer] - Bruiser/Off-tank Melee Class. By changing job gain access to using Draco Orb that grants effects via active skill buff for short duration scaling on Orb \"Soul Level\". Depending on Draco Orb used gives effects by improving certain skill effect or giving more effects to them. Uses Dragon Force/Dragon Pact Stances to activate skills."
+     "Dracomancer - Bruiser/Off-tank Melee Class. By changing job gain access to using Draco Orb that grants effects via active skill buff for short duration scaling on Orb \"Soul Level\". Depending on Draco Orb used gives effects by improving certain skill effect or giving more effects to them. Uses Dragon Force/Dragon Pact Stances to activate skills."
     ],
     "skills": [],
     "title": "Second Job Change"
@@ -4694,14 +4694,14 @@
    },
    {
     "bullets": [
-     "[https://wiki.echoesofmorroc.com/Specializations#Mystic Mystic] - Enhances Spell casting playstyle. offering new damage skills and buffs that improves magical damage. Can change job to Arcane Master",
-     "[https://wiki.echoesofmorroc.com/Specializations#Duelist Duelist] - Enhances Melee Bruiser playstyle offering stance that gives counter charges and improves skills depending on amount of charges. Can change job to Kingslayer.",
-     "[https://wiki.echoesofmorroc.com/Specializations#Saboteur Saboteur] - Enhances Trap playstyle. Gives more explosion skills and traps. Has access to Potion pitcher that heals all allies in aoe. Can change job to Blast Juggler.",
-     "[https://wiki.echoesofmorroc.com/Specializations#Deadeye Deadeye] - Enhances Ranged Bow playstyle. Giving access to Sniper's nest which reduces movement speed but increased damage dealt and heavy finisher that deals massive single target damage in sniper's nest. Can change job to Sinner.",
-     "[https://wiki.echoesofmorroc.com/Specializations#Blade_Dancer Blade Dancer] - Master of Blades. Dual Wielding gameplay improvements. Can change job to Night Raven.",
-     "[https://wiki.echoesofmorroc.com/Specializations#Scoundrel Scoundrel] - Master of Poisons.",
-     "[https://wiki.echoesofmorroc.com/Specializations#Executioner Executioner] - Master of Katars. Combo playstyle. Chaining skills deals heavy damage. Can change to Gravekeeper",
-     "[https://wiki.echoesofmorroc.com/Specializations#Shinobi Shinobi] Master of Elements. has ability to change element of skills and weapon. Defensive/Offensive improved. Can change job to Satsujin."
+     "Mystic - Enhances Spell casting playstyle. offering new damage skills and buffs that improves magical damage. Can change job to Arcane Master",
+     "Duelist - Enhances Melee Bruiser playstyle offering stance that gives counter charges and improves skills depending on amount of charges. Can change job to Kingslayer.",
+     "Saboteur - Enhances Trap playstyle. Gives more explosion skills and traps. Has access to Potion pitcher that heals all allies in aoe. Can change job to Blast Juggler.",
+     "Deadeye - Enhances Ranged Bow playstyle. Giving access to Sniper's nest which reduces movement speed but increased damage dealt and heavy finisher that deals massive single target damage in sniper's nest. Can change job to Sinner.",
+     "Blade Dancer - Master of Blades. Dual Wielding gameplay improvements. Can change job to Night Raven.",
+     "Scoundrel - Master of Poisons.",
+     "Executioner - Master of Katars. Combo playstyle. Chaining skills deals heavy damage. Can change to Gravekeeper",
+     "Shinobi Master of Elements. has ability to change element of skills and weapon. Defensive/Offensive improved. Can change job to Satsujin."
     ],
     "level": 1,
     "paras": [
@@ -4729,25 +4729,25 @@
      "Items to Get: Bushido Shadow Set for Critical Strike chance. Crescent Helm - gives bonuses when base stat is at 99. Muramasa for Sword users. Masamune for Ronin.",
      "\"Rachel Sanctuary F1\": 90 ~ 108. Good finishing place to get lvl 99/70. Vanberks Spam Sonic blow and can stun, Martin card can be used for stun immune. Isilla casts ruwach and sometimes silences. Hodremlin is a dog.",
      "\"Sky Garden dungeon\": 95 ~ 110 . Hard dungeon with great rewards at the end.",
-     "Items to get: First/Last Einherjar shadow set. Odin blessing exchange items. Avatar of Sleipnir card in shoes for movement speed. Avatar of Idun card for HP/SP and Regen in middle headgear slot. for more info check out [https://wiki.echoesofmorroc.com/Einherjar_Equipment Sky Garden Exchange]"
+     "Items to get: First/Last Einherjar shadow set. Odin blessing exchange items. Avatar of Sleipnir card in shoes for movement speed. Avatar of Idun card for HP/SP and Regen in middle headgear slot. for more info check out Sky Garden Exchange"
     ],
     "skills": [],
     "title": "Leveling? I Love it!"
    },
    {
     "bullets": [
-     "[https://wiki.echoesofmorroc.com/Arcanemaster Arcane Master] - Unrestricted magic. Gain access to variety of AoE spells and heavy hitting finisher. Tree of Yggdrasil that can revive fallen allies. Comet that Decreases elemental resistances of monster and more.",
-     "[https://wiki.echoesofmorroc.com/Kingslayer Kingslayer] - Master of Strategy. Chess style character that has Queen's[Mostly Black] and King's skills[Mostly White]. Improves damage with \"Left\" Skill tree, offering more damaging skills. Improves Defences with \"Right\" Skill tree, offering defensive buffs and effects. Can use Heavy Finisher that uses total SP by adding spent SP into % ATK.",
-     "[https://wiki.echoesofmorroc.com/Blast_Juggler Blast Juggler] - Rules? Explosions are only option. Great AoE and Sustain. Gain more Trap skills and explosions. increases potion effectiveness. And cooked food for caster and allies.",
-     "[https://wiki.echoesofmorroc.com/Sinner Sinner] - Repent through cleansing. Further improves ranged playstyle. Offering multiple skills to be used in different builds. from AA/Summon turret/Manual Casting. Great AoE and Mobility/Evasion with decoy.",
-     "[https://wiki.echoesofmorroc.com/Night_Raven Night Raven] - Master of Weapons. Can wield any Assassin's weapons such as Daggers/Swords/Axe/Katar. Grants Hawk that can be autocasted with physical attacks while wielding Sword and dagger. High Single target potential. Great mobility with \"Raven Step\".",
-     "[https://wiki.echoesofmorroc.com/Black_Plague Black Plague] - Unseen death from inside. Improves Poison used and offers more Poisons to infect target with. Boost skills when using poisons or target being affected by poison. Great AoE and Defences, Lots of Debuff ailments.",
-     "[https://wiki.echoesofmorroc.com/Gravekeeper Gravekeeper] - Loki's Legacy. High crit damage potential. burst combo skills with heavy damage. Buffs that increases damage output. No defensive options.",
-     "[https://wiki.echoesofmorroc.com/Satsujin Satsujin] - Jack of all trades. Gain access to Melee/Magic/Ranged skill trees. depending on playstyle can change flow of combat.",
-     "[https://wiki.echoesofmorroc.com/Revenant Revenant] - Lady's Hel loyal subject. Gains Revenant spirit as Lady's Hel reward who follows the player and stuns monsters, or can be exchanged to unique card. Offers heavy hitting skills with counter mechanic. High Leech rate/power. Good AoE.",
-     "[https://wiki.echoesofmorroc.com/Legend Legend] - Become the Legend. Dominate battlefield with overwhelming power. High AA potential. Grants even more passives and buffs that increases Damage potential.",
-     "[https://wiki.echoesofmorroc.com/Unchained_Evolutions Unchained Thief/Rogue] - Master of Change/Traditions. Increased maximum level of certain skills. Gains unique Scarf and accessory that improves some skill effect.",
-     "[https://wiki.echoesofmorroc.com/Unchained_Evolutions Phantom Thief] - Infinite Possibilites. Gain access to most of the specializations skills. Can use every other class exclusive shadow sets."
+     "Arcane Master - Unrestricted magic. Gain access to variety of AoE spells and heavy hitting finisher. Tree of Yggdrasil that can revive fallen allies. Comet that Decreases elemental resistances of monster and more.",
+     "Kingslayer - Master of Strategy. Chess style character that has Queen's[Mostly Black] and King's skills[Mostly White]. Improves damage with \"Left\" Skill tree, offering more damaging skills. Improves Defences with \"Right\" Skill tree, offering defensive buffs and effects. Can use Heavy Finisher that uses total SP by adding spent SP into % ATK.",
+     "Blast Juggler - Rules? Explosions are only option. Great AoE and Sustain. Gain more Trap skills and explosions. increases potion effectiveness. And cooked food for caster and allies.",
+     "Sinner - Repent through cleansing. Further improves ranged playstyle. Offering multiple skills to be used in different builds. from AA/Summon turret/Manual Casting. Great AoE and Mobility/Evasion with decoy.",
+     "Night Raven - Master of Weapons. Can wield any Assassin's weapons such as Daggers/Swords/Axe/Katar. Grants Hawk that can be autocasted with physical attacks while wielding Sword and dagger. High Single target potential. Great mobility with \"Raven Step\".",
+     "Black Plague - Unseen death from inside. Improves Poison used and offers more Poisons to infect target with. Boost skills when using poisons or target being affected by poison. Great AoE and Defences, Lots of Debuff ailments.",
+     "Gravekeeper - Loki's Legacy. High crit damage potential. burst combo skills with heavy damage. Buffs that increases damage output. No defensive options.",
+     "Satsujin - Jack of all trades. Gain access to Melee/Magic/Ranged skill trees. depending on playstyle can change flow of combat.",
+     "Revenant - Lady's Hel loyal subject. Gains Revenant spirit as Lady's Hel reward who follows the player and stuns monsters, or can be exchanged to unique card. Offers heavy hitting skills with counter mechanic. High Leech rate/power. Good AoE.",
+     "Legend - Become the Legend. Dominate battlefield with overwhelming power. High AA potential. Grants even more passives and buffs that increases Damage potential.",
+     "Unchained Thief/Rogue - Master of Change/Traditions. Increased maximum level of certain skills. Gains unique Scarf and accessory that improves some skill effect.",
+     "Phantom Thief - Infinite Possibilites. Gain access to most of the specializations skills. Can use every other class exclusive shadow sets."
     ],
     "level": 1,
     "paras": [
@@ -4770,8 +4770,8 @@
     ],
     "level": 1,
     "paras": [
-     "After you acquired lvl 100, and changed to final job, now is the time to start exploring [https://wiki.echoesofmorroc.com/Distortion_Dungeons \"Distortion Dungeons\"]. A unique dungeons ,that offers more items to farm, with slight difficulty increase, depending on distortion of course, it can vary from debuffing/buffing player and monsters while in dungeon, enables free pvp for every player inside, draining full exp on death or just disabling resurrection.",
-     "To enter such dungeons player would need [https://wiki.echoesofmorroc.com/Bifrost_Mirror \"Bifrost Mirror\"], following the guide will help you find both Bifrost shard, and 4 eyes of the sons of Odin. Each socketed eye allows traveling in time, be it either past, future, or completly new timeline.",
+     "After you acquired lvl 100, and changed to final job, now is the time to start exploring \"Distortion Dungeons\". A unique dungeons ,that offers more items to farm, with slight difficulty increase, depending on distortion of course, it can vary from debuffing/buffing player and monsters while in dungeon, enables free pvp for every player inside, draining full exp on death or just disabling resurrection.",
+     "To enter such dungeons player would need \"Bifrost Mirror\", following the guide will help you find both Bifrost shard, and 4 eyes of the sons of Odin. Each socketed eye allows traveling in time, be it either past, future, or completly new timeline.",
      "I hope you saved a lot of zeny for Sage's service."
     ],
     "skills": [],
@@ -5063,7 +5063,7 @@
     "bullets": [],
     "level": 2,
     "paras": [
-     "The Orphan is a cursed person. Every Orphan carries The Mark with them. Orphans create a [https://web.archive.org/web/20230601182556/https://returntomorroc.com/wiki/index.php?title=Shadow&action=edit&redlink=1 Shadow] when they die in specific places where negative energy is gathered, since Shadows attempt to explode when they die, they are very dangerous to society. For this reason, most people don't like having Orphans near them.",
+     "The Orphan is a cursed person. Every Orphan carries The Mark with them. Orphans create a Shadow when they die in specific places where negative energy is gathered, since Shadows attempt to explode when they die, they are very dangerous to society. For this reason, most people don't like having Orphans near them.",
      "Orphans don't have access to the original jobs due to the risk they bring. Only the Thief, and in turn, Assassin and Rogue guilds accept Orphans, that's because those guilds would always be seen as outsiders by the common people, so they embraced these new outcasts from society.",
      "Some alternative associations also seem to be taking Orphans...",
      "An Orphan can also become a Merchant, as long as it sticks to the rules of the Merchant Association of Alberta and refrain from training and stick to a peaceful life of markets and trading."
@@ -5734,21 +5734,6 @@
    },
    {
     "bullets": [],
-    "level": 3,
-    "paras": [
-     "https://echoesofmorroc.com/cp/data/items/images/1130002.png",
-     "https://echoesofmorroc.com/cp/data/items/images/1130003.png",
-     "https://echoesofmorroc.com/cp/data/items/images/1130004.png",
-     "https://echoesofmorroc.com/cp/data/items/images/1130005.png",
-     "https://echoesofmorroc.com/cp/data/items/images/1130008.png",
-     "https://echoesofmorroc.com/cp/data/items/images/1130009.png",
-     "https://echoesofmorroc.com/cp/data/items/images/1130010.png"
-    ],
-    "skills": [],
-    "title": "Types of Orbs"
-   },
-   {
-    "bullets": [],
     "level": 4,
     "paras": [
      "Orb Types"
@@ -5998,7 +5983,7 @@
     "bullets": [],
     "level": 1,
     "paras": [
-     "[https://echoesofmorroc.com/dungeons 🔗 You can know more about dungeons at the database ]"
+     "🔗 You can know more about dungeons at the database"
     ],
     "skills": [],
     "title": ""
@@ -6027,7 +6012,7 @@
     "level": 2,
     "paras": [
      "Dungeons are regular places to hunt for items, cards and level up. They are harder than most fields but always carry considerable and unique rewards. Dungeons are NOT instance-based. They are open maps that can be explored as much as needed.",
-     "They also have a Ranking that dictates how hard a dungeon is, the rank also dictates what shadows will spawn for the [https://web.archive.org/web/20230822235444/https://returntomorroc.com/wiki/index.php/Shadow_System Shadow System]."
+     "They also have a Ranking that dictates how hard a dungeon is, the rank also dictates what shadows will spawn for the Shadow System."
     ],
     "skills": [],
     "title": "Dungeons"
@@ -7886,7 +7871,7 @@
      "ASPD is now greatly based on overall AGI of the character.",
      "Flat ASPD bonuses are more prevalent.",
      "Dual Wield ASPD penalty has been increased by 25%.",
-     "Hard ASPD cap for every job is 193. Soft Cap [Increased with ASPD limit gear] check your soft cap here in [https://wiki.echoesofmorroc.com/Base_Aspd_Limit_Table Base ASPD Limit Table]"
+     "Hard ASPD cap for every job is 193. Soft Cap [Increased with ASPD limit gear] check your soft cap here in Base ASPD Limit Table"
     ],
     "level": 3,
     "paras": [],

@@ -293,7 +293,7 @@ REMOVED = [
     "Level 100+ job shadow sets. They locked players into one playstyle past 100; the replacement sets are built for variety and for the skills nobody was using.",
     "Manuals that no longer made sense after the Heal, Hiding and Warp Portal rework.",
     "Drop rate bonuses from gear.",
-    "The cash shop.",
+    "The old cash shop, in the form it had. How the server funds itself is being rethought from scratch, in the open - see <a href=\"server.html#money\">the funding note</a>.",
 ]
 
 # --------------------------------------------------------------------------
@@ -337,8 +337,8 @@ TIMELINE = [
 FAQS = [
     ("Is there a launch date?",
      "No fixed date. The team has said the current plan is August 2026 and called it roughly 95% likely, but they have missed one estimate already and would rather be honest than pin a day to a calendar. Watch the community server."),
-    ("Is it free? Is there a cash shop?",
-     "It is free. There is no cash shop at launch and no real-money trading of any kind. The head admin has paid the hosting and development costs out of pocket and has said he wants to discuss recouping them with the community later - founder packs, a Patreon, voluntary donations, something - but nothing has been decided and nothing sells power."),
+    ("Is it free? Will there be a cash shop?",
+     "It is free to play. Whether there is a shop, and what would be in it, has not been decided - and it would be dishonest to promise there will never be one. Hosting costs money and the people building this are doing real work that deserves to be paid for. What can be promised, and is: it will never sell power. No stats, no gear advantage, no progression you can buy past, and no real-money trading. Whatever the funding ends up being, it gets discussed with the community before it ships."),
     ("How is this different from the original?",
      "Hundreds of changes, but they all follow one idea: expand what worked, fix what did not. Over 300 new items, 50+ new shadow sets, two new jobs, new dungeons, a full job rebalance pass, and the removal of the systems that funnelled everyone into the same build."),
     ("Do job shadow sets still exist?",

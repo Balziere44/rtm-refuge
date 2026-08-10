@@ -318,14 +318,7 @@ def overview():
 
 <section class="section section--tight">
   <div class="shell">
-    <dl class="stat-row reveal">
-      <div class="stat"><dt>Classes</dt><dd>{len(M.CLASSES)}</dd></div>
-      <div class="stat"><dt>Final jobs</dt><dd>{counts.get('final', 0)}</dd></div>
-      <div class="stat"><dt>Specialisations</dt><dd>{counts.get('spec', 0)}</dd></div>
-      <div class="stat"><dt>Expert jobs</dt><dd>{counts.get('expert', 0)}</dd></div>
-      <div class="stat"><dt>Skills documented</dt><dd>{sum(len(wiki_for(c)[1]) for c in M.CLASSES)}</dd></div>
-    </dl>
-    <div class="panel reveal" style="margin-top:2rem">
+    <div class="panel reveal">
       <p>
         <strong>Job shadow sets are gone.</strong> In the original, every job had
         its own mandatory set past level 100 and it decided your build for you.

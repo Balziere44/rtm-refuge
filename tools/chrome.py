@@ -32,6 +32,7 @@ NAV = [
     ("mechanics.html", "Mechanics"),
     ("gear.html", "Gear"),
     ("world.html", "World"),
+    ("database.html", "Database"),
     ("guides.html", "Guides"),
     ("join.html", "Join"),
 ]
@@ -273,12 +274,11 @@ def footer(prefix):
 {cols}
     </div>
     <p class="footer-legal" data-i18n="foot.legal">
-      {BRAND} is an unofficial, non-commercial fan project with no affiliation to,
-      sponsorship by or endorsement from any game publisher, developer or rights
-      holder. It hosts no commercial storefront, sells nothing, and accepts no
-      real-money trading. All third-party names that appear anywhere on this site
+      {BRAND} is an unofficial fan project with no affiliation to, sponsorship by
+      or endorsement from any game publisher, developer or rights holder. It is
+      free to play, it accepts no real-money trading, and it will never sell
+      in-game power. All third-party names that appear anywhere on this site
       belong to their respective owners and are used only to describe gameplay.
-      Nothing here is distributed for profit.
       <br><br>
       Built by the community, in the open. Site content is free to copy.
     </p>

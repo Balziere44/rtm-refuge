@@ -106,7 +106,7 @@ HOME_LD = """<script type="application/ld+json">
       "gamePlatform": "PC",
       "playMode": ["SinglePlayer", "MultiPlayer", "CoOp"],
       "isAccessibleForFree": true,
-      "description": "A custom, free-to-play fantasy MMO world. Two new jobs, a full skill rebalance, 21 distortion dungeons and three SS-rank endgame dungeons. No cash shop, no real-money trading.",
+      "description": "A custom, free-to-play fantasy MMO world. Two new jobs, a full skill rebalance, 21 distortion dungeons and three SS-rank endgame dungeons. Never sells power, and no real-money trading.",
       "author": {"@type": "Organization", "name": "The Refuge team"}
     }
   ]
@@ -116,6 +116,12 @@ HOME_LD = """<script type="application/ld+json">
 
 
 def build_home():
+    """Deliberately short.
+
+    The previous version put six cards of prose and a six-number strip above
+    the fold. Counts of classes and skills are not what a visitor is deciding
+    on - they want to look at something and click. So: one sentence, two
+    buttons, then four large targets."""
     body = f"""<div class="aurora" aria-hidden="true"><span class="a1"></span><span class="a2"></span><span class="a3"></span></div>
 
 <section class="hero">
@@ -124,20 +130,12 @@ def build_home():
       <p class="eyebrow"><span class="live-dot" aria-hidden="true"></span> <span data-i18n="home.status">In development &middot; no launch date yet</span></p>
       <h1><span data-i18n="home.h1">The Orphans have their <span class="accent">old home</span> back.</span></h1>
       <p class="hero-lede" data-i18n="home.lede">
-        The orphanage went dark when the original world closed. It is being lit
-        again - same place, better bones. Every job rebalanced, two new ones
-        added, three new endgame dungeons, and not a single thing for sale.
+        A custom world, rebuilt from the ashes by the people who played it.
+        Free to play, and it will never sell you power.
       </p>
       <div class="cluster" style="margin-top:2rem">
-        <a class="btn btn--primary" href="{DISCORD}" rel="noopener" data-i18n="cta.join">Join the community server</a>
-        <a class="btn btn--ghost" href="start.html" data-i18n="cta.start">Start playing</a>
-        <a class="btn btn--ghost" href="classes.html" data-i18n="cta.browse">Browse 42 classes</a>
-      </div>
-      <div class="cluster" style="margin-top:1.6rem">
-        <span class="chip" data-i18n="chip.free"><strong>Free</strong> forever</span>
-        <span class="chip" data-i18n="chip.shop">No <strong>cash shop</strong></span>
-        <span class="chip" data-i18n="chip.rmt">No <strong>RMT</strong></span>
-        <span class="chip" data-i18n="chip.solo"><strong>Solo-friendly</strong> PvE</span>
+        <a class="btn btn--primary btn--lg" href="{DISCORD}" rel="noopener" data-i18n="cta.join">Join the community server</a>
+        <a class="btn btn--ghost btn--lg" href="start.html" data-i18n="cta.start">Start playing</a>
       </div>
     </div>
     <div class="hero-art">
@@ -148,121 +146,100 @@ def build_home():
   </div>
 </section>
 
-<section class="section">
+<section class="section section--tight">
   <div class="shell">
-    <div class="section-head reveal">
-      <p class="eyebrow">The short version</p>
-      <h2>A better version of the thing we already loved</h2>
-      <p>
-        The original ran for years and then stopped. Its developer came back,
-        another developer came with him, and an admin paid for the hardware.
-        None of them are trying to build a business. They are trying to build a
-        place worth logging into.
-      </p>
+    <div class="quick reveal">
+      <a class="q-lead" href="database.html">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+          <ellipse cx="12" cy="6" rx="8" ry="3"/><path d="M4 6v6c0 1.7 3.6 3 8 3s8-1.3 8-3V6"/><path d="M4 12v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6"/>
+        </svg>
+        <span class="q-title" data-i18n="quick.db">Database</span>
+        <span class="q-sub" data-i18n="quick.dbSub">Every item, every monster, every drop</span>
+      </a>
+      <a href="classes.html">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+          <path d="M12 3v6M12 9L6 14M12 9l6 5M6 14v7M18 14v7M12 9v12" stroke-linecap="round"/>
+        </svg>
+        <span class="q-title" data-i18n="quick.classes">Classes</span>
+        <span class="q-sub" data-i18n="quick.classesSub">The whole job tree</span>
+      </a>
+      <a href="start.html">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+          <path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="q-title" data-i18n="quick.start">Start here</span>
+        <span class="q-sub" data-i18n="quick.startSub">Level 1 to 130, in order</span>
+      </a>
+      <a href="world.html">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+          <circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 2.5 15.4 0 18M12 3c-2.5 2.6-2.5 15.4 0 18"/>
+        </svg>
+        <span class="q-title" data-i18n="quick.world">World</span>
+        <span class="q-sub" data-i18n="quick.worldSub">Dungeons and endgame</span>
+      </a>
     </div>
-    <div class="grid">
-      <a class="card card--link reveal" href="changes.html">
-        <span class="card-kicker">What changed</span>
-        <h3>Everything that was wrong, on a list</h3>
-        <p>Transformed, added, removed - the developers' own three buckets, written out in full and kept up to date.</p>
-      </a>
-      <a class="card card--link reveal" href="classes.html">
-        <span class="card-kicker">Classes</span>
-        <h3>41 classes, seven roads</h3>
-        <p>The whole tree, plus a page each: skills, strengths, weaknesses, and exactly what the rebuild changed.</p>
-      </a>
-      <a class="card card--link reveal" href="newjobs.html">
+  </div>
+</section>
+
+<section class="section section--tight section--alt">
+  <div class="shell">
+    <div class="grid reveal">
+      <div class="card">
+        <h3 data-i18n="home.p1t">Never pay to win</h3>
+        <p data-i18n="home.p1">
+          The server has to pay for itself and for the people building it, and
+          that will be discussed openly with the community. Whatever it ends up
+          being, it will not sell power, and it will not sell your time.
+        </p>
+      </div>
+      <div class="card">
+        <h3 data-i18n="home.p2t">No single correct build</h3>
+        <p data-i18n="home.p2">
+          The job-locked sets that funnelled everyone into one playstyle past
+          level 100 are gone. Fifty-plus new sets replaced them, and none of
+          them belong to a job.
+        </p>
+      </div>
+      <div class="card">
+        <h3 data-i18n="home.p3t">Built where you can watch</h3>
+        <p data-i18n="home.p3">
+          Balance lists, skill trees and missed deadlines all get posted before
+          launch. Feedback from the community has already changed the design
+          more than once.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="shell">
+    <div class="grid reveal">
+      <a class="card card--link" href="newjobs.html">
         <span class="card-kicker">New</span>
         <h3>Bouncer and Pit Boss</h3>
-        <p>An ultra-aggressive melee caster with a brand new weapon type. Big setup, big hits, and yes, one of the skills is a Swanton Bomb.</p>
+        <p>Two jobs that did not exist. Golf clubs, chains, and a Swanton Bomb.</p>
       </a>
-      <a class="card card--link reveal" href="world.html">
-        <span class="card-kicker">World</span>
-        <h3>21 distortions, three SS dungeons</h3>
-        <p>Levels 85 to 150, ranked B to SS, with where to find each one - plus the new endgame the team has been building since June.</p>
+      <a class="card card--link" href="world.html#endgame">
+        <span class="card-kicker">New</span>
+        <h3>Three SS dungeons</h3>
+        <p>Custom maps. In one of them there is no minimap and dying costs a level.</p>
       </a>
-      <a class="card card--link reveal" href="start.html">
-        <span class="card-kicker">Start here</span>
-        <h3>From no name to level 130</h3>
-        <p>Your first job change, every levelling spot in order, when to specialise, and which old guides will lie to you now.</p>
-      </a>
-      <a class="card card--link reveal" href="mechanics.html">
-        <span class="card-kicker">Mechanics</span>
-        <h3>How combat actually works</h3>
-        <p>Stats, elements, attack speed, combos, and what happens to your party when you die.</p>
-      </a>
-      <a class="card card--link reveal" href="gear.html">
-        <span class="card-kicker">Gear</span>
-        <h3>1,500 items and a refine that cannot break them</h3>
-        <p>Random options, cards, runes, manuals - and the fifty-plus shadow sets that replaced the job sets.</p>
-      </a>
-      <a class="card card--link reveal" href="{DB}" rel="noopener">
-        <span class="card-kicker">Reference</span>
-        <h3>The database</h3>
-        <p>Items, skills, monsters and maps, maintained by the admin and open for the community to correct. Work in progress.</p>
+      <a class="card card--link" href="changes.html">
+        <span class="card-kicker">Rebuilt</span>
+        <h3>Every job rebalanced</h3>
+        <p>The skills nobody pressed got numbers worth pressing.</p>
       </a>
     </div>
-  </div>
-</section>
-
-<section class="section section--alt">
-  <div class="shell">
-    <div class="section-head reveal">
-      <p class="eyebrow">Three promises</p>
-      <h2>What this place will not do to you</h2>
-    </div>
-    <div class="grid">
-      <div class="card reveal">
-        <h3>Nothing is for sale</h3>
-        <p>
-          No cash shop at launch. No real-money trading, ever. The admin covered
-          the costs himself and has said any future discussion about recouping
-          them happens in the open, with the community, and never touches power.
-        </p>
-      </div>
-      <div class="card reveal">
-        <h3>Your time is the budget</h3>
-        <p>
-          The experience rate is slightly lower than the original's, and the
-          curve is more rewarding for it. Warp Portal and Teleport are free for
-          everyone. Drop-rate gear is gone, so nobody is farming for the right
-          to farm.
-        </p>
-      </div>
-      <div class="card reveal">
-        <h3>No single correct build</h3>
-        <p>
-          The job-locked shadow sets that funnelled everyone into one playstyle
-          past level 100 are gone. The replacement sets exist to make the
-          neglected half of each skill tree worth pressing.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="shell shell-narrow">
-    <div class="section-head reveal">
-      <p class="eyebrow">How it got here</p>
-      <h2>From a poll to three finished dungeons</h2>
-    </div>
-    <ol class="timeline reveal">
-{chr(10).join('      <li><time>%s</time><h3>%s</h3><p>%s</p></li>' % t for t in D.TIMELINE)}
-    </ol>
-    <p class="muted" style="margin-top:2rem">
-      Dates come from the team's own announcements. The full story, including who
-      does what, is on <a href="server.html">The Server</a>.
-    </p>
   </div>
 </section>
 
 {cta("There is no launch date. There is a door.",
-     "The community server is where every announcement lands first, where the developers answer questions directly, and where the feedback that shaped this rebuild came from.")}
+     "Every announcement lands in the community server first, and the developers answer questions there directly.")}
 """
     page("index.html",
          "Return to Morroc: Refuge | A free custom fantasy MMO world",
-         "A free, non-commercial custom fantasy MMO world rebuilt by its own players. Two new jobs, every skill rebalanced, 21 distortion dungeons, no cash shop and no RMT.",
+         "A free-to-play custom fantasy MMO world rebuilt by its own players. Two new jobs, every skill rebalanced, 21 distortion dungeons, and it never sells power.",
          "index.html", body, extra_ld=HOME_LD, hero=True)
 
 
@@ -328,24 +305,24 @@ def build_server():
   </div>
 </section>
 
-<section class="section section--alt">
+<section class="section section--alt" id="money">
   <div class="shell">
     <div class="section-head reveal">
       <p class="eyebrow">Money</p>
-      <h2>How this is paid for, honestly</h2>
+      <h2>How this gets paid for, honestly</h2>
     </div>
     <div class="grid">
       <div class="card reveal">
-        <h3>At launch: nothing</h3>
-        <p>No cash shop. No founder tiers gating content. No real-money trading, and that one is permanent rather than a launch-window promise.</p>
+        <h3>The costs are real</h3>
+        <p>Hosting costs money and the people building this are doing real work. The head admin has covered all of it out of pocket so far. That is not a sustainable arrangement and nobody is pretending it is.</p>
       </div>
       <div class="card reveal">
-        <h3>The costs are real</h3>
-        <p>The head admin covered development and hosting out of pocket. He has said he intends to talk to the community about recouping that - donations, a Patreon, founder packs, something - once there is a community to talk to.</p>
+        <h3>So there will be a way to fund it</h3>
+        <p>What that looks like has not been decided. It will be discussed with the community before it ships, not announced at it. Cosmetics, conveniences, donations, a founder pack - all of that is on the table.</p>
       </div>
       <div class="card reveal">
         <h3>The line that will not move</h3>
-        <p>Whatever that conversation lands on, it will not sell power and it will not sell time. That is the point of the whole project.</p>
+        <p><strong>It will never sell power.</strong> No stats, no gear advantage, no progression you can buy past. And no real-money trading, ever. If a funding idea fails that test it does not ship.</p>
       </div>
     </div>
     <div class="panel reveal" style="margin-top:2rem">
@@ -771,89 +748,6 @@ def build_guides():
 
 
 # ---------------------------------------------------------------------------
-# Database
-# ---------------------------------------------------------------------------
-
-def build_database():
-    body = f"""<section class="page-hero">
-  <div class="shell">
-    {crumbs("Database")}
-    <h1>The database</h1>
-    <p>
-      Items, skills, monsters and maps, maintained in the open and built so the
-      people who play can correct it.
-    </p>
-  </div>
-</section>
-
-<section class="section">
-  <div class="shell">
-    <div class="grid grid--wide">
-      <div class="prose reveal">
-        <h2>What it covers</h2>
-        <p>
-          The head admin has been building a reference database alongside the
-          server itself. It carries tabs for skills, monsters, maps and items,
-          plus fields for discussion - notes on what needs a buff, a nerf or a
-          fix, attached to the thing being discussed rather than lost in a chat
-          channel.
-        </p>
-        <p>
-          That last part is the point. The plan is a world where everyone can
-          contribute, and the database is the mechanism.
-        </p>
-        <div class="panel panel--warn">
-          <p>
-            <strong>Work in progress.</strong> Take numbers with a grain of salt.
-            The server has not launched, the balance lists are still moving, and
-            the database is being filled in as the build settles.
-          </p>
-        </div>
-        <p class="cluster" style="margin-top:1.6rem">
-          <a class="btn btn--primary" href="{DB}" rel="noopener">Open the database</a>
-          <a class="btn btn--ghost" href="{DISCORD}" rel="noopener">Report a correction</a>
-        </p>
-      </div>
-      <div class="stack">
-        <div class="card reveal">
-          <span class="card-kicker">Maintained by</span>
-          <h3>Metta</h3>
-          <p>Head admin. The same person paying for the hardware.</p>
-        </div>
-        <div class="card reveal">
-          <span class="card-kicker">Also on this site</span>
-          <h3>Reference pages</h3>
-          <ul>
-            <li><a href="classes.html">Every job rebalance</a></li>
-            <li><a href="newjobs.html">Bouncer and Pit Boss skills</a></li>
-            <li><a href="world.html">All 21 distortion dungeons</a></li>
-            <li><a href="changes.html">Changes from the original</a></li>
-          </ul>
-        </div>
-        <div class="card reveal">
-          <span class="card-kicker">For machines</span>
-          <h3>llms.txt</h3>
-          <p>
-            A plain-text map of this site for language models and other tools, so
-            an answer about the Refuge can be sourced instead of guessed.
-          </p>
-          <p><a href="llms.txt">/llms.txt</a></p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-{cta("Found something wrong?",
-     "Corrections are the most useful thing you can contribute before launch. Every balance list on this site changed at least once because someone said so in chat.")}
-"""
-    page("database.html",
-         "Database | Return to Morroc: Refuge",
-         "The Refuge's community reference database - items, skills, monsters and maps, open for player corrections - plus the reference pages hosted on this site.",
-         "database.html", body, trail=[("index.html", "Home"), (None, "Database")])
-
-
-# ---------------------------------------------------------------------------
 # Join
 # ---------------------------------------------------------------------------
 
@@ -934,9 +828,9 @@ def build_join():
         texture of the thing.
       </p>
       <p>
-        In exchange you get a world where nothing is for sale, where the balance
-        decisions are posted before they ship, and where the person who paid for
-        the hardware is in the same chat channel as you.
+        In exchange you get a world that will never sell you power, where the
+        balance decisions are posted before they ship, and where the person
+        paying for the hardware is in the same chat channel as you.
       </p>
       <p class="muted">
         If you are looking for a polished commercial operation with a roadmap and
@@ -1044,7 +938,6 @@ def main():
     build_changes()
     build_newjobs()
     build_guides()
-    build_database()
     build_join()
     build_faq()
     build_404()

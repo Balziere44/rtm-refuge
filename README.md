@@ -20,19 +20,34 @@ Then open <http://localhost:4410>. There is nothing to install.
 ## Rebuilding
 
 ```bash
-python tools/build.py          # home and the short pages
-python tools/build_docs.py     # start / mechanics / gear / world
-python tools/build_classes.py  # the tree, plus 42 class pages
-python tools/build_meta.py     # sitemap.xml, robots.txt, llms.txt
-python tools/build_search.py   # the search index (run last, it reads the pages)
-python tools/check.py          # validate before committing
-python tools/check_i18n.py     # and check the translations
+python build.py
 ```
 
-`build_meta.py` reads the pages the other scripts produced, so it goes last.
-`check.py` exits non-zero and lists what is wrong; run it before every commit.
+That runs every step in the order they depend on each other and stops on the
+first failure. The steps individually, if you need one:
 
-`tools/fetch_wiki.py` is separate and touches the network. It downloads the
+| Step | Produces |
+| --- | --- |
+| `tools/build.py` | home, server, changes, guides, join, faq, newjobs, 404 |
+| `tools/build_docs.py` | start / mechanics / gear / world |
+| `tools/build_classes.py` | the tree and 42 class pages |
+| `tools/build_database.py` | `database.html` and its two JSON payloads |
+| `tools/build_meta.py` | sitemap, robots, llms.txt |
+| `tools/build_search.py` | the search index |
+| `tools/check.py` | the validator - run before every commit |
+| `tools/check_i18n.py` | translation coverage |
+
+`build_meta.py` and `build_search.py` read the pages the earlier steps wrote,
+so they cannot move earlier in that list.
+
+Two extraction steps sit outside the normal build because they read things
+that are not in this repository:
+
+- `tools/extract_gamedata.py` reads the server's own rAthena database (the
+  emulator checkout next to this one) and writes `tools/data/game.json` -
+  11,098 items and 2,073 monsters with their drop tables. That file is
+  committed, so `build_database.py` never needs the emulator present.
+- `tools/fetch_wiki.py` is separate and touches the network. It downloads the
 community wiki for the world the Refuge inherited into `tools/data/raw/` and
 parses it into `tools/data/wiki.json`. Both are committed, so a normal build is
 offline and a re-fetch shows up as a readable diff of what the wiki changed.
@@ -51,6 +66,8 @@ Run `python tools/fetch_wiki.py --parse-only` to re-parse without re-downloading
 | `tools/build_docs.py` | The four long reference pages, assembled from wiki sections. |
 | `tools/build_classes.py` | `classes.html` and `classes/*.html` |
 | `tools/build_search.py` | `assets/data/search.json` - the search index. Runs last. |
+| `tools/extract_gamedata.py` | Reads the emulator's YAML into `tools/data/game.json` |
+| `tools/build_database.py` | `database.html` + `assets/data/db-items.json` and `db-mobs.json` |
 | `tools/check_i18n.py` | Fails if the markup uses a key no locale defines |
 | `assets/i18n/pt.js` | Portuguese table. Add a language by copying this file. |
 | `tools/build_meta.py` | sitemap, robots, llms.txt |
@@ -122,7 +139,7 @@ accident:
 - No official artwork, logo, font or UI asset is used anywhere. The mark is the
   project's own.
 - Every page carries the disclaimer in the footer: no affiliation, no
-  sponsorship, no endorsement, nothing sold, no real-money trading.
+  sponsorship, no endorsement, no real-money trading, and never selling power.
 - Third-party names that do appear (skill names, map names) are there only to
   describe gameplay, which is what the footer says.
 
@@ -149,13 +166,35 @@ Three sources, all of them other people's work:
 - **The development team's own public posts** (Ornstein, croc and Metta,
   May–August 2026) in the project's community server. Everything marked as a
   Refuge change comes from here.
+- **The server's own emulator database**, for every item, monster and drop
+  rate in the database page. This is the most accurate source that exists,
+  because it is not a transcription of anything - it is what the game runs on.
 - **The community wiki** for the world the Refuge is rebuilding, for the
-  inherited systems, regions and skill tables. 77 pages, 424 skill rows.
+  inherited systems, regions and skill tables. 77 pages, 424 skill rows. That
+  wiki belongs to another server built from the same origin; it is credited
+  here and nowhere on the site, which links to no competitor and names none.
+  `tools/check.py` fails the build if a link to it reappears.
 - **Two community-written guides**, credited and linked on the guides page.
 
 Where a number was posted as work-in-progress, the page says so. Nothing was
 invented to fill a gap, and where the wiki and the posts disagree, the posts
 win and the difference is shown rather than resolved silently.
+
+## Saying the right thing about money
+
+The site used to promise there would never be a cash shop. That promise cannot
+be kept: hosting costs money and the people building this are doing real work.
+The copy now says the thing that *can* be held, everywhere it comes up:
+
+- **Free to play.** True today and intended to stay true.
+- **Never sells power.** No stats, no gear advantage, no buyable progression.
+  This is the load-bearing promise and it is stated in absolute terms.
+- **No real-money trading.** Also absolute.
+- **Funding is undecided and will be discussed with the community before it
+  ships**, not announced at them.
+
+If you edit this, keep those four apart. "No cash shop" is not one of them, and
+`llms.txt` explicitly tells language models not to claim it.
 
 ## House style
 
@@ -193,6 +232,15 @@ runtime so no page ships markup for it, and the index is warmed on
 `pointerenter` of the button so the first open feels instant. Ranking weights
 by group and then caps each group at 7 results — without the cap, 423 skills
 bury the one page that answers the question. `/` and `Ctrl/Cmd+K` both open it.
+
+**The database.** Eleven thousand items and two thousand monsters, filtered
+in the browser with no server. Three things make that work: the payload is
+column arrays with string tables rather than objects (a third of the bytes);
+each row carries one pre-folded lowercase string so a keystroke scans numbers
+rather than objects; and nothing is painted until it is near the viewport, so
+a filter matching five thousand rows renders sixty. Drops resolve in both
+directions - an item lists what drops it, a monster lists what it drops - and
+the open entry is in the URL, so any row is linkable without being a file.
 
 **Translations.** English lives in the HTML; there is no `en.js`, because what
 a crawler indexes has to be the real markup. Other languages are tables loaded
