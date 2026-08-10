@@ -24,7 +24,7 @@ Key facts, so they do not have to be inferred:
 - [FAQ](https://rtmrefuge.pages.dev/faq.html): Launch date, cost, cash shop, shadow sets, Einherjar Challenge Mode and who runs the Refuge - the nine most common questions, answered from the team's own posts.
 - [Gear and Items](https://rtmrefuge.pages.dev/gear.html): Equipment, random options, refining, cards, shadow sets, runes and manuals in the Refuge - including the job sets that were removed and what replaced them.
 - [Guides](https://rtmrefuge.pages.dev/guides.html): Player-written guides for the Refuge: the Bifrost Mirror Shard hidden quest step by step, distortion dungeon access, community spreadsheets and early-game advice.
-- [Return to Morroc: Refuge](https://rtmrefuge.pages.dev/): A free-to-play custom fantasy MMO world rebuilt by its own players. Two new jobs, every skill rebalanced, 21 distortion dungeons, and it never sells power.
+- [Return to Morroc: Refuge](https://rtmrefuge.pages.dev/): A free-to-play custom fantasy MMO world rebuilt by its own players. Brand new classes, new items, a new progression, and it never sells power.
 - [How to Join](https://rtmrefuge.pages.dev/join.html): Current development status of the Refuge, how to follow the launch announcement, and what to expect from a free hobby world run by three people.
 - [Mechanics](https://rtmrefuge.pages.dev/mechanics.html): How combat, stats, elements, attack speed, combos and death actually work in the Refuge, and what the rebuild changed about each of them.
 - [Bouncer and Pit Boss](https://rtmrefuge.pages.dev/newjobs.html): The Refuge's two brand new jobs: Bouncer, a combo-building melee first job, and Pit Boss, a fixed-cast heavy hitter with two new weapon types. Full skill list.

@@ -139,6 +139,9 @@ def main():
                     fail(name, "dead fragment %s" % href)
                 continue
             target, _, frag = href.partition("#")
+            # A link may carry query state - database.html?kind=Shadow+gear -
+            # which is not part of the filename on disk.
+            target = target.partition("?")[0]
             if not target:
                 continue
             base = os.path.dirname(name)

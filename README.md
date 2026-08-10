@@ -33,6 +33,7 @@ first failure. The steps individually, if you need one:
 | `tools/build_classes.py` | the tree and 42 class pages |
 | `tools/build_database.py` | `database.html` and its two JSON payloads |
 | `tools/build_meta.py` | sitemap, robots, llms.txt |
+| `tools/build_og.py` | Draws `assets/social/og-cover.jpg`, the link-preview card |
 | `tools/build_search.py` | the search index |
 | `tools/check.py` | the validator - run before every commit |
 | `tools/check_i18n.py` | translation coverage |
@@ -121,6 +122,7 @@ script, a `getrefine()` call or an `.@variable` reaches any page again.
 | `tools/check_i18n.py` | Fails if the markup uses a key no locale defines |
 | `assets/i18n/pt.js` | Portuguese table. Add a language by copying this file. |
 | `tools/build_meta.py` | sitemap, robots, llms.txt |
+| `tools/build_og.py` | Draws `assets/social/og-cover.jpg`, the link-preview card |
 | `tools/check.py` | The pre-commit validator |
 | `tools/set_domain.py` | Move the site to a different origin in one command |
 | `assets/css/style.css` | The whole design system. Section 1 is the tokens; nothing else writes a colour. |
@@ -249,6 +251,22 @@ The copy now says the thing that *can* be held, everywhere it comes up:
 
 If you edit this, keep those four apart. "No cash shop" is not one of them, and
 `llms.txt` explicitly tells language models not to claim it.
+
+## The share card
+
+`tools/build_og.py` draws `assets/social/og-cover.jpg` - the picture Discord
+and every other chat client shows when the link is pasted, and often the first
+thing anyone sees of the project. It used to be a hand-made JPEG with no
+source, so changing one line of it was a graphics-editor job.
+
+Its three claims live in `STRIP` at the top of that file. Two rules for them:
+no number that can go stale, and no promise the project cannot keep. The first
+version failed both - it said "21 distortion dungeons" and "no cash shop".
+
+`chrome.py` appends a short content hash to the image URL. Chat clients cache
+a preview by image URL for a day or more, so redrawing the card under the same
+name means nobody sees the new one; changing the URL when the bytes change is
+what makes a redraw visible the same afternoon.
 
 ## House style
 

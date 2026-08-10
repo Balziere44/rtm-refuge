@@ -105,7 +105,7 @@ HOME_LD = """<script type="application/ld+json">
       "gamePlatform": "PC",
       "playMode": ["SinglePlayer", "MultiPlayer", "CoOp"],
       "isAccessibleForFree": true,
-      "description": "A custom, free-to-play fantasy MMO world. Two new jobs, a full skill rebalance, 21 distortion dungeons and three SS-rank endgame dungeons. Never sells power, and no real-money trading.",
+      "description": "A custom, free-to-play fantasy MMO world rebuilt by its own players. Brand new classes, new items and a new progression. Never sells power, and no real-money trading.",
       "author": {"@type": "Organization", "name": "The Refuge team"}
     }
   ]
@@ -238,7 +238,7 @@ def build_home():
 """
     page("index.html",
          "Return to Morroc: Refuge | A free custom fantasy MMO world",
-         "A free-to-play custom fantasy MMO world rebuilt by its own players. Two new jobs, every skill rebalanced, 21 distortion dungeons, and it never sells power.",
+         "A free-to-play custom fantasy MMO world rebuilt by its own players. Brand new classes, new items, a new progression, and it never sells power.",
          "index.html", body, extra_ld=HOME_LD, hero=True)
 
 

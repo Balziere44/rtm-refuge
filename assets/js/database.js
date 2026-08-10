@@ -510,6 +510,12 @@
     if (state.tab !== 'items') p.set('tab', state.tab);
     if (state.q) p.set('q', els.q.value);
     if (state.sort !== 'name') p.set('sort', state.sort);
+    // Keep ?kind= in the address for as long as it is still the filter, so
+    // reloading or sharing the page keeps the slice somebody arrived at.
+    var grp = state.facets.grp;
+    if (state.tab === 'items' && grp && grp.length === 1 && state.data.items) {
+      p.set('kind', state.data.items.grps[grp[0]]);
+    }
     if (openId) p.set('id', openId);
     var qs = p.toString();
     history.replaceState(null, '', qs ? '?' + qs : location.pathname);
@@ -521,6 +527,18 @@
     if (p.get('q')) { state.q = fold(p.get('q')); els.q.value = p.get('q'); }
     if (p.get('sort')) state.sort = p.get('sort');
     return p.get('id') ? +p.get('id') : 0;
+  }
+
+  /* ?kind=Shadow+gear preselects the Kind facet, so a page elsewhere on the
+     site can link straight at one slice of the database. It takes the label
+     rather than the index because the index is a build detail and would
+     silently point somewhere else the next time the data is rebuilt. */
+  function applyUrlFacet() {
+    var want = new URLSearchParams(location.search).get('kind');
+    var data = state.data.items;
+    if (!want || state.tab !== 'items' || !data) return;
+    var i = data.grps.indexOf(want);
+    if (i !== -1) state.facets.grp = [i];
   }
 
   /* ---- events ----------------------------------------------------------- */
@@ -628,6 +646,7 @@
     t.setAttribute('aria-selected', String(t.dataset.dbTab === state.tab));
   });
   load(state.tab).then(function () {
+    applyUrlFacet();
     renderFacets();
     apply();
     if (openId) openDetail(openId);

@@ -16,6 +16,27 @@ SITE = "https://rtmrefuge.pages.dev"
 
 DISCORD = "https://discord.gg/a5P3PFNMhn"
 
+
+def _og_version():
+    """A short hash of the share card, appended to its URL.
+
+    Chat clients cache a link preview by image URL and hold it for a day or
+    more, so redrawing the card under the same name means nobody sees the new
+    one until their cache expires. Changing the URL whenever the bytes change
+    is what makes a redraw visible the same afternoon.
+    """
+    import hashlib
+    import os
+    path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+                        "assets", "social", "og-cover.jpg")
+    if not os.path.exists(path):
+        return ""
+    with open(path, "rb") as fh:
+        return "?v=" + hashlib.sha1(fh.read()).hexdigest()[:8]
+
+
+OG_V = _og_version()
+
 # Deliberate wording note (see README): the site describes itself with generic
 # genre vocabulary and never uses a publisher's brand name, product name or
 # artwork. This is a fan project with no affiliation to any company, and the
@@ -97,7 +118,7 @@ def head(prefix, title, description, canonical, extra_ld="", preload_hero=False)
 <meta property="og:url" content="{url}">
 <meta property="og:title" content="{title}">
 <meta property="og:description" content="{description}">
-<meta property="og:image" content="{SITE}/assets/social/og-cover.jpg">
+<meta property="og:image" content="{SITE}/assets/social/og-cover.jpg{OG_V}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="{BRAND}">
@@ -105,7 +126,7 @@ def head(prefix, title, description, canonical, extra_ld="", preload_hero=False)
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{title}">
 <meta name="twitter:description" content="{description}">
-<meta name="twitter:image" content="{SITE}/assets/social/og-cover.jpg">
+<meta name="twitter:image" content="{SITE}/assets/social/og-cover.jpg{OG_V}">
 
 <link rel="icon" href="{prefix}assets/img/icon-32.png" sizes="32x32">
 <link rel="apple-touch-icon" href="{prefix}assets/img/icon-180.png">

@@ -46,6 +46,16 @@ DROP = {
     ("Random_Options", "Reroll System"),
     ("Random_Options", "Normal Monster Orbs"),
     ("Random_Options", "MVP Orbs"),
+
+    # Both of these pages contain no content: two "Click Here" cross-links, a
+    # table of contents, and a language model's reply preamble that somebody
+    # pasted in and never trimmed. There is nothing here to render.
+    ("Shadow_Sets", ""),
+    ("Shadow_Sets", "Geffen Cave"),
+    ("Shadow_Sets", "Tribes"),
+    ("Shadow_Sets", "Thanatos Tower"),
+    ("Job_Sets", ""),
+    ("Job_Sets", "Contents"),
 }
 
 # Any bullet or paragraph naming that server, or a system it has and we do
@@ -56,8 +66,10 @@ DROP_IF = (
     "Echoes of Morroc", "Echoes rates",
     "rarity system", "rarities system", "reroll system",
     "rarity level", "have a rarity", "Orb Types",
-    # Wiki markup and embeds that should never have survived the parse.
+    # Wiki markup, embeds and editing debris that should never have survived
+    # the parse.
     "__TOC__", "media.tenor.com", "https://", "http://",
+    "converted from HTML to MediaWiki", "Click Here",
 )
 
 
@@ -366,11 +378,13 @@ def build_gear():
              "<strong>More than fifty new sets</strong> replace them, one or more per dungeon past level 100, none of them job-locked.",
              "They exist to make the neglected half of each skill tree worth building around. One still in testing puts you at 1 HP in exchange for chaining a lot of skills in a row.",
              "Because the mandatory set is gone, the overall power curve sits lower than the original's. That is deliberate.",
-         ]) + "\n      " + wiki_block("Shadow_Sets") + "\n      " +
-         '<h3>The job sets that were removed</h3>\n      '
-         '<p>Kept here for reference, because half the guides written for the original '
-         'world still assume you are wearing one.</p>\n      ' +
-         wiki_block("Job_Sets")),
+         ]) + """
+      <h3>Every shadow piece, with what it does</h3>
+      <p>There are 206 of them and each one carries the description the game
+         itself shows, so they live in the database rather than in a list here
+         that would go stale the first time one is retuned. Filter by set
+         bonus, by slot, or by the monster that drops it.</p>
+      <p><a class="btn btn--primary" href="database.html?kind=Shadow+gear">Browse the shadow gear</a></p>"""),
 
         ("runes", "Runes and manuals",
          "Two slots that do not exist in the original game. One changes how you "
