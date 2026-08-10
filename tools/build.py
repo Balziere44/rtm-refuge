@@ -127,7 +127,7 @@ def build_home():
   <div class="shell hero-inner">
     <div>
       <p class="eyebrow"><span class="live-dot" aria-hidden="true"></span> <span data-i18n="home.status">In development &middot; no launch date yet</span></p>
-      <h1><span data-i18n="home.h1">The Orphans have their <span class="accent">old home</span> back.</span></h1>
+      <h1 data-fold><span data-i18n="home.h1">The Orphans have their <span class="accent">old home</span> back.</span></h1>
       <p class="hero-lede" data-i18n="home.lede">
         A custom world, rebuilt from the ashes by the people who played it.
         Free to play, and it will never sell you power.

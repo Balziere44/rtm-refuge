@@ -310,6 +310,7 @@ def footer(prefix):
 
 <script>window.RTMR_PREFIX = "{prefix}";</script>
 <script src="{prefix}assets/js/main.js" defer></script>
+<script src="{prefix}assets/js/fx.js" defer></script>
 <script src="{prefix}assets/js/search.js" defer></script>
 <script src="{prefix}assets/js/i18n.js" defer></script>
 </body>

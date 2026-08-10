@@ -1340,7 +1340,12 @@ thead th {
   overflow: hidden;
   filter: blur(72px) saturate(135%);
   opacity: 0.85;
-  contain: strict;
+  /* Not `strict`, which adds size containment. The shader sizes its canvas
+     from this element's clientWidth, and an element that is allowed to be
+     laid out as if it had no contents is a bad thing to measure. The rest of
+     what strict buys - no layout, paint or style crossing the boundary - is
+     still here. */
+  contain: layout paint style;
 }
 
 html[data-theme="light"] .aurora { opacity: 0.5; filter: blur(80px) saturate(120%); }
@@ -2047,3 +2052,132 @@ html[data-theme="light"] {
 }
 
 .codex-empty { padding: var(--gap-xl) 0; text-align: center; color: var(--text-dim); }
+
+/* ==========================================================================
+  23. Effects
+   ==========================================================================
+   Ports of four React Bits components. Everything here is decoration: it all
+   respects prefers-reduced-motion and the page is complete without any of it.
+
+   The blurred CSS aurora stays as the fallback and is only hidden once the
+   shader has actually compiled, so a browser without WebGL2 still gets one. */
+
+.aurora canvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.aurora[data-gl="on"] span { display: none; }
+.aurora[data-gl="on"] {
+  /* The shader carries its own softness, so the heavy blur that the CSS
+     version needs would only cost fill rate. */
+  filter: none;
+  opacity: 0.85;
+}
+html[data-theme="light"] .aurora[data-gl="on"] { opacity: 0.32; }
+
+/* The spark canvas sits over everything and catches nothing. */
+.fx-spark {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 300;
+}
+
+/* --- FoldText ------------------------------------------------------------
+   Each character is a panel hinged on its top edge. One custom property per
+   character turns into an animation-delay, which is what gsap's stagger does
+   and what the compositor can run on its own. */
+
+.fold-visual { display: inline; }
+.fold-seg {
+  display: inline-block;
+  white-space: pre;
+  transform-origin: 50% 0%;
+  backface-visibility: hidden;
+}
+[data-fold] .fold-seg {
+  opacity: 0;
+  transform: perspective(700px) rotateX(-92deg);
+}
+[data-fold="in"] .fold-seg {
+  animation: fold-in 0.65s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  animation-delay: calc(var(--i) * 0.045s);
+}
+@keyframes fold-in {
+  from { opacity: 0; transform: perspective(700px) rotateX(-92deg); }
+  to   { opacity: 1; transform: perspective(700px) rotateX(0deg); }
+}
+
+/* --- SpecularButton ------------------------------------------------------
+   A bright arc travelling the border, steered by the pointer. The angle and
+   the brightness arrive from script as two custom properties; everything else
+   is a conic gradient masked to the border box, which the compositor draws
+   without a repaint. */
+
+.is-specular { position: relative; }
+.is-specular::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: conic-gradient(
+    from var(--sb-angle, 0deg),
+    transparent 0deg,
+    rgb(255 255 255 / 0.9) 6deg,
+    transparent 22deg,
+    transparent 180deg,
+    rgb(255 255 255 / 0.65) 186deg,
+    transparent 202deg,
+    transparent 360deg);
+  /* Composite the gradient down to the ring only. Both spellings: Safari
+     still wants the prefix. */
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  opacity: var(--sb-bright, 0);
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .is-specular::after { display: none; }
+}
+
+/* The inherited reference, folded away. The page reads as a table of contents
+   by default and the wiki material is one click behind it. */
+.more {
+  margin-top: var(--gap-md);
+  border: 1px solid var(--glass-edge);
+  border-radius: var(--radius-sm);
+  background-image: linear-gradient(160deg, var(--glass-fill), transparent);
+}
+.more > summary {
+  cursor: pointer;
+  padding: 0.7rem 0.9rem;
+  font-size: var(--step--1);
+  color: var(--text-muted);
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+}
+.more > summary::-webkit-details-marker { display: none; }
+.more > summary::before {
+  content: "+";
+  font-family: var(--font-mono);
+  color: var(--accent);
+  width: 1ch;
+}
+.more[open] > summary::before { content: "2"; }
+.more > summary:hover { color: var(--text); }
+.more-body {
+  padding: 0 0.9rem 0.9rem;
+  border-top: 1px solid var(--glass-edge);
+}
+.more-body > :first-child { margin-top: var(--gap-sm); }

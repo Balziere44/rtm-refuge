@@ -258,6 +258,37 @@ The copy now says the thing that *can* be held, everywhere it comes up:
 If you edit this, keep those four apart. "No cash shop" is not one of them, and
 `llms.txt` explicitly tells language models not to claim it.
 
+## A table of contents, not an encyclopedia
+
+The brief from the team is that the site should read as a table of contents
+for the server - what to expect, and some examples - not as documentation.
+
+Every `wiki_block()` therefore renders inside a collapsed `<details>`. Our own
+writing and the Refuge callouts stay in the open; the inherited reference is
+one click behind them. Nothing was deleted: the four long pages went from
+7,305 / 4,999 / 4,630 / 3,431 words on screen to 563 / 499 / 640 / 769, and
+every word is still in the page.
+
+## Effects
+
+`assets/js/fx.js` carries ports of four React Bits components. The originals
+are React and pull in `ogl` and `gsap`; this site has no bundler, so each one
+is reimplemented against the platform. The Aurora fragment shader is the
+original verbatim, running on about sixty lines of raw WebGL2 instead of ogl.
+FoldText's staggered unfold is one custom property per character feeding an
+`animation-delay`, which is what gsap was doing and runs on the compositor.
+
+SpecularButton is the one deliberate departure. The original gives every
+button its own WebGL context; browsers cap live contexts at around sixteen and
+silently drop the oldest, so a page with several buttons plus the aurora would
+start losing them. The effect is an arc of light travelling a rounded
+rectangle steered by the pointer, which a conic gradient in a border mask
+draws exactly, for nothing, with the angle and brightness arriving as two
+custom properties.
+
+All four check `prefers-reduced-motion`, all of it is decoration, and a single
+`requestAnimationFrame` drives the page so a backgrounded tab costs nothing.
+
 ## The codex
 
 Item and skill text is written for people who already play. About fifty terms

@@ -93,8 +93,19 @@ def clean(items):
     return [i for i in items if not any(bad in i for bad in DROP_IF)]
 
 
-def wiki_block(page, only=None, skip=(), heading_level=3):
-    """Render a wiki page (or named sections of it) as prose."""
+def wiki_block(page, only=None, skip=(), heading_level=3, label=None):
+    """Render a wiki page (or named sections of it) as collapsed detail.
+
+    The site is meant to read as a table of contents for the server: what to
+    expect, and some examples. The inherited reference is worth keeping - it
+    is the only surviving transcription of that world - but it is not what
+    somebody arriving at the page came for, and twenty thousand words of it
+    was burying the four sentences that were.
+
+    So every wiki block is folded away behind one line. Our own writing and
+    the Refuge callouts stay in the open; this opens when somebody actually
+    wants it. Nothing is lost and the default page is a tenth of the length.
+    """
     data = WIKI.get(page)
     if not data:
         return '<p class="dim">Not documented yet.</p>'
@@ -118,7 +129,20 @@ def wiki_block(page, only=None, skip=(), heading_level=3):
             out.append("<p>%s</p>" % esc(p))
         if bullets:
             out.append("<ul>%s</ul>" % "".join("<li>%s</li>" % esc(b) for b in bullets))
-    return "\n      ".join(out) if out else '<p class="dim">Not documented yet.</p>'
+    if not out:
+        return '<p class="dim">Not documented yet.</p>'
+    # Two blocks in one section is common, and two summaries reading "Read the
+    # full detail" one under the other tells nobody which is which. Name them
+    # after what they actually contain.
+    if not label:
+        if only and len(only) == 1:
+            label = list(only)[0]
+        else:
+            label = page.replace("_", " ")
+    return ('<details class="more">\n'
+            '        <summary>%s, in full</summary>\n'
+            '        <div class="more-body">\n      %s\n        </div>\n'
+            '      </details>' % (esc(label), "\n      ".join(out)))
 
 
 def slug(s):
