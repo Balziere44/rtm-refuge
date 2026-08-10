@@ -304,36 +304,67 @@
     if (!original.has(el)) original.set(el, el.innerHTML);
     else el.innerHTML = original.get(el);
 
-    // Walk text nodes rather than reading textContent: the headline carries a
-    // gradient <span> inside it, and flattening would throw that away.
-    var walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
-    var nodes = [], node;
-    while ((node = walker.nextNode())) {
-      if (node.nodeValue.trim()) nodes.push(node);
-    }
-    if (!nodes.length) return;
-
     var i = 0;
-    nodes.forEach(function (text) {
+
+    function splitText(node) {
       var frag = document.createDocumentFragment();
-      Array.from(text.nodeValue).forEach(function (ch) {
-        if (ch === " ") {
-          // A space left inside an inline-block would stop the line wrapping.
-          frag.appendChild(document.createTextNode(" "));
+      // Words, not raw characters. Every panel is an inline-block, and the
+      // browser will happily break a line between two of them - which is how
+      // "Orphans" ended up as "Orphan" and "s" on separate lines. Wrapping
+      // each word puts the only legal break back where it belongs.
+      node.nodeValue.split(/(\s+)/).forEach(function (part) {
+        if (!part) return;
+        if (/^\s+$/.test(part)) {
+          frag.appendChild(document.createTextNode(part));
           return;
         }
-        var seg = document.createElement("span");
-        seg.className = "fold-seg";
-        seg.style.setProperty("--i", i++);
-        seg.textContent = ch;
-        frag.appendChild(seg);
+        var word = document.createElement("span");
+        word.className = "fold-word";
+        Array.from(part).forEach(function (ch) {
+          var seg = document.createElement("span");
+          seg.className = "fold-seg";
+          seg.style.setProperty("--i", i++);
+          seg.textContent = ch;
+          word.appendChild(seg);
+        });
+        frag.appendChild(word);
       });
-      text.parentNode.replaceChild(frag, text);
-    });
+      node.parentNode.replaceChild(frag, node);
+    }
 
-    el.dataset.fold = "";
-    // Next frame, so the folded starting transform is painted before it runs.
-    requestAnimationFrame(function () { el.dataset.fold = "in"; });
+    function walk(parent) {
+      Array.prototype.slice.call(parent.childNodes).forEach(function (node) {
+        if (node.nodeType === 3) {
+          if (node.nodeValue.trim()) splitText(node);
+          return;
+        }
+        if (node.nodeType !== 1) return;
+
+        // An element painting its text with background-clip - the gradient
+        // word in the headline - must not have its characters split out.
+        // Each panel is transformed, which makes it its own painting context,
+        // and the parent's clipped background cannot reach inside one. The
+        // characters came out transparent and the word vanished. Folding the
+        // whole element as a single panel keeps the gradient on the element
+        // that owns it.
+        var s = getComputedStyle(node);
+        var clip = s.webkitBackgroundClip || s.backgroundClip;
+        if (clip === "text") {
+          node.classList.add("fold-seg", "fold-seg--whole");
+          node.style.setProperty("--i", i++);
+          return;
+        }
+        walk(node);
+      });
+    }
+
+    walk(el);
+    if (!el.querySelector(".fold-seg")) return;
+
+    // Set straight away. The animation carries its own first frame through
+    // `animation-fill-mode: both`, so there is no window in which the panels
+    // are hidden by a rule that something still has to come along and lift.
+    el.dataset.fold = "in";
   }
 
   /* =====================================================================

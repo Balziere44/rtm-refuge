@@ -2093,19 +2093,27 @@ html[data-theme="light"] .aurora[data-gl="on"] { opacity: 0.32; }
    character turns into an animation-delay, which is what gsap's stagger does
    and what the compositor can run on its own. */
 
-.fold-visual { display: inline; }
+/* A word is one unwrappable unit. Without it the browser breaks lines between
+   any two panels, which turned "Orphans" into "Orphan" and "s". */
+.fold-word { display: inline-block; white-space: nowrap; }
+
 .fold-seg {
   display: inline-block;
   white-space: pre;
   transform-origin: 50% 0%;
   backface-visibility: hidden;
 }
-[data-fold] .fold-seg {
-  opacity: 0;
-  transform: perspective(700px) rotateX(-92deg);
-}
+/* The gradient word folds whole. Splitting it made each letter its own
+   painting context, and an ancestor's background-clip: text cannot reach
+   inside one - the letters came out transparent and the word disappeared. */
+.fold-seg--whole { display: inline-block; }
+
+/* No separate "folded" state. `backwards` makes the animation's first frame
+   apply during its own delay, which is the only thing a starting state was
+   for - and it means a browser that never runs the animation shows the words
+   instead of hiding them forever. Text must never depend on a frame firing. */
 [data-fold="in"] .fold-seg {
-  animation: fold-in 0.65s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  animation: fold-in 0.65s cubic-bezier(0.16, 1, 0.3, 1) both;
   animation-delay: calc(var(--i) * 0.045s);
 }
 @keyframes fold-in {
