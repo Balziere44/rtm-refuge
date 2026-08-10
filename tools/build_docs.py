@@ -94,10 +94,23 @@ def slug(s):
     return "".join(c.lower() if c.isalnum() else "-" for c in s).strip("-")
 
 
+CALLOUT_KEYS = {
+    "What the Refuge changed": "ui.refugeChanged",
+    "Not in the Refuge": "ui.notInRefuge",
+    "New in the Refuge": "ui.newInRefuge",
+}
+
+
+def _ck(title):
+    return CALLOUT_KEYS.get(title, "")
+
+
 def callout(title, items, kind="refuge"):
     body = "".join("<li>%s</li>" % i for i in items)
+    key = _ck(title)
+    attr = f' data-i18n="{key}"' if key else ""
     return (f'<aside class="callout callout--{kind}">\n'
-            f'        <h3>{title}</h3>\n        <ul>{body}</ul>\n      </aside>')
+            f'        <h3{attr}>{title}</h3>\n        <ul>{body}</ul>\n      </aside>')
 
 
 def section(sid, title, lede, body):
@@ -109,7 +122,7 @@ def section(sid, title, lede, body):
 
 
 def doc_page(name, title, description, active, hero_title, hero_lede, sections,
-             trail_label, intro=""):
+             trail_label, intro="", hero_cta=""):
     toc = "\n".join(
         '        <li><a href="#%s">%s</a></li>' % (sid, t)
         for sid, t, _l, _b in sections)
@@ -121,12 +134,16 @@ def doc_page(name, title, description, active, hero_title, hero_lede, sections,
     {C.breadcrumbs("", trail)}
     <h1>{hero_title}</h1>
     <p class="lede">{hero_lede}</p>
+    <div class="cluster" style="margin-top:1.6rem">
+      <a class="btn btn--primary" href="{C.DISCORD}" rel="noopener" data-i18n="cta.join">Join the community server</a>
+      {hero_cta}
+    </div>
   </div>
 </section>
 {intro}
 <div class="shell doc">
   <nav class="doc-toc" aria-label="On this page">
-    <h2>On this page</h2>
+    <h2 data-i18n="ui.onThisPage">On this page</h2>
     <ol>
 {toc}
     </ol>
@@ -221,7 +238,8 @@ def build_start():
              "Start here",
              "Everything between waking up with no name and hitting the soft cap, in "
              "the order you will need it.",
-             sections, "Start Here")
+             sections, "Start Here",
+             hero_cta='<a class="btn btn--ghost" href="classes.html">Pick a class</a>')
 
 
 # ---------------------------------------------------------------------------
@@ -286,7 +304,8 @@ def build_mechanics():
              "How the game actually works",
              "Combat, stats, elements, rotations and death. The systems layer, with "
              "the Refuge's changes marked where they land.",
-             sections, "Mechanics")
+             sections, "Mechanics",
+             hero_cta='<a class="btn btn--ghost" href="gear.html">Gear systems</a>')
 
 
 # ---------------------------------------------------------------------------
@@ -304,7 +323,11 @@ def build_gear():
         ("random-options", "Random options",
          "Rebuilt from the ground up so that a roll is interesting rather than a "
          "lottery you reroll until it stops insulting you.",
-         wiki_block("Random_Options")),
+         callout("Not in the Refuge", [
+             "There are <strong>no orbs for rerolling random options</strong>. What a piece rolls is what it rolled - the roll is the item, not a starting position you buy your way out of.",
+             "There is <strong>no weapon rarity system</strong> either. A weapon is judged on what it does, not on a tier printed above its name.",
+             "Both exist on the other successor server. They are a deliberate difference, not an omission.",
+         ], kind="warn") + "\n      " + wiki_block("Random_Options")),
 
         ("refine", "Refining that respects your time",
          "Maximum +10, and failure never breaks the item.",
@@ -361,7 +384,8 @@ def build_gear():
              "Gear, and what to do with it",
              "Fifteen hundred items, refining that cannot break them, and the shadow "
              "system the Refuge rebuilt from scratch.",
-             sections, "Gear")
+             sections, "Gear",
+             hero_cta='<a class="btn btn--ghost" href="world.html">Where it drops</a>')
 
 
 # ---------------------------------------------------------------------------
@@ -379,7 +403,7 @@ def build_world():
 
     table = f"""<div class="cluster" style="margin:1.4rem 0 1rem">
         <label class="visually-hidden" for="dsearch">Filter dungeons</label>
-        <input id="dsearch" type="search" class="field" placeholder="Filter by name, level or rank..."
+        <input id="dsearch" type="search" class="field" placeholder="Filter by name, level or rank..." data-i18n-attr="placeholder:ui.filterDungeons"
                data-filter="dtable" data-filter-count="dcount">
         <span class="chip mono" id="dcount">-</span>
       </div>
@@ -459,7 +483,8 @@ def build_world():
              "New-Midgard",
              "Regions, dungeons, distortions and MVPs - plus the endgame the Refuge "
              "built on top of them.",
-             sections, "World")
+             sections, "World",
+             hero_cta='<a class="btn btn--ghost" href="guides.html">Access guides</a>')
 
 
 def main():

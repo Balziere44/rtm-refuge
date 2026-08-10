@@ -120,7 +120,8 @@ def main():
     if os.path.exists(sm):
         listed = set(re.findall(r"<loc>%s/([^<]*)</loc>" % re.escape(C.SITE),
                                 open(sm, encoding="utf-8").read()))
-        expected = set("" if f == "index.html" else f for f in files)
+        expected = set("" if f == "index.html" else f
+                       for f in files if f != "404.html")
         for miss in sorted(expected - listed):
             fail("sitemap.xml", "page not listed: %s" % (miss or "index.html"))
         for extra in sorted(listed - expected):

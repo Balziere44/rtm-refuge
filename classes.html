@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Classes | Return to Morroc: Refuge</title>
-<meta name="description" content="All 41 classes in the Refuge laid out as a tree: seven roads from Orphan, eight final jobs on the main line, and two jobs that are new.">
+<meta name="description" content="All 42 classes in the Refuge laid out as a tree: seven roads from Orphan, eight final jobs on the main line, and two jobs that are new.">
 <link rel="canonical" href="https://rtmrefuge.pages.dev/classes.html">
 
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
@@ -18,7 +18,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:url" content="https://rtmrefuge.pages.dev/classes.html">
 <meta property="og:title" content="Classes | Return to Morroc: Refuge">
-<meta property="og:description" content="All 41 classes in the Refuge laid out as a tree: seven roads from Orphan, eight final jobs on the main line, and two jobs that are new.">
+<meta property="og:description" content="All 42 classes in the Refuge laid out as a tree: seven roads from Orphan, eight final jobs on the main line, and two jobs that are new.">
 <meta property="og:image" content="https://rtmrefuge.pages.dev/assets/social/og-cover.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -26,7 +26,7 @@
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Classes | Return to Morroc: Refuge">
-<meta name="twitter:description" content="All 41 classes in the Refuge laid out as a tree: seven roads from Orphan, eight final jobs on the main line, and two jobs that are new.">
+<meta name="twitter:description" content="All 42 classes in the Refuge laid out as a tree: seven roads from Orphan, eight final jobs on the main line, and two jobs that are new.">
 <meta name="twitter:image" content="https://rtmrefuge.pages.dev/assets/social/og-cover.jpg">
 
 <link rel="icon" href="assets/img/icon-32.png" sizes="32x32">
@@ -62,7 +62,7 @@
 </script>
 </head>
 <body>
-<a class="skip-link" href="#main">Skip to content</a>
+<a class="skip-link" href="#main" data-i18n="a11y.skip">Skip to content</a>
 <header class="site-header">
   <div class="shell header-inner">
     <a class="brand" href="index.html">
@@ -74,19 +74,44 @@
     </a>
     <!-- NAV:START -->
     <nav class="nav" aria-label="Main">
-      <a href="index.html">Home</a>
-      <a href="server.html">The Server</a>
-      <a href="start.html">Start Here</a>
-      <a href="classes.html" aria-current="page">Classes</a>
-      <a href="mechanics.html">Mechanics</a>
-      <a href="gear.html">Gear</a>
-      <a href="world.html">World</a>
-      <a href="guides.html">Guides</a>
-      <a href="join.html">Join</a>
+      <a href="index.html" data-i18n="nav.home">Home</a>
+      <a href="server.html" data-i18n="nav.server">The Server</a>
+      <a href="start.html" data-i18n="nav.start">Start Here</a>
+      <a href="classes.html" aria-current="page" data-i18n="nav.classes">Classes</a>
+      <a href="mechanics.html" data-i18n="nav.mechanics">Mechanics</a>
+      <a href="gear.html" data-i18n="nav.gear">Gear</a>
+      <a href="world.html" data-i18n="nav.world">World</a>
+      <a href="guides.html" data-i18n="nav.guides">Guides</a>
+      <a href="join.html" data-i18n="nav.join">Join</a>
     </nav>
     <!-- NAV:END -->
     <div class="header-actions">
-      <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch theme">
+      <button class="icon-btn search-btn" type="button" data-search-open
+              aria-label="Search this site" data-i18n-attr="aria-label:search.title">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true">
+          <circle cx="11" cy="11" r="7"/><path d="M20 20l-3.6-3.6" stroke-linecap="round"/>
+        </svg>
+        <kbd>Ctrl K</kbd>
+      </button>
+      <div class="lang" data-open="false">
+        <button class="icon-btn" type="button" data-lang-open aria-expanded="false"
+                aria-haspopup="true" aria-label="Change language"
+                data-i18n-attr="aria-label:lang.change">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+            <circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 2.5 15.4 0 18M12 3c-2.5 2.6-2.5 15.4 0 18"/>
+          </svg>
+        </button>
+        <div class="lang-menu" role="menu">
+          <button type="button" role="menuitem" data-lang-pick="en" aria-current="true">
+            English <span class="lang-code">EN</span>
+          </button>
+          <button type="button" role="menuitem" data-lang-pick="pt" aria-current="false">
+            Portugu&ecirc;s <span class="lang-code">PT</span>
+          </button>
+        </div>
+      </div>
+      <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch theme"
+              data-i18n-attr="aria-label:theme.switch">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
           <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" stroke-linejoin="round"/>
         </svg>
@@ -117,15 +142,15 @@
     </div>
     <!-- DRAWER:START -->
     <nav aria-label="Mobile">
-      <a href="index.html">Home</a>
-      <a href="server.html">The Server</a>
-      <a href="start.html">Start Here</a>
-      <a href="classes.html" aria-current="page">Classes</a>
-      <a href="mechanics.html">Mechanics</a>
-      <a href="gear.html">Gear</a>
-      <a href="world.html">World</a>
-      <a href="guides.html">Guides</a>
-      <a href="join.html">Join</a>
+      <a href="index.html" data-i18n="nav.home">Home</a>
+      <a href="server.html" data-i18n="nav.server">The Server</a>
+      <a href="start.html" data-i18n="nav.start">Start Here</a>
+      <a href="classes.html" aria-current="page" data-i18n="nav.classes">Classes</a>
+      <a href="mechanics.html" data-i18n="nav.mechanics">Mechanics</a>
+      <a href="gear.html" data-i18n="nav.gear">Gear</a>
+      <a href="world.html" data-i18n="nav.world">World</a>
+      <a href="guides.html" data-i18n="nav.guides">Guides</a>
+      <a href="join.html" data-i18n="nav.join">Join</a>
     </nav>
     <!-- DRAWER:END -->
   </div>
@@ -133,8 +158,8 @@
 <main id="main">
 <section class="page-hero">
   <div class="shell">
-    <p class="crumbs"><a href="index.html">Home</a><span>/</span><span>Classes</span></p>
-    <h1>41 classes, seven roads</h1>
+    <p class="crumbs"><a href="index.html" data-i18n="ui.home">Home</a><span>/</span><span>Classes</span></p>
+    <h1>42 classes, seven roads</h1>
     <p class="lede">
       Everyone starts as an Orphan. Where you go after job level 10 decides how
       the next hundred and forty levels feel - and two of these roads did not
@@ -146,7 +171,7 @@
 <section class="section section--tight">
   <div class="shell">
     <dl class="stat-row reveal">
-      <div class="stat"><dt>Classes</dt><dd>41</dd></div>
+      <div class="stat"><dt>Classes</dt><dd>42</dd></div>
       <div class="stat"><dt>Final jobs</dt><dd>13</dd></div>
       <div class="stat"><dt>Specialisations</dt><dd>8</dd></div>
       <div class="stat"><dt>Expert jobs</dt><dd>4</dd></div>
@@ -173,127 +198,119 @@
       Refuge rebuilt four of them before touching anything else.</p>
     </div>
     <div class="tree-row tree-row--single">
-      <a class="node node--orphan" href="classes/orphan.html"><span class="node-name">Orphan</span><span class="node-tag">Everyone starts here. Nobody stays.</span></a>
+      <a class="node node--orphan" href="classes/orphan.html"><span class="node-name">Orphan</span><span class="node-tag">Cursed by fate. The starter, and the only one.</span></a>
     </div>
   </section>
   <section class="tree-group reveal">
     <div class="tree-head">
-      <h2>The Thief road</h2>
-      <p>The main progression, and the widest. Ten job levels as an Orphan, fifty as a Thief, then a choice that eventually forks eight ways.</p>
+      <h2>Straight from the Orphan</h2>
+      <p>Ten job levels and you are one of these. None of them changes again - what you pick here is what you play for a hundred and forty levels.</p>
     </div>
     <div class="tree-row">
-      <a class="node node--first" href="classes/thief.html"><span class="node-name">Thief</span><span class="node-tag">The main road. Melee, magic and ranged in one tree.</span></a>
-    </div>
-    <div class="tree-link" aria-hidden="true"></div>
-    <div class="tree-row">
-      <a class="node node--second" href="classes/assassin.html"><span class="node-name">Assassin</span><span class="node-tag">Path of Tradition. Swords, axes, katars and shadows.</span></a>
-      <a class="node node--second" href="classes/rogue.html"><span class="node-name">Rogue</span><span class="node-tag">Path of Change. Four different characters live in this tree.</span></a>
-    </div>
-    <div class="tree-link" aria-hidden="true"></div>
-    <div class="tree-row">
-      <a class="node node--spec" href="classes/blade-dancer.html"><span class="node-name">Blade Dancer</span><span class="node-tag">Master of blades. Dual wielding, properly.</span></a>
-      <a class="node node--spec" href="classes/shinobi.html"><span class="node-name">Shinobi</span><span class="node-tag">Master of elements. Change the element, change the fight.</span></a>
-      <a class="node node--spec" href="classes/executioner.html"><span class="node-name">Executioner</span><span class="node-tag">Master of katars. Chain the skills, land the damage.</span></a>
-      <a class="node node--spec" href="classes/scoundrel.html"><span class="node-name">Scoundrel</span><span class="node-tag">Master of poisons. Debuff everything, including yourself.</span></a>
-      <a class="node node--spec" href="classes/mystic.html"><span class="node-name">Mystic</span><span class="node-tag">Spellcasting, unlocked.</span></a>
-      <a class="node node--spec" href="classes/duelist.html"><span class="node-name">Duelist</span><span class="node-tag">A stance, counter charges, and skills that read them.</span></a>
-      <a class="node node--spec" href="classes/saboteur.html"><span class="node-name">Saboteur</span><span class="node-tag">Traps, explosions, and a pitcher for the party.</span></a>
-      <a class="node node--spec" href="classes/deadeye.html"><span class="node-name">Deadeye</span><span class="node-tag">The bow, the nest, and one very heavy finisher.</span></a>
-    </div>
-    <div class="tree-link" aria-hidden="true"></div>
-    <div class="tree-row">
-      <a class="node node--final" href="classes/night-raven.html"><span class="node-name">Night Raven</span><span class="node-tag">Every assassin weapon, plus a hawk that never misses.</span></a>
-      <a class="node node--final" href="classes/satsujin.html"><span class="node-name">Satsujin</span><span class="node-tag">Melee, magic and ranged trees at once. Jack of all trades.</span></a>
-      <a class="node node--final" href="classes/gravekeeper.html"><span class="node-name">Gravekeeper</span><span class="node-tag">Loki's legacy. Crit damage, and no defensive options at all.</span></a>
-      <a class="node node--final" href="classes/black-plague.html"><span class="node-name">Black Plague</span><span class="node-tag">Double axes and diseases. Kills bosses from the inside.</span></a>
-      <a class="node node--final" href="classes/arcane-master.html"><span class="node-name">Arcane Master</span><span class="node-tag">Unrestricted magic, plus a tree that revives the party.</span></a>
-      <a class="node node--final" href="classes/kingslayer.html"><span class="node-name">Kingslayer</span><span class="node-tag">Chess. A left tree that kills, a right tree that survives.</span></a>
-      <a class="node node--final" href="classes/blast-juggler.html"><span class="node-name">Blast Juggler</span><span class="node-tag">Rules? Explosions are the only option.</span></a>
-      <a class="node node--final" href="classes/sinner.html"><span class="node-name">Sinner</span><span class="node-tag">Repent through cleansing. Auto attack, turret or manual cast.</span></a>
-    </div>
-  </section>
-  <section class="tree-group reveal">
-    <div class="tree-head">
-      <h2>Leaving the road</h2>
-      <p>Thieves can abandon the path entirely. Assassins and Rogues can lock their job forever instead of specialising.</p>
-    </div>
-    <div class="tree-row">
-      <a class="node node--alt" href="classes/prowler.html"><span class="node-name">Prowler</span><span class="node-tag">Abandon the path. Flee, perfect dodge, and a better Backstab.</span></a>
-      <a class="node node--alt" href="classes/shadowseer.html"><span class="node-name">Shadowseer</span><span class="node-tag">Melee that spends magic. Autocast until something dies.</span></a>
-    </div>
-    <div class="tree-link" aria-hidden="true"></div>
-    <div class="tree-row">
-      <a class="node node--alt" href="classes/unchained-thief.html"><span class="node-name">Unchained Thief</span><span class="node-tag">The Super Novice of this world. Core skills from both second jobs.</span></a>
-      <a class="node node--alt" href="classes/unchained-assassin.html"><span class="node-name">Unchained Assassin</span><span class="node-tag">Break the limit, lock the job, master the basics.</span></a>
-      <a class="node node--alt" href="classes/unchained-rogue.html"><span class="node-name">Unchained Rogue</span><span class="node-tag">Break the limit, lock the job, master the basics.</span></a>
-    </div>
-    <div class="tree-link" aria-hidden="true"></div>
-    <div class="tree-row">
-      <a class="node node--final" href="classes/phantom-thief.html"><span class="node-name">Phantom Thief</span><span class="node-tag">Infinite possibilities. Most specialisation skills, and every job's shadow set.</span></a>
-    </div>
-  </section>
-  <section class="tree-group reveal">
-    <div class="tree-head">
-      <h2>The Raider road</h2>
-      <p>Fast job levels, harsh job quests, and a trial nobody will describe.</p>
-    </div>
-    <div class="tree-row">
-      <a class="node node--first" href="classes/raider.html"><span class="node-name">Raider</span><span class="node-tag">Spears, staying power, and a trial that ends in a dragon.</span></a>
-    </div>
-    <div class="tree-link" aria-hidden="true"></div>
-    <div class="tree-row">
-      <a class="node node--final" href="classes/dracomancer.html"><span class="node-name">Dracomancer</span><span class="node-tag">Draco Orbs instead of runes, and a dragon you can borrow.</span></a>
-    </div>
-  </section>
-  <section class="tree-group reveal">
-    <div class="tree-head">
-      <h2>The unbound</h2>
-      <p>Trickster and Vagabond ignore their destiny in opposite directions. Seventy job levels each before the final change.</p>
-    </div>
-    <div class="tree-row">
-      <a class="node node--first" href="classes/trickster.html"><span class="node-name">Trickster</span><span class="node-tag">Scythes, innate leech, and a three-step combo you never stop pressing.</span></a>
-      <a class="node node--first" href="classes/vagabond.html"><span class="node-name">Vagabond</span><span class="node-tag">Daggers and auto attacks. No rotation, no excuses.</span></a>
-    </div>
-    <div class="tree-link" aria-hidden="true"></div>
-    <div class="tree-row">
-      <a class="node node--final" href="classes/revenant.html"><span class="node-name">Revenant</span><span class="node-tag">Lady Hel's subject. Counters, leech, and a spirit that stuns.</span></a>
-      <a class="node node--final" href="classes/legend.html"><span class="node-name">Legend</span><span class="node-tag">Dual wielding, and passives on top of passives.</span></a>
-    </div>
-  </section>
-  <section class="tree-group reveal">
-    <div class="tree-head">
-      <h2>Standing alone</h2>
-      <p>Three jobs with no second step. Jester breaks the story, Ronin meditates on it, Mimic laughs at it.</p>
-    </div>
-    <div class="tree-row">
-      <a class="node node--first" href="classes/jester.html"><span class="node-name">Jester</span><span class="node-tag">A deck, a huge SP pool, and the highest attack speed ceiling in the game.</span></a>
-      <a class="node node--first" href="classes/ronin.html"><span class="node-name">Ronin</span><span class="node-tag">Every skill can crit. Every hit taken takes your buffs with it.</span></a>
+      <a class="node node--first" href="classes/jester.html"><span class="node-name">Jester</span><span class="node-tag">Plays with destiny. A barrage of skills.</span></a>
+      <a class="node node--first" href="classes/ronin.html"><span class="node-name">Ronin</span><span class="node-tag">Perfect play. Every skill can crit, every hit taken costs you.</span></a>
       <a class="node node--first" href="classes/mimic.html"><span class="node-name">Mimic</span><span class="node-tag">Every skill in the game, if the dice agree.</span></a>
+      <a class="node node--alt" href="classes/merchant.html"><span class="node-name">Merchant <span class="badge tag-added">New</span></span><span class="node-tag">A life of peace and profits. Cannot fight, can sell.</span></a>
+    </div>
+  </section>
+  <section class="tree-group reveal">
+    <div class="tree-head">
+      <h2>One more step</h2>
+      <p>Four roads with exactly two stations. The first job comes at job level 10, the second at 70 for Trickster and Vagabond, sooner for Raider and Bouncer.</p>
+    </div>
+    <div class="tree-row">
+      <a class="node node--first" href="classes/raider.html"><span class="node-name">Raider</span><span class="node-tag">The forgotten myth. Heart of weapons.</span></a>
+      <a class="node node--first" href="classes/trickster.html"><span class="node-name">Trickster</span><span class="node-tag">Niflheim's eyes in Midgard. Lifesteal, criticals and fire.</span></a>
+      <a class="node node--first" href="classes/vagabond.html"><span class="node-name">Vagabond</span><span class="node-tag">Forging your destiny. Auto attack specialist.</span></a>
+      <a class="node node--first" href="classes/bouncer.html"><span class="node-name">Bouncer <span class="badge tag-added">New</span></span><span class="node-tag">Fists, punch combos, and the first casting skills in the tree.</span></a>
+    </div>
+    <div class="tree-link" aria-hidden="true"></div>
+    <div class="tree-row">
+      <a class="node node--final" href="classes/dracomancer.html"><span class="node-name">Dracomancer</span><span class="node-tag">The storm walker. Bound to dragons.</span></a>
+      <a class="node node--final" href="classes/revenant.html"><span class="node-name">Revenant</span><span class="node-tag">Master of life and death. Engagement and explosive damage.</span></a>
+      <a class="node node--final" href="classes/legend.html"><span class="node-name">Legend</span><span class="node-tag">Master of your destiny. Battlefield dominance with power.</span></a>
+      <a class="node node--final" href="classes/pit-boss.html"><span class="node-name">Pit Boss <span class="badge tag-added">New</span></span><span class="node-tag">Big setup for big hits.</span></a>
     </div>
   </section>
   <section class="tree-group reveal">
     <div class="tree-head">
       <h2>The Expert jobs</h2>
-      <p>Unique systems, steeper learning curves, and explicitly not recommended for a first character.</p>
+      <p>Unique systems, steeper learning curves, and explicitly not recommended for a first character. Base level 15 and job level 10 to enter.</p>
     </div>
     <div class="tree-row">
-      <a class="node node--expert" href="classes/judge.html"><span class="node-name">Judge</span><span class="node-tag">Revolvers you craft yourself, and 100 job levels to fill.</span></a>
+      <a class="node node--expert" href="classes/judge.html"><span class="node-name">Judge</span><span class="node-tag">Power from the royalty. High preparation for high burst.</span></a>
       <a class="node node--expert" href="classes/peacekeeper.html"><span class="node-name">Peacekeeper</span><span class="node-tag">Whips and trinkets, in one continuous combo.</span></a>
-      <a class="node node--expert" href="classes/illusionist.html"><span class="node-name">Illusionist</span><span class="node-tag">Two characters in one. Yours, and Kimi's.</span></a>
-      <a class="node node--expert" href="classes/dark-knight.html"><span class="node-name">Dark Knight</span><span class="node-tag">The lower your health, the harder you hit.</span></a>
+      <a class="node node--expert" href="classes/illusionist.html"><span class="node-name">Illusionist</span><span class="node-tag">Memories given life. Summons and illusion spells.</span></a>
+      <a class="node node--expert" href="classes/dark-knight.html"><span class="node-name">Dark Knight</span><span class="node-tag">Vengeance incarnate. Life energy into power.</span></a>
     </div>
   </section>
   <section class="tree-group reveal">
     <div class="tree-head">
-      <h2>New in the Refuge</h2>
-      <p>Two jobs that did not exist before. Same progression timing as Raider to Dracomancer, so the second step comes quickly.</p>
+      <h2>The Thief road</h2>
+      <p>The main progression, and the widest. Fifty job levels as a Thief, then a choice that eventually forks eight ways.</p>
     </div>
     <div class="tree-row">
-      <a class="node node--first" href="classes/bouncer.html"><span class="node-name">Bouncer <span class="badge tag-added">New</span></span><span class="node-tag">Fists, punch combos, and the first casting skills in the tree.</span></a>
+      <a class="node node--first" href="classes/thief.html"><span class="node-name">Thief</span><span class="node-tag">Path of the hero. Endless skills and spells.</span></a>
     </div>
     <div class="tree-link" aria-hidden="true"></div>
     <div class="tree-row">
-      <a class="node node--final" href="classes/pit-boss.html"><span class="node-name">Pit Boss <span class="badge tag-added">New</span></span><span class="node-tag">Big setup, big hits. Golf clubs and chains.</span></a>
+      <a class="node node--second" href="classes/assassin.html"><span class="node-name">Assassin</span><span class="node-tag">Power of tradition. Master of weapon arts.</span></a>
+      <a class="node node--alt" href="classes/unchained-thief.html"><span class="node-name">Unchained Thief</span><span class="node-tag">Power of tradition and change. User of multiple schools.</span></a>
+      <a class="node node--second" href="classes/rogue.html"><span class="node-name">Rogue</span><span class="node-tag">Power of change. Jack of all trades.</span></a>
+    </div>
+  </section>
+  <section class="tree-group reveal">
+    <div class="tree-head">
+      <h2>Leaving the road</h2>
+      <p>A Thief can abandon the path outright. An Assassin or a Rogue can lock the job forever instead of specialising.</p>
+    </div>
+    <div class="tree-row">
+      <a class="node node--alt" href="classes/shadowseer.html"><span class="node-name">Shadowseer</span><span class="node-tag">Duality of reality. A rain of autospells.</span></a>
+      <a class="node node--alt" href="classes/prowler.html"><span class="node-name">Prowler</span><span class="node-tag">Evasive backstabber. Close in and slaughter.</span></a>
+    </div>
+    <div class="tree-link" aria-hidden="true"></div>
+    <div class="tree-row">
+      <a class="node node--alt" href="classes/unchained-assassin.html"><span class="node-name">Unchained Assassin</span><span class="node-tag">Break the limit and lock the job. Master of the basic arts.</span></a>
+      <a class="node node--alt" href="classes/unchained-rogue.html"><span class="node-name">Unchained Rogue</span><span class="node-tag">Break the limit and lock the job. Master of the basic arts.</span></a>
+      <a class="node node--final" href="classes/phantom-thief.html"><span class="node-name">Phantom Thief</span><span class="node-tag">Master of tradition and change. Infinite possibilities.</span></a>
+    </div>
+  </section>
+  <section class="tree-group reveal">
+    <div class="tree-head">
+      <h2>Path of Tradition</h2>
+      <p>Assassin specialisations lift the job level cap from 50 to 70 and are required for a final job.</p>
+    </div>
+    <div class="tree-row">
+      <a class="node node--spec" href="classes/blade-dancer.html"><span class="node-name">Blade Dancer</span><span class="node-tag">Master of blades. Dual wielding, properly.</span></a>
+      <a class="node node--spec" href="classes/shinobi.html"><span class="node-name">Shinobi</span><span class="node-tag">Master of elements. Change the element, change the fight.</span></a>
+      <a class="node node--spec" href="classes/scoundrel.html"><span class="node-name">Scoundrel</span><span class="node-tag">Master of poisons. Debuff everything, including yourself.</span></a>
+      <a class="node node--spec" href="classes/executioner.html"><span class="node-name">Executioner</span><span class="node-tag">Master of katars. Chain the skills, land the damage.</span></a>
+    </div>
+    <div class="tree-link" aria-hidden="true"></div>
+    <div class="tree-row">
+      <a class="node node--final" href="classes/night-raven.html"><span class="node-name">Night Raven</span><span class="node-tag">Unseen blade from the skies. Speed, mobility, precision.</span></a>
+      <a class="node node--final" href="classes/satsujin.html"><span class="node-name">Satsujin</span><span class="node-tag">Master of shadows and magic. Attacks from shadows and spells.</span></a>
+      <a class="node node--final" href="classes/black-plague.html"><span class="node-name">Black Plague</span><span class="node-tag">Unseen death from inside. Poisons, toxins, curses and death.</span></a>
+      <a class="node node--final" href="classes/gravekeeper.html"><span class="node-name">Gravekeeper</span><span class="node-tag">Loki's legacy for Midgard. Critical attacks and combos.</span></a>
+    </div>
+  </section>
+  <section class="tree-group reveal">
+    <div class="tree-head">
+      <h2>Path of Change</h2>
+      <p>Rogue specialisations, same rules. Four of the most different final jobs in the game come out of this row.</p>
+    </div>
+    <div class="tree-row">
+      <a class="node node--spec" href="classes/duelist.html"><span class="node-name">Duelist</span><span class="node-tag">A stance, counter charges, and skills that read them.</span></a>
+      <a class="node node--spec" href="classes/mystic.html"><span class="node-name">Mystic</span><span class="node-tag">Spellcasting, unlocked.</span></a>
+      <a class="node node--spec" href="classes/saboteur.html"><span class="node-name">Saboteur</span><span class="node-tag">Traps, explosions, and a pitcher for the party.</span></a>
+      <a class="node node--spec" href="classes/deadeye.html"><span class="node-name">Deadeye</span><span class="node-tag">The bow, the nest, and one very heavy finisher.</span></a>
+    </div>
+    <div class="tree-link" aria-hidden="true"></div>
+    <div class="tree-row">
+      <a class="node node--final" href="classes/kingslayer.html"><span class="node-name">Kingslayer</span><span class="node-tag">Master of strategy and war. Versatility, control, protection.</span></a>
+      <a class="node node--final" href="classes/arcane-master.html"><span class="node-name">Arcane Master</span><span class="node-tag">Unrestricted forbidden magic. Spellcasting, autospells, elements.</span></a>
+      <a class="node node--final" href="classes/blast-juggler.html"><span class="node-name">Blast Juggler</span><span class="node-tag">No restrictions or rules. Bombs, traps and explosions.</span></a>
+      <a class="node node--final" href="classes/sinner.html"><span class="node-name">Sinner</span><span class="node-tag">Repent through cleansing. Smiting arrows and turrets.</span></a>
     </div>
   </section>
 </div>
@@ -324,45 +341,45 @@
             <span class="brand-sub">Refuge</span>
           </span>
         </a>
-        <p class="muted" style="margin-top:1rem;font-size:0.92rem;max-width:34ch">
+        <p class="muted" data-i18n="foot.blurb" style="margin-top:1rem;font-size:0.92rem;max-width:34ch">
           A free, non-commercial hobby world built and run by a handful of players
           for anyone who wants somewhere unhurried to play.
         </p>
         <p class="cluster" style="margin-top:1rem">
-          <a class="btn btn--ghost" href="https://discord.gg/a5P3PFNMhn" rel="noopener">Community chat</a>
+          <a class="btn btn--ghost" href="https://discord.gg/a5P3PFNMhn" rel="noopener" data-i18n="cta.chat">Community chat</a>
         </p>
       </div>
       <div>
-        <h4>Start here</h4>
+        <h4 data-i18n="foot.col0">Start here</h4>
         <ul>
-        <li><a href="server.html">What the Refuge is</a></li>
-        <li><a href="start.html">New player guide</a></li>
-        <li><a href="join.html">How to join</a></li>
-        <li><a href="faq.html">Questions and answers</a></li>
+        <li><a href="server.html" data-i18n="foot.server">What the Refuge is</a></li>
+        <li><a href="start.html" data-i18n="foot.start">New player guide</a></li>
+        <li><a href="join.html" data-i18n="foot.join">How to join</a></li>
+        <li><a href="faq.html" data-i18n="foot.faq">Questions and answers</a></li>
         </ul>
       </div>
       <div>
-        <h4>The game</h4>
+        <h4 data-i18n="foot.col1">The game</h4>
         <ul>
-        <li><a href="classes.html">All 30 classes</a></li>
-        <li><a href="newjobs.html">Bouncer and Pit Boss</a></li>
-        <li><a href="mechanics.html">Combat and stats</a></li>
-        <li><a href="gear.html">Items, refining, shadows</a></li>
-        <li><a href="world.html">Regions, dungeons, MVPs</a></li>
+        <li><a href="classes.html" data-i18n="foot.classes">All 42 classes</a></li>
+        <li><a href="newjobs.html" data-i18n="foot.newjobs">Bouncer and Pit Boss</a></li>
+        <li><a href="mechanics.html" data-i18n="foot.mechanics">Combat and stats</a></li>
+        <li><a href="gear.html" data-i18n="foot.gear">Items, refining, shadows</a></li>
+        <li><a href="world.html" data-i18n="foot.world">Regions, dungeons, MVPs</a></li>
         </ul>
       </div>
       <div>
-        <h4>Reference</h4>
+        <h4 data-i18n="foot.col2">Reference</h4>
         <ul>
-        <li><a href="changes.html">Changes from the original</a></li>
-        <li><a href="database.html">Community database</a></li>
-        <li><a href="guides.html">Player-written guides</a></li>
-        <li><a href="llms.txt">llms.txt</a></li>
-        <li><a href="sitemap.xml">Sitemap</a></li>
+        <li><a href="changes.html" data-i18n="foot.changes">Changes from the original</a></li>
+        <li><a href="database.html" data-i18n="foot.database">Community database</a></li>
+        <li><a href="guides.html" data-i18n="foot.guides">Player-written guides</a></li>
+        <li><a href="llms.txt" data-i18n="foot.llms">llms.txt</a></li>
+        <li><a href="sitemap.xml" data-i18n="foot.sitemap">Sitemap</a></li>
         </ul>
       </div>
     </div>
-    <p class="footer-legal">
+    <p class="footer-legal" data-i18n="foot.legal">
       Return to Morroc: Refuge is an unofficial, non-commercial fan project with no affiliation to,
       sponsorship by or endorsement from any game publisher, developer or rights
       holder. It hosts no commercial storefront, sells nothing, and accepts no
@@ -376,6 +393,9 @@
 </footer>
 <!-- FOOTER:END -->
 
+<script>window.RTMR_PREFIX = "";</script>
 <script src="assets/js/main.js" defer></script>
+<script src="assets/js/search.js" defer></script>
+<script src="assets/js/i18n.js" defer></script>
 </body>
 </html>

@@ -288,6 +288,8 @@ ADDED = [
 ]
 
 REMOVED = [
+    "Weapon rarity. There is no rarity tier on weapons in the Refuge.",
+    "Orbs for rerolling random options. What a piece rolls is what it rolled.",
     "Level 100+ job shadow sets. They locked players into one playstyle past 100; the replacement sets are built for variety and for the skills nobody was using.",
     "Manuals that no longer made sense after the Heal, Hiding and Warp Portal rework.",
     "Drop rate bonuses from gear.",

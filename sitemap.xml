@@ -181,6 +181,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://rtmrefuge.pages.dev/classes/merchant.html</loc>
+    <lastmod>2026-08-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://rtmrefuge.pages.dev/classes/mimic.html</loc>
     <lastmod>2026-08-10</lastmod>
     <changefreq>weekly</changefreq>

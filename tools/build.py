@@ -52,8 +52,8 @@ def cta(title, text):
       <h2>{title}</h2>
       <p>{text}</p>
       <div class="cluster">
-        <a class="btn btn--primary" href="{DISCORD}" rel="noopener">Join the community server</a>
-        <a class="btn btn--ghost" href="join.html">How to get in</a>
+        <a class="btn btn--primary" href="{DISCORD}" rel="noopener" data-i18n="cta.join">Join the community server</a>
+        <a class="btn btn--ghost" href="join.html" data-i18n="cta.howto">How to get in</a>
       </div>
     </div>
   </div>
@@ -116,25 +116,28 @@ HOME_LD = """<script type="application/ld+json">
 
 
 def build_home():
-    body = f"""<section class="hero">
+    body = f"""<div class="aurora" aria-hidden="true"><span class="a1"></span><span class="a2"></span><span class="a3"></span></div>
+
+<section class="hero">
   <div class="shell hero-inner">
     <div>
-      <p class="eyebrow"><span class="live-dot" aria-hidden="true"></span> In development &middot; no launch date yet</p>
-      <h1>The Orphans have their <span class="accent">old home</span> back.</h1>
-      <p class="hero-lede">
+      <p class="eyebrow"><span class="live-dot" aria-hidden="true"></span> <span data-i18n="home.status">In development &middot; no launch date yet</span></p>
+      <h1><span data-i18n="home.h1">The Orphans have their <span class="accent">old home</span> back.</span></h1>
+      <p class="hero-lede" data-i18n="home.lede">
         The orphanage went dark when the original world closed. It is being lit
         again - same place, better bones. Every job rebalanced, two new ones
         added, three new endgame dungeons, and not a single thing for sale.
       </p>
       <div class="cluster" style="margin-top:2rem">
-        <a class="btn btn--primary" href="{DISCORD}" rel="noopener">Join the community server</a>
-        <a class="btn btn--ghost" href="server.html">What this is</a>
+        <a class="btn btn--primary" href="{DISCORD}" rel="noopener" data-i18n="cta.join">Join the community server</a>
+        <a class="btn btn--ghost" href="start.html" data-i18n="cta.start">Start playing</a>
+        <a class="btn btn--ghost" href="classes.html" data-i18n="cta.browse">Browse 42 classes</a>
       </div>
       <div class="cluster" style="margin-top:1.6rem">
-        <span class="chip"><strong>Free</strong> forever</span>
-        <span class="chip">No <strong>cash shop</strong></span>
-        <span class="chip">No <strong>RMT</strong></span>
-        <span class="chip"><strong>Solo-friendly</strong> PvE</span>
+        <span class="chip" data-i18n="chip.free"><strong>Free</strong> forever</span>
+        <span class="chip" data-i18n="chip.shop">No <strong>cash shop</strong></span>
+        <span class="chip" data-i18n="chip.rmt">No <strong>RMT</strong></span>
+        <span class="chip" data-i18n="chip.solo"><strong>Solo-friendly</strong> PvE</span>
       </div>
     </div>
     <div class="hero-art">
@@ -142,19 +145,6 @@ def build_home():
            alt="The Refuge mark: a shattered star of silver and purple shards"
            fetchpriority="high" decoding="async">
     </div>
-  </div>
-</section>
-
-<section class="section section--alt">
-  <div class="shell">
-    <dl class="stat-row reveal">
-      <div class="stat"><dt>New items</dt><dd>300+</dd></div>
-      <div class="stat"><dt>New shadow sets</dt><dd>50+</dd></div>
-      <div class="stat"><dt>Distortion dungeons</dt><dd>21</dd></div>
-      <div class="stat"><dt>New SS dungeons</dt><dd>3</dd></div>
-      <div class="stat"><dt>New jobs</dt><dd>2</dd></div>
-      <div class="stat"><dt>Cash shop items</dt><dd>0</dd></div>
-    </dl>
   </div>
 </section>
 
@@ -1012,6 +1002,41 @@ def build_faq():
          extra_ld=C.faq_ld(D.FAQS))
 
 
+def build_404():
+    """Cloudflare Pages and Netlify both serve /404.html for an unknown path.
+
+    It is generated like every other page so it carries the same header,
+    footer and search - a dead end that still lets you get somewhere is worth
+    more than a pretty apology."""
+    body = f"""<div class="aurora" aria-hidden="true"><span class="a1"></span><span class="a2"></span><span class="a3"></span></div>
+
+<div class="shell lost">
+  <div>
+    <p class="code" data-i18n="lost.code">Error 404</p>
+    <h1 data-i18n="lost.h1">This page wandered off.</h1>
+    <p data-i18n="lost.body">
+      The address does not exist, or it did and it moved. It happens to orphans
+      with no memory. Try the search, or pick up one of the threads below.
+    </p>
+    <div class="cluster lost-links" style="justify-content:center">
+      <button class="btn btn--primary" type="button" data-search-open data-i18n="lost.search">Search the site</button>
+      <a class="btn btn--ghost" href="index.html" data-i18n="nav.home">Home</a>
+      <a class="btn btn--ghost" href="start.html" data-i18n="nav.start">Start Here</a>
+      <a class="btn btn--ghost" href="classes.html" data-i18n="nav.classes">Classes</a>
+    </div>
+  </div>
+</div>
+"""
+    html = C.head("", "Page not found | Return to Morroc: Refuge",
+                  "That page does not exist on the Refuge site. Search the site, or "
+                  "start again from the class tree, the new player guide or the home page.",
+                  "404.html")
+    html += C.header("", "")
+    html += '<main id="main">\n' + body + "\n</main>\n"
+    html += C.footer("")
+    return write("404.html", html)
+
+
 def main():
     print("building", ROOT)
     build_home()
@@ -1022,6 +1047,7 @@ def main():
     build_database()
     build_join()
     build_faq()
+    build_404()
     print("done")
 
 

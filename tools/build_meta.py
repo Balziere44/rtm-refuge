@@ -43,7 +43,9 @@ DESC = re.compile(r'<meta name="description" content="(.*?)">', re.S)
 def pages():
     """Every page, root first then the classes subfolder, in a stable order."""
     for name in sorted(os.listdir(ROOT)):
-        if name.endswith(".html"):
+        # 404 is served for unknown paths, not browsed to. Listing it in the
+        # sitemap invites a crawler to index the error page.
+        if name.endswith(".html") and name != "404.html":
             yield name
     sub = os.path.join(ROOT, "classes")
     if os.path.isdir(sub):

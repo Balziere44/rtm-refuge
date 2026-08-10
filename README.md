@@ -1,6 +1,6 @@
 # Return to Morroc: Refuge — site
 
-Static site for the Refuge. 54 pages, no framework, no bundler, no build step
+Static site for the Refuge. 56 pages, no framework, no bundler, no build step
 on the host. What is committed is exactly what the browser receives.
 
 Live at <https://rtmrefuge.pages.dev>.
@@ -22,9 +22,11 @@ Then open <http://localhost:4410>. There is nothing to install.
 ```bash
 python tools/build.py          # home and the short pages
 python tools/build_docs.py     # start / mechanics / gear / world
-python tools/build_classes.py  # the tree, plus 41 class pages
-python tools/build_meta.py     # sitemap.xml, robots.txt, llms.txt (run last)
+python tools/build_classes.py  # the tree, plus 42 class pages
+python tools/build_meta.py     # sitemap.xml, robots.txt, llms.txt
+python tools/build_search.py   # the search index (run last, it reads the pages)
 python tools/check.py          # validate before committing
+python tools/check_i18n.py     # and check the translations
 ```
 
 `build_meta.py` reads the pages the other scripts produced, so it goes last.
@@ -48,6 +50,9 @@ Run `python tools/fetch_wiki.py --parse-only` to re-parse without re-downloading
 | `tools/build.py` | Home and the short pages. One function each. |
 | `tools/build_docs.py` | The four long reference pages, assembled from wiki sections. |
 | `tools/build_classes.py` | `classes.html` and `classes/*.html` |
+| `tools/build_search.py` | `assets/data/search.json` - the search index. Runs last. |
+| `tools/check_i18n.py` | Fails if the markup uses a key no locale defines |
+| `assets/i18n/pt.js` | Portuguese table. Add a language by copying this file. |
 | `tools/build_meta.py` | sitemap, robots, llms.txt |
 | `tools/check.py` | The pre-commit validator |
 | `tools/set_domain.py` | Move the site to a different origin in one command |
@@ -166,3 +171,35 @@ win and the difference is shown rather than resolved silently.
 - Headings above `h3` use the Art Nouveau display face. `h3` and below use
   Atkinson Hyperlegible, because a decorative face stops helping at that size.
 - Comments explain *why*, not *what*.
+
+## Interface notes
+
+**Glass.** Every raised surface composes one set of tokens (`--glass-fill`,
+`--glass-edge`, `--glass-shine`, `--glass-blur`) in section 15 of the
+stylesheet. Change those four and the whole site changes together. Nested
+glass reads as mud, so a pane inside a pane drops its blur and keeps only its
+edge, and `@supports not (backdrop-filter)` falls back to an opaque surface
+rather than an unreadable transparent one.
+
+**Aurora.** The home page and the 404 carry a fixed CSS backdrop: three broad
+colour fields drifting behind a heavy blur. No canvas, no WebGL, no library.
+Only `transform` and `opacity` animate — animating a gradient's colour stops
+repaints the whole layer every frame — and `prefers-reduced-motion` keeps the
+colour while dropping the drift.
+
+**Search.** `assets/data/search.json` is 529 rows: every page, every reference
+section, every class, all 423 skills and all 21 dungeons. The UI is built at
+runtime so no page ships markup for it, and the index is warmed on
+`pointerenter` of the button so the first open feels instant. Ranking weights
+by group and then caps each group at 7 results — without the cap, 423 skills
+bury the one page that answers the question. `/` and `Ctrl/Cmd+K` both open it.
+
+**Translations.** English lives in the HTML; there is no `en.js`, because what
+a crawler indexes has to be the real markup. Other languages are tables loaded
+on demand, and a missing key falls back to the English snapshot taken at boot,
+so a half-finished translation degrades word by word instead of printing
+`undefined`. Scope is deliberate and worth defending: navigation, footer,
+interface labels, the home page and the shared callout headings are
+translated; skill descriptions, levelling spots and the wiki-derived system
+pages are not, because those are the exact strings people search for and the
+exact strings the game itself shows.

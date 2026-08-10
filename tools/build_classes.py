@@ -43,6 +43,12 @@ def write(rel, text):
     return rel
 
 
+def t_(key, english):
+    """A translatable label: emit the key alongside the English so the runtime
+    can swap it. Returned as a pair, rendered as data-i18n + text."""
+    return (key, english)
+
+
 def name_of(slug):
     return M.NAMES.get(slug, slug)
 
@@ -98,6 +104,16 @@ def skill_rows(skills):
     return "\n".join(rows), rows and extra
 
 
+def own_html(meta):
+    """Classes with no wiki page (Merchant, and the two new jobs) carry their
+    own bullets here instead."""
+    own = meta.get("own")
+    if not own:
+        return ""
+    return ('<h2 data-i18n="ui.whatItIs">What it is</h2>\n      <ul>'
+            + "".join("<li>%s</li>" % o for o in own) + "</ul>")
+
+
 def prose_html(prose):
     out = []
     for sec in prose:
@@ -134,30 +150,30 @@ def class_page(meta):
     rows, _ = skill_rows(skills)
     tier = M.TIER_LABEL[meta["tier"]]
 
-    facts = [("Tier", tier)]
+    facts = [(t_('ui.tier', 'Tier'), tier)]
     if meta["parents"]:
-        facts.append(("Changes from", " or ".join(
+        facts.append((t_("ui.changesFrom", "Changes from"), " or ".join(
             '<a href="%s.html">%s</a>' % (p, name_of(p)) for p in meta["parents"])))
     if meta["leads_to"]:
-        facts.append(("Leads to", ", ".join(
+        facts.append((t_("ui.leadsTo", "Leads to"), ", ".join(
             '<a href="%s.html">%s</a>' % (p, name_of(p)) for p in meta["leads_to"])))
     if meta.get("weapons") or (meta.get("page") and WIKI.get(meta["page"], {}).get("weapons")):
         w = meta.get("weapons") or WIKI[meta["page"]]["weapons"]
-        facts.append(("Weapons", esc(w)))
+        facts.append((t_("ui.weapons", "Weapons"), esc(w)))
 
     fact_html = "\n".join(
-        '        <div><dt>%s</dt><dd>%s</dd></div>' % (k, v) for k, v in facts)
+        '        <div><dt data-i18n="%s">%s</dt><dd>%s</dd></div>' % (k[0], k[1], v) for k, v in facts)
 
     src = WIKI.get(meta.get("page") or "", {})
     verdict = ""
     if src.get("best") or src.get("worst"):
         verdict = f"""      <div class="verdict">
         <div class="verdict-col verdict-col--good">
-          <h3>Strengths</h3>
+          <h3 data-i18n="ui.strengths">Strengths</h3>
           <p>{esc(src.get('best', 'Not documented yet.'))}</p>
         </div>
         <div class="verdict-col verdict-col--bad">
-          <h3>Weaknesses</h3>
+          <h3 data-i18n="ui.weaknesses">Weaknesses</h3>
           <p>{esc(src.get('worst', 'Not documented yet.'))}</p>
         </div>
       </div>"""
@@ -166,7 +182,7 @@ def class_page(meta):
     if meta["refuge"]:
         items = "".join("<li>%s</li>" % r for r in meta["refuge"])
         refuge = f"""      <aside class="callout callout--refuge" aria-labelledby="refuge-{slug}">
-        <h2 id="refuge-{slug}">What the Refuge changed</h2>
+        <h2 id="refuge-{slug}" data-i18n="ui.refugeChanged">What the Refuge changed</h2>
         <ul>{items}</ul>
       </aside>"""
 
@@ -174,13 +190,13 @@ def class_page(meta):
     if rows:
         skills_block = f"""      <section class="section--tight" id="skills">
         <div class="section-head">
-          <h2>Skills</h2>
+          <h2 data-i18n="ui.skills">Skills</h2>
           <p>{len(skills)} entries, as documented for the world the Refuge inherited.
              Exact numbers are deliberately not listed - they move with balance passes.</p>
         </div>
         <div class="cluster" style="margin-bottom:1rem">
           <label class="visually-hidden" for="sk">Filter skills</label>
-          <input id="sk" type="search" class="field" placeholder="Filter skills..."
+          <input id="sk" type="search" class="field" placeholder="Filter skills..." data-i18n-attr="placeholder:ui.filterSkills"
                  data-filter="skilltable" data-filter-count="skcount">
           <span class="chip mono" id="skcount">-</span>
         </div>
@@ -216,6 +232,11 @@ def class_page(meta):
     <p class="eyebrow">{tier}</p>
     <h1>{esc(name)}</h1>
     <p class="lede">{esc(meta['tagline'])}</p>
+    <div class="cluster" style="margin-top:1.4rem">
+      <a class="btn btn--primary" href="{C.DISCORD}" rel="noopener" data-i18n="cta.join">Join the community server</a>
+      <a class="btn btn--ghost" href="../classes.html">Full class tree</a>
+      {'<a class="btn btn--ghost" href="#skills">Skills</a>' if rows else ''}
+    </div>
   </div>
 </section>
 
@@ -227,7 +248,7 @@ def class_page(meta):
     </dl>
 {verdict}
     <div class="prose-flow">
-      {prose_html(prose)}
+      {prose_html(prose) or own_html(meta)}
     </div>
 {skills_block}
     <p class="source-note">{source_note}</p>

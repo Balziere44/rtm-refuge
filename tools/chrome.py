@@ -44,7 +44,7 @@ FOOTER_COLUMNS = [
         ("faq.html", "Questions and answers"),
     ]),
     ("The game", [
-        ("classes.html", "All 30 classes"),
+        ("classes.html", "All 42 classes"),
         ("newjobs.html", "Bouncer and Pit Boss"),
         ("mechanics.html", "Combat and stats"),
         ("gear.html", "Items, refining, shadows"),
@@ -130,15 +130,21 @@ def head(prefix, title, description, canonical, extra_ld="", preload_hero=False)
 </script>
 {extra_ld}</head>
 <body>
-<a class="skip-link" href="#main">Skip to content</a>
+<a class="skip-link" href="#main" data-i18n="a11y.skip">Skip to content</a>
 """
+
+
+def nav_key(href):
+    """Stable i18n key for a nav entry, derived from its filename."""
+    return "nav." + href.replace(".html", "").replace("index", "home")
 
 
 def _nav_links(prefix, active, cls=""):
     out = []
     for href, label in NAV:
         cur = ' aria-current="page"' if href == active else ""
-        out.append(f'      <a href="{prefix}{href}"{cur}>{label}</a>')
+        out.append(f'      <a href="{prefix}{href}"{cur} '
+                   f'data-i18n="{nav_key(href)}">{label}</a>')
     return "\n".join(out)
 
 
@@ -158,7 +164,32 @@ def header(prefix, active):
     </nav>
     <!-- NAV:END -->
     <div class="header-actions">
-      <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch theme">
+      <button class="icon-btn search-btn" type="button" data-search-open
+              aria-label="Search this site" data-i18n-attr="aria-label:search.title">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true">
+          <circle cx="11" cy="11" r="7"/><path d="M20 20l-3.6-3.6" stroke-linecap="round"/>
+        </svg>
+        <kbd>Ctrl K</kbd>
+      </button>
+      <div class="lang" data-open="false">
+        <button class="icon-btn" type="button" data-lang-open aria-expanded="false"
+                aria-haspopup="true" aria-label="Change language"
+                data-i18n-attr="aria-label:lang.change">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+            <circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 2.5 15.4 0 18M12 3c-2.5 2.6-2.5 15.4 0 18"/>
+          </svg>
+        </button>
+        <div class="lang-menu" role="menu">
+          <button type="button" role="menuitem" data-lang-pick="en" aria-current="true">
+            English <span class="lang-code">EN</span>
+          </button>
+          <button type="button" role="menuitem" data-lang-pick="pt" aria-current="false">
+            Portugu&ecirc;s <span class="lang-code">PT</span>
+          </button>
+        </div>
+      </div>
+      <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch theme"
+              data-i18n-attr="aria-label:theme.switch">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
           <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" stroke-linejoin="round"/>
         </svg>
@@ -197,16 +228,27 @@ def header(prefix, active):
 """
 
 
+def foot_key(href):
+    """Stable i18n key for a footer link, derived from its target."""
+    stem = href.split("/")[-1].split("#")[0]
+    for ext in (".html", ".txt", ".xml"):
+        stem = stem.replace(ext, "")
+    return "foot." + (stem or "external")
+
+
 def footer(prefix):
     cols = []
-    for title, links in FOOTER_COLUMNS:
+    for col, (title, links) in enumerate(FOOTER_COLUMNS):
         items = []
         for href, label in links:
             full = href if href.startswith("http") else prefix + href
             ext = ' rel="noopener"' if href.startswith("http") else ""
-            items.append(f"        <li><a href=\"{full}\"{ext}>{label}</a></li>")
+            key = foot_key(href)
+            items.append(
+                f'        <li><a href="{full}"{ext} data-i18n="{key}">{label}</a></li>')
         items = "\n".join(items)
-        cols.append(f"      <div>\n        <h4>{title}</h4>\n        <ul>\n{items}\n        </ul>\n      </div>")
+        cols.append(f'      <div>\n        <h4 data-i18n="foot.col{col}">{title}</h4>\n'
+                    f"        <ul>\n{items}\n        </ul>\n      </div>")
     cols = "\n".join(cols)
     return f"""<!-- FOOTER:START -->
 <footer class="site-footer">
@@ -220,17 +262,17 @@ def footer(prefix):
             <span class="brand-sub">Refuge</span>
           </span>
         </a>
-        <p class="muted" style="margin-top:1rem;font-size:0.92rem;max-width:34ch">
+        <p class="muted" data-i18n="foot.blurb" style="margin-top:1rem;font-size:0.92rem;max-width:34ch">
           A free, non-commercial hobby world built and run by a handful of players
           for anyone who wants somewhere unhurried to play.
         </p>
         <p class="cluster" style="margin-top:1rem">
-          <a class="btn btn--ghost" href="{DISCORD}" rel="noopener">Community chat</a>
+          <a class="btn btn--ghost" href="{DISCORD}" rel="noopener" data-i18n="cta.chat">Community chat</a>
         </p>
       </div>
 {cols}
     </div>
-    <p class="footer-legal">
+    <p class="footer-legal" data-i18n="foot.legal">
       {BRAND} is an unofficial, non-commercial fan project with no affiliation to,
       sponsorship by or endorsement from any game publisher, developer or rights
       holder. It hosts no commercial storefront, sells nothing, and accepts no
@@ -244,7 +286,10 @@ def footer(prefix):
 </footer>
 <!-- FOOTER:END -->
 
+<script>window.RTMR_PREFIX = "{prefix}";</script>
 <script src="{prefix}assets/js/main.js" defer></script>
+<script src="{prefix}assets/js/search.js" defer></script>
+<script src="{prefix}assets/js/i18n.js" defer></script>
 </body>
 </html>
 """
@@ -260,7 +305,8 @@ def breadcrumbs(prefix, trail):
         if href is None:
             parts.append(f"<span>{label}</span>")
         else:
-            parts.append(f'<a href="{prefix}{href}">{label}</a>')
+            key = ' data-i18n="ui.home"' if label == "Home" else ""
+            parts.append(f'<a href="{prefix}{href}"{key}>{label}</a>')
     return '<p class="crumbs">' + "".join(parts) + "</p>"
 
 

@@ -150,6 +150,8 @@ html[data-theme="light"] {
   --rank-s: #b13d1c;
   --rank-ss: #b01850;
 
+  --warn: #8a6000;
+
   --tag-added: #0e7048;
   --tag-changed: var(--pur-600);
   --tag-removed: #c0263a;
@@ -1038,5 +1040,375 @@ html[data-theme="light"] .sk-active   { color: var(--sil-700); }
 .tree-row--single { grid-template-columns: minmax(0, 320px); }
 
 .tree-group--root { background: color-mix(in srgb, var(--accent) 7%, var(--bg-panel)); }
+
+/* ==========================================================================
+  15. Glass
+   ==========================================================================
+   Every raised surface on the site is the same piece of glass: a translucent
+   fill, a hairline edge, a blur of whatever is behind it, and a single
+   highlight along the top edge where the light would catch. Defining it once
+   as tokens is what keeps forty-two class pages looking like one object
+   instead of forty-two.
+
+   The blur is the expensive part. It is applied only to surfaces that are
+   actually large enough to show it, and `@supports` gives everything else an
+   opaque fallback rather than an unreadable transparent one.
+   -------------------------------------------------------------------------- */
+
+:root {
+  --glass-fill: rgba(255, 255, 255, 0.045);
+  --glass-fill-strong: rgba(255, 255, 255, 0.07);
+  --glass-edge: rgba(255, 255, 255, 0.12);
+  --glass-edge-strong: rgba(255, 255, 255, 0.22);
+  --glass-shine: rgba(255, 255, 255, 0.28);
+  --glass-blur: 18px;
+  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.42);
+  --glass-tint: rgba(145, 39, 240, 0.06);
+}
+
+html[data-theme="light"] {
+  --glass-fill: rgba(255, 255, 255, 0.55);
+  --glass-fill-strong: rgba(255, 255, 255, 0.72);
+  --glass-edge: rgba(29, 5, 51, 0.1);
+  --glass-edge-strong: rgba(29, 5, 51, 0.2);
+  --glass-shine: rgba(255, 255, 255, 0.9);
+  --glass-shadow: 0 8px 32px rgba(29, 5, 51, 0.1);
+  --glass-tint: rgba(145, 39, 240, 0.05);
+}
+
+/* The pane itself. Everything that looks like glass composes this. */
+.glass,
+.card,
+.panel,
+.callout,
+.tree-group,
+.table-wrap,
+.factbar,
+.verdict,
+.cta-band,
+.search-panel,
+details.faq {
+  position: relative;
+  background-image: linear-gradient(160deg, var(--glass-fill-strong), var(--glass-fill) 42%, var(--glass-tint));
+  background-color: transparent;
+  border: 1px solid var(--glass-edge);
+  box-shadow: var(--glass-shadow);
+  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(140%);
+  backdrop-filter: blur(var(--glass-blur)) saturate(140%);
+}
+
+/* The highlight along the top edge. A pseudo-element rather than a border so
+   it can fade out at the corners the way a real specular line does. */
+.glass::before,
+.card::before,
+.panel::before,
+.callout::before,
+.tree-group::before,
+.cta-band::before,
+.search-panel::before,
+details.faq::before {
+  content: "";
+  position: absolute;
+  inset: 0 0 auto 0;
+  height: 1px;
+  pointer-events: none;
+  background: linear-gradient(90deg, transparent, var(--glass-shine) 22%, var(--glass-shine) 78%, transparent);
+  opacity: 0.55;
+  border-radius: inherit;
+}
+
+/* The callouts keep their coloured left edge, which has to sit on top of the
+   glass fill rather than being replaced by it. */
+.callout { border-left: 3px solid var(--accent); }
+.callout--warn { border-left-color: var(--warn); }
+.callout--refuge { background-image: linear-gradient(160deg, color-mix(in srgb, var(--accent) 16%, transparent), color-mix(in srgb, var(--accent) 7%, transparent)); }
+
+.card--link:hover,
+.node:hover { border-color: var(--glass-edge-strong); }
+
+/* Header and drawer: heavier blur, because they sit over moving content and
+   a light blur reads as a smeared mistake. */
+.site-header {
+  background: linear-gradient(180deg, color-mix(in srgb, var(--bg) 78%, transparent), color-mix(in srgb, var(--bg) 62%, transparent));
+  border-bottom: 1px solid var(--glass-edge);
+  -webkit-backdrop-filter: blur(22px) saturate(150%);
+  backdrop-filter: blur(22px) saturate(150%);
+}
+
+.drawer {
+  background: color-mix(in srgb, var(--bg) 86%, transparent);
+  -webkit-backdrop-filter: blur(26px) saturate(140%);
+  backdrop-filter: blur(26px) saturate(140%);
+}
+
+/* Controls */
+.icon-btn,
+.field,
+.chip,
+.pill,
+.btn--ghost {
+  background-image: linear-gradient(160deg, var(--glass-fill-strong), var(--glass-fill));
+  background-color: transparent;
+  border-color: var(--glass-edge);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+.icon-btn:hover,
+.btn--ghost:hover,
+.pill:hover { border-color: var(--glass-edge-strong); }
+
+.btn--primary {
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--accent) 45%, transparent),
+              0 10px 34px -10px var(--glow),
+              inset 0 1px 0 rgba(255, 255, 255, 0.28);
+}
+
+thead th {
+  background: color-mix(in srgb, var(--bg) 72%, transparent);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+}
+
+.section--alt {
+  background: linear-gradient(180deg, transparent, var(--glass-fill) 30%, var(--glass-fill) 70%, transparent);
+  border-block-color: var(--glass-edge);
+}
+
+/* Nested glass reads as mud. A pane inside a pane drops its blur and most of
+   its fill, keeping only the edge so the nesting is still legible. */
+.card .panel,
+.card .callout,
+.tree-group .node,
+.doc-body .callout .callout {
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  box-shadow: none;
+}
+
+/* Without backdrop-filter the fills are simply too transparent to read
+   against the aurora, so give those browsers an opaque surface instead. */
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .glass, .card, .panel, .callout, .tree-group, .table-wrap,
+  .factbar, .verdict, .cta-band, .search-panel, details.faq,
+  .site-header, .drawer, .icon-btn, .field, .chip, .pill, .btn--ghost {
+    background-image: none;
+    background-color: var(--bg-soft);
+  }
+}
+
+/* ==========================================================================
+  16. Aurora
+   ==========================================================================
+   A fixed backdrop for the home page. Three broad colour fields drifting at
+   different speeds behind a heavy blur - no canvas, no WebGL, no library, and
+   nothing for the main thread to do once the animation is handed to the
+   compositor.
+
+   Only `transform` and `opacity` are animated, deliberately: animating a
+   gradient's colour stops repaints the whole layer every frame.
+   -------------------------------------------------------------------------- */
+
+.aurora {
+  position: fixed;
+  inset: -20vmax;
+  z-index: -1;
+  pointer-events: none;
+  overflow: hidden;
+  filter: blur(72px) saturate(135%);
+  opacity: 0.85;
+  contain: strict;
+}
+
+html[data-theme="light"] .aurora { opacity: 0.5; filter: blur(80px) saturate(120%); }
+
+.aurora span {
+  position: absolute;
+  display: block;
+  border-radius: 46% 54% 60% 40% / 50% 45% 55% 50%;
+  mix-blend-mode: screen;
+  will-change: transform;
+}
+
+html[data-theme="light"] .aurora span { mix-blend-mode: multiply; }
+
+.aurora .a1 {
+  width: 70vmax; height: 55vmax;
+  top: -8vmax; left: -6vmax;
+  background: radial-gradient(circle at 35% 40%, var(--pur-500), transparent 68%);
+  animation: aurora-a 34s ease-in-out infinite alternate;
+}
+.aurora .a2 {
+  width: 62vmax; height: 62vmax;
+  top: 6vmax; right: -12vmax;
+  background: radial-gradient(circle at 60% 45%, var(--pur-700), transparent 66%);
+  animation: aurora-b 46s ease-in-out infinite alternate;
+}
+.aurora .a3 {
+  width: 54vmax; height: 44vmax;
+  bottom: -10vmax; left: 22vmax;
+  background: radial-gradient(circle at 50% 50%, var(--sil-500), transparent 70%);
+  animation: aurora-c 40s ease-in-out infinite alternate;
+  opacity: 0.5;
+}
+
+@keyframes aurora-a {
+  from { transform: translate3d(0, 0, 0) scale(1); }
+  to   { transform: translate3d(12vmax, 8vmax, 0) scale(1.18); }
+}
+@keyframes aurora-b {
+  from { transform: translate3d(0, 0, 0) scale(1.1); }
+  to   { transform: translate3d(-14vmax, 10vmax, 0) scale(0.92); }
+}
+@keyframes aurora-c {
+  from { transform: translate3d(0, 0, 0) scale(0.95); }
+  to   { transform: translate3d(9vmax, -12vmax, 0) scale(1.22); }
+}
+
+/* Reduced motion keeps the colour and drops the drift - the backdrop still
+   does its job standing still. */
+@media (prefers-reduced-motion: reduce) {
+  .aurora span { animation: none; }
+}
+
+/* The aurora replaces the static bloom on pages that carry it. */
+body:has(.aurora)::before { display: none; }
+
+/* ==========================================================================
+  17. Site search
+   ========================================================================== */
+
+.search-btn { gap: 0.45rem; width: auto; padding-inline: 0.75rem; }
+.search-btn kbd {
+  border: 1px solid var(--glass-edge);
+  border-radius: 5px;
+  padding: 0.05rem 0.32rem;
+  font-size: 0.68rem;
+  color: var(--text-dim);
+}
+@media (max-width: 700px) { .search-btn kbd { display: none; } }
+
+.search-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 120;
+  display: none;
+  padding: clamp(1rem, 8vh, 6rem) 1rem 1rem;
+  background: color-mix(in srgb, var(--ink-000) 62%, transparent);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+}
+.search-overlay[data-open="true"] { display: block; }
+
+.search-panel {
+  width: min(100%, 620px);
+  margin-inline: auto;
+  border-radius: var(--radius);
+  overflow: hidden;
+  max-height: min(70vh, 640px);
+  display: flex;
+  flex-direction: column;
+}
+
+.search-panel input {
+  width: 100%;
+  padding: 1rem 1.15rem;
+  border: 0;
+  border-bottom: 1px solid var(--glass-edge);
+  background: transparent;
+  color: var(--text);
+  font: inherit;
+  font-size: 1.05rem;
+}
+.search-panel input:focus { outline: none; }
+
+.search-results { list-style: none; margin: 0; padding: 0.4rem; overflow-y: auto; }
+.search-results li { margin: 0; }
+.search-results a {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.2rem 0.8rem;
+  align-items: baseline;
+  padding: 0.6rem 0.75rem;
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  color: var(--text);
+}
+.search-results a:hover,
+.search-results li[aria-selected="true"] a { background: color-mix(in srgb, var(--accent) 20%, transparent); }
+.search-results .r-title { font-weight: 700; }
+.search-results .r-group {
+  font-family: var(--font-mono);
+  font-size: var(--font-min);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+.search-results .r-sub { grid-column: 1 / -1; font-size: var(--step--1); color: var(--text-muted); }
+.search-empty { padding: 1.4rem; color: var(--text-dim); text-align: center; }
+.search-foot {
+  padding: 0.55rem 0.9rem;
+  border-top: 1px solid var(--glass-edge);
+  font-size: var(--font-min);
+  color: var(--text-dim);
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* ==========================================================================
+  18. Language switcher
+   ========================================================================== */
+
+.lang { position: relative; }
+.lang-menu {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 0.5rem);
+  min-width: 168px;
+  padding: 0.3rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--glass-edge);
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  box-shadow: var(--glass-shadow);
+  display: none;
+  z-index: 80;
+}
+.lang[data-open="true"] .lang-menu { display: block; }
+.lang-menu button {
+  display: flex;
+  width: 100%;
+  gap: 0.5rem;
+  align-items: center;
+  padding: 0.5rem 0.7rem;
+  border: 0;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--text);
+  font: inherit;
+  font-size: 0.9rem;
+  text-align: left;
+  cursor: pointer;
+}
+.lang-menu button:hover { background: var(--glass-fill-strong); }
+.lang-menu button[aria-current="true"] { color: var(--accent); font-weight: 700; }
+.lang-code { font-family: var(--font-mono); font-size: var(--font-min); color: var(--text-dim); margin-left: auto; }
+
+/* ==========================================================================
+  19. 404
+   ========================================================================== */
+
+.lost { min-height: 62vh; display: grid; place-items: center; text-align: center; padding-block: var(--gap-2xl); }
+.lost h1 { font-size: var(--step-5); margin-bottom: var(--gap-sm); }
+.lost .code {
+  font-family: var(--font-mono);
+  font-size: var(--step--1);
+  letter-spacing: 0.32em;
+  color: var(--accent);
+  text-transform: uppercase;
+}
+.lost p { color: var(--text-muted); max-width: 52ch; margin-inline: auto; }
+.lost-links { margin-top: var(--gap-lg); }
 
 @media print { .js .reveal { opacity: 1; transform: none; } }

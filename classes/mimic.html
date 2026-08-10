@@ -63,7 +63,7 @@
 </script>
 </head>
 <body>
-<a class="skip-link" href="#main">Skip to content</a>
+<a class="skip-link" href="#main" data-i18n="a11y.skip">Skip to content</a>
 <header class="site-header">
   <div class="shell header-inner">
     <a class="brand" href="../index.html">
@@ -75,19 +75,44 @@
     </a>
     <!-- NAV:START -->
     <nav class="nav" aria-label="Main">
-      <a href="../index.html">Home</a>
-      <a href="../server.html">The Server</a>
-      <a href="../start.html">Start Here</a>
-      <a href="../classes.html" aria-current="page">Classes</a>
-      <a href="../mechanics.html">Mechanics</a>
-      <a href="../gear.html">Gear</a>
-      <a href="../world.html">World</a>
-      <a href="../guides.html">Guides</a>
-      <a href="../join.html">Join</a>
+      <a href="../index.html" data-i18n="nav.home">Home</a>
+      <a href="../server.html" data-i18n="nav.server">The Server</a>
+      <a href="../start.html" data-i18n="nav.start">Start Here</a>
+      <a href="../classes.html" aria-current="page" data-i18n="nav.classes">Classes</a>
+      <a href="../mechanics.html" data-i18n="nav.mechanics">Mechanics</a>
+      <a href="../gear.html" data-i18n="nav.gear">Gear</a>
+      <a href="../world.html" data-i18n="nav.world">World</a>
+      <a href="../guides.html" data-i18n="nav.guides">Guides</a>
+      <a href="../join.html" data-i18n="nav.join">Join</a>
     </nav>
     <!-- NAV:END -->
     <div class="header-actions">
-      <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch theme">
+      <button class="icon-btn search-btn" type="button" data-search-open
+              aria-label="Search this site" data-i18n-attr="aria-label:search.title">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true">
+          <circle cx="11" cy="11" r="7"/><path d="M20 20l-3.6-3.6" stroke-linecap="round"/>
+        </svg>
+        <kbd>Ctrl K</kbd>
+      </button>
+      <div class="lang" data-open="false">
+        <button class="icon-btn" type="button" data-lang-open aria-expanded="false"
+                aria-haspopup="true" aria-label="Change language"
+                data-i18n-attr="aria-label:lang.change">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true">
+            <circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 2.5 15.4 0 18M12 3c-2.5 2.6-2.5 15.4 0 18"/>
+          </svg>
+        </button>
+        <div class="lang-menu" role="menu">
+          <button type="button" role="menuitem" data-lang-pick="en" aria-current="true">
+            English <span class="lang-code">EN</span>
+          </button>
+          <button type="button" role="menuitem" data-lang-pick="pt" aria-current="false">
+            Portugu&ecirc;s <span class="lang-code">PT</span>
+          </button>
+        </div>
+      </div>
+      <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch theme"
+              data-i18n-attr="aria-label:theme.switch">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
           <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" stroke-linejoin="round"/>
         </svg>
@@ -118,15 +143,15 @@
     </div>
     <!-- DRAWER:START -->
     <nav aria-label="Mobile">
-      <a href="../index.html">Home</a>
-      <a href="../server.html">The Server</a>
-      <a href="../start.html">Start Here</a>
-      <a href="../classes.html" aria-current="page">Classes</a>
-      <a href="../mechanics.html">Mechanics</a>
-      <a href="../gear.html">Gear</a>
-      <a href="../world.html">World</a>
-      <a href="../guides.html">Guides</a>
-      <a href="../join.html">Join</a>
+      <a href="../index.html" data-i18n="nav.home">Home</a>
+      <a href="../server.html" data-i18n="nav.server">The Server</a>
+      <a href="../start.html" data-i18n="nav.start">Start Here</a>
+      <a href="../classes.html" aria-current="page" data-i18n="nav.classes">Classes</a>
+      <a href="../mechanics.html" data-i18n="nav.mechanics">Mechanics</a>
+      <a href="../gear.html" data-i18n="nav.gear">Gear</a>
+      <a href="../world.html" data-i18n="nav.world">World</a>
+      <a href="../guides.html" data-i18n="nav.guides">Guides</a>
+      <a href="../join.html" data-i18n="nav.join">Join</a>
     </nav>
     <!-- DRAWER:END -->
   </div>
@@ -134,10 +159,15 @@
 <main id="main">
 <section class="page-hero page-hero--class">
   <div class="shell">
-    <p class="crumbs"><a href="../index.html">Home</a><span>/</span><a href="../classes.html">Classes</a><span>/</span><span>Mimic</span></p>
+    <p class="crumbs"><a href="../index.html" data-i18n="ui.home">Home</a><span>/</span><a href="../classes.html">Classes</a><span>/</span><span>Mimic</span></p>
     <p class="eyebrow">First job</p>
     <h1>Mimic</h1>
     <p class="lede">Every skill in the game, if the dice agree.</p>
+    <div class="cluster" style="margin-top:1.4rem">
+      <a class="btn btn--primary" href="https://discord.gg/a5P3PFNMhn" rel="noopener" data-i18n="cta.join">Join the community server</a>
+      <a class="btn btn--ghost" href="../classes.html">Full class tree</a>
+      
+    </div>
   </div>
 </section>
 
@@ -145,17 +175,17 @@
   <article class="prose">
 
     <dl class="factbar">
-        <div><dt>Tier</dt><dd>First job</dd></div>
-        <div><dt>Changes from</dt><dd><a href="orphan.html">Orphan</a></dd></div>
-        <div><dt>Weapons</dt><dd>Codex and Cantrips.</dd></div>
+        <div><dt data-i18n="ui.tier">Tier</dt><dd>First job</dd></div>
+        <div><dt data-i18n="ui.changesFrom">Changes from</dt><dd><a href="orphan.html">Orphan</a></dd></div>
+        <div><dt data-i18n="ui.weapons">Weapons</dt><dd>Codex and Cantrips.</dd></div>
     </dl>
       <div class="verdict">
         <div class="verdict-col verdict-col--good">
-          <h3>Strengths</h3>
+          <h3 data-i18n="ui.strengths">Strengths</h3>
           <p>Unpredictable, Fun, chance to use powerful late-game skills early on.</p>
         </div>
         <div class="verdict-col verdict-col--bad">
-          <h3>Weaknesses</h3>
+          <h3 data-i18n="ui.weaknesses">Weaknesses</h3>
           <p>Unpredictable, Fun, chance to use weak early-game skills later on.</p>
         </div>
       </div>
@@ -209,45 +239,45 @@
             <span class="brand-sub">Refuge</span>
           </span>
         </a>
-        <p class="muted" style="margin-top:1rem;font-size:0.92rem;max-width:34ch">
+        <p class="muted" data-i18n="foot.blurb" style="margin-top:1rem;font-size:0.92rem;max-width:34ch">
           A free, non-commercial hobby world built and run by a handful of players
           for anyone who wants somewhere unhurried to play.
         </p>
         <p class="cluster" style="margin-top:1rem">
-          <a class="btn btn--ghost" href="https://discord.gg/a5P3PFNMhn" rel="noopener">Community chat</a>
+          <a class="btn btn--ghost" href="https://discord.gg/a5P3PFNMhn" rel="noopener" data-i18n="cta.chat">Community chat</a>
         </p>
       </div>
       <div>
-        <h4>Start here</h4>
+        <h4 data-i18n="foot.col0">Start here</h4>
         <ul>
-        <li><a href="../server.html">What the Refuge is</a></li>
-        <li><a href="../start.html">New player guide</a></li>
-        <li><a href="../join.html">How to join</a></li>
-        <li><a href="../faq.html">Questions and answers</a></li>
+        <li><a href="../server.html" data-i18n="foot.server">What the Refuge is</a></li>
+        <li><a href="../start.html" data-i18n="foot.start">New player guide</a></li>
+        <li><a href="../join.html" data-i18n="foot.join">How to join</a></li>
+        <li><a href="../faq.html" data-i18n="foot.faq">Questions and answers</a></li>
         </ul>
       </div>
       <div>
-        <h4>The game</h4>
+        <h4 data-i18n="foot.col1">The game</h4>
         <ul>
-        <li><a href="../classes.html">All 30 classes</a></li>
-        <li><a href="../newjobs.html">Bouncer and Pit Boss</a></li>
-        <li><a href="../mechanics.html">Combat and stats</a></li>
-        <li><a href="../gear.html">Items, refining, shadows</a></li>
-        <li><a href="../world.html">Regions, dungeons, MVPs</a></li>
+        <li><a href="../classes.html" data-i18n="foot.classes">All 42 classes</a></li>
+        <li><a href="../newjobs.html" data-i18n="foot.newjobs">Bouncer and Pit Boss</a></li>
+        <li><a href="../mechanics.html" data-i18n="foot.mechanics">Combat and stats</a></li>
+        <li><a href="../gear.html" data-i18n="foot.gear">Items, refining, shadows</a></li>
+        <li><a href="../world.html" data-i18n="foot.world">Regions, dungeons, MVPs</a></li>
         </ul>
       </div>
       <div>
-        <h4>Reference</h4>
+        <h4 data-i18n="foot.col2">Reference</h4>
         <ul>
-        <li><a href="../changes.html">Changes from the original</a></li>
-        <li><a href="../database.html">Community database</a></li>
-        <li><a href="../guides.html">Player-written guides</a></li>
-        <li><a href="../llms.txt">llms.txt</a></li>
-        <li><a href="../sitemap.xml">Sitemap</a></li>
+        <li><a href="../changes.html" data-i18n="foot.changes">Changes from the original</a></li>
+        <li><a href="../database.html" data-i18n="foot.database">Community database</a></li>
+        <li><a href="../guides.html" data-i18n="foot.guides">Player-written guides</a></li>
+        <li><a href="../llms.txt" data-i18n="foot.llms">llms.txt</a></li>
+        <li><a href="../sitemap.xml" data-i18n="foot.sitemap">Sitemap</a></li>
         </ul>
       </div>
     </div>
-    <p class="footer-legal">
+    <p class="footer-legal" data-i18n="foot.legal">
       Return to Morroc: Refuge is an unofficial, non-commercial fan project with no affiliation to,
       sponsorship by or endorsement from any game publisher, developer or rights
       holder. It hosts no commercial storefront, sells nothing, and accepts no
@@ -261,6 +291,9 @@
 </footer>
 <!-- FOOTER:END -->
 
+<script>window.RTMR_PREFIX = "../";</script>
 <script src="../assets/js/main.js" defer></script>
+<script src="../assets/js/search.js" defer></script>
+<script src="../assets/js/i18n.js" defer></script>
 </body>
 </html>
