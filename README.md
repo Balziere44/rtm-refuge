@@ -54,6 +54,11 @@ actually changed upstream.
 - `tools/fetch_sprites.py` vendors the 718 monster sprites into
   `assets/sprites/`, so seven hundred images do not depend on somebody else's
   Pages deployment staying up.
+- `tools/fetch_class_art.py` fetches one job sprite per class into
+  `assets/img/classes/`. 29 exist; the deepest jobs have none of their own and
+  inherit the one they branch from at build time, which is what the source
+  does too. Bouncer, Pit Boss and Merchant have no sprite anywhere and render
+  without one rather than borrowing the starter's.
 - `tools/extract_gamedata.py` reads the emulator's rAthena tables (the
   checkout next to this one) into `tools/data/game.json`. It is now only a
   *secondary* source: the numbers the encyclopedia does not carry - monster
@@ -95,6 +100,7 @@ script, a `getrefine()` call or an `.@variable` reaches any page again.
 | `tools/data/encyclopedia.json` | Items, monsters and skills from the team's own tool. The primary source. Generated - do not hand-edit. |
 | `tools/fetch_encyclopedia.py` | Pulls and cleans that file. |
 | `tools/fetch_sprites.py` | Vendors the monster sprites into `assets/sprites/` |
+| `tools/fetch_class_art.py` | Vendors the job sprites into `assets/img/classes/` |
 | `tools/data/wiki.json` | The inherited world, parsed from the wiki. Fallback only. Generated - do not hand-edit. |
 | `tools/fetch_wiki.py` | Downloads and parses that wiki. |
 | `tools/build.py` | Home and the short pages. One function each. |

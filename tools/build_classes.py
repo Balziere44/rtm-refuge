@@ -61,6 +61,33 @@ def name_of(slug):
     return M.NAMES.get(slug, slug)
 
 
+ART = os.path.join(ROOT, "assets", "img", "classes")
+
+
+def art_for(slug):
+    """The sprite file for a class, or None.
+
+    The deepest jobs have no sprite of their own, so they borrow the one they
+    branch from - which is what the source of these images does too. Walking
+    the parents keeps that automatic: draw art for a new tier-2 job and every
+    specialisation under it picks it up on the next build.
+    """
+    seen, start = set(), slug
+    while slug and slug not in seen:
+        seen.add(slug)
+        # Inheriting from a job you specialised out of is fair - a Sinner is a
+        # Deadeye who went further. Falling all the way back to the starter is
+        # not: Bouncer is its own job, and drawing it as an Orphan would be a
+        # claim about the game rather than a missing picture.
+        if slug == "orphan" and start != "orphan":
+            return None
+        if os.path.exists(os.path.join(ART, slug + ".png")):
+            return slug
+        parents = (M.BY_SLUG.get(slug) or {}).get("parents") or []
+        slug = parents[0] if parents else None
+    return None
+
+
 # ---------------------------------------------------------------------------
 # pulling a class out of the wiki data
 # ---------------------------------------------------------------------------
@@ -276,9 +303,16 @@ def class_page(meta):
         '<a class="pill" href="%s.html">%s</a>' % (s["slug"], name_of(s["slug"]))
         for s in siblings)
 
+    art = art_for(slug)
+    # Twice the sprite's own size, nearest-neighbour: these are 130x150 pixel
+    # art and smoothing them turns crisp edges into mush.
+    hero_art = (f'<img class="class-art" src="../assets/img/classes/{art}.png" '
+                f'alt="" width="130" height="150" decoding="async">') if art else ""
+
     trail = [("index.html", "Home"), ("classes.html", "Classes"), (None, name)]
     body = f"""<section class="page-hero page-hero--class">
-  <div class="shell">
+  <div class="shell class-hero{' class-hero--art' if art else ''}">
+    <div class="class-hero-text">
     {C.breadcrumbs("../", trail)}
     <p class="eyebrow">{tier}</p>
     <h1>{esc(name)}</h1>
@@ -288,6 +322,8 @@ def class_page(meta):
       <a class="btn btn--ghost" href="../classes.html">Full class tree</a>
       {'<a class="btn btn--ghost" href="#skills">Skills</a>' if rows else ''}
     </div>
+    </div>
+    {hero_art}
   </div>
 </section>
 
@@ -330,9 +366,15 @@ def class_page(meta):
 def node(slug):
     meta = M.BY_SLUG[slug]
     new = ' <span class="badge tag-added">New</span>' if meta.get("page") is None else ""
+    art = art_for(slug)
+    # Decorative: the name is right next to it, so alt text would only be read
+    # out twice. Width and height are on it because 42 of these load at once.
+    img = (f'<img class="node-art" src="assets/img/classes/{art}.png" alt="" '
+           f'width="65" height="75" loading="lazy" decoding="async">') if art else ""
     return (f'      <a class="node node--{meta["tier"]}" href="classes/{slug}.html">'
+            f'{img}<span class="node-body">'
             f'<span class="node-name">{esc(name_of(slug))}{new}</span>'
-            f'<span class="node-tag">{esc(meta["tagline"])}</span></a>')
+            f'<span class="node-tag">{esc(meta["tagline"])}</span></span></a>')
 
 
 def overview():

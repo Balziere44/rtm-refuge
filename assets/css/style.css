@@ -954,7 +954,10 @@ html[data-theme="light"] .sk-active   { color: var(--sil-700); }
 }
 
 .node {
-  display: block;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: center;
+  gap: 0.6rem;
   padding: 0.75rem 0.9rem;
   border: 1px solid var(--line);
   border-top: 2px solid var(--line-strong);
@@ -965,8 +968,46 @@ html[data-theme="light"] .sk-active   { color: var(--sil-700); }
   transition: border-color 0.16s var(--ease), transform 0.16s var(--ease);
 }
 .node:hover { border-color: var(--accent); border-top-color: var(--accent); transform: translateY(-2px); color: inherit; }
+/* The sprites are 130x150 pixel art. Halved they stay on whole pixels, and
+   pixelated rendering keeps the edges hard instead of smearing them. */
+.node-art {
+  width: 44px;
+  height: 51px;
+  object-fit: contain;
+  object-position: center bottom;
+  image-rendering: pixelated;
+  filter: drop-shadow(0 2px 6px rgb(0 0 0 / 0.45));
+}
+html[data-theme="light"] .node-art { filter: drop-shadow(0 2px 5px rgb(29 5 51 / 0.28)); }
+.node-body { min-width: 0; }
 .node-name { display: block; font-weight: 700; font-size: 0.98rem; }
 .node-tag { display: block; font-size: var(--step--1); color: var(--text-dim); margin-top: 0.15rem; line-height: 1.4; }
+
+/* The class page hero: sprite on the right at full size, text on the left.
+   Below the breakpoint it goes back to one column with the sprite first, so
+   the picture is the thing that greets you rather than a stray image sitting
+   under three buttons. */
+.class-hero--art {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: var(--gap-lg);
+  align-items: center;
+}
+.class-hero-text { min-width: 0; }
+.class-art {
+  width: 130px;
+  height: 150px;
+  object-fit: contain;
+  object-position: center bottom;
+  image-rendering: pixelated;
+  filter: drop-shadow(0 6px 18px rgb(0 0 0 / 0.5));
+}
+html[data-theme="light"] .class-art { filter: drop-shadow(0 6px 16px rgb(29 5 51 / 0.3)); }
+
+@media (max-width: 720px) {
+  .class-hero--art { grid-template-columns: minmax(0, 1fr); }
+  .class-hero--art .class-art { order: -1; justify-self: start; }
+}
 
 /* One colour per tier, on the top edge, so a row reads as a rank. */
 .node--orphan { border-top-color: var(--sil-300); }
