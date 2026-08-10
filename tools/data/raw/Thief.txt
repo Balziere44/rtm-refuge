@@ -1,0 +1,151 @@
+<p>The Thief is a resourceful fighter, it can wield multiple weapon types and evolve into multiple paths.</p>
+
+<p>Over the years, the Thief guild worked hard not only to expand its skill set to allow multiple new training paths, but to fully utilize the potential of Orphans to achieve greater advances.</p>
+
+<p>Thief no longer has access to Double Attack, Double Attack is an innate bonus depending on the Daggers.</p>
+
+==Skills==
+
+<p>The Thief is a job class that can specialize in any kind of damage in the game. It also can wield multiple weapons to achieve this.
+Max Job Level for Thief is 50. A Thief can become either an Assassin, a Rogue or Unchain its limits.</p>
+
+{| class="wikitable" style="font-weight:normal; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|-
+! style="text-align:center; background-color:#99d9ea;" | Skill
+! style="text-align:center; background-color:#99d9ea;" | Max Level
+! style="text-align:center; background-color:#99d9ea;" | Description
+! style="text-align:center; background-color:#99d9ea;" | Skill Type
+! style="text-align:center; background-color:#99d9ea;" | Details
+! style="text-align:center; background-color:#99d9ea;" | Scaling
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Tf_miss.gif|24px]] Improve Dodge
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Increases flee rate.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Passive
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | +4 Flee per level.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Sprecov.gif|24px]] Increase SP Recovery
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Provides extra SP recovery on top of natural regeneration.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Passive
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Regens 0.1% + 2 max SP per level.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Impdef.gif|24px]] Improve Defense
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Increases Max HP
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Passive
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | HP+50 per level
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Impwisdom.gif|24px]] Improve Wisdom
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Increases Max SP
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Passive
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | SP+10 per level
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Backstab.gif|24px]] Backstab
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Teleports behind a target to deal damage.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Offensive Gap Closer
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Deals extra damage with daggers, requires either a sword or dagger
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | AGI
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Rollingcutter.gif|24px]] Rolling Cutter
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Spins around dealing damage to all enemies. Grants a Rolling Stack.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Offensive AoE Melee
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Requires a Sword, Axe or Katar.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Crossripperslasher.gif|24px]] Cross Ripper Slasher
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Throws blades at a distant enemy. Scales with VIT.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Offensive Ranged
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Extra damage with Rolling Stacks.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | VIT
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Double.gif|24px]] Double Strafe
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Deals two quick hits against a distant enemy.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Offensive Ranged
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Has Cooldown.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Shower.gif|24px]] Arrow Shower
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Deals area damage to distant enemies.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Offensive AoE Ranged
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Knockbacks enemies.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | DEX
+
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Firepetals.gif|26px]] Flaming Petals
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Deals fire magic damage to 1 enemy. More hits with higher level.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Offensive Magic
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Allowed on Autospell, generates Fire Focus to increase damage.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Icespear.gif|26px]] Freezing Spear
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Deals water magic damage to 1 enemy. More hits with higher level.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Offensive Magic
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Allowed on Autospell, generates Water Focus to increase damage.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Windblade.gif|26px]] Wind Blade
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Deals wind magic damage to 1 enemy. More hits with higher level.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Offensive Magic
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Allowed on Autospell, generates Wind Focus to increase damage.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Autospell.gif|26px]] Auto Spell
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Allows automatic use of magic when attacking an enemy.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Self Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Improved chance and spell variety on higher level.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Sa_freecast.gif|26px]] Free Cast
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 1
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Allows walking and attacking while casting at slower speeds.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Passive
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Higher levels possible with equipment and manual.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Envenom.gif|24px]] Envenom
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Deals poison damage to an enemy. Chance to cause poison status.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Offensive Ranged
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Flat damage increase per level.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | INT
+
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:As_enchantpoison.gif|24px]] Enchant Poison
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Changes weapon element to poison. Chance to cause poison status when attacking.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Self Offensive Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Chance increases per level.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Detoxify.gif|24px]] Detoxify
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 1
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Heals poison status from a target.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Can target allies.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|}
+
+=== Extra information ===
+* Lydia is the guild leader for the Thief Guild. She is a very easy-going person and only expects good results from guild members.
+* Available Weapons: Daggers, Swords, Bows

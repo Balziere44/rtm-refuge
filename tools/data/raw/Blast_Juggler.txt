@@ -1,0 +1,150 @@
+* [[#Total_control_of_the_field|<span class="tocnumber">1</span> <span class="toctext">Total control of the field</span>]]
+** [[#Gameplay_Identity|<span class="tocnumber">1.1</span> <span class="toctext">Gameplay Identity</span>]]
+** [[#Core_Gameplay_Loop|<span class="tocnumber">1.2</span> <span class="toctext">Core Gameplay Loop</span>]]
+* [[#Skills|<span class="tocnumber">2</span> <span class="toctext">Skills</span>]]
+
+== <span id="Total_control_of_the_field" class="mw-headline">[[File:Blastjuggler.gif|25x25px|link=Blastjuggler]]Total control of the field</span> ==
+
+The Blast Juggler is a master of bombs and traps that can prepare the perfect ambush to enemies.
+
+Due to their large amount of resources, they can win a fight before it even starts, by correctly preparing how to handle the enemies around.
+
+'''Best:''' Great control, versatility, multiple special damage sources.
+
+'''Worst:''' Resource intensive, large weight management, difficult stat spread.
+
+'''Weapons:''' Swords, daggers and axes.
+
+<br />
+
+
+=== <span id="Gameplay_Identity" class="mw-headline">Gameplay Identity</span> ===
+
+The Blast Juggler can setup and prepare for any fight under the right terrain, ensuring enemies have a difficult time even before the fight starts, which:
+
+'''Makes them masters of controlling the flow of battle, managing the movement and positioning of both the party and enemies.'''
+
+The Blast Juggler's main feature is access to a multitude of Gadgets. These gadgets provide multiple ways for the player to interact with the enemies and their environment. The traps can be laid in a way that either protects the party or create a safe path to lure enemies to deal damage, or setup behind the party in order to create a safe escape route or avoid ambushes by causing status effects.
+
+With the multiple status effects caused by the traps, along with their fixed damage, a good Blast Juggler can take full advantage of it to deal heavy damage with the Bomb skills, dealing bonus damage against enemies under specific effects. Rogue's Gadget Mastery is essential to setup traps from a safe range.
+
+This doesn't mean the traps can't be used to handle monsters. Due to their special damage properties, they are reliable and predictable on their power, and '''Cluster Bomb''' is a specific trap for dealing heavy damage to enemies.
+
+Blast juggler can also support their party members with equipment protection, cooking +10 stat food (which can't be traded, only thrown) and with improved potion healing effects.
+
+<br />
+
+
+=== <span id="Core_Gameplay_Loop" class="mw-headline">Core Gameplay Loop</span> ===
+
+The Blast Juggler's kit is complex and requires precise gameplay and balance of resources to use:
+
+* '''Rolling Flames''' and '''Crazy Weed''' are peculiar skills that require no resources, fitting any damage build.
+* '''Cold Trap''' can be used along with Saboteur's Hot Trap to boost bombs power.
+* '''Cluster Bomb''' can deal high damage against multiple enemies at once.
+* '''Detonator''' can improve traps explosion range slightly, providing more lenience to trap explosion range and enemy paths.
+
+* '''Final Skill:''' Acid Demonstration. After a long cast, deals heavy damage based on enemy defenses. Has a high cooldown and resource cost.
+
+A well stocked, well prepared Blast Juggler can keep itself and party members safe, while making enemies life very difficult.
+
+== <span id="Skills" class="mw-headline">Skills</span> ==
+{|class="wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+!width="16%" style="background: #99d9ea;" | Skill
+!width="16%" style="background: #99d9ea;" | Max Level
+!width="16%" style="background: #99d9ea;" | Description
+!width="16%" style="background: #99d9ea;" | Skill Type
+!width="16%" style="background: #99d9ea;" | Details
+!width="16%" style="background: #99d9ea;" | Scaling
+|-
+| [[File:Carryweight.gif|24x24px|link=Carryweight]] Improve Weight
+| Lv 10
+| Increases weight limit
+| Passive
+| Increase is 300 weight per level
+| No
+|-
+| [[File:Improvepotion.gif|24x24px|link=Improvepotion]] Improve Potion
+| Lv 10
+| Increases potion healing power by 5% per level
+| Passive
+| also applies to any potions used with Pitcher skills
+| No
+|-
+| [[File:Slingitem.gif|24x24px|link=Slingitem]] Throw Item
+| Lv 1
+| Uses a throwable item such a specific items and cooked food
+| Active
+| must be used with /ns or shift+click on party members
+| No
+|-
+| [[File:Mixcooking.gif|24x24px|link=Mixcooking]] Mix Cooking
+| Lv 2
+| Cooks stat bonus foods for a temporary +10 bonus to an ally. Different food doesn't stack, stack with regular orphanage food.
+| Crafting
+| Success rate increases with job level. Food can be equipped like arrows or bullets and used with Throw Item.
+| No
+|-
+| [[File:Fullprotect.gif|26x26px|link=Fullprotect]] Full Set Revest
+| Lv 5
+| Coats a party member in chemical protection, making their items unstrippable/unbreakable
+| Party-Support
+| Duration increases with level, requires Glistening Coats (sold on Black Market)
+| No
+|-
+| [[File:Crazyweed.gif|26x26px|link=Crazyweed]] Crazy Weed
+| Lv 10
+| Deals a random amount of hits to enemies according to level
+| Grounded AoE Physical Ranged
+| Enemies near the center can take more hits
+| INT
+|-
+| [[File:Rollingflames.gif|26x26px|link=Rollingflames]] Rolling Flames
+| Lv 10
+| Deals damage according to enemies positions in a wide area in front of caster, pushing them back with a strong knockback
+| Directional AoE Physical Ranged
+| Clears the floor of any set traps on path. Higher levels of the skill move more slowly.
+| STR
+|-
+| [[File:Fireexpansion.gif|26x26px|link=Fireexpansion]] Fire Expansion
+| Lv 5
+| Grants bonuses to specific skills
+| Passive
+| Boosts damage of Greater Explosion, Rolling Flames, Decoy, Throw Acid and Burning Field.
+| Varies
+|-
+| [[File:Coldtrap.gif|26x26px|link=Coldtrap]] Cold Trap
+| Lv 5
+| Deals damage in a short area with a high chance of causing Crystallize
+| Special Trap
+| chance improves with level, some bomb skills deal extra damage vs Crystallize
+| DEX
+|-
+| [[File:Claymore.gif|26x26px|link=Claymore]] Claymore
+| Lv 5
+| Deals damage in a short area to any enemies around
+| Special Trap
+| focused on dealing special damage directly, unlike the debuff variations
+| STR
+|-
+| [[File:Clusterbomb.gif|26x26px|link=Clusterbomb]] Cluster Bomb
+| Lv 10
+| Deals damage in a short area to any enemies around, damage has high scaling
+| Special Trap
+| Requires multiple resources to setup
+| INT/DEX
+|-
+| [[File:Detonator.gif|26x26px|link=Detonator]] Detonator
+| Lv 1
+| Activates any traps around detonator trigger area
+| Special
+| Activated traps have slightly higher area of explosion
+| INT/DEX
+|-
+| [[File:Aciddemo.gif|26x26px|link=Aciddemo]] Acid Demonstration
+| Lv 10
+| Thows a mix of many chemicals at an enemy, dealing vitality-based damage
+| Ranged Special
+| Has high cast time, cooldown and resources cost, deals more hits per level
+| INT
+|}

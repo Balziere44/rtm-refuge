@@ -1,0 +1,163 @@
+== Grimoire of New-Midgard ==
+[[File:Story.png|300px|left]]
+
+A new story is born from an old story. New Heroes. New Villains and a new world full of changes.
+
+PS: This information is considered regular knowledge and is all considered SPOILER-FREE.
+
+== The Grimoire ==
+The Grimoire chronicles every detail regarding the progress of the Story of New-Midgard, the world of Return to Morroc. Here you can see how the episodes evolved differently from the original timeline of the game, and how NPCs will deal with it.
+
+== Past: World of Rune-Midgard ==
+{| class="wikitable sortable" style="text-align: center;"
+|-
+! style="background: #99d9ea;" | Timeframe
+! style="background: #99d9ea;" | Regular Timeline
+! style="background: #99d9ea;" | New Timeline
+! style="background: #99d9ea;" | Major Changes
+! style="background: #99d9ea;" | Player Interaction
+|-
+| 600 Years Ago
+| Surt/Satan Morroc arrives in Rune Midgard, defeated by Thanatos
+| No Changes
+| Satan Morroc is sealed in the desert. His soul is taken to Niflheim.
+| Can be visited as a Distortion Dungeon.
+|-
+| 400 Years Ago
+| Loki kills Balder with a Mistletoe Arrow
+| Loki is the first Assassin
+| Assassins vow to never wield a Bow in honor of this fate
+| Original Start of the End
+|-
+| 6 Years Ago
+| Dandelion's Quest
+| No Changes
+| Children from Morroc are sacrificed to resurrect Satan Morroc
+| Quest from vanilla RO, lore-relevant
+|-
+| Episode 12 (5 Years Ago)
+| Destruction of Morroc - RO
+| Destruction of Morroc - PRM
+| Guilds are ready to fight Morroc.
+| Can be visited as a Distortion Dungeon.
+|-
+| 12.1
+| Doesn't Exist
+| Defeat of Satan Morroc by the guild alliance.
+| Satan Morroc is Defeated before it flees to New World.
+| No New World, Morroc and Sograt are reconstructed.
+|-
+| 12.2
+| Doesn't Exist
+| Strange night, when Satan Morroc is defeated.
+| Mysterious death of many families, nobody survives(?).
+| Orphan Tutorial Instance. A memory of this moment.
+|}
+
+== The 5 Years ==
+5 years have passed since the defeat of Satan Morroc with the return of the now called "Orphans", who once were believed to have died with their family. The Death of Satan Morroc is celebrated all around the world, in what is now called "Year Zero", a new moment for the world.
+
+The Royal Families who are still mourning the late King Tristram III begin rebuilding the world and investigating the disappearances and other strange situations.
+
+{| class="wikitable sortable" style="text-align: center;"
+|-
+! style="background: #99d9ea;" | Year
+! style="background: #99d9ea;" | Major Event
+! style="background: #99d9ea;" | Details
+! style="background: #99d9ea;" | Interactions
+|-
+| Year 0, 6 Months
+| Envoy from Dicastes
+| Discovery of Dicastes Diel, the so-called Sage's Palace. Dicastes Sages have reappeared to investigate the Distortions.
+| Distortion Dungeons, Snow Fields, Crystal Caves.
+|-
+| Year 0, 9 Months
+| Varmundt's Mansion
+| Sage Varmundt opens his mansion to the public, He exists as 3 entities in the past, the present and the future at the same time.
+| Varmundt is the founder of the Sage's Palace in Dicastes Diel and is directly connected to them.
+|-
+| Year 1, 0 Months
+| Terra Gloria
+| Coronation of King Nihil Heine happens with no issues.
+| King Nihil unites the people and as a symbol of progress, declares the kingdom to be called "New-Midgard"
+|-
+| Year 1, 6 Months
+| First Distortion
+| The first Distortion appears, inside the once abandoned Sunken Temple of Payon.
+| Distortions connect the world to different timelines. Nobody can enter them apart from Dicastes Sages.
+|-
+| Year 1, 7 Months
+| Vanishing of Louyang
+| Isle of Louyang vanishes without leaving any trace.
+| Small traces of its dungeon are found near the Sunken Temple of Payon.
+|-
+| Year 2, 1 Months
+| Judge Order
+| King Nihil creates the Judge Order, a special order to protect the kingdom.
+| Judges are well regarded representatives of the royalty, wielding revolvers and bringing order everywhere.
+|-
+| Year 2, 6 Months
+| Death of Rekember
+| Rekember corporation's cover of the Biolab Incident is made public. Rekember is bankrupt.
+| The Judge Order investigated and punished everyone involved. Experiments were wrongly discarded.
+|-
+| Year 2, 11 Months
+| Distortions
+| More distortions appear around the world.
+| Nobody can explain what is happening around the world, the Distortions have no effect on daily life.
+|-
+| Year 3, 6 Months
+| Gonryun's Fall
+| Gonryun falls from the sky and sinks in the ocean. Nobody survives.
+| Around the same time, a distortion appears deep under Byalan.
+|-
+| Year 4, 1 Months
+| Return of the First
+| A Person returns from the dead, showing up confused and with no information about where she was. She has a strange glow in her eyes.
+| The First Orphan.
+|-
+| Year 4, 2 Months
+| A Small Accident
+| The person who returned dies during a small adventure, they spawn the first shadow, the shadow causes multiple casualties and damage.
+| The Orphan revives as usual on the Kafra.
+|-
+| Year 4, 3 Months
+| More Orphans
+| More people return, the people start calling them "Orphans" due to them having no family or memory of the past.
+| Orphans become an issue due to the risk of the shadows. Some people now hate them.
+|-
+| Year 4, 5 Months
+| Veins Incident
+| A group of Orphans cause a massive catastrophe, killing most of the city and completely obliterating the place. The Kafras refuse to work with them anymore.
+| Beelzebub Sensing the massive smell of death relocates from the Cursed Monastery to the now abandoned city.
+|-
+| Year 4, 6 Months
+| Rachel's Rise
+| The cultists of Rachel openly declare hate for Orphans, starting a massive issue around the world everywhere.
+| The Job Guilds declare orphans banned due to the risks. The Thief and Desert guilds ignore this policy, due to being constantly considered "problem" guilds.
+|-
+| Year 4, 7 Months
+| Nomad Village
+| Some Orphans, due to not having a place to belong, resorted to living in the far west, beyond the Grey Forest.
+| The Nomad Village welcomes all, no matter what background, as long as you're a good person.
+|-
+| Year 4, 8 Months
+| The Orphanage
+| Amadeus Windsor and the family from the Biolabs Heroes create the Orphanage, a place where Orphans can live in peace.
+| The Orphanage is built near the Pyramids, where the old Eden Paradise used to be, a place that would help new adventurers.
+|-
+| Year 4, 9 Months
+| Desert Guild
+| The Assassin and Rogue guilds fuse and manage to use the distortions to find the old Loki's Palace.
+| They use the place as their headquarters. Every Orphan is welcome.
+|-
+| Year 4, 11 Months
+| Orphans on Distortions
+| The Orphans discover they can travel through distortions and visit them.
+| They require a Bifrost Shard with eyes from the sons of Odin to travel. The Sages of Dicastes can help with this.
+|-
+| Year 5, 0 Months
+| Start of Journey
+| An orphan comes back and begins their journey to fulfill or destroy their destiny.
+| The Game starts here.
+|}

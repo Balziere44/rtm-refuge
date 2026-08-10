@@ -1,0 +1,398 @@
+The '''Rune System''' is a unique system for Return to Morroc.
+
+Runes have powerful bonuses. These bonuses can be improved by refining the runes. A rune is harder to refine than a common equipment.
+
+The runes also change the color of your character when equipped. So it's also a strategic element, as for example, Wearing a fire damage boosting rune, will change one's color to red.
+
+Runes can be obtained in a variety of ways.
+
+== Rune Types ==
+[[File:Whiterune.png|26x26px]] '''Neutral Rune''': Simple runes that can't be refined, can be used at any level and provide minor bonuses, perfect for beginners.
+
+<br/>
+[[File:Whiterune.png|26x26px]] '''White Rune''': Runes with unique variations that change the way you can engage content.
+
+[[File:Darkrune.png|26x26px]] '''Dark Rune''': Job Runes. They improve specific skills and stats of the job they belong to. Only one per job is available.
+
+[[File:Purplerune.png|26x26px]] '''Purple Rune''': Power Runes. Improve overall mechanical performance of the wearer.
+
+[[File:Orangerune.png|26x26px]] '''Orange Rune''': Growth Runes. Helps the wearer grow and evolve faster in a variety of ways.
+
+[[File:Greenrune.png|26x26px]] '''Green Rune''': Guard Runes. improves general defensive powers of the wearer.
+
+[[File:Bluerune.png|26x26px]] '''Blue Rune''': Elemental Runes. Boost power and resistances to certain elements.
+
+[[File:Specialrune.png|21x23px]] '''Special Rune''': Unique Runes. provide unique properties that can't be obtained anywhere else.
+
+== Full Rune List ==
+{| class="wikitable sortable" style="text-align: center;"
+|-
+! style="background: #99d9ea;" | Rune
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;" | Effect
+! style="background: #99d9ea;" | Bonus Effect
+! style="background: #99d9ea;" | Clothes Color
+|-
+| [[File:Whiterune.png|26x26px]]
+| Anima Rune of Destiny
+| HP +75, SP+25
+| None
+| No Color
+|-
+| [[File:Whiterune.png|26x26px]]
+| Soul Rune of Destiny
+| All Stats +1
+| None
+| No Color
+|-
+| [[File:Whiterune.png|26x26px]]
+| Anima Rune of Orphans
+| MATK +5
+| None
+| No Color
+|-
+| [[File:Whiterune.png|26x26px]]
+| Soul Rune of Orphans
+| ATK +5
+| None
+| No Color
+|}
+{| class="wikitable sortable" style="text-align: center;"
+|-
+! style="background: #99d9ea;" | Rune
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;" | Effect
+! style="background: #99d9ea;" | Bonus Effect
+! style="background: #99d9ea;" | Clothes Color
+|-
+| [[File:Whiterune.png|26x26px]]
+| Ansuz Rune of True Vision
+| Can see invisible enemies
+| HIT +1 per refine
+| White and Pink
+|-
+| [[File:Whiterune.png|26x26px]]
+| Ehwaz Rune of Trust
+| Permanent Endure
+| HP/SP-10% +1% per refine
+| White and Black
+|-
+| [[File:Whiterune.png|26x26px]]
+| Jera Rune of Reward
+| Cast Can't be interrupted
+| Fixed Cast -1% per Refine
+| White and Brown
+|-
+| [[File:Whiterune.png|26x26px]]
+| Pethro Rune of Occult
+| Enables Perfect Hide
+| SP Regen -50%, Flee +1% per Refine
+| Black and Red
+|-
+| [[File:Whiterune.png|26x26px]]
+| Thurisaz Rune of Giants
+| Can't be knocked back
+| Move Speed-30% +3% per refine
+| Black and White
+|-
+| [[File:Whiterune.png|26x26px]]
+| Eihwaz Rune of Yggdrasil
+| Ressurrects with full HP/SP
+| HP +1% and HP +10 per refine
+| Blue Gold and Black
+|}
+{| class="wikitable sortable" style="text-align: center;"
+|-
+! style="background: #99d9ea;" | Rune
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;" | Effect
+! style="background: #99d9ea;" | Bonus Effect
+! style="background: #99d9ea;" | Clothes Color
+|-
+| [[File:Darkrune.png|26x26px]]
+| Ansuz Rune of Insight
+| Night Raven - Blitz Beat DMG +2%+3%/Refine.
+| HP +1%/Refine
+| Stronger Colors
+|-
+| [[File:Darkrune.png|26x26px]]
+| Gebo Rune of Gift
+| Blast Juggler - Rolling Flames DMG +2%+3%/Refine.
+| SP +1%/Refine
+| Stronger Colors
+|-
+| [[File:Darkrune.png|26x26px]]
+| Mannaz Rune of Order
+| Sinner - Godhand Arrow DMG +2%+3%/Refine.
+| SP +1%/Refine
+| Stronger Colors
+|-
+| [[File:Darkrune.png|26x26px]]
+| Mannaz Rune of Support
+| Kingslayer - Queen's Brand DMG +2%+3%/Refine.
+| HP +1%/Refine
+| Stronger Colors
+|-
+| [[File:Darkrune.png|26x26px]]
+| Othila Rune of Heritage
+| Gravekeeper - Fissure Tooth DMG +2%+3%/Refine.
+| HP +1%/Refine
+| Stronger Colors
+|-
+| [[File:Darkrune.png|26x26px]]
+| Ingwaz Rune of Plenty
+| Satsujin - New Moon Blades DMG +2%+3%/Refine.
+| SP +1%/Refine
+| Stronger Colors
+|-
+| [[File:Darkrune.png|26x26px]]
+| Thurisaz Rune of Thorns
+| Black Plague - Spiral Blade DMG +2%+3%/Refine.
+| HP +1%/Refine
+| Stronger Colors
+|-
+| [[File:Darkrune.png|26x26px]]
+| Eihwaz Rune of Magic
+| Arcane Master - Comet DMG +2%+3%/Refine.
+| SP +1%/Refine
+| Stronger Colors
+|-
+| [[File:Darkrune.png|26x26px]]
+| Othila Rune of Blood
+| Revenant - Reaping Slash DMG +2%+3%/Refine.
+| HP +1%/Refine
+| Stronger Colors
+|-
+| [[File:Darkrune.png|26x26px]]
+| Perthro Rune of Divination
+| Illusionist - Real Magic Attack DMG +2%+3%/Refine.
+| SP +1%/Refine
+| Stronger Colors
+|-
+| [[File:Darkrune.png|26x26px]]
+| Raidho Rune of Journey
+| Legend - Auto-Attack DMG +1% +1%/per 2 Refines.
+| HP +1%/Refine
+| Stronger Colors
+|-
+| [[File:Darkrune.png|26x26px]]
+| Heretic Rune of Fun
+| Jester - Joker's Draw DMG +2%+3%/Refine.
+| HP +1%/Refine
+| Stronger Colors
+|-
+| [[File:Darkrune.png|26x26px]]
+| Teiwaz Rune of Justice
+| Judge - Absolution DMG +2%+3%/Refine.
+| SP +1%/Refine
+| Stronger Colors
+|-
+| [[File:Darkrune.png|26x26px]]
+| Teiwaz Rune of Fairness
+| Peacekeeper - Conviction DMG +2%+3%/Refine.
+| HP +1%/Refine
+| Stronger Colors
+|-
+| [[File:Darkrune.png|26x26px]]
+| Ingwaz Rune of Potential
+| Unchained Jobs - ATK/MATK+1 per Refine.
+| All Stats+1/Refine
+| Stronger Colors
+|-
+| [[File:Darkrune.png|26x26px]]
+| Gaebolg Rune of Skies
+| Dracomancer - Dragon Thrust DMG +2%+3%/Refine.
+| HP +1%/Refine
+| Stronger Colors
+|-
+| [[File:Darkrune.png|26x26px]]
+| Exile Rune of Abandon
+| Dark Knight - Vengeance DMG +2%+3%/Refine.
+| HP +1%/Refine
+| Stronger Colors
+|-
+| [[File:Darkrune.png|26x26px]]
+| Hel Rune of Seekers
+| Prowler - Shadow Veil DMG +2%+3%/Refine.
+| SP +1%/Refine
+| Stronger Colors
+|-
+| [[File:Darkrune.png|26x26px|link=File_Darkrune.html]]
+| Hel Rune of Witching
+| Shadowseer - Equinox DMG +2%+3%/Refine.
+| HP +1%/Refine
+| Stronger Colors
+|-
+| [[File:Darkrune.png|26x26px|link=File_Darkrune.html]]
+| Strange Rune of Cantrips
+| Mimic - Originality DMG 2%+3%/Refine.
+| SP +1%/Refine
+| Stronger Colors
+|-
+| [[File:Darkrune.png|26x26px|link=File_Darkrune.html]]
+| Justice Rune of Blame
+| Peacekeeper - Conviction DMG 2%+3%/Refine.
+| HP +1%/Refine
+| Stronger Colors
+|-
+| [[File:Darkrune.png|26x26px|link=File_Darkrune.html]]
+| Spirit Rune of Perfection
+| Ronin - Instant Draw DMG 2%+3%/Refine.
+| SP +1%/Refine
+| Stronger Colors
+|}
+{| class="wikitable sortable" style="text-align: center;"
+|-
+! style="background: #99d9ea;" | Rune
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;" | Effect
+! style="background: #99d9ea;" | Bonus Effect
+! style="background: #99d9ea;" | Clothes Color
+|-
+| [[File:Orangerune.png|26x26px|link=File_Orangerune.html]]
+| Berkano Rune of Birth
+| EXP+1% per Refine.
+| HP and SP+1% pr 2 Refines
+| Red and Gold
+|-
+| [[File:Orangerune.png|26x26px|link=File_Orangerune.html]]
+| Anima Rune of Restoration
+| HP/SP Regen +10%
+| Extra +5% per refine
+| Red, Gold and Black
+|-
+| [[File:Orangerune.png|26x26px|link=File_Orangerune.html]]
+| Berkano Rune of Beginning
+| EXP+3% per Refine.
+| HP and SP-1%/Refine
+| Gold and Red
+|-
+| [[File:Orangerune.png|26x26px|link=File_Orangerune.html]]
+| Fehu Rune of Wealth
+| Zeny per kill limit +5 per Refine.
+| All Stats-1/Refine
+| Gold Accents
+|-
+| [[File:Orangerune.png|26x26px|link=File_Orangerune.html]]
+| Fehu Rune of Farming
+| Drop Rate+1%/Refine, EXP Rate-2%/Refine
+| Luk+3
+| Gold Base
+|-
+| [[File:Orangerune.png|26x26px|link=File_Orangerune.html]]
+| Nauthiz Rune of Desires
+| SP Regen +10%
+| SP-3%/Refine
+| White and Purple
+|-
+| [[File:Orangerune.png|26x26px|link=File_Orangerune.html]]
+| Raidho Rune of Chariot
+| Weight Limit +500 per Refine.
+| Str+3
+| Black and Green
+|}
+
+{| class="wikitable sortable" style="text-align: center;"
+|-
+! style="background: #99d9ea;" | Rune
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;" | Effect
+! style="background: #99d9ea;" | Bonus Effect
+! style="background: #99d9ea;" | Clothes Color
+|-
+| [[File:Greenrune.png|26x26px|link=File_Greenrune.html]]
+| Kenaz Rune of Torch
+| Reflect single target magic back chance +2% per Refine.
+| INT+1
+| White and Red
+|-
+| [[File:Greenrune.png|26x26px|link=File_Greenrune.html]]
+| Dagaz Rune of Hope
+| Reflect ranged attacks damage received +2% per Refine.
+| DEX+1
+| White and Yellow
+|-
+| [[File:Greenrune.png|26x26px|link=File_Greenrune.html]]
+| Hagalaz Rune of Transformation
+| Reflect melee attacks damage received +2% per Refine.
+| STR+1
+| White and Green
+|-
+| [[File:Greenrune.png|26x26px|link=File_Greenrune.html]]
+| Uruz Rune of Freedom
+| Perfect Dodge +1.
+| Flee +3 per Refine.
+| Red and Blue
+|-
+| [[File:Greenrune.png|26x26px|link=File_Greenrune.html]]
+| Algiz Rune of Shield
+| DEF+7 per Refine. ATK/MATK -5 per Refine.
+| VIT+3.
+| Sharp Colors
+|-
+| [[File:Greenrune.png|26x26px|link=File_Greenrune.html]]
+| Algiz Rune of Ward
+| MDEF+2 per Refine. ATK/MATK -5 per Refine.
+| INT+3.
+| Sharp Colors
+|}
+
+{| class="wikitable sortable" style="text-align: center;"
+|-
+! style="background: #99d9ea;" | Rune
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;" | Effect
+! style="background: #99d9ea;" | Bonus Effect
+! style="background: #99d9ea;" | Clothes Color
+|-
+| [[File:Bluerune.png|26x26px|link=File_Bluerune.html]]
+| Kenaz Rune of Flames
+| Fire DMG Received -2% per Refine.
+| DMG vs Earth +4% per Refine.
+| Red and White
+|-
+| [[File:Bluerune.png|26x26px|link=File_Bluerune.html]]
+| Hagalaz Rune of Skies
+| Wind DMG Received -2% per Refine.
+| DMG vs Water +4% per Refine.
+| Green and White
+|-
+| [[File:Bluerune.png|26x26px|link=File_Bluerune.html]]
+| Jera Rune of Land
+| Earth DMG Received -2% per Refine.
+| DMG vs Wind +4% per Refine.
+| Brown and White
+|-
+| [[File:Bluerune.png|26x26px|link=File_Bluerune.html]]
+| Laguz Rune of Seas
+| Water DMG Received -2% per Refine.
+| DMG vs Fire +4% per Refine.
+| Blue and White
+|-
+| [[File:Bluerune.png|26x26px|link=File_Bluerune.html]]
+| Nauthiz Rune of Shadows
+| Dark DMG Received -2% per Refine.
+| DMG vs Holy +4% per Refine.
+| Purple and White
+|-
+| [[File:Bluerune.png|26x26px|link=File_Bluerune.html]]
+| Dagaz Rune of Light
+| Holy DMG Received -2% per Refine.
+| DMG vs Dark +4% per Refine.
+| Yellow and White
+|}
+
+{| class="wikitable" style="text-align: center;"
+|-
+! style="background: #99d9ea;" | Rune
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;" | Effect
+! style="background: #99d9ea;" | Bonus Effect
+! style="background: #99d9ea;" | Clothes Color
+|-
+| [[File:Specialrune.png|21x23px|link=File_Specialrune.html]]
+| Isaz Rune of Challenge
+| Drop Rate +3% per Refine.
+| HP/SP-5% per Refine.
+| Full Black
+|}

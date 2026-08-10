@@ -1,0 +1,293 @@
+The Black Market is an opportunist network of salesmen that takes advantage of adventurers looking for... supplies.
+
+You can find a multitude of items being sold at reasonable prices.
+
+
+== <span id="Location" class="mw-headline">Location</span> ==
+
+The Black Market can usually be found near any INN on cities that have those. When a city doesn't have an INN, they can be found near the Kafra.
+
+In the Orphanage, the Black Market can be found right outside, on the pyramid basement passage's right room.
+
+<br />
+
+
+== <span id="Secret_Black_Market" class="mw-headline">Secret Black Market</span> ==
+
+The Black Market also has an HQ somewhere in New-Midgard, this HQ sells very expensive but unique items that can't be found anywhere else.
+
+The only way to access this place is by delivering a &quot;'''Black Market Associate Pass'''&quot; to the man at the entrance.
+
+Ways to obtain the Associate Pass are unknown.
+
+== <span id="Black_Market_Item_List" class="mw-headline">Black Market Item List</span> ==
+
+Secret Black Market items are not included.
+
+=== <span id="Skills_and_Catalysts" class="mw-headline">Skills and Catalysts</span> ===
+
+{|class="wikitable sortable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+! style="background: #99d9ea;" | Item
+! style="background: #99d9ea;" | Details
+! style="background: #99d9ea;" | Cost
+|-
+| Shadow Orb
+| Required for many strong skills
+| 150z
+|-
+| Blue Gemstone
+| Required for Portals and some utility skills
+| 100z
+|-
+| Talisman of Soul
+| Required for Satsujin's Talisman skills
+| 150z
+|-
+| Makibishi
+| Required for Shinobi's Makibishi skill
+| 50z
+|-
+| Glistening Coat
+| Required for some Blast Juggler skills
+| 100z
+|-
+| Fire Bottle
+| Required for some Rogue and Blast Juggler skills
+| 30z
+|-
+| Acid Bottle
+| Required for some Rogue and Blast Juggler skills
+| 30z
+|-
+| Alloy Trap
+| Required for some Rogue and Blast Juggler skills
+| 15z
+|}
+
+=== <span id="Ammo_and_Throwing" class="mw-headline">Ammo and Throwing</span> ===
+
+'''NOTE:''' In Return to Morroc, ammo is not spent on attack/skill use, however, some skills may require up to 10 ammo equipped to be used.
+
+This makes the ammo items extra equips for ranged classes, that's why they are expensive.
+
+{|class="wikitable sortable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+! style="background: #99d9ea;" | Item
+! style="background: #99d9ea;" | Details
+! style="background: #99d9ea;" | Cost
+|-
+| Arrow
+| Neutral, basic arrow
+| 200z
+|-
+| Steel Arrow
+| Neutral, strong arrow
+| 5000z
+|-
+| Stone Arrow
+| Earth, basic arrow
+| 2000z
+|-
+| Fire Arrow
+| Fire, basic arrow
+| 2000z
+|-
+| Gust Arrow
+| Wind, basic arrow
+| 2000z
+|-
+| Immaterial Arrow
+| Ghost, basic arrow
+| 5000z
+|-
+| Silver Arrow
+| Holy, basic arrow
+| 5000z
+|-
+| Shadow Arrow
+| Shadow, basic arrow
+| 5000z
+|-
+| Steel Kunai
+| Required for&quot;Flying Knife&quot; Assassin skill
+| 10000z
+|}
+
+=== <span id="Poison_Inventory" class="mw-headline">Poison Inventory</span> ===
+
+'''NOTE:''' You can buy the raw materials as well as ready to use toxins.
+
+Ready to use toxins are heavy and not cost-effective but have no requirements.
+
+Toxins should, when possible, be crafted since their materials are MUCH lighter to carry.
+
+Toxin effects can be checked on the [https://web.archive.org/web/20231127163022/https://returntomorroc.com/wiki/index.php/Black_Plague Black Plague] job page.
+
+{|class="wikitable sortable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+! style="background: #99d9ea;" | Item
+! style="background: #99d9ea;" | Details
+! style="background: #99d9ea;" | Cost
+|-
+| Poison Bottle
+| Required for Enchant Deadly Poison and Living Dead from Black Plague
+| 500z
+|-
+| Paralysis
+| Lv1 Black Plague's Toxin
+| 200z
+|-
+| Pyrexia
+| Lv2 Black Plague's Toxin
+| 400z
+|-
+| Death Hurt
+| Lv3 Black Plague's Toxin
+| 600z
+|-
+| Leech End
+| Lv4 Black Plague's Toxin
+| 800z
+|-
+| Antidote
+| Lv5 Black Plague's Toxin
+| 1000z
+|-
+| Venom Bleed
+| Lv6 Black Plague's Toxin
+| 1200z
+|-
+| Empty Bottle
+| Material to create Toxins
+| 50z
+|-
+| Green Herb
+| Material to create Antidote
+| 100z
+|-
+| Karvodailnirol
+| Material to create Toxins
+| 300z
+|-
+| Poison Herb Nerium
+| Material to create Lv1 Toxin
+| 200z
+|-
+| Poison Herb Rantana
+| Material to create Lv2 Toxin
+| 400z
+|-
+| Poison Herb Makulata
+| Material to create Lv3 Toxin
+| 800z
+|-
+| Poison Herb Seratum
+| Material to create Lv4 Toxin
+| 1600z
+|-
+| Poison Herb Scopolia
+| Material to create Lv6 Toxin
+| 3200z
+|}
+
+=== <span id="Cooking_Inventory" class="mw-headline">Cooking Inventory</span> ===
+
+'''NOTE:''' Blast Juggler can prepare food and throw it on allies. Food is character bound.
+
+Blast Juggler's Food buffs stack with regular NPC sold meals, but don't stack with each other.
+
+Success chance improves with base level. Requires a cooking book to create.
+
+Buff duration is 5 minutes, and are not recommended for continuous use.
+
+All ingredients required are sold.
+
+{|class="wikitable sortable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+! style="background: #99d9ea;" | Item
+! style="background: #99d9ea;" | Details
+! style="background: #99d9ea;" | Cost
+|-
+| Savage Meat
+| Required for STR food
+| 1000z
+|-
+| Black Charcoal
+| Required for STR food
+| 1000z
+|-
+| Cold Ice
+| Required for DEX food
+| 1000z
+|-
+| Blood of Wolf
+| Required for DEX food
+| 1000z
+|-
+| Beef Head
+| Required for VIT food
+| 1000z
+|-
+| Savory Sauce
+| Required for VIT food
+| 1000z
+|-
+| Comodo Tropical Fruit
+| Required for INT food
+| 1000z
+|-
+| Ice Crystal
+| Required for INT food
+| 1000z
+|-
+| Drosera Tentacle
+| Required for AGI food
+| 1000z
+|-
+| Cooking Oil
+| Required for AGI food
+| 1000z
+|-
+| Petite Tail
+| Required for LUK food
+| 1000z
+|-
+| Fine Noodles
+| Required for LUK food
+| 1000z
+|}
+
+=== <span id="Creation_Requirements" class="mw-headline">Creation Requirements</span> ===
+
+These items are required but not lost on creation, they are permanent.
+
+{|class="wikitable sortable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+! style="background: #99d9ea;" | Item
+! style="background: #99d9ea;" | Details
+! style="background: #99d9ea;" | Cost
+|-
+| Poison Kit
+| Required for any toxin creation
+| 100000z
+|-
+| Starter Toxin Book
+| Allows creation of Lv1 and Lv2 Toxins
+| 50000z
+|-
+| Intermediate Toxin Book
+| Allows creation of Lv3 and Lv4 Toxins
+| 120000z
+|-
+| Advanced Toxin Book
+| Allows creation of Lv5 and Lv6 Toxins
+| 250000z
+|-
+| Mix Cooking Book
+| Allows preparation of Blast Juggler Food
+| 200000z
+|-
+| Large Cookpot
+| Allows preparation of STR, AGI and LUK buffs
+| 50000z
+|-
+| Melange pot
+| Allows preparation of INT, DEX and VIT buffs
+| 50000z
+|}

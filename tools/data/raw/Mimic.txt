@@ -1,0 +1,73 @@
+== Mimic ==
+
+<div id="bodyContent" class="vector-body">
+<div id="siteSub" class="noprint">From Return to Morroc - Wiki</div>
+<div id="contentSub"></div>
+<div id="contentSub2"></div>
+<div id="jump-to-nav"></div>
+<div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr">
+<div class="mw-parser-output">
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading">
+</div>
+
+=== Original while Plagiarizing ===
+
+'''Note:''' The Mimic is a 4fun Job. It's not meant to be taken as a serious meta contended and can be very unpredictable overall. This is by design and part of the game balance.
+
+'''Mimic Requires Base Level 25 and Job Level 10 to start the "quest". Just check your reflection in the Orphanage Kitchen.'''
+
+The Mimic is a unique job in the way that it doesn't have many unique tools to fight. It relies on copying other job skills and managing its cooldowns in order to attempt something semi-reliable. There are multiple ways a Mimic can manipulate its current skill poll, to some extent.
+
+Its rotations are based on whatever the player wishes.
+
+'''Best:''' Unpredictable, Fun, chance to use powerful late-game skills early on.
+
+'''Worst:''' Unpredictable, Fun, chance to use weak early-game skills later on.
+
+'''Weapons:''' Codex and Cantrips.
+
+<br/>
+
+==== Gameplay Identity ====
+
+The Mimic is a unique job that can copy other jobs in combat to varying degrees of success, this makes them:
+
+'''A wildcard job with a lot of RNG choices and unpredictable behavior. While the player can influence what skills are used, It's almost never a safe bet.'''
+
+The Mimic uses the Codex as weapons that can ignore any requirements for its plagiarized or Abracadabra skills. This means with some preparation, the Mimic can use extremely expensive skills for free, at the cost of its overall reliability.
+
+As a side note, Mimics have terrible ASPD penalties while wearing a shield and any skill they cast has '''1 second extra cooldown'''.
+
+==== Core Gameplay ====
+
+Mimics have a core opener in their unique damage skill: '''Originality'''. This skill allows the mimic to deal reasonable damage on a lenghty cooldown, while activating both combo ready(to boost some skills) and cast ready(reduces variable cast time by 95%) for 10 seconds. This guarantees any eventual skills uses for follow-up will have high potential and efficiency.
+
+The Mimic can also use the skill '''Tarot card of Fate''' to apply damage or random penalties/bonuses to enemies.
+
+However, the core skills of the Mimic are '''Abracadabra''' and '''Plagiarism'''.
+
+<br/>
+
+==== Abracadabra ====
+
+Abracadabra contains a random assortment of over 150 skills possible. Each level usually FAVORS the use of a specific skill type. While it doesn't guarantee, the chance is at least 90% of getting a skill of the type the player wants.
+
+For example, using Lv2 Abracadabra will randomly cast an ATK-based skill, with single target nature 90% of the time, and the remaining 10% will be a random skill among all others.
+
+Abracadabra also randomly changes if a skill is cast from afar or from close range.
+
+Lv10 Abracadabra has a much lower cooldown ,but includes all skills at once, including a few exclusive ones.
+
+==== Plagiarism ====
+
+Being the other core skill of the mimic, along with '''Memorize''' (which locks the current learned skill), the Mimic can learn a massive amount of skills and use them in their own way.
+
+The main ways a player can copy skills are by reading the '''Cantrip Books''', books that players can find around the world that contain a set list of skills written on them (Allowing the Mimic to instantly copy any skill on the books, given they have the appropriate '''Cantrip Mastery''' level.).
+
+They can also learn any "Player-skill-tree" skill directly from enemies by being hit with them and surviving the hit.
+
+Cantrip Books always teach max level skills, while being hit is limited by the skill cast level. Regardless of this, It can never exceed Plagiarism's learned level.
+
+<br/>
+
+'''At the end of the day, the core feature of a Mimic is being a job that allows plenty of fun options, while breaking the usual limitations of the game.'''

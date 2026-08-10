@@ -1,0 +1,1933 @@
+For generic shadow sets [[Shadow Sets | Click Here]]
+
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading">
+
+<div class="toctitle" lang="en" dir="ltr">
+
+== Contents ==
+
+<span class="toctogglespan"></span>
+
+</div>
+* [[#Job_Sets|<span class="tocnumber">1</span> <span class="toctext">Job Sets</span>]]
+* [[#Night_Raven|<span class="tocnumber">2</span> <span class="toctext">Night Raven</span>]]
+* [[#Black_Plague|<span class="tocnumber">3</span> <span class="toctext">Black Plague</span>]]
+* [[#Satsujin|<span class="tocnumber">4</span> <span class="toctext">Satsujin</span>]]
+* [[#Gravekeeper|<span class="tocnumber">5</span> <span class="toctext">Gravekeeper</span>]]
+* [[#Kingslayer|<span class="tocnumber">6</span> <span class="toctext">Kingslayer</span>]]
+* [[#Arcane_Master|<span class="tocnumber">7</span> <span class="toctext">Arcane Master</span>]]
+* [[#Sinner|<span class="tocnumber">8</span> <span class="toctext">Sinner</span>]]
+* [[#Blast_Juggler|<span class="tocnumber">9</span> <span class="toctext">Blast Juggler</span>]]
+* [[#Revenant|<span class="tocnumber">10</span> <span class="toctext">Revenant</span>]]
+* [[#Dracomancer|<span class="tocnumber">11</span> <span class="toctext">Dracomancer</span>]]
+* [[#Jester|<span class="tocnumber">12</span> <span class="toctext">Jester</span>]]
+* [[#Judge|<span class="tocnumber">13</span> <span class="toctext">Judge</span>]]
+* [[#Illusionist|<span class="tocnumber">14</span> <span class="toctext">Illusionist</span>]]
+* [[#Dark_Knight|<span class="tocnumber">15</span> <span class="toctext">Dark Knight</span>]]
+* [[#Prowler|<span class="tocnumber">16</span> <span class="toctext">Prowler</span>]]
+* [[#Shadowseer|<span class="tocnumber">17</span> <span class="toctext">Shadowseer</span>]]
+* [[#Legend|<span class="tocnumber">18</span> <span class="toctext">Legend</span>]]
+* [[#Mimic|<span class="tocnumber">19</span> <span class="toctext">Mimic</span>]]
+* [[#Peacekeeper|<span class="tocnumber">20</span> <span class="toctext">Peacekeeper</span>]]
+* [[#Ronin|<span class="tocnumber">21</span> <span class="toctext">Ronin</span>]]
+* [[#Unchained_Jobs|<span class="tocnumber">22</span> <span class="toctext">Unchained Jobs</span>]]
+
+
+</div>
+== <span id="Night_Raven" class="mw-headline">Night Raven</span> ==
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Dark Wings
+! style="background: #99d9ea;" colspan="1" | Lv 100
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:RedArmor.png|19px|26px]] Armor
+| Southern Cross Cooldown -0.3s
+| rowspan="4" | All Stats +4<br/> Dark Claw CD -1s per Refine
+|-
+| [[File:RedGloves.png|22px|26px]] Gloves
+| Soul Destroyer DMG +20% +2% per Refine
+|-
+| [[File:RedShoes.png|20px|26px]] Shoes
+| ASPD +12%
+|-
+| [[File:RedPendant.png|20px|26px]] Pendant
+| Definitive Dagger DMG +2% per Refine
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Weapon Master
+! style="background: #99d9ea;" colspan="1" | Lv 110
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:RedArmor.png|19px|26px]] Armor
+| Definitive Dagger +10% +2% per Refine
+| rowspan="4" | All Stats +4<br/> Southern Cross +5% per Refine<br/> Attack +5%<br/> SP Cost -1% per 2 Refine
+|-
+| [[File:RedGloves.png|22px|26px]] Gloves
+| Northen Cross +10% +2% per Refine
+|-
+| [[File:RedShoes.png|20px|26px]] Shoes
+| Bloody Fangs +10% +2% per Refine
+|-
+| [[File:RedPendant.png|20px|26px]] Pendant
+| Shadow Slash DMG +50%
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Fierce Hawk
+! style="background: #99d9ea;" colspan="1" | Lv 115
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:RedArmor.png|19px|26px]] Armor
+| Sky Assault Cooldown -2s
+| rowspan="4" | All Stats +4<br/> 0.2% per Refine chance to autocast Sky Assault when using Blitz Beat<br/> Add +1% per base DEX Scaling to Blitz Beat<br/> Removes Rising Wings Cooldown
+|-
+| [[File:RedGloves.png|22px|26px]] Gloves
+| Blitz Beat DMG +15% +2% per Refine, LUK +3
+|-
+| [[File:RedShoes.png|20px|26px]] Shoes
+| LUK+2 +1 per Refine, DEX+2 +1 per Refine
+|-
+| [[File:RedPendant.png|20px|26px]] Pendant
+| Sky Assault DMG +15% +2% per Refine, DEX +3
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Ultimate Hunter
+! style="background: #99d9ea;" colspan="1" | Lv 120
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:RedArmor.png|19px|26px]] Armor
+| Midnight Eye Cooldown -0.5s per Refine
+| rowspan="4" | <br/> Counter Slash autocasts Typhoon Edge<br/> Counter Slash DMG +30%
+|-
+| [[File:RedGloves.png|22px|26px]] Gloves
+| Typhoon Edge +4% per Refine
+|-
+| [[File:RedShoes.png|20px|26px]] Shoes
+| Total Flee +2% per Refine, ATK +1 per Refine
+|-
+| [[File:RedPendant.png|20px|26px]] Pendant
+| Counter Slash +20% +2% per Refine
+|}
+
+== <span id="Black_Plague" class="mw-headline">Black Plague</span> ==
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Dark Swamp
+! style="background: #99d9ea;" colspan="1" | Lv 100
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:RedArmor.png|19px|26px]] Armor
+| Venom Buster Cooldown -4s
+| rowspan="4" | All Stats +4<br/> Dark Claw Cooldown -1s per Refine
+|-
+| [[File:RedGloves.png|22px|26px]] Gloves
+| Venom Splasher DMG +20% +1% per Refine
+|-
+| [[File:RedShoes.png|20px|26px]] Shoes
+| Reflect Physical DMG +10%
+|-
+| [[File:RedPendant.png|20px|26px]] Pendant
+| Spiral Blade DMG +2% per Refine
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Heavy Guillotine
+! style="background: #99d9ea;" colspan="1" | Lv 110
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:RedArmor.png|19px|26px]] Armor
+| Spiral Blade DMG +10% +2% per Refine
+| rowspan="4" | All Stats +4<br/> Mjolnir Fall DMG +2% per Refine<br/> Total Defense +7%<br/> SP Cost -1% per 2 Refine
+|-
+| [[File:RedGloves.png|22px|26px]] Gloves
+| Death Cloud DMG +10% +2% per Refine
+|-
+| [[File:RedShoes.png|20px|26px]] Shoes
+| Rupture Axe DMG +10% +2% per Refine
+|-
+| [[File:RedPendant.png|20px|26px]] Pendant
+| Boomeraxe DMG +50%
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Green Mist
+! style="background: #99d9ea;" colspan="1" | Lv 115
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:RedArmor.png|19px|26px]] Armor
+| Venom Buster Cooldown -2s
+| rowspan="4" | All Stats +4<br/> +2% per Refine chance to poison per Attack<br/> Add +1% INT Scaling to Venom Splasher<br/> Hard DEF +1 per Refine
+|-
+| [[File:RedGloves.png|22px|26px]] Gloves
+| Venom Splasher DMG +15% +2% per Refine, VIT +3
+|-
+| [[File:RedShoes.png|20px|26px]] Shoes
+| VIT+2 +1 per Refine, INT+2 +1 per Refine
+|-
+| [[File:RedPendant.png|20px|26px]] Pendant
+| Venom Buster DMG +15% +2% per Refine, INT +3
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Walking Pestilence
+! style="background: #99d9ea;" colspan="1" | Lv 120
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:RedArmor.png|19px|26px]] Armor
+| +10% per Refine chance to poison on Spiral Blade
+| rowspan="4" | All Stats +4<br/> 15% to cast Death Cloud when using Venom Splasher<br/> Living Dead Cooldown -20s<br/> Plague Impress DMG +50%
+|-
+| [[File:RedGloves.png|22px|26px]] Gloves
+| Envenom DMG +20% per Refine
+|-
+| [[File:RedShoes.png|20px|26px]] Shoes
+| +1% per Refine chance to autocast Envenom when hit
+|-
+| [[File:RedPendant.png|20px|26px]] Pendant
+| Plague Impress Cooldown -2s per Refine
+|}
+
+== <span id="Satsujin" class="mw-headline">Satsujin</span> ==
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Hidden Blade
+! style="background: #99d9ea;" | Lv 100
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Kawarimi Cooldown -5s
+| rowspan="4" | All Stats +4<br/> SP +5 per Refine
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Thousand Arms DMG +20% +2% per Refine
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Perfect Dodge +10
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| New Moon Blades DMG +3% per Refine
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Black Moon
+! style="background: #99d9ea;" | Lv 110
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| New Moon Blades DMG +10% +2% per Refine
+| rowspan="4" | All Stats +4<br/> Dragon Omamoru DMG +3% per Refine<br/> AGI +10<br/> SP Cost -1% per 2 Refines
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Full Moon Blades DMG +10% +2% per Refine
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Thousand Arms DMG +10% +2% per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Silent Strike +50%
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Element Bender
+! style="background: #99d9ea;" | Lv 115
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Frozen Wind Cooldown -2s
+| rowspan="4" | All Stats +4<br/> Fixed Cast -1s<br/> Darkness Rises has 2% per Refine chance to cast Darkness Flows Lv5<br/> Enables Free Cast Lv10
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Darkness Flows DMG +15% +2% per Refine, INT +3
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| INT+2 +1 per Refine, LUK+2 +1 per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Burning Steps DMG +15% +2% per Refine
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Living Weapon
+! style="background: #99d9ea;" | Lv 120
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Million Stabs +5% per Refine
+| rowspan="4" | All Stats +4<br/> Million Stab Cooldown -5s, Enables Tunnel Drive Lv1<br/> Zephyr Gust DMG +20%, 10% chance to cause Lex Aeterna<br/> Lotus Pact puts you in Hiding state (Perfect Hide)
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Darkness Rises Cooldown -5s
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Zephyr Gust SP Cost -5% per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Darkness Falls DMG +5% per Refine
+|}
+
+== <span id="Gravekeeper" class="mw-headline">Gravekeeper</span> ==
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Origin of Sands
+! style="background: #99d9ea;" | Lv 100
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Meteor Rush Cooldown -2s
+| rowspan="4" | All Stats +4<br/> Dark Claw Cooldown -1s per Refine
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Alpha DMG +20% per 2% per Refine
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Crit +10
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Cross Impact DMG +5% per Refine
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Ancestral Funeral
+! style="background: #99d9ea;" | Lv 110
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Desolated Burial DMG +10% +2% per Refine
+| rowspan="4" | All Stats +4<br/> Loki's Fury Cooldown Removed<br/> Critical Damage +1% per Refine<br/> SP Cost -1% per 2 Refine
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Cursed Coffin DMG +10% +2% per Refine
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| After Cast Delay -2% per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Impact Tooth DMG +50%
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Sonic Cross
+! style="background: #99d9ea;" | Lv 115
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Defense Pierce +1% per Refine
+| rowspan="4" | All Stats +4<br/> Add 1% per base AGI Scaling to Cross Impact<br/> Sonic Blow Autocasts Guard Breaker<br/> Critical Rate +1 per Refine
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Cross Impact DMG +15% +2% per Refine, LUK +3
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| LUK+2 +1 per Refine, STR+2 +1 per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Guard Breaker DMG +15% +2% per Refine, STR +3
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Revenge of Gaia
+! style="background: #99d9ea;" | Lv 120
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Exhale Rage +10% per Refine
+| rowspan="4" | All Stats +4<br/> Remove Mass Grave Cast Time<br/> Exale Rage Applies Lex Aeterna to all enemies, Knockback +8<br/> HP +1 per Refine for every 2 base LUK
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Mass Grave Cooldown -2s
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Open Graveyard DMG +20% per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| 50% chance Stone Curse Spawns a Quagmire
+|}
+
+== <span id="Kingslayer" class="mw-headline">Kingslayer</span> ==
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Royal Anarchy
+! style="background: #99d9ea;" | Lv 100
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Delta Skyfall DMG +30%
+| rowspan="4" | All Stats +4<br/> Ready to Rip Cooldown -1s per Refine
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| retribution DMG +20% +1% per Refine
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| HP +10%
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| King's Chains DMG +3% per Refine
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Ivory Redemption
+! style="background: #99d9ea;" | Lv 110
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| HP +2% per Refine
+| rowspan="4" | All Stats +4<br/> When using Bishop's Guard, has +1% per Refine chance to autocast Queen's Barrier Lv1 to Party<br/> Immune to Poison, Silence and Stun<br/> HP Regen +3% per Refine
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| King's Regen Cast Time Removed
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Healing Done +2% per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Barrier of Ivory Queen Cooldown -10s
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Ebony Resignation
+! style="background: #99d9ea;" | Lv 115
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Rook's Smash DMG +10% per Refine
+| rowspan="4" | All Stats +4<br/> 0.1% per Refine to autocast Queen's Brand when hit<br/> Queen's Brand Knockback +3<br/> SP Regen +1% per Refine
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Queen's Brand DMG +15% +2% per Refine, VIT+3
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| STR+2 +1 per Refine, VIT+2 +1 per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Queen's Gambit DMG +15% +2% per Refine, STR+3
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Final Guard
+! style="background: #99d9ea;" | Lv 120
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| King's Chains DMG +5% per Refine
+| rowspan="4" | All Stats +4<br/> 1% per Refine chance to autocast King's Chains Lv4 when using Shield Boomerang<br/> Permanent Endure Effect<br/> Enables Auto Guard Lv10 with Any Shield
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Add 1% per base DEX Scaling to Shield Boomerang
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| HP +1% per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Healing Received +3% per Refine
+|}
+
+== <span id="Arcane_Master" class="mw-headline">Arcane Master</span> ==
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Spell Thief
+! style="background: #99d9ea;" | Lv 100
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Cast Can't be Interrupted
+| rowspan="4" | All Stats +4<br/> SP +5 per Refine
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Enables Free Cast at Equal level to the Refine
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Fixed Cast Time -0.02s per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Comet DMG +3% per Refine
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Witching Hand
+! style="background: #99d9ea;" | Lv 110
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Eruption DMG +25% +5% per Refine, Cooldown +3s
+| rowspan="4" | All Stats +4<br/> All 4 spells autocast Unholy Light Lv3 at 100% chance<br/> Magic Defense Pierce +1% per 2 Refines
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Flaming Petals DMG +25% +5% per Refine, Cooldown +3s
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Freezing Spear DMG +25% +5% per Refine, Cooldown +3s
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Wind Blade +25% +5% per Refine, Cooldown +3s
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Tetra Elemental
+! style="background: #99d9ea;" | Lv 115
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Burning Spiral DMG +2% per Refine, Cooldown +1s
+| rowspan="4" | All Stats +4<br/> Each AOE Elemental autocasts their Elemental Vortex<br/> SP Regen +1% per Refine
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Land Fissure +2% per Refine, Cooldown +1s
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Lightning Bolt DMG +2% per Refine, Cooldown +1s
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Frozen Crash DMG +2% per Refine, Cooldown +1s
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | High Sorcery
+! style="background: #99d9ea;" | Lv 120
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Comet DMG +7% per Refine
+| rowspan="4" | All Stats +4<br/> DEX -25<br/> Fixed Cast and Variable Cast Doubled<br/> MATK +1% per Refine, MDEF Pierce +1% per Refine
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Tetragrammaton DMG +7% per Refine
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Dual Cast Cooldown Removed
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| INT +1 per Refine
+|}
+
+== <span id="Sinner" class="mw-headline">Sinner</span> ==
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | True Mark
+! style="background: #99d9ea;" | Lv 100
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Headshot Cast Time -50%
+| rowspan="4" | All Stats +4<br/> Ready to Rip Cooldown -1s per Refine
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Aimed Bolt DMG +20% +2% per Refine
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Perfect HIT 10%
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Godhand Arrow DMG +2% per Refine
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Tribulations Raid
+! style="background: #99d9ea;" | Lv 110
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Godhand Arrow DMG +10% +2% per Refine
+| rowspan="4" | All Stats +4<br/> Arrow Storm Cooldown -3s<br/> SP Cost -1% per Refine
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Arrow Storm DMG +10% +2% per Refine
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Ricochet Arrow DMG +10% +2% per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Arrow Vulcan DMG +50%
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Siege Captain
+! style="background: #99d9ea;" | Lv 115
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Attack range +1
+| rowspan="4" | All Stats +4<br/> Cannon Turret Cooldown -2s<br/> 2% per Refine to autocast Flip Coin Lv5 per hit<br/> VIT and DEX +5
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Arrow Shower DMG +10% per Refine, DEX+3
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| DEX+2 +1 per Refine, VIT+2 +1 per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Cluster Arrow DMG +7% per Refine, VIT+3
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Last Sin
+! style="background: #99d9ea;" | Lv 120
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Inquisition Resolve Cooldowns -5s per Refine
+| rowspan="4" | All Stats +4<br/> Final Arrow Cooldown -10s<br/> Ranged DMG +1% per Refine
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Last Inquisition Cooldown -20s
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Move Speed +1% per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Last Inquisition Cooldown -5s per Refine
+|}
+
+== <span id="Blast_Juggler" class="mw-headline">Blast Juggler</span> ==
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Ignition Mix
+! style="background: #99d9ea;" | Lv 100
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Greater Explosion Cooldown -5s
+| rowspan="4" | All Stats +4<br/> Weight Limit +20 per Refine
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Burning Field DMG +20% +2% per Refine
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Move Speed 10%
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Claymore Trap DMG +5% per Refine
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Field Medic
+! style="background: #99d9ea;" | Lv 110
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Healing Done +2% per Refine
+| rowspan="4" | All Stats +4<br/> 10% to cast Heal when using Slim Potion Throw<br/> Weight Limit +50 per Refine<br/> 10% chance to cast Full Set Revest Lv5 when throwing buff food
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Enables Heal Lv10
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Slim Potion Throw Cooldown -3s
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| 1% per Refine Chance to cast Full Revest when throw 10 Food
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Juggler Trapper
+! style="background: #99d9ea;" | Lv 115
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Cold Trap DMG +10% +3% per Refine, STR +3
+| rowspan="4" | All Stats +4<br/> Cluster Bomb Cooldown -3s<br/> Cluster Bomb DMG +2% per Refine<br/> After Cast Delay -1% per Refine
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Claymore Trap DMG +10% +3% per Refine, STR+3
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Hot Trap DMG +10% +3% per Refine, STR+3
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| STR +1 per Refine
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Blast Bomber
+! style="background: #99d9ea;" | Lv 120
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Rolling Flames Causes Burning status at 5% chance per Refine
+| rowspan="4" | All Stats +4<br/> 1% per Refine chance to autocast Greater Explotion when using Acid Demonstration<br/> Greater Explosion DMG +1% per Refine<br/> Mr. Bombastic Cooldown -0.1s per Refine
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Burning Field DMG +5% per Refine
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Rolling Flames DMG +5% per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Weight Capacity +100 per Refine, INT +1 per Refine
+|}
+
+== <span id="Revenant" class="mw-headline">Revenant</span> ==
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Spirit Reaper
+! style="background: #99d9ea;" | Lv 100
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Hellraiser DMG +10% +2% per Refine
+| rowspan="4" | All Stats +4<br/> HP +5% per +1% per 2 Refines<br/> SP +5% per +1% per 2 Refines<br/> Leech Power +10%
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Scythe Reap DMG +20% +2% per Refine
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Critical DMG +20%
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Reaping Slash DMG +3% per Refine
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Red Velvet
+! style="background: #99d9ea;" | Lv 110
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Reaping Slash DMG +10% +2% per Refine
+| rowspan="4" | All Stats +4<br/> Roaring Overslash DMG +1% per Refine<br/> Roaring Overslash Cooldown -1s<br/> Ignores Reflect Damage
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Sweeping Slash DMG +20% +2% per Refine
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| HP +1% per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Roaring Overslash Cooldown -1s
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Living Mark
+! style="background: #99d9ea;" | Lv 115
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Critical Rate +1 per Refine
+| rowspan="4" | All Stats +4<br/> Total Critical Rate +30%<br/> SP Cost -25%
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Critical DMG +2% per Refine
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Leech 20 HP per hit per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Perfect Dodge +2 per Refine
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Grim Solitude
+! style="background: #99d9ea;" | Lv 120
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Underworld Rainstorm DMG +5% per Refine
+| rowspan="4" | All Stats +4<br/> Underworld Rainstorm, Phantom Slice and Haunting Slice Autocast Reaping Slash<br/> Reaping Slash DMG +1% per Refine
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Phantom Slice DMG +5% per Refine
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Haunting Slice DMG +5% per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Leech 30 HP per hit per Refine
+|}
+
+== <span id="Dracomancer" class="mw-headline">Dracomancer</span> ==
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Mortal Dive
+! style="background: #99d9ea;" | Lv 100
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Crescent Dive Cooldown -2s
+| rowspan="4" | All Stats +4<br/> HP +1% per 2 Refines<br/> SP +1% per 2 Refines<br/> Dragon Thrust Cooldown -1s, Enables Dragon Thrust Lv10
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Dragon Thrust DMG +20% +2% per Refine
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Total Defense +15%
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Geirkogul DMG +3% per Refine
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | One Shield
+! style="background: #99d9ea;" | Lv 110
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Gaebolg Ascension Cooldown Removed
+| rowspan="4" | All Stats +4<br/> Enables Cover Lv5<br/> HP +150 per Refine<br/> Hard Defense +1% per Refine
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Gungnir Flight Cooldown Removed
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Elusive Feint Cooldown Halved
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Draco Wings Cooldown Removed
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Arch Wings
+! style="background: #99d9ea;" | Lv 115
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Spear Boomerang DMG +15% per Refine
+| rowspan="4" | All Stats +4<br/> Spear Boomerang and Dragon Thrust Always Causes Burning<br/> Enables Claw Sharpening Lv10 Passive<br/> Dragon Claw DMG +1% per Refine
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Dragon Claw Cooldown -2s
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Dragon Breath Cast Time -5% per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Dragon Breath DMG +10% +1% per Refine
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Eternal Storm
+! style="background: #99d9ea;" | Lv 120
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Add 1% per base INT Scaling to Crescent Dive
+| rowspan="4" | All Stats +4<br/> Heavy Stab Always Autocasts Crescent Dive Lv1<br/> Crescent Dive Cooldown -2s
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Defense Pierce +1% per refine
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Crescent Dive DMG +2% per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Heavy Stab DMG +15%+2% per Refine
+|}
+
+== <span id="Jester" class="mw-headline">Jester</span> ==
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | High Stakes
+! style="background: #99d9ea;" | Lv 100
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| SP +100 per Refine
+| rowspan="4" | All Stats +4<br/> Recover 1000 SP on Kill
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| ASPD +1 per Refine
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Defense Pierce +2% per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Magic Defense Pierce +2% per Refine
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Center Stage
+! style="background: #99d9ea;" | Lv 110
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| First Hand DMG +20% +2% per Refine, DEX+3
+| rowspan="4" | All Stats +4<br/> Royal Flush DMG +2% per Refine<br/> After Cast Delay -1% per Refine
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Arcana of Destiny DMG +10% +2% per Refine, INT+3
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Double Down DMG +10% +2% per Refine, VIT+3
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Gift Card DMG +10% +2% per Refine, LUK+3
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Sleeve Draw
+! style="background: #99d9ea;" | Lv 115
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| 1% Chance per Refine to Recover 1% of DMG dealt as SP
+| rowspan="4" | All Stats +4<br/> Joker's Draw has 1% per Refine Chance to cast Double Down<br/> Joker's Draw has 1% per Refine Chance to cast Instant Aces<br/> Critical Rate +1 per Refine
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| +7 SP per Refine recovered per Attack
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| ASPD +1 per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Joker's Draw DMG +5% per Refine
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Wheel of Fate
+! style="background: #99d9ea;" | Lv 120
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| ATK +1% per Refine, LUK+1
+| rowspan="4" | All Stats +4<br/> LUK+1 per 2 Refines<br/> SP +1% per base LUK<br/> HP +1% per base LUK
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| MATK +1% per Refine, LUK+1
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Move Speed +2% per Refine, LUK+1
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Soft Defense +1% per Refine, LUK+1
+|}
+
+== <span id="Judge" class="mw-headline">Judge</span> ==
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Divine Order
+! style="background: #99d9ea;" | Lv 100
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| HP +10%, SP -10%, ATK +5
+| rowspan="4" | All Stats +4<br/> Absolution DMG 1% per Refine<br/> Dragonic Dive Cooldown -0.5 per Refine
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| HP +10%, SP -10%, ATK +5
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| HP +10%, SP -10%, ATK +5
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| HP +10%, SP -10%, ATK +5
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Quickdraw
+! style="background: #99d9ea;" | Lv 110
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| ASPD +2% per Refine
+| rowspan="4" | All Stats +4<br/> HP +20%<br/>15% chance to leech 5% physical damage<br/> Violent Barrage DMG +25%
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| ASPD +2% per Refine
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| ASPD +2% per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| ASPD +2% per Refine
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Vigilante
+! style="background: #99d9ea;" | Lv 115
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Violent Shot DMG +15% +3% per Refine
+| rowspan="4" | All Stats +4<br/> Vault Cooldown -1s<br/> Death Sentence Knockback +3<br/> Death Sentence Cooldown -90%
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Scathe DMG +15% +3% per Refine
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Heavy Shot DMG +15% +3% per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Death Sentence DMG +15% +3% per Refine
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Royal Trial
+! style="background: #99d9ea;" | Lv 120
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Absolution DMG +2% per Refine
+| rowspan="4" | All Stats +4<br/> 20% to cast Violent Barrage on Absolution use<br/> Violent Barrage DMG +1% per Refine<br/> Violent Barrage and Absolution Summon 1 Seal back
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Ranged Damage +2% per Refine
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| ASPD +1% per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| SP +2% per Refine
+|}
+
+== <span id="Illusionist" class="mw-headline">Illusionist</span> ==
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Calamity of Skies
+! style="background: #99d9ea;" | Lv 100
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| HP -10%, SP +10%, MATK +5
+| rowspan="4" | All Stats +4<br/> Enables Crimson Rock Lv1<br/> +1 Lv for every 10 Refines
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| HP -10%, SP +10%, MATK +5
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| HP -10%, SP +10%, MATK +5
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| HP -10%, SP +10%, MATK +5
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Metal Strings
+! style="background: #99d9ea;" | Lv 110
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Summon Puppet Cast and Cooldown Removed
+| rowspan="4" | All Stats +4<br/> Enables both Potion Pitcher Lv5 and Life Strings Lv9<br/> Cast can't be Interrupted<br/> Potion Pitcher Cooldown -0.1s per Refine
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Dismiss Puppet Cast and Cooldown Removed
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Ressurect Puppet Cast Removed
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Healing Done +2% per Refine
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Eidolon Chains
+! style="background: #99d9ea;" | Lv 115
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Grand Summon Cooldown -5s
+| rowspan="4" | All Stats +4<br/> Grand Summon Cooldown -1s per Refine<br/> Attack Range +3
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Grand Summon Cooldown -5s
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Grand Summon Cooldown -5s
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Condensed Souls Drop Rate +1% per Refine
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Infinite Illusion
+! style="background: #99d9ea;" | Lv 120
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Real Magic Attack DMG +5% per Refine
+| rowspan="4" | All Stats +4<br/> ASPD +1% per Refine<br/> Hit +5 per Refine<br/> Increases ATK by 1 per 2 base INT
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Illusion of Mist DMG +5% per Refine
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Illusion of Vermillion DMG +5% per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Illusion of Healing Cooldown -2s per Refine
+|}
+
+== <span id="Dark_Knight" class="mw-headline">Dark Knight</span> ==
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Call of the Abyss
+! style="background: #99d9ea;" | Lv 100
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| ATK and MATK +2%, STR +1 per Refine
+| rowspan="4" | All Stats +4<br/> Black Metal Cooldown and Cast removed<br/> HP -10%, ATK/MATK +2%<br/> HP Regen +5% per Refine
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| ATK and MATK +2%, DEX +1 per Refine
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| ATK and MATK +2%, AGI +1 per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| ATK and MATK +2%, INT +1 per Refine
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Cold Embrace
+! style="background: #99d9ea;" | Lv 110
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Chilling Frost Cooldown -0.5s per Refine
+| rowspan="4" | All Stats +4<br/> Shatter Cross has 50% Chance to Freeze Enemy<br/> Shatter Cross Cooldown -2s, Conflagration Cooldown -2s<br/> Conflagration has 1% per Refine Chance to Autocast Chilling Frost
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Chilling Frost DMG +2% per Refine
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Conflagration DMG +2% per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Shatter Cross DMG +2% per Refine
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Devil Arms
+! style="background: #99d9ea;" | Lv 115
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Devil Raid DMG +10% +2% per Refine
+| rowspan="4" | All Stats +4<br/> Knight Ritual Cooldown Removed<br/> Night Menace Autocasts Fatal Menace<br/> ATK +1 per 4 Refines
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Vengeance DMG +2% per Refine
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Fatal Menace DMG +10% +1% per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Night Menace DMG +10% +1% per Refine
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Heart of Darkness
+! style="background: #99d9ea;" | Lv 120
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Dark Resistance +2% per Refine
+| rowspan="4" | All Stats +4<br/> Permanent Black Heart Effect (100% Life Steal)<br/> HP +50 per Refine<br/> ATK/MATK +3%
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| ATK +1 per 2 Refines, ASPD +1 per 2 Refines
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| MATK +1 per 2 Refines, Move Speed +1% per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Remove Deathbound Cooldown
+|}
+
+== <span id="Prowler" class="mw-headline">Prowler</span> ==
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Darkstabber
+! style="background: #99d9ea;" | Lv 100
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Backstab DMG +10% per Refine
+| rowspan="4" | All Stats +4<br/> Backstab Cooldown -2s<br/> Backstab gains 1% base DEX Scaling
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Backstab has 10% per Refine Chance to Burn target
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Backstab has 10% per Refine Chance to Silence target
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| AGI +1 per Refine
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Occult Paranoia
+! style="background: #99d9ea;" | Lv 110
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Enables Perfect Hiding
+| rowspan="4" | All Stats +4<br/> Shadowstab DMG +1% per Refine<br/> Backstab DMG +25%<br/> Move Speed +2% per Refine
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Haze Slasher DMG +15% per Refine
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Removes Camouflage Cooldown and Cost
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| ASPD +12%, Perfect Dodge +12
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Blade Arts
+! style="background: #99d9ea;" | Lv 115
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Shadowstab DMG +10% +2% per Refine
+| rowspan="4" | All Stats +4<br/> Haze Slasher and Flying Knife grant Combo Ready for 3s<br/> DEX +5 for duration
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Whirling Kunai DMG +10% per +2% per Refine
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| SP Cost -2% per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Perfect Dodge +2 per Refine
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Dancing Dagger
+! style="background: #99d9ea;" | Lv 120
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Flying Knife DMG +15% per Refine
+| rowspan="4" | All Stats +4<br/> Whirling Kunai Autocasts Flying Knife on all targets<br/> Flying Knife DMG +100%
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Flying Knife Cooldown -0.2 per Refine
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Whirling Kunai Cooldown -0.3s per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Enables Face-Off at Lv equal to Refine
+|}
+
+== <span id="Shadowseer" class="mw-headline">Shadowseer</span> ==
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Perfect Balance
+! style="background: #99d9ea;" | Lv 100
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| ASPD +1 per 5 base AGI
+| rowspan="4" | All Stats +4<br/> ATK +1 per 5 base INT<br/> MATK +1 per 5 Base STR<br/> ATK/MATK +1% per 4 Refines
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Perfect Hit +3% per 5 base DEX
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| HP +1% per 5 base VIT
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Perfect Dodge +1 per 5 base LUK
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Instant Black
+! style="background: #99d9ea;" | Lv 110
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Enables Intravision, Immune to Blind
+| rowspan="4" | All Stats +4<br/> Fixed Cast -0.7s<br/> Equinox Autocast 0.5% per Refine<br/> Equinox Cooldown -1s
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Recovers 1 SP per Refine per hit
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Spectral Servants DMG +3% per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Equinox DMG +5% per Refine
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Great Torrent
+! style="background: #99d9ea;" | Lv 115
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| 0.5% per Refine on Attack to autocast Unholy Light Lv1
+| rowspan="4" | All Stats +4<br/> Extra 2% Chance to Autocast the Same spells, at max level<br/> ASPD +10%
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| 0.5% per Refine on Attack to autocast Heal Lv1
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| 0.5% per Refine on Attack to autocast Eruption Lv1
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| 0.5% per Refine on Attack to autocast Samsara Burst Lv1
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Union of Dimensions
+! style="background: #99d9ea;" | Lv 120
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| 5% Chance to autocast Wind Blade Lv3 when casting Flaming Petals
+| rowspan="4" | All Stats +4<br/> Fire, Wind and Water Magic DMG +1% per Refine<br/> Each Thief Magic Spell autocasts the one the Shadow piece doesn't contain in its description with 5% Chance, and Casts at Lv7
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| 5% Chance to autocast Freezing Spear Lv3 when casting Wind Blade
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| 5% Chance to autocast Flaming Petals Lv3 when casting Freezing Spear
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Magic Defense Pierce +2% per Refine
+|}
+
+== <span id="Legend" class="mw-headline">Legend</span> ==
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Great Strider
+! style="background: #99d9ea;" | Lv 100
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Enables Endure at Lv equals to Refine
+| rowspan="4" | All Stats +4<br/> Enables Shadow Slash at Lv equals to Refine of full set divided by 4<br/> Shadow Slash DMG +1% per Refine
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Attack Range +1
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Move Speed +10%
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Crit Rate +1 per Refine
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Ravenous Beast
+! style="background: #99d9ea;" | Lv 110
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Drains 7 per Refine per hit
+| rowspan="4" | All Stats +4<br/> ATK +1 per 4 Refines<br/> ASPD +5
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Drains 50 HP per Hit
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| 10% to Drain 5% of the DMG per hit
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| 2% per Refine to Drain 1% per Refine per Hit
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Borrowed Time
+! style="background: #99d9ea;" | Lv 115
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Removes Harness Speed cost, ATK +3
+| rowspan="4" | All Stats +4<br/> Casting Frenzy Autocasts Queen's Barrier, Bishop's Guard and Harness Speed and Harness Magic<br/> INT +1 per 4 Refines, MATK +1 per Refine
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Removes Harness Magic cost, MATK +3
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Using Harness Speed grants Weapon Block at Lv equal to half the Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Using Harness Magic grants Astral Weapon at Lv equal to half the Refine
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Main Explorer
+! style="background: #99d9ea;" | Lv 120
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| 5% per Refine to Heal Lv10 when using Safety Wall
+| rowspan="4" | All Stats +4<br/> Removes cast time and 50% SP cost of Safety Wall and Pneuma<br/> Casting either skill grants Kaupe at 2% Chance per Refine
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| 5% per Refine to Heal Lv10 when using Pneuma
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| 2% Chance per Refine to autocast Pneuma on self on hit
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| 2% Chance per Refine to autocast Safety Wall on self on hit
+|}
+
+== <span id="Mimic" class="mw-headline">Mimic</span> ==
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Creative Mind
+! style="background: #99d9ea;" | Lv 100
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| HP/SP +1% per Refine
+| rowspan="4" | All Stats +4<br/> Originality DMG +1% per Refine<br/> Abracadabra CD -1s
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| ATK/MATK +1% per Refine
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Originality CD -0.5s per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| HP Regen +10% per Refine, Regen on Move
+|}
+
+== <span id="Peacekeeper" class="mw-headline">Peacekeeper</span> ==
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Chains of Fate
+! style="background: #99d9ea;" | Lv 100
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Conviction DMG +10% +2% per Refine
+| rowspan="4" | All Stats +4<br/> Eternal Chain DMG +1% per Set Refine<br/> Eternal Chain CD -0.5s<br/> Eternal Chain SP Cost -50%
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Lashing Andromeda DMG +10% +2% per Refine
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Wrecking Andromeda DMG +10% +2% per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| ATK +1 per Refine
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Bloodlines
+! style="background: #99d9ea;" | Lv 110
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Conviction DMG +3% per Refine
+| rowspan="4" | All Stats +4<br/> Dawn to Dusk autocasts Highness Heal<br/> On Assault Mode: Conviction Bonus on 1% per INT<br/> MATK +10
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| 1% per Refine Chance to leech 1% per Refine DMG on hit
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| ASPD Limit Cap +2, ASPD +1% per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Enables Harness Magic, MDEF Pierce +25%
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Coat of Arms
+! style="background: #99d9ea;" | Lv 115
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Enables Monarch Seal Lv2
+| rowspan="4" | All Stats +4<br/> Ranged DMG +1% per 2 Refines<br/> Lashing Andromeda CD -1s<br/> Lashing Andromeda autocast Arrow Vulcan Lv1
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Critical DMG +2% per Refine
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Enables Vault (Granting Turnabout Mode)
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Lashing Andromeda CD -2s
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Bravery and Faith
+! style="background: #99d9ea;" | Lv 120
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| HP +2% per Refine, HP +1000
+| rowspan="4" | Melee DMG +1% per 2 Refines<br/> Wrecking Andromeda CD -1s<br/> Wrecking Andromeda autocasts Conviction Lv1
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Final Damage Reduction -1% per 2 Refines
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Perfect Dodge +3 per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Wrecking Andromeda CD -2s
+|}
+
+== <span id="Ronin" class="mw-headline">Ronin</span> ==
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Chakra Gate
+! style="background: #99d9ea;" | Lv 100
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Ascension Steel DMG +10% +2% per Refine
+| rowspan="4" | All Stats +4<br/> Defense Pierce and Critical Damage +15%<br/> SP Consumption -15%
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Descending Steel DMG +10% +2% per Refine
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Instant Draw DMG +10% +2% per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Void Dash DMG +10% +2% per Refine
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Mist Dancer
+! style="background: #99d9ea;" | Lv 110
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Perfect Dodge +3 per Refine
+| rowspan="4" | All Stats +4<br/> Void Dash DMG +1% per Refine<br/> Flee +1 per Refine<br/> Void Dash CD -0.2s
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Void Dash SP Cost -5% per Refine
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Movement Speed +3% per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Sprint Cooldown -0.5s per Refine
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Iai Draw
+! style="background: #99d9ea;" | Lv 115
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Hiding Cooldown -0.4s, Enables Perfect Hiding
+| rowspan="4" | All Stats +4<br/> Enables Riposte Lv5<br/> Riposte CD removed<br/> Instant Draw -1s
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Melee Damage +2% per Refine
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Instant Draw +4% per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| ASPD +2% per Refine, ASPD Limit Cap +1
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Flowing River
+! style="background: #99d9ea;" | Lv 120
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Healing Done +3% per Refine
+| rowspan="4" | Waterfall Breeze CD -25s<br/> Heal Grants Finisher Ready<br/> Enables Heal Lv10
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| ATK +1 per Refine
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Enables Backslide Lv1, Flee +2 per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| INT +1 per Refine
+|}
+
+== <span id="Unchained_Jobs" class="mw-headline">Unchained Jobs</span> ==
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Loki's Follower
+! style="background: #99d9ea;" | Lv 100
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Perfect Dodge +2 per Improve Dodge, ATK/MATK +2
+| rowspan="4" | All Stats +4<br/> Enables Lv10 Heal, Increase Agility and Hiding<br/> ATK/MATK +1% per 4 Refines
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| HP +1% per Improve Defense, ATK/MATK +2
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| SP +1% per Improve Wisdom, ATK/MATK +2
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| HP/SP Regen +10% per Improve SP Recovery, ATK/MATK +2
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | True Might
+! style="background: #99d9ea;" | Lv 110
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| HP +3% per Refine
+| rowspan="4" | All Stats +4<br/> Reduces Morroc's Mark cooldown by 59 minutes<br/> SP Consumption -1% per Refine
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| ATK +1% per Refine
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| MATK +1% per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| SP +3% per Refine
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Master of Change
+! style="background: #99d9ea;" | Lv 115
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Arrow Vulcan DMG +12% per Refine
+| rowspan="4" | All Stats +4<br/> Enables Shadow Slash, Burst Petals and Silent Strike at Max Lv<br/> HP/SP Regen +2% per Refine<br/> ATK/MATK +5%
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Throw Acid DMG +12% per Refine
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Wind Slash DMG +12% per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Frost Diver DMG +12% per Refine
+|}
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Master of Tradition
+! style="background: #99d9ea;" | Lv 115
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:RedArmor.png|19px]] Armor
+| Sonic Blow DMG +12% per Refine
+| rowspan="4" | All Stats +4<br/> Enables Wind Slash, Decoy and Sneak Attack at Max Lv<br/> HP/SP Regen +2% per Refine<br/> ATK/MATK +5%
+|-
+| [[File:RedGloves.png|22px]] Gloves
+| Shadow Slash DMG +12% per Refine
+|-
+| [[File:RedShoes.png|20px]] Shoes
+| Boomerange DMG +12% per Refine
+|-
+| [[File:RedPendant.png|20px]] Pendant
+| Burst Petals DMG +12% per Refine
+|}

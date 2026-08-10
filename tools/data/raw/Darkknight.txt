@@ -1,0 +1,141 @@
+== [[File:DarkKnight.gif]] Reversal of Curses ==
+'''Dark Knight Requires Base Level 15 and Job Level 10 to start the quest.'''
+
+The Dark Knight has the highest damage potential among all other job classes. The risk it requires taking to fulfill this, however, cannot be ignored by the player.
+Its rotations are based on correct management and attention to risks of the class.
+
+'''Best:''' Massive damage potential, multiple resources for any situation, unique properties.
+
+'''Worst:''' Very high risk, complex, requires precise gameplay to not underperform.
+
+'''Weapons:''' Swords, Knight Swords (2-handed, very rare).
+
+=== Gameplay Identity ===
+The Dark Knight will always be risking its health in order to further boost its damage, making it:
+
+''A powerful warrior that will fight under a specific set of rules in order to extract the most out of its own risk as pure damage.''
+
+Due to its constant lack of HP, a good Dark Knight is required to be well aware of the damage potential of its targets. It should not be mistaken for a tank, but instead, acts as a pure DPS machine.
+
+A higher level Dark Knight has access to Black Heart, which allows it to guarantee leeching damage dealt in order to continue on the offensive regardless of the situation.
+
+=== Core Gameplay ===
+The use of '''Vengeance''' as a key opener is essential to deal constant damage. Some situations may not even require using any of the follow-up skills possible.
+
+The great crowd control of '''Chilling Frost''', which deals physical damage, makes it a reliable tool to control the situation of the fight due to its quick use and massive freeze chance.
+
+The key feature of an offensive Dark Knight is '''Harvest''', a stance that blocks most healing to a dark knight, but allows its missing HP bonus damage to reach the highest potential, by turning the fight into a kill or be killed situation. Harvest is a strong stance that requires running risks greater than any other job in the game, with incredible pay-off.
+
+The Dark Knight has multiple tools to freeze, manage, and move around the fight while dealing heavy damage, correct analysis of the risk is essential to ensure the correct skill can deal massive damage, unlike any other job class.
+
+== Skills ==
+All Dark Knight Skills deal bonus damage according to missing HP.
+Damage bonus is boosted if the Dark Knight is under '''Harvest Mode'''.
+
+{| class="wikitable" style="font-weight:normal; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|-
+! style="text-align:center; background-color:#99d9ea;" | Skill
+! style="text-align:center; background-color:#99d9ea;" | Max Level
+! style="text-align:center; background-color:#99d9ea;" | Description
+! style="text-align:center; background-color:#99d9ea;" | Skill Type
+! style="text-align:center; background-color:#99d9ea;" | Details
+! style="text-align:center; background-color:#99d9ea;" | Scaling
+|-
+| [[File:Sm_sword.gif|24px]] Blade Mastery
+| Lv 10
+| Increases attack with swords and daggers per level.
+| Passive
+| Also increases ASPD by 1% per level. Dark Knights can only use swords
+| No
+|-
+| [[File:Dk_resting.gif|26px]] Flesh Mastery
+| Lv 10
+| Greatly increases the regeneration of stats while sitting
+| Passive
+| The amount recovered can reach over half the max HP/SP of the Dark Knight
+| No
+|-
+| [[File:Harvesting.gif|24px]] Harvest
+| Lv 5
+| Blocks flat healing values from skills in order to boost missing HP damage
+| Stance
+| Items and Leeching can still heal the caster, also increases STR and INT
+| No
+|-
+| [[File:Ritual.gif|24px]] Knight Ritual
+| Lv 10
+| Increases AGI and DEX by a % amount based on total
+| Self-Buff
+| Also removes Harvest when used
+| None
+|-
+| [[File:Vengeance.gif|24px]] Vengeance
+| Lv 10
+| Deals damage to an enemy and enables combo follow-up from other skills
+| Offensive Melee
+| Skill has a small chance to freeze if Black Heart is learned
+| STR
+|-
+| [[File:Raid.gif|24px]] Devil Raid
+| Lv 5
+| Dashes to an enemy and deals damage, enables combo follow-up
+| Ranged Gap-Closer
+| Can be used to quickly jump to a target for follow-ups
+| DEX
+|-
+| [[File:Fatalmenace.gif|24px]] Fatal Menace
+| Lv 10
+| Damages all enemies around with an aggressive strike
+| AoE around Self
+| Area increases at Lv5 and Lv10, combo ready adds STR/VIT scaling
+| STR
+|-
+| [[File:Nightmenace.gif|26px]] Night Menace
+| Lv 10
+| Deals heavy damage to an enemy based on its defense
+| Melee
+| Increased by current HP when used by itself, combo ready adds STR scaling
+| None
+|-
+| [[File:Deathbound.gif|24px]] Death Bound
+| Lv 5
+| Amplifies damage taken and reflects 60% of the value back to enemy, taking 40% of the damage
+| Melee
+| Cannot be used on boss monsters
+| None
+|-
+| [[File:Conflagration.gif|24px]] Conflagration
+| Lv 10
+| Deals Dark followed by Undead magic damage to enemies around a target
+| Magic AoE on target
+| First hit is always dark, 3 follow-up hits are always undead element
+| None
+|-
+| [[File:Chillfrost.gif|24px]] Chilling Frost
+| Lv 5
+| Freezes the air around the enemy dealing light damage with a high freeze chance
+| Physical Ranged AoE
+| Area is larger at Lv5, damage is always ghost element and physical
+| INT
+|-
+| [[File:Shatter.gif|24px]] Shatter Cross
+| Lv 10
+| Strikes an enemy with a powerful shattering strike
+| Physical Ranged
+| Damage is increased according to current SP, additional STR scaling vs frozen targets
+| None
+|-
+| [[File:Blackmetal.gif|26px]] Black Metal
+| Lv 5
+| Increases the ATK and MATK of all party members
+| Party Support
+| Consumes 50% of max HP/SP
+| None
+|-
+| [[File:Blackheart.gif|26px]] Black Heart
+| Lv 1
+| Removes a piece of your heart to create a consumable item to be used later, max of 3
+| Self-Support
+| Black Heart consumable allows 100% leeching of 10% physical damage dealt for 1 second per Base Level
+| None
+|}

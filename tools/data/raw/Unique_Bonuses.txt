@@ -1,0 +1,95 @@
+Return to Morroc may feature unique bonuses and penalties to equipment not usually found in RO. this page denotes some of these systems and bonuses.
+
+These bonuses may be present in set bonuses, special items or other varied ways.
+
+=== Currently Implemented Bonuses ===
+{| class="wikitable sortable" style="text-align: center;"
+|-
+! style="background: #99d9ea;" | Bonus Name
+! style="background: #99d9ea;" | Item Types
+! style="background: #99d9ea;" | Variations
+! style="background: #99d9ea;" | Usually found in
+|-
+| style="background: #ffffff;" | Skill Autocast
+| All Types
+| Skill A has X% chance to autocast Skill B. Usually a limited skill.
+| Shadow Set bonuses
+|-
+| style="background: #ffffff;" | DEF/MDEF Pierce
+| All Types
+| Ignores X% of the Defense or Magic Defense of the enemy
+| Multiple Locations
+|-
+| style="background: #ffffff;" | Damage vs X +Y%
+| All Types
+| Unlike vanilla RO, cards and items that boost race/size/element damage affect both Physical and Magical Damage.
+| Cards
+|-
+| style="background: #ffffff;" | Attack Range + X
+| Weapons, Headgears and Cards
+| Increases the range of auto attacks and some skills. core feature of Offhand Daggers, from [[Shadowseers]
+| Offhand Daggers, Unique items
+|-
+| style="background: #ffffff;" | Dragon Soul Lv: X
+| Draco Orbs
+| Reduces the cooldown of the Dragon Soul skill according to current Dragon Soul Level.
+| Dragon Monsters and Bosses
+|-
+| style="background: #ffffff;" | X Damage Reduction +y%
+| Special Items
+| Reduces final damage taken by X (Physical/Magic/Special/Critical/All) type of damage in an absolute amount.
+| Unique Items and Cards
+|-
+| style="background: #ffffff;" | Recover X HP/SP on Kill
+| All Types
+| Recovers HP/SP by a specific amount when an enemy is killed in a specific way. Does not work with traps, birds or other special damage types.
+| Specific Items
+|-
+| style="background: #ffffff;" | Leech Rate
+| All Types
+| Chance that physical damage will recover partial damage dealt. All Scythes have 100% Leech Rate. Different bonuses to Rate are individual chances.
+| All Scythes, cards
+|-
+| style="background: #ffffff;" | Leech Power
+| All Types
+| Amount healed from Leech Rate. Different bonuses to Power stack.
+| All Scythes, equipment
+|-
+| style="background: #ffffff;" | Bouncing Bonus
+| Special Items
+| Indicates chance that a skill will repeat on enemies nearby or on the original target if isolated. Skills can have increasing/decreasing power per bounce.
+| Unique Equipment
+|-
+| style="background: #ffffff;" | Skill Splash
+| Special Items
+| Skills that originally are single target may splash. They may or may not have bonus/penalty damage.
+| Unique Equipment
+|-
+| style="background: #ffffff;" | Skill SP Cost
+| Multiple Items
+| Specific or all skills may have reduced or negated SP costs.
+| Decks, other equipment
+|-
+| style="background: #ffffff;" | Activation
+| Special Items and Skills
+| Skill/attack may activate a special condition like Combo Ready, a bonus, a transformation and so on.
+| Dracomancer's Dragon Soul skill, Cards
+|}
+=== Currently Under Testing Bonuses ===
+{| class="wikitable sortable" style="text-align: center;"
+|-
+! style="background: #99d9ea;" | Bonus Name
+! style="background: #99d9ea;" | Item Types
+! style="background: #99d9ea;" | Variations
+! style="background: #99d9ea;" | Usually found in
+|-
+| style="background: #ffffff;" | Auto-Attack Potential + X%
+| Unknown
+| Breaks the cap on auto-attack damage. Auto Attack damage is capped by effective Level and DEX of the user.
+| Unknown
+|-
+| style="background: #ffffff;" | Attack Speed Limit + X
+| Unknown
+| Increases the ASPD cap for the specific job by X.
+| Unknown
+|}

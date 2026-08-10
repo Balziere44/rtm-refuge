@@ -1,0 +1,284 @@
+== <span id="Memories_as_weapons" class="mw-headline">[[File:Illusionist.gif|25x25px|link=Illusionist]]Memories as weapons</span> ==
+
+'''Illusionist Requires Base Level 15 and Job Level 10 to start the quest.'''
+
+The Illusionist is a unique combat where it has control of the Puppet, Kimi. The puppet can fight directly against enemies while the Illusionist stays on the sidelines providing support.
+
+It's skills are focused in management of the Puppet, support damage, control and misdirection.
+
+'''Best:''' High potential, low gear requirements, unique gameplay.
+
+'''Worst:''' Lowest base HP by far, very vulnerable when alone, few weapon choices.
+
+'''Weapons:''' Illusion Gloves
+
+=== <span id="Gameplay_Identity" class="mw-headline">Gameplay Identity</span> ===
+
+The Illusionist is played mostly as a support for the puppet, both with healing and control, along with direct damage, when playing:
+
+<br />
+'''Feels like controlling 2 characters at once, one with the focus on direct combat and another being supportive on the sides, require excelent micro-management.'''
+
+The Illusionist can acquire a secondary weapon for free in Lutie. This weapon allows improved potential of support for Kimi and other players by improving healing power and pitching of items.
+
+The Illusionist however will need to also fight and sometimes, deal most damage to generate '''Condensed Souls''', essential for the growth of the Puppet and further on, for '''Grand Summoning'''.
+
+Most of the Illusionist's offensive capabilities revolve around its core offensive skill, Real Magic Attack, a Good illusionist will mix both hardcasting the skill from a safe distance, or using the powers from the illusion glove along with a very high autospell chance to ensure it's applied constantly to enemies when safe.
+
+A good Illusionist will know when to use its support skills, either by changing places with the Puppet or enemies using Master Swap and Illusion of Exchange, applying debuffs or covering an area with minor AoE skills to control any mobs that may show up.
+
+The first priority should be to always keep the Kimi, the Puppet safe, as not having a Puppet in most cases and builds, may mean instant death. It's important to keep an eye on while reviving the puppet as even with no intimacy penalties, the SP cost can be a problem.
+
+=== <span id="Kimi:_The_Puppet" class="mw-headline">Kimi: The Puppet</span> ===
+
+The Puppet behaves mostly the same as the Homunculus, but with its own, hassle-free way.
+
+There are 4 types of Puppets, each with their own balance. A player can reroll their kimi by deleting the previous one(on the stats window) and summoning it again, keep in mind this will reset the level of the Puppet back to 1:
+
+'''Agile Kimi''' Aggressive by default, has low defenses and sp growth, but high flee and attack speed. Excelent for low-management builds and focus.
+
+'''Raging Kimi''' Aggressive by default, has balanced status overall with a focus on offenses. Very good for physical skill use and barrage of offensive skills.
+
+'''Occult Kimi''' Passive by default, has high SP and magic growth, being very good for healing and magic casting. Better choice for players confortable with it.
+
+'''Ward Kimi''' Passive by default, has high defenses and HP, an ideal choice for beginners or Illusionists who focus on support a pure damage while kimi tanks hits.
+
+'''Core Differences between the Puppet and the Homunculus'''
+
+* Extremely reduced needs to be fed, won't abandon the player unless it's blatantly ignored.
+* Intimacy loss is extremely reduced and slower.
+* Does not have randomized status growth, the values are fixed according to the Puppet type.
+* Doesn't require anything to be created.
+* Is the main source of combat and power of the Illusionist.
+
+=== <span id="Condensed_Soul" class="mw-headline">Condensed Soul</span> ===
+
+Condensed Souls are the unique item drop of the Illusionist class. The drop rate of this consumable increases according to Illusion Glove refine level.
+
+'''Uses for Condensed Souls'''
+
+* Can be fed to Kimi to increase her intimacy.
+* Required to use the skill Grand Summoning.
+* Can be consumed to generate illusions that will auto attack enemies for a few seconds and can activate autospells from the Illusionist. Amount increases per job level.
+
+Condensed Souls can be stored, sold and dropped, but harms any other job who attempts to use it.
+In order to obtain Condensed Souls, please visit the Black Market npcs.
+
+== <span id="Skills" class="mw-headline">Skills</span> ==
+
+The Illusionist has a complete skill tree, where all skills require 49 skill points total. So it'll eventually learn the whole kit.
+
+{|class="wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+!width="16%" style="background: #99d9ea;" | Skill
+!width="16%" style="background: #99d9ea;" | Max Level
+!width="16%" style="background: #99d9ea;" | Description
+!width="16%" style="background: #99d9ea;" | Skill Type
+!width="16%" style="background: #99d9ea;" | Details
+!width="16%" style="background: #99d9ea;" | Scaling
+|-
+| [[File:Puppetmastery.gif|26x26px|link=Puppetmastery]] Advanced Puppet Mastery
+| Lv 1
+| learns about summoning a puppet to fight
+| Passive
+| The Puppet levels up, grows and fights along the master
+| None
+|-
+| [[File:Summonpuppet.gif|26x26px|link=Summonpuppet]] Summon Puppet
+| Lv 1
+| Summons a puppet to fight, it must not be dead to be summoned
+| Active
+| If the player has no puppet, it'll create a random one, this can be rerolled by deleting the puppet
+| None
+|-
+| [[File:Dismisspuppet.gif|26x26px|link=Dismisspuppet]] Dismiss Puppet
+| Lv 1
+| Dismisses a summoned puppet
+| Active
+| Dismissing a puppet won't delete it, just remove it from the field temporarily
+| None
+|-
+| [[File:Respuppet.gif|26x26px|link=Respuppet]] Resurrect Puppet
+| Lv 5
+| Revives a dead puppet by consuming a large amount of SP
+| Support
+| Amount of HP regenerated increases per level, along with SP cost
+| None
+|-
+| [[File:Realmagic.gif|26x26px|link=Realmagic]] Real Magic Attack
+| Lv 10
+| Strikes an enemy with quick magic, amount of hits increases per level
+| Magic
+| Can be autocast with the Illusion Glove, element changes according to weapon
+| INT
+|-
+| [[File:Illusionist.gif|25x25px|link=Illusionist]] Life Strings
+| Lv 5
+| Transfers a portion of the player's stats to the Puppet.
+| Active
+| All skills except hiding may be used for the duration, the Puppet's stats can be boosted past 99
+| None
+|-
+| [[File:Iluvermi.gif|24x24px|link=Iluvermi]] Illusion of Vermillion
+| Lv 3
+| Deals light damage over a large area with a chance to cause blind status
+| Magic AoE
+| Damage is lower than average, can be increased with Illusion of Mist
+| INT
+|-
+| [[File:Ilumist.gif|24x24px|link=Ilumist]] Illusion of Mist
+| Lv 3
+| Deals moderate damage over a small area, while applying crystallize to enemies
+| Magic AoE
+| Crystallize improves damage of other Illusionist skills
+| INT
+|-
+| [[File:Iluhealing.gif|24x24px|link=Iluhealing]] Illusion of Healing
+| Lv 5
+| Reverses any healing effects on target for a short duration
+| Debuff
+| Also affects heal over time
+| None
+|-
+| [[File:Iluexchange.gif|24x24px|link=Iluexchange]] Illusion of Exchange
+| Lv 5
+| Has a high chance to swap places with a targeted enemy, while causing confusion status
+| Debuff
+| Confused enemies may randomly become passive
+| None
+|-
+| [[File:Ilusilence.gif|24x24px|link=Ilusilence]] Illusion of Silence
+| Lv 2
+| Has a high chance to cause silence status to an enemy
+| Debuff
+| Chance decreases according to target's INT
+| None
+|-
+| [[File:Illushadow.gif|24x24px|link=Illushadow]] Illusion of Shadows
+| Lv 3
+| Jumps away from hiding to a safe distance
+| Self-Support
+| Movement is instant and can go over select barriers
+| None
+|-
+| [[File:Grandsum.gif|26x26px|link=Grandsum]] Grand Summoning
+| Lv 5
+| Summons a powerful monster to fight for the Illusionist for a short duration
+| Self-Support
+| Cooldown is long but can be reduced with specific bonuses
+| None
+|}
+
+=== <span id="Grand_Summoning" class="mw-headline">[[File:Grandsum.gif|26x26px|link=Grandsum]]Grand Summoning</span> ===
+
+The Summoned monsters cannot be attacked by enemies, which makes them pure offensive or supportive powers. Their attacks also activate Real Magic Attack and other autospells.
+
+<br />
+Grand Summoning is always the last skill learned and requires a high amount of job experience to learn each level, being a key skill for later stages.
+
+{|class="wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+!width="25%" style="background: #99d9ea;" | Skill
+!width="25%" style="background: #99d9ea;" | Lv to Summon
+!width="25%" style="background: #99d9ea;" | Description
+!width="25%" style="background: #99d9ea;" | Recommended
+|-
+| Steel Metaling
+| Lv 1
+| Deals light damage to enemies, activates shields on the master.
+| When more physical protection is required
+|-
+| Sea Spirit
+| Lv 2
+| Heals when damage is taken, deals light damage
+| When under heavy stress and constant risk
+|-
+| Burning Fang
+| Lv 3
+| Attacks enemies dealing high damage at high speed
+| Good match for autospell activations
+|-
+| Autumn Blood
+| Lv 4
+| Casts powerful AoE magic and deals ranged attacks at intervals
+| Good for a focus on extra magic damage and AoE management
+|-
+| Chaos Dragon
+| Lv 5
+| Attacks enemies for high damage and becomes more aggressive when master's HP is lower
+| Good for overall offensive use, high damage potential with moderate speed
+|}
+
+=== <span id="Puppet_Skills" class="mw-headline">[[File:Puppetmastery.gif|26x26px|link=Puppetmastery]]Puppet Skills</span> ===
+
+The Puppets all have the same skill tree. They receive 1 skill point every 3 levels.
+
+{|class="wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+!width="16%" style="background: #99d9ea;" | Skill
+!width="16%" style="background: #99d9ea;" | Max Level
+!width="16%" style="background: #99d9ea;" | Description
+!width="16%" style="background: #99d9ea;" | Skill Type
+!width="16%" style="background: #99d9ea;" | Details
+!width="16%" style="background: #99d9ea;" | Scaling
+|-
+| Master Swap
+| Lv 5
+| Swaps places with the master
+| Ally-Support
+| Success chance improves with level
+| None
+|-
+| Blood Lust
+| Lv 5
+| Increases attack and allows leeching part of damage dealt
+| Self-Support
+| Consumes high amounts of SP
+| None
+|-
+| Warm Defense
+| Lv 5
+| Increases the defenses for both the Puppet and the player for a limited time.
+| Support
+| Allows the Puppet to hide for 3 seconds
+| None
+|-
+| Chaotic Heal
+| Lv 5
+| Heals randomly between puppet and master, increasing power per level
+| Support
+| Increased chance of affecting Puppet on higher levels
+| None
+|-
+| Illusion of Claws
+| Lv 5
+| Attacks an enemy with its claws, dealing quick damage
+| Physical
+| ASPD-based spam rate
+| None
+|-
+| Illusion of Breath
+| Lv 10
+| Inflicts magical damage, piercing part of the enemy's MDEF
+| Magic
+| Good Range, single target, reliable
+| None
+|-
+| Illusion Crusher
+| Lv 5
+| Dashes to an enemy and deals heavy damage with a chance to stun target
+| Ranged Physical
+| Requires Cordial Intimacy
+| None
+|-
+| Illusion of Light
+| Lv 10
+| Deals holy elemental magic damage to all enemies over a small area
+| Magic AoE
+| Requires Cordial Intimacy
+| None
+|-
+| Body Double
+| Lv 5
+| If the master is about to die while this effect is active, the Puppets dies instead
+| Support
+| Requires Loyal Intimacy
+| None
+|}

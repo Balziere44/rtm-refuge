@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Night Raven | Return to Morroc: Refuge</title>
+<meta name="description" content="Night Raven in Return to Morroc: Refuge - Every assassin weapon, plus a hawk that never misses. Skill list, strengths, weaknesses and what the rebuild changed.">
+<link rel="canonical" href="https://rtmrefuge.pages.dev/classes/night-raven.html">
+
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#06040a">
+<meta name="theme-color" content="#06040a" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f2f0f5" media="(prefers-color-scheme: light)">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Return to Morroc: Refuge">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://rtmrefuge.pages.dev/classes/night-raven.html">
+<meta property="og:title" content="Night Raven | Return to Morroc: Refuge">
+<meta property="og:description" content="Night Raven in Return to Morroc: Refuge - Every assassin weapon, plus a hawk that never misses. Skill list, strengths, weaknesses and what the rebuild changed.">
+<meta property="og:image" content="https://rtmrefuge.pages.dev/assets/social/og-cover.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Return to Morroc: Refuge">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Night Raven | Return to Morroc: Refuge">
+<meta name="twitter:description" content="Night Raven in Return to Morroc: Refuge - Every assassin weapon, plus a hawk that never misses. Skill list, strengths, weaknesses and what the rebuild changed.">
+<meta name="twitter:image" content="https://rtmrefuge.pages.dev/assets/social/og-cover.jpg">
+
+<link rel="icon" href="../assets/img/icon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="../assets/img/icon-180.png">
+<link rel="manifest" href="../site.webmanifest">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+
+<script>
+/* The only blocking script on the site. It has to run before the first paint
+   or the wrong theme shows for a frame. */
+(function () {
+  try {
+    var t = localStorage.getItem('rtmr-theme');
+    if (!t) t = matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+    document.documentElement.dataset.theme = t;
+  } catch (e) {}
+})();
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "item": "https://rtmrefuge.pages.dev/index.html", "name": "Home"},
+    {"@type": "ListItem", "position": 2, "item": "https://rtmrefuge.pages.dev/classes.html", "name": "Classes"},
+    {"@type": "ListItem", "position": 3,  "name": "Night Raven"}
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="shell header-inner">
+    <a class="brand" href="../index.html">
+      <img class="mark" src="../assets/img/icon-192.png" width="34" height="34" alt="" aria-hidden="true">
+      <span class="brand-text">
+        <span class="brand-name">RETURN TO MORROC</span>
+        <span class="brand-sub">Refuge</span>
+      </span>
+    </a>
+    <!-- NAV:START -->
+    <nav class="nav" aria-label="Main">
+      <a href="../index.html">Home</a>
+      <a href="../server.html">The Server</a>
+      <a href="../start.html">Start Here</a>
+      <a href="../classes.html" aria-current="page">Classes</a>
+      <a href="../mechanics.html">Mechanics</a>
+      <a href="../gear.html">Gear</a>
+      <a href="../world.html">World</a>
+      <a href="../guides.html">Guides</a>
+      <a href="../join.html">Join</a>
+    </nav>
+    <!-- NAV:END -->
+    <div class="header-actions">
+      <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch theme">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+          <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" stroke-linejoin="round"/>
+        </svg>
+      </button>
+      <a class="icon-btn" href="https://discord.gg/a5P3PFNMhn" rel="noopener" aria-label="Community chat server">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M19.6 5.6A16 16 0 0 0 15.7 4.4l-.2.4a12 12 0 0 1 3.4 1.7 14 14 0 0 0-12-.6 13 13 0 0 0-1.7.6 12 12 0 0 1 3.4-1.7l-.2-.4A16 16 0 0 0 4.4 5.6C2 9.2 1.3 12.7 1.6 16.2a16 16 0 0 0 4.9 2.5l1-1.6a10 10 0 0 1-1.6-.8l.4-.3a11 11 0 0 0 9.4 0l.4.3a10 10 0 0 1-1.6.8l1 1.6a16 16 0 0 0 4.9-2.5c.4-4-.7-7.5-2.8-10.6zM8.6 14.3c-1 0-1.7-.9-1.7-1.9s.8-1.9 1.7-1.9 1.8.9 1.7 1.9c0 1-.7 1.9-1.7 1.9zm6.3 0c-1 0-1.7-.9-1.7-1.9s.8-1.9 1.7-1.9 1.8.9 1.7 1.9c0 1-.7 1.9-1.7 1.9z"/>
+        </svg>
+      </a>
+      <button class="icon-btn nav-toggle" type="button" data-drawer-open aria-expanded="false" aria-controls="drawer" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+          <path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="drawer" id="drawer" data-open="false" role="dialog" aria-modal="true" aria-label="Menu">
+  <div class="shell">
+    <div class="drawer-head">
+      <span class="eyebrow">Menu</span>
+      <button class="icon-btn" type="button" data-drawer-close aria-label="Close menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+          <path d="M6 6l12 12M18 6L6 18" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+    <!-- DRAWER:START -->
+    <nav aria-label="Mobile">
+      <a href="../index.html">Home</a>
+      <a href="../server.html">The Server</a>
+      <a href="../start.html">Start Here</a>
+      <a href="../classes.html" aria-current="page">Classes</a>
+      <a href="../mechanics.html">Mechanics</a>
+      <a href="../gear.html">Gear</a>
+      <a href="../world.html">World</a>
+      <a href="../guides.html">Guides</a>
+      <a href="../join.html">Join</a>
+    </nav>
+    <!-- DRAWER:END -->
+  </div>
+</div>
+<main id="main">
+<section class="page-hero page-hero--class">
+  <div class="shell">
+    <p class="crumbs"><a href="../index.html">Home</a><span>/</span><a href="../classes.html">Classes</a><span>/</span><span>Night Raven</span></p>
+    <p class="eyebrow">Final job</p>
+    <h1>Night Raven</h1>
+    <p class="lede">Every assassin weapon, plus a hawk that never misses.</p>
+  </div>
+</section>
+
+<div class="shell class-body">
+  <article class="prose">
+      <aside class="callout callout--refuge" aria-labelledby="refuge-night-raven">
+        <h2 id="refuge-night-raven">What the Refuge changed</h2>
+        <ul><li>Night Hunt hit count doubled, and deals 1.25x at red health.</li><li>Bloody Fangs traded its range for triple damage at red health.</li><li>Soul Destroyer poisons anything, bosses included, under Enchant Poison.</li><li>Cloaking Exceed move speed rebuilt to scale purely per level.</li></ul>
+      </aside>
+    <dl class="factbar">
+        <div><dt>Tier</dt><dd>Final job</dd></div>
+        <div><dt>Changes from</dt><dd><a href="blade-dancer.html">Blade Dancer</a></dd></div>
+        <div><dt>Weapons</dt><dd>Dagger, Sword, Katar, Axe</dd></div>
+    </dl>
+      <div class="verdict">
+        <div class="verdict-col verdict-col--good">
+          <h3>Strengths</h3>
+          <p>Flexible builds, highest mobility in the game, easy to pickup.</p>
+        </div>
+        <div class="verdict-col verdict-col--bad">
+          <h3>Weaknesses</h3>
+          <p>No major Combo interactions, relies on older skills for creating a full rotation, hard to master.</p>
+        </div>
+      </div>
+    <div class="prose-flow">
+      <ul><li>1 A true master of all weapons</li><li>1.1 Gameplay Identity</li><li>1.2 Core Gameplay Loop</li><li>2 Skills</li></ul>
+      <h2 id="a-true-master-of-all-weapons">A true master of all weapons</h2>
+      <p>The Night Raven is a master of wielding any combination of weapons. It has access to a high variety of situational skills, that can fill any variety of builds and styles.</p>
+      <p>It's skills are varied both in weapon bonuses, approach, use cases, mobility and more.</p>
+      <h2 id="gameplay-identity">Gameplay Identity</h2>
+      <p>The Night Raven has no enforced rotation, this gives players full control of the best rotation they can use to improve their damage power. This makes the Night Raven:</p>
+      <p>A very mobile DPS with multiple hit and run options using all kinds of weapons according to situation, allowing them to quickly dominate unpredictable fights</p>
+      <p>Due to it's nature in wielding multiple weapons, Most of its offensive skills have varied scaling and deal Boosted Scaling Damage when wielding matching weapons.</p>
+      <p>The use of the Raven (similar to the original game's Falcon) brings alternative concepts, ensuring a night raven will always have ways to deal reliable damage to enemies, if prepared for it.</p>
+      <p>Night Raven can also apply a Night Wound to targets. This red cross-shaped debuff provides minor extra damage with most skills when used on a marked target, making Blitz Beat and Blade Dancer's Southern Cross great openers to any rotation. The bonus is also small enough that it doesn't feel punishing for missing or ignoring its window.</p>
+      <p>Finally, the Night Raven can proc the Raven's attacks automatically when auto-attacking, if the player is wielding specifically a dagger + sword combination.</p>
+      <h2 id="core-gameplay-loop">Core Gameplay Loop</h2>
+      <p>Final jobs always have varied core loops. The Night Raven is not a very skill point starved job, meaning it doesn't need to get a ton of skills to become decent... as long as you know what you're looking for:</p>
+      <p>Rest of skill points can be used for buffs, mobility and overall class coverage.</p>
+      <p>Due to access to Raven Steps to quickly move out of danger, a Night Raven can take bigger risks when fighting strong enemies. This allows them to use longer combo rotations with less risk, mixing Blade Dancer skills like Soul Destroyer and alternating Southern Cross (for it's doubled damage when reused in a short window due to Night Wound) is very recommended to boost the damage potential while rotating the cooldowns quickly.</p>
+      <p>Overall, the Night Raven is a very free-form job, fitting for players who would rather be creative in their progression and experimenting with varied combinations of skills.</p>
+      <ul><li>Double Dagger Builds should always Get Definitive Dagger.</li><li>Double Sword Builds should always Get Northern Cross.</li><li>Double Axe Builds should always get Bloody Fangs.</li><li>Dagger+Sword Builds can have impressive auto attack power with Blitz Beat procs.</li><li>All builds should consider Typhoon Edge for AoE coverage if they need it or the Raven Skills for more reliability.</li><li>Final Skill: Raven Steps. Requires having a Raven, quickly dashes to any location with a very small cooldown and SP cost.</li></ul>
+    </div>
+      <section class="section--tight" id="skills">
+        <div class="section-head">
+          <h2>Skills</h2>
+          <p>15 entries, as documented for the world the Refuge inherited.
+             Exact numbers are deliberately not listed - they move with balance passes.</p>
+        </div>
+        <div class="cluster" style="margin-bottom:1rem">
+          <label class="visually-hidden" for="sk">Filter skills</label>
+          <input id="sk" type="search" class="field" placeholder="Filter skills..."
+                 data-filter="skilltable" data-filter-count="skcount">
+          <span class="chip mono" id="skcount">-</span>
+        </div>
+        <div class="table-wrap">
+          <table id="skilltable">
+            <caption class="visually-hidden">Night Raven skills</caption>
+            <thead><tr><th scope="col">Skill</th><th scope="col">What it does</th><th scope="col">Type</th></tr></thead>
+            <tbody>
+        <tr data-row>
+          <th scope="row">Adv. Blade Mastery<span class="skill-max mono">Lv 5</span></th>
+          <td>Increases Attack and hit rate with swords and daggers.<div class="skill-extra"><span class="skill-note">Added as a flat bonus in damage.</span><span class="chip chip--sm mono">No</span></div></td>
+          <td><span class="badge sk-passive">Passive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Cloaking Exceed<span class="skill-max mono">Lv 5</span></th>
+          <td>Quickly consumes SP for perfect cloaking with very quick movement.<div class="skill-extra"><span class="skill-note">Can take a few hits without being revealed</span><span class="chip chip--sm mono">No</span></div></td>
+          <td><span class="badge sk-other">Self-Support</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Raven Pact<span class="skill-max mono">Lv 1</span></th>
+          <td>Allows summoning of a Raven using a Raven Flute.<div class="skill-extra"><span class="skill-note">Raven Flute can be bought on the Black Market.</span><span class="chip chip--sm mono">No</span></div></td>
+          <td><span class="badge sk-passive">Passive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Northern Cross<span class="skill-max mono">Lv 10</span></th>
+          <td>Deals quick damage to an enemy, damage is boosted when wielding dual swords<div class="skill-extra"><span class="skill-note">Extra damage if enemy is marked with Night Wound</span><span class="chip chip--sm mono">AGI and DEX</span></div></td>
+          <td><span class="badge sk-other">Offensive Melee</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Definitive Dagger<span class="skill-max mono">Lv 10</span></th>
+          <td>Deals instant damage to an enemy, damage is boosted when wielding dual daggers<div class="skill-extra"><span class="skill-note">Extra damage if enemy is marked with Night Wound, extra hit rate</span><span class="chip chip--sm mono">AGI and DEX</span></div></td>
+          <td><span class="badge sk-other">Offensive Melee</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Bloody Fangs<span class="skill-max mono">Lv 5</span></th>
+          <td>Deals magic damage to an enemy, damage is boosted when wielding dual axes<div class="skill-extra"><span class="skill-note">Extra damage if enemy is marked with Night Wound, Heals damage dealt</span><span class="chip chip--sm mono">INT and DEX</span></div></td>
+          <td><span class="badge sk-magic">Magic</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Typhoon Edge<span class="skill-max mono">Lv 10</span></th>
+          <td>Quickly spins weapons knocking back enemies and dealing heavy damage if the hit a wall<div class="skill-extra"><span class="skill-note">Damage dealt when hitting a wall is 3x base damage from regular hit. Damage boosted by Rolling Counters.</span><span class="chip chip--sm mono">STR</span></div></td>
+          <td><span class="badge sk-other">Melee AoE</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Blitz Beat<span class="skill-max mono">Lv 5</span></th>
+          <td>Attacks a small area with perfect accuracy using the Raven and applying Night Wound<div class="skill-extra"><span class="skill-note">Automatic activation based on LUK. Requires a Dagger+Sword.</span><span class="chip chip--sm mono">LUK</span></div></td>
+          <td><span class="badge sk-other">Ranged AoE/Automatic</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Steel Wings<span class="skill-max mono">Lv 10</span></th>
+          <td>Increases damage of raven-based skills<div class="skill-extra"><span class="skill-note">Damage increase is a multiplier per level. Also boosts damage of Counter Slash, modified by player agi.</span><span class="chip chip--sm mono">No</span></div></td>
+          <td><span class="badge sk-passive">Passive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Sixth Sense<span class="skill-max mono">Lv 5</span></th>
+          <td>Commands the Raven to find hidden enemies in an area<div class="skill-extra"><span class="skill-note">Range Increases per level</span><span class="chip chip--sm mono">No</span></div></td>
+          <td><span class="badge sk-other">Ranged Support</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Rising Wings<span class="skill-max mono">Lv 5</span></th>
+          <td>Consumes a large amount of SP to increase weapon attack power<div class="skill-extra"><span class="skill-note">Requires a Raven and damage is based on weapon default ATK</span><span class="chip chip--sm mono">No</span></div></td>
+          <td><span class="badge sk-other">Self-Support</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Sky Assault<span class="skill-max mono">Lv 5</span></th>
+          <td>Commands Raven to strike a target with full power<div class="skill-extra"><span class="skill-note">Deals fixed damage based on DEX and LUK, boosted by Steel Wings</span><span class="chip chip--sm mono">DEX and LUK</span></div></td>
+          <td><span class="badge sk-other">Ranged</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Midnight Eye<span class="skill-max mono">Lv 5</span></th>
+          <td>Strikes an enemy with power from the night to remove status changes<div class="skill-extra"><span class="skill-note">Chance increases per level, removes all buffs and debuffs</span><span class="chip chip--sm mono">INT</span></div></td>
+          <td><span class="badge sk-other">Ranged</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Night Hunt<span class="skill-max mono">Lv 10</span></th>
+          <td>Consumes HP with up to skill level/hits to deal defense-piercing damage<div class="skill-extra"><span class="skill-note">Cannot proc double attack, damage scales with dex and agi and is unaffected by % mods.</span><span class="chip chip--sm mono">DEX/AGI</span></div></td>
+          <td><span class="badge sk-other">Self-Support</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Raven Steps<span class="skill-max mono">Lv 5</span></th>
+          <td>Instantly moves to a line-of-sight cell, requires a Raven.<div class="skill-extra"><span class="skill-note">Range increases per level.</span><span class="chip chip--sm mono">No |}</span></div></td>
+          <td><span class="badge sk-other">Self-Support</span></td>
+        </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    <p class="source-note">Descriptions and the skill list are transcribed from the community wiki for the world the Refuge inherited. Where the Refuge changed something, it is called out above.</p>
+    <nav class="pill-row" aria-label="Other final jobs">
+      <span class="dim">More final jobs:</span> <a class="pill" href="dracomancer.html">Dracomancer</a><a class="pill" href="revenant.html">Revenant</a><a class="pill" href="legend.html">Legend</a><a class="pill" href="pit-boss.html">Pit Boss</a><a class="pill" href="satsujin.html">Satsujin</a><a class="pill" href="gravekeeper.html">Gravekeeper</a>
+      <a class="pill pill--strong" href="../classes.html">Full tree</a>
+    </nav>
+  </article>
+</div>
+
+</main>
+<!-- FOOTER:START -->
+<footer class="site-footer">
+  <div class="shell">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="../index.html">
+          <img class="mark" src="../assets/img/icon-192.png" width="34" height="34" alt="" aria-hidden="true">
+          <span class="brand-text">
+            <span class="brand-name">RETURN TO MORROC</span>
+            <span class="brand-sub">Refuge</span>
+          </span>
+        </a>
+        <p class="muted" style="margin-top:1rem;font-size:0.92rem;max-width:34ch">
+          A free, non-commercial hobby world built and run by a handful of players
+          for anyone who wants somewhere unhurried to play.
+        </p>
+        <p class="cluster" style="margin-top:1rem">
+          <a class="btn btn--ghost" href="https://discord.gg/a5P3PFNMhn" rel="noopener">Community chat</a>
+        </p>
+      </div>
+      <div>
+        <h4>Start here</h4>
+        <ul>
+        <li><a href="../server.html">What the Refuge is</a></li>
+        <li><a href="../start.html">New player guide</a></li>
+        <li><a href="../join.html">How to join</a></li>
+        <li><a href="../faq.html">Questions and answers</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>The game</h4>
+        <ul>
+        <li><a href="../classes.html">All 30 classes</a></li>
+        <li><a href="../newjobs.html">Bouncer and Pit Boss</a></li>
+        <li><a href="../mechanics.html">Combat and stats</a></li>
+        <li><a href="../gear.html">Items, refining, shadows</a></li>
+        <li><a href="../world.html">Regions, dungeons, MVPs</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Reference</h4>
+        <ul>
+        <li><a href="../changes.html">Changes from the original</a></li>
+        <li><a href="../database.html">Community database</a></li>
+        <li><a href="../guides.html">Player-written guides</a></li>
+        <li><a href="../llms.txt">llms.txt</a></li>
+        <li><a href="../sitemap.xml">Sitemap</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-legal">
+      Return to Morroc: Refuge is an unofficial, non-commercial fan project with no affiliation to,
+      sponsorship by or endorsement from any game publisher, developer or rights
+      holder. It hosts no commercial storefront, sells nothing, and accepts no
+      real-money trading. All third-party names that appear anywhere on this site
+      belong to their respective owners and are used only to describe gameplay.
+      Nothing here is distributed for profit.
+      <br><br>
+      Built by the community, in the open. Site content is free to copy.
+    </p>
+  </div>
+</footer>
+<!-- FOOTER:END -->
+
+<script src="../assets/js/main.js" defer></script>
+</body>
+</html>

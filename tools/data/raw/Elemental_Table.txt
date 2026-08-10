@@ -1,0 +1,85 @@
+__TOC__
+
+
+==[[File:Elementaltable.gif|21px26px]] Elements Reworked ==
+In Return to Morroc, elements have an impact on the gameplay but no longer are the make or break they once were. The entire elemental table was changed.
+
+The workings of elemental damage for physical attacks (both melee and ranged) is completely changed in place of a fixed modifier, regardless of monster level.
+
+The elements are reworked into 3 groups: '''Corporal Elements''', '''Natural Elements''' and '''Special Elements'''
+
+=== Endow Skills ===
+Return to Morroc has very few endow skills:
+* Seven Winds, Shinobi Skill, allows choosing between any non-neutral element except poison.
+* Enchant Poison, Thief Skill, allows enchanting weapon with poison element and a chance to cause poison status.
+* Burning Scythe, Trickster Skill, enchants the scythe with fire element and boosts fire magic power.
+* In case any of these skills is used, all damage will be converted to the element, including statusATK and WeaponATK.
+
+The only ways other than this to get full elemental benefits is either with elemental weapons/ammo or the '''Elemental Focus'''.
+
+* You can also get elemental bonuses from some skills, such as Reaper Form making your damage Dark, or Dracomancer's dragon breath changing according to current buff activated.
+
+=== Elemental Focus ===
+'''Elemental Focus''' is a sub-system of the magic of Return to Morroc. '''Natural element magic (Fire/Water/Earth/Wind)''' can generate or consume Focus for their element.
+
+The Stacks can be seen as elemental icons around the player.
+* Skills that generate focus have increasing cast times and cooldowns with higher level, but generate more stacks. Using lower level skills won't increase the stacks past their current skill level.
+* Some Skills are boosted according to the current focus element and stacks amount.
+* Autospell does generate stacks, either from items or skills.
+
+Focus duration is '''60 seconds'''. Using lower level magic can refresh an amount of stacks equal to that point, for example:
+* Casts Lv 10 Flaming Petals, generates 10 Fire Focus.
+* Casting Lv5 Flaming Petals will renew the duration of 5 Fire Focus stacks, the remaining 5 will vanish when the timer is up.
+* This can be repeated, so Spamming lower level magic after generating the Lv10 Focus to keep it up is a viable strategy.
+* A good magic user will know to not drop the stacks after they are obtained by keeping the offensive and weaving different spells into the rotation.
+
+When a Player has '''10 Stacks''', they get a bonus besides skills interactions:
+* They get endowed with that element for duration, with full bonuses and penalties.
+* They deal 10% bonus damage vs the target advantage element (Like Water Focus vs Fire Enemy, you deal 10% extra damage).
+* This makes some physical builds weaving magic, even if only for the endow, a viable strategy in some cases.
+
+Some unique skills (such as Mystic's '''Unholy Light''') can get unique interactions according to the amount of element focus of the player.
+
+Using a spell of a different element will change the focus to that element, losing any stacks of the previous element.
+
+=== Elemental Modifiers ===
+Elements apply to final damage. If a target is Fire Lv2 for example, it'll receive 125% damage from any source.
+
+Contrary to Renewal, Elemental endows apply to the '''entire attack damage''' on Return to Morroc, not just to weaponATK.
+
+=== Element Levels ===
+Damage bonus/penalty according to elements has been changed.
+
+Instead of varied amounts of bonuses vs elements, they have fixed amounts up to Lv3.
+
+Lv4 monsters require specific approaches to fight, specially if they are Holy/Dark.
+
+=== Corporal Elements ===
+The 4 Corporal Elements are: '''Neutral''', '''Ghost''', '''Undead''' and '''Poison'''.
+* '''Neutral''' has no interaction with Undead, is weak vs Ghost and Poison. Neutral has no bonus damage vs anything.
+* '''Poison''' is strong vs Neutral, weak vs Ghost and Undead.
+* '''Ghost''' is opposed to Undead, meaning both are strong vs each other. Also is strong vs Poison and Neutral.
+* '''Undead''' is opposed to Ghost, meaning both are strong vs each other. Also is strong vs Poison.
+
+=== Natural Elements ===
+The 4 Natural Elements are: '''Fire''', '''Water''', '''Wind''' and '''Earth'''.
+* '''Fire''' is strong vs Earth and weak vs Water. No interaction with Wind.
+* '''Water''' is strong vs Fire and weak vs Wind. No interaction with Earth.
+* '''Wind''' is strong vs Water and weak vs Earth. No interaction with Fire.
+* '''Earth''' is strong vs Wind and weak vs Fire. No interaction with Water.
+
+=== Special Elements ===
+The 2 Special Elements are: '''Holy''' and '''Dark'''.
+* Special Elements have a unique interaction with other elements:
+* '''Holy''' is strong vs all 4 Corporal Elements(Neutral,Poison,Ghost,Undead). It has '''10% extra damage and 10% extra resistance''' vs them, regardless of Level.
+* '''Dark''' is strong vs all 4 Natural Elements(Fire,Water,Wind,Earth). It has '''10% extra damage and 10% extra resistance''' vs them, regardless of Level.
+* '''Holy''' and '''Dark''' are opposed to each other. They have regular damage bonus and resistance vs each other, like other elements.
+
+=== Short Guide ===
+'''Strongest Defensive Choice''': Use same element as the attack received. If not available, use element strong vs attack received to mitigate damage.
+
+'''Strongest Offensive Choice''': Use element that is directly stronger vs enemy element for bonus damage.
+
+'''Best Overall Use''': Use holy vs corporal elements, use dark vs natural elements.
+
+[[FILE:Ele_table.png||Element table]]

@@ -1,0 +1,305 @@
+Return to Morroc changed most of the stat system of the game. Below you can find the biggest differences from Renewal. Anything not mentioned below should be considered to be same as default Renewal.
+
+
+== <span id="Quick_Starter_Information" class="mw-headline">Quick Starter Information</span> ==
+
+* It is '''HIGHLY RECOMMENDED''' to get at least 10 points in most stats for weight, regeneration, speed, etc.
+* '''It's not recommended to depend on healing items to handle fights. They are situational items at best now.'''
+* Use lesser levels of spells and skills when SP is an issue. Higher level skills might provide a better burst, but a lesser DPS overall due to high costs.
+* Always double check your resources, catalysts, shadow orbs, etc.
+* Enjoy the journey, the game doesn't start at max level here.
+
+== <span id="Main_Stats" class="mw-headline">Main Stats</span> ==
+
+=== <span id="Base_Level" class="mw-headline">Base Level</span> ===
+
+* Maximum Base Level is '''150'''. This is the Hard Cap.
+* Level '''130''' is considered the Soft Cap. No Equipment requires a Level higher than 130.
+* After Level 124, the gains from each level decrease the higher your level is.
+* Base Level is no longer a modifier for bonuses on any skill.
+
+=== <span id="Job_Level" class="mw-headline">Job Level</span> ===
+
+* Maximum Job Level varies per job class.
+* Job stat bonuses are no longer granted as you level up. They are completely removed.
+* Job Level is the only factor on increasing crafting success rates for [[Black Plague]] and [[Blast Juggler]].
+* [[Judge]] has specific skills that increase in power according to the player's Job Level.
+
+
+=== <span id="Status_Points" class="mw-headline">Status Points</span> ===
+The following table is a representation of the total status points you have per level.
+
+
+[[File:Graph_status_points.png|right|thumb|540px|Visual Graph of Stat Points per Level]]
+
+{| class="wikitable" style="text-align:center; width:50%;"
+|-
+! Level !! Stat Points
+|-
+| 1-9 || 18, 21, 24, 27, 30, 33, 36, 39, 42
+|-
+| 10-19 || 52, 54, 56, 58, 60, 62, 64, 66, 68, 70
+|-
+| 20-29 || 80, 82, 84, 86, 88, 90, 92, 94, 96, 98
+|-
+| 30-39 || 108, 110, 112, 114, 116, 118, 120, 122, 124, 126
+|-
+| 40-49 || 136, 138, 140, 142, 144, 146, 148, 150, 152, 154
+|-
+| 50-59 || 164, 166, 168, 170, 172, 174, 176, 178, 180, 182
+|-
+| 60-69 || 192, 194, 196, 198, 200, 202, 204, 206, 208, 210
+|-
+| 70-79 || 220, 222, 224, 226, 228, 230, 232, 234, 236, 238
+|-
+| 80-89 || 248, 250, 252, 254, 256, 258, 260, 262, 264, 266
+|-
+| 90-99 || 276, 278, 280, 282, 284, 286, 288, 290, 292, 294
+|-
+| 100-109 || 314, 318, 322, 326, 330, 334, 338, 342, 346, 350
+|-
+| 110-119 || 360, 364, 368, 372, 376, 380, 384, 388, 392, 396
+|-
+| 120-129 || 406, 410, 414, 418, 422, 426, 427, 428, 429, 430
+|-
+| 130-139 || 433, 434, 435, 436, 437, 438, 439, 440, 441, 442
+|-
+| 140-150 || 443, 444, 445, 446, 447, 447, 447, 447, 447, 447, 447
+|}
+
+=== <span id="Status_Growth" class="mw-headline">Status Growth</span> ===
+
+* All Stats have a '''Breakpoint Bonus''' when they are multiple of 10. This includes Base + Bonus amounts.
+
+* Max Stat points for any stat is 99. There's no limit on bonuses from items/skills.
+* Skills now have direct stat point scalings. You can for example have a skill with +2% per AGI scaling (giving you 60% extra damage with 30 AGI).
+* Some cards and equipments can add stronger/new scaling to skills.
+* Stat points no longer require 2 points +1 every 10 points to increase.
+* Stat points now require 1 point up to 50, 2 points up to 98, and 3 points for 99.
+* The amount of stat points granted varies by level. Multiple of 10 usually grant bette bonuses.
+* Certain items require 99 in a given stat to activate strong bonuses.
+* A Lv150 character has enough points to get 99 in 3 stats, and having 3 other stats at 1.
+
+=== <span id="Strength_.28STR.29"></span><span id="Strength_(STR)" class="mw-headline">Strength (STR)</span> ===
+
+'''Breakpoint''': Every 10 points, adds +1 ATK(any weapon).
+
+=== <span id="Agility_.28AGI.29"></span><span id="Agility_(AGI)" class="mw-headline">Agility (AGI)</span> ===
+
+'''Breakpoint''': Every 10 points, adds +1 ASPD and +3 Flee. Extra +1 ASPD if dual-wielding every 20 points.
+
+* ASPD percentage bonuses are now fully based on the character's AGI.
+* For example, Getting 20% ASPD with 50 total agi grants only 10% ASPD. For 200 Agi, the bonus is 40% ASPD.
+* Effect in escaping from Snare traps increased 50%.
+* ASPD is capped depending on your class.
+* Every 40 points of AGI increases the cap by 1.
+* Equipment can also increase this limit with varied ASPD Limit+x bonuses.
+* [[Jester]] and [[Legend]] jobs have special ways to push this limit with skills.
+* Now influences Perfect Dodge chance.
+
+=== <span id="Vitality_.28VIT.29"></span><span id="Vitality_(VIT)" class="mw-headline">Vitality (VIT)</span> ===
+
+'''Breakpoint''': Every 10 points, adds +5 Flat DEF and MDEF.
+
+* Flat DEF bonus is for every point of VIT, instead of every 2 points.
+* Resistance to poison status has been severely reduced.
+* Increased HP natural regeneration by 25%.
+
+=== <span id="Intelligence_.28INT.29"></span><span id="Intelligence_(INT)" class="mw-headline">Intelligence (INT)</span> ===
+
+'''Breakpoint''': Every 10 points, adds +1 MATK.
+
+* Increased SP natural regeneration by 50% per 6 points.
+* Resistance to silence status has been reduced.
+
+=== <span id="Dexterity_.28DEX.29"></span><span id="Dexterity_(DEX)" class="mw-headline">Dexterity (DEX)</span> ===
+
+'''Breakpoint''': Every 10 points, adds +1 ATK/MATK.
+
+* Increased effect on cast times.
+* Increased amount of hit gained per point from 1 to 2.
+
+=== <span id="Luck_.28LUK.29"></span><span id="Luck_(LUK)" class="mw-headline">Luck (LUK)</span> ===
+
+'''Breakpoint''': Every 10 points, adds +2 Critical Rate and +1% Critical Damage.
+
+* Increased effect on status resistances by 50 to 100%.
+* Now applies to more status effects.
+* Shares Perfect Dodge weight from weapons
+* Decreased hit gained from every 3 to every 5 points.
+
+== <span id="Sub_Stats" class="mw-headline">Sub Stats</span> ==
+
+=== <span id="Attack_.28ATK.29"></span><span id="Attack_(ATK)" class="mw-headline">Attack (ATK)</span> ===
+
+* Overall item bonuses greatly reduced. Increased weight of status bonuses on damage.
+* Damage calculations are same as renewal.
+* Bonus when upgrading is 0.5/Weapon Level per refine.
+
+=== <span id="Magic_Attack_.28MATK.29"></span><span id="Magic_Attack_(MATK)" class="mw-headline">Magic Attack (MATK)</span> ===
+
+* Has been added as a natural bonus, like ATK.
+* Weapons with base MATK increase it with refine rate.
+* Damage calculations are same as renewal.
+
+=== <span id="Critical_Rate_and_Damage" class="mw-headline">Critical Rate and Damage</span> ===
+
+* Damage bonus is only 1.2x instead of 1.4x from Renewal
+* Bonus from cards and modifiers halved.
+* Skills now take full critical modifier, instead of halved.
+* Monsters have 5% base critical chance on all attacks.
+* Extra 1% Critical Damage per 10 LUK as part of the breakpoint bonus.
+* Katars have 1.5x bonus critical rate, instead of 2x.
+* Double-Attack can be critical.
+
+=== <span id="Cast_Time" class="mw-headline">Cast Time</span> ===
+
+* Basic Correlation between fixed cast/variable cast has been changed from 20/80 to 10/90. This has many exceptions.
+* Variable Cast time formula changed completely.
+* Previous: DEX*2+INT = 530
+* New: DEX*2+INT = 400
+* % Variable/Fixed Cast time on gear works after "stat reduction" cast time of skill.
+ Example:
+ If skill has 10 seconds variable cast time
+ You have 300(INT/DEX) Total stats = Variable cast time is reduced by ~75-80%
+ 10 x 0.25 = 2.5 seconds cast time
+ Gear cast time equals to 50% Variable cast time reduction
+ 2.5 x 0.5 = 1.25 Variable cast time - Final variable cast time.
+* Some skills have greatly increased cast times/fixed cast times.
+* Some specific skills have irreductible cast time or can work with [[Cast Ready]]
+
+=== <span id="Hit_Rate_.28Hit.29"></span><span id="Hit_Rate_(Hit)" class="mw-headline">Hit Rate (Hit)</span> ===
+
+* Player Minimum hit rate has been improved from 5% to 10%.
+* Base Hit Rate of Players increased by 25 (through the Orphan Skills starter passive).
+* Keep in mind monsters have higher flee overall.
+
+=== <span id="Flee_Rate_.28Flee.29"></span><span id="Flee_Rate_(Flee)" class="mw-headline">Flee Rate (Flee)</span> ===
+
+* Flee penalty per attacking monsters increase from 3 to 4 monsters.
+* Flee penalty per monster increased from 10% to 20%.
+* This means fightning 4 monsters at the same time reduces your flee by 80%.
+
+=== <span id="Perfect_Dodge" class="mw-headline">Perfect Dodge</span> ===
+
+* Can stack beyond 100 Perfect Dodge (to protect against reduction/negation).
+* Increases by 1 every 10 TOTAL of AGI/LUK instead of only LUK.
+* Core bonus of the [[Prowler]] Job.
+
+=== <span id="Natural_Regeneration" class="mw-headline">Natural Regeneration</span> ===
+
+* HP Regeneration tick is every 2 seconds (vs 6 seconds from vanilla, 3x faster).
+* SP Regeneration tick is every 1.2 seconds(vs 8 seconds from vanilla, 6,6x faster).
+* SP Regeneration when equipped with Revolvers ([[Judge]]) is tripled . Job has a very small SP pool.
+* SP Regeneration happens in movement. Specific bonuses enable HP Regen in movement.
+* All Regeneration happens even in combat.
+
+=== <span id="Attack_Speed_.28ASPD.29"></span><span id="Attack_Speed_(ASPD)" class="mw-headline">Attack Speed (ASPD)</span> ===
+
+* Attack speed base has been greatly reduced.
+* Attack speed scaling with AGI has been increased slightly.
+* ASPD is now greatly based on overall AGI of the character.
+* Flat ASPD bonuses are more prevalent.
+* Dual Wield ASPD penalty has been increased by 25%.
+* Hard ASPD cap for every job is 193. Soft Cap [Increased with ASPD limit gear] check your soft cap here in [https://wiki.echoesofmorroc.com/Base_Aspd_Limit_Table Base ASPD Limit Table]
+
+== <span id="Mechanic_Changes" class="mw-headline">Mechanic Changes</span> ==
+
+=== <span id="Physical_Attack_Card_Bonuses" class="mw-headline">Physical Attack Card Bonuses</span> ===
+
+* Card bonuses follow a unique formula due to the balance of status and equipment.
+* Bonuses are applied 1/2 to Status Attack and 1/2 to Equipment Attack.
+
+=== <span id="Size_Penalty_for_Weapons" class="mw-headline">Size Penalty for Weapons</span> ===
+
+* Weapon Size modifiers has been reworked.
+* Size Penalty used to be 50%/75%/100%
+* New Size Penalties: 80%/90%/100%
+* Scythes, Decks and other unique Weapons deal 100% to all sizes.
+
+=== <span id="Death_and_Warping" class="mw-headline">Death and Warping</span> ===
+
+* Invincibility Time reduced by 70% when entering new map.
+* Transition &quot;black screen&quot; time reduced by 80%.
+* Respawning revives you with 50% HP and 25% SP.
+* Teleport has 30 seconds cooldown, Fly Wing has 60 seconds cooldown.
+
+=== <span id="Damage_Delay" class="mw-headline">Damage Delay</span> ===
+
+* Stunlock duration for players and monsters reduced by half.
+* Monsters may have delayed damage skills, you can see this with skills that decrease your HP but the number takes a moment to show up.
+* This delay can be used to heal up right before a high nuke damage hit.
+
+=== <span id="Consumables" class="mw-headline">Consumables</span> ===
+
+* Potions Weight GREATLY increased.
+* Potions prices GREATLY increased.
+* Potions now have a 5-20 second cooldown.
+* Potions healing variation removed.
+* Most healing items removed from the game.
+* Added Kafra Elixir to [[Kafra Services]]. Default Kafra elixir amount is 2. This amount can be increased with specific items.
+* Kafra Elixir can be refilled for free at any Kafra, they recover 50% HP/SP and have a 5 second cooldown.
+
+=== <span id="Experience" class="mw-headline">Experience</span> ===
+
+* EXP is fully received if monster is between 3 levels lower than player or up to 5 levels higher.
+* EXP received increases by 3% per level when monster is 6 levels or higher than player, up to 130% at 15 levels. Only 1% EXP is received for monsters 16 levels or higher.
+* EXP received decreases by 15% per level when monster is 4 levels or lower than player, up to 10% at 9 levels. Only 1% EXP is received for monsters 10 levels or lower.
+* On average, You need '''your level x 1.5''' to level up, this value can fluctuate based on dungeon difficulty, density, monster difficulty, etc.
+* EXP penalty on death is 5%.
+* This is to incentivate progression of areas and exploration.
+
+=== <span id="MVP" class="mw-headline">MVP</span> ===
+
+* MVP monsters have 50% final damage reduction.
+* All MVPs have 45-60% chance to drop a unique costume.
+* All MVPs have half their level as chance to drop a MVP Rewards Box.
+* Ankle Snare duration reduced by 95%.
+* No longer can rude-teleport.
+* MVPs have a unique Relic System in place, where monsters from their area have a 0.10% chance to drop their Relic. Using the Relic on the correct MVP map will summon the MVP to fight (usual rules of Free-For-All apply).
+* MVPs still have their random time based spawn and locations. Relic Summons are an extra.
+
+=== <span id="Zeny" class="mw-headline">Zeny</span> ===
+
+* Equipments are sold to NPCs for a small fraction of their value.
+* Monsters drop zeny on kill. This value can be increased with items.
+* Overall zeny generation is greatly reduced and no longer has items that provide a ton of it (Gold, Witherless Roses, Crystal Mirrors, etc).
+
+== <span id="Status_Effects_Changes" class="mw-headline">Status Effects Changes</span> ==
+
+=== <span id="Stun" class="mw-headline">Stun</span> ===
+
+* VIT resistance halved.
+* LUK resistance doubled.
+* LUK decreases duration.
+
+=== <span id="Silence" class="mw-headline">Silence</span> ===
+
+* INT resistance halved.
+* LUK resistance doubled.
+* LUK decreases duration.
+
+=== <span id="All_Status_Effects" class="mw-headline">All Status Effects</span> ===
+
+* Silence and Stun are twice as hard to apply on monsters.
+* Silence and Stun last less time according to monster's LUK.
+* Monster resistance to all other status greatly reduced.
+
+=== <span id="Poison" class="mw-headline">Poison</span> ===
+
+* 20% higher damage.
+* Resistance to it reduced by 80%.
+* VIT defense debuff amount increased by 50%.
+* Can affect all races and elements except poison.
+* Can affect bosses if the user is a [[Black Plague]] Using Enchant Deadly Poison.
+
+=== <span id="Burning" class="mw-headline">Burning</span> ===
+
+* Damage is fixed at 200 + 1% Max HP per tick.
+* Minimum duration if not resistant is 10 seconds.
+
+=== <span id="Freeze" class="mw-headline">Freeze</span> ===
+
+* Increases damage taken by [[Illusionist]]'s Real Magic Attack and Kimi Puppet skills.
+* Increase damage of some bomb skills by Saboteur and [[Blast Juggler]].
+* Has all original effects besides the ones above.

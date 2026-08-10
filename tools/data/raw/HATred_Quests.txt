@@ -1,0 +1,600 @@
+= HATred Quests =
+
+** [[#HATred_Dude|<span class="tocnumber">1</span> <span class="toctext">HATred Dude</span>]]
+** [[#HATred_Points|<span class="tocnumber">2</span> <span class="toctext">HATred Points</span>]]
+** [[#Location|<span class="tocnumber">3</span> <span class="toctext">Location</span>]]
+** [[#HATred_Quest_List|<span class="tocnumber">4</span> <span class="toctext">HATred Quest List</span>]]
+
+= <span id="HATred_Dude" class="mw-headline">HATred Dude</span> =
+
+<div class="floatright">
+
+</div>
+The '''HATred Dude''' is well known around the world as a very angry guy who hates all monsters.
+
+When a player finds him, he will offer to give one of his hats in exchange for items dropped from monsters of that region or dungeon.
+
+Each HATred quest can only be completed '''ONCE''' per character, however the hats are fully tradeable, and can also be stored.
+
+== <span id="HATred_Points" class="mw-headline">HATred Points</span> ==
+
+Whenever a player finishes a '''HATred quest''' they will be awarded a HATred Point. To check how many points you have, just speak with the HATred Dude anywhere in the world and he will let you know how many quests you have finished. The purpose of the HATred Points is unknown.
+
+Below is a '''full list''' of all HATred Quests.
+
+== <span id="Location" class="mw-headline">Location</span> ==
+
+The location of the HATred dude is '''never''' indicated in any minimap or mentioned by any NPC. It requires either word of mouth or exploration to find him in every location.
+
+He can be identified by his unique appearance as well as a banner over his head reading &quot;HATred Quest&quot; with a Headgear icon.
+
+'''PS: Distortion Dungeons don't have the HATred Dude as all of them drop Distortion Essence at varied rates as regular loot.'''
+
+== <span id="HATred_Quest_List" class="mw-headline">HATred Quest List</span> ==
+
+Note: The required level is for equipping the headgear. The quests do not have a level requirement.
+
+{|class="wikitable" style="font-weight:bold; text-align:center; width: 100%; min-width: 700px;" cellpadding="20"
+! style="background: #99d9ea;" |Hat Quest
+! style="background: #99d9ea;" |Req. Lv
+! style="background: #99d9ea;" |Equip Slot
+! style="background: #99d9ea;" |World Region
+! style="background: #99d9ea;" |Effect
+|-
+| Desert Prince
+| 5
+| Upper
+| Morroc Desert (Weaker)
+| HP +100, SP + 20, HP/SP Regen +10%
+|-
+| Assassin Mask
+| 20
+| Lower
+| Morroc Desert (Stronger)
+| Enables Perfect Hiding
+|-
+| Cactus Hat
+| None
+| Upper
+| Muka Desert
+| Reflect 5% physical damage, Move Speed -10%
+|-
+| Angel Wings
+| 10
+| Upper
+| Prontera Fields (Weaker)
+| DMG +10% vs. Neutral/Poison/Undead/Ghost
+|-
+| Evil Wings
+| 10
+| Upper
+| Prontera Fields (Stronger)
+| DMG +10% vs. Fire/Water/Earth/Wind
+|-
+| Sakkat
+| None
+| Upper
+| Payon Forest (Weaker)
+| AGI +3, ASPD +3, SP -10%
+|-
+| Hahoe Mask
+| None
+| Middle/Lower
+| Payon Forest (Stronger)
+| LUK +1, P. Dodge +2
+|-
+| Wizard Hat
+| None
+| Upper
+| Geffen Fields (Weaker)
+| MATK +10, SP +50
+|-
+| Elven Ears
+| 20
+| Middle
+| Geffen Fields (Stronger)
+| INT +1, DEX +1
+|-
+| Banana Hat
+| 20
+| Upper
+| Banana Forest
+| 5% chance to cast Provoke lv 10 on hit
+|-
+| Straw Hat
+| 25
+| Upper
+| Comodo Forest
+| +15% DMG and Resist vs. Fish and Brute
+|-
+| Snake Head
+| 25
+| Upper
+| Umbala Jungle
+| Double Attack Rate +10%
+|-
+| Wandering Minstrel Hat
+| None
+| Upper
+| Splendide Forest
+| Perfect Hit +20%
+|-
+| Majestic Helmet
+| 50
+| Upper/Middle
+| Amatsu Field
+| ATK +5%, Ignore Reflect Damage
+|-
+| Lush Rose
+| 50
+| Upper
+| Grey Forest
+| MATK +15, Heal 100 HP after a kill with Magic
+|-
+| Romantic White Flower
+| 10
+| Lower
+| Mjolnir Mountains Low
+| INT +1, Earth Magic +10%, Plant Resist +5%
+|-
+| Butterfly Wing Ear
+| 20
+| Middle
+| Mjolnir Mountains Mid
+| DEX +1, Teleport CD -5 sec
+|-
+| Honey Bee Hat
+| 25
+| Upper
+| Mjolnir Mountains High
+| Kafra Elixir Refill Limit +2
+|-
+| Boy's Cap
+| 20
+| Upper
+| Fort St Darmain
+| 2 Slots, HP/SP -10%, All Stats -5
+|-
+| Noble High Cap
+| 40
+| Upper
+| Einbroch Low
+| MDEF Pierce +1% per Refine, MATK +5
+|-
+| Ignis Cap
+| 40
+| Upper
+| Einbroch High
+| DEF Pierce +1% per Refine, ATK +5
+|-
+| Vane Hairpin
+| 25
+| Upper
+| Hugel Low
+| ASPD +10%, MATK +4%
+|-
+| Gryphon Headband
+| 40
+| Upper
+| Hugel High
+| Total DEF +7&amp;, HP +5%
+|-
+| Peco Peco Hairband
+| 25
+| Upper
+| Yuno Fields Low
+| Move Speed +10%, ASPD/Cast +3%
+|-
+| Pagdayaw
+| 30
+| Upper
+| Yuno Fields High
+| All Non Neutral Elements Resist +10%
+|-
+| Snowman Hat
+| 25
+| Upper
+| Snow Fields Low
+| 5% chance to autocast Waterball on Frost Diver, INT +3
+|-
+| Beanie
+| 15
+| Upper
+| Snow Fields High
+| DMG vs Large +12%
+|-
+| Ancient Gold Ornament
+| None
+| Upper
+| Lighthalzen Fields
+| HP Regen +400%, Heal SP Cost +500%, Disabled non-percent Healing
+|-
+| Dark Blindfold
+| 40
+| Middle
+| Rachel Low
+| Immune to Blind, Perfect Hit +10%
+|-
+| Shrine Maiden Hat
+| 25
+| Upper
+| Rachel Mid
+| DMG vs Demi-Humans +10%
+|-
+| Feather Beret
+| 25
+| Upper
+| Rachel High
+| Resist vs Demi-Humans +12%
+|-
+| Ulle's Cap
+| 65
+| Upper
+| Veins Low
+| DEX +5, AGI +5, Flee +15
+|-
+| Bird's Nest
+| 40
+| Upper
+| Veins High
+| Healing Received +25%
+|-
+| Magical Booster
+| 100
+| Middle
+| Verus Low
+| MATK +3%
+|-
+| Crimson Booster
+| 100
+| Middle
+| Verus High
+| ATK +3%
+|-
+| Drooping Cat
+| 80
+| Upper
+| Niflheim Fields
+| MDEF +17
+|-
+| Hermod's Cap
+| 35
+| Upper
+| Yggdrasil Field
+| ASPD Limit Cap +1, ATK/MATK +3, ASPD +10%
+|}
+
+{|class="wikitable" style="font-weight:bold; text-align:center; width: 100%; min-width: 700px;" cellpadding="20"
+! style="background: #99d9ea;" |Hat Quest
+! style="background: #99d9ea;" |Req. Lv
+! style="background: #99d9ea;" |Equip Slot
+! style="background: #99d9ea;" |Dungeon
+! style="background: #99d9ea;" |Effect
+|-
+| Spare Card
+| None
+| Lower
+| Pyramid Basement
+| LUK +1, Adds a 5% chance to drop a Blank Card
+|-
+| Legionaire Helm
+| None
+| Upper/Middle/Lower
+| Insect Society Nest
+| HP +35%, SP -30%, M/ATK -20
+|-
+| Magician Hat
+| 10
+| Upper
+| Geffen Cave
+| SP Cost -15%
+|-
+| Royal Pirate Hat
+| 10
+| Upper
+| Sunken Ship
+| ATK +1%/Refine
+|-
+| Orc Hero Helm
+| 30
+| Upper/Middle
+| Orc Dungeon
+| Ignore Size Penalty and Reflect
+|-
+| Burning Breath
+| 50
+| Lower
+| Dewata Volcano
+| INT +1, Fire Magic DMG +10%
+|-
+| Ice Wing Ears
+| 50
+| Middle
+| Crystal Caves
+| INT +1, Water Magic DMG +10%
+|-
+| Samurai Mask
+| 50
+| Lower
+| Amatsu Dungeon
+| Total Critical Rate +20%
+|-
+| Filir's Pinions
+| 50
+| Middle
+| Alchemist Fortress
+| ASPD +3
+|-
+| Forest Guide
+| 40
+| Upper
+| Geffenia
+| INT +2, MATK +1%/Refine
+|-
+| Kafra Headband
+| None
+| Upper
+| Abandoned Kafra Warehouse
+| All Stats +1, Enable Teleport Lv 1, Lose 200 SP when removed
+|-
+| Gambler's Seal
+| 25
+| Middle
+| Beach Caves
+| Crit +2, LUK +2. Combo With Heart Card: LUK +3, ASPD +1, CRIT +3
+|-
+| Darkness Crown
+| 70
+| Upper
+| Waterfall Caves
+| Holy and Dark Resist +5%
+|-
+| Valkyrie Circlet
+| 100
+| Upper
+| Sky Garden
+| All Stats +1 per Refine
+|-
+| Crimson Wings Helm
+| 50
+| Upper
+| Dragon Nest
+| 10% chance to leech 5% damage done, increased by 1% per Refine
+|-
+| Fox Ears Bell Ribbon
+| 10
+| Upper
+| Payon Dungeon
+| Fire Magic Damage +10%, MATK +5
+|-
+| Snapping Turtle
+| 30
+| Upper
+| Turtle Dungeon
+| 10% to autocast Freezing Spear Lv1 on Attack, INT +2
+|-
+| Hat of Sun God
+| 25
+| Upper
+| Noble Bathhouse
+| Bonus Increased per Thief Passives: HP +1%, SP +1%, SP Regen +2%. Zeny Limit +5.
+|-
+| Ifrit Mask
+| 90
+| Upper/Middle/Lower
+| Thor Volcano
+| Fire Magic +15%, Fire Resist +15%. Immune to Burn, INT +5.
+|-
+| Miracle Blue Rose
+| 80
+| Lower
+| Varmundt's Mansion
+| Slot. SP Regen +25%. STR +1, INT +1.
+|-
+| Darkness Helm
+| 80
+| Upper
+| Thanatos Tower
+| Crit Rate and Crit DMG +2% per Refine, LUK +6
+|-
+| Yellow Bandana
+| 15
+| Upper
+| Prontera Culvert
+| Long Ranged Damage Taken -15%
+|-
+| Riot Chip
+| 65
+| Upper
+| Juperos
+| Perfect Dodge +10
+|-
+| Angel Wing Ears
+| 10
+| Middle
+| Upper Pyramid
+| Healing Done and Received +10%
+|-
+| Evil Wing Ears
+| 10
+| Middle
+| Sphinx
+| 10% chance to leech 5% of physical damage done as HP
+|-
+| Bone Helm
+| 70
+| Upper
+| Glast Heim - Chivalry
+| 35 Defense Total
+|-
+| Crown of Deceit
+| 70
+| Upper/Middle
+| Glast Heim - Castle
+| ACD and ASPD +15%, ASPD Limit Cap +1, INT +7
+|-
+| Coif
+| 70
+| Upper/Middle
+| Glast Heim - Church
+| Variable Cast Time -15%, Fixed Cast Time -0.3s
+|-
+| Cigarette
+| 70
+| Lower
+| Glast Heim - Prison
+| ASPD -5, Attack Splash
+|-
+| Fafnir Mask
+| 50
+| Lower
+| Faceworm Forest
+| Poison Magic DMG +5%, INT +1
+|-
+| Opera Mask
+| 80
+| Middle/Lower
+| Opera House
+| Armor is Ghost, HP -2% per VIT, SP -2% per INT
+|-
+| Toy Soldier Hat
+| 45
+| Upper
+| Toy Factory
+| Ranged DMG +7%, DEX +1
+|-
+| Ghost Bandana
+| 50
+| Lower
+| Sunken Temple
+| AGI +5, Ghost Resistance +20%
+|-
+| Doctor Band
+| 70
+| Upper
+| Malaya Hospital
+| Healing Done +15%
+|-
+| Ice Cream Hat
+| 75
+| Upper
+| Ice Dungeon
+| Enables Frost Diver Lv7
+|-
+| Devil Bone Helm
+| 45
+| Upper
+| Magma Dungeon
+| Neutral Resistance +10%
+|-
+| Sheep Hat
+| 35
+| Upper
+| Forest Maze
+| HP +1% per Refine, VIT +2
+|-
+| Airship Captain Hat
+| 15
+| Upper
+| Airship Crash Site
+| Adds 0.1% per AGI scaling to the 3 Thief Spells
+|-
+| Drowned Queen Helmet
+| 25
+| Upper
+| Byalan Dungeon
+| ATK/MATK +3%
+|-
+| Gas Mask
+| 40
+| Middle/Lower
+| Coal Mines
+| Immune to Poison, Blind and Silence
+|-
+| Winged Shell
+| 70
+| Upper
+| Abyss Lake
+| Movement Speed +13%
+|-
+| Sloth Hat
+| 35
+| Upper
+| Clock Tower
+| HP/SP Regen +50%
+|-
+| Magic Stone Hat
+| 60
+| Upper
+| Ayothaya Temple
+| Variable Cast Time -30%, INT +1
+|-
+| Welding Mask
+| 50
+| Middle/Lower
+| Einbroch Mines
+| HP +250
+|-
+| Gemini Eyes
+| 50
+| Middle
+| Regenschirm Laboratory
+| SP +1 per Base Level
+|-
+| Valkyrie Helm
+| 98
+| Upper
+| Odin Temple
+| Enables Gungnir Flight Lv3, All Stats +1
+|-
+| Crown
+| 100
+| Upper
+| Lost Tomb of the King
+| Drop Rate +2% per Refine
+|-
+| Dark Basilium
+| 95
+| Upper
+| Death's Castle
+| Enables HP Regen on Movement, HP Regen +25%
+|-
+| Angel Helm
+| 130
+| Upper
+| Regenschutz Laboratory
+| 2 Slots
+|-
+| Sprout Hat
+| 50
+| Upper
+| Yggdrasil Dungeon
+| Enable Land Fissure Lv2
+|-
+| Skull Hood
+| None
+| Upper/Middle
+| Rachel Sanctuary
+| INT +5, Dark Resist +15%
+|-
+| Mechanical Headband
+| 60
+| Upper
+| Kiel Dungeon
+| Attack Range +1
+|-
+| Necromancer's Hood
+| 80
+| Upper/Middle/Lower
+| Cursed Monastery
+| INT +3, MDEF Pierce +75%, HP -95%
+|}
+
+
+</div>
+
+</div>
+
+</div>
+
+</div>

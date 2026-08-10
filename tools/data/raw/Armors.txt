@@ -1,0 +1,346 @@
+'''[[:NPC Equipment|Check here]]) and their +1 slot equivalent that can be droped from field monsters.'''<br/>
+This page lists other armors that can be obtained from dungeons.
+
+== Armors list ==
+{| class="wikitable sortable" style="text-align: left;"
+|-
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;width:40px;padding:5px" | Req.<br/>Lv
+! style="background: #99d9ea;width:40px;padding:5px" | DEF
+! style="background: #99d9ea;width:40px;padding:5px" | MDEF
+! style="background: #99d9ea;padding:5px" | Effects
+! style="background: #99d9ea;padding:5px" | Innate Bonus
+! style="background: orange;padding:5px" | Obtained from
+|-
+| '''Orphan Clothes [1]'''
+| 1
+| 8
+| 3
+| HP+80<br/>Young Orphan Set:<br/>Clothes Cape and Shoes<br/>'''[Set Bonus]'''<br/>All Stats +1<br/>Enables Heal Lv4<br/>Exp Received +10%
+| HP Bonus: +10%<br/>SP Bonus: +10%
+| [[:Pyramid Basement|Pyramid Basement]]
+|-
+| '''Scarlet Suit [1]'''
+| 10
+| 12
+| 1
+| HP+75<br/>HP Regen+10%<br/>Scarlet Set:<br/>Armor Garment Shoes<br/>'''[Set Bonus]'''<br/>EXP+5%<br/>All Stats +1
+| HP Bonus: +10%<br/>SP Bonus: +10%
+| [[:Payon Cave|Payon Cave]]
+|-
+| '''Black Shirt [1]'''
+| 10
+| 6
+| 2
+| Flee +10
+| HP Bonus: +10%<br/>SP Bonus: +10%
+| [[:Prontera Culvert|Prontera Culvert]]
+|-
+| '''Rabbit Pattern Shirt [1]'''
+| 10
+| 6
+| 2
+| Hit +10
+| HP Bonus: +10%<br/>SP Bonus: +10%
+| [[:Prontera Culvert|Prontera Culvert]]
+|-
+| '''Tomb Thief Armor [1]'''
+| 10
+| 10
+| 2
+| Recover 10 HP per hit<br/>Tomb Thief Set:<br/>Armor Garment Shoes<br/>'''[Set Bonus]'''<br/>ATK+3<br/>MATK+3<br/>Enables Hiding and Increase Agility Lv3
+| HP Bonus: +8%<br/>SP Bonus: +12%
+| [[:Upper Pyramid|Upper Pyramid]]
+|-
+| '''Carapace Armor [1]'''
+| 15
+| 30
+| 10
+| VIT+5<br/>Melee Attack +3%
+| HP Bonus: +15%<br/>SP Bonus: +5%
+| [[:Insect Society Nest|Insect Society Nest]]
+|-
+| '''Dark Tights [1]'''
+| 15
+| 8
+| 3
+| DEX+5<br/>Ranged Attack +3%
+| HP Bonus: +10%<br/>SP Bonus: +10%
+| [[:Insect Society Nest|Insect Society Nest]]
+|-
+| '''Magician Robes [1]'''
+| 15
+| 5
+| 15
+| Thief Magic Spells DMG +15%
+| HP Bonus: +3%<br/>SP Bonus: +17%
+| [[:Geffen Cave|Geffen Cave]]
+|-
+| '''Gambler Clothes [1]'''
+| 25
+| 10
+| 10
+| LUK +7<br/>HP Regen +77%<br/>SP Cost -5%
+| HP Bonus: +7%<br/>SP Bonus: +13%
+| [[:Beach Caves|Beach Caves]]
+|-
+| '''Wooden Mail [1]'''
+| 25
+| 25
+| 5
+| Per Refine:<br/>HP+100<br/>SP-10
+| HP Bonus: +15%<br/>SP Bonus: +5%
+| [[:Geffen Fields|Geffen Fields]]
+|-
+| '''Drake Coat [1]'''
+| 25
+| 15
+| 1
+| ATK+2%<br/>DMG vs Water enemies +10%<br/>Drake Set:<br/>Armor and Card<br/>'''[Set Bonus]'''<br/>ATK +5%
+| HP Bonus: +12%<br/>SP Bonus: +12%
+| [[:Sunken Ship|Sunken Ship]]
+|-
+| '''Sphinx Robes [1]'''
+| 30
+| 1
+| 10
+| Fixed Cast Time -10%<br/>Sphinx Set:<br/>Armor Garment and Shoes<br/>'''[Set Bonus]'''<br/>Fire Water Earth and Wind Magic ATK +10%<br/>INT+3
+| HP Bonus: +5%<br/>SP Bonus: +15%
+| [[:Sphinx|Sphinx]]
+|-
+| '''Orc Armor [1]'''
+| 30
+| 25
+| 0
+| ATK+2%<br/>Orc Set:<br/>Helm Armor and Ring<br/>'''[Set Bonus]'''<br/>ATK+10<br/>Immune to Bleeding
+| HP Bonus: +15%<br/>SP Bonus: +0%
+| [[:Orc Dungeon|Orc Dungeon]]
+|-
+| '''Devouring Greed [1]'''
+| 35
+| 14
+| 5
+| ATK/MATK+5<br/>SP Regen+30%
+| HP Bonus: +12%<br/>SP Bonus: +0%
+| [[:Coal Mines|Coal Mines]]
+|-
+| '''Shadow Mining Coat [1]'''
+| 35
+| 20
+| 3
+| 0.2% chance to obtain a Shadowdecon on kill per refine<br/>Enables Perfect Hiding
+| HP Bonus: +14%<br/>SP Bonus: +6%
+| [[:Coal Mines|Coal Mines]]
+|-
+| '''Drowned Queen Armor [1]'''
+| 35
+| 20
+| 4
+| After Cast Delay -20%<br/>Drowned King Set:<br/>Armor Boots Cape and Helm<br/>'''[Set Bonus]'''<br/>Immune to Knockback<br/>Regenerates 5 SP per second
+| HP Bonus: +2%<br/>SP Bonus: +18%
+| [[:Byalan Island|Byalan Island]]
+|-
+| '''Master Noble Suit [1]'''
+| 40
+| 10
+| 5
+| Fire Resistance +10%<br/>Water Resistance +10%<br/>Wind Resistance +10%<br/>Earth Resistance +10%<br/>Healing Received +20%<br/>Master Set:<br/>Armor and Master Weapon<br/>'''[Set Bonus]'''<br/>All Stats +3
+| HP Bonus: +11%<br/>SP Bonus: +11%
+| [[:Noble's Bathhouse|Noble's Bathhouse]]
+|-
+| '''Ticking Timer [1]'''
+| 40
+| 20
+| 7
+| Decoy autocasts Heal Lv1<br/>Throw Acid DMG+15%<br/>Throw Molotov DMG+15%
+| HP Bonus: +10%<br/>SP Bonus: +10%
+| [[:Clock Tower|Clock Tower]]
+|-
+| '''Meteoric Mail [0]'''
+| 45
+| 70
+| 0
+| Heavy Stab DMG+15%<br/>Total DEF+1% per refine<br/>Move Speed -30%
+| HP Bonus: +22%<br/>SP Bonus: +3%
+| [[:Magma Dungeon|Magma Dungeon]]
+|-
+| '''Dead Silence [1]'''
+| 45
+| 10
+| 5
+| Burst Petals DMG +50%<br/>Silent Strike DMG +50%<br/>SP Regeneration +25%<br/>Silence Resistance +25%
+| HP Bonus: +15%<br/>SP Bonus: +10%
+| [[:Forest Maze|Forest Maze]]
+|-
+| '''Wasteland Suit [1]'''
+| 50
+| 20
+| 5
+| HP+50 per refine<br/>Neutral element Resistance +10%
+| HP Bonus: +14%<br/>SP Bonus: +6%
+| [[:Einbroch Deadlands|Einbroch Deadlands]]
+|-
+| '''Wickebine Suit [1]'''
+| 50
+| 10
+| 10
+| Backstab DMG+10%<br/>Move Speed+3%
+| HP Bonus: +5%<br/>SP Bonus: +15%
+| [[:Regenschirm Lab|Regenschirm Lab]]
+|-
+| '''Santa Coat [0]'''
+| 50
+| 5
+| 3
+| Move Speed+12%<br/>Enables Teleport Lv2
+| HP Bonus: +5%<br/>SP Bonus: +15%
+| [[:Toy Factory|Toy Factory]]
+|-
+| '''White Scavenger Suit [1]''' || 50 || 20 || 7 || Dmg vs Humans +10%<br/>Extra +1% per refine<br/>White Offense Set:<br/>Armor Garment and Shoes<br/><b>[Set Bonus]</b><br/>All Stats +3<br/>DMG vs Humans +10% || HP Bonus: +15%<br/>SP Bonus: +15% || [[Einbroch Deadlands]]
+|-
+| '''Airship Captain Coat [1]''' || 50 || 23 || 2 || Double Strafe Cooldown -0.5s<br/>Airship Set:<br/>Armor Cape and Shoes<br/><b>[Set Bonus]</b><br/>Ranged Damage +5%<br/>Attack Range +1 || HP Bonus: +10%<br/>SP Bonus: +10% || [[Airship Crash Site]]
+|-
+| '''Eastern Sky Armor [1]''' || 50 || 30 || 3 || Critical Rate +5<br/>ASPD+1<br/>SP Regen +25%<br/>HP Regen -95% || HP Bonus: +13%<br/>SP Bonus: +7% || [[Turtle Dungeon]]
+|-
+| '''Tatenashi Armor [1]''' || 50 || 30 || 6 || Defense Pierce +20%<br/>ATK+2%<br/>SP Cost +70%<br/>Attacks cost 12 SP || HP Bonus: +15%<br/>SP Bonus: +5% || [[Regenschirm Lab]]
+|-
+| '''Survivor Robe [0]''' || 50 || 15 || 10 || Weight Limit +500<br/>Increase Kafra Elixir refill limit by +6. || HP Bonus: +7%<br/>SP Bonus: +13% || [[Airship Crash Site]]
+|-
+| '''Jiangshi Clothes [1]''' || 50 || 10 || 1 || 5% chance to drain 10% damage done on physical damage.<br/>After Cast Delay -10% || HP Bonus: +7%<br/>SP Bonus: +7% || [[Sunken Temple]]
+|-
+| '''Black Scavenger Suit [1]''' || 50 || 20 || 7 || Resistance vs Humans +5%<br/>Extra +1% per refine<br/>Black Defense Set:<br/>Armor Garment and Shoes<br/><b>[Set Bonus]</b><br/>All Stats +3<br/>Resistance vs Humans +10% || HP Bonus: +15%<br/>SP Bonus: +15% || [[Einbroch Deadlands]]
+|-
+| '''Midnight Armor [1]''' || 60 || 5 || 15 || Enables Decoy with the same level as current refine<br/>Decoy DMG+10% per refine<br/>Total Flee +7% || HP Bonus: +1%<br/>SP Bonus: +19% || [[Faceworm Nest]]
+|-
+| '''Coat of Knives [1]''' || 60 || 15 || 7 || Whirling Kunai Cooldown -2s<br/>Whirling Kunai DMG+10%<br/>Perfect Dodge+5 || HP Bonus: +8%<br/>SP Bonus: +12% || [[Faceworm Nest]]
+|-
+| '''Powersuit [1]''' || 65 || 45 || 3 || SP Regen+100%<br/>ATK/MATK+1% || HP Bonus: +5%<br/>SP Bonus: +15% || [[Juperos]]
+|-
+| '''Chaos Mail [1]''' || 70 || 50 || 0 || Axe Tornado DMG +20%<br/>Overpower DMG +20%<br/>Crescent Dive DMG +20% || HP Bonus: +15%<br/>SP Bonus: +5% || [[Morroc Distortion]]
+|-
+| '''Contaminated Suit [1]''' || 70 || 12 || 8 || 3% per refine to autocast Envenom when hit<br/>Poison Magic DMG+12%<br/>Poison Element resistance +10% || HP Bonus: +9%<br/>SP Bonus: +11% || [[Abandoned Hospital]]
+|-
+| '''Darkness Robe [1]''' || 70 || 0 || 0 || MATK+10 || HP Bonus: +00%<br/>SP Bonus: +00% || [[Waterfall Caves]]
+|-
+| '''Surgeon Suit [0]''' || 70 || 5 || 5 || Healing Power +25%<br/>Enable Ressurrection Lv1<br/>Loses 500 SP when unequipped.<br/>Doctor Set:<br/>Armor and Headgear<br/><b>[Set Bonus]</b><br/>MATK +10 || HP Bonus: +3%<br/>SP Bonus: +17% || [[Abandoned Hospital]]
+|-
+| '''Darkness Armor [1]''' || 70 || 0 || 0 || ATK+10 || HP Bonus: +00%<br/>SP Bonus: +00% || [[Waterfall Caves]]
+|-
+| '''Draco Vest [1]''' || 70 || 15 || 6 || ATK+5<br/>MATK+5<br/>Draco Set:<br/>Armor Garment Shoes<br/><b>[Set Bonus]</b><br/>ASPD+10%<br/>Cast Time -10%<br/>After Cast Delay -10% || HP Bonus: +5%<br/>SP Bonus: +15% || [[Dragon Nest]]
+|-
+| '''Goibne's Armor [1]''' || 70 || 65 || 0 || Total Defense +9%<br/>Goibne Set:<br/>Armor Helm Shoes Garment<br/><b>[Set Bonus]</b><br/>Total Defense +5%<br/>DEF+1 per 2 base VIT || HP Bonus: +20%<br/>SP Bonus: +10% || [[Thanatos Tower]]
+|-
+| '''Tundra Coat [1]''' || 70 || 20 || 5 || SP Cost-10%<br/>Arcana of Destiny DMG+10%<br/>Tundra Set:<br/>Armor Shoes and Garment<br/><b>[Set Bonus]</b><br/>All Stats +2<br/>SP Cost -5%<br/>Regen 5 SP per second || HP Bonus: +10%<br/>SP Bonus: +10% || [[Ice Dungeon]]
+|-
+| '''Tsukuyomi Mail [1]''' || 75 || 20 || 5 || Every 5 base STR:<br/>SP Consumption -1%<br/>After Cast Delay -1% || HP Bonus: +15%<br/>SP Bonus: -5% || [[Amatsu Dungeon]]
+|-
+| '''Tsukuyomi Robes [1]''' || 75 || 20 || 10 || Dark Magic DMG+10%<br/>SP Regen +5%<br/>Tsukuyomi Set:<br/>Robes Muffler Shoes<br/><b>[Set Bonus]</b><br/>INT+10<br/>Darkness Flows Cooldown -0.5s<br/>Unholy Light Cooldown -0.5s<br/>Venom Buster Cooldown -3s<br/> || HP Bonus: +5%<br/>SP Bonus: +20% || [[Amatsu Dungeon]]
+|-
+| '''Shadow Mist [1]''' || 75 || 20 || 10 || Perfect Dodge +10<br/> || HP Bonus: +10%<br/>SP Bonus: +10% || [[Amatsu Dungeon]]
+|-
+| '''Suit of Creators [1]''' || 75 || 10 || 5 || Throw Acid & Greater Explosion DMG+3% per refine<br/>INT+1 per refine || HP Bonus: +10%<br/>SP Bonus: +10% || [[Alchemist Fortress]]
+|-
+| '''Fate Dragon Plate [1]''' || 80 || 35 || 10 || LUK+1 per refine<br/>HP+1% per refine<br/>Critical Damage+3% if LUK is 99<br/>Dragon Armor Set:<br/>Plate Boots and Cape<br/><b>[Set Bonus]</b><br/>All Stats +2<br/>SP Cost -10% || HP Bonus: +15%<br/>SP Bonus: +10% || [[Abyss Lake]]
+|-
+| '''Skill Dragon Plate [1]''' || 80 || 35 || 10 || DEX+1 per refine<br/>HP+1% per refine<br/>Ranged Damage+3% if DEX is 99<br/>Dragon Armor Set:<br/>Plate Boots and Cape<br/><b>[Set Bonus]</b><br/>All Stats +2<br/>SP Cost -10% || HP Bonus: +15%<br/>SP Bonus: +10% || [[Abyss Lake]]
+|-
+| '''Orleans's Gown [1]''' || 80 || 5 || 5 || Cast can't be interrupted<br/><br/>Orleans Set:<br/>Shield Armor Glove Necklace.<br/><b>[Set Bonus]</b><br/>DEX+10 || HP Bonus: +8%<br/>SP Bonus: +13% || [[Kiel Hyre Dungeon]]
+|-
+| '''Magic Dragon Plate [1]''' || 80 || 35 || 10 || INT+1 per refine<br/>HP+1% per refine<br/>MATK+3% if INT is 99<br/>Dragon Armor Set:<br/>Plate Boots and Cape<br/>'''[Set Bonus]'''<br/>All Stats +2<br/>SP Cost -10% || HP Bonus: +15%<br/>SP Bonus: +10% || [[Abyss Lake]]
+|-
+| '''Life Dragon Plate [1]''' || 80 || 35 || 10 || VIT+1 per refine<br/>HP+1% per refine<br/>Neutral Resistance+3% if VIT is 99<br/>Dragon Armor Set:<br/>Plate Boots and Cape<br/>'''[Set Bonus]'''<br/>All Stats +2<br/>SP Cost -10% || HP Bonus: +15%<br/>SP Bonus: +10% || [[Abyss Lake]]
+|-
+| '''Dark Crystal Armor [1]''' || 80 || 35 || 5 || 2% per refine chance to reflect single target spells back at caster.<br/>Dark Crystal Set:<br/>Armor and Shoes<br/>'''[Set Bonus]'''<br/>VIT +5 || HP Bonus: +15%<br/>SP Bonus: +5% || [[Crystal Caves]]
+|-
+| '''Robes of the Second [1]''' || 80 || 20 || 10 || INT+5<br/>HP/SP Regeneration +15% || HP Bonus: +5%<br/>SP Bonus: +15% || [[Rachel Sanctuary]]
+|-
+| '''Blackguard Mail [1]''' || 80 || 35 || 7 || Holy Element Resist +10%<br/>Dark Element Resist +10%<br/>Blackguard Set:<br/>Armor Garment Shoes<br/>'''[Set Bonus]'''<br/>Neutral Element Resist +10%<br/>HP+500<br/>ATK+1%<br/>MATK+1%<br/>All Stats +1 || HP Bonus: +12%<br/>SP Bonus: +12% || [[Geffenia Antitower]]
+|-
+| '''Robes of the First [1]''' || 80 || 20 || 10 || STR+5<br/>SP Regeneration +30% || HP Bonus: +5%<br/>SP Bonus: +15% || [[Rachel Sanctuary]]
+|-
+| '''Grace of Dracomancers [1]''' || 90 || 20 || 8 || MATK+5%<br/>Geirskogul DMG +3% per refine || HP Bonus: +11%<br/>SP Bonus: +9% || [[Abyss Lake Distortion]]
+|-
+| '''Ruin of Dracomancers [1]''' || 90 || 15 || 15 || ATK+5%<br/>Dragon Claw DMG +3% per refine || HP Bonus: +7%<br/>SP Bonus: +13% || [[Abyss Lake Distortion]]
+|-
+| '''Fafnir Scale [1]''' || 90 || 110 || 0 || Physical Damage Reduction +1% per refine<br/>SP Cost +2% per refine || HP Bonus: +20%<br/>SP Bonus: +1% || [[Abyss Lake Distortion]]
+|-
+| '''White Knight Armor [1]''' || 90 || 50 || 10 || Holy Element || HP Bonus: +20%<br/>SP Bonus: +5% || [[Old Glast Heim]]
+|-
+| '''Khalitzburg Knight Armor [1]''' || 90 || 25 || 15 || Dark Element || HP Bonus: +15%<br/>SP Bonus: +15% || [[Old Glast Heim]]
+|-
+| '''Ascended Valkyrie Armor [1]''' || 100 || 30 || 5 || MATK+3 per refine<br/>Ascended Valkyrie Set:<br/>Armor Shoes Garment<br/>'''[Set Bonus]'''<br/>Armor is Holy Element<br/>All Stats +3<br/>ATK/MATK+3% || HP Bonus: +12%<br/>SP Bonus: +12% || [[Odin Temple]]
+|-
+| '''Sage Robe [3]''' || 100 || 0 || 0 || 3 Slots || HP Bonus: +0%<br/>SP Bonus: +1% || [[Dicastes Diel Exchange]]
+|-
+| '''Sage Armor [3]''' || 100 || 0 || 0 || 3 Slots || HP Bonus: +1%<br/>SP Bonus: +0% || [[Dicastes Diel Exchange]]
+|-
+| '''Stormwalker Armor [1]''' || 100 || 10 || 10 || VIT+1<br/>If Base VIT is 50:<br/>SP Cost -1% per refine<br/>Stormwalker Set:<br/>Mid Headgear Armor Shoes Garment Accessories<br/>'''[Set Bonus]'''<br/>All Stats +5<br/>HP/SP Regen+50% || HP Bonus: +5%<br/>SP Bonus: +5% || [[Ancient Temple]]
+|-
+| '''Kafra Uniform [1]''' || 100 || 5 || 0 || EXP Received +5%<br/>HP+50 per Refine<br/>SP+5 per Refine<br/>Has Shadow Random Options || HP Bonus: +5%<br/>SP Bonus: +5% || [[Abandoned Kafra Warehouse]]
+|-
+| '''Fallen Valkyrie Armor [1]''' || 100 || 30 || 5 || ATK+3 per refine<br/>Fallen Valkyrie Set:<br/>Armor Shoes Garment<br/>'''[Set Bonus]'''<br/>Armor is Dark Element<br/>All Stats +3<br/>ATK/MATK+3% || HP Bonus: +12%<br/>SP Bonus: +12% || [[Odin Temple]]
+|-
+| '''Paradox Mantle [2]''' || 100 || 1 || 1 || Complete paradox improves power. || HP Bonus: +10%<br/>SP Bonus: +10% || [[Varmundt's Mansion]]
+|-
+| '''Sarah's Battle Robe [1]''' || 100 || 5 || 10 || MATK+10<br/>Ignores 5% MDEF<br/>MATK+1% per refine.<br/>SP cost -1% per refine. || HP Bonus: +00%<br/>SP Bonus: +30% || [[Sky Garden]]
+|-
+| '''Excelion Suit [1]''' || 100 || 50 || 6 || HP+80 per refine<br/>If Refine is +9:<br/>HP+5%<br/>Excelion Set:<br/>Suit Wings Legs Gloves Shield and Visor<br/>'''[Set Bonus]'''<br/>All Stats +4<br/>All Damage taken -5%<br/>Heal Cooldown -0.5s<br/>HP/SP Regen +20% || HP Bonus: +22%<br/>SP Bonus: +8% || [[Verus Lost Sectors]]
+|-
+| '''Brynhild [0]''' || 100 || 45 || 10 || Immune to Knockback<br/>HP/SP +1% per refine<br/>Healing received -10%<br/>Asgard Set:<br/>Helm Armor Garment Shoes<br/>'''[Set Bonus]'''<br/>Double Max HP/SP<br/>Disables HP/SP Regeneration.<br/>Healing Received -50% || HP Bonus: +25%<br/>SP Bonus: +25% || [[Sky Garden Exchange]]
+|-
+| '''Dream Armor [2]''' || 100 || 10 || 5 || Neutral Resistance +5%<br />Extra 1% Neutral Resistance per refine<br /><b>Dream Enchants Available</b><br />Dream Set:<br />Armor Garment Shoes Left Accessory<br /><b>[Set Bonus]</b><br />All Stats +1<br />HP/SP +1% per 2 refines<br />HP/SP Regen +50% || HP Bonus: +7%<br />SP Bonus: +7% || [[Rachel Nightmare]], [[Dream Enchantments#Dream Weaver]] (No Random Options)
+|-
+| '''Opera Gown [1]''' || 105 || 25 || 4 || Prevents Knockback<br />Unbreakable Armor<br />Unstrippable Armor<br />ATK/MATK+3% || HP Bonus: +7%<br />SP Bonus: +13% || [[Opera House]]
+|-
+| '''Treasure Soutane [1]''' || 110 || 10 || 5 || Drop Rate +1% per refine<br />Zeny Limit +15 || HP Bonus: +10%<br />SP Bonus: +10% || [[Odin Temple Distortion]]
+|-
+| '''Odin Soutane [1]''' || 110 || 20 || 7 || All Stats +5 || HP Bonus: +12%<br />SP Bonus: +12% || [[Odin Temple Distortion]]
+|-
+| '''Growth Soutane [1]''' || 110 || 10 || 5 || Experience Received +2% per refine || HP Bonus: +10%<br />SP Bonus: +10% || [[Odin Temple Distortion]]
+|-
+| '''Resonant Soutane [1]''' || 110 || 10 || 5 || Magic Defense Pierce +10%<br />Total DEF +1% per refine || HP Bonus: +10%<br />SP Bonus: +10% || [[Odin Temple Distortion]]
+|-
+| '''Roaring Soutane [1]''' || 110 || 10 || 5 || Defense Pierce +10%<br />Total DEF +1% per refine || HP Bonus: +10%<br />SP Bonus: +10% || [[Odin Temple Distortion]]
+|-
+| '''Pure Light Robes [1]''' || 110 || 10 || 15 || Holy Magic DMG+20%<br />Dark Magic DMG+20%<br />All Cast Time -25% || HP Bonus: +4%<br />SP Bonus: +16% || [[Odin Temple Distortion]]
+|-
+| '''Lava Spirit Armor [1]''' || 110 || 60 || 10 || Damage vs Holy and Dark +10%<br />Extra +1% per refine.<br />Heavy Lava Spirit Set:<br />Armor Shoes and Garment<br /><b>[Set Bonus]</b><br />All Stats +2<br />ATK+3%MATK+3%<br />Healing Received +20%<br />HP/SP Regen +25%<br />Enables Free Cast Lv1 || HP Bonus: +15%<br />SP Bonus: +5% || [[Thor Volcano]]
+|-
+| '''Lava Spirit Suit [1]''' || 110 || 55 || 15 || Damage vs Holy and Dark +10%<br />Extra +1% per refine.<br />Medium Lava Spirit Set:<br />Armor Shoes and Garment<br /><b>[Set Bonus]</b><br />All Stats +2<br />ATK+3%MATK+3%<br />Healing Received +20%<br />HP/SP Regen +25%<br />Enables Free Cast Lv1 || HP Bonus: +10%<br />SP Bonus: +10% || [[Thor Volcano]]
+|-
+| '''Lava Spirit Robe [1]''' || 110 || 35 || 20 || Damage vs Holy and Dark +10%<br />Extra +1% per refine.<br />Light Lava Spirit Set:<br />Armor Shoes and Garment<br /><b>[Set Bonus]</b><br />All Stats +2<br />ATK+3%MATK+3%<br />Healing Received +20%<br />HP/SP Regen +25%<br />Enables Free Cast Lv1 || HP Bonus: +5%<br />SP Bonus: +15% || [[Thor Volcano]]
+|-
+| '''Quick Soutane [1]''' || 110 || 10 || 5 || ASPD +1 per refine<br />After Cast Delay -12% || HP Bonus: +10%<br />SP Bonus: +10% || [[Odin Temple Distortion]]
+|-
+| '''Piercing Veil Tunic [0]''' || 120 || 10 || 15 || Flat Defense +1 per INT<br />Piercing Veil Set:<br />Tunic Cape and Sandals<br /><b>[Set Bonus]</b><br />Fire Water Wind and Earth magic DMG +20%<br />Magic Defense Pierce +10%<br />INT+1 || HP Bonus: +5%<br />SP Bonus: +15% || [[Death's Castle]]
+|-
+| '''Celine Kimi Robes [3]''' || 120 || 0 || 25 || HP+1000<br />Enables Life Strings Lv7<br />(Illusionist Only) || HP Bonus: +0%<br />SP Bonus: +20% || [[Horror Toy Factory]]
+|-
+| '''Armor of Lords [1]''' || 120 || 40 || 5 || Flat Defense +7%<br />Queen's Brand DMG+20%<br />Lords Set:<br />Armor Cape Greaves<br /><b>[Set Bonus]</b><br />Recover HP while moving<br />HP Regen +50%<br />Queen's Brand Plague Impress and Dragon Breath DMG+20%<br />All Stats +2 || HP Bonus: +20%<br />SP Bonus: +3% || [[Regenschutz Lab]]
+|-
+| '''Divine Robes [0]''' || 125 || 10 || 45 || Cast can't be interrupted<br />Enables Free Cast equal refine level<br />MATK+1% || HP Bonus: +5%<br />SP Bonus: +10% || [[Divine Temple of Freya]]
+|-
+| '''King's Suit [1]''' || 130 || 25 || 10 || HP+1% per 5 VIT<br />Cursed King Set:<br />Armor Garment Shoes<br /><b>[Set Bonus]</b><br />Final Damage Received -10%<br />All Stats +3 || HP Bonus: +15%<br />SP Bonus: +15% || [[Lost Tomb of the King]]
+|-
+| '''Devoted Mail [1]''' || 130 || 36 || 0 || Check Mate DMG+40%<br />SP+2 per STR || HP Bonus: +20%<br />SP Bonus: +5% || [[Lost Tomb of the King]]
+|-
+| '''Genesis Raid Cloth [1]''' || 130 || 20 || 20 || Holy Element<br />HP+1% per refine<br />SP+1% per refine<br />Knockback Immunity<br />Move Speed +10% || HP Bonus: +15%<br />SP Bonus: +15% || [[Jormungandr's Lair]]
+|-
+| '''Genesis Bright Armor [1]''' || 130 || 40 || 10 || Holy Element<br />HP+2% per refine<br />Knockback Immunity<br />Move Speed +10% || HP Bonus: +20%<br />SP Bonus: +5% || [[Jormungandr's Lair]]
+|-
+| '''Apocalypse Hell Robes [1]''' || 130 || 10 || 25 || Dark Element<br />SP+2% per refine<br />Enables Perfect Hide and can see invisible enemies. || HP Bonus: +5%<br />SP Bonus: +20% || [[Jormungandr's Lair]]
+|-
+| '''Emperium Armor [1]''' || 130 || 25 || 10 || Non-Neutral element resistance +2% per refine<br />Emperium Set:<br />Armor Garment Shoes Ring<br /><b>[Set Bonus]</b><br />HP/SP Regeneration +100%<br />All Stats +3<br />ATK/MATK+3% || HP Bonus: +10%<br />SP Bonus: +10% || [[Abandoned Castle]]
+|-
+| '''Apocalypse Occult Suit [1]''' || 130 || 30 || 15 || Dark Element<br />HP+1% per refine<br />SP+1% per refine<br />Enables Perfect Hide and can see invisible enemies. || HP Bonus: +15%<br />SP Bonus: +15% || [[Jormungandr's Lair]]
+|-
+| '''Apocalypse Scale Mail [1]''' || 130 || 45 || 5 || Dark Element<br />HP+2% per refine<br />Enables Perfect Hide and can see invisible enemies. || HP Bonus: +20%<br />SP Bonus: +5% || [[Jormungandr's Lair]]
+|-
+| '''Diabolus Robe [2]''' || 130 || 20 || 20 || Magic Damage Received -5%<br />MATK+1 per refine<br />Diabolus Set:<br />Shawl Shoes and Robe or Armor<br /><b>[Set Bonus]</b><br />Robes: MATK+10%<br />Armor: ATK+10% || HP Bonus: +3%<br />SP Bonus: +22% || [[Dimensional Gorge]]
+|-
+| '''Diabolus Armor [2]''' || 130 || 45 || 15 || Physical Damage Received -5%<br />ATK+1 per refine<br />Diabolus Set:<br />Shawl Shoes and Robe or Armor<br /><b>[Set Bonus]</b><br />Robes: MATK+10%<br />Armor: ATK+10% || HP Bonus: +22%<br />SP Bonus: +3% || [[Dimensional Gorge]]
+|-
+| '''World Eater Garb [3]''' || 130 || 3 || 1 || All Stats +1<br />HP/SP Regen +25% || HP Bonus: +10%<br />SP Bonus: +10% || [[Jormungandr's Lair]]
+|-
+| '''Genesis Sky Tunic [1]''' || 130 || 0 || 30 || Holy Element<br />SP+2% per refine<br />Knockback Immunity<br />Move Speed +10% || HP Bonus: +5%<br />SP Bonus: +20% || [[Jormungandr's Lair]]
+|}

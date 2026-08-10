@@ -1,0 +1,156 @@
+= Welcome, Orphan. =
+
+<div style="background-color: #f0f0f0; border: 2px solid #d0d0d0; padding: 10px; margin: 10px 0; text-align: center; font-style: italic;">
+'''Disclaimer:''' This is a wiki based on the original PRM wiki. All credits belong to the original editors and to the future contributors of this wiki.
+</div>
+<center>
+[[File:Eom_infographic.png|400px]]
+</center>
+<center>
+Need an introduction to our server? Look no further! [https://www.youtube.com/watch?v=H9le2rRJDIE What is Return to Morroc?]
+
+  '''Feeling Lost? Check out [https://wiki.echoesofmorroc.org/New_Player_Guide New Player Guide]'''.
+
+'''Check our [https://discord.gg/VKwgZRDcGf Discord] server for daily updates!'''
+
+'''You can Download the game and create an account [https://echoesofmorroc.org/account Here!]'''
+
+'''Current Patch: 1.3.1'''
+
+</center>
+<center>
+== Echoes of Morroc ==
+</center>
+{| class="wikitable" style="background-color:#ffccc9; width:100%;"
+|-
+| style="background-color:#99d9ea; width: 20%; text-align:center;" | [[File:MainInformation.png|95x120px]]
+'''[[Main Features]]'''
+| style="background-color:#99d9ea; width: 20%; text-align:center;" | [[File:Jobclasses.png|95x120px]]
+'''[[Job Classes]]'''
+| style="background-color:#99d9ea; width: 20%; text-align:center;" | [[File:Grimoirelore.png|95x120px]]
+'''[[Grimoire of New-Midgard]]'''
+| style="background-color:#99d9ea; width: 20%; text-align:center;" | [[File:RegionsDungeons.png|95x120px]]
+'''[[Regions and Dungeons]]'''
+| style="background-color:#99d9ea; width: 20%; text-align:center;" | [[File:4_F_IRIS.gif|95x120px]]
+'''[[Systems and Exchanges|Systems and Exchanges]]'''
+|}
+
+{| class="wikitable" style="background-color:#ffccc9; width:100%;"
+|-
+| style="background-color:#61c64a; width: 20%; text-align:center;" | [[File:Theorphanage.png|65x108px]]
+'''[[The Orphanage]]'''
+| style="background-color:#61c64a; width: 20%; text-align:center;" | [[File:Hatredquests.png|37x98px]]
+'''[[HATred Quests]]'''
+| style="background-color:#61c64a; width: 20%; text-align:center;" | [[File:Refinesystem.png|74x117px]]
+'''[[Refine System]]'''
+| style="background-color:#61c64a; width: 20%; text-align:center;" | [[File:Distortiondun.gif|94x131px]]
+'''[[Distortion Dungeons]]'''
+| style="background-color:#61c64a; width: 20%; text-align:center;" | [[File:Gvgnpc.gif|40px]]
+'''[[Call to Arms and PvP/GvG|Call to Arms and PvP/GvG]]'''
+
+|}
+
+<center>
+
+== Click the Equip slots to see the Items! ==
+</center>
+
+<center>
+<imagemap>
+Image:Gear_and_cards.jpeg|826x165px
+rect 1 37 109 60 [[Headgears]]
+rect 1 63 109 85 [[Headgears]]
+rect 172 37 274 60 [[Headgears]]
+rect 172 65 274 85 [[Armors]]
+rect 1 89 108 111 [[Weapons]]
+rect 171 89 274 111 [[Shields]]
+rect 1 115 108 137 [[Garment]]
+rect 171 115 274 137 [[Shoes]]
+rect 1 141 108 163 [[Accessories]]
+rect 171 141 274 163 [[Accessories]]
+rect 278 37 387 60 [[Costume]]
+rect 278 63 387 85 [[Costume]]
+rect 448 37 551 60 [[Costume]]
+rect 448 65 551 85 [[Shadow Sets]]
+rect 278 89 387 111 [[Runes]]
+rect 448 89 551 111 [[Shadow Sets]]
+rect 278 115 387 137 [[Special Costumes]]
+rect 448 115 551 137 [[Shadow Sets]]
+rect 278 141 387 163 [[Manuals]]
+rect 448 141 551 163 [[Shadow Sets]]
+rect 555 37 664 60 [[Cards Headgear]]
+rect 555 63 664 85 [[Cards Headgear]]
+rect 725 37 828 60 [[Cards Headgear]]
+rect 725 65 828 85 [[Cards Armor]]
+rect 555 89 664 111 [[Cards Weapon]]
+rect 725 89 828 111 [[Cards Shield]]
+rect 555 115 664 137 [[Cards Garment]]
+rect 725 115 828 137 [[Cards Shoes]]
+rect 555 141 664 163 [[Cards Accessory]]
+rect 725 141 828 163 [[Cards Accessory]]
+desc none
+</imagemap>
+
+</center>
+
+<br>
+
+<center>
+<div style="display:inline-block; background-color:#0078D7; color:white; padding:12px 20px; border-radius:8px; text-align:center; font-weight:bold; font-size:14px; text-decoration:none; transition:0.3s; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);">
+[https://echoesofmorroc.com/items <span style="color:white; text-decoration:none;">🔗 Updated items can be found at the database</span>]
+</div>
+</center>
+
+
+
+<br>
+
+{| class="wikitable" style="text-align:left; display:inline-table;"
+! style="background-color:#99d9ea; width:13%;" | [[File:Gamesystems.gif|24px]] Gameplay Systems
+! style="background-color:#99d9ea; width:13%;" | [[File:Itemsystems.gif|22px]] Item Systems
+! style="background-color:#99d9ea; width:13%;" | [[File:Skillsystems.gif|24px]] Skill Systems
+! style="background-color:#99d9ea; width:13%;" | [[File:Dungeons.gif|24px]] Dungeons
+|-
+| [[File:Statchanges.gif|24px]] [[Stat Changes]]
+| [[File:Randomoptions.gif|24px]] [[Random Options]]
+| [[File:Arrowcata.gif|24px]] [[Ammo and Catalysts]]
+| [[File:Rankicon.png|24px]] [[Ranking System]]
+|-
+| [[File:Elementaltable.gif|24px]] [[Elemental Table]]
+| [[File:Innatefixed.gif|24px]] [[Innate Fixed Bonus]]
+| [[File:Uniquebonus.png|24px]] [[Unique Bonuses]]
+| [[File:Shadowsystems.gif|24px]] [[Shadow System]]
+|-
+| [[File:Kafraelixir.gif|24px]] [[Kafra Services]]
+| [[File:Cardsystem.gif|24px]] [[Card System]]
+| [[File:Comboaction.gif|24px]] [[Combos/Rotations]]
+| [[File:Bifrostshard.gif|24px]] [[Bifrost Mirror]]
+|-
+| [[File:Partyguild.gif|24px]] [[Party and Guild]]
+| [[File:Npcequip.gif|24px]] [[NPC Equipment]]
+| [[File:Creationbook.gif|24px]] [[Black Market]]
+| [[File:Combatrework.gif|24px]] [[Combat Reworked]]
+|}
+
+
+{| class="wikitable" style="text-align:left; display:inline-table;"
+! style="background-color:#99d9ea; width:13%;" | [[File:Quests.gif|24px]] Quests and Visual
+! style="background-color:#99d9ea; width:13%;" | [[File:Worldicon.gif|24px]] World
+! style="background-color:#99d9ea; width:13%;" | [[File:Patchicon.gif|24px]] Extra
+|-
+| [[File:DreamEnchant.gif|24px]] [[Dream Enchantments]]
+| [[File:Worldchanges.gif|24px]] [[World Changes]]
+| [[File:Achievicon.gif|24px]] [[Achievements]]
+|-
+| [[File:Costumeicon.gif|24px]] [[Costume/Drops]]
+| [[File:Dungeonchanges.gif|24px]] [[MVP System]]
+| [[File:Customost.gif|24px]] [[Custom OST]]
+|-
+| [[File:Mainstoryicon.gif|24px]] [[Main Story Quest]]
+| [[File:Judgeweapons.gif|24px]] [[Judge Headquarters]]
+| [[File:Jobset.gif|24px]] [[Job Sets]]
+|-
+| [[File:Jobicon.gif|24px]] [[Job Quests]]
+| [[File:Instanceicon.gif|24px]] [[Instance List]]
+| [[File:Patchicon.gif|24px]] [[Patch List]]
+|}

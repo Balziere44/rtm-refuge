@@ -1,0 +1,178 @@
+== Main Features ==
+[[File:Anewgame.png|299px|left]]
+<br />
+<br />
+<br />
+<br />
+Return to Morroc aims to bring the best action with a refined Ragnarok Online experience. The project aims to bring a familiar world to a new concept.
+
+'''EVERY SINGLE PART''' of the gameplay was remade. Classes, Monsters, Equipment, Cards, Fields, Dungeons, Cities, Lore... The entire world is now a new experience, ready to be explored and conquered. The main focus of the Project is to:
+
+* Provide Players with new tools, in the way of new jobs.
+* Provide both classic content in a fully remade way, and new content with the same quality as the original, or '''better'''.
+* Follow the lore as close as possible, while expanding it with a new twist.
+* Expand the world of the now called '''New-Midgard'''.
+* Remove all instances from the gameplay loop, ensuring all maps are part of a living world, Instances are only available in the Main Story Quest and some Job Quests.
+* Provide a new, engaging gameplay loop, where skills in combat take a bigger part. Combos, rotations, dodging monster spells, moving around, all part of the fight.
+* Bring modern design ideas to a more mature public, ensuring any play session, no matter how short, can provide a sense of progression.
+* Rework the combat system so numbers actually mean something, builds can be tailor-made to the individual detail. Stats have been reworked for a better curve.
+
+== Contents ==
+* [[#Server_Information|Server Information]]
+* [[#Job_Classes|Job Classes]]
+* [[#Character_Stats|Character Stats]]
+* [[#Combat_Mechanics|Combat Mechanics]]
+* [[#New_Items|New Items]]
+* [[#Refining|Refining]]
+* [[#A_New_World_to_explore|A New World to explore]]
+* [[#A_New_Tale_to_read|A New Tale to read]]
+
+== Server Information ==
+[[File:Anewexperience.png|300px|left]]
+</br></br></br></br>
+The entire game progression was remade. Return to Morroc doesn't follow the original exp table, drop rates or anything else. Every part of the game was tailor-made for the player who wants a new, quality experience:
+
+'''The Server is designed as a low-rate with mid-rate quality of life features.'''
+
+'''Levels and Progression:'''
+* Max Base Level: '''150''' (Softcap at '''130''', after 125, experience and stat points received are drastically reduced.)
+* Max Job Level: Main tree jobs have a max job level of '''70''' (softcap at '''50'''), other jobs vary (Judge for example has '''100''' Job Levels)
+* Experience Rates:
+* '''4x/4x''' (Feels like '''20~30x''' from original RO depending on location and level.)
+* '''1x/1x''' (feels close to '''5-8x''' from Original Ro.)
+* '''1x''' Rates additionaly rewards players with bonus stats points:
+'''Every 10 base level additional 1 stat point.'''
+'''On leveling stat to 99 gives additonal +5 to leveled stat.'''
+* Death penalty: '''2,5%'''
+
+'''Drop Rates:'''
+* Regular loot has a '''fixed chance of 100%'''. This loot can be sold or used on [[HATred_Quests|HATred Quests]] and Costume Quests.
+* Equipment and Shadow Equipment have varied drop rates ranging from '''0.5%''' to '''15%'''.
+* Card Drop Rate: '''1%'''
+* Mini-Boss Card Rate: '''2%'''
+* MVP Card Rate: '''3%'''
+* Reminder that '''every single card was reworked'''.
+* Many costumes can be acquired from monsters, with up to 4 of them in a single monster at a 0.25% rate for example.
+
+'''Commands:'''
+* @autotrade
+* @refresh
+* Other features like No-KS, Show EXP and Show Zeny are available in [[The_Orphanage|The Orphanage]].
+* '''Arealoot''' is a basic skill. Loots all items around player and cancels any animations.
+* '''Sense''' is a basic skill. Shows all monster information, drops, HP and other details.
+
+== Job Classes ==
+[[File:Anewjobsystem.png|300px|left]]
+</br></br></br></br>
+Over 35 brand new job classes, including:
+* [[Orphan|Orphan]], a versatile starter job with unlimited potential.
+* [[Illusionist|Illusionist]], ever wished a character was not enough? Now you can feel like playing two different characters!
+* [[Jester|Jester]], A card-throwing job with a massive SP pool and unique weapons. Are you skilled enough to shuffle your deck after combat to reload your SP?
+* [[Revenant|Revenant]], a high risk, high reward job who wields a scythe, and has massive natural leeching properties on all its weapons.
+* [[Night_Raven|Night Raven]], the master of the night and weapons, who can order a Raven to attack enemies and never miss.
+* [[Blast_Juggler|Blast Juggler]], a job class that can use traps and explosives to great effect and control the battlefield before enemies can become a problem.
+* [[Dracomancer|Dracomancer]], a job class that can draw power from the Dragons and even transform itself in one of them temporarily!
+* [[Black_Plague|Black Plague]], carrier of diseases and double axes, heavy attacker who can kill enemies from the inside with delayed damage or even poison bosses!
+* Or just Unchain your job, and break the limits of what they can do and become a master of the basic arts.
+
+And many, MANY more! Check out [[Job_Classes|Job Classes]] for detailed information.
+
+== Character Stats ==
+[[File:Anewgrowth.png|299px|left]]
+</br></br></br></br>
+The stats have been fully reworked. You no longer requires 2 points per stat with an increasing cost every 10 points:
+* Any stat up to '''49''' costs '''1''' point.
+* Any stat from '''50''' to '''98''' costs '''2''' points.
+* getting '''99''' in a single stat costs '''3''' points. This is because some equipment have bonuses for having 99 in a specific stat.
+
+We also kept the great Pre-Renewal '''Breakpoints'''! However, added in a linear growth, so players can get small, extra bonuses when they have multiples of 10 in a given stat.
+
+Another thing is that the behavior of the status have also been adjusted:
+* '''Strength''' Increases weapon raw ATK damage.
+* '''Agility''' scales better with attack speed at higher amounts.
+* '''Intelligence''' has a higher influence on SP regeneration.
+* '''Dexterity''' has a better effect on cast time.
+* '''Luck''' affects more status resistances.
+
+Besides the above points. '''Most skills now have a Stat-based scaling''' added to them!
+
+See also: [[Stat_Changes|Stat Changes]]
+
+== Combat Mechanics ==
+[[File:Combatchanges.png|300px|left]]
+</br></br></br></br>
+Combat in Return to Morroc is completely different from original RO. The main features available are:
+* [[Shadow_System|Shadow System]]: Dying in a dungeon is always tense, dying brings a Shadow to life that will try to kill your party members...But can also resurrect you if they are brave and fight back!
+* Skill based combat: SP Regen speed is drastically increased, SP is no longer a resource you exhaust and wait: it's something you control the constant use.
+* Combo Skills: Some skills now have special interactions when used right after another different skill. This can be extra hits or increased damage.
+* Skill Rotations: Skills no longer are spammed (with exceptions) and require rotating different cooldowns and skills in order to get maximum efficiency.
+* Monster Mechanics: You are required to dodge the skills used by monsters, or take a heavy hit. Move away from cast area, hide from targeted hits, run behind cover, dynamic combat situations with monsters who might assist one another, trap you with a curved ice wall, lock you in place or punish heavy mobbing overall.
+* Massively decreased numbers. Gone are the days of the barrage of 100k+ hits of renewal. Gone are the cheap one shot mechanics of MVPs.
+* [[Ranking_System|Ranking System]]: Dungeons have difficulty tiers with differences based on what to expect, from '''E''' to '''S'''. Anything can be done '''solo''' with enough preparation and equipment.
+* Small bonus experience for fighting monsters above your level. Harsh penalties for monsters under your level, moving on and seeking new challenges is always needed.
+
+See also: [[Regions_and_Dungeons|Regions and Dungeons]]
+
+== New Items ==
+[[File:Itemchanges.png|300px|left]]
+</br></br></br></br>
+Every single piece of equipment is custom made. With over '''1500 items''' the variety of builds is massive and allows you to handcraft a character exactly as you wish:
+* [[NPC_Equipment|NPC Equipment]] no longer are useless, they have unique bonuses. Field monsters drop those with extra slots and [[Random_Options|Random Options]].
+* All items (except some headgears) drop with [[Random_Options|Random Options]].
+* [[Random_Options|Random Options]] are fully remade, no longer are RNG nightmares and have interesting bonuses.
+* Shadow Sets are reworked, with at least one (or more) shadow set available per dungeon. Shadow sets now only occupy 4 slots of the tab.
+* The unique [[Job_Sets|Job Sets]] are unique Shadow Sets that boost jobs in unique ways in order to create new game styles.
+* '''New [[Runes|Runes]] Slot''': A special equipment that changes the appearance of your character with over '''700 HAND-MADE''' palettes.
+* '''New [[Manuals|Manuals]] Slot''': A unique slot of equipment where you can equip manuals, items that grant curtains skills or quality of life features.
+* [[Kafra_Services|Kafra Elixir]]: A limited free consumable item that heals % of HP/SP.
+* New Weapons: [[Scythes]], [[Jester | Decks]], Long Weapons.
+* New Armor Types: Armor/Garment/Shoes come in light/medium/heavy category. Shields come in heavy/round/square/arm guard categories.
+* New Description window: Easier to read, with every item carrying a simple lore description or complex, intriguing ideas filled with secrets!
+* Changed Consumables: Foods that don't stack, heavy potions, new buffs, and many more items.
+* [[Unique Bonuses]] that affect skills in unique ways, bouncing skills, repeating skills, specific autocasts, leeching and much more!
+
+
+See also: [[NPC_Equipment|NPC Equipment]]
+
+== <span id="Refining" class="mw-headline">Refining</span> ==
+
+[[File:Refiningchanges.png|299x67px|link=Refiningchanges]]
+
+A fair [[Refine System]] that respects your time and your belongings.
+
+No longer refining needs to be a moment where you can lose hours or days of progress:
+
+* Maximum refine rate is +10.
+* '''Failure with any ore no longer breaks the item'''.Failure to refine will only reduce refine level by 1.
+* Tier for Ores: Regular Ores for +0~+3, HD for +4~+6, Enriched for +7~+9 and the rare Jewels for +10!
+* You can use a higher tier ore on a lower tier refine in order to prevent downgrades!
+* NO refining items are sold on the cash shop! All obtainable ingame!
+* Unique Bradiums (to refine Runes) and Shadowdecons (for Shadow Equipment).
+* Shadow Equipment Recycler to give a new chance to old items or unused stuff.
+
+== <span id="A_New_World_to_explore" class="mw-headline">A New World to explore</span> ==
+[[File:Anewworld.png|300px|left]]</br></br></br></br>
+The world has been expanded and revamped. There's no New World across a Dimensional Gap because the world is more than enough for a big adventure:
+
+* Ever wanted to see where Lost storage items go to? The [[Abandoned_Kafra_Warehouse.html|Abandoned Kafra Warehouse]] is one of many custom dungeons added.
+* Or you're looking to revisit old places like the Ant Hell? Too bad, as the [[Insect Society Nest]] is a new place where both Maya and Queen Scaraba cooperate!
+* Do you hate the Tatami Maze in [[Amatsu_Dungeon.html|Amatsu Dungeon]]? The place has been completely reworked. Gone are most the invisible walls, a new temple is now there!
+* Monsters are no simples palette swaps. They are themed, changed concepts with fresh ideas. Even on [[Kiel Hyre Factory]], a place that fell from its peak.
+* '''No Access quests required for dungeons.'''
+* [[Old Glast Heim]], [[Abyss Glast Heim]] and Present [[Glast Heim]], all available as regular dungeons, no more instances.
+* Distortion dungeons can take you years to the past like during the fall of [[Geffenia Antitower]].
+* Or years into the future during the return of the gods on the [[Divine Temple of Freya]].
+* '''Custom dungeons, new lore, new content for every region. Leveling is part of the journey, the game starts at Lv1!'''
+* New MVPs like the cowardly '''Orphan Piamette''', the mighty '''Scylla''' or the legendary '''Jormungandr'''.
+* MVP Relics! No longer you need to hope to find the MVP to have a fun fight! You can farm relics in a dungeon and summon the MVP yourself! (Usual Random Spawns and Timers apply, relics are an extra!).
+
+== <span id="A_New_Tale_to_read" class="mw-headline">A New Tale to read</span> ==
+[[File:Story.png|300px|left]]
+</br></br></br></br>
+An Orphan might be hated by many, but destiny may smile upon the unfortunate ones.
+
+* A brand new [[Main Story Quest]], completely optional with unique instances, bosses and story in over 10 quests.
+* A new world lore. What happened to [[Grimoire_of_New-Midgard|Lighthalzen]]? [[Grimoire_of_New-Midgard|The Veins Incident]]? What is the [[Grimoire_of_New-Midgard|Nomad Village]]?
+* Who are the Shadows? Where is your family? What is the [[Grimoire_of_New-Midgard|Mark]]?
+* Brand-new [[Job Quests]], with no filler content and a straight story, becoming a new job now brings a sense of power and progression.
+* An interactive World Map, with new dungeons, details, region levels and an entire world to explore.

@@ -1,0 +1,184 @@
+== <span id="Swift_Justice" class="mw-headline">[[File:Judge.gif|25x25px|Judge.gif]]Swift Justice</span> ==
+
+'''Judge Requires Base Level 15 and Job Level 10 to start the quest.'''
+
+For Details about the main HQ and unique world interactions of judges, check the [[Judge Headquarters]] page.
+
+The Judge has powerful combat potential by using revolvers. A good Judge on the battlefield is a game changer, a bad judge is nothing but a waste.
+
+It's rotations are based on very defined preparation and burst phases.
+
+'''Best:''' Massive damage potential, High mobility and range, very quick SP regen.
+
+'''Worst:''' Very small SP pool, squishy, extremely skill point starved even with 100 job levels.
+
+'''Weapons:''' Revolvers
+
+=== <span id="Gameplay_Identity" class="mw-headline">Gameplay Identity</span> ===
+
+The Judge has a high damage potential, with an extra resource management in the way of the Seals, this makes the Judge:
+
+<br />
+'''An intense management job with multiple layers of preparation that grows exponentially according to its action flow.'''
+
+<br />
+Due to its very small SP pool, the Judge can't just mindslessly spam all its skills at once and hope for success, it needs a balanced flow of preparing it's seals (required for most of its skills), and using them to attack enemies.
+
+On the other hand the Judge has very fast SP regeneration with its revolvers, when it has control of how to use its small reserve, they can shine and quickly flow from preparing their seals and bursting down enemies quickly.
+
+=== <span id="Core_Gameplay" class="mw-headline">Core Gameplay</span> ===
+
+The Judge's main offensive tool is '''Absolution''' a powerful skill that can only be used after a double attack proc (usually from Akimbo Mastery).
+
+Due to this, a good Judge will have decent ASPD, increase the double attack rate as much as possible to make it reliable and use the seals according to the situation needed.
+
+Some of the skills from a Judge interact in many ways with its Job Levels, in the case of Absolution, the number of hits increases both with skill level and job level.
+
+Due to its high scaling potential and unique weapons, the Judge is a job that has a very complex start, but once mastered, can dash in and out of combat in great flow.
+
+As a final note, Magister Eye applies a mark to enemies, allowing any Absolution procs to hit multiple enemies anywhere on the screen and deal 1 extra hit.
+
+== <span id="Skills" class="mw-headline">Skills</span> ==
+
+The Judge has access to 100 Job Levels, even with that many, correct spending of points is required as the skills have hefty requirements and interactions.
+
+{|class="wikitable sortable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+!width="16%" style="background: #99d9ea;" | Skill
+!width="16%" style="background: #99d9ea;" | Max Level
+!width="16%" style="background: #99d9ea;" | Description
+!width="16%" style="background: #99d9ea;" | Skill Type
+!width="16%" style="background: #99d9ea;" | Details
+!width="16%" style="background: #99d9ea;" | Scaling
+|-
+| [[File:Judgmentmst.gif|26x26px|Judgmentmst.gif]] Judgment Mastery
+| Lv 10
+| Increase damage with revolvers
+| Passive
+| Revolvers are very static weapons with no random options
+| None
+|-
+| [[File:Akimbo.gif|26x26px|Akimbo.gif]] Akimbo Mastery
+| Lv 10
+| Enables 7% per level chance to activate a double attack
+| Passive
+| Absolution requires a double attack proc to be used
+| None
+|-
+| [[File:Judgequiver.gif|26x26px|Judgequiver.gif]] Judge Quiver
+| Lv 10
+| Decreases SP cost of all skills by a certain amount per level
+| Passive
+| Recommended to make SP management easier
+| None
+|-
+| [[File:Aurumcrucis.gif|26x26px|Aurumcrucis.gif]] Aurum Crucis
+| Lv 10
+| Enchants weapons with extra attack, this power increases with job level
+| Self-Support
+| Damage from this effect cannot be reduced or avoided
+| JOB
+|-
+| [[File:Magistereye.gif|26x26px|Magistereye.gif]] Magister Eye
+| Lv 5
+| Marks a target and reduces its flee while marking them on mini-map
+| Debuff
+| Absolution uses will hit any marked enemies on the screen with +1 hit, Violent Barrage will deal AoE higher damage
+| None
+|-
+| [[File:Absolution.gif|26x26px|Absolution.gif]] Absolution
+| Lv 3
+| Quickly shoots a target again multiple times according to level after a double attack
+| Ranged / Special Ranged
+| Amount of hits increase even further according to Job Level and if target is marked
+| JOB
+|-
+| [[File:Violentbarrage.gif|26x26px|Violentbarrage.gif]] Violent Barrage
+| Lv 10
+| follow-up of an Absolution with a strong quick shot for high damage
+| Ranged/ Ranged AoE
+| Deals splash damage vs marked targets and requires seals
+| AGI
+|-
+| [[File:Monarchseal.gif|26x26px|Monarchseal.gif]] Monarch Seal
+| Lv 10
+| Summons a Monarch Seal, required to use most Judge skills
+| Self-Support
+| Up to 10 seals can be summoned, according to skill level, ATK+1 per seal
+| None
+|-
+| [[File:Royalauthority.gif|24x24px|Royalauthority.gif]] Royal Authority
+| Lv 10
+| Quickly summons all possible Monarch Seals according to skill level
+| Self-Support
+| Duration is very short
+| None
+|-
+| [[File:Sealextraction.gif|24x24px|Sealextraction.gif]] Seal Extraction
+| Lv 10
+| Adds 2% per level chance to generate a seal when attacking or being attacked
+| Self-Support
+| Seals have a long duration
+| None
+|-
+| [[File:Triggerheart.gif|26x26px|Triggerheart.gif]] Trigger Heart
+| Lv 10
+| After preparing, infuses bullets and shoots all remaining seals at an enemy
+| Ranged
+| Deals extra hits according to seals remaining, very high SP cost
+| DEX
+|-
+| [[File:Vault.gif|26x26px|Vault.gif]] Vault
+| Lv 5
+| Quickly dashes out of the way, lower cooldown with each level
+| Self-Support
+| Increases the damage of Death Sentence, Scathe and Trigger Heart on follow-up
+| None
+|-
+| [[File:Deathsentence.gif|24x24px|Deathsentence.gif]] Death Sentence
+| Lv 10
+| Deals area damage around self
+| AoE around caster
+| Damage is increased when used after Vault and requires seals
+| DEX
+|-
+| [[File:Revelation.gif|26x26px|Revelation.gif]] Revelation
+| Lv 1
+| Summons a revealing light that orbits around the caster for a short moment
+| AoE around caster
+| reveals any hiding enemies around the caster for a short duration
+| None
+|-
+| [[File:Heavyshot.gif|26x26px|Heavyshot.gif]] Heavy Shot
+| Lv 10
+| Shoots an enemy with a very powerful attack
+| Ranged
+| Decreased accuracy the further the enemy is
+| STR
+|-
+| [[File:Scathe.gif|24x24px|Scathe.gif]] Scathe
+| Lv 10
+| Shoots an enemy instantly with a lacerating wound
+| Ranged
+| Chance to cause bleeding status according to level and requires seals
+| VIT
+|-
+| [[File:Violentshot.gif|24x24px|Violentshot.gif]] Violent Shot
+| Lv 10
+| Instantly shoots an enemy and knocks it back
+| Ranged
+| Knockback power is 1 cell per level and requires seals
+| VIT
+|-
+| [[File:Dragonicdive.gif|26x26px|Dragonicdive.gif]] Dragonic Dive
+| Lv 10
+| Shoots to the skies and brings down dragons to smash on the targets for heavy damage
+| Ranged
+| Area of effect is massive and consumes 10 seals and most max SP
+| INT
+|}
+
+=== <span id="Hidden_Skills" class="mw-headline">Hidden Skills</span> ===
+
+When a Judge is killed with 95% or higher exp, it sometimes ressurrects under Frenzy status.
+
+When a Judge's EXP is in multiples of exact 10% (10.0%, 20.0%, etc) they can use a specific chant to draw power from the royal families and increase their attack power massively for a duration. This chant is known by smart judges and can teach the player if they know who to ask.

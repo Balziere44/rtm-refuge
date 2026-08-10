@@ -1,0 +1,112 @@
+==[[File:Prowler.gif]] Invisible Acrobat ==
+The Prowler is a very evasive job, which uses the few tools it has available to create openings and overwhelm the targets with skills.
+
+It has incredible dodging and damage negation methods making it extremely safe under skilled hands.
+
+'''Best:''' High burst damage, amazing damage negation, small and tight skill kit.
+
+'''Worst:''' High SP Cost, vulnerable to unavoidable damage, restricted left hand slot.
+
+'''Weapons:''' Daggers, Prowler's Armguards
+
+=== Gameplay Identity ===
+The Prowler is a job that focuses on creating opportunities to instantly take down its targets or to dance around them avoiding hits, for this reason:
+
+* They are extremely deadly while being hard to counter-react, as long as their SP remains, they will overwhelm any target with quick hits.
+
+As Prowlers have very small skill kits, they are straightforward to build. Relying on their special passive skills and [[Shields#Prowler_Gear_list|Armguards]] to work in a multitude of ways.
+
+The Thief  skill '''Backstab''' is the centerpiece of the Prowler's kit. With the boosts from the passives, this skill can activate Combo Ready and receive incredible power boosts, allowing a Prowler to quickly start any combat from any situation in an advantage, ready to follow up in a multitude of ways, usually with '''Shadowstab'''.
+
+Another unique tool to the Prowler is the '''Rope Kunai''', a unique weapon that allows a Prowler to pull enemies close by using the '''Flying Knife''' skill.
+
+=== Core Gameplay Loop ===
+A key factor on the Prowler is it's easy access to Perfect Dodge, making attaining even 100% perfect dodge, an easy task for most builds. This may not negate every damage taken, but the almost complete negation of all auto attacks makes them very resistant and virtually unkillable if correctly played.
+
+Most times, a Prowler will use Backstab to close-in on enemies and follow up with Shadowstab for as long as the Combo Ready window allows. This makes building both SP, SP regen and ASPD essential for the Prowler in order to not run out of energy for the barrage of skills.
+
+Rope Kunai can be used to bring enemies that are out of reach, increasing the overall fighting speed. Whirling Kunai is a very strong, short range (but still ranged) damage skill that allows for heavy damage in an area, Even with a long cooldown, it's a reliable and strong tool to fit into rotations.
+
+Macabre is a powerful buff that increases the overall fighting capacity of the Prowler for a duration by consuming HP, being a great risk-rewards mechanic to play around.
+The multiple evasive skills of the Prowler can be used to greatly reduce damage for the specific cases where they are needed.
+
+== Skills ==
+{| class="wikitable" style="font-weight:normal; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|-
+! style="text-align:center; background-color:#99d9ea;" | Skill
+! style="text-align:center; background-color:#99d9ea;" | Max Level
+! style="text-align:center; background-color:#99d9ea;" | Description
+! style="text-align:center; background-color:#99d9ea;" | Skill Type
+! style="text-align:center; background-color:#99d9ea;" | Details
+! style="text-align:center; background-color:#99d9ea;" | Scaling
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Backstabmst.gif|26px|]] Backstab Mastery
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Increases damage with Backstab per level
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Passive
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Also allows Backstab to generate '''Combo Ready''' status, required for multiple skills.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Evasionmastery.gif|26px|]] Evasion Mastery
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Increases multiple evasive bonuses per level.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Passive
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Increases perfect dodge, flee, dagger attack and Max SP.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Shadowstab.gif|26px|]] Shadow Stab
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Quickly hits an enemy, dealing high damage on a short cooldown
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Melee
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Requires Combo Ready from Backstab for maximum effect
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | DEX
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Whirlingkunai.gif|26px|]] Whirling Kunai
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Throws the Rope Kunai around dealing damage according to Evasion Mastery
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Ranged AoE
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Requires a Rope Kunai equipped. Damage is split among targets
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | DEX
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Hazeslasher.gif|26px|]] Haze Slasher
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Quickly strikes an enemy and enters Hiding for a few seconds
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Melee
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | While under Macabre effect, won't enter hiding state
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | AGI/DEX
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Camouflage.gif|26px|]] Camouflage
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Uses a wall as cover to become invisible, increasing attack over time
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Self-Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Movement speed and attack damage increase when reactivating
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | AGI
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Macabre.gif|26px|]] Macabre
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Adopts an aggressive stance that improves Attack and DEX scaling on skills
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Self-Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Increasing HP cost per level to use, changes Haze Slasher behavior
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | None
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Afterimage.gif|24px|]] Afterimage
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Blocks physical attacks and skills in an amount equal skill level
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Self-Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Requires a Shadow Orb. Certain skills ignore the effect.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | None
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:As_kunai.gif|26px|]] Flying Knife
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Used to throw the Rope Kunai at an enemy, it can pull the enemy close.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Offensive Ranged
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Has higher base cooldown due to Rope Kunai than usual.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Rg_tunneldrive.gif|26px|]] Tunnel Drive
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Allows walking while under Hiding. Movement speed increases with higher level.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Passive
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No Changes from original.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|}

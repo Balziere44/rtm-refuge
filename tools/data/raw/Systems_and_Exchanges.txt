@@ -1,0 +1,152 @@
+
+Return to Morroc features a large array of systems, all of them created from the ground up with player accessibility in mind.
+
+Understanding how each system works and how it can be rewarding is essential.
+
+'''It's recommended to always check your world map and achievements for guidance.'''
+
+
+
+== Contents ==
+
+<span class="toctogglespan"></span>
+
+== <span id="World_Map" class="mw-headline">World Map</span> ==
+
+'''Location:''' Pressing the Ctrl+' shortcut or the map icon on the upper left menu.
+
+* You can press TAB or check the box to see level ranges for all fields in the game.
+* You can use the dropdown menu to check the other maps, including detailed view of the fields + MVP locations, dungeons and distortions.
+* Checking the world map is '''ESSENTIAL''' to progress in the game.
+* The Navigation system is not available for Return to Morroc, you are required to explore to find where to go.
+
+== <span id="Achievements" class="mw-headline">Achievements</span> ==
+
+'''Location:''' Trophy icon on the upper left menu.
+
+* All Achievements for Return to Morroc are unique and custom-made.
+* There are unique rewards in the achievements, specially the '''Weapon Voucher''' for hitting Job Level 10 as an Orphan.
+* Checking the achievements is '''ESSENTIAL''' to progress easily and know what you can do in the game.
+* Some achievements require talking to the Collector in the northeast room on 2F Orphanage.
+
+== <span id="MVP_Relics" class="mw-headline">MVP Relics</span> ==
+
+'''Location:''' Most Dungeons/Regions in the game.
+
+MVP Relics are rare drops from any monster in a given dungeon/region in the game, always at 0.10% chance.
+
+The MVP Relic allows the character to summon the MVP from the specific dungeon/region, within a few rules.
+
+* The Relic must be used on the same map that the MVP Boss spawns.
+* Only one Relic Boss may be alive at the same time for a given map, so if another is alive, they must be defeated first.
+* Relic Bosses are Free for All and follow the usual anti-griefing MVP rules.
+* Using the Relic in the wrong map, or when another Relic Boss has already been summoned will waste the item.
+* The Relic will also act like a vanilla Convex Mirror, and show where/when the natural Boss spawn of the map is.
+
+== <span id="Cash_Shop" class="mw-headline">Cash Shop</span> ==
+
+'''Location:''' Mr Kim, Orphanage, Second Floor, Upper/Right Side.
+
+* The Cash Shop sells only costumes and the Name Change Coupon.
+* Every major patch, new costumes are added.
+* The Monthly list includes a new costumed added for 10.000, this price is raised to 15.000 after the first month, when a new costume is added.
+* You can also rent a costume of choice for 30 seconds by talking to the helper.
+* The price ranges from 5.000 to 20.000 for most costumes, with a specific costume at 50.000 for those who can spare the most support for the server.
+* All costumes can be trade-able and sold to other players.
+* Custom-made costumes by high-quality artists are also added over time, they can be identified by their unique description window artwork.
+* Animated costumes are properly mentioned in their description.
+* You can also obtain quality costumes ingame as rare drops according to the [[Costume/Drops]] page, or every single MVP has a costume at 45-60% drop chance.
+* The use of a simple UI while avoiding the usual Cash Shop Icon near the minimap is to explicitly avoid predatory systems.
+* Spend wisely.
+
+== <span id="Black_Market" class="mw-headline">Black Market</span> ==
+
+'''Location:''' Black Market, Most cities near the INN or the tool shop. In the Orphanage Kitchen and right outside it, across the corridor.
+
+* The Black Market sells multiple tools and resources for combat.
+* This includes some manuals, some catalysts, ammunition, toxins, bombs and more.
+* You can also purchase a '''&quot;Market Catalogue&quot;''' that allows you to search for shops and items on sale.
+* The Black Market has a minor account-wide side quest linked to it.
+
+== <span id="Shadow_Recycle" class="mw-headline">Shadow Recycle</span> ==
+
+'''Location:''' Iris, Orphanage, Refining Area (right-side of the first floor).
+
+* Iris recycles Shadow Items, Manuals and Runes into '''Shadowdecons'''.
+* Shadowdecons are required to refine shadow items, up to +9.
+* You also receive '''Rough Shadowdecons''' from Iris, which can be exchanged for other materials, including '''Jewel Shadowdecons'''.
+* Iris is part of a late game quest.
+
+== <span id="Dream_Enchants" class="mw-headline">Dream Enchants</span> ==
+
+'''Location:''' Dream Weaver, Orphanage 2F.
+
+* The Dream Weaver will take '''Dream Shards''' to add enchants to items you have. They can be obtained as drops from '''Rachel Nightmare'''.
+* Items that can be enchanted have a purple text that indicate it.
+* Mid and lower headgear equipment that can receive enchantments can also be refined.
+* Enchantments can also be reset by using Distortion Shards from the [[Distortion_Dungeons|Distortion dungeons]].
+* They are high-end items that can help push a build to its limit and provide new bonuses to special items.
+* To see about Enchantments '''[[Dream Enchantments|Click Here]]'''
+
+== <span id="Mora_MVP_Exchange" class="mw-headline">Mora MVP Exchange</span> ==
+
+'''Location:''' Mora, Raffle Village, near the Splendide fields southwest of geffen, northeast of Comodo.
+
+* MVP Shards can be obtained from MVP Prize Boxes, items that drop from any MVP.
+* They can be exchanged for a large variety of items, including exclusive ones.
+* The Raffle village also includes other usual facilities like weapon/armor/tool shops.
+
+== <span id="Sage_Equipment" class="mw-headline">Sage Equipment</span> ==
+
+'''Location:''' Dicastes Diel, farthest map of the northeast, north of the snow fields.
+
+* Sage equipment have 3 slots and minor bonuses, they also have a high level requirement.
+* They include accessories, armor, garment, shoes and weapons.
+* Sage equipment require [[File:DistorsionEssence.gif|24x24px|File:DistorsionEssence.gif]] '''Distortion Essence''' to be obtained, they are semi-common drops from all monsters in [[Distortion Dungeons]].
+
+To read more [[Dicastes_Diel_Equipment | '''Click Here''']]
+
+== <span id="Varmundt_Quests" class="mw-headline">Varmundt Quests</span> ==
+
+'''Location:''' Varmundt Mansion, taking the airship in Lighthalzen can take players there.
+
+* There is a lore-focused quest about the 3 Sages in this location.
+* Players can craft the 3 great tomes here (Paradiso, Purgatorio and Inferno) in the cafeteria to the south.
+* '''Blooming Rose Sandals''' can be crafted here. These unique rare shoes require special materials.
+* The Card Artist lives in the mansion and will take any '''Blank Cards''' in exchange for regional card albums.
+
+== <span id="Alternate_Transportation" class="mw-headline">Alternate Transportation</span> ==
+
+'''Location:''' Many Places.
+
+* Airships will not take Orphans, and sometimes, the Kafras will not be enough.
+* Alberta has boats that can take you to most eastern islands.
+* Reaching [[Dewata Island]] requires taking a boat near the Pharos southwest of Morroc.
+* '''Ferry''' Transport may be available in some locations. Two examples are the ferry to Geffen West, near the water, that can take you directly to [Geffen Cave]
+* A Ferry in [Hugel] can also take the player to the [[Snow Fields]].
+
+== <span id="Einherjar_Equipment" class="mw-headline">Einherjar Equipment</span> ==
+
+'''Location:''' Sky Garden Dungeon, at the end of the path.
+
+* All monsters in this dungeon drop [[File:Einherjar Soul.GIF|24x24px|link=EinherjarSoul]] '''Einherjar Soul''', 100 of this item can be exchanged for [[File:Odin's blessing.GIF|24x24px|link=OdinBlessing]] '''Odin's Blessing'''.
+* The MVP, '''Sarah Irine''' also drop this item.
+* [[File:Odin's blessing.GIF|24x24px|link=OdinBlessing]] '''Odin's Blessing''' can be exchanged for the equipment with the Wish Maiden, These items don't have random options, but provide powerful effects.
+* These items can be further improved with [[Dream_Enchantments|'''Dream Enchants''']].
+
+To See more about it [[Einherjar_Equipment|'''Click Here''']]
+
+== <span id="Celestial_Tome" class="mw-headline">Celestial Tome</span> ==
+
+'''Location:''' Niflheim Castle Dungeon, requires all 90 HATred quests. The Celestial Tome is account-bound.
+
+* The tome is not the only quest available.
+
+
+</div>
+
+</div>
+
+</div>
+
+</div>

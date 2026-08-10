@@ -1,0 +1,150 @@
+== A True Open World ==
+[[File:Instancelist.png|thumb|299px|Instancelist.png]]
+Running the same corridor over and over?
+Repeating the same cutscenes and same bosses, always in the same order, to no end?
+Not Here!
+Instances here are a narrative experience. You are not expected to do any of them more than once! And they are usually pretty short experiences, tailor-made to be both interesting, unique and provide additional challenges.
+'''No''' farming/grinding content is in instances.
+
+=== Main Story Instances ===
+The main story is comprised of 12 Quests. But only 8 of them are instance-based. The final instance also has a party-based version with a harder fight.
+All main story rewards are storage-able and cannot be traded.
+
+{| class="wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;"
+|-
+! style="background-color:#99d9ea; text-align:center;" | Instance
+! style="background-color:#99d9ea; text-align:center;" | Description
+! style="background-color:#99d9ea; text-align:center;" | Rewards
+! style="background-color:#99d9ea; text-align:center;" | Requirement
+|-
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Orphan Tutorial
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Learn the basics about the game and learn the start of the lore.
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Scarf of Choice
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc;" | New Character
+|-
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Beautiful People
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Daily life of an Orphan in New-Midgard
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lost Attire Set
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Base Level 10
+|-
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Regards from Hino
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Meet an old friend who had the same fate
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Unique Ring (Possible)
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Base Level 30
+|-
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Streets at Night
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Follow the mysterious man
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Manual of Choice
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Base Level 50
+|-
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Orphanage Defense
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Protect your home with your life
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Costume
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Base Level 70
+|-
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Escape from Rachel
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Run away from the crazy cultists!
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Headgear
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Base Level 90
+|-
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Blue Hair Blues
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Face the truth
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Weapon of Choice
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Base Level 110
+|-
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Devourer of Worlds
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Survive
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Infinite Convex Mirror
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Base Level 120
+|-
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Devourer of Worlds - Hard Mode
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Survive as a Party
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Costume
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Base Level 140
+|}
+
+=== Job Instances ===
+Most final jobs also have an instance for their quest. They are listed below.
+
+{| class="wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;"
+|-
+! style="background-color:#99d9ea; text-align:center;" | Instance
+! style="background-color:#99d9ea; text-align:center;" | Description
+! style="background-color:#99d9ea; text-align:center;" | Job Class
+! style="background-color:#99d9ea; text-align:center;" | Requirement
+|-
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 20%;" | Thorns of a Rose
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 50%;" | Obtain the final weapon for your arsenal.
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Judge
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 20%;" | Have all other weapons
+|-
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 20%;" | Joking Around
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 50%;" | Clear your path and become a Jester
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Orphan
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 20%;" | Job Level 10
+|-
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 20%;" | Look into the Abyss
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 50%;" | Overcome your fears and become a Dark Knight
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Orphan
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 20%;" | Base Level 15, Job Level 10
+|-
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 20%;" | Desert Guild
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 50%;" | Complete the trials and become an Assassin or a Rogue
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Thief
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 20%;" | Job Level 50
+|-
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 20%;" | Heart of Power
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 50%;" | Uncover the Heart of Power and become a Legend.
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Vagabond
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 20%;" | Job Level 70
+|-
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 20%;" | Long Night
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 50%;" | Control the mark and acquire your Reaper as a Revenant.
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Trickster
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 20%;" | Job Level 70
+|-
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 20%;" | Explosive Solution
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 50%;" | Kill Wolfchev and become a Blast Juggler.
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Saboteur
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 20%;" | Job Level 70
+|-
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 20%;" | Game of Thrones
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 50%;" | Defeat the mysterious king and become a Kingslayer.
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Duelist
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 20%;" | Job Level 70
+|-
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 20%;" | Sky and Land - Sky
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 50%;" | Secure a safe escape route and become a Night Raven.
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Blade Dancer
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 20%;" | Job Level 70
+|-
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 20%;" | Sky and Land - Land
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 50%;" | Rescue the people and become a Black Plague
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Scoundrel
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 20%;" | Job Level 70
+|-
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 20%;" | The Final Blessing
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 50%;" | Show the truth to the Pope and become a Sinner
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Deadeye
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 20%;" | Job Level 70
+|-
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 20%;" | Loki's Tomb
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 50%;" | Learn the truth about Loki and become a Gravekeeper
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Executioner
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 20%;" | Job Level 70
+|-
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 20%;" | Meeting a Grandmaster
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 50%;" | Study under Fenrir and become an Arcane Master
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Mystic
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 20%;" | Job Level 70
+|-
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 20%;" | Faceless Shadow
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 50%;" | Find the truth about the target and become a Satsujin
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Shinobi
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 20%;" | Job Level 70
+|-
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 20%;" | Raise the Dragons
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 50%;" | Overcome the Trial and become a Dracomancer
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Raider
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 20%;" | Job Level 50
+|}

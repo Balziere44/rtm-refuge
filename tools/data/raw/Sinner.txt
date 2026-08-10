@@ -1,0 +1,141 @@
+== Raining death from afar ==
+[[File:Sinner.gif|25x25px|link=https://returntomorroc.com/wiki/index.php/File:Sinner.gif]]
+The Sinner is a safe fighter that can take down enemies either with a strong precise hit or a barrage of many arrows.
+
+Due to their incredible use of Bows, Sinners can take down enemies before they become a threat with the correct balance of positioning, power and resources.
+
+'''Best:''' Long Range, great DPS, can stack buffs for a massive burst.
+
+'''Worst:''' Very SP intensive, no big party buffs, balancing multiple details and resources.
+
+'''Weapons:''' Bows, some swords and daggers
+
+=== Gameplay Identity ===
+The Sinner can be built around two extremely different play styles, both of them are very good in handling combat situations and requiring positioning, so they:
+
+'''Can adapt to difficult situations and tackle challenges much above what other jobs would consider doable by themselves, but requiring perfect balance of gameplay.'''
+
+The Sinner can use a multitude of tools at their disposal to always keep their SP ready to spend, this is paramount in their gameplay since the high consumption of the skills can quickly render them useless if not well planned.
+
+Due to being able to quickly setup turrets around, the Sinner can cover an area with constant damage while focusing on avoiding damage and repositioning, using '''Decoy''' from Rogue is a core skill that will quickly differentiate the greatest Sinners from the rest.
+
+If a Sinner is allowed to fully prepare before a fight, they can end it all with a single attack by using '''Final Arrow''', by stacking as many buffs as possible and along with '''Inquisition Resolve''', potentially dealing the strongest direct hit in the game (with some luck).
+
+=== Core Gameplay Loop ===
+The Sinner has a kit focused in either fully utilizing their skills for speed or AoE, to control the area or boost everything else:
+* '''Arrow Storm''' and '''Godhand Arrow''' are skills that can help build a better rotation.
+* '''Cannon Turret''' Can help cover the ground with passive, constant damage.
+* '''Quiver''' Skills provide ways to boost the speed of skill rotations, regenerations and overall gameplay quality and speed.
+* '''Buff''' Skills consume a high amount of resources for short bonuses, but they can provide unique interactions for massive damage.
+* '''Final Skill:''' Last Inquisition. Improves all ranged damage modifiers for a short duration, requires a large amount of HP/SP.
+
+With the correct balance between passives, damage, buffs and position, a well built Sinner will be able to take down multiple threats without a scratch.
+
+== Skills ==
+{| class="wikitable" style="font-weight:normal; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|-
+! style="text-align:center; background-color:#99d9ea;" | Skill
+! style="text-align:center; background-color:#99d9ea;" | Max Level
+! style="text-align:center; background-color:#99d9ea;" | Description
+! style="text-align:center; background-color:#99d9ea;" | Skill Type
+! style="text-align:center; background-color:#99d9ea;" | Details
+! style="text-align:center; background-color:#99d9ea;" | Scaling
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Wolfeyes.gif|26x26px]] Wolf Eyes
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 3
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Reduces fixed cast time of sinner skills
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Passive
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Reduction is 10% per level
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Extraquiver.gif|24x24px]] Extra Quiver
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Increases Max SP and SP Regen speed
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Passive
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Applied to base SP/SP Regen
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Reboundquiver.gif|24x24px]] Rebound Quiver
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Defeating enemies with targeted skills refill SP
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Passive
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Amount increases based on enemy level. Also increases max SP
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Bloodyquiver.gif|26x26px]] Bloody Quiver
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Consumes partial HP to refill SP
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Self-Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Amount converted increases per level
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Reloadquiver.gif|24x24px]] Reload Quiver
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 3
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Reduces variable cost for the next 7 skills by half
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Self-Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lower SP cost and cast time per level
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Arrowstorm.gif|26x26px]] Arrow Storm
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Shoots arrows to the skies so they rain down a large area of enemies
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Ranged Ground AoE
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | has combo interactions with Double Strafe
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | DEX
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Godhandarrow.gif|26x26px]] Godhand Arrow
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Shoots a strong arrow full of energy directly at an enemy for high damage
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Ranged
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | has combo interactions with Double Strafe. High spam rate
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | DEX
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Cannonturret.gif|26x26px]] Cannon Turret
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Summons a invincible turret to shoot enemies for a short while over an area. Low duration
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Summon
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Multiple turrets can be set. Requires coins from Coin Flip(Rogue)
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | DEX and VIT
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Smokebomb.gif|26x26px]] Smoke Bomb
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 1
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Throws smoke all around the caster to decrease incoming ranged attacks hit rate
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | AoE-Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | also increases flee/reduces hit of anyone attacking inside, including enemies
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Windwalk.gif|26x26px]] Wind Walk
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Increases movement speed of the entire party
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Party-Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Effect does not stack with increase AGI
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Killerinstinct.gif|26x26px]] Killer Instinct
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Increases your offenses and all stats for a short duration
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Self-Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Requires coins from Coin Flip(Rogue), slowly drains HP/SP
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Inquisitionresolve.gif|26x26px]] Inquisition Resolve
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Adds a chance that up to 5 extra attacks will be made when auto attacking
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Self-Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lower odds for more hits
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Finalarrow.gif|26x26px]] Final Arrow
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Prepares a massive auto-attack for massive damage, stacks with all Inquisition Resolve hits
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Self-Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Damage of auto attack is boosted by 100% per level, lost if melee attacked
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Lastinquisition.gif|24x24px]] Last Inquisition
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Increases ranged damage multipliers for a short duration
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Self-Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Requires a large amount of HP and SP to cast
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|}

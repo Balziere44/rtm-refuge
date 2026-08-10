@@ -1,0 +1,47 @@
+{| class="wikitable"
+! Class !! Base ASPD Limit
+|-
+| ShadowSeer || 182
+|-
+| Judge || 182
+|-
+| Night Raven || 182
+|-
+| Trickster || 180
+|-
+| Dark Night || 180
+|-
+| Revenant || 180
+|-
+| Phantom Thief || 180
+|-
+| Ronin || 180
+|-
+| Blast Juggler || 180
+|-
+| Satsujin || 180
+|-
+| Peacekeeper || 180
+|-
+| Illusionist || 180
+|-
+| Kingslayer || 180
+|-
+| Arcane Master || 180
+|-
+| Gravekeeper || 180
+|-
+| Deadeye || 180
+|-
+| Mystic || 180
+|-
+| Duelist || 180
+|-
+| Saboteur || 180
+|-
+| Vagabond  || 185
+|-
+| Legend || 185
+|}
+
+Other classes not mentioned here are 185 base aspd limit.

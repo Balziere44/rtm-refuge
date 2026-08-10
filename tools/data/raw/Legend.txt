@@ -1,0 +1,93 @@
+= [[File:Legend.gif|25px|link=]]Unmatched Warrior =
+
+The Legend is a natural evolution for the best Vagabonds, it increases its auto attack potentials to the limit.
+It has very limited alternate tools and requires smart play to succeed.
+
+'''Greatest changes from Vagabond:'''
+* Dual wielding
+
+* Access to manageable buffs
+
+* Safety wall.
+
+'''Weapons:''' Daggers.
+
+==New Mechanics==
+The Legend, like the Vagabond, learns the full skill tree eventually. This ensures it always has full access to its kit, as simple as it may be.
+A good Legend will know how to take the most advantage from its damage buff '''Harness Magic''', as it can convert MATK and INT into more auto attack damage, making even some magic-bonus weapons useful under the right circumstances.
+As it still relies on auto attacks, its a simple job mechanically, but can be very complex to correctly balance and extract the most both in damage and in survival.
+Safety Wall comes at the very end of the skill tree, but it's the best short-range protection available for a party due to how flexible it is.
+
+==Skills==
+{| class="wikitable" style="font-weight:normal; text-align:left; width: 100%; min-width: 700px;"
+|-
+! style="background-color:#99d9ea; text-align:center;" | Skill
+! style="background-color:#99d9ea; text-align:center;" | Max Level
+! style="background-color:#99d9ea; text-align:center;" | Description
+! style="background-color:#99d9ea; text-align:center;" | Skill Type
+! style="background-color:#99d9ea; text-align:center;" | Details
+! style="background-color:#99d9ea; text-align:center;" | Scaling
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Advright.gif|24px|]] Advanced Righthand Mastery
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Restore damage penalty from dual wielding and increases it further at higher levels
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Passive
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Righthand Damage is 55% when dual wielding +10% per level, up to 105%
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Advleft.gif|24px|]] Advanced Lefthand Mastery
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Restore damage penalty from dual wielding and increases it further at higher levels
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Passive
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lefthand Damage is 55% when dual wielding +10% per level, up to 105%
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Advblade.gif|26px|]] Adv. Blade Mastery
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Increases Attack and hit rate with swords and daggers.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Passive
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Added as a flat bonus in damage.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Improvepotion.gif|24px|]] Improve Potion
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Increases potion healing power by 5% per level
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Passive
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | also applies to any potions used with Pitcher skills
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Relentlessdaggers.gif|26px|]] Relentless Daggers
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Increases attack speed with daggers
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Passive
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | None
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Finalweaponmst.gif|26px|]] Final Blade Mastery
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Increases dagger weapon damage
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Passive
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Increase is larger than usual masteries
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Harmagic.gif|26px|]] Harness Magic
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Converts part of the MATK into ATK and part of INT when casting into STR
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Self-Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Change is not applied to status window, high SP cost
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Harspeed.gif|26px|]] Harness Speed
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Increases ASPD % bonuses even further, also increases Critical and Hit rates
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Self-Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Has little effect without other ASPD % bonuses
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Safetywall.gif|26px|]] Safety Wall
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 4
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Block a few short-range physical attacks and skills for a duration according to skill level
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | High damage skills can break all hits at once
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|}

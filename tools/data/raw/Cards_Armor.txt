@@ -1,0 +1,245 @@
+<p><big>You are currently looking at '''Armor''' cards, click below to check other slots!</big></p>
+
+
+{| class="wikitable sortable" style="text-align: left; width:100%"
+|-
+! style="background: #99d9ea; width: 20%; padding:5px" rowspan="2"  | Card name
+! style="background: #99d9ea; padding:5px" rowspan="2" | Effect
+! style="background: #99d9ea; padding:5px" rowspan="2" | Detail
+! style="background: #dfce1f; padding:5px; text-align:center" colspan="3" | Mob information
+|-
+! style="background: #dfce1f; padding:5px" | Mob Lv.
+! style="background: #dfce1f; padding:5px" | Type
+! style="background: #dfce1f; padding:5px" | Location
+|-
+| [[File:CardIcon.gif|24px|24px]] '''Alice Card'''
+| Resistance vs All Sizes +6%
+| Armor
+| 85
+| Champion
+| Glast Heim - Castle
+|-
+| [[File:CardIcon.gif|24px|24px]] '''Alligator Card'''
+| Neutral Element Resistance +5%
+| Armor
+| 46
+| Normal
+| Comodo Tropical Forest
+|-
+| [[File:CardIcon.gif|24px|24px]] '''Amistr Card'''
+| Earth Element Resistance +10%
+| Armor
+| 91
+| Normal
+| Alchemist Fortress
+|-
+| [[File:CardIcon.gif|24px|24px]] '''Amon Ra Card'''
+| HP+10%<br/>HP Regen+100%<br/>Revives with full HP
+| Armor
+| 90
+| [[File:MvpIcon.png|13px|11px]] MVP
+| Ayothaya Temple
+|-
+| [[File:CardIcon.gif|24px|24px]] '''Ancient Mummy Card'''
+| SP+20%<br/>HP-5%
+| Armor
+| 24
+| Champion
+| Upper Pyramids
+|-
+| [[File:CardIcon.gif|24px|24px]] '''Apocalipse Card'''
+| DMG vs Undead Element +5%
+| Any Slot
+| 93
+| Normal
+| Juperos
+|-
+| [[File:CardIcon.gif|24px|24px]] '''Archdam Card'''
+| DMG vs Water Element +5%
+| Any Slot
+| 92
+| Normal
+| Juperos
+|-
+| [[File:CardIcon.gif|24px|24px]] '''Aspect of Lies Card'''
+| Enables perfect hiding when using invisibility skills allowing you to hide from demons insects and some detectors.
+| Armor
+| 93
+| Normal
+| Morroc Destruction
+|-
+| [[File:CardIcon.gif|24px|24px]] '''Automata Card'''
+| Guard Breaker DMG+10%<br/>Guard Breaker Cooldown -1s
+| Armor
+| 112
+| Normal
+| Verus Underground
+|-
+| [[File:CardIcon.gif|24px|24px]] '''Beetle King Card'''
+| Resistance vs Insect+15%
+| Armor
+| 56
+| Normal
+| Yuno Fields
+|-
+| [[File:CardIcon.gif|24px|24px]] '''Black Acidus Card'''
+| ATK+5%<br/>MATK+5%<br/>HP-50%
+| Armor
+| 97
+| Champion
+| Abyss Lake
+|-
+| [[File:CardIcon.gif|24px|24px]] '''Black Tendrillion Card'''
+| Enables Continuous Regen of 1 HP per 3 Base Levels<br/>Lose 500 HP when unequipped.<br/>HP-25%
+| Armor
+| 75
+| [[File:MvpIcon.png|13px|11px]] MVP
+| Splendide Fields
+|-
+| [[File:CardIcon.gif|24px|24px]] '''Blackguard Knight Card'''
+| HP+800<br/>SP-15%
+| Armor
+| 102
+| Normal
+| Antitower
+|-
+| [[File:CardIcon.gif|24px|24px]] '''Carat Card'''
+| Curtain Call DMG+15%
+| Armor
+| 84
+| Normal
+| Glast Heim - Castle
+|-
+| [[File:CardIcon.gif|24px|24px]] '''Chepet Card'''
+| Fire Ball Knockback +2
+| Armor
+| 74
+| Champion
+| Toy Factory
+|-
+| [[File:CardIcon.gif|24px|24px]] '''Comodo Card'''
+| Venom Splasher DMG +12%
+| Armor
+| 85
+| Champion
+| Dewata Volcano/Field
+|-
+| [[File:CardIcon.gif|24px|24px]] '''Dark Faceworm Card'''
+| Poison Magic DMG+2% per refine<br/>MATK+1%
+| Armor
+| 69
+| Champion
+| Faceworm Forest
+|-
+| [[File:CardIcon.gif|24px|alt=CardIcon.gif]] '''Dark Frame Card'''
+| Resistance vs Medium Size+10%
+| Armor
+| 82
+| Normal
+| Glast Heim - Castle
+|-
+| [[File:CardIcon.gif|24px|alt=CardIcon.gif]] '''Dimik Card'''
+| DMG vs Earth Element +5%
+| Any Slot
+| 93
+| Normal
+| Juperos
+|-
+| [[File:CardIcon.gif|24px|alt=CardIcon.gif]] '''Doomed Follower Card'''
+| Long Range Resistance +20%<br/>HP+5%
+| Armor
+| 143
+| Normal
+| Divine Temple of Freya
+|-
+| [[File:CardIcon.gif|24px|alt=CardIcon.gif]] '''Drake Card'''
+| Nullify Size Penalty<br/>ATK+1%
+| Armor
+| 45
+| [[File:MvpIcon.png|13px|alt=MvpIcon.png]] MVP
+| Sunken Ship
+|-
+| [[File:CardIcon.gif|24px|alt=CardIcon.gif]] '''Dry Goblin Card'''
+| SP Regeneration +50%<br/>HP Regeneration -50%
+| Armor
+| 98
+| Normal
+| Geffenia
+|-
+| [[File:CardIcon.gif|24px|alt=CardIcon.gif]] '''Eddga Card'''
+| Enables Endure Lv10<br/>HP +5%
+| Armor
+| 15
+| [[File:MvpIcon.png|13px|alt=MvpIcon.png]] MVP
+| Payon Forest
+|-
+| [[File:CardIcon.gif|24px|alt=CardIcon.gif]] '''Eggyra Card'''
+| SP+10%
+| Armor
+| 12
+| Normal
+| Sograt Desert
+|-
+| [[File:CardIcon.gif|24px|alt=CardIcon.gif]] '''Egnigem Cenia Card'''
+| STR+1
+| Armor
+| 
+| 
+| 
+|-
+| [[File:CardIcon.gif|24px|alt=CardIcon.gif]] '''Elvira Card'''
+| DMG vs Wind Element +5%
+| Any Slot
+| 92
+| Normal
+| Juperos
+|-
+| [[File:CardIcon.gif|24px|alt=CardIcon.gif]] '''Enchanted Cornus Card'''
+| Water Magic DMG+3%
+| Any Slot
+| 72
+| Normal
+| Splendide Fields
+|-
+| [[File:CardIcon.gif|24px|alt=CardIcon.gif]] '''Enchanted Dragon Card'''
+| Fire Magic DMG+3%
+| Any Slot
+| 74
+| Normal
+| Splendide Fields
+|-
+| [[File:CardIcon.gif|24px|alt=CardIcon.gif]] '''Enchanted Fatum Card'''
+| Earth Magic DMG+3%
+| Any Slot
+| 73
+| Normal
+| Splendide Fields
+|-
+| [[File:CardIcon.gif|24px|alt=CardIcon.gif]] '''Enchanted Mavka Card'''
+| Wind Magic DMG+3%
+| Any Slot
+| 71
+| Normal
+| Splendide Fields
+|-
+| [[File:CardIcon.gif|24px|alt=CardIcon.gif]] '''Enchanted Serpent Card'''
+| Poison Magic DMG+3%
+| Any Slot
+| 75
+| Champion
+| Splendide Fields
+|-
+| [[File:CardIcon.gif|24px|alt=CardIcon.gif]] '''Filir Card'''
+| Wind Element Resistance +10%
+| Armor
+| 93
+| Normal
+| Alchemist Fortress
+|-
+| [[File:CardIcon.gif|24px|alt=CardIcon.gif]] '''Fulbuk Card'''
+| INT+1<br/>Flaming Petals DMG+5%
+| Armor
+| 29
+| Champion
+| Prontera Culvert
+|-

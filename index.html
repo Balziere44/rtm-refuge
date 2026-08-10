@@ -35,10 +35,10 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" as="image" href="assets/img/logo-900.png" fetchpriority="high">
+<link rel="preload" as="image" href="assets/img/mark-900.png" fetchpriority="high">
 <link rel="stylesheet" href="assets/css/style.css">
-<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
 
 <script>
 /* The only blocking script on the site. It has to run before the first paint
@@ -84,7 +84,7 @@
 <header class="site-header">
   <div class="shell header-inner">
     <a class="brand" href="index.html">
-      <img src="assets/img/icon-192.png" width="34" height="34" alt="" aria-hidden="true">
+      <img class="mark" src="assets/img/icon-192.png" width="34" height="34" alt="" aria-hidden="true">
       <span class="brand-text">
         <span class="brand-name">RETURN TO MORROC</span>
         <span class="brand-sub">Refuge</span>
@@ -94,11 +94,12 @@
     <nav class="nav" aria-label="Main">
       <a href="index.html" aria-current="page">Home</a>
       <a href="server.html">The Server</a>
-      <a href="changes.html">What Changed</a>
+      <a href="start.html">Start Here</a>
       <a href="classes.html">Classes</a>
+      <a href="mechanics.html">Mechanics</a>
+      <a href="gear.html">Gear</a>
       <a href="world.html">World</a>
       <a href="guides.html">Guides</a>
-      <a href="database.html">Database</a>
       <a href="join.html">Join</a>
     </nav>
     <!-- NAV:END -->
@@ -136,11 +137,12 @@
     <nav aria-label="Mobile">
       <a href="index.html" aria-current="page">Home</a>
       <a href="server.html">The Server</a>
-      <a href="changes.html">What Changed</a>
+      <a href="start.html">Start Here</a>
       <a href="classes.html">Classes</a>
+      <a href="mechanics.html">Mechanics</a>
+      <a href="gear.html">Gear</a>
       <a href="world.html">World</a>
       <a href="guides.html">Guides</a>
-      <a href="database.html">Database</a>
       <a href="join.html">Join</a>
     </nav>
     <!-- DRAWER:END -->
@@ -151,12 +153,11 @@
   <div class="shell hero-inner">
     <div>
       <p class="eyebrow"><span class="live-dot" aria-hidden="true"></span> In development &middot; no launch date yet</p>
-      <h1>Somewhere <span class="accent">unhurried</span> to play again.</h1>
+      <h1>The Orphans have their <span class="accent">old home</span> back.</h1>
       <p class="hero-lede">
-        Return to Morroc: Refuge is a custom fantasy MMO world, rebuilt from the
-        ashes of a server that closed. Same idea, better bones: every job
-        rebalanced, two new ones added, three new endgame dungeons, and not a
-        single thing for sale.
+        The orphanage went dark when the original world closed. It is being lit
+        again - same place, better bones. Every job rebalanced, two new ones
+        added, three new endgame dungeons, and not a single thing for sale.
       </p>
       <div class="cluster" style="margin-top:2rem">
         <a class="btn btn--primary" href="https://discord.gg/a5P3PFNMhn" rel="noopener">Join the community server</a>
@@ -170,7 +171,7 @@
       </div>
     </div>
     <div class="hero-art">
-      <img src="assets/img/logo-900.png" width="900" height="900"
+      <img src="assets/img/mark-900.png" width="900" height="900"
            alt="The Refuge mark: a shattered star of silver and purple shards"
            fetchpriority="high" decoding="async">
     </div>
@@ -210,8 +211,8 @@
       </a>
       <a class="card card--link reveal" href="classes.html">
         <span class="card-kicker">Classes</span>
-        <h3>Every job, rebalanced</h3>
-        <p>Line by line. The skills nobody used got attention first, and the shared baseline skills were rebuilt from scratch.</p>
+        <h3>41 classes, seven roads</h3>
+        <p>The whole tree, plus a page each: skills, strengths, weaknesses, and exactly what the rebuild changed.</p>
       </a>
       <a class="card card--link reveal" href="newjobs.html">
         <span class="card-kicker">New</span>
@@ -220,13 +221,23 @@
       </a>
       <a class="card card--link reveal" href="world.html">
         <span class="card-kicker">World</span>
-        <h3>21 distortions and three SS dungeons</h3>
+        <h3>21 distortions, three SS dungeons</h3>
         <p>Levels 85 to 150, ranked B to SS, with where to find each one - plus the new endgame the team has been building since June.</p>
       </a>
-      <a class="card card--link reveal" href="guides.html">
-        <span class="card-kicker">Guides</span>
-        <h3>The community's own writing</h3>
-        <p>Hidden quests, dungeon access, costume hunts. Written by players, collected here so nobody has to dig through chat history.</p>
+      <a class="card card--link reveal" href="start.html">
+        <span class="card-kicker">Start here</span>
+        <h3>From no name to level 130</h3>
+        <p>Your first job change, every levelling spot in order, when to specialise, and which old guides will lie to you now.</p>
+      </a>
+      <a class="card card--link reveal" href="mechanics.html">
+        <span class="card-kicker">Mechanics</span>
+        <h3>How combat actually works</h3>
+        <p>Stats, elements, attack speed, combos, and what happens to your party when you die.</p>
+      </a>
+      <a class="card card--link reveal" href="gear.html">
+        <span class="card-kicker">Gear</span>
+        <h3>1,500 items and a refine that cannot break them</h3>
+        <p>Random options, cards, runes, manuals - and the fifty-plus shadow sets that replaced the job sets.</p>
       </a>
       <a class="card card--link reveal" href="https://rtm-internal-e.vercel.app/" rel="noopener">
         <span class="card-kicker">Reference</span>
@@ -316,7 +327,7 @@
     <div class="footer-grid">
       <div>
         <a class="brand" href="index.html">
-          <img src="assets/img/icon-192.png" width="34" height="34" alt="" aria-hidden="true">
+          <img class="mark" src="assets/img/icon-192.png" width="34" height="34" alt="" aria-hidden="true">
           <span class="brand-text">
             <span class="brand-name">RETURN TO MORROC</span>
             <span class="brand-sub">Refuge</span>
@@ -334,25 +345,27 @@
         <h4>Start here</h4>
         <ul>
         <li><a href="server.html">What the Refuge is</a></li>
+        <li><a href="start.html">New player guide</a></li>
         <li><a href="join.html">How to join</a></li>
-        <li><a href="guides.html">Guides and tools</a></li>
         <li><a href="faq.html">Questions and answers</a></li>
         </ul>
       </div>
       <div>
         <h4>The game</h4>
         <ul>
-        <li><a href="classes.html">Classes and rebalances</a></li>
+        <li><a href="classes.html">All 30 classes</a></li>
         <li><a href="newjobs.html">Bouncer and Pit Boss</a></li>
-        <li><a href="world.html">Distortions and endgame</a></li>
-        <li><a href="changes.html">Every change from the original</a></li>
+        <li><a href="mechanics.html">Combat and stats</a></li>
+        <li><a href="gear.html">Items, refining, shadows</a></li>
+        <li><a href="world.html">Regions, dungeons, MVPs</a></li>
         </ul>
       </div>
       <div>
         <h4>Reference</h4>
         <ul>
-        <li><a href="https://rtm-internal-e.vercel.app/" rel="noopener">Community database</a></li>
-        <li><a href="guides.html#external">Player-written guides</a></li>
+        <li><a href="changes.html">Changes from the original</a></li>
+        <li><a href="database.html">Community database</a></li>
+        <li><a href="guides.html">Player-written guides</a></li>
         <li><a href="llms.txt">llms.txt</a></li>
         <li><a href="sitemap.xml">Sitemap</a></li>
         </ul>

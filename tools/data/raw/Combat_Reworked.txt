@@ -1,0 +1,60 @@
+== New Threats ==
+In Return to Morroc, facing monsters head-on and expecting to outstat them is a BIG problem. Monsters now have different interactions and behavior and they will cause problems if you just try to ignore them.
+
+As a side note, this acts as a basic anti-bot system...because you WILL need to move out and react.
+
+''Using Heal Lv3+ is expected from all players. Not relying on potions and items to heal. For this reason it's strongly recommended to always have a Heal Manual of any capacity in hand to improve Heal Lv available and to get basic INT for good SP Regen and Heal Power.''
+
+'''It's recommended to check [[Stat Changes|Stat Changes]] For more details on background changes.'''
+
+'''If you approach the combat the same way you approach it on vanilla RO, you will struggle, a LOT.'''
+
+== Monster AI Changes ==
+Monsters now deal very reduced auto attack damage. this is considered '''"Check"''' damage. if you can't survive this damage, it means you're not ready for this fight.
+
+* This doesn't apply to bosses.
+* Some monsters may have their basic attacks as a mechanic itself, with quick or strong hits.
+
+Monsters now cast skills very often.
+
+* Lower fields and low rank dungeons usually have long cast times, lower damage and more margin for error.
+* Higher fields and higher rank dungeons usually have quick cast times, higher punishment for errors or straight up fail mechanics.
+
+Monsters may use skills in unexpected/forbidden ways.
+
+* A Monster might use Revelation/Ruwatch on you to block your use of hiding to dodge targeted skills.
+* A Monster might use an AoE directly on you as a targeted skill instead of self to check your positioning and your party.
+* A Monster might use offensive skills that you need to take advantage of to prepare for the next action, like it creating a Safety Wall and a few seconds later instantly cast a heavy hitting melee skill.
+
+'''All monsters can be killed with the approapriate gear. They might just need thinking about how to approach this situation.'''
+
+== Monster Group Changes ==
+* Regular monsters fight with direct skills and behavior. They are the common monsters found everywhere.
+* Champion monsters are stronger than the other monsters of the same area and require attention to fight. They usually provide much higher EXP than usual.
+* Mini-Bosses are strong monsters that usually have weaker variations of MVP's mechanics, they are a good practice method, when available, before taking on a MVP.
+* MVP Bosses hit hard and have aggressive patterns, they may have specific punishment and counter skills to common tricks, They may have long casts for simple skills denoting it's not time to run, but to take advantage of it. Most MVPs don't resummon slaves, and some don't have any of them. They may also change behaviour when their HP get lower.
+* Some monsters might always come in pairs or summon other unique monsters when a certain condition is met. This is very relevant for creating specific conditions, including Dracomancer's job quest.
+
+''Note: All MVPs can be solo killed by a prepared and well geared player of the same level, it can be very stressing and require perfect play, but it's possible.''
+
+== Basic Combat Mechanics ==
+It all depends on four factors.
+
+1- The Enemy is a Boss. In this case, you can't directly hide from it's skills. You'll need to either survive targeted skills or find barriers/break sight line.
+
+2- The Enemy is a Demon or Insect. In this case you can use the same strategy as bosses or wear equipment/cards that grant you perfect hiding.
+
+3- The Enemy is anything else. Regular fightning mechanics apply.
+
+4- The Enemy is using a special skill in an unexpected way (usually only in Rank S dungeons), the skill cannot be avoided and must be handled indirectly such as by failing a skill dodge on purpose, swapping gear or other ways.
+
+'''Some Skill Types:'''
+Keep in mind some monsters are immune to Silence or Stun due to high status.
+
+* Targeted Cast: Just hide or break sight line. You can also silence or stun the target.
+* Untargeted Cast: Usually means an AoE around self or specific skill. move away just in case.
+* Small circle ground Cast: Usually means a directional skill, move out of that direction.
+* Large circle ground Cast: A Large AoE on the shown Area.
+* Red Squares around caster: A strong skill with unique properties. Move out.
+
+''NOTE: It may be also a valid strategy to knockback monsters so their AoE around themselves don't hit you or your party.''

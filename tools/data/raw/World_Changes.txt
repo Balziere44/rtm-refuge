@@ -1,0 +1,74 @@
+== A New World ==
+Return to Morroc provides a familiar world with entirely new rules. In this page, you can understand the major behavior changes, along with layout differences.
+
+=== World Map Layout Changes ===
+The World map has been fully reworked. Previously accessible areas are no longer included, while many areas have been greatly expanded.
+
+Changes Compared to Vanilla RO (Overall, includes information from both pre-renewal and renewal):
+* New World has been completely removed, including most of its locations.
+* Louyang, Brasilis, and Gonryun and their dungeons have been completely removed. Moscovia Dungeon has also been removed.
+* Dicastes (Diel only) and Mora have been reworked into brand-new locations in New-Midgard.
+* Splendide Forest is now an area that bridges Geffen Fields West and Comodo Forest.
+* Lutie Field has been removed and replaced by Snow Fields, which comprise a larger region and provide access to Dicastes Diel (Sage's Palace).
+* Grey Forest Area is available, now including the added Nomad Village.
+* Morroc Desert Maps are in their pre-destruction version.
+* All fields from pre-renewal that were removed in renewal (like West Orc Village) are restored.
+* Some fields have expanded to include once-inaccessible areas, sometimes with new secrets or dungeons.
+* Verus can be accessed through either Juperos East Ruins (Inside Juperos Dungeon) or an elevator in the Yuno East Peninsula (Expanded area, previously unavailable).
+
+=== Dungeon Changes ===
+Besides the introduction of lore-friendly new dungeons like Kafra Warehouse, Alchemist Fortress, or Lost Island, many other places have undergone major changes.
+
+* It's important to note that every single monster has been fully reworked combat-wise, with most receiving visual updates and some even having entirely new sounds.
+* Some dungeons have reworked themes, such as Kiel Dungeon becoming an abandoned factory with rusty robots, or Ant Hell transforming into the Society Nest, complete with city ruins.
+* Most dungeons have received visual updates; for instance, Forest Maze is now a darker forest overall.
+* Dungeons with issues have had walkways added (most mazes), convenience passages (Payon Dungeon), or entirely reworked floors (Amatsu Dungeon 1F).
+* The entrances to many classic dungeons have been relocated, such as Geffen Cave and Geffenia.
+* Overly long dungeons have had filler floors removed.
+* Thanatos Tower specifically has had all quest, party, and price requirements removed, and now consists of only 6 floors.
+* All Access Quests have been completely removed.
+* Previous MVPs that required quests to summon (like Thanatos, Ktullanux, etc.) no longer require them and operate on the usual respawn timer.
+
+=== Travel Changes ===
+The way the world functions for long travels has undergone minor changes for convenience and lore adaptation.
+
+* The Airship is no longer available to Orphans, except for the one in Lighthalzen (which transports players to Varmundt's Mansion).
+* Kafra Teleportation can now take players to any city within a region or to another region's capital (Prontera, Yuno, Rachel).
+* To reach the Eastern Islands (Amatsu, Ayothaya, Moscovia, and Malaya), players can take a ferry from Alberta.
+* Traveling to Dewata requires taking the Daedalus Route; the ship can be found in Comodo Pharos.
+* Traveling to the Snow Fields (including Lutie and Dicastes Diel) can be done by taking a boat from Hugel.
+* Mora, Niflheim, and Nomad Village can all be accessed on foot.
+
+=== City Changes ===
+Many cities have undergone major changes compared to their presentation in vanilla RO:
+
+* Lighthalzen is now a bankrupt fallen city, filled with poverty. The guard that once blocked access to the slums and city no longer exists, allowing free passage.
+* Veins is enveloped in a dense fog, rumored to house the MVP Beelzebub. Most facilities are now indoors.
+* With the collapse of Geffen underground, the tower stairs now lead directly to Geffenia. Access to Geffen Cave is through a cave south of Geffen.
+* Orc Village has declined significantly from its former glory.
+* Umbala's inhabitants now speak fluent English after extensive study.
+* Rachel is now populated by Freya cultists, making it relatively safe on the streets but dangerous elsewhere.
+* Classic Payon is accessible as a distortion deep inside the Sunken Temple.
+* The Island Monastery represents a distortion of Nameless Island before it succumbed to monster infestation.
+
+=== Item/Skill Behavior Changes ===
+Due to the focus on world exploration and efficient movement, "cheating" movement options have been adjusted with new quality-of-life changes.
+
+* Fly Wing and Teleport now have significantly increased cooldowns and are not recommended for quick travel.
+* Movement speed has been increased, and all players now have default access to Increase Agility Lv1, along with many more movement speed options.
+* Some dungeons have disabled teleportation.
+* All distortion dungeons have disabled teleportation.
+* Consumables are now heavier, and it's not advisable to carry more than a few due to cooldowns and effectiveness. They are no longer required for usual gameplay.
+
+=== Monster Changes ===
+* All monster levels, behaviors, drops, and details have been reworked.
+* Many monsters now feature changed palettes and sprites.
+* Several monsters have had new sounds added.
+* Most monsters are now aggressive by default.
+
+=== Shop Changes ===
+* Tool dealers mostly sell the same items.
+* A cook shop offering stat foods (+1 to +7) at varied prices is available in some cities. Note that these food buffs do not stack.
+* Weapon and armor shops are now region-based. Each region specializes in specific equipment types: Midgard, Schwarzwald, Arunafeltz, Islands, Tribal, and Niflheim.
+* All dropped equipment can be sold to NPCs for 250z. Shadow Pieces are sold for 500z.
+* Shadow Pieces can be dismantled at the Orphanage for varying amounts of Shadowdecons.

@@ -1,0 +1,97 @@
+[[File:Morroc Logo.png|thumb|300px|File:Morroc Logo.png|Everyone has a story, even your character!]]
+
+Everyone has a story, even your character!
+The main story quest gives you a chance to figure out all the questions you may have about who you are, what's the mark, who are the Orphans and much more!
+'''It's completely optional but does have a few rewards.'''
+
+=== Main Story Progression ===
+
+The main story is comprised of 12 Quests + Tutorial Introduction. With 8 Instances in total.
+'''Note that only the tutorial and chapters 1-5 of the main story quest are currently available. The remainder will be implemented with upcoming patches.'''
+
+{| class="wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|-
+! style="background-color:#99d9ea; text-align:center;" | Quest
+! style="background-color:#99d9ea; text-align:center;" | Description
+! style="background-color:#99d9ea; text-align:center;" | Rewards
+! style="background-color:#99d9ea; text-align:center;" | Location
+! style="background-color:#99d9ea; text-align:center;" | Requirement
+|-
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 30%;" | Remember Who You Are / Orphan Tutorial Instance
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 40%;" | You must remember who you are, before you can return...
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Scarf of Choice
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | New Character
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | None
+|-
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 30%;" | A Cool Lady / Beautiful People Instance
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 40%;" | ...to find a place that is not what it seems...
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Lost Attire Set
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Morroc Ruins
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Base Level 10
+|-
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 30%;" | Iron Angels
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 40%;" | ...to meet people who know who you are...
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | 15,000z
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Payon Guild Area
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Base Level 20
+|-
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 30%;" | Hello Message / Regards from Hino Instance
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 40%;" | ...and reunite with old friends.
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Unique Ring (Possible)
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Payon
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Base Level 30
+|-
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 30%;" | You Idiot
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 40%;" | The truth may not always be clear...
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Costume
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Geffen
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Base Level 40
+|-
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 30%;" | The Contact / Streets at Night Instance
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 40%;" | ...you will have to look for it quietly...
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Yggdrasil Berry
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Aldebaran
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Base Level 50
+|-
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 30%;" | The Warrior from Arunafeltz
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 40%;" | ...and meet new friends...
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Manual of Choice
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Hugel
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Base Level 60
+|-
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 30%;" | For Home / Desperate Defense Instance
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 40%;" | ...while keeping the old ones alive...
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Costume
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Hugel
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Base Level 70
+|-
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 30%;" | Welcome, Orphan.
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 40%;" | ... and knowing when it's time to move on
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Accessory
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Dicastes Diel
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Base Level 80
+|-
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 30%;" | The Red Eye / Escape from Rachel Instance
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 40%;" | The truth may lie where you least expect...
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Headgear
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Rachel
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Base Level 90
+|-
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 30%;" | A Hammer for a Nail
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 40%;" | ... and hurt where you least expect...
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | 25,000z, Unique Job Costume.
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Mjolnir Mountain
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Base Level 100
+|-
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 30%;" | Blue Hair Blues / I Remember my Family Instance
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 40%;" | ... while your heart struggles ...
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Weapon of Choice
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Nomad Village
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Base Level 110
+|-
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 30%;" | Morroc's Mark? / Devourer of Worlds Instance
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 40%;" | ... but your life is yours again.
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Infinite Convex Mirror
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | -Spoiler-
+| style="border-left:1px solid #ccc; border-right: 1px solid #ccc; width: 10%;" | Base Level 120
+|}

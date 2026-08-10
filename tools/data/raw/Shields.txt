@@ -1,0 +1,470 @@
+Here's the content converted from HTML to MediaWiki format:
+
+Apart from the shields sold by NPC's ('''[[NPC Equipment|Check here]]''') and their +1 slot equivalent that can be droped from field monsters.
+This page lists other shields that can be obtained from dungeons.
+
+Armguards exclusive to the [[Prowler]] Job are listed after regular shields.
+Offhand Daggers exclusive to the [[Shadowseer]] Job are also listed.
+
+== Shields list ==
+{| class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+ [[File:GuardIcon.gif]] Comprehensive List of Shields
+|-
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;width:40px;padding:5px" | Req.<br/>Lv
+! style="background: #99d9ea;width:40px;padding:5px" | DEF
+! style="background: #99d9ea;width:40px;padding:5px" | MDEF
+! style="background: #99d9ea;width:40px;padding:5px" | Weight
+! style="background: #99d9ea;padding:5px" | Effects
+! style="background: #99d9ea;padding:5px" | Innate Bonus
+! style="background: orange;padding:5px" | Obtained from
+|-
+| '''Shield of the Orphan [0]'''
+| 1
+| 010
+| 003
+| 50
+| Cannot be Refined<br/>HP+50<br/>EXP Received +10%<br/>SP Regen+20%<br/>Cannot be Worn past Lv30<br/><span style="color:blue">Illusionist Only</span>
+| Auto Guard Lv. 3
+| Orphan Voucher
+|-
+| '''Golden Buckler [1]'''
+| 10
+| 010
+| 010
+| 80
+| HP Regen +60%<br/>VIT+2
+| Auto Guard Lv. 6
+| Prontera Culvert
+|-
+| '''Lost Bunny [1]'''
+| 15
+| 020
+| 007
+| 50
+| All Stats +2<br/>Every 2 refines:<br/>Max HP +1%<br/>Max SP +1%
+| Auto Guard Lv. 5
+| Pyramid Basement - MVP
+|-
+| '''Scaraba Tower [1]'''
+| 15
+| 020
+| 000
+| 150
+| Flat Defense +10<br/>HP Regen +20%
+| Auto Guard Lv. 10
+| Insect Society Nest
+|-
+| '''Mad Bunny [0]'''
+| 15
+| 015
+| 005
+| 50
+| All Stats +1
+| Auto Guard Lv. 4
+| Pyramid Basement - MVP
+|-
+| '''Iron Shield [0]'''
+| 25
+| 030
+| 000
+| 150
+| Shield Boomerand DMG+25%<br/>DEF+4%
+| Auto Guard Lv. 8
+| Byalan Island
+|-
+| '''Silver Guard [1]'''
+| 40
+| 010
+| 002
+| 80
+| Flat Defense +10%<br/>HP+100<br/>SP+10
+| Auto Guard Lv. 10
+| Kobold Leader
+|-
+| '''Clock Shield [1]'''
+| 40
+| 015
+| 005
+| 80
+| Move Speed +10%<br/>Flee +15<br/>ASPD Limit +1
+| Auto Guard Lv. 4
+| Clock Tower
+|-
+| '''Giant Shield [1]'''
+| 45
+| 010
+| 001
+| 300
+| Immune to Knockback.<br/>HP+150
+| Auto Guard Lv. 1
+| Turtle Dungeon
+|-
+| '''Ram Shield [1]'''
+| 50
+| 035
+| 000
+| 450
+| HP+2% per refine<br/>VIT+3<br/>ASPD-10
+| Reflect Melee Damage. 10%
+| Einbroch Mines
+|-
+| '''Thorny Shield [1]'''
+| 50
+| 020
+| 000
+| 100
+| Reflects 10% short-range physical damage<br/>HP/SP+3%<br/>ATK/MATK+1
+| Auto Guard Lv. 5
+| Airship Crash Site
+|-
+| '''Shield of Living Flame [1]'''
+| 50
+| 005
+| 005
+| 100
+| ASPD+3<br/>(Shields have a small ASPD penalty)
+| Auto Guard Lv. 8
+| Dewata Volcano
+|-
+| '''Kalasag [1]'''
+| 70
+| 015
+| 006
+| 80
+| Healing Power +11%<br/>SP+3%
+| Auto Guard Lv. 9
+| Malaya
+|-
+| '''Backwak [1]'''
+| 70
+| 006
+| 004
+| 50
+| Flee +7<br/>Water Element Resist. +10%<br/>Every 9 base AGI gives you 2 extra flat DEF and 1 Perfect Dodge
+| Auto Guard Lv. 2
+| Dragon Nest
+|-
+| '''Cursed Knight's Shield [1]'''
+| 70
+| 030
+| 001
+| 350
+| HP +1% per refine<br/>Shield Boomerang and King's Chains knockbacks +2 cells<br/>5% chance to drain 5% damage dealt with physical attacks<br/>Move Speed -20%
+| Auto Guard Lv. 6
+| Glast Heim
+|-
+| '''Orlean's Server [1]'''
+| 80
+| 005
+| 005
+| 80
+| Variable Cast Time -20%<br/><br/>Orleans Set:<br/>Shield Armor Glove Necklace.<br/>'''[Set Bonus]'''<br/>DEX+10
+| Auto Guard Lv. 5
+| Kiel Dungeon
+|-
+| '''Rose of Eden [1]'''
+| 80
+| 005
+| 020
+| 80
+| SP Regeneration +50%
+| Auto Guard Lv. 2
+| Dark Rose Dragon
+|-
+| '''Atlas Shield [1]'''
+| 80
+| 025
+| 000
+| 300
+| ASPD-50<br/>Critical Defense Rate +50%<br/>Atlas Set:<br/>Weapon and Shield<br/>'''[Set Bonus]'''<br/>All Stats +3
+| Auto Guard Lv. 5
+| Miguel
+|-
+| '''Eternal Glacier Shield [1]'''
+| 80
+| 015
+| 015
+| 150
+| HP +7%<br/><br/>5% chance to freeze when hit<br/>Chance improves 1% per refine
+| Auto Guard Lv. 9
+| [[Dicastes Diel Equipment|Dicastes Diel Exchange]]
+|-
+| '''Diamond Shield [1]'''
+| 80
+| 010
+| 030
+| 350
+| 30% chance to reflect targeted magic<br/>Enables Elusive Feint Lv1
+| Reflect Melee Damage. 15%
+| Crystal Caves
+|-
+| '''Electro Buckler [1]'''
+| 90
+| 001
+| 010
+| 80
+| Shield Boomerang has 5% per refine chance to autocast Lightning Bolt<br/>Wind Resistance +15% +2% per refine<br/>Shield Boomerang Cooldown +1s
+| Auto Guard Lv. 4
+| Kiel Hyre University
+|-
+| '''Memento of Families [1]'''
+| 95
+| 020
+| 005
+| 200
+| Enables Coluceo Heal Lv2<br/>All Stats +3 when worn along with one of Mother's Scarf
+| Auto Guard Lv. 8
+| Morroc Castle
+|-
+| '''Hervor Alvitr [0]'''
+| 100
+| 023
+| 007
+| 100
+| Permanent Endure effect.<br/>HP +5%<br/>Final Damage Reduction +1% per refine.
+| Auto Guard Lv. 10
+| Sky Garden Exchange
+|-
+| '''Excelion Shield [1]'''
+| 100
+| 025
+| 003
+| 75
+| DEF+5 per refine<br/>If Refine is +9:<br/>Total DEF+5%<br/>Excelion Set:<br/>Suit Wings Legs Gloves Shield and Visor<br/>'''[Set Bonus]'''<br/>All Stats +4<br/>All Damage taken -5%<br/>Heal Cooldown -0.5s<br/>HP/SP Regen +20%
+| Auto Guard Lv. 10
+| Verus Underground
+|-
+| '''Darkness Armguard [1]'''
+| 100
+| 005
+| 010
+| 50
+| Total Flee +10%<br/>Perfect Dodge +10<br/>Perfect Hit +10%
+| Auto Guard Lv. 2
+| Abyss Glast Heim
+|-
+| '''Valkyrie Shield [0]'''
+| 100
+| 025
+| 010
+| 100
+| Final Damage Taken -5%<br/>Flat DEF+15
+| Auto Guard Lv. 9
+| Odin Temple
+|-
+| '''Battle Glory Shield [1]'''
+| 100
+| 010
+| 010
+| 350
+| King's Chains DMG+25%<br/>ATK+1% per 2 refines<br/>SP Consumption +20%
+| Auto Guard Lv. 1
+| Thanatos Tower
+|-
+| '''Pride of the Underworld [1]'''
+| 105
+| 005
+| 012
+| 100
+| Conflagration DMG+20%<br/>Phantom Spear DMG+20%<br/>MATK+10<br/>INT+2
+| Auto Guard Lv. 8
+| Opera House
+|-
+| '''Golden Glory Shield [1]'''
+| 110
+| 025
+| 000
+| 80
+| Ranged Damage Taken -10%<br/>MDEF+2 per refine
+| Auto Guard Lv. 10
+| Invaded Prontera
+|-
+| '''Reginleif's Ward [1]'''
+| 110
+| 030
+| 001
+| 250
+| Shield Boomerang DMG+200%<br/>Shield Boomerang Knockback 10 cells<br/>HP+5%<br/>Shield Boomerang Cooldown +8s
+| Auto Guard Lv. 9
+| Odin Temple Past
+|-
+| '''Shield of Death [1]'''
+| 120
+| 050
+| 020
+| 230
+| Healing Received +100%<br/>Healing Done -50%
+| Reflect Melee Damage. 13%
+| Death's Castle
+|-
+| '''Core Shield [1]'''
+| 120
+| 010
+| 015
+| 100
+| 3% per refine chance to autocast Lv3 Heal when hit<br/>HP+1% per refine
+| Auto Guard Lv. 2
+| Regenschutz Lab
+|-
+| '''Veil of Light [1]'''
+| 125
+| 010
+| 020
+| 30
+| Holy Element Armor<br/>HP Regen+100%<br/>SP Cost-5%
+| Auto Guard Lv. 7
+| Divine Temple of Freya
+|-
+| '''Asgard's Broken Wall [1]'''
+| 130
+| 050
+| 015
+| 250
+| Increase resistance to all elements except neutral by 2% per refine<br/>SP+2% per refine<br/>Drains whole SP when unequipped
+| Reflect Melee Damage. 15%
+| Dimensional Gorge
+|-
+| '''Royal Shield [0]'''
+| 130
+| 015
+| 005
+| 120
+| HP+6%<br/>King's Chain DMG+4% per refine
+| Auto Guard Lv. 9
+| Lost Tomb of the King
+|}
+
+== Offhand Gear list ==
+{| class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+ [[File:ProwlerArmguard.png|18px]] Prowler Armguards
+|-
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;width:50px;padding:5px" | Req.<br/>Lv
+! style="background: #99d9ea;width:60px;padding:10px" | Perfect Dodge
+! style="background: #99d9ea;padding:5px" | Effects
+! style="background: #99d9ea;padding:5px" | Innate Bonus
+! style="background: orange;padding:5px" | Obtained from
+|-
+| '''Prowler's Armguard [0]'''
+| 0
+| 5
+| Flee+10<br/>Perfect Dodge +1 per Refine<br/>
+| Backstab DMG +5% per Refine
+| Job Quest
+|-
+| '''Subterfuge Armguard [0]'''
+| 50
+| 3
+| Perfect Dodge +1 per Refine<br/>When Using \Whirling Kunai\ automatically backslides
+| Backstab DMG +3% per Refine
+| Black Market
+|-
+| '''Missing Armguard [0]'''
+| 55
+| 0
+| ATK +1% per 100 flee
+| Backstab DMG +15% per Refine
+| Airship Crash Site
+|-
+| '''Powerstab Armguard [0]'''
+| 70
+| 4
+| Perfect Dodge +1 per Refine<br/>Backstab Knockbacks 5 cells
+| Backstab DMG +6% per Refine
+| Glastheim
+|-
+| '''Dragon Soul Armguard [0]'''
+| 70
+| 0
+| Backstab DMG +50%<br/>Backstab SP Cost +100%<br/>Total Hit +10%<br/>Perfect Dodge +2 +1 per refine
+| Backstab DMG +5% per refine
+| Dragon Nest
+|-
+| '''Slider Armguard [0]'''
+| 90
+| 10
+| Perfect Dodge +2 per Refine<br/>Enables Backslide with a reduced cooldown of 1 second.
+| Backstab DMG +2% per Refine
+| Kafra Warehouse
+|-
+| '''Scorpion Armguard [0]'''
+| 110
+| 6
+| Perfect Dodge +1 per Refine<br/>Flying Knife DMG +5% per Refine
+| Backstab DMG +4% per Refine
+| Varmundt Mans
+|-
+| '''Castle Armguard [0]'''
+| 120
+| 7
+| Perfect Dodge +1 per refine<br/>HP+2% per refine<br/>Backstab Autocasts Kaupe<br/>Backstab SP Cost+50%
+| -
+| Death's Castle
+|-
+| '''Demon God Armguard [0]'''
+| 130
+| 15
+| Perfect Dodge +1 per refine<br/>Shadow Stab SP Cost-75%<br/>ASPD +1 per refine<br/>All Stats +1 per refine<br/>HP/SP+2% per refine
+| -
+| Dimensional Gorge
+|}
+{| class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+ [[File:SeerOffHand.png|19px]] Shadowseer Offhand Daggers
+|-
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;width:50px;padding:5px" | Req.<br/>Lv
+! style="background: #99d9ea;width:60px;padding:10px" | Double Attack
+! style="background: #99d9ea;padding:5px" | Mastery
+! style="background: #99d9ea;padding:5px" | Effects
+! style="background: #99d9ea;padding:5px" | Per Mastery Level
+! style="background: orange;padding:5px" | Obtained from
+|-
+| '''Specter Dagger [0]'''
+| None
+| 10% per Mastery level
+| Spectral Mastery
+| -
+| Attack Range +1<br/>MATK+1%<br/>ASPD+1<br/>INT+1
+| Job Quest, Sunken Temple
+|-
+| '''Death Rune Dagger [0]'''
+| 50
+| 10% per Mastery level
+| Spectral Mastery
+| Magic Defense Pierce +10%<br/>5% chance to autocast Lv3 Samsara Burst
+| MATK +1%<br/>INT +1<br/>HP +1%
+| Regenschirm Lab
+|-
+| '''Astro Dagger [0]'''
+| 90
+| 10% per Mastery level
+| Spectral Mastery
+| -
+| Magic Defence Pierce +5%<br/>ASPD Limit +1 per Spectral Mastery<br/>Attack Range +1<br/>MATK+1%<br/>1% chance to summon all 5 spheres on attack
+| Waterfall Caves
+|-
+| '''Umbra Dagger [0]'''
+| 90
+| 10% per Mastery level
+| Spectral Mastery
+| ASPD Limit +1 per Mastery Level
+| Attack Range +1<br/>MATK+1%<br/>1% to autocast Umbral Cut Lv1<br/>Umbral Cut DMG+5%
+| Odin Temple, Opera House
+|-
+| '''Sacrifice [0]'''
+| 95
+| 10% per Mastery level
+| Spectral Mastery
+| Every 5 Luk adds 1% ASPD<br/>ASPD Limit +3<br/>Every 10 Luk adds 1% MATK<br/>'''<span style="color: palegoldenrod">Holy</span>''' Endow on Weapon
+| Attack Range +1
+| Morroc Castle
+|-
+| '''Jormungandr's Fang [0]'''
+| 130
+| ??% per Mastery level
+| Spectral Mastery
+| Equinox Summons 5 Seals<br/>Umbral Cut always autospells Convention Astral Weapon Astral Mastery and Spectral Servants<br/>Umbral Cut DMG-50%
+| ASPD+2 per Spectral Mastery<br/>Attack Range +1
+| Jormungandr's Lair
+|}

@@ -1,0 +1,157 @@
+== [[File:Satsujin.gif|25px]]Jack of all trades ==
+
+The Satsujin is skilled in all ways of combat. It can wield melee, ranged and magic skills, all at once if needed.
+
+It's skills are fully modular according to the use case needed, as long as a proper skill path is planned.
+
+'''Best:''' Access to all elements at will, all kinds of damage and full scope of damage types. Excellent for solo and coverage.
+
+'''Worst:''' Skill point starved, doesn't shine in anything in particular, can be hard to extract the best all at once, some long cooldowns.
+
+'''Weapons:''' Daggers
+
+== Gameplay Identity ==
+The Satsujin can handle any fight in any situation due to its high variety of skills, this makes them:
+
+'''A reliable fighter that has the tools for any situation and any difficulty, being the most adaptable job among all.'''
+
+With the high variety of skill types, building for a Satsujin under a single "style" is not recommended. A good Satsujin will know what they need to excel in any combat situation using their multitude of tools.
+
+Wielding the Shinobi skills with a new concept, the change of elements, change of attack types and change of combat situations constantly put the Satsujin in a very privileged position against an enemy that might be impossible for someone else to fight.
+
+The difference between a mediocre Satsujin and a great Satsujin is very easy to see during combat due to how they can make their skills synergize or not.
+
+== Core Gameplay Loop ==
+Final jobs always have varied core loops. The Satsujin has one of the most skill point starved trees in the game along with the [[Kingslayer]], making them an easy job to pick-up and handle any content in the game...but hard to use effectively in all cases.
+
+Satsujin also has direct benefits from the Elemental Focus from its Thief skills, allowing it to push its spells in new ways.
+
+* Using Darkness Rises as a sudo-opener can create good combat opportunities.
+* The Omamori talisman skills can prepare the area and be a great and reliable combat opener due to their %-HP based damage.
+* A great satsujin when in a party will know what the party lacks the most and make sure to cover this base to the best of their ability.
+* All builds should consider '''Seven Winds''' from Shinobi Specialization as a way to fully modulate and focus on enemy weaknesses.
+* '''Final Skill:''' Million Stab. Deals 20 quick hits against all targets in a small area.
+
+A smart Satsujin will know how to rotate its skills based not only on its equipment but according to the '''combat situation''', as the correct placement of a debuff or a talisman can change the tide of battle in an instant.
+
+== Skills ==
+{| class="wikitable" style="font-weight:normal; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+! style="text-align:center; background-color:#99d9ea;" | Skill
+! style="text-align:center; background-color:#99d9ea;" | Max Level
+! style="text-align:center; background-color:#99d9ea;" | Description
+! style="text-align:center; background-color:#99d9ea;" | Skill Type
+! style="text-align:center; background-color:#99d9ea;" | Details
+! style="text-align:center; background-color:#99d9ea;" | Scaling
+|-
+| [[File:Advblade.gif|26px]] Adv. Blade Mastery
+| Lv 5
+| Increases Attack and hit rate with swords and daggers.
+| Passive
+| Added as a flat bonus in damage.
+| No
+|-
+| [[File:Lotuspact.gif|26px]] Lotus Pact
+| Lv 5
+| Clears your mind for 10 seconds to quickly regen HP and SP.
+| Self-Support
+| Chance to randomly avoid damage taken when in this state.
+| No
+|-
+| [[File:Dragonomamori.gif|26px]] Dragon Omamori
+| Lv 10
+| Applies a fire talisman to an enemy, dealing damage and allowing it to explode later.
+| Special Ranged
+| Can be detonated with Omamori Jutsu to deal extra damage.
+| DEX
+|-
+| [[File:Bindingomamori.gif|26px]] Binding Omamori
+| Lv 5
+| Applies a sticky trap on the ground that slows down enemies inside.
+| Ground AoE Special
+| Can be detonated with Omamori Jutsu to deal HP %-based damage.
+| DEX
+|-
+| [[File:Omamorijutsu.gif|26px]] Omamori Jutsu
+| Lv 1
+| Detonates any Dragon or Binding Omamoris applied nearby.
+| Special
+| Requires 1 Talisman per use.
+| No
+|-
+| [[File:Moonlightstance.gif|26px]] Moonlight Stance
+| Lv 5
+| Enables use of New Moon Blades and Full Moon Blades.
+| Self-Support
+| Also Increases Max HP per level while active.
+| No
+|-
+| [[File:Newmoonblades.gif|26px]] New Moon Blades
+| Lv 5
+| Attacks surrounding enemies and vanishes for a few seconds.
+| AoE around Self Melee
+| Can attack while invisible briefly.
+| AGI
+|-
+| [[File:Fullmoonblades.gif|26px]] Full Moon Blades
+| Lv 5
+| Reappears after vanishing with New Moon Blades dealing AoE damage.
+| AoE around Self Melee
+| Can only be used while invisible.
+| AGI
+|-
+| [[File:Darknessrises.gif|26px]] Darkness Rises
+| Lv 10
+| Applies Satsujin's Curse to all enemies in an area and improve other skills.
+| AoE around Enemy
+| Higher chance with higher level, guaranteed at Lv10.
+| No
+|-
+| [[File:Darknessfalls.gif|26px]] Darkness Falls
+| Lv 10
+| Deals strong Dark damage to all enemies in an area.
+| Ranged AoE around Enemy
+| Damage greatly increased vs Satsujin's Curse damage.
+| LUK
+|-
+| [[File:Darknessflows.gif|26px]] Darkness Flows
+| Lv 10
+| Deals strong Ghost magic damage to all enemies in an area, chance to cause curse status.
+| Magic AoE around Enemy
+| Damage greatly increased vs Satsujin's Curse damage.
+| INT
+|-
+| [[File:Burningsteps.gif|26px]] Burning Steps
+| Lv 10
+| Create a trail of fire when walking around dealing magic damage.
+| Magic on move
+| Duration and amount of steps increases with level, extra damage bonus with fire focus.
+| INT
+|-
+| [[File:Frozenwind.gif|26px]] Frozen Wind
+| Lv 10
+| Throws massive shards of ice in a small area to hit all enemies.
+| Magic AoE
+| Quick cast, long cooldown, extra damage bonus with water focus.
+| INT
+|-
+| [[File:Frozenwind.gif|26px]] Frozen Wind
+| Lv 10
+| Throws massive shards of ice in a small area to hit all enemies
+| Magic AoE
+| Quick cast, long cooldown, extra damage bonus with water focus
+| INT
+|-
+| [[File:Zephyrgust.gif|26px]] Zephyr Gust
+| Lv 10
+| Throws blades of wind quickly to all enemies between caster and target
+| Magic Line AoE
+| High spam rate, quick cast and cooldown, extra damage bonus with wind focus
+| INT
+|-
+| [[File:Millionstab.gif|24px]] Million Stab
+| Lv 10
+| Quickly strikes all enemies in a small area with strong hits
+| Melee AoE
+| Extra damage vs Satsujin's Curse targets, very high base cooldown
+| AGI and DEX
+|}

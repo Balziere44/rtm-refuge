@@ -1,0 +1,384 @@
+= <span id="Unchained_Limits" class="mw-headline">Unchained Limits</span> =
+
+The Unchained subclasses are evolutions of non-final thief tree jobs. They provide unique gameplay progression properties.
+
+There are 3 possible separate paths: Unchained Thief (eventually Phantom Thief), Unchained Assassin and Unchained Rogue.
+
+'''The Core Feature of these jobs is that they receive EVERY skill from their trees when unchained.''' '''They also have unique items that increase in power according to their Job Level.'''
+
+Main Advantage: Large variety of skills ([[web/20230816215610/https://returntomorroc.com/wiki/index.php/Thief|Thief]]), higher level cap of Lv13 for some skills with new interactions ([[web/20230816215610/https://returntomorroc.com/wiki/index.php/Assassin|Assassin]] and [[web/20230816215610/https://returntomorroc.com/wiki/index.php/Rogue|Rogue]]), access to &quot;Unchained Only&quot; Items.
+
+Main Disadvantage: No dedicated Lv100+ Shadow Sets, limited skill ceiling, requires overly focused gear to shine.
+
+== <span id="The_Master_Room" class="mw-headline">The Master Room</span> ==
+
+The Master Room is located near the back of the Orphanage. Access to it is restricted to any of the following criteria:
+
+* Assassin or Rogue at Base Level 100/Job Level 50
+* Thief of Job Level 50
+* Any Unchained Job
+
+Inside the room, ways to unchain the job and Iruga can be found, along with some other informative NPCs.
+
+== <span id="Unchained_Thief" class="mw-headline">Unchained Thief</span> ==
+
+The Unchained Thief is a master of mixed fighting. A separate path from Unchained Rogue and Unchained Assassin, it boasts a limited selection of skills from both the Assassin and the Rogue branches.
+
+The Max Job Level of the Unchained Thief is 50. Once an Unchained Thief reaches Base Level 100, they can evolve into a Phantom Thief.
+
+'''Requirement to change job:''' Thieves must deliver a MVP Prize Box to the corresponding Master in the room.
+
+=== <span id="Unchained_Thief_Skills" class="mw-headline">Unchained Thief Skills</span> ===
+
+Skills have no required order/tree progression to be learned.
+
+'''Assassin Skills'''
+
+{|class="wikitable" style="font-weight:normal; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+! style="text-align:center; background-color:#99d9ea;" | Skill
+! style="text-align:center; background-color:#99d9ea;" | Max Level
+! style="text-align:center; background-color:#99d9ea;" | Description
+! style="text-align:center; background-color:#99d9ea;" | Skill Type
+! style="text-align:center; background-color:#99d9ea;" | Details
+! style="text-align:center; background-color:#99d9ea;" | Scaling
+|-
+| [[File:Sm_sword.gif|24x24px|Sm sword.gif]] Blade Mastery
+| Lv 10
+| Increases attack with swords and daggers by 3 per level.
+| Passive
+| Also increases ASPD by 1% per level.
+| No
+|-
+| [[File:As_shadowslash.gif|26x26px|As shadowslash.gif]] Shadow Slash
+| Lv 10
+| Teleports to an enemy and attemps a critical attack 3 times.
+| Offensive
+| Requires a Dagger or Sword.
+| LUK
+|-
+| [[File:As_fanofknives.gif|26x26px|As fanofknives.gif]] Fan of Knives
+| Lv 5
+| Quickly spins throwing daggers around hitting nearby enemies.
+| Offensive AoE
+| Damage is improved by any kunai or flying dagger equipped.
+| No
+|-
+| [[File:Gc_hallucinationwalk.gif|26x26px|Gc hallucinationwalk.gif]] Hallucination Walk
+| Lv 5
+| Increases flee by 12 and Magic Dodge by 10% per level for duration.
+| Self-Support
+| Requires a Shadow Orb. Duration is 50s, Cooldown is 100s
+| No
+|-
+| [[File:As_cloaking.gif|26x26px|As cloaking.gif]] Cloaking
+| Lv 10
+| Become invisible. Does not require a wall to be used at any level.
+| Self-Support
+| High cooldown and low SP cost, Increases critical rate.
+| No
+|-
+| [[File:As_kunai.gif|26x26px|As kunai.gif]] Flying Knife
+| Lv 5
+| Throws an equipped Flying Dagger or Kunai at an enemy.
+| Offensive Ranged
+| Element is based on item thrown, item is not spent on use.
+| No
+|-
+| [[File:As_poisonreact.gif|26x26px|As poisonreact.gif]] Venom Coat
+| Lv 5
+| Counters poison attacks with a massive hit. All other elements are countered with Envenom.
+| Self-Support
+| Requires a Shadow Orb. Duration is 25+5s per level, Cooldown is 70s
+| No
+|-
+| [[File:Mo_explosionspirits.gif|26x26px|Mo explosionspirits.gif]] Fury
+| Lv 5
+| Enters fury state boosting critical rate by 1 per level. Enables certain Executioner skills.
+| Self-Support
+| Requires a Shadow Orb. Duration increases per level, allows constant use at Lv5
+| No
+|-
+| [[File:As_shadow.gif|24x24px|As shadow.gif]] Shadow Mastery
+| Lv 10
+| Increases flee by 3 per level.
+| Passive
+| Also increases ASPD by 1% per level.
+| No
+|}
+
+<br />
+'''Rogue Skills'''
+
+{|class="wikitable" style="font-weight:normal; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+! style="text-align:center; background-color:#99d9ea;" | Skill
+! style="text-align:center; background-color:#99d9ea;" | Max Level
+! style="text-align:center; background-color:#99d9ea;" | Description
+! style="text-align:center; background-color:#99d9ea;" | Skill Type
+! style="text-align:center; background-color:#99d9ea;" | Details
+! style="text-align:center; background-color:#99d9ea;" | Scaling
+|-
+| [[File:Rg_tunneldrive.gif|26x26px|Rg tunneldrive.gif]] Tunnel Drive
+| Lv 5
+| Allows walking while under Hiding. Movement speed increases with higher level.
+| Passive
+| No Changes from original.
+| No
+|-
+| [[File:St_chasewalk.gif|26x26px|St chasewalk.gif]] Chase Walk
+| Lv 5
+| Hides after a short cast and allows walking undetected and can't be revealed.
+| Self-Support
+| Leaves footprints when moving. SP Cost is applied every few seconds.
+| No
+|-
+| [[File:Rg_raid.gif|26x26px|Rg raid.gif]] Sneak Attack
+| Lv 5
+| Can only be used in hiding status. Appears and deals damage and reduces defenses.
+| Self-Support
+| Affects a small area around user. Good Opener.
+| DEX
+|-
+| [[File:Rg_faceoff.gif|26x26px|Rg faceoff.gif]] Face-Off
+| Lv 5
+| Smashes into an enemy with great strength, pushing them back.
+| Offensive Melee
+| Deals double damage if enemy is knocked into a wall.
+| STR
+|-
+| [[File:Rk_sonicwave.gif|26x26px|Rk sonicwave.gif]] Wind Slash
+| Lv 10
+| Throws a wave of wind from a sword or dagger.
+| Offensive Ranged
+| Damage is affected by ranged modifiers.
+| STR
+|-
+| [[File:Rg_gadgetmst.gif|24x24px|Rg gadgetmst.gif]] Gadget Mastery
+| Lv 10
+| Increases Trap set range and bomb damage power. Also boosts INT and SP.
+| Passive
+| Trap and bomb skills deal physical or special damage, but have INT scaling.
+| No
+|-
+| [[File:Sc_feintbomb.gif|24x24px|Sc feintbomb.gif]] Decoy
+| Lv 5
+| Creates a clone and becomes invisible, the clone explodes dealing damage.
+| Offensive AoE
+| Dashes back after being used.
+| INT and LUK
+|-
+| [[File:Rg_bowmastery.gif|24x24px|Rg bowmastery.gif]] Bow Mastery
+| Lv 10
+| Increases DEX per level.
+| Passive
+| DEX influences most ranged modifiers in the game.
+| No
+|-
+| [[File:Cg_arrowvulcan.gif|26x26px|Cg arrowvulcan.gif]] Arrow Vulcan
+| Lv 10
+| Throws a long string of arrows at a single enemy.
+| Offensive
+| Deals 50% bonus damage vs enemies under half HP.
+| DEX and STR
+|-
+| [[File:Rg_coinflip.gif|26x26px|Rg coinflip.gif]] Coin Flip
+| Lv 5
+| Spends 1 zeny to flip a coin. If it lands on heads, 1 coin is added.
+| Self-Support
+| Coins add +1 ATK, skills require coins, higher level increases success rate.
+| None
+|}
+
+== <span id="Phantom_Thief" class="mw-headline">Phantom Thief</span> ==
+
+The Phantom Thief is the most versatile job class available. It can learn all kinds of tricks to fight under any situation.
+
+Due to its unique access to all specializations of both Assassin and Rogue trees, it can fit into any build or party composition.
+
+The max job level of the Phantom Thief is 70. It requires Base Level 99, and is an advancement from Unchained Thief.
+
+'''Requirement to change job:''' A level 99 Unchained Thief must deliver 200 Distortion Shards to Melody, the Phantom Thief.
+
+=== <span id="Phantom_Thief_Skills" class="mw-headline">Phantom Thief Skills</span> ===
+
+Skills have no required order/tree progression to be learned.
+
+
+{|class="wikitable" style="font-weight:normal; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+!style="text-align:center; background-color:#99d9ea;" | Skill
+!style="text-align:center; background-color:#99d9ea;" | Max Level
+!style="text-align:center; background-color:#99d9ea;" | Description
+!style="text-align:center; background-color:#99d9ea;" | Skill Type
+!style="text-align:center; background-color:#99d9ea;" | Details
+!style="text-align:center; background-color:#99d9ea;" | Scaling
+|-
+| [[File:Gc_darkcrow.gif|26x26px|Gc darkcrow.gif]] Dark Claw
+| Lv 5
+| Removes reflect power from enemies and increases physical damage for 10 seconds.
+| Offensive Support
+| Cooldown is 90 seconds, Damage bonus is 2% per level.
+| No
+|-
+| [[File:Rg_readytorip.gif|26x26px|Rg readytorip.gif]] Ready to Rip
+| Lv 5
+| Enables Endure and increases HIT and ATK while decreasing defense.
+| Self-Support
+| Cooldown is 2 minutes, Duration is 50 seconds.
+| No
+|-
+| [[File:Dl_riposte.gif|26x26px|Dl riposte.gif]] Riposte
+| Lv 5
+| Block a frontal attack and counters with a critical hit.
+| Offensive Self-Support
+| Higher level has shorter duration but quicker use animation. Requires 1 Duel Counter. Damage increased by Shield Weight and Refine.
+| INT
+|-
+| [[File:Dl_delta.gif|26x26px|Dl delta.gif]] Delta Skyfall
+| Lv 10
+| Drops blades from the sky to hit distant enemies.
+| Offensive Ranged
+| Requires a Dagger or Sword.
+| AGI
+|-
+| [[File:Asc_breaker.gif|26x26px|Asc breaker.gif]] Soul Destroyer
+| Lv 10
+| Deals ranged physical damage to an enemy. High INT scaling.
+| Offensive Ranged
+| Uses ATK for calculations, heavy INT-based boost. Deals more damage against targets with Night Wound debuff.
+| INT
+|-
+| [[File:Bd_southcross.gif|26x26px|Bd southcross.gif]] Southern Cross
+| Lv 10
+| Deals Heavy damage with both hands to a target. Target is marked with Night Wound.
+| Offensive
+| Repeat use of the skill deals extra damage vs marked targets. Other skills also boosted.
+| AGI
+|-
+| [[File:Sa_explosion.gif|26x26px|Sa explosion.gif]] Greater Explosion
+| Lv 10
+| Deals massive damage to all enemies around target.
+| Offensive Special AoE
+| Requires Fire Bottles and Acid Bottles, high cooldown. Chance of inflicting Bleeding.
+| INT
+|-
+| [[File:Dy_cluster.gif|26x26px|Dy cluster.gif]] Cluster Arrow
+| Lv 10
+| Hits all enemies around a minor area around a target.
+| Offensive Ranged AoE
+| Has bonus critical chance. Damage split between all targets.
+| LUK
+|-
+| [[File:My_unholy.gif|26x26px|My unholy.gif]] Unholy Light
+| Lv 10
+| Deals Dark Magic Damage to an enemy and surroundings.
+| offensive Magic AoE
+| Can be cast with Autospell. Strong vs Natural Elements.
+| INT
+|-
+| [[File:Sc_mark.gif|26x26px|Sc mark.gif]] Venom Mark
+| Lv 5
+| Increases target poison element damage taken by 5% per level
+| Offensive Support
+| Increases both magic and physical poison damage.
+| LUK
+|-
+| [[File:As_splasher.gif|24x24px|As splasher.gif]] Venom Splasher
+| Lv 10
+| Plants a poison bomb against a target that explodes after a moment to deal heavy AoE damage and poison enemies.
+| Offensive Delayed AoE
+| Fuse time is 5seconds. Decreases by 1 second every 2 levels. Cooldown also decreases.
+| VIT
+|-
+| [[File:Ex_rush.gif|26x26px|Ex rush.gif]] Meteor Rush
+| Lv 5
+| Deals damage to all enemies between user and target with a critical chance.
+| Offensive Ranged AoE
+| Requires a sword or katar. Damage is not split between targets.
+| AGI
+|-
+| [[File:Ex_meteor.gif|26x26px|Ex meteor.gif]] Meteor Assault
+| Lv 5
+| Deals damage around self with a chance of causing multiple negative status.
+| Offensive AoE
+| Can cause blind, stun and bleeding.
+| DEX
+|-
+| [[File:Sh_kawarimi.gif|26x26px|Sh kawarimi.gif]] Kawarimi
+| Lv 5
+| Automatically dodges a set number of physical attacks and skills.
+| Self-Support
+| Moves back quickly when dodging, amount of dodges increases with level. High Cooldown.
+| No
+|-
+| [[File:Tk_sevenwind.gif|26x26px|Tk sevenwind.gif]] Seven Winds
+| Lv 7
+| Changes weapon element to any other element except poison.
+| Self-Support
+| Element can be changed anytime.
+| No
+|}
+
+== <span id="Unchained_Assassin_and_Rogue" class="mw-headline">Unchained Assassin and Rogue</span> ==
+
+These are not unique jobs, but they unlock the true potential of their trees by forfeiting the ability to specialize permanently.
+
+'''Requirements:''' Assassin or Rogue at base level 100 and job level 50.
+
+Unchaining requires delivery of a '''+7 Needle Katar''' (Assassin) or a '''+7 Hunter Bow''' (Rogue) with random options as requirement for the job change to the corresponding Master on the counter.
+
+== <span id="Power_Potential_of_the_Assassin_and_Rogue" class="mw-headline">Power Potential of the Assassin and Rogue</span> ==
+
+The true potential of these two jobs comes from wearing '''Loki Items'''.
+
+The items are completely '''character bound'''.
+
+=== <span id="Loki.27s_Scarf"></span><span id="Loki's_Scarf" class="mw-headline">Loki's Scarf</span> ===
+
+The Scarf is received upon unchaining the job, which permanently locks the character out of any job progression.
+
+This Scarf provides:
+
+* Lower Headgear
+* All Stats +1
+* HP+10 per Base Level
+* SP+1 per Base Level
+* 2 Slots
+
+'''It also has a special property:'''
+
+The Following Skills are unlocked at the new Max of '''Lv13'''.
+
+'''Assassin''': Sonic Blow, Shadow Slash, Silent Strike, Boomeraxe and Cloaking.
+
+'''Rogue''': Wind Slash, Throw Acid, Arrow Vulcan, Frost Diver and Sneak Attack (Sneak Attack's max Level of 5 becomes 13)
+
+These skills will have a higher scaling potential, allowing for unique power for unchained jobs.
+
+=== <span id="Mistletoe_Ring" class="mw-headline">Mistletoe Ring</span> ===
+
+A specific item to the Unchained Assassin and Unchained Rogue, it provides specific bonuses as well:
+
+* Right Accessory Slot
+* All Stats +1
+* ATK+2%
+* MATK+2%
+* 1 Slot
+
+'''It also has a combo property when worn alongside the Scarf:'''
+
+'''Assassin'''
+
+* Sonic Blow: Reduced Cooldown.
+* Shadow Slash: No SP Cost.
+* Silent Strike: Also causes Burning at 100% chance for 10 seconds.
+* Boomeraxe: Knockbacks +3 cells.
+* Cloaking: Autocasts Heal Lv10.
+
+'''Rogue'''
+
+* Wind Slash: Reduced Cooldown.
+* Throw Acid: Autocasts Throw Molotov at 100% chance.
+* Arrow Vulcan: All variable and fixed cast time removed.
+* Sneak Attack: Reduced Cooldown.
+* Frost Diver: No SP Cost.
+
+Obtaining this item requires successfully delivering the items requested by '''Iruga''' in the Master Room.

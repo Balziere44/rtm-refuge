@@ -1,0 +1,132 @@
+= <span id="Dream Enchants" class="mw-headline">Dream Enchants</span> =
+
+Dream enchants are unqiue enchantments on certain gear.
+For items to be enchanted you need specific items that have "Dream Enchant Avalible" option.
+
+Items such as:
+
+"Sky Garden exchange".
+
+"Rachel Nightmare Distortion" gear.
+
+Some "Judge" Weapons.
+
+And more.
+
+
+== <span id="Weaver of Dreams and Dream Box" class="mw-headline">[[File:DreamEnchant.gif|25x25px|File:DreamEnchant.gif]]Weaver of Dreams and Dream Box</span> ==
+<div class="thumbs tright">
+
+<div class="thumbinner" style="width300height300px;">
+
+[[File:Dream enchant.GIF|300x300px|class=thumbimage|link=Dream enchant]]
+<div class="thumbcaption">
+
+<div class="magnify">
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+"Weaver of Dreams" Npc can give enchantments to desired items.
+
+'''Success rate of enchant are 10% + "10%xRefine amount" = Total chance.'''
+
+'''Cost of enchantments are 100 Dream Shards'''.
+
+'''Reseting enchantments cost 500 Distortion Shards'''.
+
+"Dream Box" can trade Distortion Essence for Dream gear set and Dream Pouches, than contains from 1~10 Dream Shards each.
+
+== <span id="Dream Enchant table" class="mw-headline"> Dream Enchants table </span> ==
+
+
+{| class="wikitable" style="font-weight:bold; width: 100%;"
+|-
+| style="background-color:#99d9ea; width: 30%""| Enchant Name
+| style="background-color:#99d9ea; width: 50%""| Enchant Stats
+| style="background-color:#99d9ea; width: 20%""| Details
+|-
+|Dream of Power
+|STR +5. Refine +10: +1 all stats
+|STR 99: +2% HP/SP
+|-
+|Dream of Speed
+|AGI +5. Refine +10: +1 all stats
+|AGI 99: +2% HP/SP
+|-
+|Dream of Life
+|VIT +5. Refine +10: +1 all stats
+|VIT 99: +2% HP/SP
+|-
+|Dream of Wisdom
+|INT +5. Refine +10: +1 all stats
+|INT 99: +2% HP/SP
+|-
+|Dream of Skills
+|DEX +5. Refine +10: +1 all stats
+|DEX 99: +2% HP/SP
+|-
+|Dream of Fate
+|LUK +5. Refine +10: +1 all stats
+|LUK 99: +2% HP/SP
+|-
+|Nightmare Slayer
+|ATK + 3%. Refine +10: ATK + 5
+|None
+|-
+|Nightmare Watcher
+|MATK + 3%. Refine +10: MATK + 5
+|None
+|-
+|Nightmare Keeper
+|HP + 5%. Refine +10: Flat Def + 10%
+|None
+|-
+|Nightmare Visitor
+|SP + 5%. Refine +10: Total Mdef + 10%
+|None
+|-
+|Mindweaver Evasion
+|Flee + 15. Refine +10: Perfect Dodge + 5
+|None
+|-
+|Mindweaver Precision
+|Hit + 15. Refine +10: Perfect Hit + 10%
+|None
+|-
+|Mindweaver Efficiency
+|SP cost - 5%. Refine +10: SP cost - 10%
+|None
+|-
+|Mindweaver Striker
+|Def Pierce + 5%. Refine +10: Def Pierce +10%
+|None
+|-
+|Mindweaver Piercer
+|Mdef Pierce + 5%. Refine +10: Mdef Pierce + 10%
+|None
+|-
+|Sleepwalker Mobility
+|Move Speed + 5%. Refine +10: Move Speed + 10%
+|None
+|-
+|Sleepwalker Vitality
+|HP Regen + 50%. Refine +10: HP Regen +50%
+|Regen on movement
+|-
+|Sleepwalker Essence
+|SP Regen + 50%. Refine +10: SP Regen + 50%
+|None
+|-
+|Awakened Orphan
+|All stats + 1. Refine +10: ATK/MATK/HP/SP + 1%
+|None
+|-
+|Eternal Orphan
+|EXP + 10%. Refine +10: Drop Rate + 5%
+|None
+|}

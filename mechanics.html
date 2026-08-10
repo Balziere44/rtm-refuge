@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Mechanics | Return to Morroc: Refuge</title>
+<meta name="description" content="How combat, stats, elements, attack speed, combos and death actually work in the Refuge, and what the rebuild changed about each of them.">
+<link rel="canonical" href="https://rtmrefuge.pages.dev/mechanics.html">
+
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#06040a">
+<meta name="theme-color" content="#06040a" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f2f0f5" media="(prefers-color-scheme: light)">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Return to Morroc: Refuge">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://rtmrefuge.pages.dev/mechanics.html">
+<meta property="og:title" content="Mechanics | Return to Morroc: Refuge">
+<meta property="og:description" content="How combat, stats, elements, attack speed, combos and death actually work in the Refuge, and what the rebuild changed about each of them.">
+<meta property="og:image" content="https://rtmrefuge.pages.dev/assets/social/og-cover.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Return to Morroc: Refuge">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Mechanics | Return to Morroc: Refuge">
+<meta name="twitter:description" content="How combat, stats, elements, attack speed, combos and death actually work in the Refuge, and what the rebuild changed about each of them.">
+<meta name="twitter:image" content="https://rtmrefuge.pages.dev/assets/social/og-cover.jpg">
+
+<link rel="icon" href="assets/img/icon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="assets/img/icon-180.png">
+<link rel="manifest" href="site.webmanifest">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+
+<script>
+/* The only blocking script on the site. It has to run before the first paint
+   or the wrong theme shows for a frame. */
+(function () {
+  try {
+    var t = localStorage.getItem('rtmr-theme');
+    if (!t) t = matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+    document.documentElement.dataset.theme = t;
+  } catch (e) {}
+})();
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "item": "https://rtmrefuge.pages.dev/index.html", "name": "Home"},
+    {"@type": "ListItem", "position": 2,  "name": "Mechanics"}
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="shell header-inner">
+    <a class="brand" href="index.html">
+      <img class="mark" src="assets/img/icon-192.png" width="34" height="34" alt="" aria-hidden="true">
+      <span class="brand-text">
+        <span class="brand-name">RETURN TO MORROC</span>
+        <span class="brand-sub">Refuge</span>
+      </span>
+    </a>
+    <!-- NAV:START -->
+    <nav class="nav" aria-label="Main">
+      <a href="index.html">Home</a>
+      <a href="server.html">The Server</a>
+      <a href="start.html">Start Here</a>
+      <a href="classes.html">Classes</a>
+      <a href="mechanics.html" aria-current="page">Mechanics</a>
+      <a href="gear.html">Gear</a>
+      <a href="world.html">World</a>
+      <a href="guides.html">Guides</a>
+      <a href="join.html">Join</a>
+    </nav>
+    <!-- NAV:END -->
+    <div class="header-actions">
+      <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch theme">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+          <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" stroke-linejoin="round"/>
+        </svg>
+      </button>
+      <a class="icon-btn" href="https://discord.gg/a5P3PFNMhn" rel="noopener" aria-label="Community chat server">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M19.6 5.6A16 16 0 0 0 15.7 4.4l-.2.4a12 12 0 0 1 3.4 1.7 14 14 0 0 0-12-.6 13 13 0 0 0-1.7.6 12 12 0 0 1 3.4-1.7l-.2-.4A16 16 0 0 0 4.4 5.6C2 9.2 1.3 12.7 1.6 16.2a16 16 0 0 0 4.9 2.5l1-1.6a10 10 0 0 1-1.6-.8l.4-.3a11 11 0 0 0 9.4 0l.4.3a10 10 0 0 1-1.6.8l1 1.6a16 16 0 0 0 4.9-2.5c.4-4-.7-7.5-2.8-10.6zM8.6 14.3c-1 0-1.7-.9-1.7-1.9s.8-1.9 1.7-1.9 1.8.9 1.7 1.9c0 1-.7 1.9-1.7 1.9zm6.3 0c-1 0-1.7-.9-1.7-1.9s.8-1.9 1.7-1.9 1.8.9 1.7 1.9c0 1-.7 1.9-1.7 1.9z"/>
+        </svg>
+      </a>
+      <button class="icon-btn nav-toggle" type="button" data-drawer-open aria-expanded="false" aria-controls="drawer" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+          <path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="drawer" id="drawer" data-open="false" role="dialog" aria-modal="true" aria-label="Menu">
+  <div class="shell">
+    <div class="drawer-head">
+      <span class="eyebrow">Menu</span>
+      <button class="icon-btn" type="button" data-drawer-close aria-label="Close menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+          <path d="M6 6l12 12M18 6L6 18" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+    <!-- DRAWER:START -->
+    <nav aria-label="Mobile">
+      <a href="index.html">Home</a>
+      <a href="server.html">The Server</a>
+      <a href="start.html">Start Here</a>
+      <a href="classes.html">Classes</a>
+      <a href="mechanics.html" aria-current="page">Mechanics</a>
+      <a href="gear.html">Gear</a>
+      <a href="world.html">World</a>
+      <a href="guides.html">Guides</a>
+      <a href="join.html">Join</a>
+    </nav>
+    <!-- DRAWER:END -->
+  </div>
+</div>
+<main id="main">
+<section class="page-hero">
+  <div class="shell">
+    <p class="crumbs"><a href="index.html">Home</a><span>/</span><span>Mechanics</span></p>
+    <h1>How the game actually works</h1>
+    <p class="lede">Combat, stats, elements, rotations and death. The systems layer, with the Refuge's changes marked where they land.</p>
+  </div>
+</section>
+
+<div class="shell doc">
+  <nav class="doc-toc" aria-label="On this page">
+    <h2>On this page</h2>
+    <ol>
+        <li><a href="#combat">Combat was rebuilt, not tuned</a></li>
+        <li><a href="#stats">Stats and the cost curve</a></li>
+        <li><a href="#aspd">Attack speed</a></li>
+        <li><a href="#elements">Elements</a></li>
+        <li><a href="#combos">Combos and rotations</a></li>
+        <li><a href="#bonuses">Innate and unique bonuses</a></li>
+        <li><a href="#death">Dying, and the Shadow you leave behind</a></li>
+        <li><a href="#ranking">Dungeon ranks</a></li>
+    </ol>
+  </nav>
+  <div class="doc-body">
+    <section id="combat">
+      <h2>Combat was rebuilt, not tuned</h2>
+      <p>Skills matter more than gear checks. You dodge, you rotate, you move.</p>
+      <h3 id="combat-reworked-new-threats">New Threats</h3>
+      <p>In Return to Morroc, facing monsters head-on and expecting to outstat them is a BIG problem. Monsters now have different interactions and behavior and they will cause problems if you just try to ignore them.</p>
+      <p>As a side note, this acts as a basic anti-bot system...because you WILL need to move out and react.</p>
+      <p>Using Heal Lv3+ is expected from all players. Not relying on potions and items to heal. For this reason it's strongly recommended to always have a Heal Manual of any capacity in hand to improve Heal Lv available and to get basic INT for good SP Regen and Heal Power.</p>
+      <p>It's recommended to check Stat Changes For more details on background changes.</p>
+      <p>If you approach the combat the same way you approach it on classic, you will struggle, a LOT.</p>
+      <h3 id="combat-reworked-monster-ai-changes">Monster AI Changes</h3>
+      <p>Monsters now deal very reduced auto attack damage. this is considered "Check" damage. if you can't survive this damage, it means you're not ready for this fight.</p>
+      <p>Monsters now cast skills very often.</p>
+      <p>Monsters may use skills in unexpected/forbidden ways.</p>
+      <p>All monsters can be killed with the approapriate gear. They might just need thinking about how to approach this situation.</p>
+      <ul><li>This doesn't apply to bosses.</li><li>Some monsters may have their basic attacks as a mechanic itself, with quick or strong hits.</li><li>Lower fields and low rank dungeons usually have long cast times, lower damage and more margin for error.</li><li>Higher fields and higher rank dungeons usually have quick cast times, higher punishment for errors or straight up fail mechanics.</li><li>A Monster might use Revelation/Ruwatch on you to block your use of hiding to dodge targeted skills.</li><li>A Monster might use an AoE directly on you as a targeted skill instead of self to check your positioning and your party.</li><li>A Monster might use offensive skills that you need to take advantage of to prepare for the next action, like it creating a Safety Wall and a few seconds later instantly cast a heavy hitting melee skill.</li></ul>
+      <h3 id="combat-reworked-monster-group-changes">Monster Group Changes</h3>
+      <ul><li>Regular monsters fight with direct skills and behavior. They are the common monsters found everywhere.</li><li>Champion monsters are stronger than the other monsters of the same area and require attention to fight. They usually provide much higher EXP than usual.</li><li>Mini-Bosses are strong monsters that usually have weaker variations of MVP's mechanics, they are a good practice method, when available, before taking on a MVP.</li><li>MVP Bosses hit hard and have aggressive patterns, they may have specific punishment and counter skills to common tricks, They may have long casts for simple skills denoting it's not time to run, but to take advantage of it. Most MVPs don't resummon slaves, and some don't have any of them. They may also change behaviour when their HP get lower.</li><li>Some monsters might always come in pairs or summon other unique monsters when a certain condition is met. This is very relevant for creating specific conditions, including Dracomancer's job quest.</li></ul>
+      <h3 id="combat-reworked-basic-combat-mechanics">Basic Combat Mechanics</h3>
+      <p>It all depends on four factors.</p>
+      <p>1- The Enemy is a Boss. In this case, you can't directly hide from it's skills. You'll need to either survive targeted skills or find barriers/break sight line.</p>
+      <p>2- The Enemy is a Demon or Insect. In this case you can use the same strategy as bosses or wear equipment/cards that grant you perfect hiding.</p>
+      <p>3- The Enemy is anything else. Regular fightning mechanics apply.</p>
+      <p>4- The Enemy is using a special skill in an unexpected way (usually only in Rank S dungeons), the skill cannot be avoided and must be handled indirectly such as by failing a skill dodge on purpose, swapping gear or other ways.</p>
+      <p>Some Skill Types:</p>
+      <p>Keep in mind some monsters are immune to Silence or Stun due to high status.</p>
+      <p>NOTE: It may be also a valid strategy to knockback monsters so their AoE around themselves don't hit you or your party.</p>
+      <ul><li>Targeted Cast: Just hide or break sight line. You can also silence or stun the target.</li><li>Untargeted Cast: Usually means an AoE around self or specific skill. move away just in case.</li><li>Small circle ground Cast: Usually means a directional skill, move out of that direction.</li><li>Large circle ground Cast: A Large AoE on the shown Area.</li><li>Red Squares around caster: A strong skill with unique properties. Move out.</li></ul>
+      <h3 id="main-features-combat-mechanics">Combat Mechanics</h3>
+      <p>Combat in Return to Morroc is completely different from the original game. The main features available are:</p>
+      <p>See also: Regions and Dungeons</p>
+      <ul><li>Shadow System: Dying in a dungeon is always tense, dying brings a Shadow to life that will try to kill your party members...But can also resurrect you if they are brave and fight back!</li><li>Skill based combat: SP Regen speed is drastically increased, SP is no longer a resource you exhaust and wait: it's something you control the constant use.</li><li>Combo Skills: Some skills now have special interactions when used right after another different skill. This can be extra hits or increased damage.</li><li>Skill Rotations: Skills no longer are spammed (with exceptions) and require rotating different cooldowns and skills in order to get maximum efficiency.</li><li>Monster Mechanics: You are required to dodge the skills used by monsters, or take a heavy hit. Move away from cast area, hide from targeted hits, run behind cover, dynamic combat situations with monsters who might assist one another, trap you with a curved ice wall, lock you in place or punish heavy mobbing overall.</li><li>Massively decreased numbers. Gone are the days of the barrage of 100k+ hits of renewal. Gone are the cheap one shot mechanics of MVPs.</li><li>Ranking System: Dungeons have difficulty tiers with differences based on what to expect, from E to S. Anything can be done solo with enough preparation and equipment.</li><li>Small bonus experience for fighting monsters above your level. Harsh penalties for monsters under your level, moving on and seeking new challenges is always needed.</li></ul>
+    </section>
+    <section id="stats">
+      <h2>Stats and the cost curve</h2>
+      <p>Points get more expensive as they climb, breakpoints survived from pre-renewal, and almost every skill now scales off a stat.</p>
+      <h3 id="main-features-character-stats">Character Stats</h3>
+      <p>The stats have been fully reworked. You no longer requires 2 points per stat with an increasing cost every 10 points:</p>
+      <p>We also kept the great Pre-Renewal Breakpoints! However, added in a linear growth, so players can get small, extra bonuses when they have multiples of 10 in a given stat.</p>
+      <p>Another thing is that the behavior of the status have also been adjusted:</p>
+      <p>Besides the above points. Most skills now have a Stat-based scaling added to them!</p>
+      <p>See also: Stat Changes</p>
+      <ul><li>Any stat up to 49 costs 1 point.</li><li>Any stat from 50 to 98 costs 2 points.</li><li>getting 99 in a single stat costs 3 points. This is because some equipment have bonuses for having 99 in a specific stat.</li><li>Strength Increases weapon raw ATK damage.</li><li>Agility scales better with attack speed at higher amounts.</li><li>Intelligence has a higher influence on SP regeneration.</li><li>Dexterity has a better effect on cast time.</li><li>Luck affects more status resistances.</li></ul>
+      <p>Return to Morroc changed most of the stat system of the game. Below you can find the biggest differences from Renewal. Anything not mentioned below should be considered to be same as default Renewal.</p>
+      <h3 id="stat-changes-quick-starter-information">Quick Starter Information</h3>
+      <ul><li>It is HIGHLY RECOMMENDED to get at least 10 points in most stats for weight, regeneration, speed, etc.</li><li>It's not recommended to depend on healing items to handle fights. They are situational items at best now.</li><li>Use lesser levels of spells and skills when SP is an issue. Higher level skills might provide a better burst, but a lesser DPS overall due to high costs.</li><li>Always double check your resources, catalysts, shadow orbs, etc.</li><li>Enjoy the journey, the game doesn't start at max level here.</li></ul>
+      <h3 id="stat-changes-base-level">Base Level</h3>
+      <ul><li>Maximum Base Level is 150. This is the Hard Cap.</li><li>Level 130 is considered the Soft Cap. No Equipment requires a Level higher than 130.</li><li>After Level 124, the gains from each level decrease the higher your level is.</li><li>Base Level is no longer a modifier for bonuses on any skill.</li></ul>
+      <h3 id="stat-changes-job-level">Job Level</h3>
+      <ul><li>Maximum Job Level varies per job class.</li><li>Job stat bonuses are no longer granted as you level up. They are completely removed.</li><li>Job Level is the only factor on increasing crafting success rates for Black Plague and Blast Juggler.</li><li>Judge has specific skills that increase in power according to the player's Job Level.</li></ul>
+      <h3 id="stat-changes-status-points">Status Points</h3>
+      <p>The following table is a representation of the total status points you have per level.</p>
+      <h3 id="stat-changes-status-growth">Status Growth</h3>
+      <ul><li>All Stats have a Breakpoint Bonus when they are multiple of 10. This includes Base + Bonus amounts.</li><li>Max Stat points for any stat is 99. There's no limit on bonuses from items/skills.</li><li>Skills now have direct stat point scalings. You can for example have a skill with +2% per AGI scaling (giving you 60% extra damage with 30 AGI).</li><li>Some cards and equipments can add stronger/new scaling to skills.</li><li>Stat points no longer require 2 points +1 every 10 points to increase.</li><li>Stat points now require 1 point up to 50, 2 points up to 98, and 3 points for 99.</li><li>The amount of stat points granted varies by level. Multiple of 10 usually grant bette bonuses.</li><li>Certain items require 99 in a given stat to activate strong bonuses.</li><li>A Lv150 character has enough points to get 99 in 3 stats, and having 3 other stats at 1.</li></ul>
+      <h3 id="stat-changes-strength--str">Strength (STR)</h3>
+      <p>Breakpoint: Every 10 points, adds +1 ATK(any weapon).</p>
+      <h3 id="stat-changes-agility--agi">Agility (AGI)</h3>
+      <p>Breakpoint: Every 10 points, adds +1 ASPD and +3 Flee. Extra +1 ASPD if dual-wielding every 20 points.</p>
+      <ul><li>ASPD percentage bonuses are now fully based on the character's AGI.</li><li>For example, Getting 20% ASPD with 50 total agi grants only 10% ASPD. For 200 Agi, the bonus is 40% ASPD.</li><li>Effect in escaping from Snare traps increased 50%.</li><li>ASPD is capped depending on your class.</li><li>Every 40 points of AGI increases the cap by 1.</li><li>Equipment can also increase this limit with varied ASPD Limit+x bonuses.</li><li>Jester and Legend jobs have special ways to push this limit with skills.</li><li>Now influences Perfect Dodge chance.</li></ul>
+      <h3 id="stat-changes-vitality--vit">Vitality (VIT)</h3>
+      <p>Breakpoint: Every 10 points, adds +5 Flat DEF and MDEF.</p>
+      <ul><li>Flat DEF bonus is for every point of VIT, instead of every 2 points.</li><li>Resistance to poison status has been severely reduced.</li><li>Increased HP natural regeneration by 25%.</li></ul>
+      <h3 id="stat-changes-intelligence--int">Intelligence (INT)</h3>
+      <p>Breakpoint: Every 10 points, adds +1 MATK.</p>
+      <ul><li>Increased SP natural regeneration by 50% per 6 points.</li><li>Resistance to silence status has been reduced.</li></ul>
+      <h3 id="stat-changes-dexterity--dex">Dexterity (DEX)</h3>
+      <p>Breakpoint: Every 10 points, adds +1 ATK/MATK.</p>
+      <ul><li>Increased effect on cast times.</li><li>Increased amount of hit gained per point from 1 to 2.</li></ul>
+      <h3 id="stat-changes-luck--luk">Luck (LUK)</h3>
+      <p>Breakpoint: Every 10 points, adds +2 Critical Rate and +1% Critical Damage.</p>
+      <ul><li>Increased effect on status resistances by 50 to 100%.</li><li>Now applies to more status effects.</li><li>Shares Perfect Dodge weight from weapons</li><li>Decreased hit gained from every 3 to every 5 points.</li></ul>
+      <h3 id="stat-changes-attack--atk">Attack (ATK)</h3>
+      <ul><li>Overall item bonuses greatly reduced. Increased weight of status bonuses on damage.</li><li>Damage calculations are same as renewal.</li><li>Bonus when upgrading is 0.5/Weapon Level per refine.</li></ul>
+      <h3 id="stat-changes-magic-attack--matk">Magic Attack (MATK)</h3>
+      <ul><li>Has been added as a natural bonus, like ATK.</li><li>Weapons with base MATK increase it with refine rate.</li><li>Damage calculations are same as renewal.</li></ul>
+      <h3 id="stat-changes-critical-rate-and-damage">Critical Rate and Damage</h3>
+      <ul><li>Damage bonus is only 1.2x instead of 1.4x from Renewal</li><li>Bonus from cards and modifiers halved.</li><li>Skills now take full critical modifier, instead of halved.</li><li>Monsters have 5% base critical chance on all attacks.</li><li>Extra 1% Critical Damage per 10 LUK as part of the breakpoint bonus.</li><li>Katars have 1.5x bonus critical rate, instead of 2x.</li><li>Double-Attack can be critical.</li></ul>
+      <h3 id="stat-changes-cast-time">Cast Time</h3>
+      <p>Example:</p>
+      <p>If skill has 10 seconds variable cast time</p>
+      <p>You have 300(INT/DEX) Total stats = Variable cast time is reduced by ~75-80%</p>
+      <p>10 x 0.25 = 2.5 seconds cast time</p>
+      <p>Gear cast time equals to 50% Variable cast time reduction</p>
+      <p>2.5 x 0.5 = 1.25 Variable cast time - Final variable cast time.</p>
+      <ul><li>Basic Correlation between fixed cast/variable cast has been changed from 20/80 to 10/90. This has many exceptions.</li><li>Variable Cast time formula changed completely.</li><li>Previous: DEX*2+INT = 530</li><li>New: DEX*2+INT = 400</li><li>% Variable/Fixed Cast time on gear works after "stat reduction" cast time of skill.</li><li>Some skills have greatly increased cast times/fixed cast times.</li><li>Some specific skills have irreductible cast time or can work with Cast Ready</li></ul>
+      <h3 id="stat-changes-hit-rate--hit">Hit Rate (Hit)</h3>
+      <ul><li>Player Minimum hit rate has been improved from 5% to 10%.</li><li>Base Hit Rate of Players increased by 25 (through the Orphan Skills starter passive).</li><li>Keep in mind monsters have higher flee overall.</li></ul>
+      <h3 id="stat-changes-flee-rate--flee">Flee Rate (Flee)</h3>
+      <ul><li>Flee penalty per attacking monsters increase from 3 to 4 monsters.</li><li>Flee penalty per monster increased from 10% to 20%.</li><li>This means fightning 4 monsters at the same time reduces your flee by 80%.</li></ul>
+      <h3 id="stat-changes-perfect-dodge">Perfect Dodge</h3>
+      <ul><li>Can stack beyond 100 Perfect Dodge (to protect against reduction/negation).</li><li>Increases by 1 every 10 TOTAL of AGI/LUK instead of only LUK.</li><li>Core bonus of the Prowler Job.</li></ul>
+      <h3 id="stat-changes-natural-regeneration">Natural Regeneration</h3>
+      <ul><li>HP Regeneration tick is every 2 seconds (vs 6 seconds from vanilla, 3x faster).</li><li>SP Regeneration tick is every 1.2 seconds(vs 8 seconds from vanilla, 6,6x faster).</li><li>SP Regeneration when equipped with Revolvers (Judge) is tripled . Job has a very small SP pool.</li><li>SP Regeneration happens in movement. Specific bonuses enable HP Regen in movement.</li><li>All Regeneration happens even in combat.</li></ul>
+      <h3 id="stat-changes-attack-speed--aspd">Attack Speed (ASPD)</h3>
+      <ul><li>Attack speed base has been greatly reduced.</li><li>Attack speed scaling with AGI has been increased slightly.</li><li>ASPD is now greatly based on overall AGI of the character.</li><li>Flat ASPD bonuses are more prevalent.</li><li>Dual Wield ASPD penalty has been increased by 25%.</li><li>Hard ASPD cap for every job is 193. Soft Cap [Increased with ASPD limit gear] check your soft cap here in [https://wiki.echoesofmorroc.com/Base_Aspd_Limit_Table Base ASPD Limit Table]</li></ul>
+      <h3 id="stat-changes-physical-attack-card-bonuses">Physical Attack Card Bonuses</h3>
+      <ul><li>Card bonuses follow a unique formula due to the balance of status and equipment.</li><li>Bonuses are applied 1/2 to Status Attack and 1/2 to Equipment Attack.</li></ul>
+      <h3 id="stat-changes-size-penalty-for-weapons">Size Penalty for Weapons</h3>
+      <ul><li>Weapon Size modifiers has been reworked.</li><li>Size Penalty used to be 50%/75%/100%</li><li>New Size Penalties: 80%/90%/100%</li><li>Scythes, Decks and other unique Weapons deal 100% to all sizes.</li></ul>
+      <h3 id="stat-changes-death-and-warping">Death and Warping</h3>
+      <ul><li>Invincibility Time reduced by 70% when entering new map.</li><li>Transition &amp;quot;black screen&amp;quot; time reduced by 80%.</li><li>Respawning revives you with 50% HP and 25% SP.</li><li>Teleport has 30 seconds cooldown, Fly Wing has 60 seconds cooldown.</li></ul>
+      <h3 id="stat-changes-damage-delay">Damage Delay</h3>
+      <ul><li>Stunlock duration for players and monsters reduced by half.</li><li>Monsters may have delayed damage skills, you can see this with skills that decrease your HP but the number takes a moment to show up.</li><li>This delay can be used to heal up right before a high nuke damage hit.</li></ul>
+      <h3 id="stat-changes-consumables">Consumables</h3>
+      <ul><li>Potions Weight GREATLY increased.</li><li>Potions prices GREATLY increased.</li><li>Potions now have a 5-20 second cooldown.</li><li>Potions healing variation removed.</li><li>Most healing items removed from the game.</li><li>Added Kafra Elixir to Kafra Services. Default Kafra elixir amount is 2. This amount can be increased with specific items.</li><li>Kafra Elixir can be refilled for free at any Kafra, they recover 50% HP/SP and have a 5 second cooldown.</li></ul>
+      <h3 id="stat-changes-experience">Experience</h3>
+      <ul><li>EXP is fully received if monster is between 3 levels lower than player or up to 5 levels higher.</li><li>EXP received increases by 3% per level when monster is 6 levels or higher than player, up to 130% at 15 levels. Only 1% EXP is received for monsters 16 levels or higher.</li><li>EXP received decreases by 15% per level when monster is 4 levels or lower than player, up to 10% at 9 levels. Only 1% EXP is received for monsters 10 levels or lower.</li><li>On average, You need your level x 1.5 to level up, this value can fluctuate based on dungeon difficulty, density, monster difficulty, etc.</li><li>EXP penalty on death is 5%.</li><li>This is to incentivate progression of areas and exploration.</li></ul>
+      <h3 id="stat-changes-mvp">MVP</h3>
+      <ul><li>MVP monsters have 50% final damage reduction.</li><li>All MVPs have 45-60% chance to drop a unique costume.</li><li>All MVPs have half their level as chance to drop a MVP Rewards Box.</li><li>Ankle Snare duration reduced by 95%.</li><li>No longer can rude-teleport.</li><li>MVPs have a unique Relic System in place, where monsters from their area have a 0.10% chance to drop their Relic. Using the Relic on the correct MVP map will summon the MVP to fight (usual rules of Free-For-All apply).</li><li>MVPs still have their random time based spawn and locations. Relic Summons are an extra.</li></ul>
+      <h3 id="stat-changes-zeny">Zeny</h3>
+      <ul><li>Equipments are sold to NPCs for a small fraction of their value.</li><li>Monsters drop zeny on kill. This value can be increased with items.</li><li>Overall zeny generation is greatly reduced and no longer has items that provide a ton of it (Gold, Witherless Roses, Crystal Mirrors, etc).</li></ul>
+      <h3 id="stat-changes-stun">Stun</h3>
+      <ul><li>VIT resistance halved.</li><li>LUK resistance doubled.</li><li>LUK decreases duration.</li></ul>
+      <h3 id="stat-changes-silence">Silence</h3>
+      <ul><li>INT resistance halved.</li><li>LUK resistance doubled.</li><li>LUK decreases duration.</li></ul>
+      <h3 id="stat-changes-all-status-effects">All Status Effects</h3>
+      <ul><li>Silence and Stun are twice as hard to apply on monsters.</li><li>Silence and Stun last less time according to monster's LUK.</li><li>Monster resistance to all other status greatly reduced.</li></ul>
+      <h3 id="stat-changes-poison">Poison</h3>
+      <ul><li>20% higher damage.</li><li>Resistance to it reduced by 80%.</li><li>VIT defense debuff amount increased by 50%.</li><li>Can affect all races and elements except poison.</li><li>Can affect bosses if the user is a Black Plague Using Enchant Deadly Poison.</li></ul>
+      <h3 id="stat-changes-burning">Burning</h3>
+      <ul><li>Damage is fixed at 200 + 1% Max HP per tick.</li><li>Minimum duration if not resistant is 10 seconds.</li></ul>
+      <h3 id="stat-changes-freeze">Freeze</h3>
+      <ul><li>Increases damage taken by Illusionist's Real Magic Attack and Kimi Puppet skills.</li><li>Increase damage of some bomb skills by Saboteur and Blast Juggler.</li><li>Has all original effects besides the ones above.</li></ul>
+    </section>
+    <section id="aspd">
+      <h2>Attack speed</h2>
+      <p>Each job has its own base attack speed limit, and the Refuge went back through the ones that were simply strange.</p>
+      <aside class="callout callout--refuge">
+        <h3>What the Refuge changed</h3>
+        <ul><li>Base attack speed was re-adjusted on several jobs where the original value made no sense.</li><li>Increase AGI no longer grants attack speed at all - it is a movement skill now.</li></ul>
+      </aside>
+      <p>Other classes not mentioned here are 185 base aspd limit.</p>
+    </section>
+    <section id="elements">
+      <h2>Elements</h2>
+      <p>The element table is the difference between a comfortable dungeon and a wall. Endows are cheap; ignoring them is not.</p>
+      <p>__TOC__</p>
+      <h3 id="elemental-table-elements-reworked">Elements Reworked</h3>
+      <p>In Return to Morroc, elements have an impact on the gameplay but no longer are the make or break they once were. The entire elemental table was changed.</p>
+      <p>The workings of elemental damage for physical attacks (both melee and ranged) is completely changed in place of a fixed modifier, regardless of monster level.</p>
+      <p>The elements are reworked into 3 groups: Corporal Elements, Natural Elements and Special Elements</p>
+      <h3 id="elemental-table-endow-skills">Endow Skills</h3>
+      <p>Return to Morroc has very few endow skills:</p>
+      <p>The only ways other than this to get full elemental benefits is either with elemental weapons/ammo or the Elemental Focus.</p>
+      <ul><li>Seven Winds, Shinobi Skill, allows choosing between any non-neutral element except poison.</li><li>Enchant Poison, Thief Skill, allows enchanting weapon with poison element and a chance to cause poison status.</li><li>Burning Scythe, Trickster Skill, enchants the scythe with fire element and boosts fire magic power.</li><li>In case any of these skills is used, all damage will be converted to the element, including statusATK and WeaponATK.</li><li>You can also get elemental bonuses from some skills, such as Reaper Form making your damage Dark, or Dracomancer's dragon breath changing according to current buff activated.</li></ul>
+      <h3 id="elemental-table-elemental-focus">Elemental Focus</h3>
+      <p>Elemental Focus is a sub-system of the magic of Return to Morroc. Natural element magic (Fire/Water/Earth/Wind) can generate or consume Focus for their element.</p>
+      <p>The Stacks can be seen as elemental icons around the player.</p>
+      <p>Focus duration is 60 seconds. Using lower level magic can refresh an amount of stacks equal to that point, for example:</p>
+      <p>When a Player has 10 Stacks, they get a bonus besides skills interactions:</p>
+      <p>Some unique skills (such as Mystic's Unholy Light) can get unique interactions according to the amount of element focus of the player.</p>
+      <p>Using a spell of a different element will change the focus to that element, losing any stacks of the previous element.</p>
+      <ul><li>Skills that generate focus have increasing cast times and cooldowns with higher level, but generate more stacks. Using lower level skills won't increase the stacks past their current skill level.</li><li>Some Skills are boosted according to the current focus element and stacks amount.</li><li>Autospell does generate stacks, either from items or skills.</li><li>Casts Lv 10 Flaming Petals, generates 10 Fire Focus.</li><li>Casting Lv5 Flaming Petals will renew the duration of 5 Fire Focus stacks, the remaining 5 will vanish when the timer is up.</li><li>This can be repeated, so Spamming lower level magic after generating the Lv10 Focus to keep it up is a viable strategy.</li><li>A good magic user will know to not drop the stacks after they are obtained by keeping the offensive and weaving different spells into the rotation.</li><li>They get endowed with that element for duration, with full bonuses and penalties.</li><li>They deal 10% bonus damage vs the target advantage element (Like Water Focus vs Fire Enemy, you deal 10% extra damage).</li><li>This makes some physical builds weaving magic, even if only for the endow, a viable strategy in some cases.</li></ul>
+      <h3 id="elemental-table-elemental-modifiers">Elemental Modifiers</h3>
+      <p>Elements apply to final damage. If a target is Fire Lv2 for example, it'll receive 125% damage from any source.</p>
+      <p>Contrary to Renewal, Elemental endows apply to the entire attack damage on Return to Morroc, not just to weaponATK.</p>
+      <h3 id="elemental-table-element-levels">Element Levels</h3>
+      <p>Damage bonus/penalty according to elements has been changed.</p>
+      <p>Instead of varied amounts of bonuses vs elements, they have fixed amounts up to Lv3.</p>
+      <p>Lv4 monsters require specific approaches to fight, specially if they are Holy/Dark.</p>
+      <h3 id="elemental-table-corporal-elements">Corporal Elements</h3>
+      <p>The 4 Corporal Elements are: Neutral, Ghost, Undead and Poison.</p>
+      <ul><li>Neutral has no interaction with Undead, is weak vs Ghost and Poison. Neutral has no bonus damage vs anything.</li><li>Poison is strong vs Neutral, weak vs Ghost and Undead.</li><li>Ghost is opposed to Undead, meaning both are strong vs each other. Also is strong vs Poison and Neutral.</li><li>Undead is opposed to Ghost, meaning both are strong vs each other. Also is strong vs Poison.</li></ul>
+      <h3 id="elemental-table-natural-elements">Natural Elements</h3>
+      <p>The 4 Natural Elements are: Fire, Water, Wind and Earth.</p>
+      <ul><li>Fire is strong vs Earth and weak vs Water. No interaction with Wind.</li><li>Water is strong vs Fire and weak vs Wind. No interaction with Earth.</li><li>Wind is strong vs Water and weak vs Earth. No interaction with Fire.</li><li>Earth is strong vs Wind and weak vs Fire. No interaction with Water.</li></ul>
+      <h3 id="elemental-table-special-elements">Special Elements</h3>
+      <p>The 2 Special Elements are: Holy and Dark.</p>
+      <ul><li>Special Elements have a unique interaction with other elements:</li><li>Holy is strong vs all 4 Corporal Elements(Neutral,Poison,Ghost,Undead). It has 10% extra damage and 10% extra resistance vs them, regardless of Level.</li><li>Dark is strong vs all 4 Natural Elements(Fire,Water,Wind,Earth). It has 10% extra damage and 10% extra resistance vs them, regardless of Level.</li><li>Holy and Dark are opposed to each other. They have regular damage bonus and resistance vs each other, like other elements.</li></ul>
+      <h3 id="elemental-table-short-guide">Short Guide</h3>
+      <p>Strongest Defensive Choice: Use same element as the attack received. If not available, use element strong vs attack received to mitigate damage.</p>
+      <p>Strongest Offensive Choice: Use element that is directly stronger vs enemy element for bonus damage.</p>
+      <p>Best Overall Use: Use holy vs corporal elements, use dark vs natural elements.</p>
+      <p>|Element table</p>
+    </section>
+    <section id="combos">
+      <h2>Combos and rotations</h2>
+      <p>Some skills read what you cast before them. This is the layer most players discover late and wish they had known about at level 30.</p>
+      <h3 id="combos-rotations-new-powers">New Powers</h3>
+      <p>In Return to Morroc, spamming a single skill over and over is the least efficient way to play (Unless you're a Jester, of course.), multiple cooldowns, costs, variations and combo interactions exist.</p>
+      <p>There are multiple ways skills can interact with one another to enable combos.</p>
+      <h3 id="combos-rotations-combo-ready">Combo Ready</h3>
+      <p>Combo Ready is denoted by the icon above that shows up on the right side when some specific skills are used. These skills are usually refered as Openers.</p>
+      <p>Examples:</p>
+      <ul><li>Combo Ready skills are skills that can be used without an opener, but they have diminished effects.</li><li>These skills can have either situational or direct requirements.</li><li>Combo Ready status lasts for a few seconds depending on the job class/skill used. Some Openers in this case allows up to 2 skills to be used if the After-Cast Delay is fast enough.</li><li>ANY Opener skill can be used to trigger the combo ready status. That means if a job has 2 different openers, any of them can be used to use the follow-up skills.</li><li>Revenant's Roaring Overslash deals extra 10% +1% per LUK damage if used during Combo Ready, You can get Combo Ready with both Scythe Reap (From Trickster) or from Reaping Slash.</li><li>Raider/Dracomancer's Spears Innate Fixed Bonus is Dragon Thrust. It enables Combo Ready by a few seconds, allowing the other skills from those jobs (like Heavy Stab or Crescent Dive) to deal full damage.</li><li>Jester's First Hand lasts enough for up to 3 skills according to ASPD/Delay of the user, many skills require it to deal full damage.</li></ul>
+      <h3 id="combos-rotations-cast-ready">Cast Ready</h3>
+      <p>Cast Ready reduces the variable cast time of skills by 95% for duration. This enables some skills to be used much faster under specific cases.</p>
+      <ul><li>Shadowseer has this as a class mechanic, as most of their buffs have very long but mostly variable cast times. Their core skill, Equinox, grants Cast Ready for a short duration so they can quickly cast follow-up skills after it.</li><li>Some items grant Cast Ready when specific conditions are met, enabling quicker casting.</li></ul>
+      <h3 id="combos-rotations-stance">Stance</h3>
+      <p>Some skills may require stances to be activated to either use a skill to it's full power, or unlock the use of some skills.</p>
+      <p>Examples:</p>
+      <ul><li>Stances usually don't have a fixed duration, and are used to change the combat flow for a job directly.</li><li>Stances have bonuses associated when they are turned on. They may also have downsides.</li><li>Deadeye's Headshot deals 1/10 damage if the user is not in Sniper's Nest stance. This stance massively reduces movement speed, while boosting final attack damage for all attacks.</li><li>Satsujin's Darkness Rises causes Satsujin's Curse status to all targets, other Satsujin skills deal extra damage against enemies afflicted by it.</li><li>Dracomancer's Dragon Force and Dragon Pact enable different skills to be used. Dragon Force allows use of the strongest spear skills, while Dragon Pact allows use of the draconic skills from the tree.</li><li>Duelist's Duel Stance increases defensive capabilities while allowing hits received to be stacked as Duel Counters. These counters can be used to deal direct damage to an enemy the more counters the character has.</li><li>Assassin's Fury Status boosts critical rate while enabling use of Executioner(and Gravekeeper) class skills. It has a fixed duration and Alpha, Omega, Cursed Coffin and Desolated Burial all require fury status. Gravekeepers have a secondary skill that allows then to enter fury status anytime with little restrictions.</li></ul>
+      <h3 id="combos-rotations-direct-combo">Direct Combo</h3>
+      <p>Direct combo skills are skills you need to use right after the first skill, they cannot be used otherwise.</p>
+      <p>Examples:</p>
+      <ul><li>Mechanically they work exactly like old Monk's Combos.</li><li>Some can also be started at will, without needing a random proc.</li><li>Some skills can be used without a combo, but they may have diminished effects.</li><li>Judge's Absolution, it's core skill, deals extra normal hits quickly against an enemy and needs a &amp;quot;Double Attack&amp;quot; proc from the passive Akimbo Mastery to be used. The skill also deals more hits according to skill level and current job level of the user. Violent Barrage also has the same requirement.</li><li>Thief's Cross Ripper Slasher can only be used if you have rolling counters, acquired from using Rolling Cutter and not moving. It also deals higher damage according to the current amount of counters, up to 3.</li><li>Executioner and Gravekeeper's Executioner Skills must be used one after the other in a specific order, with the last hit either being Cursed Coffin or Desolated Burial, both dealing critical chance damage, one being AoE and the other hitting harder.</li></ul>
+      <h3 id="combos-rotations-synergy-combo">Synergy Combo</h3>
+      <p>These are not literal combos but they are skills that complement the effectiveness of one another directly, and work better when used with planning.</p>
+      <p>A few Examples:</p>
+      <p>Easy: Illusionist's Mist Rotation:</p>
+      <p>Illusionist's Heal Bomb:</p>
+      <p>Medium: Black Plague's Poison Rotation:</p>
+      <p>Hard: Sinner's Final Arrow Stack:</p>
+      <ul><li>There are no restrictions or requirements for using any of these, they also have no direct bonuses.</li><li>These combos can be hard to pull-off without practice or management of resources.</li><li>Use Illusion of Mist to cause Crystallize status.</li><li>Real Magic Attack and Illusion of Vermillion deal bonus damage vs Crystallize targets.</li><li>Use Illusion of Healing on target to reverse healing effects used on it.</li><li>Use Heal Lv10 with a manual along with healing power gear to kill the enemy with pure heal damage.</li><li>Apply Venom Mark to enemy, improving poison element damage they receive.</li><li>Apply Poison Status with Envenom, Venom Splasher, Enchant Poison...</li><li>Use Death Cloud to cause Inner Poison status, improving all poison damage further.</li><li>Use Venom Buster to deal poison elemental damage, with a double modifier if target is poisoned, while dealing extra damage due to Venom Mark and Inner Poison Status</li><li>Note: This combo doesn't work vs bosses due to their immunity to poison. They however can still receive Venom Mark.</li><li>Prepare a ton of SP with either SP cost reduction, SP regen, or SP refill stuff.</li><li>Get all coins from Coin Flip as needed and refill them as needed.</li><li>Activate Sniper's Nest to improve final damage.</li><li>Activate Ready to Rip to boost attack % power.</li><li>Activate Inquisition Resolve to add a chance for auto attacks to deal up to 6 hits.</li><li>Activate Killer Instinct for bonus status and flat ATK.</li><li>Activate Last Inquisition for ranged damage modifier bonus.</li><li>Activate Final Arrow to stack all the bonuses and modifiers on a single auto attack. This bonus is lost if you get hit or any of the previous buffs run out.</li><li>Auto attack an enemy to deal massive damage. Due to Inquisition Resolve, this bonus can hit up to 6 times (at a very low chance).</li><li>This is one of the highest damage dealing hits in the game.</li><li>Note: This combo can be used in smaller sizes and variety according to ease, logic and preparation.</li></ul>
+      <h3 id="combos-rotations-rotations">Rotations</h3>
+      <p>Rotations are just varied ways to string multiple skills that make sense in sequence, regardless of their combo interactions.</p>
+      <p>Examples:</p>
+      <p>Assassin Dagger/Sword AoE:</p>
+      <p>Rogue In-Out:</p>
+      <p>Another variety of rotations include status effects to boost damage.</p>
+      <p>Example:</p>
+      <p>Dracomancer Burning:</p>
+      <ul><li>Burst Petals hit to distant targets.</li><li>Shadow Slash to teleport near it.</li><li>Fan of Knives to deal AoE damage.</li><li>Throw Molotov/Acid.</li><li>Face-off or Backstab to gap close to enemy.</li><li>Hide to dodge any skills, Sneak Attack follow up from hide.</li><li>Decoy to move out.</li><li>Cause Burning status with Dragon Breath (or other cards/skills).</li><li>Dragon Claw deals extra damage vs burning targets.</li></ul>
+    </section>
+    <section id="bonuses">
+      <h2>Innate and unique bonuses</h2>
+      <p>Equipment does more than add numbers. Bouncing skills, repeating skills, autocasts and leech all live here.</p>
+      <h3 id="innate-fixed-bonus-quality-equipment">Quality Equipment</h3>
+      <p>In Return to Morroc, EVERY equipment has what is called "Innate Bonus", these are bonuses that you will always find on these items, regardless of other stats.</p>
+      <p>The value in these items don't always mean an item is better or worse, but it's a good way to know what to expect from them.</p>
+      <p>The innate bonus of any equipment can be found on the first block of their description window.</p>
+      <p>Some special items might break the average innate of its type according to its theme.</p>
+      <p>Accessories and headgears have no innate bonuses, but they may have random options.</p>
+      <h3 id="innate-fixed-bonus-weapons">Weapons</h3>
+      <p>You can check which weapon each job can use by checking their fixed passive in each skill tree. Or their respective wiki page.</p>
+      <ul><li>Note: Katars in Return to Morroc have 1.5x bonus critical rate, for balancing reasons.</li></ul>
+      <h3 id="innate-fixed-bonus-shields">Shields</h3>
+      <p>Shields come in 3 varieties. Round shields can also be called Square Shields. All of them allow the use of shield-only skills.</p>
+      <h3 id="innate-fixed-bonus-armors">Armors</h3>
+      <p>Return to Morroc armors come in a variety of 3. Light, Medium or Heavy.</p>
+      <p>Return to Morroc may feature unique bonuses and penalties to equipment not usually found in the original game. this page denotes some of these systems and bonuses.</p>
+      <p>These bonuses may be present in set bonuses, special items or other varied ways.</p>
+    </section>
+    <section id="death">
+      <h2>Dying, and the Shadow you leave behind</h2>
+      <p>Death is not a loading screen. It puts something hostile in the room with your party.</p>
+      <ul><li>1 The Shadows</li><li>1.1 The Mark</li><li>1.2 Shadow Mechanics</li><li>1.2.1 Shadow Types</li><li>1.3 Shadow Cards</li></ul>
+      <h3 id="shadow-system-the-shadows">The Shadows</h3>
+      <p>Shadows are the curse of The Mark given form. They are the main reason Orphans are hated by so many people around New-Midgard.</p>
+      <h3 id="shadow-system-the-mark">The Mark</h3>
+      <ul><li>The Mark is a red glow in the eyes of every Orphan. It's commonly called Morroc's Mark due to it appearing during the mass disappearances after Morroc's Death.</li><li>Orphans who carried the mark have vanished for between 4 to 5 years, leaving no trace behind and having no memory of where they have gone to. They aged normallly.</li><li>The mark has no other known properties apart from creating Shadows.</li></ul>
+      <h3 id="shadow-system-shadow-mechanics">Shadow Mechanics</h3>
+      <ul><li>Whenever a player dies in any dungeon (and only dungeons), a Shadow will spawn. The type of shadow depends on the dungeon ranking.</li><li>Each shadow has a specific behavior, and will randomly attempt to Self-Destruct whenever anyone comes near it.</li><li>If the shadow is defeated before it explodes, the last player who died on the map is revived with partial HP/SP..</li><li>Multiple player deaths can cause multiple shadows to spawn, all must be defeated to revive a player. Only the last player who died is revived.</li><li>If the shadow explodes it deals heavy area damage based on how much HP it had left. Damage is fixed at 100 per HP left. Shadows take 1 damage from any source.</li></ul>
+      <h3 id="shadow-system-shadow-types">Shadow Types</h3>
+      <p>Rank E Shadow</p>
+      <p>HP: 10</p>
+      <p>Maximum Damage: 1000</p>
+      <p>Behavior: This shadow won't move or attack, and will self destruct after 15 seconds of cast time.</p>
+      <p>Rank D Shadow</p>
+      <p>HP: 15</p>
+      <p>Maximum Damage: 1500</p>
+      <p>Behavior: This shadow will quickly move close to any item on the floor and self destruct after 10 seconds of cast time.</p>
+      <p>Rank C Shadow</p>
+      <p>HP: 20</p>
+      <p>Maximum Damage: 2000</p>
+      <p>Behavior: This shadow might use Pneuma or Safety Wall around and self destruct after 10 seconds of cast time.</p>
+      <p>Rank B Shadow</p>
+      <p>HP: 25</p>
+      <p>Maximum Damage: 2500</p>
+      <p>Behavior: This shadow won't move but deals constant hits of 1 damage to hitlock players, will self destruct after 10 seconds of cast time.</p>
+      <p>Rank A Shadow</p>
+      <p>HP: 30</p>
+      <p>Maximum Damage: 3000</p>
+      <p>Behavior: This shadow will cast magic on players to cause negative status, will self destruct after 8 seconds of cast time.</p>
+      <p>Rank S Shadow</p>
+      <p>HP: 50</p>
+      <p>Maximum Damage: 5000</p>
+      <p>Behavior: This shadow will slowly walk towards a player, and may instantly teleport to them, will self destruct after 3 seconds of cast time.</p>
+      <h3 id="shadow-system-shadow-cards">Shadow Cards</h3>
+      <p>Shadows can also drop cards, all cards have 1% drop rate like common monsters.</p>
+      <aside class="callout callout--refuge">
+        <h3>What the Refuge changed</h3>
+        <ul><li>Hiding now works on bosses, insects and demons - so boss skills were rebalanced in response.</li><li>In <strong>Nightmare in Amatsu</strong>, dying costs a base level outright.</li></ul>
+      </aside>
+    </section>
+    <section id="ranking">
+      <h2>Dungeon ranks</h2>
+      <p>Every dungeon carries a difficulty tier. Anything can be done solo with enough preparation - the rank tells you how much.</p>
+      <ul><li>1 Tailor-made Challenges</li><li>2 Ranks</li><li>2.1 RANK E</li><li>2.2 RANK D</li><li>2.3 RANK C</li><li>2.4 RANK B</li><li>2.5 RANK A</li><li>2.6 RANK S</li></ul>
+      <h3 id="ranking-system-tailor-made-challenges">Tailor-made Challenges</h3>
+      <p>Return to Morroc dungeons are always split in two types: Dungeons and Distortion Dungeons</p>
+      <p>regardless of the type of dungeon a player visits, they will always have their rank, which denotes its difficulty and what Shadow spawns when a player dies there.</p>
+      <p>Visit Combat Reworked for details on how the combat works and it's dynamics.</p>
+      <ul><li>Every dungeon can be handled solo by a sufficiently prepared player, including it's MVP. There are no cheap one shots.</li><li>The recommendations are for reasonable leveling without major struggles. Ignoring some mechanics can still result in death over multiple mistakes.</li><li>Being overleveled may help mitigate some difficulty from the dungeons, at the cost of EXP.</li></ul>
+      <h3 id="ranking-system-ranks">Ranks</h3>
+      <p>The Ranks that shows the difficulty levels can be found on the World Map (Default shortcut: CTRL + ') and map banners when a map is entered.</p>
+      <p>In most cases, a higher rank dungeon will have better drops and provide more exp, as long as a player/party can handle it's difficulty. Lower rank dungeons may sometimes present mechanics from higher rank dungeons under specific circunstances.</p>
+      <ul><li>Distortion Dungeons are only available in Ranks B, A or S.</li></ul>
+      <h3 id="ranking-system-rank-e">RANK E</h3>
+      <p>Rank E dungeons are very easy overall. They are meant for players that don't want to stress over long fights and want an easier time. This doesn't mean they are boring or don't have mechanics, they can still hurt those unprepared.</p>
+      <p>Recommendations</p>
+      <p>Party: Any party with any level of preparation.</p>
+      <p>Solo: Any player with any level of preparation.</p>
+      <ul><li>Rank E dungeons usually are recommended for players who are not used to the combat mechanics of Return to Morroc.</li><li>Rank E dungeon have difficulty similar or slightly below fields.</li><li>Rank E mechanics usually are easy to predict, avoidable, require no specific gears and rarely have potential to one shot on major mistakes.</li></ul>
+      <h3 id="ranking-system-rank-d">RANK D</h3>
+      <p>Rank D dungeons require attention and managing resources to farm effectively. They can still be handled with basic gear, but mistakes are more punishing and luring too many monsters can prove fatal.</p>
+      <p>Recommendations</p>
+      <p>Party: Any party with any level of preparation. A party of 2+ is recommended for ungeared parties.</p>
+      <p>Solo: Any player with basic level of preparation. Access to Heal Lv5 is greatly recommended.</p>
+      <ul><li>Rank D dungeons usually are recommended for players who understand basic mechanics of Return to Morroc.</li><li>Rank D dungeon have difficulty slightly above fields.</li><li>Rank D mechanics usually are reasonable to predict, avoidable, require no specific gears and have very minor potential to one shot. Monsters may have minor combo sequences.</li></ul>
+      <h3 id="ranking-system-rank-c">RANK C</h3>
+      <p>Rank C dungeons can hurt unprepared players. They usually require basic cards or reactions based on enemy behavior. They can still be handled when undergeared but they may provide a challenge and mistakes can be crippling.</p>
+      <p>Recommendations</p>
+      <p>Party: Any party with basic level of preparation. A party of 3+ is recommended for ungeared parties.</p>
+      <p>Solo: Any player with cards and reasonable level of preparation. Access to Heal Lv5 is greatly recommended.</p>
+      <ul><li>Rank C dungeons usually are recommended for players who know the skill mechanics of Return to Morroc.</li><li>Rank C dungeon monsters may have multiple patterns/mechanics.</li><li>Rank C mechanics usually are predictable, avoidable, require no specific gears and have minor potential to one shot. Monsters may have minor combo sequences and reactive skills under specific cases.</li></ul>
+      <h3 id="ranking-system-rank-b">RANK B</h3>
+      <p>Rank B dungeons are always a challenge when a player is on the same level range. They require reasonable cards and knowing the job potential and limits. Monsters usually require multiple rotations to be killed and can force the player to fight under their rules in specific cases.</p>
+      <p>Recommendations</p>
+      <p>Party: Any party with cards and good level of preparation. A party of 5+ is recommended for undergeared parties. Not recommended for ungeared parties.</p>
+      <p>Solo: Any player with good cards and decent level of preparation. Access to Heal Lv10 is greatly recommended.</p>
+      <ul><li>Rank B dungeons usually are recommended for players who are very comfortable with the combat of Return to Morroc.</li><li>Rank B dungeon monsters have varied engaging ways, may disrupt player actions and apply status effects.</li><li>Rank B mechanics are predictable and avoidable, but require precision. They require moderate gear and have some potential for one shots when damage is ignored. Monsters may have combo sequences, reactive skills and disruptions such as status effects and movement impairment.</li></ul>
+      <h3 id="ranking-system-rank-a">RANK A</h3>
+      <p>Rank A dungeons are harder dungeons that have small margin for error. They punish players for any mistakes and in some cases can be fatal. Cards and refined gear are regular needs, along with status resistances. A player who is not prepared may fight for some time, but death is sure to come eventually.</p>
+      <p>Recommendations</p>
+      <p>Party: Prepared party with cards and decent equipment. A party of 4+ is recommended for mid-geared parties. Not recommended for undergeared parties.</p>
+      <p>Solo: Any player with good cards and decent level of preparation. Access to Heal Lv10 is greatly recommended.</p>
+      <ul><li>Rank A dungeons are recommended only for players who are very comfortable and understand the combat of Return to Morroc.</li><li>Rank A dungeon monsters have multiple mechanics, minor phase changes and react in unpredictable ways.</li><li>Rank A mechanics are both avoidable and precise. Monsters may include unavoidable mechanics to act as checks for resistances, prediction and defenses under specific cases. Monsters may have specific status immunities or knockback resistances.</li></ul>
+      <h3 id="ranking-system-rank-s">RANK S</h3>
+      <p>Rank S dungeons are among the hardest challenges in Return to Morroc. They can take down even prepared parties with a barrage of skills, status, monsters and phases. They are always punishing and failing a very clear, very obvious long mechanic pretty much guarantees death.</p>
+      <p>Recommendations</p>
+      <p>Party: Prepared party with good cards and good equipment. A party of 6 is recommended for mid-geared parties. Not recommended for low-geared parties.</p>
+      <p>Solo: A very well prepared and experient player. Access to Heal Lv10 is required for any chance of success.</p>
+      <ul><li>Rank S dungeons are recommended only for players who mastered the combat of Return to Morroc.</li><li>Rank S dungeon monsters have multiple mechanics, aggression and can be unpredictable. They can use skills under new rules, have specific counters to specific combat methods or require strong mitigation or some equip swapping.</li><li>Rank S mechanics can be split in multiple parts, ensuring a player needs to pay attention to what a monster already did to know what to expect. Monsters may change behavior and require careful positioning during the fight so as not to kill a party member as colateral damage while handling a skill.</li><li>Mistakes can be punished with one shots or even party wipes.</li></ul>
+    </section>
+    <p class="source-note">
+      Material on this page is transcribed from the community wiki for the world
+      the Refuge inherited, and from the development team's own posts. Where the
+      two disagree, the posts win and the difference is called out in a purple
+      box. Numbers may still move before launch.
+    </p>
+  </div>
+</div>
+
+</main>
+<!-- FOOTER:START -->
+<footer class="site-footer">
+  <div class="shell">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="index.html">
+          <img class="mark" src="assets/img/icon-192.png" width="34" height="34" alt="" aria-hidden="true">
+          <span class="brand-text">
+            <span class="brand-name">RETURN TO MORROC</span>
+            <span class="brand-sub">Refuge</span>
+          </span>
+        </a>
+        <p class="muted" style="margin-top:1rem;font-size:0.92rem;max-width:34ch">
+          A free, non-commercial hobby world built and run by a handful of players
+          for anyone who wants somewhere unhurried to play.
+        </p>
+        <p class="cluster" style="margin-top:1rem">
+          <a class="btn btn--ghost" href="https://discord.gg/a5P3PFNMhn" rel="noopener">Community chat</a>
+        </p>
+      </div>
+      <div>
+        <h4>Start here</h4>
+        <ul>
+        <li><a href="server.html">What the Refuge is</a></li>
+        <li><a href="start.html">New player guide</a></li>
+        <li><a href="join.html">How to join</a></li>
+        <li><a href="faq.html">Questions and answers</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>The game</h4>
+        <ul>
+        <li><a href="classes.html">All 30 classes</a></li>
+        <li><a href="newjobs.html">Bouncer and Pit Boss</a></li>
+        <li><a href="mechanics.html">Combat and stats</a></li>
+        <li><a href="gear.html">Items, refining, shadows</a></li>
+        <li><a href="world.html">Regions, dungeons, MVPs</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Reference</h4>
+        <ul>
+        <li><a href="changes.html">Changes from the original</a></li>
+        <li><a href="database.html">Community database</a></li>
+        <li><a href="guides.html">Player-written guides</a></li>
+        <li><a href="llms.txt">llms.txt</a></li>
+        <li><a href="sitemap.xml">Sitemap</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-legal">
+      Return to Morroc: Refuge is an unofficial, non-commercial fan project with no affiliation to,
+      sponsorship by or endorsement from any game publisher, developer or rights
+      holder. It hosts no commercial storefront, sells nothing, and accepts no
+      real-money trading. All third-party names that appear anywhere on this site
+      belong to their respective owners and are used only to describe gameplay.
+      Nothing here is distributed for profit.
+      <br><br>
+      Built by the community, in the open. Site content is free to copy.
+    </p>
+  </div>
+</footer>
+<!-- FOOTER:END -->
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>

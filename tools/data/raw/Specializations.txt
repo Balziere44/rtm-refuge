@@ -1,0 +1,405 @@
+== Specializations ==
+They are a unique part of the progression of the [[Thief]] tree. Specializations provide a unique step in the progression for them.
+
+For anyone unfamiliar, they are similar to the old Rebirth Jobs, except that they just expand your job capabilities, they don't reset it.
+
+== Details for Specializations ==
+To choose a specialization:
+
+* Assassin or Rogue Job Level 50
+* Any Base Level
+* Talk to a Master in the Desert Guild
+* You will receive a free skill reset. Your Job Level will continue from 50 but max job level will be expanded to 70.
+* You can use skill points freely between Assassin/Rogue or the Specialization skills.
+* Once you're Job Level 70, you can advance to the final job.
+
+There are 8 Specializations Available:
+
+'''Assassin'''
+
+* Blade Dancer. Specialization focused on speed and dual wielding. Evolves into [[Night Raven]].
+* Executioner. Specialization focused on criticals and katars. Evolves into [[Gravekeeper]].
+* Scoundrel. Specialization focused on poisons and axes. Evolves into [[Black Plague]].
+* Shinobi. Specialization focused on covering all aspects. Evolves into [[Satsujin]].
+
+'''Rogue'''
+
+* Duelist. Specialization focused on preventing and countering damage. Evolves into [[Kingslayer]].
+* Saboteur. Specialization focused on traps and bombs. Evolves into [[Blast Juggler]].
+* Deadeye. Specialization focused on preparation and bows. Evolves into [[Sinner]].
+* Mystic. Specialization focused on magic and elements. Evolves into [[Arcane Master]].
+
+== Assassin Specializations ==
+=== [[File:Bladedancer.gif|25px|alt=Bladedancer.gif]] Blade Dancer ===
+{| class="wikitable" style="font-weight:normal; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|-
+! style="text-align:center; background-color:#99d9ea;" | Skill
+! style="text-align:center; background-color:#99d9ea;" | Max Level
+! style="text-align:center; background-color:#99d9ea;" | Description
+! style="text-align:center; background-color:#99d9ea;" | Skill Type
+! style="text-align:center; background-color:#99d9ea;" | Details
+! style="text-align:center; background-color:#99d9ea;" | Scaling
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Asc_breaker.gif|26px|alt=Asc breaker.gif]] Soul Destroyer
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Deals ranged physical damage to an enemy. High INT scaling.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Offensive Ranged
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Uses ATK for calculations, heavy INT-based boost.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | INT
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Bd_southcross.gif|26px|alt=Bd southcross.gif]] Southern Cross
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Deals Heavy damage with both hands to a target. Target is marked with Night Wound.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Offensive
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Repeat use of the skill deals extra damage vs marked targets. Other skills also boosted.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | AGI
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Gc_weaponblocking.gif|26px|alt=Gc weaponblocking.gif]] Weapon Blocking
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Allows blocking of direct attacks.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Self-Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | When blocking activates counter stance, required for some skills. Requires dual wielding to work. While active, Rolling Cutter has no effect.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Gc_counterslash.gif|26px|alt=Gc counterslash.gif]] Counter Slash
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Deals heavy damage against all enemies around caster.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Offensive AoE
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Generates Rolling Counters and deals extra hits per consecutive use. Can only be used during counter state.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | AGI
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Gc_darkcrow.gif|26px|alt=Gc darkcrow.gif]] Dark Claw
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Removes reflect power from enemies and increases physical damage for 10 seconds.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Offensive Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Cooldown is 90 seconds, Damage bonus is 2% per level.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|}
+=== [[File:Executioner.gif|25px|link=Executioner]]Executioner ===
+{| class="wikitable" style="font-weight:normal; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|-
+! style="text-align:center; background-color:#99d9ea;" | Skill
+! style="text-align:center; background-color:#99d9ea;" | Max Level
+! style="text-align:center; background-color:#99d9ea;" | Description
+! style="text-align:center; background-color:#99d9ea;" | Skill Type
+! style="text-align:center; background-color:#99d9ea;" | Details
+! style="text-align:center; background-color:#99d9ea;" | Scaling
+|-
+| [[File:Ex_alpha.gif|26px]] Alpha
+| Lv 10
+| Deals direct damage that can be critical. Combo Opener
+| Offensive
+| Skill requires Fury State to be used.
+| LUK
+|-
+| [[File:Ex_omega.gif|26px]] Omega
+| Lv 10
+| Deals direct damage that can be critical. Can only be used after Alpha
+| Offensive
+| Skill requires Fury State to be used.
+| LUK
+|-
+| [[File:Ex_rush.gif|26px]] Meteor Rush
+| Lv 5
+| Deals damage to all enemies between user and target with a critical chance.
+| Offensive Ranged AoE
+| Requires a sword or katar. Damage is not split between targets.
+| AGI
+|-
+| [[File:Ex_meteor.gif|26px]] Meteor Assault
+| Lv 5
+| Deals damage around self with a chance of causing multiple negative status.
+| Offensive AoE
+| Can cause blind, stun and bleeding.
+| DEX
+|-
+| [[File:Gc_darkcrow.gif|26px]] Dark Claw
+| Lv 5
+| Removes reflect power from enemies and increases physical damage for 10 seconds.
+| Offensive Support
+| Cooldown is 90 minutes, Damage bonus is 2% per level.
+| No
+|}
+
+=== [[File:Scoundrel.gif|25px|link=Scoundrel]]Scoundrel ===
+{| class="wikitable" style="font-weight:normal; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|-
+! style="text-align:center; background-color:#99d9ea;" | Skill
+! style="text-align:center; background-color:#99d9ea;" | Max Level
+! style="text-align:center; background-color:#99d9ea;" | Description
+! style="text-align:center; background-color:#99d9ea;" | Skill Type
+! style="text-align:center; background-color:#99d9ea;" | Details
+! style="text-align:center; background-color:#99d9ea;" | Scaling
+|-
+| [[File:Sc_mark.gif|26px]] Venom Mark
+| Lv 5
+| Increases target poison element damage taken by 5% per level
+| Offensive Support
+| Increases both magic and physical poison damage.
+| LUK
+|-
+| [[File:As_splasher.gif|24px]] Venom Splasher
+| Lv 10
+| Plants a poison bomb against a target that explodes after a moment to deal heavy AoE damage and poison enemies.
+| Offensive Delayed AoE
+| Fuse time is 5 seconds. Decreases by 1 second every 2 levels. Cooldown also decreases.
+| VIT
+|-
+| [[File:Sc_buster.gif|24px]] Venom Buster
+| Lv 10
+| Ignites the poison in a target dealing heavy poison damage boosted by all modifiers.
+| Offensive Magic AoE
+| Damage is doubled vs Poisoned enemies. High Cooldown.
+| INT
+|-
+| [[File:Sc_deadlyinfect.gif|26px]] Deadly Infection
+| Lv 5
+| Coats itself with all status effect received, passing them when attacking or being attacked.
+| Offensive Self-Support
+| Can be used to poison target on purpose by drinking Poison Bottles.
+| No
+|}
+=== [[File:Shinobi.gif|25px|link=Shinobi]]Shinobi ===
+{| class="wikitable" style="font-weight:normal; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|-
+! style="text-align:center; background-color:#99d9ea;" | Skill
+! style="text-align:center; background-color:#99d9ea;" | Max Level
+! style="text-align:center; background-color:#99d9ea;" | Description
+! style="text-align:center; background-color:#99d9ea;" | Skill Type
+! style="text-align:center; background-color:#99d9ea;" | Details
+! style="text-align:center; background-color:#99d9ea;" | Scaling
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Sh_thousand.gif|26px]] Thousand Arms
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Deals damage multiple times to all enemies around the caster.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Offensive AoE
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | High AGI Scaling.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | AGI
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Sh_samsara.gif|26px]] Samsara Burst
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Deals constant magic damage in an area. Duration and power increases with level.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Offensive AoE Magic
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Element can be changed with bonuses by Seven Winds
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | All Stats
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Sh_kawarimi.gif|26px]] Kawarimi
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Automatically dodges a set number of physical attacks and skills.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Self-Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Moves back quickly when dodging, amount of dodges increases with level. High Cooldown.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Sh_makibishi.gif|26px]] Makibishi
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Scatters Makibishi on the floor, dealing damage and stunning passing enemies.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Offensive DoT
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Requires Makibishi to use, high cooldown.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | DEX
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Tk_sevenwind.gif|26px]] Seven Winds
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 7
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Changes weapon element to any other element except poison.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Self-Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Element can be changed anytime.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|}
+
+== Rogue Specializations ==
+=== [[File:Duelist.gif|25px|link=Duelist]]Duelist ===
+{| class="wikitable" style="font-weight:normal; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|-
+! style="text-align:center; background-color:#99d9ea;" | Skill
+! style="text-align:center; background-color:#99d9ea;" | Max Level
+! style="text-align:center; background-color:#99d9ea;" | Description
+! style="text-align:center; background-color:#99d9ea;" | Skill Type
+! style="text-align:center; background-color:#99d9ea;" | Details
+! style="text-align:center; background-color:#99d9ea;" | Scaling
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Dl_riposte.gif|26px]] Riposte
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Block a frontal attack and counters with a critical hit.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Offensive Self-Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Higher level has shorter duration but quicker use animation. Requires 1 Duel Counter. Damage increased by Shield Weight and Refine.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | INT
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Dl_delta.gif|26px]] Delta Skyfall
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Drops blades from the sky to hit distant enemies.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Offensive Ranged
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Requires a Dagger or Sword.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | AGI
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Dl_stance.gif|26px]] Duel Stance
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Increases Max HP by 2% per level while active. Enables Stacking of Duel Counters
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Self-Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Maximum amount and chance of receiving Duel Counters when damaged increase per level
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Dl_retribution.gif|26px]] Retribution
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Consumes all Duel Counters to deal damage to an enemy.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Offensive
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Damage increases with more Duel Counters
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | VIT
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Rg_readytorip.gif|26px]] Ready to Rip
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Enables Endure and increases HIT and ATK while decreasing defense.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Self-Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Cooldown is 2 minutes, Duration is 50 seconds.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|}
+
+=== [[File:Saboteur.gif|25px|link=Saboteur]]Saboteur ===
+{| class="wikitable" style="font-weight:normal; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|-
+! style="text-align:center; background-color:#99d9ea;" | Skill
+! style="text-align:center; background-color:#99d9ea;" | Max Level
+! style="text-align:center; background-color:#99d9ea;" | Description
+! style="text-align:center; background-color:#99d9ea;" | Skill Type
+! style="text-align:center; background-color:#99d9ea;" | Details
+! style="text-align:center; background-color:#99d9ea;" | Scaling
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Sa_explosion.gif|26px]] Greater Explosion
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Deals Massive Damage to all enemies around target.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Ranged Physical AoE
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Requires Fire Bottles and Acid Bottles, high cooldown. Chance of inflicting Bleeding.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | INT
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Sa_field.gif|26px]] Burning Field
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Ignites an area, dealing damage over time with a chance of causing burning.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Offensive DoT AoE
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Up to three can be active at a time. Can be stacked. Requires Fire Bottles.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | INT
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Ht_anklesnare.gif|26px]] Ankle Snare
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Places a trap on the ground that holds anyone that steps on it in place.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Control
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Set duration decreases and bound duration increases per level. Duration greatly decreased on bosses.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Cr_slimpitcher.gif|26px]] Slim Potion Throw
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 3
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Throws a Slim Potion at a 7x7 area healing all allies inside.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Healing power and potion quality increases per level.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Ra_firingtrap.gif|26px]] Hot Trap
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Deals fixed damage and causes burning to enemies that step on it
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Trap AoE
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Maximum 3 traps at once
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|}
+=== [[File:Deadeye.gif|25px]]Deadeye ===
+{| class="wikitable" style="font-weight:normal; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|-
+! style="text-align:center; background-color:#99d9ea;" | Skill
+! style="text-align:center; background-color:#99d9ea;" | Max Level
+! style="text-align:center; background-color:#99d9ea;" | Description
+! style="text-align:center; background-color:#99d9ea;" | Skill Type
+! style="text-align:center; background-color:#99d9ea;" | Details
+! style="text-align:center; background-color:#99d9ea;" | Scaling
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Dy_snipernest.gif|26px]] Sniper Nest
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Greatly reduces movement speed and flee to increase attack and attack speed.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Self-Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Requires 3 coins to use. Has a long cast time.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | INT
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Dy_headshot.gif|26px]] Headshot
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Takes time to prepare the perfect arrow with high DEX scaling.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Offensive Ranged
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Deals 90% less damage without Sniper Nest.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | DEX
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Dy_cluster.gif|26px]] Cluster Arrow
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Hits all enemies around a minor area around a target.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Offensive Ranged AoE
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Has bonus critical chance. Damage split between all targets.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | LUK
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Ra_aimedbolt.gif|26px]] Aimed Bolt
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Quickly shoots a perfect arrow against a target.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Offensive Ranged
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Has minimal delay after use. High SP consumption. Knocks the target back a significant distance.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | AGI
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Rg_readytorip.gif|26px]] Ready to Rip
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Enables Endure and increases HIT and ATK while decreasing defense.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Self-Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Cooldown is 2 minutes, Duration is 50 seconds.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|}
+=== [[File:Mystic.gif|25px]]Mystic ===
+
+{| class="wikitable" style="font-weight:normal; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|-
+! style="text-align:center; background-color:#99d9ea;" | Skill
+! style="text-align:center; background-color:#99d9ea;" | Max Level
+! style="text-align:center; background-color:#99d9ea;" | Description
+! style="text-align:center; background-color:#99d9ea;" | Skill Type
+! style="text-align:center; background-color:#99d9ea;" | Details
+! style="text-align:center; background-color:#99d9ea;" | Scaling
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:My_unholy.gif|26px]] Unholy Light
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Deals Dark Magic Damage to an enemy and surroundings.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Offensive Magic AoE
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Can be cast with Autospell. Strong vs Natural Elements.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Focus Spell amount
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Wz_waterball.gif|26px]] Water Ball
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Deals a high amount of hits using water magic.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Offensive Magic
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Requires water tiles or Arcane Flow to be used. Cast time is shorter on water.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | INT
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Sa_deluge.gif|26px]] Arcane Flow
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Enchants an area, allowing use of waterball and reducing cast time
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Support Magic
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Reduces both variable and fixed cast time. Duration increases per skill level.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Dualcast.gif|25px]] Dual Cast
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | 10% chance per level to repeat casting of specific skills instantly
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Self-Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Applies to the 8 main natural element spells and Unholy Light, short duration and cooldown
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:My_unholy.gif|26px]] Eruption
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Deals earth magic damage to 1 enemy. More hits with higher level.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Offensive Magic
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Generates Earth Focus to increase damage.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|}

@@ -1,0 +1,128 @@
+* [[#Tailor-made_Challenges|<span class="tocnumber">1</span> <span class="toctext">Tailor-made Challenges</span>]]
+* [[#Ranks|<span class="tocnumber">2</span> <span class="toctext">Ranks</span>]]
+** [[#RANK_E|<span class="tocnumber">2.1</span> <span class="toctext">RANK E</span>]]
+** [[#RANK_D|<span class="tocnumber">2.2</span> <span class="toctext">RANK D</span>]]
+** [[#RANK_C|<span class="tocnumber">2.3</span> <span class="toctext">RANK C</span>]]
+** [[#RANK_B|<span class="tocnumber">2.4</span> <span class="toctext">RANK B</span>]]
+** [[#RANK_A|<span class="tocnumber">2.5</span> <span class="toctext">RANK A</span>]]
+** [[#RANK_S|<span class="tocnumber">2.6</span> <span class="toctext">RANK S</span>]]
+
+== <span id="Tailor-made_Challenges" class="mw-headline">Tailor-made Challenges</span> ==
+
+Return to Morroc dungeons are always split in two types: [[Dungeons]] and [[Distortion Dungeons]]
+
+regardless of the type of dungeon a player visits, they will always have their rank, which denotes its difficulty and what [[Shadow System|Shadow]] spawns when a player dies there.
+
+Visit [[Combat Reworked]] for details on how the combat works and it's dynamics.
+
+* '''Every dungeon can be handled solo by a sufficiently prepared player, including it's MVP. There are no cheap one shots.'''
+* '''The recommendations are for reasonable leveling without major struggles. Ignoring some mechanics can still result in death over multiple mistakes.'''
+* '''Being overleveled may help mitigate some difficulty from the dungeons, at the cost of EXP.'''
+
+== <span id="Ranks" class="mw-headline">Ranks</span> ==
+
+The Ranks that shows the difficulty levels can be found on the World Map (Default shortcut: '''CTRL + '''') and map banners when a map is entered.
+
+In most cases, a higher rank dungeon will have better drops and provide more exp, as long as a player/party can handle it's difficulty. Lower rank dungeons may sometimes present mechanics from higher rank dungeons under specific circunstances.
+
+* Distortion Dungeons are only available in Ranks '''B''', '''A''' or '''S'''.
+
+=== <span id="RANK_E" class="mw-headline">RANK E</span> ===
+
+Rank E dungeons are very easy overall. They are meant for players that don't want to stress over long fights and want an easier time. This doesn't mean they are boring or don't have mechanics, they can still hurt those unprepared.
+
+* Rank E dungeons usually are recommended for players who are not used to the combat mechanics of Return to Morroc.
+* Rank E dungeon have difficulty similar or slightly below fields.
+* Rank E mechanics usually are easy to predict, avoidable, require no specific gears and rarely have potential to one shot on major mistakes.
+
+'''Recommendations'''
+
+'''Party''': Any party with any level of preparation.
+
+'''Solo''': Any player with any level of preparation.
+
+<br />
+
+
+=== <span id="RANK_D" class="mw-headline">RANK D</span> ===
+
+Rank D dungeons require attention and managing resources to farm effectively. They can still be handled with basic gear, but mistakes are more punishing and luring too many monsters can prove fatal.
+
+* Rank D dungeons usually are recommended for players who understand basic mechanics of Return to Morroc.
+* Rank D dungeon have difficulty slightly above fields.
+* Rank D mechanics usually are reasonable to predict, avoidable, require no specific gears and have very minor potential to one shot. Monsters may have minor combo sequences.
+
+'''Recommendations'''
+
+'''Party''': Any party with any level of preparation. A party of 2+ is recommended for ungeared parties.
+
+'''Solo''': Any player with basic level of preparation. Access to Heal Lv5 is greatly recommended.
+
+<br />
+
+
+=== <span id="RANK_C" class="mw-headline">RANK C</span> ===
+
+Rank C dungeons can hurt unprepared players. They usually require basic cards or reactions based on enemy behavior. They can still be handled when undergeared but they may provide a challenge and mistakes can be crippling.
+
+* Rank C dungeons usually are recommended for players who know the skill mechanics of Return to Morroc.
+* Rank C dungeon monsters may have multiple patterns/mechanics.
+* Rank C mechanics usually are predictable, avoidable, require no specific gears and have minor potential to one shot. Monsters may have minor combo sequences and reactive skills under specific cases.
+
+'''Recommendations'''
+
+'''Party''': Any party with basic level of preparation. A party of 3+ is recommended for ungeared parties.
+
+'''Solo''': Any player with cards and reasonable level of preparation. Access to Heal Lv5 is greatly recommended.
+
+<br />
+
+
+=== <span id="RANK_B" class="mw-headline">RANK B</span> ===
+
+Rank B dungeons are always a challenge when a player is on the same level range. They require reasonable cards and knowing the job potential and limits. Monsters usually require multiple rotations to be killed and can force the player to fight under their rules in specific cases.
+
+* Rank B dungeons usually are recommended for players who are very comfortable with the combat of Return to Morroc.
+* Rank B dungeon monsters have varied engaging ways, may disrupt player actions and apply status effects.
+* Rank B mechanics are predictable and avoidable, but require precision. They require moderate gear and have some potential for one shots when damage is ignored. Monsters may have combo sequences, reactive skills and disruptions such as status effects and movement impairment.
+
+'''Recommendations'''
+
+'''Party''': Any party with cards and good level of preparation. A party of 5+ is recommended for undergeared parties. Not recommended for ungeared parties.
+
+'''Solo''': Any player with good cards and decent level of preparation. Access to Heal Lv10 is greatly recommended.
+
+<br />
+
+
+=== <span id="RANK_A" class="mw-headline">RANK A</span> ===
+
+Rank A dungeons are harder dungeons that have small margin for error. They punish players for any mistakes and in some cases can be fatal. Cards and refined gear are regular needs, along with status resistances. A player who is not prepared may fight for some time, but death is sure to come eventually.
+
+* Rank A dungeons are recommended only for players who are very comfortable and understand the combat of Return to Morroc.
+* Rank A dungeon monsters have multiple mechanics, minor phase changes and react in unpredictable ways.
+* Rank A mechanics are both avoidable and precise. Monsters may include unavoidable mechanics to act as checks for resistances, prediction and defenses under specific cases. Monsters may have specific status immunities or knockback resistances.
+
+'''Recommendations'''
+
+'''Party''': Prepared party with cards and decent equipment. A party of 4+ is recommended for mid-geared parties. Not recommended for undergeared parties.
+
+'''Solo''': Any player with good cards and decent level of preparation. Access to Heal Lv10 is greatly recommended.
+
+<br />
+
+
+=== <span id="RANK_S" class="mw-headline">RANK S</span> ===
+
+Rank S dungeons are among the hardest challenges in Return to Morroc. They can take down even prepared parties with a barrage of skills, status, monsters and phases. They are always punishing and failing a very clear, very obvious long mechanic pretty much guarantees death.
+
+* Rank S dungeons are recommended only for players who mastered the combat of Return to Morroc.
+* Rank S dungeon monsters have multiple mechanics, aggression and can be unpredictable. They can use skills under new rules, have specific counters to specific combat methods or require strong mitigation or some equip swapping.
+* Rank S mechanics can be split in multiple parts, ensuring a player needs to pay attention to what a monster already did to know what to expect. Monsters may change behavior and require careful positioning during the fight so as not to kill a party member as colateral damage while handling a skill.
+* Mistakes can be punished with one shots or even party wipes.
+
+'''Recommendations'''
+
+'''Party''': Prepared party with good cards and good equipment. A party of 6 is recommended for mid-geared parties. Not recommended for low-geared parties.
+
+'''Solo''': A very well prepared and experient player. Access to Heal Lv10 is required for any chance of success.

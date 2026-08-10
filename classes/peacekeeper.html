@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Peacekeeper | Return to Morroc: Refuge</title>
+<meta name="description" content="Peacekeeper in Return to Morroc: Refuge - Whips and trinkets, in one continuous combo. Skill list, strengths, weaknesses and what the rebuild changed.">
+<link rel="canonical" href="https://rtmrefuge.pages.dev/classes/peacekeeper.html">
+
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#06040a">
+<meta name="theme-color" content="#06040a" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f2f0f5" media="(prefers-color-scheme: light)">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Return to Morroc: Refuge">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://rtmrefuge.pages.dev/classes/peacekeeper.html">
+<meta property="og:title" content="Peacekeeper | Return to Morroc: Refuge">
+<meta property="og:description" content="Peacekeeper in Return to Morroc: Refuge - Whips and trinkets, in one continuous combo. Skill list, strengths, weaknesses and what the rebuild changed.">
+<meta property="og:image" content="https://rtmrefuge.pages.dev/assets/social/og-cover.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Return to Morroc: Refuge">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Peacekeeper | Return to Morroc: Refuge">
+<meta name="twitter:description" content="Peacekeeper in Return to Morroc: Refuge - Whips and trinkets, in one continuous combo. Skill list, strengths, weaknesses and what the rebuild changed.">
+<meta name="twitter:image" content="https://rtmrefuge.pages.dev/assets/social/og-cover.jpg">
+
+<link rel="icon" href="../assets/img/icon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="../assets/img/icon-180.png">
+<link rel="manifest" href="../site.webmanifest">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+
+<script>
+/* The only blocking script on the site. It has to run before the first paint
+   or the wrong theme shows for a frame. */
+(function () {
+  try {
+    var t = localStorage.getItem('rtmr-theme');
+    if (!t) t = matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+    document.documentElement.dataset.theme = t;
+  } catch (e) {}
+})();
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "item": "https://rtmrefuge.pages.dev/index.html", "name": "Home"},
+    {"@type": "ListItem", "position": 2, "item": "https://rtmrefuge.pages.dev/classes.html", "name": "Classes"},
+    {"@type": "ListItem", "position": 3,  "name": "Peacekeeper"}
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="shell header-inner">
+    <a class="brand" href="../index.html">
+      <img class="mark" src="../assets/img/icon-192.png" width="34" height="34" alt="" aria-hidden="true">
+      <span class="brand-text">
+        <span class="brand-name">RETURN TO MORROC</span>
+        <span class="brand-sub">Refuge</span>
+      </span>
+    </a>
+    <!-- NAV:START -->
+    <nav class="nav" aria-label="Main">
+      <a href="../index.html">Home</a>
+      <a href="../server.html">The Server</a>
+      <a href="../start.html">Start Here</a>
+      <a href="../classes.html" aria-current="page">Classes</a>
+      <a href="../mechanics.html">Mechanics</a>
+      <a href="../gear.html">Gear</a>
+      <a href="../world.html">World</a>
+      <a href="../guides.html">Guides</a>
+      <a href="../join.html">Join</a>
+    </nav>
+    <!-- NAV:END -->
+    <div class="header-actions">
+      <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch theme">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+          <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" stroke-linejoin="round"/>
+        </svg>
+      </button>
+      <a class="icon-btn" href="https://discord.gg/a5P3PFNMhn" rel="noopener" aria-label="Community chat server">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M19.6 5.6A16 16 0 0 0 15.7 4.4l-.2.4a12 12 0 0 1 3.4 1.7 14 14 0 0 0-12-.6 13 13 0 0 0-1.7.6 12 12 0 0 1 3.4-1.7l-.2-.4A16 16 0 0 0 4.4 5.6C2 9.2 1.3 12.7 1.6 16.2a16 16 0 0 0 4.9 2.5l1-1.6a10 10 0 0 1-1.6-.8l.4-.3a11 11 0 0 0 9.4 0l.4.3a10 10 0 0 1-1.6.8l1 1.6a16 16 0 0 0 4.9-2.5c.4-4-.7-7.5-2.8-10.6zM8.6 14.3c-1 0-1.7-.9-1.7-1.9s.8-1.9 1.7-1.9 1.8.9 1.7 1.9c0 1-.7 1.9-1.7 1.9zm6.3 0c-1 0-1.7-.9-1.7-1.9s.8-1.9 1.7-1.9 1.8.9 1.7 1.9c0 1-.7 1.9-1.7 1.9z"/>
+        </svg>
+      </a>
+      <button class="icon-btn nav-toggle" type="button" data-drawer-open aria-expanded="false" aria-controls="drawer" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+          <path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="drawer" id="drawer" data-open="false" role="dialog" aria-modal="true" aria-label="Menu">
+  <div class="shell">
+    <div class="drawer-head">
+      <span class="eyebrow">Menu</span>
+      <button class="icon-btn" type="button" data-drawer-close aria-label="Close menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+          <path d="M6 6l12 12M18 6L6 18" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+    <!-- DRAWER:START -->
+    <nav aria-label="Mobile">
+      <a href="../index.html">Home</a>
+      <a href="../server.html">The Server</a>
+      <a href="../start.html">Start Here</a>
+      <a href="../classes.html" aria-current="page">Classes</a>
+      <a href="../mechanics.html">Mechanics</a>
+      <a href="../gear.html">Gear</a>
+      <a href="../world.html">World</a>
+      <a href="../guides.html">Guides</a>
+      <a href="../join.html">Join</a>
+    </nav>
+    <!-- DRAWER:END -->
+  </div>
+</div>
+<main id="main">
+<section class="page-hero page-hero--class">
+  <div class="shell">
+    <p class="crumbs"><a href="../index.html">Home</a><span>/</span><a href="../classes.html">Classes</a><span>/</span><span>Peacekeeper</span></p>
+    <p class="eyebrow">Expert job</p>
+    <h1>Peacekeeper</h1>
+    <p class="lede">Whips and trinkets, in one continuous combo.</p>
+  </div>
+</section>
+
+<div class="shell class-body">
+  <article class="prose">
+      <aside class="callout callout--refuge" aria-labelledby="refuge-peacekeeper">
+        <h2 id="refuge-peacekeeper">What the Refuge changed</h2>
+        <ul><li>Use Trinket base damage doubled and DEX scaling tripled.</li><li>Both Andromeda skills hit harder on shorter cooldowns.</li><li>New gear was added specifically for this job, which was short of it.</li><li>Chain Mastery and Assault Mode were pulled back to pay for it.</li></ul>
+      </aside>
+    <dl class="factbar">
+        <div><dt>Tier</dt><dd>Expert job</dd></div>
+        <div><dt>Changes from</dt><dd><a href="orphan.html">Orphan</a></dd></div>
+        <div><dt>Weapons</dt><dd>Whips.Trinkets.</dd></div>
+    </dl>
+      <div class="verdict">
+        <div class="verdict-col verdict-col--good">
+          <h3>Strengths</h3>
+          <p>High damage potential. High leech power with certain trinkets. High natural resistances. Weapon Endows from trinkets. Damage scaling depends on trinkets used.</p>
+        </div>
+        <div class="verdict-col verdict-col--bad">
+          <h3>Weaknesses</h3>
+          <p>High skill ceiling. Trinkets are expensive to make.Squishy without investments. Long Cooldown on finisher skills.</p>
+        </div>
+      </div>
+    <div class="prose-flow">
+      <h2 id="gameplay-identity">Gameplay Identity</h2>
+      <p>Peacekeeper is melee dps job that uses whips and scales mainly on DEX instead of STR. Combo playstyle offers high dps with great sustain if you can keep combo going.</p>
+      <p>Unique trinkets can change or improve your desired playstyle, change your weapon endows and stat scaling on skills, or other unique effects.</p>
+      <p>Using Assault Mode grants increased offensive stats for exchange in defences. Use with caution.</p>
+      <h2 id="gameplay-identity">Gameplay Identity</h2>
+      <p>Peacekeeper has consistent dps while using combo skills. Each damaging skill has 2-3 effects depending on combo state. Giving endless chain of heavy hits. By adding trinktes use on top of active combo can further improve option on damagin potential of the class.</p>
+      <p>Trinkets are non-consumable throwing items, that grants effects depending on "Use trinket" skil level. Level 1~5 Deals damage depending on trinket. Level 6~10 Deals damage and grants trinket effect while under turnabout mode with increased cooldown.</p>
+      <p>Possible combo:</p>
+      <p>Constant DPS combo:</p>
+      <p>Conviction -&gt; Eternal Chain -&gt; Conviction -&gt; Use Trinket [1~5] -&gt; Conviction -&gt; Repeat.</p>
+      <p>Finisher combo:</p>
+      <p>Use Trinket [6~10] -&gt; Conviction -&gt; Eternal Chain -&gt; Conviction -&gt; Lashing Andromeda(Single target) or Wrecking Andromeda(AoE).</p>
+      <p>AutoAttack combo:</p>
+      <p>Use Trinket [1~5] -&gt; Autocast Conviction -&gt; Eternal Chain -&gt; Repeat.</p>
+      <p>Or</p>
+      <p>Enter Turnabout mode -&gt; Use Trinket [6~10] -&gt; Autocast Conviction -&gt; Eternal Chain -&gt; repeat</p>
+      <p>And a lot more if you wish to push Peacekeeper even further.</p>
+      <h2 id="peacekeeper-hq">Peacekeeper HQ</h2>
+      <p>In Marrol Kingdom the Free city of Frontier gives access to Peacekeeper HQ upon changing job to Peacekeeper, where you can gain information about "secret" Trinket crafting.</p>
+      <p>Around the HQ certain Npc can give information about trinkets crafting and materials needed for them.</p>
+      <p>To craft trinkets you need to enter Place of Power in the middle of the room, while having required materials you can craft every trinket.</p>
+      <p>Crafting trinket will require 1 refine material and 1 unique catalyst.</p>
+      <p>List of Trinket Recipes:</p>
+      <p>Frost Spinner - Permafrost crystal + Oridecon</p>
+      <p>Deadly Rose - Valkyrie Flower + Shadowdecon</p>
+      <p>Guard Rock - Toxic Stone of Rot + Enriched Elunium</p>
+      <p>Broken Serenade - Cute Bell + Enriched Oridecon</p>
+      <p>Amulet of Siegfried - Valkyrie Legend + Bradium</p>
+      <p>Holy Cross - Rune of Darkness + Jewel Bradium</p>
+      <p>Destiny Brush - Cursed Samurai Scroll + Jewel Oridecon</p>
+      <p>Wicked Eden - Perfect Tuxedo + Emperium</p>
+    </div>
+      <section class="section--tight" id="skills">
+        <div class="section-head">
+          <h2>Skills</h2>
+          <p>10 entries, as documented for the world the Refuge inherited.
+             Exact numbers are deliberately not listed - they move with balance passes.</p>
+        </div>
+        <div class="cluster" style="margin-bottom:1rem">
+          <label class="visually-hidden" for="sk">Filter skills</label>
+          <input id="sk" type="search" class="field" placeholder="Filter skills..."
+                 data-filter="skilltable" data-filter-count="skcount">
+          <span class="chip mono" id="skcount">-</span>
+        </div>
+        <div class="table-wrap">
+          <table id="skilltable">
+            <caption class="visually-hidden">Peacekeeper skills</caption>
+            <thead><tr><th scope="col">Skill</th><th scope="col">What it does</th><th scope="col">Type</th></tr></thead>
+            <tbody>
+        <tr data-row>
+          <th scope="row">Chain Mastery<span class="skill-max mono">Lv 10</span></th>
+          <td>Increases Damage with Whips and max SP</td>
+          <td><span class="badge sk-other">Pasive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Trinket Mastery<span class="skill-max mono">Lv 10</span></th>
+          <td>Increases Trinket base damage and Movement speed.<div class="skill-extra"><span class="skill-note">Also Increases ATK vs Boss monsters</span></div></td>
+          <td><span class="badge sk-other">Pasive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Conviction<span class="skill-max mono">Lv 10</span></th>
+          <td>Quickly slices enemy with whip.<div class="skill-extra"><span class="skill-note">Can trigger on autoattacks. Enters/Changes Combo status.</span><span class="chip chip--sm mono">DEX/Trinket Bonus</span></div></td>
+          <td><span class="badge sk-physical">Physical Melee</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Use Trinket<span class="skill-max mono">Lv 10</span></th>
+          <td>Uses/Breaks Trinkets depending on skill lvl.<div class="skill-extra"><span class="skill-note">Skill lvl 6~10 grants unique effects in turnabout mode</span><span class="chip chip--sm mono">DEX/Trinket Effect</span></div></td>
+          <td><span class="badge sk-physical">Physical Ranged</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Lashing Andromeda<span class="skill-max mono">Lv 10</span></th>
+          <td>Slashes enemy from range using whip<div class="skill-extra"><span class="skill-note">Damage can be critical</span><span class="chip chip--sm mono">DEX/Trinket Effect</span></div></td>
+          <td><span class="badge sk-physical">Physical Ranged</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Eternal Chain<span class="skill-max mono">Lv 10</span></th>
+          <td>Whips enemy in quick succession<div class="skill-extra"><span class="skill-note">Can be used instantly after Conviction</span><span class="chip chip--sm mono">DEX/Trinket Effect</span></div></td>
+          <td><span class="badge sk-physical">Physical Melee</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Wrecking Andromeda<span class="skill-max mono">Lv 10</span></th>
+          <td>Creates Vortex of energy around the caster<div class="skill-extra"><span class="skill-note">Skill ignores flee</span><span class="chip chip--sm mono">DEX/Trinket Effect</span></div></td>
+          <td><span class="badge sk-physical">Physical Melee</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Royal Mastery<span class="skill-max mono">Lv 5</span></th>
+          <td>Increase Whip based skill damage and Neutral element resistance</td>
+          <td><span class="badge sk-passive">Passive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Final Angel<span class="skill-max mono">Lv 5</span></th>
+          <td>Sacrifices Caster hp to ressurect fallen ally</td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Dawn to Dusk<span class="skill-max mono">Lv 10</span></th>
+          <td>Increases resistance against holy and shadow element, while also boosting HP regen</td>
+          <td><span class="badge sk-support">Self-Ally Buff</span></td>
+        </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    <p class="source-note">Descriptions and the skill list are transcribed from the community wiki for the world the Refuge inherited. Where the Refuge changed something, it is called out above.</p>
+    <nav class="pill-row" aria-label="Other expert jobs">
+      <span class="dim">More expert jobs:</span> <a class="pill" href="judge.html">Judge</a><a class="pill" href="illusionist.html">Illusionist</a><a class="pill" href="dark-knight.html">Dark Knight</a>
+      <a class="pill pill--strong" href="../classes.html">Full tree</a>
+    </nav>
+  </article>
+</div>
+
+</main>
+<!-- FOOTER:START -->
+<footer class="site-footer">
+  <div class="shell">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="../index.html">
+          <img class="mark" src="../assets/img/icon-192.png" width="34" height="34" alt="" aria-hidden="true">
+          <span class="brand-text">
+            <span class="brand-name">RETURN TO MORROC</span>
+            <span class="brand-sub">Refuge</span>
+          </span>
+        </a>
+        <p class="muted" style="margin-top:1rem;font-size:0.92rem;max-width:34ch">
+          A free, non-commercial hobby world built and run by a handful of players
+          for anyone who wants somewhere unhurried to play.
+        </p>
+        <p class="cluster" style="margin-top:1rem">
+          <a class="btn btn--ghost" href="https://discord.gg/a5P3PFNMhn" rel="noopener">Community chat</a>
+        </p>
+      </div>
+      <div>
+        <h4>Start here</h4>
+        <ul>
+        <li><a href="../server.html">What the Refuge is</a></li>
+        <li><a href="../start.html">New player guide</a></li>
+        <li><a href="../join.html">How to join</a></li>
+        <li><a href="../faq.html">Questions and answers</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>The game</h4>
+        <ul>
+        <li><a href="../classes.html">All 30 classes</a></li>
+        <li><a href="../newjobs.html">Bouncer and Pit Boss</a></li>
+        <li><a href="../mechanics.html">Combat and stats</a></li>
+        <li><a href="../gear.html">Items, refining, shadows</a></li>
+        <li><a href="../world.html">Regions, dungeons, MVPs</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Reference</h4>
+        <ul>
+        <li><a href="../changes.html">Changes from the original</a></li>
+        <li><a href="../database.html">Community database</a></li>
+        <li><a href="../guides.html">Player-written guides</a></li>
+        <li><a href="../llms.txt">llms.txt</a></li>
+        <li><a href="../sitemap.xml">Sitemap</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-legal">
+      Return to Morroc: Refuge is an unofficial, non-commercial fan project with no affiliation to,
+      sponsorship by or endorsement from any game publisher, developer or rights
+      holder. It hosts no commercial storefront, sells nothing, and accepts no
+      real-money trading. All third-party names that appear anywhere on this site
+      belong to their respective owners and are used only to describe gameplay.
+      Nothing here is distributed for profit.
+      <br><br>
+      Built by the community, in the open. Site content is free to copy.
+    </p>
+  </div>
+</footer>
+<!-- FOOTER:END -->
+
+<script src="../assets/js/main.js" defer></script>
+</body>
+</html>

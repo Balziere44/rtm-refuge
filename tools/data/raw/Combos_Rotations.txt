@@ -1,0 +1,146 @@
+= <span id="New_Powers" class="mw-headline">New Powers</span> =
+
+In Return to Morroc, spamming a single skill over and over is the least efficient way to play (Unless you're a [[Jester]], of course.), multiple cooldowns, costs, variations and combo interactions exist.
+
+'''There are multiple ways skills can interact with one another to enable combos.'''
+
+== <span id="Combo_Systems" class="mw-headline">Combo Systems</span> ==
+
+=== <span id="Combo_Ready" class="mw-headline">Combo Ready</span> ===
+
+[[File:Comboaction.gif|21x21px|Comboaction.gif]]
+
+Combo Ready is denoted by the icon above that shows up on the right side when some specific skills are used. These skills are usually refered as '''Openers'''.
+
+* Combo Ready skills are skills that can be used without an opener, but they have diminished effects.
+* These skills can have either situational or direct requirements.
+* Combo Ready status lasts for a few seconds depending on the job class/skill used. Some Openers in this case allows up to 2 skills to be used if the After-Cast Delay is fast enough.
+* '''ANY''' Opener skill can be used to trigger the combo ready status. That means if a job has 2 different openers, any of them can be used to use the follow-up skills.
+
+'''Examples:'''
+
+* Revenant's '''Roaring Overslash''' deals extra 10% +1% per LUK damage if used during Combo Ready, You can get Combo Ready with both Scythe Reap (From Trickster) or from Reaping Slash.
+
+* Raider/Dracomancer's Spears [[Innate Fixed Bonus]] is '''Dragon Thrust'''. It enables Combo Ready by a few seconds, allowing the other skills from those jobs (like Heavy Stab or Crescent Dive) to deal full damage.
+
+* Jester's '''First Hand''' lasts enough for up to 3 skills according to ASPD/Delay of the user, many skills require it to deal full damage.
+
+=== <span id="Cast_Ready" class="mw-headline">Cast Ready</span> ===
+
+Cast Ready reduces the variable cast time of skills by 95% for duration. This enables some skills to be used much faster under specific cases.
+
+* [[Shadowseer]] has this as a class mechanic, as most of their buffs have very long but mostly variable cast times. Their core skill, Equinox, grants Cast Ready for a short duration so they can quickly cast follow-up skills after it.
+* Some items grant Cast Ready when specific conditions are met, enabling quicker casting.
+
+=== <span id="Stance" class="mw-headline">Stance</span> ===
+
+Some skills may require stances to be activated to either use a skill to it's full power, or unlock the use of some skills.
+
+* Stances usually don't have a fixed duration, and are used to change the combat flow for a job directly.
+* Stances have bonuses associated when they are turned on. They may also have downsides.
+
+'''Examples:'''
+
+* Deadeye's '''Headshot''' deals 1/10 damage if the user is not in '''Sniper's Nest''' stance. This stance massively reduces movement speed, while boosting final attack damage for all attacks.
+
+* Satsujin's '''Darkness Rises''' causes Satsujin's Curse status to all targets, other Satsujin skills deal extra damage against enemies afflicted by it.
+
+* Dracomancer's '''Dragon Force''' and '''Dragon Pact''' enable different skills to be used. Dragon Force allows use of the strongest spear skills, while Dragon Pact allows use of the draconic skills from the tree.
+
+* Duelist's '''Duel Stance''' increases defensive capabilities while allowing hits received to be stacked as Duel Counters. These counters can be used to deal direct damage to an enemy the more counters the character has.
+
+* Assassin's '''Fury''' Status boosts critical rate while enabling use of Executioner(and Gravekeeper) class skills. It has a fixed duration and Alpha, Omega, Cursed Coffin and Desolated Burial all require fury status. Gravekeepers have a secondary skill that allows then to enter fury status anytime with little restrictions.
+
+<br />
+
+
+=== <span id="Direct_Combo" class="mw-headline">Direct Combo</span> ===
+
+Direct combo skills are skills you need to use right after the first skill, they cannot be used otherwise.
+
+* Mechanically they work exactly like old Monk's Combos.
+* Some can also be started at will, without needing a random proc.
+* Some skills can be used without a combo, but they may have diminished effects.
+
+'''Examples:'''
+
+* Judge's '''Absolution''', it's core skill, deals extra normal hits quickly against an enemy and needs a &quot;Double Attack&quot; proc from the passive Akimbo Mastery to be used. The skill also deals more hits according to skill level and current job level of the user. Violent Barrage also has the same requirement.
+
+* Thief's '''Cross Ripper Slasher''' can only be used if you have rolling counters, acquired from using '''Rolling Cutter''' and not moving. It also deals higher damage according to the current amount of counters, up to 3.
+
+* Executioner and Gravekeeper's '''Executioner Skills''' must be used one after the other in a specific order, with the last hit either being Cursed Coffin or Desolated Burial, both dealing critical chance damage, one being AoE and the other hitting harder.
+
+<br />
+
+
+=== <span id="Synergy_Combo" class="mw-headline">Synergy Combo</span> ===
+
+These are not literal combos but they are skills that complement the effectiveness of one another directly, and work better when used with planning.
+
+* There are no restrictions or requirements for using any of these, they also have no direct bonuses.
+* These combos can be hard to pull-off without practice or management of resources.
+
+'''A few Examples:'''
+
+'''Easy:''' Illusionist's '''Mist Rotation''':
+
+* Use Illusion of Mist to cause Crystallize status.
+* Real Magic Attack and Illusion of Vermillion deal bonus damage vs Crystallize targets.
+
+Illusionist's '''Heal Bomb''':
+
+* Use Illusion of Healing on target to reverse healing effects used on it.
+* Use Heal Lv10 with a manual along with healing power gear to kill the enemy with pure heal damage.
+
+<br />
+'''Medium:''' Black Plague's '''Poison Rotation''':
+
+* Apply Venom Mark to enemy, improving poison element damage they receive.
+* Apply Poison Status with Envenom, Venom Splasher, Enchant Poison...
+* Use Death Cloud to cause Inner Poison status, improving all poison damage further.
+* Use Venom Buster to deal poison elemental damage, with a double modifier if target is poisoned, while dealing extra damage due to Venom Mark and Inner Poison Status
+* Note: This combo doesn't work vs bosses due to their immunity to poison. They however can still receive Venom Mark.
+
+<br />
+'''Hard:''' Sinner's '''Final Arrow Stack''':
+
+* Prepare a ton of SP with either SP cost reduction, SP regen, or SP refill stuff.
+* Get all coins from Coin Flip as needed and refill them as needed.
+* Activate Sniper's Nest to improve final damage.
+* Activate Ready to Rip to boost attack % power.
+* Activate Inquisition Resolve to add a chance for auto attacks to deal up to 6 hits.
+* Activate Killer Instinct for bonus status and flat ATK.
+* Activate Last Inquisition for ranged damage modifier bonus.
+* Activate Final Arrow to stack all the bonuses and modifiers on a single auto attack. This bonus is lost if you get hit or any of the previous buffs run out.
+* Auto attack an enemy to deal massive damage. Due to Inquisition Resolve, this bonus can hit up to 6 times (at a very low chance).
+* This is one of the highest damage dealing hits in the game.
+* Note: This combo can be used in smaller sizes and variety according to ease, logic and preparation.
+
+== <span id="Rotations" class="mw-headline">Rotations</span> ==
+
+Rotations are just varied ways to string multiple skills that make sense in sequence, regardless of their combo interactions.
+
+'''Examples:'''
+
+'''Assassin Dagger/Sword AoE:'''
+
+* Burst Petals hit to distant targets.
+* Shadow Slash to teleport near it.
+* Fan of Knives to deal AoE damage.
+
+'''Rogue In-Out:'''
+
+* Throw Molotov/Acid.
+* Face-off or Backstab to gap close to enemy.
+* Hide to dodge any skills, Sneak Attack follow up from hide.
+* Decoy to move out.
+
+<br />
+Another variety of rotations include status effects to boost damage.
+
+'''Example:'''
+
+'''Dracomancer Burning:'''
+
+* Cause Burning status with Dragon Breath (or other cards/skills).
+* Dragon Claw deals extra damage vs burning targets.

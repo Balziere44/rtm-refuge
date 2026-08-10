@@ -1,0 +1,270 @@
+<p>Apart from the headgears that can be obtained from HATred quests ('''[[HATred Quests | Check here]]''').<br />
+This page lists other hats that can be obtained from dungeon mobs.</p>
+== Headgears list ==
+{| class="wikitable sortable" style="margin:5px"
+|+ style="white-space:nowrap" | Upper headgears.
+|-
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;width:40px;padding:5px" | Req.<br />Lv
+! style="background: #99d9ea;width:40px;padding:5px" | Type
+! style="background: #99d9ea;width:40px;padding:5px" | DEF
+! style="background: #99d9ea;padding:5px" | MDEF
+! style="background: #99d9ea;padding:5px" | Effects
+! style="background: orange;padding:5px" | Obtained from
+|-
+| '''Old Bandana [1]'''
+| 10
+| Headgear
+| 4
+| 0
+| Recover 50 HP per kill<br />Buried Set:<br />Accessory and Headgear<br /><b>[Set Bonus]</b><br />All Stats +1
+| [[Upper Pyramid]]
+|-
+| '''Pirate Bandana [0]'''
+| 10
+| Headgear
+| 5
+| 0
+| STR+3<br />Pirate Set:<br />Headgear and Pirate Dagger<br /><b>[Set Bonus]</b><br />ASPD +2
+| [[Sunken Ship]]
+|-
+| '''Corsair [1]'''
+| 10
+| Headgear
+| 10
+| 0
+| STR+1 per refine<br />Pirate Set:<br />Headgear and Pirate Dagger<br /><b>[Set Bonus]</b><br />ASPD +2
+| [[Sunken Ship]]
+|-
+| '''Mistress Crown [1]'''
+| 20
+| Headgear
+| 3
+| 5
+| SP Cost -10%<br />Mistress Set:<br />Hat and Card<br /><b>[Set Bonus]</b><br />SP Cost-10%
+| [[Mjolnir Mountain]]
+|-
+| '''Lady Tanee Doll [1]'''
+| 20
+| Headgear
+| 5
+| 0
+| Item Healing Power +15%<br />Lady Tanee Set:<br />Hat and Card<br /><b>[Set Bonus]</b><br />Item Healing Power +10%
+| [[Banana Forest]]
+|-
+| '''Orc Helm [1]'''
+| 30
+| Headgear
+| 10
+| 0
+| ATK+5<br />Orc Set:<br />Helm Armor and Ring<br /><b>[Set Bonus]</b><br />ATK+10<br />Immune to Bleeding
+| [[Orc Dungeon]]
+|-
+| '''Bucket Hat [0]'''
+| 50
+| Headgear
+| 5
+| 0
+| Enables Full Strip at half refine level.
+| [[Einbroch Deadlands]]
+|-
+| '''Cookie Hat [0]'''
+| 50
+| Headgear
+| 7
+| 0
+| AGI+3<br />Perfect Dodge +5<br />Healing Done +5%
+| [[Toy Factory]]
+|-
+| '''Goibne's Helm [1]'''
+| 70
+| Upper Headgear
+| 25
+| 0
+| Total Defense +5%<br />VIT+5<br />Goibne Set:<br />Armor Helm Shoes Garment<br /><b>[Set Bonus]</b><br />Total Defense +5%<br />DEF+1 per 2 base VIT
+| [[Thanatos Tower]]
+|-
+| '''Darkness Crown [1]'''
+| 70
+| Headgear
+| 0
+| 0
+| Holy and Dark Resistance +5%<br />Darkness Set:<br />Armor Garment Shoes and Helmet<br /><b>[Set Bonus]</b><br />?
+| [[HATred Quests]]
+|-
+| '''Crescent Helm [0]'''
+| 75
+| Headgear
+| 5
+| 1
+| Base STR 99:<br />Melee Attack +5%<br />Base AGI 99:<br />ASPD+3<br />Base VIT 99:<br />HP+5%<br />Base INT 99:<br />MATK +5%<br />Base DEX 99:<br />Ranged Attack +5%<br />Base LUK 99:<br />Critical Damage +5%
+| [[Amatsu Dungeon]]
+|-
+| '''Daughter of Wisdom [1]'''
+| 80
+| Upper Headgear
+| 5
+| 5
+| Freeze Resistance +50%<br />Water Resistance +25%<br />All Stats +1
+| [[Dicastes Diel Exchange]]
+|-
+| '''Son of Wisdom [1]'''
+| 80
+| Upper Headgear
+| 5
+| 5
+| Freeze Resistance +25%<br />Water Resistance +50%<br />All Stats +1
+| [[Dicastes Diel Exchange]]
+|-
+| '''Morrigane Helm [0]'''
+| 80
+| Upper Headgear
+| 10
+| 0
+| Defense Pierce +10%<br />Magic Defense Pierce +10%<br />Morrigane Set:<br />GarmentHeadgear Pendant Belt<br /><b>[Set Bonus]</b><br />ATK+3%<br />MATK+3%<br />ATK+1 per 3 base INT<br />MATK+1 per 3 base STR
+| [[Thanatos Tower]]
+|-
+| '''Wyrdbrand [0]'''
+| 100
+| Upper Headgear
+| 5
+| 0
+| All Stats + 3<br />ASPD Limit Cap +1<br />Recover 500 HP when killing an enemy<br />Recover 20 SP when killing an enemy<br />Amount increases by 100 HP/5 SP per refine<br />Asgard Set:<br />Helm Armor Garment Shoes<br /><b>[Set Bonus]</b><br />Double Max HP/SP<br />Disables HP/SP Regeneration.<br />Healing Received -50%
+| [[Sky Garden Exchange]]
+|-
+| '''Crown of the Divine [0]'''
+| 125
+| Headgear
+| 5
+| 5
+| Regen 1 SP per refine every second<br />After Cast Delay -10%
+| [[Divine Temple of Freya]]
+|}
+
+{| class="wikitable sortable" style="margin:5px"
+|+ style="white-space:nowrap" | Mid headgears.
+|-
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;width:40px;padding:5px" | Req.<br />Lv
+! style="background: #99d9ea;width:40px;padding:5px" | Type
+! style="background: #99d9ea;width:40px;padding:5px" | DEF
+! style="background: #99d9ea;padding:5px" | MDEF
+! style="background: #99d9ea;padding:5px" | Effects
+! style="background: orange;padding:5px" | Obtained from
+|-
+| '''Blush [0]'''
+| 50
+| Mid Headgear
+| 007
+| 000
+| Flee +20
+| [[ Glast Heim]]
+|-
+| '''Yin Yang Earrings [0]'''
+| 50
+| Mid Headgear
+| 003
+| 000
+| Enables Heal Lv10<br />Heal SP Cost+10%<br />Yin Yang Set:<br />Earrings Talisman and Amulet<br /><b>[Set Bonus]</b><br />Healing Power +10%
+| [[Sunken Temple]]
+|-
+| '''Dark Flare [1]'''
+| 50
+| Mid Headgear
+| None
+| None
+| Def Pierce +3%<br />Magic Def Pierce +3%<br />Matk+1%<br />Atk+1%
+| [[Eclage]]
+|-
+| '''Goblin Mask [0]'''
+| 60
+| Mid Headgear
+| 0
+| 0
+| ATK+3%<br />Increase Damage on Demi-Human and Brute Races by 5%
+| [[Goblin Forest]]
+|-
+| '''Dark Blindfold [0]'''
+| 60
+| Mid Headgear
+| 2
+| 2
+| All Stats +1<br />Def/Mdef Pierce+5%
+| [[Glast Heim]]
+|-
+| '''Half Goblin Mask [0]'''
+| 70
+| Mid Headgear
+| 0
+| 0
+| Demi-Human resistance +5%<br />Brute resistance +5%
+| [[Goblin Forest]]
+|-
+| '''Exalted Medal [1]'''
+| 100
+| Mid Headgear
+| 10
+| 10
+| All Stats +5<br />Flee + 20<br />Cast Speed +10%<br />SP Regen+20%<br />HP Regen + 20%
+| [[Sky Garden Exchange]]
+|-
+| '''Hodr's Medal [1]'''
+| 100
+| Mid Headgear
+| 5
+| 0
+| All Stats +5<br />ASPD +5%<br />Aspd Limit +1<br />Cast Speed +5%
+| [[Sky Garden Exchange]]
+|-
+| '''Valkyrie's Wing [1]'''
+| 100
+| Mid Headgear
+| 5
+| 0
+| Cast Speed +10%<br />Reduce after cast delay by 5%
+| [[Sky Garden Exchange]]
+|}
+
+{| class="wikitable sortable" style="margin:5px"
+|+ style="white-space:nowrap" | Lower headgears.
+|-
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;width:40px;padding:5px" | Req.<br />Lv
+! style="background: #99d9ea;width:40px;padding:5px" | Type
+! style="background: #99d9ea;width:40px;padding:5px" | DEF
+! style="background: #99d9ea;padding:5px" | MDEF
+! style="background: #99d9ea;padding:5px" | Effects
+! style="background: orange;padding:5px" | Obtained from
+|-
+| '''Sweet Candy [0]'''
+| 50
+| Lower Headgear
+| 0
+| 0
+| ATK+3%<br />MATK+3%
+| [[Toy Factory]]
+|-
+| '''Well-baked Cookie [0]'''
+| 50
+| Lower Headgear
+| 0
+| 0
+| All Stats+2<br />Perfect Dodge+2
+| [[Toy Factory]]
+|-
+| '''Gold Feather [0]'''
+| 100
+| Lower Headgear
+| 5
+| 0
+| All Stats +2<br />Movement Speed +25%
+| [[Sky Garden Exchange]]
+|-
+| '''Heroic Sigil [0]'''
+| 100
+| Lower Headgear
+| 0
+| 0
+| Movement Speed + 50%
+| [[Sky Garden Exchange]]
+|}

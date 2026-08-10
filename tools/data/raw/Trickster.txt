@@ -1,0 +1,112 @@
+== <span id="Envoy of Niflheim" class="mw-headline">[[File:Trickster.gif|26x26px|File:Trickster.gif]]Envoy of Niflheim</span> ==
+
+The Trickster is a high damage job, focused on short rotations to deal constant damage while leeching a portion of the damage back.
+
+It also has plenty of buffs to protect itself under specific circumstances.
+
+'''Best:''' Constant high damage, leeching properties, great defensive options.
+
+'''Worst:''' High SP Cost, many cooldowns to juggle, less than average defenses for a short-ranged job.
+
+'''Weapons:''' Scythes
+
+==Gameplay Identity==
+The Trickster is a high risk/high reward job that can sustain itself through most lower damaging attacks by leeching it back, making this job:
+
+'''An offensive powerhouse that can sustain longer battles and constant damage by keeping its protections and leeching up when under pressure.'''
+
+As the trickster has many tools for different situations, it still has specific limitations such as being locked to few offensive elements. While it also has many tools for defense, most of them have a very limited use case, or are associated with high SP costs, or long cooldowns.
+
+Regardless of all that, the fact the Trickster can fight enemies head on and heal itself at the same time makes it extremely efficient with correct balance of its skills SP cost, sometimes being recommended to use a skill at lower levels to save on SP while using higher levels for specific burst moments.
+
+A good trickster who mastered its 70 job levels can become a [[Revenant]] and unlock more unique variations on its kit.
+
+==Skills==
+{| class="wikitable" style="font-weight:normal; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|-
+! style="text-align:center; background-color:#99d9ea;" | Skill
+! style="text-align:center; background-color:#99d9ea;" | Max Level
+! style="text-align:center; background-color:#99d9ea;" | Description
+! style="text-align:center; background-color:#99d9ea;" | Skill Type
+! style="text-align:center; background-color:#99d9ea;" | Details
+! style="text-align:center; background-color:#99d9ea;" | Scaling
+|-
+| [[File:Scythemst.gif|24px|link=https://returntomorroc.com/wiki/index.php/File:Scythemst.gif]] Scythe Mastery
+| Lv 10
+| Increase damage with scythes
+| Passive
+| Also increases flee and critical rate
+| None
+|-
+| [[File:Sprecov.gif|24px|link=https://returntomorroc.com/wiki/index.php/File:Sprecov.gif]] Increase SP Recovery
+| Lv 10
+| Provides extra SP recovery on top of natural regeneration.
+| Passive
+| Regens 0.1% + 2 max SP per level.
+| No
+|-
+| [[File:Scythereap.gif|26px|link=https://returntomorroc.com/wiki/index.php/File:Scythereap.gif]] Scythe Reap
+| Lv 10
+| Deals damage to the enemy and enables combo follow-up for 3 seconds
+| Melee
+| Skill can be critical
+| LUK
+|-
+| [[File:Sweepingslash.gif|26px|link=https://returntomorroc.com/wiki/index.php/File:Sweepingslash.gif]] Sweeping Slash
+| Lv 5
+| Strikes quickly as a follow-up or by itself with two individual hits
+| Melee
+| When used as a combo follow-up deals extra job level based bonus and has bonus hit rate. Skill can be critical.
+| LUK
+|-
+| [[File:Darkmessage.gif|26px|link=https://returntomorroc.com/wiki/index.php/File:Darkmessage.gif]] Dark Message
+| Lv 5
+| Deals light magic damage to an enemy and pushes it back
+| Magic
+| Deals extra damage vs small enemies but primary use is control
+Enables Combo Ready
+Enables Cast Ready
+| STR
+|-
+| [[File:Darkmessenger.gif|26px|link=https://returntomorroc.com/wiki/index.php/File:Darkmessenger.gif]] Dark Messenger
+| Lv 10
+| Deals heavy magic damage to an enemy, extra damage as a combo follow up
+| Magic
+| Extra hits per level, same element as scythe
+| STR
+|-
+| [[File:Hellraiser.gif|26px|link=https://returntomorroc.com/wiki/index.php/File:Hellraiser.gif]] Hellraiser
+| Lv 10
+| Smashes the area around dealing fire damage with a halved critical chance
+| Physical AoE around Self
+| Element of skill is locked to fire regardless of weapon. Skill can be critical
+| LUK
+|-
+| [[File:Truesight.gif|26px|link=https://returntomorroc.com/wiki/index.php/File:Truesight.gif]] True Sight
+| Lv 10
+| Increases all stats for a short duration
+| Self-Support
+| Any hidden enemies immediately around are revealed when cast
+| None
+|-
+| [[File:Mirrorimage.gif|26px|link=https://returntomorroc.com/wiki/index.php/File:Mirrorimage.gif]] Mirror Image
+| Lv 3
+| Quickly reflects magic back to caster on a long cooldown
+| Self-Support
+| Receives 4x physical damage over the short duration the skill is active
+| None
+|-
+| [[File:Shadowparry.gif|26px|link=https://returntomorroc.com/wiki/index.php/File:Shadowparry.gif]] Shadow Parry
+| Lv 10
+| Adds a chance to block any physical attacks for the duration
+| Self-Support
+| Chance is 10+2% per level, locks player in place for a short moment when activated
+| None
+|-
+| [[File:Burningscythe.gif|26px|link=https://returntomorroc.com/wiki/index.php/File:Burningscythe.gif]] Burning Scythe
+| Lv 10
+| Endows weapon with fire element
+| Self-Support
+| Attacks become full elemental, meaning it gets all bonuses and downsides of fire
+| None
+|}

@@ -1,0 +1,229 @@
+== Great Challenges, for EVERYONE ==
+In Return to Morroc, The Bosses are a fair challenge. They will provide you with a challenge you can tackle at any moment in your journey!
+
+'''Are you at Lv20 and fighting around Payon Cave? Try to fight Moonlight Flower! Maybe you'll have a good chance of taking her down!'''
+
+MVPs have plenty of differences, like the rest of the game:
+* MVPs don't have cheap, unpredictable one shots.
+* They usually have complex mechanics on higher ranks, that require smart thinking or avoiding certain situations
+* They are worth a ton of EXP and zeny when killed. not to mention the MVP Prize Box.
+* Most regular MVPs have a respawn random timer of 45min to 1:30h, to avoid camping, they also don't have a tomb to check timer.
+* Some final dungeon maps block teleport, and the MVP may have a fixed spawn location, at the end of a difficult path.
+* You can get the infinite-use '''CONVEX MIRROR''' (with a cooldown) by finishing the main story quest. The Mirror is account-bound but can help with Boss hunting.
+
+== Rewards and prizes ==
+Besides our well-known '''3% drop rate for cards''', MVPs also provide cool new rewards.
+
+Every MVP share some specific loot:
+* MVP Prize Box, that contains cool items, the drop rate is always half the MVP's Level (LV60 boss? 30% drop rate)
+* A unique costume, rewarded for the player who wins the MVP, drop rate of 15%
+* A lot of cool stuff.
+
+The '''MVP Prize Box''' may contain (all items with the same chance):
+* All kinds of Refine Materials (Except '''Jewel''' items)
+* Growth Shadow Coffer (Which itself contains a random mid-tier golden shadow set, with unique bonuses)
+* Yggdrasil Berry (Ultra-rare consumables that fully heal the player)
+* MVP Shard, a rare currency that can be exchanged for cool stuff in Mora Village.
+
+== Relics ==
+Tired of MVPs being camped? No more! Some dungeons have a unique drop, the '''Boss Relic'''. These items allow you to summon the MVP for another go, even between normal spawns!
+
+While killing enemies in one of these dungeons, there is a very small (0.1%) chance for each enemy to drop the Relic for the current dungeon's boss.
+While the relic can be dropped by enemies on any floor of the dungeon, the item is only usable on '''the normal floor for the MVP to spawn''', often the last.
+In addition, only one MVP can be spawned by a relic at a time - attempting to use a relic while a summoned MVP is still alive will '''waste the use, consuming the Relic.''' 
+
+The normally spawned MVP does ''not'' have to be killed in order to summon one with a relic. In fact, summoning one with a relic gives information based on the current state of the normal MVP.
+* If the MVP '''is alive''', it will tell you it's alive and show the location on the mini-map
+* If the MVP '''is dead''', it will tell you how long until it respawns
+** This is similar to the effect of the Convex Mirror
+
+=== List of Relics ===
+Below is a list of relics and the MVPs they summon. Note that there are no Relics for Field or Distortion MVPs, and not all dungeons have a Relic.
+
+{| class="wikitable" style="text-align: center;"
+|+ 
+|-
+! style="background: #99d9ea;" | Relic
+! style="background: #99d9ea;" | MVP
+! style="background: #99d9ea;" | Dungeon/Field
+|-
+| Rabbit Egg
+| Orphan Piamette
+| [[Pyramid Basement]]
+|-
+| Pure Gold Bars
+| Golden Thief Bug
+| [[Prontera Culvert]]
+|-
+| Gigallopy
+| King Poring
+| [[Poring Family.html|Poring Family]]
+|-
+| Maya Crown
+| Queen Maya
+| [[Society Nest]]
+|-
+| Queen's Wing
+| Queen Scaraba
+| [[Society Nest]]
+|-
+| Bandage of Gods
+| Osiris
+| [[Upper Pyramid]]
+|-
+| Dream Stone
+| Tao Gunka
+| [[Beach Caves]]
+|-
+| Colorful Towel
+| Angry Pyuriel
+| [[Noble's Bathhouse]]
+|-
+| Dragon Head
+| Nidhogg
+| [[Dragon Nest]]
+|-
+| Tainted Beads
+| Fallen Bishop Hibram
+| [[Cursed Monastery]]
+|-
+| Orc Koin
+| Orc Lord Zombie
+| [[Orc Dungeon]]
+|-
+| Torn Cape
+| Dracula
+| [[Geffen Cave]]
+|-
+| Large Skull
+| Bestia
+| [[Geffenia]]
+|-
+| Volcanic Gem
+| Scylla
+| [[Dewata Volcano]]
+|-
+| Permafrost Crystal
+| Hatii
+| [[Snow Fields]]
+|-
+| Dark Water
+| Dark Lord
+| [[Glast Heim Church]]
+|-
+| Demonic Egg
+| Ifrit
+| [[Thor Volcano]]
+|-
+| Holy Scriptures
+| Gloom Under Night
+| [[Rachel Sanctuary]]
+|-
+| TOP SECRET
+| Forgotten Egnigem
+| [[Regenschirm Lab]]
+|-
+| Massive Cleaver
+| Atroce
+| [[Veins Fields]]
+|-
+| Tiger Panties
+| Miguel
+| [[Rachel Fields]]
+|-
+| Ice Dragon Scale
+| Ktullanux
+| [[Ice Dungeon]]
+|-
+| Crystal Rose
+| Dark Rose Dragon
+| [[Grey Forest]]
+|-
+| Unbreakable Shell
+| Turtle General
+| [[Turtle Dungeon]]
+|-
+| Broken Flintlock
+| Drake
+| [[Sunken Ship]]
+|-
+| Soul-in-a-Box
+| General Daehyon
+| [[Sunken Temple]]
+|-
+| Cute Bell
+| Moonlight Flower
+| [[Payon Cave]]
+|-
+| Faceworm Egg
+| Faceworm Queen
+| [[Faceworm Nest]]
+|-
+| Fish Tail
+| Coelacanth
+| [[Byalan Island]]
+|-
+| Mark of Despair
+| Baroness of Despair
+| [[Waterfall Caves]]
+|-
+| Cursed Samurai Scroll
+| Incantation Samurai
+| [[Amatsu Dungeon]]
+|-
+| Ancient Slab
+| Amon-Ra
+| [[Ayothaya Temple]]
+|-
+| Ice Flower
+| Brinaranea
+| [[Crystal Caves]]
+|-
+| Music Box
+| Stormy Knight
+| [[Toy Factory]]
+|-
+| Dark Red Scale
+| Detale
+| [[Abyss Lake]]
+|-
+| Spiritual Vessel
+| Evil Snake Lord
+| [[Turtle Dungeon]]
+|-
+| Box of the Dead
+| Kiel D-01
+| [[Central Laboratory]]
+|-
+| Phoenix Feathers
+| Phreeoni
+| [[Magma Dungeon]]
+|-
+| Imperial Crest
+| Atroce
+| [[Upper Pyramid]]
+|-
+| Gloomy Spirit
+| Incarnation of Morroc
+| [[Ruins]]
+|-
+| Bloody Edge
+| Eddga
+| [[Upper Pyramid]]
+|-
+| Three-Colored Eye
+| Entweihen Crothen
+| [[Upper Pyramid]]
+|-
+| Well-Baked Cookie
+| King Dramoh
+| [[Upper Pyramid]]
+|-
+| Silent Leaf
+| Snowier
+| [[Upper Pyramid]]
+|-
+| Giant Pet Egg
+| Zekei
+| [[Upper Pyramid]]
+|}

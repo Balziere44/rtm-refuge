@@ -1,0 +1,241 @@
+* [[#Death_comes_from_inside|<span class="tocnumber">1</span> <span class="toctext">Death comes from inside</span>]]
+** [[#Gameplay_Identity|<span class="tocnumber">1.1</span> <span class="toctext">Gameplay Identity</span>]]
+** [[#Core_Gameplay_Loop|<span class="tocnumber">1.2</span> <span class="toctext">Core Gameplay Loop</span>]]
+* [[#Skills|<span class="tocnumber">2</span> <span class="toctext">Skills</span>]]
+* [[#Toxins|<span class="tocnumber">3</span> <span class="toctext">Toxins</span>]]
+
+== <span id="Death_comes_from_inside" class="mw-headline">[[File:Blackplague.gif|25x25px|link=Blackplague]]Death comes from inside</span> ==
+
+The Black Plague is a job focused on applying different debilitations to an enemy, and using their applied statuses to boost the power of their other skills, alternatively, they can use sheer brute force to kill them with axe skills.
+
+The Black Plague is a strong job when correctly used, and almost useless when not correctly built or played. It has important restrictions but these come with massive Pay-off.
+
+'''Best:''' Many debuff options, high skills scaling, tanky.
+
+'''Worst:''' limited potential against some enemy types, very complex rotations and build.
+
+'''Weapons:''' Dagger, Sword, Katar, Axe
+
+<br />
+
+
+=== <span id="Gameplay_Identity" class="mw-headline">Gameplay Identity</span> ===
+
+The Black Plague has a variety of tools that can be used to massively boost the power of its skills, according to one's resources, time and skills, this makes them:
+
+<br />
+'''A very resistant debuff-stacker that can apply cumulative damage based on how much they debilitate their enemy with multiple burst window skills.'''
+
+The Black Plague has many complex rotations. Most of the Axe-side of the tree is very simple to use, albeit with some HP costs and management buffs.
+
+It's strongest potential comes on its poison skills. By applying it through many ways (Envenom, Enchant Poison, Venom Splasher...) one can stack a massive venomous bomb into an enemy, ready to be detonated with different means.
+
+The Black Plague can also carry Toxins, specific items that can be applied anytime to improve their combat capacity and debuff enemies even further. They may also craft such toxins themselves, which might be preferable for long fights as the materials are much lighter than the toxins themselves.
+
+<br />
+'''NOTE: The Poison negative status and element have been reworked in Return to Morroc, allowing them to be useful and reliable. Check [[Stat Changes]] and [[Elemental Table]] for more details.'''
+
+<br />
+
+=== <span id="Core_Gameplay_Loop" class="mw-headline">Core Gameplay Loop</span> ===
+
+The Black Plague can be a very complex job to manage. Due to the depth of its gameplay style, correctly playing a Black Plague can deal incredible damage and quickly assist any party members due to enemies being very debuffed:
+
+* It's important to apply Poison status to targets to take full advantage of the kit.
+* Against poison-resistant enemies, the Axe skills are not only a backup plan but a very viable strategy.
+* Toxins are a strong buff/debuff at the same time, when correctly used, can make impossible situations easier to manage.
+* There are many ways to passively deal damage as a Black Plague.
+
+* Building a Black Plague is very complex and many skill can be used regardless of situation. It's important to find a healthy balance of offense and utility to ensure the effectiveness of the job.
+
+* '''Final Skill:''' Enchant Deadly Poison (Lv3). A powerful buff that increases the multiplying power of most offensive skills of the Black Plague, adding yet another bonus damage layer.
+
+Due to the large amount of tools to keep track of, it's important to elaborate the best way to apply all debuffs to a target, in a way you both have sufficient time to apply all of them, and to make use of them.
+
+A simple example rotation: Apply poison status with Envenom, Increase poison element strenght with Venom Mark, debuff poison defenses with Death Cloud, deal massive damage with Venom Buster, which deals poison-element extra damage according to poison status and state of target. This can be further expanded with Enchant Deadly Poison, Toxins, Axe skills and many more.
+
+== <span id="Skills" class="mw-headline">Skills</span> ==
+
+{|class="wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+!width="16%" style="background: #99d9ea;" | Skill
+!width="16%" style="background: #99d9ea;" | Max Level
+!width="16%" style="background: #99d9ea;" | Description
+!width="16%" style="background: #99d9ea;" | Skill Type
+!width="16%" style="background: #99d9ea;" | Details
+!width="16%" style="background: #99d9ea;" | Scaling
+|-
+| [[File:Advaxe.gif|26x26px|link=Advaxe]] Adv. Axe Mastery
+| Lv 5
+| Increases Axe damage
+| Passive
+| Also increases hit rate
+| No
+|-
+| [[File:Warringstate.gif|24x24px|link=Warringstate]] Warring State
+| Lv 5
+| Increases attack scaling of whole party
+| Party-Support
+| Has a very long cast time and high cost
+| No
+|-
+| [[File:Horrorscream.gif|26x26px|link=Horrorscream]] Horror Scream
+| Lv 5
+| Screams and breaks concentration of enemies around, adding cast time to skills
+| AoE Debuff
+| Success chance improves with level, also reduces SP(players) and INT
+| No
+|-
+| [[File:Spiralaxe.gif|26x26px|link=Spiralaxe]] Spiral Blade
+| Lv 10
+| Deals heavy repeatable damage with the Axe to an enemy, consuming HP
+| Physical Melee
+| Has a small chance to stun target
+| VIT
+|-
+| [[File:Ruptureaxe.gif|26x26px|link=Ruptureaxe]]Rupture Axe
+| Lv 10
+| Smashes the ground and causes lava to erupt, dealing damage over an area
+| Ground Physical Special
+| Eruption damage is fixed, can cause burning and stun
+| VIT
+|-
+| [[File:Mjolnirfall.gif|26x26px|link=Mjolnirfall]] Mjolnir Fall
+| Lv 10
+| Consumes a large amount of HP to deal damage over a massive area
+| AoE Special Ranged
+| Has high scaling potential and AoE coverage
+| VIT
+|-
+| [[File:Researchpoison.gif|26x26px|link=Researchpoison]] Adv. Venom Mastery
+| Lv 10
+| Allows creation of different toxins, materials can be bought in the Black Market
+| Passive
+| Also increases EDP duration by 60s per level
+| No
+|-
+| [[File:Createpoison.gif|26x26px|link=Createpoison]] Toxin Creation
+| Lv 1
+| Creates a toxin by using materials on inventory, amount and chance increases based on Job Level
+| Self-Crafting
+| Instruction Books and Poison Kits are not consumed
+| No
+|-
+| [[File:Antidote.gif|26x26px|link=Antidote]] Advanced Detoxify
+| Lv 1
+| Removes any poison-related debuffs on a target
+| Party-Support
+| Requires an Antidote, either crafted or from Black Market
+| No
+|-
+| [[File:Poisoningweapon.gif|26x26px|link=Poisoningweapon]] Disease Coating
+| Lv 10
+| Applies a toxin to the weapon, applying the buffs to cast and debuffs to targets
+| Self-Support/Debuff
+| Debuff applying chance and duration increases per level
+| No
+|-
+| [[File:Pandemic.gif|26x26px|link=Pandemic]] Pandemic
+| Lv 5
+| Spreads the toxin in a smoke over a small area, does not consume the applied toxin
+| Ground Debuff
+| 50% chance to apply the toxin effect to targets every 2 seconds
+| No
+|-
+| [[File:Venompressure.gif|26x26px|link=Venompressure]] Plague Impress
+| Lv 10
+| Forcefully applies toxin to target while dispelling weapon toxin
+| Ground Debuff
+| High damage and high cooldown, double damage vs poisoned targets
+| INT
+|-
+| [[File:Deathcloud.gif|26x26px|link=Deathcloud]] Death Cloud
+| Lv 10
+| Spreads poison in an area, dealing continuous magic damage and applying Inner Poison debuff
+| Ground Magic AoE/Debuff
+| Inner poison increases poison element damage taken by target
+| INT
+|-
+| [[File:Livingdead.gif|26x26px|link=Livingdead]] Living Dead
+| Lv 5
+| Infuses body with a unique poison that deals constant damage to nearby enemies
+| Self-Support Special
+| Consumes a poison bottle, high cooldown
+| VIT
+|-
+| [[File:Asc_edp.gif|24x24px|Asc edp.gif]] Enchant Deadly Poison
+| Lv 3(Limited)
+| Coats weapon in a deadly poison, improving most final physical damage done
+| Self-Support
+| Consumes a poison bottle, Only usable up to Lv3 (Lv4 and 5 are Phantom Thief only)
+| No
+|}
+
+== <span id="Toxins" class="mw-headline">Toxins</span> ==
+
+For details on how to obtain or create the Toxins, check [[Black Market]]
+
+All materials are sold and weight MUCH less than the ready to use toxin, so creating according to use is recommended.
+
+All Toxins Increase physical damage dealt by 10%.
+
+{|class="wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+!width="20%" style="background: #99d9ea;" | Toxin
+!width="20%" style="background: #99d9ea;" | Research Lv
+!width="20%" style="background: #99d9ea;" | Effect for User
+!width="20%" style="background: #99d9ea;" | Effect for Target
+!width="20%" style="background: #99d9ea;" | Changes from Vanilla RO
+|-
+| Paralysis
+| Lv 1
+| Increase Movement Speed
+| Decreases ASPD, Flee and move speed
+| No Changes
+|-
+| Pyrexia
+| Lv 2
+| Increases Critical and Auto Attack Damage by 10%
+| Causes hallucination and extra flinching when attacked
+| Increased auto attack damage, reduced critical damage
+|-
+| Death Hurt
+| Lv 3
+| Recovers 2% HP every second
+| Reduces healing received by target by 75%. Stacks with critical wounds
+| Increased HP recovery from 1 -&gt; 2% / Healing reduced improved 20% -&gt; 75%
+|-
+| Leech End
+| Lv 4
+| Immune to Blind and Stun
+| Deals continous non-elemental damage to the enemy
+| No Changes
+|-
+| Antidote
+| Lv 5
+| Required for use of the &quot;Advanced Detoxify&quot; Skill
+| None
+| Improved effects and negative status healed
+|-
+| Venom Bleed
+| Lv 6
+| Ignores 90% of reflect damage
+| Reduces Max HP by 25%
+| Ignore reflect 30% -&gt; 90% / Max HP reduction 15% -&gt; 25%
+|-
+| Magic Mushroom
+| Lv 7
+| Reduces after cast delay by 20%
+| Randomly cast skills, lose 2% HP every 4 seconds
+| After cast delay 10% -&gt; 20% / HP loss every 4 seconds 4% -&gt; 2%
+|-
+| Pure Toxin
+| Lv 8
+| Recover 1% Max SP every second
+| Causes constant flinching motion and interrupts some casting
+| No Changes
+|-
+| Oblivion Curse
+| Lv 9
+| Immune to Silence and Curse
+| Block SP regen and causes Oblivion status (resisted by INT) which blocks skill use
+| Enemy INT resistance is higher
+|}

@@ -1,0 +1,117 @@
+== Control of the elements ==
+The Arcane Master is a powerful magic user that can cast multiple spells at once in a variety of ways, overwhelming opponents in a barrage of powerful magic.
+
+The core of the Arcane master is on the multiple ways it can cast spells, be it with autospells, hard casts, quick casts, and any other method.
+
+'''Best:''' Large AoE coverage, multiple ways to deal damage, high damage potential.
+
+'''Worst:''' Few defensive options, too many build variations to optimize, few constant DPS choices.
+
+'''Weapons:''' Dagger, Sword
+
+== Gameplay Identity ==
+The Arcane Master has no fixed rotation, since it's a spellcaster. It uses spells in a multitude of ways and can use autospell along with hard cast, which means:
+
+''It's a master of spells that can fight an enemy with full force and benefits, building small spells into larger, highly destructive spells.''
+
+As masters of the elements, they can take full advantage of the Elemental Focus system. Most of their spells are boosted by focus generated from thief level magic. A good Arcane Master will know to keep its focus stacks always maxed in order to deal the highest damage possible with its powerful magic.
+
+With the situational use of '''Dual Cast''', an Arcane Master can boost its overall damage in short bursts by managing its SP pool.
+
+If the Arcane Master knows its limits, it can even hardcast very long spells while auto-attacking and causing spells to rain from both ways at once, since Dual Cast also affects autospell skills.
+
+A good Arcane Master will have full use of the spells according to each situation, rotating them all while attacking to rain down autospell destruction... or standing far from enemies (thanks to Free Cast) and using its core spells to build the perfect '''Tetragrammaton''' for massive damage.
+
+== Core Gameplay Loop ==
+The Arcane Master has access to all Natural elements and a few others, which means it needs to adapt constantly to make full use of them:
+
+* '''Comet''' changes elements according to the current weapon. It can also be affected by Double Cast.
+* The use of the 3 Thief spells (Flaming Petals, Freezing Spear, Wind Blade) and the Mystic spell Eruption is essential to properly manage elemental focus.
+* '''Unlimited Power''' can provide a boost to all damage needs, as long as SP is managed.
+* '''Magic Pierce''' from Assassin/Rogue can help decrease the issues of high MDEF targets.
+* '''Final Skill:''' Tetragrammaton. A targeted AoE that can be modulated into any combination of 4 hits with any element, according to the preparation.
+
+With access to Mystic skills like Regenerate and Unholy Light, the Arcane Master can take more risks in small bursts, this ensures any player has a backup in case something goes wrong, as long as they correctly predicted it.
+
+Managing skill costs and cast times is essential to any good Arcane Master, as casting a long spell at the wrong time can have terrible consequences or lead to loss of elemental focus stacks.
+
+== Skills ==
+{| class="wikitable" style="font-weight:normal; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|-
+! style="text-align:center; background-color:#99d9ea;" | Skill
+! style="text-align:center; background-color:#99d9ea;" | Max Level
+! style="text-align:center; background-color:#99d9ea;" | Description
+! style="text-align:center; background-color:#99d9ea;" | Skill Type
+! style="text-align:center; background-color:#99d9ea;" | Details
+! style="text-align:center; background-color:#99d9ea;" | Scaling
+|-
+| [[File:Dualcast.gif|25px]] Dual Cast
+| Lv 10
+| 10% chance per level to repeat casting of specific skills instantly
+| Self-Support
+| Applies to the 8 main natural element spells, short duration and cooldown
+| No
+|-
+| [[File:Unlimitedpower.gif|26px]] Unlimited Power
+| Lv 10
+| Increases final MATK for a minute
+| Self-Support
+| Consumes HP to cast, strong damage increase
+| No
+|-
+| [[File:Yggdrasil.gif|26px]] Summon Yggdrasil
+| Lv 5
+| Summons an avatar of Yggdrasil, tree of life, healing and resurrecting anyone immediately near it
+| Party-Support
+| Requires a blue gemstone, range is 5x5
+| No
+|-
+| [[File:My_phoenix.gif|26px]] Phoenix
+| Lv 5
+| Instantly revives player if killed.Requires a Shadow Orb.
+| Self-Support
+| HP Recovered is 10% per level.
+| No
+|-
+| [[File:Comet.gif|24px]] Comet
+| Lv 5
+| summons comets from the skies to deal heavy damage on a large AoE and debuff enemies
+| Magic Large AoE
+| Debuff reduces elemental resistances by 25%, can be double-cast
+| INT
+|-
+| [[File:Burningspiral.gif|26px]] Burning Spiral
+| Lv 10
+| Casts a spiral of fire magic that deals damages to a targeted enemy and surroundings, generating fire domination
+| Magic Targeted AoE
+| Can be cast with autospell, deals extra damage according to fire focus
+| INT
+|-
+| [[File:Thunderbolt.gif|26px]] Lightning Bolt
+| Lv 10
+| Casts lightning upon a targeted area, dealing wind magic damage and generating wind domination
+| Magic Ground AoE
+| Can be cast with autospell, increased area past Lv5, deals extra damage according to wind focus
+| INT
+|-
+| [[File:Landfissure.gif|26px]] Land Fissure
+| Lv 10
+| Erupts the earth in an AoE, dealing damage and revealing hidden enemies and generating earth domination
+| Magic Ground AoE
+| Can be cast with autospell, deals extra damage according to earth focus
+| INT
+|-
+| [[File:Frozencrash.gif|26px]] Frozen Crash
+| Lv 10
+| Summons an ice block from the sky around the caster dealing water magic damage and generating water domination
+| Magic Around Self AoE
+| Chance to freeze enemies hit, deals extra damage according to water focus
+| INT
+|-
+| [[File:Tetragramaton.gif|24px]] Tetragrammaton
+| Lv 10
+| Consumes 4 Domination Orbs to deal damage according to the element of each orb, 4 hits in total
+| Targeted AoE
+| Orbs are obtained according to other spells used, low chance to cause negative status
+| INT
+|}

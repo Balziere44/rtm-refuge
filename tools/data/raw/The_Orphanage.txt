@@ -1,0 +1,282 @@
+</div>
+= The Orphanage =
+
+[[File:Anewhome.png|300x67px|link=Anewhome]]
+
+The Orphanage is the best place for an Orphan to be in New-Midgard. A safe house born from the wishes of people to protect those who are less fortunated, and cursed.
+
+It's a community effort to ensure the Orphanage continues to grow and provide better support for its people.
+
+No matter how hard the path is, having a place to call home will always be something every orphan will have... '''as long as they take care of it.'''
+
+<div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading">
+
+<div class="toctitle" lang="en" dir="ltr">
+
+== Contents ==
+
+<span class="toctogglespan"></span>
+
+</div>
+* [[#Orphanage_Level|<span class="tocnumber">1</span> <span class="toctext">Orphanage Level</span>]]
+* [[#Orphanage_Facilities|<span class="tocnumber">2</span> <span class="toctext">Orphanage Facilities</span>]]
+** [[#Kafra_Alysia|<span class="tocnumber">2.1</span> <span class="toctext">Kafra Alysia</span>]]
+** [[#Healer|<span class="tocnumber">2.2</span> <span class="toctext">Healer</span>]]
+** [[#Kitchen|<span class="tocnumber">2.3</span> <span class="toctext">Kitchen</span>]]
+** [[#Memory_Fountain|<span class="tocnumber">2.4</span> <span class="toctext">Memory Fountain</span>]]
+** [[#3_Smith_Brothers|<span class="tocnumber">2.5</span> <span class="toctext">3 Smith Brothers</span>]]
+** [[#Card_Remover|<span class="tocnumber">2.6</span> <span class="toctext">Card Remover</span>]]
+** [[#Happy_Girl_and_Big_Dude|<span class="tocnumber">2.7</span> <span class="toctext">Happy Girl and Big Dude</span>]]
+** [[#Job_Changers|<span class="tocnumber">2.8</span> <span class="toctext">Job Changers</span>]]
+** [[#Wandering_Minstrel|<span class="tocnumber">2.9</span> <span class="toctext">Wandering Minstrel</span>]]
+* [[#Orphanage_Level_prices|<span class="tocnumber">3</span> <span class="toctext">Orphanage Level prices</span>]]
+
+
+</div>
+== <span id="Orphanage_Level" class="mw-headline">Orphanage Level</span> ==
+
+The Orphanage grows with donations from players. Specific services and features will be available or expanded when the orphanage reaches higher levels.
+
+Donating also rewards players with '''Donation Points''' that can be exchanged for costumes and rewards with some NPCs.
+
+There are 3 ways to make the donations to the Orphanage:
+
+* '''Lucy Guile''', the Healer, provides buffs at the cost of 5.000z.
+* This also rewards the player with 1 Donation Point and adds 1.000z to the Orphanage Funds.
+
+* '''Amadeus Windsor''', the founder, takes direct donations of 10.000z, 50.000z and 100.000z.
+* This also rewards players with 10, 50 or 100 Donation Points.
+
+* '''Server Events''', such as a monster invasion in a city.
+* If the players successfully save the city, a donation from the city might be made to the Orphanage, depending on how well players did.
+
+<br />
+When the orphanage levels up, '''EVERY CHARACTER''' currently online receives '''+50% EXP for 30 minutes'''. This will be broadcast and the Orphanage music will change briefly.
+
+The money required and benefits for each level can be seen below.
+
+== <span id="Orphanage_Facilities" class="mw-headline">Orphanage Facilities</span> ==
+
+=== <span id="Kafra_Alysia" class="mw-headline">Kafra Alysia</span> ===
+
+The kafra that works specifically for the orphanage. She can save your respawn point, access your storage, refill elixirs and teleport you.
+
+* The storage access here is always free.
+* Kafra Alysia has a minor quest associated with her.
+* Teleports with Alysia always cost 100z for Morroc and 500z for anywhere else.
+* Her teleports are always the cheapest option compared to city kafras.
+* Kafra Alysia teleport variety improves every 20 orphanage levels. She also has unique teleport destinations.
+</br>
+
+===Healer===
+
+'''Lucy Guile''' takes cares of the Orphans, at no cost. She might seem cold but she's nice.
+
+You can also pay her 5.000z for a temporary buff. You will receive all buffs already available
+
+'''Duration of Buff is 5 minutes + 1 minute per orphanage level.'''
+
+* '''Magnificat''', increased SP recovery, Orphanage Level 1 or higher.
+* '''Weapon Revest''', prevents breaking and removal of weapon, Orphanage Level 25 or higher.
+* '''Job Growth''', increases job experience gained by 10%, Orphanage Level 50 or higher.
+* '''Base Growth''', increases base experience gained by 10%, Orphanage Level 100.
+</br>
+
+=== <span id="Kitchen" class="mw-headline">Kitchen</span> ===
+
+'''Mary Cenia''' is the Headchef of the kitchen, she can be a bit rough sometimes, but has a heart of gold.
+
+You can buy food from her at a fixed price, regardless of the type or grade.
+
+'''Food buffs don't stack. You can only have one stat food effect on the player [+1~10 and +20] .'''
+
+'''Duration of Buff is 5 minutes + 1 minute per orphanage level.'''
+
+* Food can usually be bought in different cities around the world. Usually ranging from +2 to +7, as long as you find the Pub/Restaurant in them.
+* Price for food around the world is always more expensive than the Orphanage.
+* '''Every 10 Orphanage levels, the food quality increases by +1 stat point, up to +10 of a stat at Orphanage Level 90.'''
+</br>
+
+=== <span id="Memory_Fountain" class="mw-headline">Memory Fountain</span> ===
+
+A fountain that you can see the reflection of your life. '''Allows you to reset your stats and skills.'''
+
+* The fountain reflects who you are now.
+* Price for resets is 500z per base level.
+* Price is reduced by 1% per orphanage level, making the fountain free at Orphanage Level 100.
+* There's no restrictions on how often the fountain can be used.
+</br>
+
+=== <span id="3_Smith_Brothers" class="mw-headline">3 Smith Brothers</span> ===
+
+The 3 Howards take care of refines, weapons and armors. They sell equipment for Orphans at convenient prices.
+
+* The older brother refines equipment and sells ores.
+* The middle brother sells weapons.
+* the younger brother sells armors.
+* The quality of ores, weapons and armors improves every 10 orphanage levels, up to orphanage level 50.
+* very rare ores can be bought for '''HIGH''' prices at higher levels.
+</br>
+
+=== <span id="Card_Remover" class="mw-headline">Card Remover</span> ===
+
+This fancy guy removes cards from any equipment.
+
+* There is no chance of failure.
+* The card remover requires '''Orphanage Level 25''' to start his work.
+</br>
+
+=== <span id="Happy_Girl_and_Big_Dude" class="mw-headline">Happy Girl and Big Dude</span> ===
+
+These two can provide different visuals to players.
+
+* Happy Girl can sell hats directly to players, at low prices (mostly).
+* She also sells zodiac Diadems, that provide reasonable bonuses, but have no slot.
+* Happy Girl also sells boxes containing a random SLOTTED hat of the same type above
+* Zodiac crowns are also obtained from boxes with a random hat inside. They are slotted variations of the diadems, and their bonuses are refine-based.
+* You can also get costume versions of all those items with her by spending '''Donation Points'''.
+
+* Big Dude provides garment costumes at very high amounts of '''Donation Points'''.
+* Big Dude sells garments when the '''Orphanage Level is 50 or higher'''.
+</br>
+
+=== <span id="Job_Changers" class="mw-headline">Job Changers</span> ===
+
+A variety of places can start your job change around the orphanage.
+
+* The Merchant Representative can turn any Level 1/1 Orphan into a merchant permanently.
+* Lydia, the Thief can provide job level 10 Orphans with a quest to become a thief.
+* Mrs. Sorin can start Orphans on the path of the Trickster
+* A broken clock in the orphanage can bring back memories needed by a Illusionist.
+* A serious man is looking for strong orphans to start training as a Judge.
+* The Unchained room allows people ready to break their limits to push their jobs to the limit.
+
+(Jester, Vagabond and Raider jobs have other starting locations.)
+</br>
+
+=== <span id="Wandering_Minstrel" class="mw-headline">Wandering Minstrel</span> ===
+
+The Wandering minstrel will always provide updated information about the world to Orphans.
+
+* '''As patches and updates are made, the Minstrel will provide a small lore-friendly block of information about the new content.'''
+* It also provides overall information about the world.
+
+<br />
+
+== <span id="Orphanage_Level_prices" class="mw-headline">Orphanage Level prices</span> ==
+
+Zeny required is a community goal. It can be donated from any player, at any time.
+
+* '''Any Zeny donated above the required amount is LOST'''
+* Lucy the healer will never increase the level of the Orphanage, only an Amadeus Windsor donation will increase the level.
+* The donation amounts from Lucy the Healer can only help with overall progress.
+* Zeny required currently can be checked by asking for progress from Amadeus Windsor.
+* Zeny needed increases by 10.000z per current level. The funds go back to zero every level.
+* Some events and community achievements ingame might provide a boost to orphanage level progress, such as saving a city from an invasion
+* There's no limitation on how fast the Orphanage can level, theoretically, players can get it to Lv100 in a single day, with no limitations or daily stuff.
+
+First 30 Levels:
+
+{|class="wikitable" style="font-weight:bold; text-align:center; width: 30%; min-width: 200px;" cellpadding="20"
+!  style="background: #99d9ea;" |Current Level
+!  style="background: #99d9ea;" |Zeny for next level
+|-
+| 1
+| 10.000z
+|-
+| 2
+| 30.000z
+|-
+| 3
+| 60.000z
+|-
+| 4
+| 100.000z
+|-
+| 5
+| 150.000z
+|-
+| 6
+| 210.000z
+|-
+| 7
+| 280.000z
+|-
+| 8
+| 360.000z
+|-
+| 9
+| 450.000z
+|-
+| 10
+| 550.000z
+|-
+| 11
+| 660.000z
+|-
+| 12
+| 780.000z
+|-
+| 13
+| 910.000z
+|-
+| 14
+| 1.050.000z
+|-
+| 15
+| 1.200.000z
+|-
+| 16
+| 1.360.000z
+|-
+| 17
+| 1.530.000z
+|-
+| 18
+| 1.710.000z
+|-
+| 19
+| 1.900.000z
+|-
+| 20
+| 2.100.000z
+|-
+| 21
+| 2.310.000z
+|-
+| 22
+| 2.530.000z
+|-
+| 23
+| 2.760.000z
+|-
+| 24
+| 3.000.000z
+|-
+| 25
+| 3.250.000z
+|-
+| 26
+| 3.510.000z
+|-
+| 27
+| 3.780.000z
+|-
+| 28
+| 4.060.000z
+|-
+| 29
+| 4.350.000z
+|-
+| 30
+| 4.650.000z
+|}
+
+
+</div>
+
+</div>
+
+</div>
+
+</div>

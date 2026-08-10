@@ -1,0 +1,193 @@
+__TOC__
+
+== No Losses ==
+In '''Return to Morroc''' when an equipment fails a refinement, you '''no longer lose the item, it just downgrades'''. This ensures any item can be refined anytime without the risk of losing hours upon hours of progress.
+
+On the other hand, some items might require more resources to properly refine. Higher refinement levels require better Ores, even if sometimes it may seem like the costs are not that great, it DOES make it harder than usual.
+
+With this, you can always refine an item and get some extra bonuses to help you, and save your resources for that one item that you really believe is worth to refine to the highest level.
+
+'''It's important to mention the Refinement System is entirely ingame, with no cash shop or pay-to-win at all.'''
+
+'''Maximum refine rate is +10.'''
+
+== Refine Materials ==
+'''The Refine Materials in Return to Morroc are based on the item refine level, not on how they behave.'''
+
+'''Oridecon:''' Used for Weapons
+
+'''Elunium:''' Used for Armors
+
+The materials above come in four versions:
+
+'''Regular:''' Used to refine from +0 to +3
+
+'''HD:''' Used to refine from +4 to +6
+
+'''Enriched:''' Used to refine from +7 to +9
+
+'''Jewel:''' Used to refine to +10
+
+Players can use an item from a higher tier to refine without risk of downgrade on lower tiers.
+
+however this costs twice as much zeny as it would normally.
+
+'''Example:'''
+
+Upgrading a Weapon to +3 can be done with a HD Oridecon, if it fails, it won't downgrade the item.
+
+Doing this with an unimproved weapon will let it improve to +1 guaranteed.
+
+[[Runes]] and Shadow Items also have their own materials:
+
+'''Shadowdecons:''' Used for Shadow Items
+
+'''Bradium:''' Used for [[Runes]]
+
+They also can use Jewel Shadowdecons and Jewel Bradiums, needed for refining to +10, to prevent downgrades up to +9.
+
+== Benefits of Refining ==
+The bonuses from refining equipment is different from other servers.
+
+'''Armor:''' For each +2, increase the DEF provided by the equipment by '''1'''.
+
+'''Weapon:''' For each +1, increase the ATK and MATK provided by the weapon by '''0.5 per Level of the weapon'''
+
+This means that you only see an increase in ATK for Level 1 Weapons for each +2 of refinement.
+
+'''Shadow Armor and Runes:''' Benefit is dependent on the specific piece of gear. Some shadow armor refinement bonuses require you to be using the '''entire set''', so read carefully before you refine.
+
+== Refine Rate and Cost Tables ==
+{| class="wikitable" style="text-align: center;"
+|-
+! style="background: #99d9ea;" colspan="2" | Weapons
+! style="background: #99d9ea;" colspan="2" | Level 1
+! style="background: #99d9ea;" colspan="2" | Level 2
+! style="background: #99d9ea;" colspan="2" | Level 3
+! style="background: #99d9ea;" colspan="2" | Level 4
+|-
+! style="background: #99d9ea;" | Level
+! style="background: #99d9ea;" | Required Material
+! style="background: #99d9ea;" | Success Chance
+! style="background: #99d9ea;" | Price
+! style="background: #99d9ea;" | Success Chance
+! style="background: #99d9ea;" | Price
+! style="background: #99d9ea;" | Success Chance
+! style="background: #99d9ea;" | Price
+! style="background: #99d9ea;" | Success Chance
+! style="background: #99d9ea;" | Price
+|-
+| 1 || Oridecon || 90% || 25 || 85% || 100 || 80% || 200 || 75% || 500
+|-
+| 2 || Oridecon || 85% || 50 || 78% || 200 || 70% || 400 || 65% || 1000
+|-
+| 3 || Oridecon || 80% || 150 || 71% || 300 || 60% || 600 || 55% || 1500
+|-
+| 4 || HD Oridecon || 75% || 300 || 64% || 500 || 50% || 1000 || 45% || 3000
+|-
+| 5 || HD Oridecon || 70% || 450 || 57% || 750 || 40% || 1400 || 35% || 4500
+|-
+| 6 || HD Oridecon || 65% || 600 || 50% || 1000 || 30% || 1800 || 25% || 6000
+|-
+| 7 || Enriched Oridecon || 60% || 1000 || 43% || 2000 || 25% || 2500 || 20% || 10000
+|-
+| 8 || Enriched Oridecon || 55% || 1750 || 36% || 3000 || 20% || 4000 || 15% || 15000
+|-
+| 9 || Enriched Oridecon || 50% || 2500 || 29% || 4000 || 15% || 5500 || 10% || 20000
+|-
+| 10 || Jewel Oridecon || 25% || 10000 || 22% || 16000 || 10% || 22000 || 5% || 100000
+|}
+
+{| class="wikitable" style="text-align: center;"
+|-
+! style="background: #99d9ea;" colspan="4" | Armor
+|-
+! style="background: #99d9ea;" | Level
+! style="background: #99d9ea;" | Required Material
+! style="background: #99d9ea;" | Success Chance
+! style="background: #99d9ea;" | Price
+|-
+| 1 || Elunium || 90% || 100
+|-
+| 2 || Elunium || 80% || 200
+|-
+| 3 || Elunium || 70% || 300
+|-
+| 4 || HD Elunium || 60% || 500
+|-
+| 5 || HD Elunium || 50% || 750
+|-
+| 6 || HD Elunium || 40% || 1000
+|-
+| 7 || Enriched Elunium || 30% || 2000
+|-
+| 8 || Enriched Elunium || 20% || 3000
+|-
+| 9 || Enriched Elunium || 10% || 4000
+|-
+| 10 || Jewel Elunium || 5% || 10000
+|}
+
+{| class="wikitable" style="text-align: center;"
+|-
+! style="background: #99d9ea;" colspan="4" | Shadow Armor
+|-
+! style="background: #99d9ea;" | Level
+! style="background: #99d9ea;" | Required Material
+! style="background: #99d9ea;" | Success Chance
+! style="background: #99d9ea;" | Price
+|-
+| 1 || Shadowdecon || 100% || 1000
+|-
+| 2 || Shadowdecon || 80% || 2000
+|-
+| 3 || Shadowdecon || 70% || 3000
+|-
+| 4 || Shadowdecon || 60% || 4000
+|-
+| 5 || Shadowdecon || 50% || 5000
+|-
+| 6 || Shadowdecon || 40% || 7500
+|-
+| 7 || Shadowdecon || 30% || 10000
+|-
+| 8 || Shadowdecon || 20% || 15000
+|-
+| 9 || Shadowdecon || 10% || 20000
+|-
+| 10 || Jewel Shadowdecon || 5% || 50000
+|}
+
+{| class="wikitable" style="text-align: center;"
+|-
+! style="background: #99d9ea;" colspan="4" | Runes / Dragon Orbs
+|-
+! style="background: #99d9ea;" | Level
+! style="background: #99d9ea;" | Required Material
+! style="background: #99d9ea;" | Success Chance
+! style="background: #99d9ea;" | Price
+|-
+| 1 || Bradium || 100% || 1000
+|-
+| 2 || Bradium || 85% || 2000
+|-
+| 3 || Bradium || 70% || 3000
+|-
+| 4 || Bradium || 55% || 4000
+|-
+| 5 || Bradium || 40% || 5000
+|-
+| 6 || Bradium || 25% || 7500
+|-
+| 7 || Bradium || 15% || 10000
+|-
+| 8 || Bradium || 10% || 15000
+|-
+| 9 || Bradium || 5% || 20000
+|-
+| 10 || Jewel Bradium || 2% || 50000
+|}
+
+Refining in [[Return to Morroc]] is challenging, but ensures your equipment will never disappear.
+
+__NOEDITSECTION__

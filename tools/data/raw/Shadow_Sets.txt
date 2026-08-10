@@ -1,0 +1,1332 @@
+For job shadow sets [[Job Sets|'''Click Here''']]
+=== Level 1 Shadow Sets ===
+
+==== [[Pyramid Basement]] ====
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Lost Attire
+! style="background: #99d9ea;" colspan="1" | Lv 1
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:BrownArmor.png|24px|link=/web/20231127162801/https://returntomorroc.com/wiki/index.php/File:BrownArmor.png]] Armor
+| Max HP/SP +2%
+| rowspan="4" | All Stats +1
+|-
+| [[File:BrownGloves.png|24px|link=/web/20231127162801/https://returntomorroc.com/wiki/index.php/File:BrownGloves.png]] Gloves
+| Atk+3/mAtk+3
+|-
+| [[File:BrownShoes.png|24px|link=/web/20231127162801/https://returntomorroc.com/wiki/index.php/File:BrownShoes.png]] Shoes
+| 5% Move Speed
+|-
+| [[File:BrownPendant.png|24px|link=/web/20231127162801/https://returntomorroc.com/wiki/index.php/File:BrownPendant.png]] Pendant
+| Perfect Dodge +1
+|}
+<br/>
+==== [[Poring Family]] ====
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Poring Warrior
+! style="background: #99d9ea;" colspan="1" | Lv 1
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:BrownArmor.png|24px|link=/web/20231127162801/https://returntomorroc.com/wiki/index.php/File:BrownArmor.png]] Armor
+| Exp +2%
+| rowspan="4" | All Stats +1<br/> Exp +2%<br/> Exp +2%/8 Refine
+|-
+| [[File:BrownGloves.png|24px|link=/web/20231127162801/https://returntomorroc.com/wiki/index.php/File:BrownGloves.png]] Gloves
+| Exp +2%
+|-
+| [[File:BrownShoes.png|24px|link=/web/20231127162801/https://returntomorroc.com/wiki/index.php/File:BrownShoes.png]] Shoes
+| Exp +2%
+|-
+| [[File:BrownPendant.png|24px|link=/web/20231127162801/https://returntomorroc.com/wiki/index.php/File:BrownPendant.png]] Pendant
+| Exp +2%
+|}
+<br/>
+=== Level 10 Shadow Sets ===
+
+==== [[Byalan Island]] ====
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Legacy of Steel
+! style="background: #99d9ea;" colspan="1" | Lv 10
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:BrownArmor.png|24px|link=/web/20231127162801/https://returntomorroc.com/wiki/index.php/File:BrownArmor.png]] Armor
+| 2% Max HP
+| rowspan="4" | All Stats +1<br/> 7% Max HP<br/> HP +10/Refine<br/> SP +1/Refine
+|-
+| [[File:BrownGloves.png|24px|link=/web/20231127162801/https://returntomorroc.com/wiki/index.php/File:BrownGloves.png]] Gloves
+| 2% Max HP
+|-
+| [[File:BrownShoes.png|24px|link=/web/20231127162801/https://returntomorroc.com/wiki/index.php/File:BrownShoes.png]] Shoes
+| 2% Max HP
+|-
+| [[File:BrownPendant.png|24px|link=/web/20231127162801/https://returntomorroc.com/wiki/index.php/File:BrownPendant.png]] Pendant
+| 2% Max HP
+|}
+<br/>
+==== [[Payon Cave]] ====
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Legacy of Arrows
+! style="background: #99d9ea;" colspan="1" | Lv 10
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:BrownArmor.png|24px|link=/web/20231127162801/https://returntomorroc.com/wiki/index.php/File:BrownArmor.png]] Armor
+| 2% Long Range Damage
+| rowspan="4" | All Stats +1<br/> 7% Long Range Dmg<br/> HP +10/Refine<br/> SP +1/Refine
+|-
+| [[File:BrownGloves.png|24px|link=/web/20231127162801/https://returntomorroc.com/wiki/index.php/File:BrownGloves.png]] Gloves
+| 2% Long Range Damage
+|-
+| [[File:BrownShoes.png|24px|link=/web/20231127162801/https://returntomorroc.com/wiki/index.php/File:BrownShoes.png]] Shoes
+| 2% Long Range Damage
+|-
+| [[File:BrownPendant.png|24px|link=/web/20231127162801/https://returntomorroc.com/wiki/index.php/File:BrownPendant.png]] Pendant
+| 2% Long Range Damage
+|}
+<br/>
+==== [[Upper Pyramid]] ====
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Legacy of Coins
+! style="background: #99d9ea;" colspan="1" | Lv 10
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:BrownArmor.png|24px|link=/web/20231127162801/https://returntomorroc.com/wiki/index.php/File:BrownArmor.png]] Armor
+| 2% Short Range Damage
+| rowspan="4" | All Stats +1<br/> 7% ATK<br/> HP +10/Refine<br/> SP +1/Refine
+|-
+| [[File:BrownGloves.png|24px|link=/web/20231127162801/https://returntomorroc.com/wiki/index.php/File:BrownGloves.png]] Gloves
+| 2% Short Range Damage
+|-
+| [[File:BrownShoes.png|24px|link=/web/20231127162801/https://returntomorroc.com/wiki/index.php/File:BrownShoes.png]] Shoes
+| 2% Short Range Damage
+|-
+| [[File:BrownPendant.png|24px|link=/web/20231127162801/https://returntomorroc.com/wiki/index.php/File:BrownPendant.png]] Pendant
+| 2% Short Range Damage
+|}
+<br/>
+==== [[Geffen Cave]] ====
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Legacy of Magic
+! style="background: #99d9ea;" colspan="1" | Lv 10
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:BrownArmor.png|24px|link=/web/20231127162801/https://returntomorroc.com/wiki/index.php/File:BrownArmor.png]] Armor
+| 2% Magic Attack
+| rowspan="4" | All Stats +1<br/> 7% MATK<br/> HP +10/Refine<br/> SP +1/Refine
+|-
+| [[File:BrownGloves.png|24px|link=/web/20231127162801/https://returntomorroc.com/wiki/index.php/File:BrownGloves.png]] Gloves
+| 2% Magic Attack
+|-
+| [[File:BrownShoes.png|24px|link=/web/20231127162801/https://returntomorroc.com/wiki/index.php/File:BrownShoes.png]] Shoes
+| 2% Magic Attack
+|-
+| [[File:BrownPendant.png|24px|link=/web/20231127162801/https://returntomorroc.com/wiki/index.php/File:BrownPendant.png]] Pendant
+| 2% Magic Attack
+|}
+
+Here's the content converted from HTML to MediaWiki format:
+
+=== Level 25 Shadow Sets ===
+
+==== [[Sphinx]] ====
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Ancient Tomb
+! style="background: #99d9ea;" colspan="1" | Lv 25
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:Armor.png|24px]] Armor
+| Damage vs Earth +3%
+| rowspan="4" | All Stats +1<br/> Dmg vs Earth +8%<br/> +1%/2 Refine
+|-
+| [[File:Gloves.png|24px]] Gloves
+| Damage vs Earth +3%
+|-
+| [[File:Shoes.png|24px]] Shoes
+| Damage vs Earth +3%
+|-
+| [[File:Pendant.png|24px]] Pendant
+| Damage vs Earth +3%
+|}
+
+==== [[Magma Dungeon]] ====
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Scorching Lava
+! style="background: #99d9ea;" colspan="1" | Lv 25
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:Armor.png|24px]] Armor
+| Damage vs Fire +3%
+| rowspan="4" | All Stats +1<br/> Dmg vs Fire +8%<br/> +1%/2 Refine
+|-
+| [[File:Gloves.png|24px]] Gloves
+| Damage vs Fire +3%
+|-
+| [[File:Shoes.png|24px]] Shoes
+| Damage vs Fire +3%
+|-
+| [[File:Pendant.png|24px]] Pendant
+| Damage vs Fire +3%
+|}
+
+==== [[Byalan Island]] ====
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Deep Dive
+! style="background: #99d9ea;" colspan="1" | Lv 25
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:Armor.png|24px]] Armor
+| Damage vs Water +3%
+| rowspan="4" | All Stats +1<br/> Dmg vs Water +8%<br/> +1%/2 Refine
+|-
+| [[File:Gloves.png|24px]] Gloves
+| Damage vs Water +3%
+|-
+| [[File:Shoes.png|24px]] Shoes
+| Damage vs Water +3%
+|-
+| [[File:Pendant.png|24px]] Pendant
+| Damage vs Water +3%
+|}
+
+==== [[Clock Tower]] ====
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Roaring Gale
+! style="background: #99d9ea;" colspan="1" | Lv 25
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:Armor.png|24px]] Armor
+| Damage vs Wind +3%
+| rowspan="4" | All Stats +1<br/> Dmg vs Wind +8%<br/> +1%/2 Refine
+|-
+| [[File:Gloves.png|24px]] Gloves
+| Damage vs Wind +3%
+|-
+| [[File:Shoes.png|24px]] Shoes
+| Damage vs Wind +3%
+|-
+| [[File:Pendant.png|24px]] Pendant
+| Damage vs Wind +3%
+|}
+
+==== [[Sunken Ship]] ====
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Pirate King
+! style="background: #99d9ea;" colspan="1" | Lv 25
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:BlueArmor.png|24px]] Armor
+| Zeny +3 on Kill
+| rowspan="4" | All Stats +2<br/> Zeny +10 on Kill<br/> Zeny +1/Refine
+|-
+| [[File:BlueGloves.png|24px]] Gloves
+| Zeny +3 on Kill
+|-
+| [[File:BlueShoes.png|24px]] Shoes
+| Zeny +3 on Kill
+|-
+| [[File:BluePendant.png|24px]] Pendant
+| Zeny +3 on Kill
+|}
+
+==== [[Turtle Dungeon]] ====
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Harmony Shell
+! style="background: #99d9ea;" colspan="1" | Lv 25
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:BlueArmor.png|24px]] Armor
+| Damage vs 4 Elements +2%
+| rowspan="4" | All Stats +2<br/> Dmg vs 4 elem +2%
+|-
+| [[File:BlueGloves.png|24px]] Gloves
+| Damage vs 4 Elements +2%
+|-
+| [[File:BlueShoes.png|24px]] Shoes
+| Damage vs 4 Elements +2%
+|-
+| [[File:BluePendant.png|24px]] Pendant
+| Damage vs 4 Elements +2%
+|}
+
+==== [[Banana Forest]] ====
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Banana
+! style="background: #99d9ea;" colspan="1" | Lv 25
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:Armor.png|24px]] Armor
+| pDodge +5, Flee -15
+| rowspan="4" | All Stats +1<br/> Flee +1/Refine
+|-
+| [[File:Gloves.png|24px]] Gloves
+| pDodge +5, Flee -15
+|-
+| [[File:Shoes.png|24px]] Shoes
+| pDodge +5, Flee -15
+|-
+| [[File:Pendant.png|24px]] Pendant
+| pDodge +5, Flee -15
+|}
+
+==== Tribes ====
+[[Fort St Darmain|Kobolds]] and [[Geffen Fields|Goblins]]
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Feral Instinct
+! style="background: #99d9ea;" colspan="1" | Lv 25
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:BlueArmor.png|24px]] Armor
+| Atk +3, SP -15%
+| rowspan="4" | All Stats +2<br/> SP-15%<br/> Atk +1/4Refine
+|-
+| [[File:BlueGloves.png|24px]] Gloves
+| Atk +3, SP -15%
+|-
+| [[File:BlueShoes.png|24px]] Shoes
+| Atk +3, SP -15%
+|-
+| [[File:BluePendant.png|24px]] Pendant
+| Atk +3, SP -15%
+|}
+
+Low-Mid Tier
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Master Thief
+! style="background: #99d9ea;" colspan="1" | Lv 25
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:GoldenArmor.png|24px]] Armor
+| Backstab Dmg +10%
+| rowspan="4" | All Stats +3<br/> All Skill dmg +10%<br/> Dmg +1%/2Refine
+|-
+| [[File:GoldenGloves.png|24px]] Gloves
+| Rolling Cutter Dmg +10%
+|-
+| [[File:GoldenShoes.png|24px]] Shoes
+| Cross Ripper Slasher Dmg +10%
+|-
+| [[File:GoldenPendant.png|24px]] Pendant
+| Double Strafe Dmg +10%
+|}
+
+Here's the content converted from HTML to MediaWiki format:
+
+=== Level 40 Shadow Sets ===
+
+==== Noble's Bathhouse ====
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Clean
+! style="background: #99d9ea;" colspan="1" | Lv 40
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:BlueArmor.png|24px]] Armor
+| Immunity to Blind
+| rowspan="4" | All Stats +2<br/> Imm to Stone/Curse<br/> +20: Imm to Stun<br/> +40: Imm to Freeze
+|-
+| [[File:BlueGloves.png|24px]] Gloves
+| Immunity to Silence
+|-
+| [[File:BlueShoes.png|24px]] Shoes
+| Immunity to Poison
+|-
+| [[File:BluePendant.png|24px]] Pendant
+| Immunity to Bleeding
+|}
+
+==== Coal Mines ====
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Mining
+! style="background: #99d9ea;" colspan="1" | Lv 40
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:BlueArmor.png|24px]] Armor
+| Refine Material drop per kill 0.05%
+| rowspan="4" | All Stats +2<br/> 0.05% HD<br/> 0.05% Enriched<br/> Regular 0.01/Refine
+|-
+| [[File:BlueGloves.png|24px]] Gloves
+| Refine Material drop per kill 0.05%
+|-
+| [[File:BlueShoes.png|24px]] Shoes
+| Refine Material drop per kill 0.05%
+|-
+| [[File:BluePendant.png|24px]] Pendant
+| Refine Material drop per kill 0.05%
+|}
+
+==== Beach Caves ====
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Life Essence
+! style="background: #99d9ea;" colspan="1" | Lv 40
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:Armor.png|24px]] Armor
+| HP +1/Vit
+| rowspan="4" | All Stats +1<br/> HP +10%<br/> HP +10/Refine
+|-
+| [[File:Gloves.png|24px]] Gloves
+| HP +1/Vit
+|-
+| [[File:Shoes.png|24px]] Shoes
+| HP +1/Vit
+|-
+| [[File:Pendant.png|24px]] Pendant
+| HP +1/Vit
+|}
+
+==== Orc Dungeon ====
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Immortal
+! style="background: #99d9ea;" colspan="1" | Lv 40
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:Armor.png|24px]] Armor
+| Damage vs Undead +3%
+| rowspan="4" | All Stats +1<br/> Dmg vs Undead +8%<br/> +1%/2Refine
+|-
+| [[File:Gloves.png|24px]] Gloves
+| Damage vs Undead +3%
+|-
+| [[File:Shoes.png|24px]] Shoes
+| Damage vs Undead +3%
+|-
+| [[File:Pendant.png|24px]] Pendant
+| Damage vs Undead +3%
+|}
+
+==== Faceworm Nest ====
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Venom Fang
+! style="background: #99d9ea;" colspan="1" | Lv 40
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:Armor.png|24px]] Armor
+| Damage vs Poison +3%
+| rowspan="4" | All Stats +1<br/> Dmg vs Poison +8%<br/> +1%/2Refine
+|-
+| [[File:Gloves.png|24px]] Gloves
+| Damage vs Poison +3%
+|-
+| [[File:Shoes.png|24px]] Shoes
+| Damage vs Poison +3%
+|-
+| [[File:Pendant.png|24px]] Pendant
+| Damage vs Poison +3%
+|}
+
+==== Thanatos Tower ====
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Tower
+! style="background: #99d9ea;" colspan="1" | Lv 40
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:GoldenArmor.png|24px]] Armor
+| HP +1%/Refine
+| rowspan="4" | All Stats +3<br/> All 4 +5/3% Extra
+|-
+| [[File:GoldenGloves.png|24px]] Gloves
+| SP +1%/Refine
+|-
+| [[File:GoldenShoes.png|24px]] Shoes
+| ATK +1%/Refine
+|-
+| [[File:GoldenPendant.png|24px]] Pendant
+| MATK +1%/Refine
+|}
+
+Mid Tier
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Laughing Chaos
+! style="background: #99d9ea;" colspan="1" | Lv 40
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:GoldenArmor.png|24px]] Armor
+| Scythe Reap +10%
+| rowspan="4" | All Stats +3<br/> All Skill dmg +10%<br/> Dmg +1%/2Refine
+|-
+| [[File:GoldenGloves.png|24px]] Gloves
+| Dark Message +10%
+|-
+| [[File:GoldenShoes.png|24px]] Shoes
+| Dark Messenger +10%
+|-
+| [[File:GoldenPendant.png|24px]] Pendant
+| Hell Raiser +10%
+|}
+
+----
+
+=== Level 50 Shadow Sets ===
+
+==== Clock Tower ====
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Lost Time
+! style="background: #99d9ea;" colspan="1" | Lv 50
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:Armor.png|24px]] Armor
+| 3% Move Speed
+| rowspan="4" | All Stats +1<br/> 3% Move Speed<br/> 1% Move Speed/8 Refine
+|-
+| [[File:Gloves.png|24px]] Gloves
+| 3% Move Speed
+|-
+| [[File:Shoes.png|24px]] Shoes
+| 3% Move Speed
+|-
+| [[File:Pendant.png|24px]] Pendant
+| 3% Move Speed
+|}
+
+==== Forest Maze ====
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Endless Forest
+! style="background: #99d9ea;" colspan="1" | Lv 50
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:BlueArmor.png|24px]] Armor
+| ASPD +2%
+| rowspan="4" | All Stats +2<br/> Splash Attacks<br/> ASPD +1%/8Refine<br/> R40: Splash range +1
+|-
+| [[File:BlueGloves.png|24px]] Gloves
+| ASPD +2%
+|-
+| [[File:BlueShoes.png|24px]] Shoes
+| ASPD +2%
+|-
+| [[File:BluePendant.png|24px]] Pendant
+| ASPD +2%
+|}
+
+==== Sunken Temple ====
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Peaceful Past
+! style="background: #99d9ea;" colspan="1" | Lv 50
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:Armor.png|24px]] Armor
+| Def +5
+| rowspan="4" | All Stats +1<br/> Def +30<br/> Def +1/Refine<br/> HP +5%
+|-
+| [[File:Gloves.png|24px]] Gloves
+| Def +5
+|-
+| [[File:Shoes.png|24px]] Shoes
+| Def +5
+|-
+| [[File:Pendant.png|24px]] Pendant
+| Def +5
+|}
+
+==== Toy Factory ====
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Winter Light
+! style="background: #99d9ea;" colspan="1" | Lv 50
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:Armor.png|24px]] Armor
+| Recover 10 HP and 1 SP on kill
+| rowspan="4" | All Stats +1<br/> Recov 10/1<br/> HP +1%/8 Refine<br/> SP +1%/8 Refine
+|-
+| [[File:Gloves.png|24px]] Gloves
+| Recover 10 HP and 1 SP on kill
+|-
+| [[File:Shoes.png|24px]] Shoes
+| Recover 10 HP and 1 SP on kill
+|-
+| [[File:Pendant.png|24px]] Pendant
+| Recover 10 HP and 1 SP on kill
+|}
+
+==== Einbroch Mines ====
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Pollution
+! style="background: #99d9ea;" colspan="1" | Lv 50
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:Armor.png|24px]] Armor
+| 1% to poison on attack
+| rowspan="4" | All Stats +1<br/> 1% extra chances<br/> 1% extra /10 Refine
+|-
+| [[File:Gloves.png|24px]] Gloves
+| 1% to silence on attack
+|-
+| [[File:Shoes.png|24px]] Shoes
+| 1% to blind on attack
+|-
+| [[File:Pendant.png|24px]] Pendant
+| 1% to sleep on attack
+|}
+
+==== Dragon Nest ====
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Dragon Scale
+! style="background: #99d9ea;" colspan="1" | Lv 50
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:Armor.png|24px]] Armor
+| MDEF+5
+| rowspan="4" | All Stats +1<br/> MDEF+5<br/> MDEF+1/ 4Refine<br/> HP +5%
+|-
+| [[File:Gloves.png|24px]] Gloves
+| MDEF+5
+|-
+| [[File:Shoes.png|24px]] Shoes
+| MDEF+5
+|-
+| [[File:Pendant.png|24px]] Pendant
+| MDEF+5
+|}
+
+==== Airship Crash Site ====
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Starlight
+! style="background: #99d9ea;" colspan="1" | Lv 50
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:BlueArmor.png|24px]] Armor
+| Fixed Cast Time -0.15
+| rowspan="4" | All Stats +2<br/> Fixed Cast -0.1s<br/> Variab. Cast -1% per 4 Refines
+|-
+| [[File:BlueGloves.png|24px]] Gloves
+| Fixed Cast Time -0.15
+|-
+| [[File:BlueShoes.png|24px]] Shoes
+| Fixed Cast Time -0.15
+|-
+| [[File:BluePendant.png|24px]] Pendant
+| Fixed Cast Time -0.15
+|}
+
+== Assassin Set ==
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Desert Shadow
+! style="background: #99d9ea;" colspan="1" | Lv 50
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:GoldenArmor.png|24px|alt=GoldenArmor.png]] Armor
+| Sonic Blow +3%/Refine, Atk +3
+| rowspan="4" | All Stats +3<br/> Atk +2%, Matk+2%
+|-
+| [[File:GoldenGloves.png|24px|alt=GoldenGloves.png]] Gloves
+| Shadow Slash +3%/Refine, Atk +3
+|-
+| [[File:GoldenShoes.png|24px|alt=GoldenShoes.png]] Shoes
+| Boomeraxe +3%/Refine, Atk+3
+|-
+| [[File:GoldenPendant.png|24px|alt=GoldenPendant.png]] Pendant
+| Silent Strike +3%/Refine, Atk +3
+|}
+
+== Rogue Set ==
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Desert Raider
+! style="background: #99d9ea;" colspan="1" | Lv 50
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:GoldenArmor.png|24px|alt=GoldenArmor.png]] Armor
+| Wind Slash +3%/Refine, Atk +3
+| rowspan="4" | All Stats +3<br/> Atk +2%, Matk+2%
+|-
+| [[File:GoldenGloves.png|24px|alt=GoldenGloves.png]] Gloves
+| Decoy +3%/Refine, Atk +3
+|-
+| [[File:GoldenShoes.png|24px|alt=GoldenShoes.png]] Shoes
+| Arrow Vulcan +3%/Refine, Atk+3
+|-
+| [[File:GoldenPendant.png|24px|alt=GoldenPendant.png]] Pendant
+| Shield Boomerang +3%/Refine, Atk +3
+|}
+
+== Regenschirm Lab ==
+=== Order Soul ===
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Order Soul
+! style="background: #99d9ea;" colspan="1" | Lv 50
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:GoldenArmor.png|24px|alt=GoldenArmor.png]] Armor
+| +3% DMG on Death Sentence per Refine. ATK +5
+| rowspan="4" | All Stats +3<br/> ATK +5%
+|-
+| [[File:GoldenGloves.png|24px|alt=GoldenGloves.png]] Gloves
+| +3% DMG on Heavy Shot per Refine. ATK +5.
+|-
+| [[File:GoldenShoes.png|24px|alt=GoldenShoes.png]] Shoes
+| -7% Vault's SP Cost per Refine. ATK +5.
+|-
+| [[File:GoldenPendant.png|24px|alt=GoldenPendant.png]] Pendant
+| -3% Variable Cast Time per Refine. ATK +5.
+|}
+
+=== Illusion Soul ===
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Illusion Soul
+! style="background: #99d9ea;" colspan="1" | Lv 50
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:GoldenArmor.png|24px|alt=GoldenArmor.png]] Armor
+| +3% DMG on Illusion of Vermillion per Refine. MATK +5.
+| rowspan="4" | All Stats +3<br/> MATK +5%
+|-
+| [[File:GoldenGloves.png|24px|alt=GoldenGloves.png]] Gloves
+| +3% DMG on Real Magic Attack per Refine. MATK +5.
+|-
+| [[File:GoldenShoes.png|24px|alt=GoldenShoes.png]] Shoes
+| -7% Illusion of Exchange's SP Cost per Refine. MATK +5.
+|-
+| [[File:GoldenPendant.png|24px|alt=GoldenPendant.png]] Pendant
+| -3% Variable Cast Time per Refine. MATK +5.
+|}
+
+=== Dragon Soul ===
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Dragon Soul
+! style="background: #99d9ea;" colspan="1" | Lv 50
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:GoldenArmor.png|24px|alt=GoldenArmor.png]] Armor
+| +3% DMG on Heavy Stab per Refine. ATK +5.
+| rowspan="4" | All Stats +3<br/> HP +5%
+|-
+| [[File:GoldenGloves.png|24px|alt=GoldenGloves.png]] Gloves
+| +3% DMG on Wind Cutter per Refine. ATK +5.
+|-
+| [[File:GoldenShoes.png|24px|alt=GoldenShoes.png]] Shoes
+| -7% Elusive Feint's SP Cost per Refine. ATK +5.
+|-
+| [[File:GoldenPendant.png|24px|alt=GoldenPendant.png]] Pendant
+| -3% After Cast Delay per Refine. ATK +5.
+|}
+
+=== Lucky 7 ===
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Lucky 7
+! style="background: #99d9ea;" colspan="1" | Lv 50
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:GoldenArmor.png|24px|alt=GoldenArmor.png]] Armor
+| Flee +7
+| rowspan="4" | All Stats +3<br/> LUK +7<br/> HP +7 per Refine<br/> SP +7 per Refine
+|-
+| [[File:GoldenGloves.png|24px|alt=GoldenGloves.png]] Gloves
+| HIT +7
+|-
+| [[File:GoldenShoes.png|24px|alt=GoldenShoes.png]] Shoes
+| Perfect Dodge +7
+|-
+| [[File:GoldenPendant.png|24px|alt=GoldenPendant.png]] Pendant
+| Perfect Hit +7
+|}
+
+=== Level 65 Shadow Sets ===
+
+==== [[Waterfall Caves]] ====
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Heavy Mist
+! style="background: #99d9ea;" colspan="1" | Lv 65
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:Armor.png|24px|alt=WhiteArmor.png]] Armor
+| Damage vs Dark +3%
+| rowspan="4" | All Stats +1<br/> Dmg vs Dark +8%<br/> +1%/4 Refine
+|-
+| [[File:Gloves.png|24px|alt=WhiteGloves.png]] Gloves
+| Damage vs Dark +3%
+|-
+| [[File:Shoes.png|24px|alt=WhiteShoes.png]] Shoes
+| Damage vs Dark +3%
+|-
+| [[File:Pendant.png|24px|alt=WhitePendant.png]] Pendant
+| Damage vs Dark +3%
+|}
+
+==== [[Ayothaya Temple]] ====
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Piercing Light
+! style="background: #99d9ea;" colspan="1" | Lv 65
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:Armor.png|24px|alt=WhiteArmor.png]] Armor
+| Damage vs Holy +3%
+| rowspan="4" | All Stats +1<br/> Dmg vs Holy +8%<br/> +1%/4 Refine
+|-
+| [[File:Gloves.png|24px|alt=WhiteGloves.png]] Gloves
+| Damage vs Holy +3%
+|-
+| [[File:Shoes.png|24px|alt=WhiteShoes.png]] Shoes
+| Damage vs Holy +3%
+|-
+| [[File:Pendant.png|24px|alt=WhitePendant.png]] Pendant
+| Damage vs Holy +3%
+|}
+
+==== [[Dewata Volcano]] ====
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Spell Flow
+! style="background: #99d9ea;" colspan="1" | Lv 65
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:BlueArmor.png|24px|alt=BlueArmor.png]] Armor
+| 3 Basic Spells Damage +3%/Refine
+| rowspan="4" | All Stats +2<br/> 3 Spell Damage +20%<br/> SP+1%/4Refine
+|-
+| [[File:BlueGloves.png|24px|alt=BlueGloves.png]] Gloves
+| 3 Basic Spells Cast -3%/Refine
+|-
+| [[File:BlueShoes.png|24px|alt=BlueShoes.png]] Shoes
+| 3 Basic Spells SP Cost -3%/Refine
+|-
+| [[File:BluePendant.png|24px|alt=BluePendant.png]] Pendant
+| Fire/Water/Wind Dmg +3%/Refine
+|}
+
+==== [[Amatsu Dungeon]] ====
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Bushido
+! style="background: #99d9ea;" colspan="1" | Lv 65
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:BlueArmor.png|24px|alt=BlueArmor.png]] Armor
+| Critical +3
+| rowspan="4" | All Stats +2<br/> Critical +5<br/> Critical Dmg +5%<br/> Critical Dmg +1%/4 Refine
+|-
+| [[File:BlueGloves.png|24px|alt=BlueGloves.png]] Gloves
+| Critical +3
+|-
+| [[File:BlueShoes.png|24px|alt=BlueShoes.png]] Shoes
+| Critical +3
+|-
+| [[File:BluePendant.png|24px|alt=BluePendant.png]] Pendant
+| Critical +3
+|}
+
+==== [[Crystal Caves]] ====
+
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Crystal Clear
+! style="background: #99d9ea;" colspan="1" | Lv 65
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:Armor.png|24px|alt=WhiteArmor.png]] Armor
+| Hit +15
+| rowspan="4" | All Stats +1<br/> Hit +20<br/> Perfect Hit +1/2Ref
+|-
+| [[File:Gloves.png|24px|alt=WhiteGloves.png]] Gloves
+| Hit +15
+|-
+| [[File:Shoes.png|24px|alt=WhiteShoes.png]] Shoes
+| Perfect Hit +10
+|-
+| [[File:Pendant.png|24px|alt=WhitePendant.png]] Pendant
+| Perfect Hit +10
+|}
+
+== Juperos ==
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Lost Tech
+! style="background: #99d9ea;" | Lv 65
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:Armor.png|24px|WhiteArmor]] Armor
+| Damage vs Neutral +3%
+| rowspan="4" | All Stats +1<br/> Dmg vs Neutral +8%<br/> +1%/4 Refine
+|-
+| [[File:Gloves.png|24px|WhiteGloves]] Gloves
+| Damage vs Neutral +3%
+|-
+| [[File:Shoes.png|24px|WhiteShoes]] Shoes
+| Damage vs Neutral +3%
+|-
+| [[File:Pendant.png|24px|WhitePendant]] Pendant
+| Damage vs Neutral +3%
+|}
+<br/>
+
+== Abandoned Hospital ==
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Undying
+! style="background: #99d9ea;" | Lv 65
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:BlueArmor.png|24px|BlueArmor]] Armor
+| HP +10%
+| rowspan="4" | All Stats +2<br/> Enable Phoenix Lv1<br/> HP+2%/4Refine<br/> SP+1%/4Refine
+|-
+| [[File:BlueGloves.png|24px|BlueGloves]] Gloves
+| HP +5%
+|-
+| [[File:BlueShoes.png|24px|BlueShoes]] Shoes
+| SP + 5%
+|-
+| [[File:BluePendant.png|24px|BluePendant]] Pendant
+| SP + 10%
+|}
+<br/>
+
+== Alchemist Fortress ==
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Burden of Creation
+! style="background: #99d9ea;" | Lv 65
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:BlueArmor.png|24px|BlueArmor]] Armor
+| Potion Healing Power +10%
+| rowspan="4" | All Stats +2<br/> Weight Limit +600<br/> Weight Limit +10/ Refine<br/> Potion Healing +10%
+|-
+| [[File:BlueGloves.png|24px|BlueGloves]] Gloves
+| Potion Healing Power +10%
+|-
+| [[File:BlueShoes.png|24px|BlueShoes]] Shoes
+| Potion Healing Power +10%
+|-
+| [[File:BluePendant.png|24px|BluePendant]] Pendant
+| Potion Healing Power +10%
+|}
+<br/>
+
+== Geffenia ==
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Fallen Civilization
+! style="background: #99d9ea;" | Lv 65
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:BlueArmor.png|24px|BlueArmor]] Armor
+| SP Cost -10%
+| rowspan="4" | All Stats +2<br/> SP Cost -10%<br/> SP +1%/4Refine
+|-
+| [[File:BlueGloves.png|24px|BlueGloves]] Gloves
+| SP Cost -10%
+|-
+| [[File:BlueShoes.png|24px|BlueShoes]] Shoes
+| SP Cost -10%
+|-
+| [[File:BluePendant.png|24px|BluePendant]] Pendant
+| SP Cost -10%
+|}
+<br/>
+
+== Glast Heim ==
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | King's Guard
+! style="background: #99d9ea;" | Lv 65
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:BlueArmor.png|24px|BlueArmor]] Armor
+| Defense vs Large +5%
+| rowspan="4" | All Stats +2<br/> All Size +5%<br/> All Size +1%/4Ref<br/> Abysmal Knt(4-0.5)
+|-
+| [[File:BlueGloves.png|24px|BlueGloves]] Gloves
+| Defense vs Medium +5%
+|-
+| [[File:BlueShoes.png|24px|BlueShoes]] Shoes
+| Defense vs Small +5%
+|-
+| [[File:BluePendant.png|24px|BluePendant]] Pendant
+| All Sizes Defense +3%
+|}
+<br/>
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | King's Knight
+! style="background: #99d9ea;" | Lv 65
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:BlueArmor.png|24px|BlueArmor]] Armor
+| Phys Damage vs Large +5%
+| rowspan="4" | All Stats +2<br/> All Size +5%<br/> All Size +1%/4Ref<br/> Zealotus (4-0.5)
+|-
+| [[File:BlueGloves.png|24px|BlueGloves]] Gloves
+| Phys Damage vs Medium +5%
+|-
+| [[File:BlueShoes.png|24px|BlueShoes]] Shoes
+| Phys Damage vs Small +5%
+|-
+| [[File:BluePendant.png|24px|BluePendant]] Pendant
+| Phys All Sizes Damage +3%
+|}
+<br/>
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | King's Wizard
+! style="background: #99d9ea;" | Lv 65
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:BlueArmor.png|24px|BlueArmor]] Armor
+| Mag Damage vs Large +5%
+| rowspan="4" | All Stats +2<br/> All Size +5%<br/> All Size +1%/4Ref<br/> Dark Frame (4-0.5)
+|-
+| [[File:BlueGloves.png|24px|BlueGloves]] Gloves
+| Mag Damage vs Medium +5%
+|-
+| [[File:BlueShoes.png|24px|BlueShoes]] Shoes
+| Mag Damage vs Small +5%
+|-
+| [[File:BluePendant.png|24px|BluePendant]] Pendant
+| Mag All Sizes Damage +3%
+|}
+<br/>
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | King's Noble
+! style="background: #99d9ea;" | Lv 65
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" | Set bonus
+|-
+| [[File:BlueArmor.png|24px|BlueArmor]] Armor
+| All Sizes Defense +1%/Refine
+| rowspan="4" | All Stats +2<br/> All Size +5%<br/> Noble Zombie (4-0.5)
+|-
+| [[File:BlueGloves.png|24px|BlueGloves]] Gloves
+| All Sizes PDamage +1%/Refine
+|-
+| [[File:BlueShoes.png|24px|BlueShoes]] Shoes
+| All Sizes MDamage +1%/Refine
+|-
+| [[File:BluePendant.png|24px|BluePendant]] Pendant
+| Ignore Size Penalty
+|}
+<br/>
+== Level 80 Shadow Sets ==
+
+=== [[Abyss Lake|Abyss Lake]] ===
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Dragon Claw
+! style="background: #99d9ea;" colspan="1" | Lv 80
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:BlueArmor.png|24px]] Armor
+| Def Pierce +5%
+| rowspan="4" | All Stats +2<br/> Def Pierce +5%<br/> Atk +1%/8 Refine
+|-
+| [[File:BlueGloves.png|24px]] Gloves
+| Def Pierce +5%
+|-
+| [[File:BlueShoes.png|24px]] Shoes
+| Def Pierce +5%
+|-
+| [[File:BluePendant.png|24px]] Pendant
+| Def Pierce +5%
+|}
+<br/>
+
+=== [[Ice Dungeon|Ice Dungeon]] ===
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Eternal Frost
+! style="background: #99d9ea;" colspan="1" | Lv 80
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:BlueArmor.png|24px]] Armor
+| MDef Pierce +5%
+| rowspan="4" | All Stats +2<br/> MDef Pierce +5%<br/> MAtk +1%/8 Refine
+|-
+| [[File:BlueGloves.png|24px]] Gloves
+| MDef Pierce +5%
+|-
+| [[File:BlueShoes.png|24px]] Shoes
+| MDef Pierce +5%
+|-
+| [[File:BluePendant.png|24px]] Pendant
+| MDef Pierce +5%
+|}
+<br/>
+
+=== [[Nightmare Clock Tower|Nightmare Clock Tower]] ===
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Timeless Memory
+! style="background: #99d9ea;" colspan="1" | Lv 80
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:RedArmor.png|24px]] Armor
+| Atk -10%, Cast Time +25%, ASPD +3%, 3 Basic +3%
+| rowspan="4" | All Stats +4<br/> 3 Basic + 1%/2 Refine<br/> ASPD +1%/ Refine
+|-
+| [[File:RedGloves.png|24px]] Gloves
+| Atk -10%, Cast Time +25%, ASPD +3%, 3 Basic +3%
+|-
+| [[File:RedShoes.png|24px]] Shoes
+| Atk -10%, Cast Time +25%, ASPD +3%, 3 Basic +3%
+|-
+| [[File:RedPendant.png|24px]] Pendant
+| Atk -10%, Cast Time +25%, ASPD +3%, 3 Basic +3%
+|}
+<br/>
+
+=== [[Einbroch Deadlands|Einbroch Deadlands]] ===
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Lost Cause
+! style="background: #99d9ea;" colspan="1" | Lv 80
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:RedArmor.png|24px]] Armor
+| Damage Taken +20%, Reflect ph 10%
+| rowspan="4" | All Stats +4<br/> Dmg Tk +20%<br/> Reflect phys +10%<br/> HP +1%/4 Refine
+|-
+| [[File:RedGloves.png|24px]] Gloves
+| Damage Taken +20%, Reflect ph 10%
+|-
+| [[File:RedShoes.png|24px]] Shoes
+| Damage Taken +20%, Reflect ph 10%
+|-
+| [[File:RedPendant.png|24px]] Pendant
+| Damage Taken +20%, Reflect ph 10%
+|}
+<br/>
+
+=== [[Morroc Distortion|Morroc Distortion]] ===
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | First Orphan
+! style="background: #99d9ea;" colspan="1" | Lv 80
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:GreenArmor.png|24px]] Armor
+| 1% HP/SP / Refine
+| rowspan="4" | All Stats +5<br/> Enable Berserk<br/> All Stats -10<br/> Def -100, MDef -100
+|-
+| [[File:GreenGloves.png|24px]] Gloves
+| Atk/Matk +2/ Refine
+|-
+| [[File:GreenShoes.png|24px]] Shoes
+| Move Speed +2%/ Refine
+|-
+| [[File:GreenPendant.png|24px]] Pendant
+| pDodge +1/Refine
+|}
+<br/>
+
+=== [[Yggdrasil Tree|Yggdrasil Tree]] ===
+{| class="wikitable" style="text-align: left; float:none"
+|-
+! style="background: #99d9ea;" colspan="2" | Immovable
+! style="background: #99d9ea;" colspan="1" | Lv 80
+|-
+! style="background: #99d9ea;" | Type
+! style="background: #99d9ea;" | Piece Bonus
+! style="background: #99d9ea;" colspan="1" rowspan="1" | Set bonus
+|-
+| [[File:BrownArmor.png|24px]] Armor
+| MDEF +15, Move Speed -20%, DEF+ 25, Atk -25, MATK -25
+| rowspan="4" | All Stats +1<br/> Immune to Knock<br/> Def+5/mdef+1/Ref<br/> ATK/MATK -15%
+|-
+| [[File:BrownGloves.png|24px]] Gloves
+| MDEF +15, Move Speed -20%, DEF+ 25, Atk -25, MATK -25
+|-
+| [[File:BrownShoes.png|24px]] Shoes
+| MDEF +15, Move Speed -20%, DEF+ 25, Atk -25, MATK -25
+|-
+| [[File:BrownPendant.png|24px]] Pendant
+| MDEF +15, Move Speed -20%, DEF+ 25, Atk -25, MATK -25
+|}

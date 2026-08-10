@@ -1,0 +1,48 @@
+== Kafra Services ==
+The Kafras are a core part of the experience. Over the years, the quality of their work has been expanded beyond their usual facilities.
+* Location of most kafras has been changed to more convenient locations.
+* Only one kafra is located in each city. usually near the main area.
+* Kafras can now teleport players to every city, under specific geographical conditions.
+* The orphans have exclusive access to '''Kafra Alysia''' in [[The Orphanage]].
+
+== Regular Kafra Services ==
+=== Save Point ===
+Saves your return point to the current kafra location. When player dies, they respawn at the save point.
+
+=== Storage ===
+Offers access up to 3 storages at a small zeny price [Except for Kafra Alysia] . This price varies by region and kafra location.
+
+=== Teleport ===
+Allows teleporting to any main city. Teleport has a fixed price of 1000z to any city in the same region, or 1500z to a capital in another region (Prontera, Yuno or Rachel).
+* Regular Kafras cannot teleport to Niflheim, Nomad Village, Mora or Dicastes Diel.
+
+=== Refill ===
+Allows refilling the '''Kafra Elixir'''. This has no cost and can be used anytime.
+
+Automatically refils Elixir near Alycia if you are missing any of them.
+
+== Kafra Elixir ==
+[[File:Kafraelixir.gif|18px|link=File_Kafraelixir.html]]
+The Kafra elixir is a special service provided by any Kafra.
+Kafras will refill all elixir of a player when asked. By Default, this amount is '''2'''.
+This service is completely free.
+* Kafra Elixirs Recover 50% max HP and SP when used.
+* Kafra Elixirs have a 5 second cooldown.
+* Kafra Elixirs have no weight and can't be traded, stored, sold or discarded.
+* Wearing some equipment like an '''Elixir Badge''' or pieces of the '''Ambrosia Shadow Set''' will increase the amount of refills a player can have.
+* Removing any equipment that affects kafra elixir amount breaks any remaining elixir the player has.
+* Finding Kafra Alysia's Ring and bringing it to her permanently increases the refills -she- provides to '''3'''. This is once per character.
+
+== Kafra Express ==
+[[File:Kafraexpress.png|187px|link=File_Kafraexpress.html|right]]
+The Kafra Express is a unique part of the experience in Return to Morroc.
+These Kafra employees can provide assistance to players in far-away locations.
+* They allow access to the storage.
+* They sell simple consumables like magnifiers, fly wings and potions.
+* They can refill your Kafra Elixir.
+* They '''cannot''' save your respawn location.
+* They '''cannot''' teleport you.
+* '''Kafra Express storage and shop have an increased price.'''
+* VIP players can use these services for regular prices.
+
+Kafra Express can be found near the entrance of some dungeons, distant fields and desolated areas. They cannot be found in any distortion.

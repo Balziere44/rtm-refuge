@@ -1,0 +1,66 @@
+== <span id="Orphan" class="mw-headline">[[File:Orphan.gif|25x25px|Orphan.gif]]Orphan</span> ==
+
+The Orphan is a cursed person. Every Orphan carries The Mark with them. Orphans create a [https://web.archive.org/web/20230601182556/https://returntomorroc.com/wiki/index.php?title=Shadow&action=edit&redlink=1 Shadow] when they die in specific places where negative energy is gathered, since Shadows attempt to explode when they die, they are very dangerous to society. For this reason, most people don't like having Orphans near them.
+
+[[File:orphan.png|200px|right|Caption]]
+
+Orphans don't have access to the original jobs due to the risk they bring. Only the Thief, and in turn, Assassin and Rogue guilds accept Orphans, that's because those guilds would always be seen as outsiders by the common people, so they embraced these new outcasts from society.
+
+Some alternative associations also seem to be taking Orphans...
+
+An Orphan can also become a Merchant, as long as it sticks to the rules of the Merchant Association of Alberta and refrain from training and stick to a peaceful life of markets and trading.
+
+[[File:Anewworld.png|299x67px|link=Anewworld]]
+=== <span id="Skills" class="mw-headline">Skills</span> ===
+
+The Orphan is a resourceful class, as such, they have much better adaptability than Novices. Max Job Level for Orphan is 10.
+
+{|class="wikitable sortable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+!width="16%" style="background: #99d9ea;" | Skill
+!width="16%" style="background: #99d9ea;" | Max Level
+!width="16%" style="background: #99d9ea;" | Description
+!width="16%" style="background: #99d9ea;" | Skill Type
+!width="16%" style="background: #99d9ea;" | Details
+!width="16%" style="background: #99d9ea;" | Combo
+|-
+| [[File:Basic.gif|24x24px|link=Basic]] Basic Skills
+| Lv 1
+| An Orphan must learn fast, they can learn all Basic Skills at once. Their hit rate increases by 25 due to the extra attention needed.
+| Passive
+| Required for other skills.
+| No
+|-
+| [[File:Heal.gif|24x24px|link=Heal]] Heal
+| Lv 3
+| Recovers a small amount of health, increases with INT and Level.
+| Support
+| 3s cooldown
+| No
+|-
+| [[File:Incagi.gif|24x24px|link=Incagi]] Increase Agility
+| Lv 1
+| Increases movement speed for duration. Also slightly increases AGI and ASPD.
+| Self Support
+| 60s cooldown
+| No
+|-
+| [[File:Hiding.gif|24x24px|link=Hiding]] Hiding
+| Lv 1
+| Hides from view from most monsters. Can dodge basic targeted skills.
+| Self Support
+| 3s duration
+| No
+|-
+| [[File:Steal.gif|24x24px|link=Steal]] Steal
+| Lv 3
+| Small chance to steal an item from an enemy.
+| Offensive Support
+| DEX scaling success
+| No
+|}
+
+=== <span id="Extra_information" class="mw-headline">Extra information</span> ===
+
+* Orphans have this name because when a person receives The Mark, their whole family supposedly dies or vanishes. Nobody is fully sure what happens.
+* Available Weapons: Daggers
+* When an Orphan gets to Lv99 without dying, they receive +10 bonus to all stats. They also cannot job change anymore if they do this.

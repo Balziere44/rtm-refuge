@@ -1,0 +1,92 @@
+== No path to follow ==
+
+'''Vagabond Requires Base Level 15 and Job Level 10 to start the quest.'''
+
+The Vagabond is a straightforward fighter that uses no special tools and gets the best out of its auto attacks.
+
+It has very limited alternate tools and requires smart play to succeed.
+
+'''Best:''' Great scaling, simple gameplay, complete skill tree.
+
+'''Worst:''' Low base SP, can't adapt to content easily, difficult early game.
+
+'''Weapons:''' Daggers
+
+=== Gameplay Identity ===
+The Vagabond is a very simple job that requires minor gameplay planning other that basic situational awareness, meaning its:
+
+'''A powerful one trick pony that can hit very hard, is reliable and easy to pick up, hard to master.'''
+
+As the Vagabond is restricted to daggers, and only auto attacks for offense by default, matched with the very low base SP, they can only make limited use of eventual skills granted by manuals or cards. They are a complex job to build but very easy to play, as they are restricted to auto attacks and has no rotations.
+
+Even with all limitations, the fact the Vagabond can obtain its entire skill tree when leveling up makes it a powerhouse that auto-attacks more than any other job, while having access to its full potential at all times, however limited it is.
+
+A good Vagabond who mastered its 70 job levels can become a [[Legend]] and unlock dual wielding and specific buffs.
+
+It's important to know that a Vagabond can be a very gear reliant job. It can be played from the start but its growth is exponential based on how geared it is.
+
+== Skills ==
+{| class="wikitable" style="font-weight:normal; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+! style="text-align:center; background-color:#99d9ea;" | Skill
+! style="text-align:center; background-color:#99d9ea;" | Max Level
+! style="text-align:center; background-color:#99d9ea;" | Description
+! style="text-align:center; background-color:#99d9ea;" | Skill Type
+! style="text-align:center; background-color:#99d9ea;" | Details
+! style="text-align:center; background-color:#99d9ea;" | Scaling
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Tf_miss.gif|24px|alt=Tf miss.gif]] Improve Dodge
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Increases flee rate.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Passive
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | +4 Flee per level.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Sprecov.gif|24px|alt=Sprecov.gif]] Increase SP Recovery
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Provides extra SP recovery on top of natural regeneration.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Passive
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Regens 0.1% + 2 max SP per level.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Impdef.gif|24px|alt=Impdef.gif]] Improve Defense
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Increases Max HP
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Passive
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | HP+50 per level
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Sm_sword.gif|24px|alt=Sm sword.gif]] Blade Mastery
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Increases attack with swords and daggers by 3 per level.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Passive
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Also increases ASPD by 1% per level.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:As_shadow.gif|24px|alt=As shadow.gif]] Shadow Mastery
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Increases flee by 3 per level.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Passive
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Also increases ASPD by 1% per level.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Carryweight.gif|24px|alt=Carryweight.gif]] Improve Weight
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Increases weight limit
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Passive
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Increase is 300 weight per level
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Pneuma.gif|26px|alt=Pneuma.gif]] Pneuma
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 8
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Block ranged physical attacks for a duration on a 3x3 area
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Duration and SP cost increases with higher level
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Berserk.gif|26px|alt=Berserk.gif]] Frenzy
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 1
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Fully heals and boosts the HP and massively increases attack power and speed in exchange for defenses and flee
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Self-Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Cannot be canceled, block any healing and constantly drains health
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|}

@@ -1,0 +1,696 @@
+= Echoes of Morroc info =
+
+Echoes of Morroc is based on "Return To Morroc" project, created by Ornstein "Father of Orphans" .
+
+Project Return to Morroc ["PRM" for short] Is fully custom server that gives unique player experience for Classic Ragnarok players. WIth custom and remade Jobs/Dungeons/Mechanics/Gear/Stats(for more info check out [https://wiki.echoesofmorroc.com/Main_Features Main Features]
+
+= Orphan Dream =
+[[File:Choice..GIF|thumb|350px|File:Choice..GIF|New Beginning]]
+Being awakened as Orphan in a strange place, having no recollection of your '''Memories''', yet '''Reflection''' is calling to you. Will your story be different then others, or will you follow the path of who you once was?
+
+Now you as a player have an option of choosing Rates and remembering your name by speaking with '''Reflection'''.
+
+Rates:
+
+* x1 Rates: Closest to classic PRM base/job exp rates. Offers Increased Stat Gained on leveling up.
+
+* x4 Rates: Echoes of Morroc Rates. Classic server experience.
+
+After you've chosen your rates. You can either Start the '''Tutorial Quest''', or continue into the real world.
+
+Tutorial teaches you about main mechanics, lore about you as an orphan and rewards with levels and basic starting gear, including Unique Scarf - "Low Headgear".
+
+'''List of Scarfs and their effects''':
+
+{| class="wikitable mw-collapsible mw-collapsed" style="font-weight:bold; width: 100%;"
+|-
+| style="background-color:#99d9ea; width: 25%""| Name
+| style="background-color:#99d9ea; width: 25%""| Dialogue Option
+| style="background-color:#99d9ea; width: 50%""| Effect
+|-
+| [[File:SafetyScarf.GIF|50px]]Safety Scarf
+| Be Safe
+| HP+2%, HP+50
+|-
+| [[File:CalmScarf.GIF|50px]]Calm Scarf
+| Be Calm
+| SP+2%, SP+10
+|-
+| [[File:Occult Scarf.GIF|50px]]Occult Scarf
+| Be Fast
+| ASPD +2, Cast Time-10%
+|-
+| [[File:SmartScarf.GIF|50px]]Smart Scarf
+| Be Smart
+| After Cast Delay -5%, Cast Time -5%, SP Cost -2%
+|-
+| [[File:FocusScarf.GIF|50px]]Focus Scarf
+| Be Focused
+| MATK+5, MATK+1%
+|-
+| [[File:BraveryScarf.GIF|50px]]Bravery Scarf
+| Be Brave
+| ATK+3, ATK+1%
+|-
+| [[File:AttentiveScarf.GIF|50px]]Attentive Scarf
+| Be Quiet
+| Critical Rate +3, Critical Damage +3%
+|-
+| [[File:BelovedScarf.GIF|50px]]Beloved Scarf
+| Be Sad
+| Def+7, MDEF+3, Neutral Resistance+1%
+|-
+| [[File:RaggedScarf.GIF|50px]]Ragged Scarf
+| Be Uncaring
+| All Stats -1, [1] Slot
+|}
+
+'''TLDR for scarfs''':
+ 
+ * Use Safety Scarf and Calm Scarf if you need more hp/sp, expert jobs like those stats 
+ early on.
+ 
+ * Use Bravery/Focus Scarf if you are going for heavy hitting classes like Raider, Dark 
+ Knight, Melee/Magic Thief, Vagabond, Trickster, Peacekeeper.
+ 
+ * Use Attentive Scarf for classes that like critical. such as Vagabond, Trickster, Ronin.
+  
+ * Use Occult Scarf if you are going for any AA or ASPD based character like Shadowseer, 
+ Night Raven, Prowler, Jester.
+ 
+ * Use Smart Scarf if you have long Cast time skills, Bolter Thief and Mystic likes it early 
+ on.
+ 
+ * Use Ragged Scarf when you have cards that you want to use early on, like bigfoot for 
+ movement speed.
+ 
+ * Use Beloved Scarf if you planning on taking hits, or tanking for party members.
+ 
+After Tutorial quest is finished, you will be teleported to the '''Orphange''', the "Orphans" '''Hub''' area. [https://wiki.echoesofmorroc.com/The_Orphanage The Orphanage]
+
+Once you are in Real World you are welcomed by Shadow of Ornstein, further in the hall you can speak with Nanny, who will give you some basic items for your journey in New-Midgard.
+
+= Orphanage =
+
+Orphanage NPC's offers variety of service for Orphans, ranging from Kafra Service to Caravan  Traveling.
+
+Your best friends here will be:
+{| class="wikitable mw-collapsible mw-collapsed" style="font-weight:bold; width: 100%;"
+|-
+| style="background-color:#99d9ea; width: 25%""| Name
+| style="background-color:#99d9ea; width: 15%""| Service
+| style="background-color:#99d9ea; width: 40%""| Details
+| style="background-color:#99d9ea; width: 20%""| Location
+|-
+| Kafra Alysia
+
+[[File:Kafra Alysia.GIF|130px]]
+| Kafra Service
+| Offers: Save point. Player/Guild Storage. Reffils Elixirs. Town Teleport.
+
+She may have request for you.
+| 1st Floor.
+|-
+| Lucy Guille
+
+[[File:Lucy Guille.GIF|130px]]
+| Healer
+| Full recovers HP/SP, and repairs items with no cost. Grants Buffs for 5.000 Zeny. 
+| 1st Floor
+|-
+| Lily
+
+[[File:Lily Tool dealer.GIF|130px]]
+| Tool Dealer
+| Sells variety of things.
+| Kitchen
+|-
+| Mary Cenia
+
+[[File:Mary Cenia the Chef.GIF|130px]]
+| Chef
+| Sells Status food.
+| Kitchen
+|-
+| Mr. Somebody
+
+[[File:Mr somebody.GIF|130px]]
+| Black Market
+| Sells Catalysts. Manuals. and unique trinkets.
+| Kitchen
+|-
+| Amadeus Windsor and Mika
+
+[[File:Amadeus Windsor and Mika.GIF|130px]]
+| Orphanage Donations
+| Accepts Donations to Orphanage, Increasing Level of Orphanage with enough invested.
+
+Every 10.000 Zeny gives 1 donation coin, that can be spent in Mika shop.
+| 1st Floor
+|-
+| Caravan Leader
+
+[[File:Caravan Leader.GIF|130px]]
+| Caravan Teleportation
+| Teleports player to Morroc/Payon Field.
+| 1st Floor near Orphanage exit.
+|-
+| Heimdall Alt-Eisen
+
+[[File:Heimdall Alt Eisen.GIF|130px]]
+| Smith
+| Refines Gear. Sells Ores depending on Orphanage level.
+| 1st floor. Backrooms
+|-
+| Memory Fountain
+
+[[File:Reset Fountain.GIF|130px]]
+| Reseter
+| Resets Stats/Skill with increasing price depending on base level.
+| Stairs to 2nd floor.
+|-
+| Master of Cards
+
+[[File:Master of Cards.GIF|130px]]
+| Card Remover
+| Removes cards from slotted gear
+| 2nd floor
+|}
+
+= First Job Change =
+
+Upon finishing tutorial you will be either 4/2 base/job level or 6/2 base/job level, based on rates chosen. You should get all basic stats VIT/DEX/INT to 10. then procced on leveling main damaging stat to 30. Don't forget to put points into VIT/INT for max HP/SP and SP regen, and DEX for HIT if you miss alot.
+
+You can go down to Morroc Basement to get early levels for job change. While killing monsters in basement you can get your first normal gear and shadow set.
+
+Level here until you get 10/10[Normal Jobs] or 15/10[Expert Jobs](except mimic he needs 25/10) for first Job Change.
+
+Then procced on changing jobs to:
+
+'''Normal Jobs:'''
+
+'''[https://wiki.echoesofmorroc.com/Thief Thief]''' - The Default Class in PRM. Has variety of skills, from melee/magic/ranged and passive to increase your Resource management or stat increases such as HP/SP/Flee.
+
+'''[https://wiki.echoesofmorroc.com/Raider Raider]''' - Physical Bruiser Class. Unique job that focuses on using spears, dealing average damage and high survivability.
+
+'''[https://wiki.echoesofmorroc.com/Trickster Trickster]''' - Physical Bruiser leech based class. has inbuilt Leech from using Scythes. Fire Endow/AutoGuard and 1-2-3 combo playstyle.
+
+'''[https://wiki.echoesofmorroc.com/Jester Jester]''' - Hybrid Physical/Magical class. Uses Unique Decks of cards that gives different effects depending on suit used. High ASPD limit. Burst and Spam Skills. and strong finisher that consumes HP to deal damage.
+
+'''[https://wiki.echoesofmorroc.com/Ronin Ronin]''' - Physical DPS Class. Excells on High Evade and burst damage with combo skills. Way of the Blade buff increases damage dealt with skills, but lost on taking any damage. Blade Skill Deals Melee damage in combo style. Void Dash skill deals Ranged damage by dashing behind target dealing delayed damage.
+
+
+
+'''Expert Jobs:'''
+
+'''[https://wiki.echoesofmorroc.com/Vagabond Vagabond]''' - Physical DPS class. Deals high dps, with low survivability. Has All element Endows with "Seven Winds". Passsives that increase ASPD/ATK and Flee. Frenzy that sets your APSD to 193 with increased ATK, and disables HP regenration.
+
+'''[https://wiki.echoesofmorroc.com/Judge Judge]''' - Ranged DPS Class. Has burst damage with skills. High Mobility with Vault skill. Seals Management enables/boosts skills. Has access to variety of Revolvers made in [https://wiki.echoesofmorroc.com/Judge_Headquarters Judge HQ]
+
+'''[https://wiki.echoesofmorroc.com/Darkknight Dark Knight]''' - Melee/Magic DPS/Bruiser Class. Harvest Buff Removes Regen, but increases Skill damage based on missing health. Black Heart gives 100% leech chance with 10% amount.
+
+'''[https://wiki.echoesofmorroc.com/Peacekeeper Peacekeeper]''' - Melee/Ranged Class. Combo Style Character that has continious combo gameplay. Damage scaled on dex, and other stats while under crash trinket effect. Trinkets can grant unqiue effects from Stat Scaling/Buffs/Debuffs.
+
+'''[https://wiki.echoesofmorroc.com/Illusionist Illusionist]''' - Magic based Summoner class. Can summon Kimi to assist caster in combat. Uses Unqiue Gloves to change effect on Real Magic Attack. Grand Summoning can summon up to 5 monster to fight alongside Illusionist.
+
+'''[https://wiki.echoesofmorroc.com/Mimic Mimic]''' - 4fun Class. Can cast all 150 skills in the game depending on RNG with '''Abracadabra'''. Plagiarism can Save skill from other classes that he can use manually.
+
+= Getting Started =
+
+[[File:Ornstein.GIF|thumb|350px|Its Dangerous to go alone. Take this.]]
+
+Upon Chaning to your first Job. You will get "'''Weapon Voucher'''" that can be acquired from achievements tab, that can be exchanged for starting job weapon at Ornstein NPC located in backrooms on first floor. Choose weapon depending on what build you are going. it won't last for long time. Expert Jobs such as Judge and Peacekeeper receieves unique Accessory that gives +10% exp/ASPD +3/SP +10 until base level 30.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Now you will probably want to get some job levels. You can level in upper levels of Morroc Pyramids, if its too hard. you can always go back to basement until you level your damaging skills.
+
+After you get your basic skills. its time to finally start the journey to level 130. it won't be an easy road. But remember PRM is Marathon, not a sprint.
+
+'''Effective Exp from monsters counts by +/- 15 level range, but leveling spots will be listed with preferable player level and +5 of monsters level, Leveling spots will depend on your job/gear and stats, if its too hard, you can always level in easier spot or use reset fountain and spend points in stats that you missing: HP/SP/Damage/Cast Time and etc.'''.
+
+
+
+'''Leveling Spots:'''
+
+"'''Morroc Pyramid Basement'''": '''1 ~ 14'''. Starting leveling spot, you can easily get 10/10 or 15/10 for first job change.
+
+'''Items to get''': Lost Attire shadow Set - First Shadow set. Orphan Cloths set - gives increase exp. Orphan Runes - first orphan runes from first orphan coffer, gives stats like ATK/MATK/HP and SP. Familiar Card - 5 hp recover on physical damage.
+
+"'''Upper Morroc Pyramid'''": '''5 ~ 25'''. Minorous/Mummy. 
+
+'''Items to get''': Lost Tomb Ring - grants SP on kill great for early game resource management.
+
+"'''Payon Cave F1/F2/F3'''": '''10 ~ 28''' Skeleton Archer/Soldier. Sohee. Nine Tails. Fire Fox. 
+'''Items to get''': Scarlet set. Legacy of Arrows set for ranged classes. Bone weapons. Moonlight Dagger for Bolters.
+
+"'''Insect Society'''": '''10 ~ 20'''. Even tho this dungeon considered low level dungeon. It can be quite rippy for certain jobs and while having low hp and hard DEF. Go here mostly for items. 
+
+'''Items to get''': Insect Wings - Movement speed garment. Scaraba Tower - AutoGuard 10 shield with great defences. Quick Swarming shadow set for Variable cast reduction. Carapace Armor For melee classes. Dark Tights for ranged classes. '''Mother's nightmare ETC items for Insect society Scholar Accessory exchange'''.
+
+"'''Prontera culvert F2'''": '''14 ~ 34'''. Mega Thief Bug/Fulbuk. Good leveling spot especially if you have AoE.
+
+'''Items to get''': Running shoes - high base movement speed shoes, look for Move speed random option. Golden Buckler - good sheild with Regen.
+
+"'''Geffen Cave entrance map'''": '''20 ~ 35'''. Goblins. 
+
+'''Items to get''': Wooden Mail, Gives large HP bonus for max SP cost, great for Expert Jobs since their hp pool is low, if you can sustain SP.
+
+"'''Geffen Field 08'''": ''28 ~ 40''' Earth/Sky Petite and Wild Rose.
+
+"'''Geffen Cave'''": '''30 ~ 40''' F2-F3. All mobs. 
+
+'''Items to get''': Drainliar Card, Bloody Mage card in shield.
+
+"'''Orc Village'''": '''35 ~ 45'''. Orc Warrior/Orc Lady/Orc Baby. Good exp. dodge Axe Torando from Orc Warriors if you don't have high hp.
+
+"'''West Orc Village'''": '''39 ~ 50''' High Orc/Orc Archers. 
+
+You can also try to kill Orc Lord for Medic Manual X, which gives "Heal" lvl 10.
+
+"'''Orc Dungeon'''": '''40 ~ 50'''. Can be rippy if you don't have good hp. Aoe is welcome here. Great EXP if you can survive.
+
+= Second Job Change =
+
+Now you should have Base/Job level 50. And its time to change jobs, Expert Jobs can't change job further. '''Trickster''' and '''Vagabond''' need level 99/70 before changing to 2nd job.
+
+
+'''Thief Job change''':
+
+* [https://wiki.echoesofmorroc.com/Rogue Rogue] - Hybrid Class with multiple "build" skill tree, depending on skill tree chosen can be Melee Bruiser, Creator or Hunter type classes and also having shield mastery tree. Can further change jobs by getting specialization or Unchained evolution.
+
+* [https://wiki.echoesofmorroc.com/Assassin Assassin] - Hybrid Class with multiple "build" skill tree, depending on skill tree chosen utilize weapons used from Sword, Axe ,Katar and Shadow skill mastery. Can further change jobs by getting specialization or Unchained evolution.
+
+* [https://wiki.echoesofmorroc.com/Prowler Prowler] - Melee Dps class. Scales Flee and Perfect Dodge. Improves Backstab from thief skill kit. High Burst damage and evasion. Uses Unique Off-hand.
+
+* [https://wiki.echoesofmorroc.com/Shadowseer Shadowseer] - Pseudo Melee Magic class. Adds MATK as ATK. Uses Off-hand dagger that increases range(Class is still melee). Depends on Auto spell skil, bursting enemy with autocasting spells. High DPS and ASPD. Squishy.
+
+* [https://wiki.echoesofmorroc.com/Unchained_Evolutions Unchained Thief] - Super Novice of PRM. Unlocks core skills from both Rogue/Assassin classes. Can further '''Unchain''' by getting core skills of all Specialization classes.
+
+'''Raider Job change''':
+
+'''[https://wiki.echoesofmorroc.com/Dracomancer Dracomancer]''' - Bruiser/Off-tank Melee Class. By changing job gain access to using '''Draco Orb''' that grants effects via active skill buff for short duration scaling on Orb "Soul Level". Depeding on '''Draco Orb''' used gives effects by improving certain skill effect or giving more effects to them. Uses Dragon Force/Dragon Pact Stances to activate skills.
+
+= Journey Continues =
+
+After getting to base level 50 and maybe changing jobs. The grind continues. With newly acquired power the leveling will become easier.
+
+'''Leveling Spots''':
+
+'''Frontier Fields''': '''40 ~ 54'''. Can be quite hard place to level. but EXP is really high. 
+
+'''Umbala Jungle''': '''49 ~ 67'''.
+
+'''Items to get''': HD ores for refining. Wootan and shooter cards for Melee/Ranged/Magic classes.
+
+'''Faceworm Nest''': '''53 ~ 74'''. Best Leveling place in Level range, High EXP from every monster. Huge denstity. But can be hard to level without Having Perfect Hide that can be acquired from Vanish manual bought from Black Market NPC. All monsters have Poison element lvl 3/4, so neutral damage will be reduced by 25-50%. Good Option to use any element endow by casting thief "bolt" skill at lvl 10, Undead bullets for Judge, Use Trinket with endow for Peacekeeper.
+
+'''Items to get''': Venom Fang Shadow set for bonus dmg against Poison element. Forest Scream for some jobs that needs ASPD(great for shadowseer/Judge/Peacekeeper). 
+
+= Choosing Specialization =
+
+At this point you are probably at Job level 70 for Rogue/Assassin. and now you can choose Specialization.
+
+'''Rogue Specialization''':
+
+* [https://wiki.echoesofmorroc.com/Specializations#Mystic Mystic] - Enhances Spell casting playstyle. offering new damage skills and buffs that improves magical damage. Can change job to Arcane Master
+
+* [https://wiki.echoesofmorroc.com/Specializations#Duelist Duelist] - Enhances Melee Bruiser playstyle offering stance that gives counter charges and improves skills depending on amount of charges. Can change job to Kingslayer.
+
+* [https://wiki.echoesofmorroc.com/Specializations#Saboteur Saboteur] - Enhances Trap playstyle. Gives more explosion skills and traps. Has access to Potion pitcher that heals all allies in aoe. Can change job to Blast Juggler.
+
+* [https://wiki.echoesofmorroc.com/Specializations#Deadeye Deadeye] - Enhances Ranged Bow playstyle. Giving access to Sniper's nest which reduces movement speed but increased damage dealt and heavy finisher that deals massive single target damage in sniper's nest. Can change job to Sinner.
+
+'''Assassin Specialization''':
+
+* [https://wiki.echoesofmorroc.com/Specializations#Blade_Dancer Blade Dancer] - Master of Blades. Dual Wielding gameplay improvements. Can change job to Night Raven.
+
+* [https://wiki.echoesofmorroc.com/Specializations#Scoundrel Scoundrel] - Master of Poisons.
+Debuff and DoT gameplay. Uses poisons to debuff both caster and enemies around him. Can change jobs to Black Plague.
+
+* [https://wiki.echoesofmorroc.com/Specializations#Executioner Executioner] - Master of Katars. Combo playstyle. Chaining skills deals heavy damage. Can change to Gravekeeper
+
+* [https://wiki.echoesofmorroc.com/Specializations#Shinobi Shinobi] Master of Elements. has ability to change element of skills and weapon. Defensive/Offensive improved. Can change job to Satsujin.
+
+= Leveling? I Love it! =
+
+"'''Amatsu Fields'''": '''73 ~ 82'''. Stock on some Green potions for bleeding debuff. Evade Rolling Flames from Verpote, in 99% of times its a oneshot.
+
+'''Items to get''': Sashimi Wakizashi for AA classes. Karakasa Card for critical based classe.
+
+"'''Amatsu Dungeon F2'''": '''80 ~ 90'''. Second floor is quite small so every way you go, you will encounter monsters.
+
+* Antique Firelock Scathe applies bleeding and Ankle snare can be an issue for melee classes with no range options. 
+
+* Shinobi deal heavy damage with Claymore Trap and Shadow Slash, traps can be destroyed with any aoe skill. 
+
+* Tengu spam Critical strike and close confine, if being mobbed can be certain death. The 
+
+* Paper has Defender that it casts when going below 50% hp, so ranged damage will be reduced by alot.  
+
+* Silent Roning always casts Riposte in melee range, try to bait it out since duration of riposte is quite short. 
+
+'''Items to Get''': Bushido Shadow Set for Critical Strike chance. Crescent Helm - gives bonuses when base stat is at 99. Muramasa for Sword users. Masamune for Ronin.
+
+"'''Rachel Sanctuary F1'''": '''90 ~ 108'''. Good finishing place to get lvl 99/70. Vanberks Spam Sonic blow and can stun, Martin card can be used for stun immune. Isilla casts ruwach and sometimes silences. Hodremlin is a dog.
+
+"'''Sky Garden dungeon'''": '''95 ~ 110''' . Hard dungeon with great rewards at the end.
+
+'''Items to get''': First/Last Einherjar shadow set. Odin blessing exchange items. Avatar of Sleipnir card in shoes for movement speed. Avatar of Idun card for HP/SP and Regen in middle headgear slot. for more info check out [https://wiki.echoesofmorroc.com/Einherjar_Equipment Sky Garden Exchange]
+
+= Final job change? =
+
+Finally after getting 99/70. its time to change to final job. It was long road. but alot more is ahead.
+
+Its time to unlock full power of specializations, become one with yourself, swear your loyality to Lady Hel in underworld, or Unchain your full potential.
+
+'''Specialization Evolution''':
+
+'''Rogue Specializations''':
+
+* [https://wiki.echoesofmorroc.com/Arcanemaster Arcane Master] - Unrestricted magic. Gain access to variety of AoE spells and heavy hitting finisher. Tree of Yggdrasil that can revive fallen allies. Comet that Decreases elemental resistances of monster and more.
+
+* [https://wiki.echoesofmorroc.com/Kingslayer Kingslayer] - Master of Strategy. Chess style character that has Queen's[Mostly Black] and King's skills[Mostly White]. Improves damage with "'''Left'''" Skill tree, offering more damaging skills. Improves Defences with "'''Right'''" Skill tree, offering defensive buffs and effects. Can use Heavy Finisher that uses total SP by adding spent SP into % ATK.
+
+* [https://wiki.echoesofmorroc.com/Blast_Juggler Blast Juggler] - Rules? Explosions are only option. Great AoE and Sustain. Gain more Trap skills and explosions. increases potion effectivnes. And cooked food for caster and allies.
+
+* [https://wiki.echoesofmorroc.com/Sinner Sinner] - Repent through cleansing. Further improves ranged playstyle. Offering multiple skills to be used in different builds. from AA/Summon turret/Manual Casting. Great AoE and Mobility/Evasion with decoy.
+
+'''Assassin Specializations''':
+
+* [https://wiki.echoesofmorroc.com/Night_Raven Night Raven] - Master of Weapons. Can wield any Assassin's weapons such as Daggers/Swords/Axe/Katar. Grants Hawk that can be autocasted with physical attacks while weilding Sword and dagger. High Single target potential. Great mobility with "Raven Step".
+
+* [https://wiki.echoesofmorroc.com/Black_Plague Black Plague] - Unseen death from inside. Improves Poison used and offers more Poisons to infect target with. Boost skills when using poisons or target being affected by poison. Great AoE and Defences, Lots of Debuff ailments.
+
+* [https://wiki.echoesofmorroc.com/Gravekeeper Gravekeeper] - Loki's Legacy. High crit damage potential. burst combo skills with heavy damage. Buffs that increases damage output. No defensive options.
+
+* [https://wiki.echoesofmorroc.com/Satsujin Satsujin] - Jack of all trades. Gain access to Melee/Magic/Ranged skill trees. depending on playstyle can change flow of combat.
+
+'''Trickster Job change''':
+
+* [https://wiki.echoesofmorroc.com/Revenant Revenant] - Lady's Hel loyal subject. Gains Revenant spirit as Lady's Hel reward who follows the player and stuns monsters, or can be exchanged to unqiue card. Offers heavy hitting skills with counter mechanic. High Leech rate/power. Good AoE. 
+
+'''Vagabond Job change''':
+
+* [https://wiki.echoesofmorroc.com/Legend Legend] - Become the Legend. Dominate battlefield with overwhelming power. High AA potential. Grants even more passives and buffs that increases Damage potential.
+
+'''Unchained Job change''':
+
+* [https://wiki.echoesofmorroc.com/Unchained_Evolutions Unchained Thief/Rogue] - Master of Change/Traditions. Increased maximum level of certain skills. Gains unique Scarf and accessory that improves some skill effect.
+
+* [https://wiki.echoesofmorroc.com/Unchained_Evolutions Phantom Thief] - Infinite Possibilites. Gain access to most of the specializations skills. Can use every other class exclusive shadow sets.
+
+= What the Orb? =
+
+After you acquired lvl 100, and changed to final job, now is the time to start exploring [https://wiki.echoesofmorroc.com/Distortion_Dungeons "Distortion Dungeons"]. A unique dungeons ,that offers more items to farm, with slight difficulty increase, depending on distortion of course, it can vary from debuffing/buffing player and monsters while in dungeon, enables free pvp for every player inside, draining full exp on death or just disabling ressurection.
+
+To enter such dungeons player would need [[File:Bifrostshard.gif|25px]][https://wiki.echoesofmorroc.com/Bifrost_Mirror "Bifrost Mirror"], following the guide will help you find both Bifrost shard, and 4 eyes of the sons of Odin. Each socketed eye allows traveling in time, be it either past, future, or completly new timeline.
+
+ I hope you saved alot of zeny for Sage's service.
+
+* '''Socketing all 4 eyes into the bifrost shard, gives access to distortion dungeon for whole account, you only need to finish bifrost mirror once.'''
+
+* '''Don't rush by socketing all the eyes. get first 2 eyes for 100-120 level Distortions, socket missing eyes once you have spare zeny or need Distortion entry.'''
+
+= It's so over =
+
+After level 100, game becomes slightly harder, you will start having issues in certain dungeons, and on certain jobs, but its not a reason to stop.
+
+Now is good time to get more powerful gear, and start refining, slotting cards, looking for costumes = the cooler you look, the more damage you deal, and that's facts.
+
+'''Refines''':
+
+Refining gear to +6 is safe option, since Ores that 1 level higher than needed doesn't downgrade item. you can use basic Oridecon/Elunium for refines from 0 ~ 3. then use Enriched Oridecon/Elunium for safe refines from 3 ~ 6 for important pieces. And use HD for not important stuff.
+
+'''Get important Manuals such as''':
+
+* Medic Manual X - Grants "Heal" level 10.
+
+* Agility Manual X - Grants "Increase Agi" level 10.
+
+* Life Manual - Grants "Ressurection" level 1. good even if you play alone, you could save some orphans in a dire situation.
+
+* Portal Manual - Grants "Warp Portal" level 2. Could be used for saving important warps such as farming spots.
+
+* Teleport Manual - Grants "Teleport" level 2. QoL item to skip some unwanted maps.
+
+'''Get cards for your class''':
+
+'''Easy to get Defensive cards:'''
+
+{| class="wikitable mw-collapsible mw-collapsed" style="font-weight:bold; width: 100%;"
+|-
+| style="background-color:#99d9ea; width: 25%""| Name
+| style="background-color:#99d9ea; width: 50%""| Effect
+| style="background-color:#99d9ea; width: 25%""| Slot
+|-
+| Minorous Card
+| HP +20%. SP - 15%
+| Body Armor
+|-
+| Blackguard Knight card
+| HP + 800. SP - 15%
+| Body Armor
+|-
+| North Scavenger card
+| IF base VIT < 50 : HP + 10%
+
+IF base VIT > 49 : HP - 10%
+| Upper Headgear
+|-
+| Blood Mage card
+| 5% Chance to cast "Vampire Gift" level 1 when being hit with short ranged attack.
+| Shield
+|-
+| Alarm Card
+| Per Refine: HP + 75.
+| Garment
+|-
+| Green Ferus Card
+| HP + 7%
+| Garment
+|-
+| Alice Card
+| All Size Resistance + 6%
+| Armor
+|-
+| Anubis Card
+| HP + 25%. Healing Received - 50%
+| Shield
+|}
+
+'''Easy to get Resource Management cards''':
+
+{| class="wikitable mw-collapsible mw-collapsed" style="font-weight:bold; width: 100%;"
+|-
+| style="background-color:#99d9ea; width: 25%""| Name
+| style="background-color:#99d9ea; width: 50%""| Effect
+| style="background-color:#99d9ea; width: 25%""| Slot
+|-
+| Avatar of Idun
+| HP/SP + 1%. HP/SP Regen + 50%
+| Middle Headgear
+|-
+| Frus Card
+| HP + 3%. HP regen + 20%
+
+Set bonus with Skogul card: ATK/MATK + 1%
+| Accsessory
+|-
+| Skogul Card
+| SP + 3%. SP regen + 20%
+
+Set bonus with Frus card: ATK/MATK + 1%
+| Acsessory
+|-
+| Old Cookie Card
+| HP Regen + 50%
+| Acssessory
+|-
+| Bongun
+| HP + 50. HP regen + 25%
+
+Set bonus with Munak: Double Cards effect
+| Garment and shoes
+|-
+| Munak
+| SP + 10. SP regen + 25%
+
+Set bonus with Bongun: Double Cards effect
+| Garment and Shoes
+|-
+| Familiar card
+| Drains 5 hp with physical attacks.
+| Weapon
+|-
+| Drainliar card
+| Drains 10 hp with physical attacks.
+| Acsessory
+|}
+
+
+'''Easy to get Damage cards''':
+
+{| class="wikitable mw-collapsible mw-collapsed" style="font-weight:bold; width: 100%;"
+|-
+| style="background-color:#99d9ea; width: 25%""| Name
+| style="background-color:#99d9ea; width: 50%""| Effect
+| style="background-color:#99d9ea; width: 25%""| Slot
+|-
+| Khalitzburg Card
+| All size Damage + 6%
+| Weapon
+|-
+| Skeleton Archer card
+| Absolution damage + 7%
+
+ Judge card
+| Weapon
+|-
+| Fire/Wind/Water Papila
+| Increase skill damage by 10% for: Flaming Petals/Freezing Spear/Wind Blade
+| Weapon
+|-
+| Skeleton Soldier Card
+| Critical Rate + 10
+| Weapon
+|-
+| The Paper Card
+| Critical Damage + 15%. Critical Rate + 3. SP - 20%
+| Weapon
+|-
+| Wolf Card
+| STR + 2. Defence Pierce + 1%
+| Acssessory
+|-
+| Dragon Tail Card
+| AGI + 2. ASPD + 2%
+| Acssessory
+|-
+| Greatest General Card
+| DEXD + 2. Ranged Damage + 1%
+| Acssessory
+|-
+| Wootan Shooter
+| Ranged Damage + 2%
+| Acssessory
+|-
+| Wootan Fighter
+| Melee Damage + 2%
+| Acssessory
+|-
+| Stone Shooter
+| MATK + 2%
+| Acssessory
+|}
+
+= We're So Back! =
+
+After achieving level 100, you will spend most of the time getting new and better gear,refining, trying out builds, exploring various locations, and getting jobs for new class skills.
+
+Most of the dungeons will increase in difficulty, meaning without upgrades it will be now tough to level.
+
+'''Leveling Spots''':
+
+'''Nameless Island''': '''95 ~ 105'''. Good place to level early on after getting lvl 100. 
+
+'''Items to get''': Job runes from "lost rune coffer". Manuals from banshee. Mob cards for for lower headgear. Invoker's Ring from BIshop MVP.
+
+'''Verus Fields''': '''100 ~ 110'''. Monsters here doesn't give Base level EXP. but they give Huge amounts of Job EXP. if you are missing on some skill points. its great place to grind for Job levels without changing spots, since monsters doesn't give Base level EXP.
+
+'''Items to get''': Excellion set.
+
+''Old Glast Heim Distortion''': '''105 ~ 115". Monsters deal massive amounts of damage. Spectre Raydrics have ghost 4 so neutral attacks aren't effective.
+
+Spectre Raydric warrior: Casts Rook's smash that deals massive damage and knockbacks player.
+
+Spectre Raydric archer: Casts Violent Shot if player is near them, knocking them away and having chance to stun, evade if you don't have stun immunity.
+
+Khalitzburg Knight: Casts King's gambit ( land protector) that blocks any AoE skills, Also casts King's chain that deals huge damage.
+
+White Knight: Queen's Gambit is to be evaded at all costs, it deals hybrid physical/magical damage that will oneshot most of the jobs if you get hit. Also Casts Face-Off with high cast time.
+
+'''Items to get''': Temporal stat boots. 2nd coffers. Khalitzburg/White Knight armors for Holy/Dark armor endow.
+
+'''Invaded Prontera Distortion''': '''100 ~ 112'''. Monsters here are all undead element. some of them deal heavy damage with skills, so use hiding to evade them.
+
+'''Items to get''': 2nd Shadow Coffers. Zombie Guard card for expert jobs, or high job classes [>/= 70].  
+
+'''Nifflheim Opera House''': '''105 ~ 118'''. Best EXP leveling spot for level. mobs can be annoying with amounts of debuffs that they can apply.
+
+Night Ruri: Casts Frozen mist skill that deals high amounts of damage and slows ASPD/Move speed.
+
+Gae Ceann: Deals heavy neutral damage with skills, casts AoE curse.
+
+Scream: Goes invisible. casts Horroc Scream that adds flat cast time increase to ALL SKILLS.  
+
+Opera Jitterbug: Boss protocol monster. Casts Heavy Metal/Revebration skills that deal medium neutral damage to single player in AoE. Casts Illusion of Moonlight that deals damage on HP recovery(Only healing skills and Natural hp regen applies to it. leeching aren't affected)
+
+Voices of Sorrow: Boss protocol monster. Has Massive amounts of HP. Her skills deal massive amounts of damage with long casting time, evade them at all costs. Has Wide screen Confusion Debuff, use pots or you may get into her casting range.
+
+'''Items to get''': 3rd Shadow Coffers. Golden/Silver Moon accessory. Vanish Manual X.
+
+'''Horror Toy Factory Distortion''': '''109 ~ 120'''. Hard distortion if you aren't prepared. Monsters are passive until hit or you get close to them, also they cast Kaupe( "x" amount evade from physical attacks) when in passive mode, so slow hard hitting classes will have bad time here.
+
+'''Items to get''': 2nd Shadow Coffers. Carrot/Donut in mouth for non-thief based classes. Jewel shadowdecon and Deviling card from Deviling miniboss, if you wish to farm him. Illusionist items from Kimi and some monsters from Distortion.
+
+'''Varmundt's Mansion''': '''119 ~ 128'''. Best EXP place on-level. Alot of monsters spams medium damaging skills.
+
+Maiden of Past: Casts Extreme Vortex that roots anyone who steps in cast range. Gungnir flight skill ignores this skill.
+
+Maiden of Present: Spams Critical Hit skill dealing medium amounts of damage. Casts Zephyr Gust dealing high amounts of damage.
+
+Maiden of Future: Spams Wide Screen Freeze and Storm Gust. While player in Freeze casts Tetravortex-Wind dealing average amounts of damage, sropho can be used for freeze immunity.
+
+Gentleman: Casts Counter Blade that deals massive amounts of neutral physical damage.
+
+Cavalier: Casts Roaring overslash and Thunderstorm that deals high damage.
+
+Lost Codex: Spams Meteor Storm that can stunlock if you get caught, and Sky prophecy that doubles next damage taken from next hit.
+
+Lost Traveler: High HP monster. Casts Wide screen Stun. Uses Max Pain while below 50% HP.
+
+Navigator: Boss protocol monster. Casts dragon omamori skill that explodes if being hit again.
+
+'''Items to get''': 3rd shadow coffers. Paradox Set, or pieces of it, has 2 slots and random skill enchant. Hugin and Munin combo for AA NR builds. Portal Manual Z/Life Manual X/Noble Manual[for high Luk based characters].
+
+'''Death Castle''': '''124 ~ 140'''. Hard Endgame dungeon. Monsters deal massive amounts of damage. casts annoying debuffs and CC skills. Level here with caution, investments are needed.
+
+Death Ruri: Goes invisible and dealing damage around herself. If close she casts Million Stabs, that deals massive amounts of damage, with hp below 12k its a oneshot. Spams Death Cloud that deals DoT damage in AoE.
+
+Hunting Guise: Ghost element monster, neutral damage will be halved. Spams Critical strike skill that deals medium amounts of damage, but can stack if not killed fast.
+
+Guillotine: Casts Rupture Axe that can stun, while also casting Horror Scream when below 50% hp.
+
+Greater Shadow: Boss protocol Monster. Casts Severe rainstorm that deals massive amounts of DoT damage. Casts Cursed Circle - Control type skill that stuns all targets in AoE. can't removed, evade at all costs. While Below 50% hp casts Suicide Bombing on nearest player, if you get caught in CC that's sure death, suicide bombing can be evaded only with perfect hiding, going behind wall or breaking line of sight doesn't cancel skill.
+
+'''Items to Get''': 3rd Shadow Coffers. Piercing Veil set and Spellslinger Ring for casters. Jewel Elunium from Greater shadow. Death Ward shield from greater shadow, no refined neeed if you aren't planning on only tanking.
+
+'''Regenshutz Lab''': '''127 ~ 135'''. Very hard dungeon, if you don't have endow and large amounts of AoE damage. Rekenber core spawns 5 biolab monsters that can kill in you in seconds, while also having ghost 4 as element, '''Weapon endow is a must here'''.
+
+Rekenber Core: easiest monster in the dungeon, by itself its not a danger. Spawns 5 monsters that has various abilites.
+
+Remade Adventureres: Has Variety of skills that deal massive amounts of damage.
+
+'''Items to Get''': 4th shadow coffers, if you have good AoE - best place to farm 4th coffers. Rekenber Core Card, good mid headgear card that works for every job in the game.
+
+
+= Is this the End? =
+
+
+After getting level 124 stat gained are heavily decreased, once you achieve Level 130 it is known as "Soft-Cap" meaning after this point no new gear will appear, its not required to level past this point. You still can level up up to level 150, after level 130 exp needed to level up are increased massively, fewer places to level, every death will remove 5% exp which can delete hours of leveling on higher levels.
+
+level 150 or "Hard Cap", in itself is a challenge, after 145 level you won't gain any more stat points.
+
+
+'''What to do now?'''. Now it depends on you how to taste the End-Game, will you try to conquer harderst dungeons in the game? Explore world for hidden quests? Grind for your character upgrades, to be the best one on the server? Create new classes to explore New-Midgard again from different perspective, Leave and wait for new content to come, or just sit in Orphanage and talk with other people.

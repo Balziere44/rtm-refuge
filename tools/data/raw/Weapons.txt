@@ -1,0 +1,3885 @@
+('''[[NPC Equipment|Check here]]''') and their +1 slot equivalent that can be droped from field monsters.<br />
+This page lists other weapons that can be obtained from dungeons.
+
+== <span id="Weapons_lists" class="mw-headline">Weapons lists</span> ==
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+ [[File:KnifeIcon.gif|24x24px|KnifeIcon.gif]] Special Daggers from dungeons.
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;" | Req.<br />
+Lv
+! style="background: #99d9ea;" | ATK
+! style="background: #99d9ea;" | MATK
+! style="background: #99d9ea;" | Weap.<br />
+Lv
+! style="background: #99d9ea;" | Effects
+! style="background: #99d9ea;" | Innate Bonus
+! style="background: #99d9ea;" | Obtained From
+|-
+| '''Jormungandr's Promise [4]'''
+| 0
+| 15
+| 15
+| 4
+| Per refine:<br />
+All Stats +1<br />
+HP+1%<br />
+SP+1%<br />
+EXP +5%
+| Double Attack Lv. Refine
+| Jormungandr's Lair
+|-
+| '''Toy Knife [0]'''
+| 1
+| 5
+| 5
+| 1
+| No Special Properties.(?)<br />
+| Double Attack Lv. 7
+| Tutorial
+|-
+| '''Dagger of the Orphan [0]'''
+| 1
+| 7
+| 7
+| 1
+| Cannot be Refined<br />
+EXP Received +10%<br />
+SP Regen+20%
+| Double Attack Lv. 5
+| Orphan Voucher
+|-
+| '''Moonlight Dagger [3]'''
+| 10
+| 7
+| 23
+| 2
+| Flaming Petals DMG +14%<br />
+Freezing Spear DMG +14%<br />
+Wind Blade DMG +14%<br />
+Recover 2 SP per hit
+| Double Attack Lv. 2
+| Payon Cave
+|-
+| '''Thievery Dagger [2]'''
+| 10
+| 10
+| 5
+| 1
+| Drop Rate +6%
+| Double Attack Lv. 9
+| Thief Quest Optional
+|-
+| '''Weihna [1]'''
+| 10
+| 13
+| 10
+| 3
+| Envenom DMG+25%<br />
+SP+5%<br />
+STR+1
+| Double Attack Lv. 3
+| Upper Pyramid
+|-
+| '''Bone Dagger [2]'''
+| 10
+| 15
+| 5
+| 2
+| Backstab DMG +15%<br />
+Backstab SP Cost -25%<br />
+| Double Attack Lv. 7
+| Payon Cave
+|-
+| '''Black Wing [3]'''
+| 15
+| 3
+| 17
+| 1
+| 50% chance that Flaming Petals Freezing Spear and Wind Blade autocasts Unholy Light<br />
+| Double Attack Lv. 1
+| Prontera Culvert
+|-
+| '''Lightning Vortex [2]'''
+| 15
+| 14
+| 0
+| 2
+| Wind Dagger<br />
+ASPD +2<br />
+Move Speed +7%
+| Double Attack Lv. 10
+| Insect Nest
+|-
+| '''Lost Dagger [2]'''
+| 15
+| 14
+| 9
+| 4
+| Move Speed +10%<br />
+Backstab DMG +15%<br />
+Backstab DMG +1% per Refine<br />
++Extra 1 ATK per Refine<br />
+| Double Attack Lv. 2
+| Pyramid Basement - MVP
+|-
+| '''The Dagger [2]'''
+| 15
+| 17
+| 13
+| 2
+| Backstab Damage +15%<br />
+Cast Time -12%<br />
+Cloak and Dagger Set:<br />
+Dagger and Garment<br />
+'''[Set Bonus]'''<br />
+Backstab Cooldown -0.5s<br />
+After Cast Delay -10%
+| Double Attack Lv. 4
+| [[Geffen Cave]]
+|-
+| '''Fortune Sword [1]'''
+| 25
+| 7
+| 5
+| 4
+| LUK +5<br />
+Perfect Dodge +12<br />
+Phreeoni Set:<br />
+Weapon and Card<br />
+'''[Set Bonus]'''<br />
+Perfect Dodge +3
+| Double Attack Lv. 1
+| Phreeoni
+|-
+| '''Desert Sandstorm [3]'''
+| 30
+| 5
+| 0
+| 2
+| DEX+4<br />
+Hit+5<br />
+DMG vs Large Size +5%<br />
+Desert Daggers Set:<br />
+Twilight and Sandstorm<br />
+'''[Set Bonus]'''<br />
+Double Attack Lv10<br />
+ASPD+5<br />
+DMG vs Medium Size +5%<br />
+Set Refine Total over +10:<br />
+Ignore Size Penalty
+| Double Attack Lv. 1
+| Sphinx
+|-
+| '''Desert Twilight [2]'''
+| 30
+| 19
+| 0
+| 3
+| AGI+4<br />
+Flee+5<br />
+DMG vs Small Size +5%<br />
+Desert Daggers Set:<br />
+Twilight and Sandstorm<br />
+'''[Set Bonus]'''<br />
+Double Attack Lv10<br />
+ASPD+5<br />
+DMG vs Medium Size +5%<br />
+Set Refine Total over +10:<br />
+Ignore Size Penalty
+| Double Attack Lv. 7
+| Sphinx
+|-
+| '''Pocket Dagger [2]'''
+| 35
+| 18
+| 0
+| 1
+| ATK+5%
+| Double Attack Lv. 4
+| Coal Mines
+|-
+| '''Dagger of Hunters [1]'''
+| 35
+| 23
+| 0
+| 4
+| 50% chance to Backstab when using Wind Slash<br />
+Wind Slash DMG+10%
+| Double Attack Lv. 7
+| Byalan Island
+|-
+| '''Master Dagger [1]'''
+| 40
+| 10
+| 10
+| 4
+| Per Level of Blade Mastery:<br />
+ATK+1%<br />
+MATK+1%<br />
+ASPD+1%<br />
+AGI+1
+| Double Attack Lv. 10
+| Noble Bathhouse
+|-
+| '''Obsidian Dagger [2]'''
+| 45
+| 10
+| 25
+| 2
+| 10% chance to autocast Fireball Lv7 when attacking.<br />
+INT+1
+| Double Attack Lv. 5
+| Magma Dungeon
+|-
+| '''Lust Pick [1]'''
+| 50
+| 3
+| 3
+| 1
+| 5% chance when damaging enemy to deal extra 1% max HP of target as direct damage<br />
+SP-50%
+| Double Attack Lv. 1
+| Einbroch Mines
+|-
+| '''Echo Dagger [0]'''
+| 50
+| 5
+| 5
+| 1
+| Attack Range +4
+| Double Attack Lv. 1
+| Airship Crash Site
+|-
+| '''Zeny Knife [3]'''
+| 50
+| 5
+| 5
+| 1
+| LUK +7<br />
+Zeny Limit on Kill +2/Refine
+| Double Attack Lv. 1
+| Toy Factory
+|-
+| '''Keris [3]'''
+| 50
+| 10
+| 0
+| 3
+| Per Refine:<br />
+Recover 7 HP on auto attacks<br />
+ASPD+1<br />
+SP-5%
+| Double Attack Lv. 8
+| Turtle Dungeon
+|-
+| '''Assassin Dagger [2]'''
+| 50
+| 15
+| 0
+| 1
+| ASPD+3<br />
+Critical Rate Total +10%<br />
+After Cast Delay -20%
+| Double Attack Lv. 10
+| Loki's Palace
+|-
+| '''Krieg [3]'''
+| 50
+| 15
+| 0
+| 2
+| Backstab DMG+50%<br />
+Backstab Cooldown +5s
+| Double Attack Lv. 7
+| Regeschrim Laboratory
+|-
+| '''Faceworm Leg [3]'''
+| 60
+| 10
+| 10
+| 2
+| Poison Dagger<br />
+Ignores Reflect damage for physical attacks<br />
+Faceworm Legs Set:<br />
+Common and Queen<br />
+'''[Set Bonus]'''<br />
+INT+5<br />
+Armor is Poison Element<br />
+DMG vs Neutral +10%<br />
+Poison Magic DMG +10%
+| Double Attack Lv. 4
+| Faceworm Nest
+|-
+| '''Senbonzakura [3]'''
+| 60
+| 18
+| 5
+| 2
+| Thousand Arms DMG+10%<br />
+Burst Petals DMG+10%<br />
+Thousand Arms has 20% chance to activate Burst Petals<br />
+SP-20%
+| Double Attack Lv. 4
+| Ayothaya Temple
+|-
+| '''Blue Valentine [2]'''
+| 60
+| 20
+| 10
+| 4
+| Haze Slasher autocasts Shadowstab<br />
+Shadowstab DMG+4% per refine<br />
+Southern Cross DMG+4% per refine
+| Double Attack Lv. 4
+| Waterfall Caves
+|-
+| '''Faceworm Queen Leg [2]'''
+| 60
+| 25
+| 25
+| 4
+| Poison Dagger<br />
+Ignores Size Penalty<br />
+Faceworm Legs Set:<br />
+Common and Queen<br />
+'''[Set Bonus]'''<br />
+INT+5<br />
+Armor is Poison Element<br />
+DMG vs Neutral +10%<br />
+Poison Magic DMG +10%
+| Double Attack Lv. 5
+| Faceworm Nest
+|-
+| '''Skeleton Knife [3]'''
+| 60
+| 40
+| 0
+| 1
+| SP Cost-10%
+| Double Attack Lv. 4
+| Nightmare Clock Tower
+|-
+| '''Juperos Dagger [3]'''
+| 65
+| 20
+| 20
+| 1
+| HP/SP+1%
+| Double Attack Lv. 5
+| Juperos
+|-
+| '''Cursed Mark [2]'''
+| 70
+| 5
+| 35
+| 3
+| MATK+5%<br />
+Magic Defense Pierce +5%<br />
+INT+1<br />
+If Refine is +7:<br />
+Cast can't be interrupted.
+| Double Attack Lv. 1
+| Glast Heim – Church
+|-
+| '''Rusty Nail [3]'''
+| 70
+| 12
+| 12
+| 3
+| 10% chance to apply blind poison and bleeding with attacks.<br />
+INT+4<br />
+HIT-20<br />
+| Double Attack Lv. 6
+| Malaya
+|-
+| '''Morroc's Nail [2]'''
+| 70
+| 25
+| 10
+| 4
+| Enable Perfect Hiding.<br />
+Cloaking Cooldown -10s<br />
+Perfect Hit Rate +10%<br />
+ASPD+2
+| Double Attack Lv. 8
+| Morroc Destruction
+|-
+| '''Scalpel [0]'''
+| 70
+| 30
+| 0
+| 4
+| ATK+3%<br />
+Hit+10<br />
+| Double Attack Lv. 10
+| Malaya
+|-
+| '''Monokage [2]'''
+| 75
+| 1
+| 25
+| 1
+| INT+5<br />
+Every 10 base INT:<br />
+ASPD+1%<br />
+If Base INT is 99:<br />
+ASPD+3
+| Double Attack Lv. 8
+| Amatsu Dungeon
+|-
+| '''Seifu [4]'''
+| 75
+| 8
+| 0
+| 2
+| Shadow Slash SP Cost -50%<br />
+Critical Rate +5<br />
+East and West Set:<br />
+Kochi and Seifu<br />
+'''[Set Bonus]'''<br />
+Shadow Slash Cooldown -1s<br />
+Weapon Attack Power +10%
+| Double Attack Lv. 1
+| Amatsu Dungeon
+|-
+| '''Forest Ritual Knife [2]'''
+| 75
+| 10
+| 15
+| 3
+| Spectral Servants DMG +15%<br />
+INT+1 per refine<br />
+ASPD+1% per refine
+| Double Attack Lv. 10
+| Geffenia
+|-
+| '''Blood Drinker [2]'''
+| 75
+| 15
+| 3
+| 4
+| 7% to drain 2% damage done as HP.<br />
+5% to drain 1% damage done as SP.
+| Double Attack Lv. 4
+| Alchemist Fortress
+|-
+| '''Kochi [1]'''
+| 75
+| 20
+| 0
+| 2
+| Shadow Slash DMG+20%Critical Damage +5%<br />
+East and West Set:<br />
+Kochi and Seifu<br />
+'''[Set Bonus]'''<br />
+Shadow Slash Cooldown -1s<br />
+Weapon Attack Power +10%
+| Double Attack Lv. 5
+| Amatsu Dungeon
+|-
+| '''Neverbow [2]'''
+| 75
+| 32
+| 8
+| 4
+| Flying Knife Cooldown -1s<br />
+Shadowstab DMG+10%<br />
+After Cast Delay -15%
+| Double Attack Lv. 2
+| Geffenia
+|-
+| '''Ruby Scorpion [2]'''
+| 80
+| 15
+| 25
+| 3
+| When using Backstab 25% chance to autocast Envenom Lv3 automatically. Higher level used if known.<br />
+Scorpion Daggers Set:<br />
+Emerald and Ruby<br />
+'''[Set Bonus]'''<br />
+ATK+15<br />
+MATK+15
+| Double Attack Lv. 3
+| Crystal Caves Dagger
+|-
+| '''Grace Dagger [3]'''
+| 80
+| 12
+| 12
+| 3
+| Every 10 INT : ATK+1%<br />
+Every 10 STR: MATK+1%
+| Double Attack Lv. 5
+| Abyss Lake
+|-
+| '''Eternal Zero Dagger [3]'''
+| 80
+| 15
+| 15
+| 4
+| 10% Freeze chance on hit<br />
+ASPD+10%
+| Double Attack Lv. 10
+| [[Dicastes Diel Exchange]]
+|-
+| '''Counter Dirk [1]'''
+| 80
+| 17
+| 0
+| 3
+| Counter Slash DMG +25%<br />
+After Cast Delay -20%<br />
+DEF-25%<br />
+| Double Attack Lv. 1
+| Geffenia Antitower
+|-
+| '''Murder Knife [3]'''
+| 80
+| 21
+| 0
+| 3
+| Defense Pierce +10%<br />
+Extra 1 % per refine<br />
+Critical Damage +10%<br />
+Extra 1% per refine
+| Double Attack Lv. 7
+| Rachel Sanctuary
+|-
+| '''Emerald Scorpion [2]'''
+| 80
+| 25
+| 15
+| 3
+| When using Envenom 25% chance to autocast Backstab Lv3 automatically. Higher level used if known.<br />
+Scorpion Daggers Set:<br />
+Emerald and Ruby<br />
+'''[Set Bonus]'''<br />
+ATK+15<br />
+MATK+15
+| Double Attack Lv. 3
+| Crystal Caves Dagger
+|-
+| '''Royal Nightmares [1]'''
+| 90
+| 10
+| 25
+| 4
+| Thousand Arms receives 2% additional scaling on INT<br />
+Twin Kings Set:<br />
+Nightmares and Dreams<br />
+'''[Set Bonus]'''<br />
+Thousand Arms autocasts Meteor Assault at 50% chance<br />
+Soul Destroyer autocasts Shadow Slash at 50% chance
+| Double Attack Lv. 3
+| Glast Heim
+|-
+| '''Royal Dreams [1]'''
+| 90
+| 25
+| 10
+| 4
+| Soul Destroyer receives 2% additional scaling on AGI<br />
+Twin Kings Set:<br />
+Nightmares and Dreams<br />
+'''[Set Bonus]'''<br />
+Thousand Arms autocasts Meteor Assault at 50% chance<br />
+Soul Destroyer autocasts Shadow Slash at 50% chance
+| Double Attack Lv. 10
+| Glast Heim
+|-
+| '''Apex Knife [3]'''
+| 90
+| 25
+| 25
+| 1
+| ATK +1 per refine<br />
+MATK +1 per refine<br />
+STR+3<br />
+INT+3<br />
+| Double Attack Lv. 9
+| Kiel Hyre University
+|-
+| '''First Dagger of Sins [1]'''
+| 90
+| 25
+| 0
+| 4
+| Definitive Dagger DMG +25%<br />
+Sin Daggers:<br />
+First and Second<br />
+'''[Set Bonus]'''<br />
+Definitive Dagger Cooldown -0.5s<br />
+AGI+3
+| Double Attack Lv. 2
+| Old Glast Heim
+|-
+| '''Green Dagger [1]'''
+| 95
+| 10
+| 25
+| 3
+| Zephyr Gust SP Cost-20%<br />
+Zephyr Gust DMG+3% per refine<br />
+Wind Magic DMG+1% per refine<br />
+| Double Attack Lv. 3
+| Morroc Castle
+|-
+| '''Tide Caller [2]'''
+| 100
+| 10
+| 25
+| 3
+| Frozen Wind DMG+25%<br />
+Frozen Wind SP Cost-25%<br />
+Water Magic DMG+2% per refine<br />
+| Double Attack Lv. 2
+| [[Ancient Temple]]
+|-
+| '''Second Dagger of Sins [4]'''
+| 100
+| 10
+| 0
+| 1
+| Definitive Dagger SP Cost -25%<br />
+Sin Daggers:<br />
+First and Second<br />
+'''[Set Bonus]'''<br />
+Definitive Dagger Cooldown -0.5s<br />
+AGI+3
+| Double Attack Lv. 2
+| Abyss Glast Heim
+|-
+| '''Laevateinn [1]'''
+| 100
+| 35
+| 35
+| 4
+| ATK +10%<br />
+MATK +10%<br />
+SP Consumption -3% per refine.
+| Double Attack Lv. 10
+| Sky Garden Exchange
+|-
+| '''Exorciser [2]'''
+| 105
+| 21
+| 21
+| 4
+| DMG vs Dark +35%<br />
+Healing Received -25%
+| Double Attack Lv. 3
+| Opera House
+|-
+| '''Battery Charger [4]'''
+| 110
+| 10
+| 10
+| 1
+| Backstab autospells Lightning Bolt Lv7<br />
+Wind Magic DMG+10%<br />
+Backstab Cooldown +1s<br />
+| Double Attack Lv. 2
+| Ancient Verus Lab
+|-
+| '''Holy Dagger [2]'''
+| 110
+| 20
+| 20
+| 4
+| Holy Dagger<br />
+DEX+1 per refine<br />
+Whirling Kunai DMG+3% per refine<br />
+New Moon Blades DMG+3% per refine<br />
+| Double Attack Lv. 5
+| Odin Temple Past
+|-
+| '''Ogretooth [1]'''
+| 110
+| 10
+| 10
+| 4
+| ASPD Limit +2<br />
+Permanent Endure Effect<br />
+SP Cost+35%
+| Double Attack Lv. 10
+| Invaded Prontera
+|-
+| '''Vorpal Dagger [1]'''
+| 110
+| 25
+| 15
+| 4
+| ASPD +5<br />
+Million Stab DMG+5% per refine<br />
+If Refine is +7:<br />
+Million Stab cooldown -4s<br />
+| Double Attack Lv. 1
+| Horror Toy Factory
+|-
+| '''Order Flame Dagger [3]'''
+| 115
+| 5
+| 23
+| 2
+| Burning Steps DMG+25%<br />
+Burning Steps causes burning status on enemies.<br />
+Flee +10<br />
+HP -5%
+| Double Attack Lv. 4
+| Thor Volcano
+|-
+| '''Spellslinger [2]'''
+| 120
+| 10
+| 10
+| 4
+| ATK/MATK+1% per refine<br />
+Using Heal grants Cast Ready<br />
+INT+1 per refine<br />
+| Double Attack Lv. 1
+| Regenschutz Lab
+|-
+| '''Hugin [1]'''
+| 120
+| 30
+| 5
+| 4
+| Hit+3 per refine<br />
+Flee+1 per refine<br />
+Twin Crows Set:<br />
+Sword and Dagger<br />
+'''[Set Bonus]'''<br />
+ATK+7%<br />
+ASPD+1 per Steel Wings Level.
+| Double Attack Lv. 10
+| Varmundt Mansion
+|-
+| '''Devil Fang [2]'''
+| 125
+| 15
+| 15
+| 4
+| Envenom DMG+200%<br />
+Envenom has 5% per refine chance to autocast Plague Impress<br />
+Envenom Cooldown +7s
+| Double Attack Lv. 1
+| Thanatos Paradise
+|-
+| '''Bearer of the Curse [4]'''
+| 125
+| 20
+| 20
+| 1
+| Darkness Flows DMG+3% per refine<br />
+Darkness Falls DMG+3% per refine<br />
+Darkness Rises Cooldown -2s
+| Double Attack Lv. 5
+| Divine Temple of Freya
+|-
+| '''Royal Dagger [2]'''
+| 130
+| 10
+| 22
+| 4
+| 10% chance to activate Cast Ready when attacking<br />
+MATK+1% per refine<br />
+Fixed Cast -0.1s
+| Double Attack Lv. 7
+| Lost Tomb of the King
+|-
+| '''Black War [3]'''
+| 130
+| 15
+| 15
+| 4
+| All Stats +1<br />
+Per refine:<br />
+ASPD +2%<br />
+After Cast Delay -2%<br />
+Defense Pierce +1%<br />
+Magic Defense Pierce +1%
+| Double Attack Lv. 9
+| Dimensional Gorge
+|-
+| '''Royal Gladius [2]'''
+| 130
+| 20
+| 10
+| 4
+| 10% chance to activate Combo Ready when attacking<br />
+ASPD Limit +1
+| Double Attack Lv. 7
+| Lost Tomb of the King
+|-
+| '''Guiding Dagger [3]'''
+| 130
+| 20
+| 0
+| 3
+| Perfect Hit +100%<br />
+Defense Pierce +10%
+| Double Attack Lv. 10
+| Abandoned Castle
+|}
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+ [[File:SwordIcon.gif|24x24px|SwordIcon.gif]] Special Swords from dungeons.
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;" | Req.<br />
+Lv
+! style="background: #99d9ea;" | ATK
+! style="background: #99d9ea;" | MATK
+! style="background: #99d9ea;" | Weap.<br />
+Lv
+! style="background: #99d9ea;" | Effects
+! style="background: #99d9ea;" | Innate Bonus
+! style="background: #99d9ea;" | Obtained From
+|-
+| '''Daehyon Sword [1]'''
+| 0
+| 45
+| 0
+| 4
+| HP +10%<br />
+Dragon Breath DMG+5% per refine<br />
+ASPD-20
+| Dragon Claw Rate. 20%
+| Sunken Temple
+|-
+| '''Sword of the Orphan [0]'''
+| 1
+| 7
+| 7
+| 1
+| Cannot be Refined<br />
+EXP Received +10%<br />
+SP Regen+20%
+| Defense Pierce 10%
+| Orphan Voucher
+|-
+| '''Curse of the Orphan [0]'''
+| 1
+| 9
+| 0
+| 1
+| Dark Knight Sword<br />
+Cannot be Refined<br />
+Dark Element<br />
+EXP Received +10%<br />
+HP Regen+40%<br />
+Cannot be Worn past Lv30
+| Vengeance Rate. 10%
+| Orphan Voucher
+|-
+| '''Abandoned Sword [1]'''
+| 10
+| 5
+| 13
+| 1
+| Cast Time -15%<br />
+Fixed Cast -0.2s<br />
+INT+1
+| Defense Pierce 0%
+| Upper Pyramid
+|-
+| '''Lost Sword [2]'''
+| 15
+| 15
+| 6
+| 4
+| HP+10%<br />
+Rolling Cutter DMG +15%<br />
+Rolling Cutter DMG+1% per Refine<br />
++Extra 1 ATK per Refine
+| Defense Pierce 10%
+| Pyramid Basement - MVP
+|-
+| '''Rotten Cutter [2]'''
+| 15
+| 23
+| 0
+| 3
+| Envenom DMG+25%<br />
+SP Consumption -5%
+| Defense Pierce 15%
+| [[Geffen Cave]]
+|-
+| '''Sailor Sword [2]'''
+| 25
+| 15
+| 0
+| 2
+| Rolling Cutter DMG+20%<br />
+Pirate Swords Set:<br />
+Sailor and Marauder<br />
+'''[Set Bonus]'''<br />
+ATK +10
+| Defense Pierce 10%
+| Sunken Ship
+|-
+| '''Marauder Sword [2]'''
+| 25
+| 15
+| 0
+| 2
+| Cross Ripper Slasher DMG+20%<br />
+Pirate Swords Set:<br />
+Sailor and Marauder<br />
+'''[Set Bonus]'''<br />
+ATK +10
+| Defense Pierce 10%
+| Sunken Ship
+|-
+| '''Solar Sword [2]'''
+| 30
+| 5
+| 25
+| 3
+| SP Regen+10%<br />
+Cast Time-10%<br />
+INT+1 per refine
+| Defense Pierce 5%
+| Sphinx
+|-
+| '''Orcish Sword [3]'''
+| 30
+| 10
+| 0
+| 1
+| ATK +1 per refine
+| Defense Pierce 10%
+| Orc Village
+|-
+| '''Reliquary Claymore [3]'''
+| 30
+| 20
+| 20
+| 2
+| Dark Knight Sword<br />
+Poison Element<br />
+Recovers 100 HP per hit<br />
+Reflects 5% short range damage<br />
+Vengeance Cooldown +1s<br />
+| Vengeance Rate. 25%
+| Sphinx
+|-
+| '''Rusty Eater [1]'''
+| 35
+| 25
+| 0
+| 4
+| Recover 200 HP when enemy is killed<br />
+Healing Received -40%
+| Defense Pierce 12%
+| Byalan Island
+|-
+| '''Coral Sword [1]'''
+| 35
+| 25
+| 0
+| 3
+| Enables Wind Slash according to refine<br />
+Ranged Damage +2% per refine
+| Defense Pierce 15%
+| Byalan Island
+|-
+| '''Master Sword [1]'''
+| 40
+| 10
+| 10
+| 4
+| Per Level of Blade Mastery:<br />
+ATK+1%<br />
+MATK+1%<br />
+DEF+1%<br />
+INT+1
+| Defense Pierce 25%
+| Noble Bathhouse
+|-
+| '''Black Rapier [3]'''
+| 40
+| 25
+| 5
+| 2
+| Perfect Dodge +9<br />
+Throw Acid DMG+25%<br />
+Throw Molotov DMG+25%
+| Defense Pierce 12%
+| Clock Tower
+|-
+| '''Sun Devourer [1]'''
+| 45
+| 20
+| 20
+| 4
+| Enables Dragon Pact Lv1<br />
+Enables Dragon Breath on the same level as refined
+| Defense Pierce 15%
+| Magma Dungeon
+|-
+| '''Haedonggum [2]'''
+| 50
+| 18
+| 25
+| 2
+| INT+3<br />
+Overpower and Wind Slash DMG+0.5% per INT
+| Defense Pierce 10%
+| Sunken Temple
+|-
+| '''Burning Abyss [3]'''
+| 50
+| 10
+| 30
+| 3
+| Fire Magic Damage +20%<br />
+Fire Element Resistance -20%
+| Defense Pierce 3%
+| Dewata Volcano
+|-
+| '''Darkness Metal Sword [2]'''
+| 50
+| 25
+| 10
+| 3
+| Dark Knight Sword<br />
+Devil Raid Autocasts Shatter Cross<br />
+HP Regen+20% per refine
+| Vengeance Rate. 5%
+| Einbroch Mines
+|-
+| '''Digging Sword [1]'''
+| 50
+| 40
+| 10
+| 3
+| DMG vs Earth +30%<br />
+HP+5%<br />
+ASPD-10
+| Defense Pierce 5%
+| Einbroch Mines
+|-
+| '''Dancing Gale [3]'''
+| 50
+| 28
+| 0
+| 2
+| Wind Long Sword<br />
+Shadow Slash Autocasts Wind Slash<br />
+Enables Shadow Slash Lv1
+| Defense Pierce 10%
+| Dewata Volcano
+|-
+| '''Great Impact Sword [1]'''
+| 60
+| 25
+| 25
+| 2
+| Greater Explosion DMG+25%<br />
+Cast Time -10%
+| Defense Pierce 10%
+| Ayothaya Temple
+|-
+| '''Nodachi [3]'''
+| 60
+| 20
+| 6
+| 3
+| Range +3<br />
+Critical Rate +1/Refine<br />
+Shatter Villian DMG+100%
+| 12% DEF Pierce
+| Islands
+|-
+| '''Juperos Rapier [3]'''
+| 65
+| 20
+| 20
+| 1
+| HP/SP+1%
+| Defense Pierce 10%
+| Juperos
+|-
+| '''Blade of Princes [3]'''
+| 70
+| 10
+| 23
+| 1
+| Cast can't be interrupted<br />
+MDEF Pierce +2% per refine
+| Defense Pierce 5%
+| Morroc Destruction
+|-
+| '''Curse of the Maniac [3]'''
+| 70
+| 17
+| 17
+| 3
+| Throw Acid DMG+20%<br />
+Thow Molotov DMG+20%<br />
+Greater Explosion DMG+20%<br />
+All 3 skills have 25% chance to curse on hit.
+| Defense Pierce 20%
+| Glast Heim
+|-
+| '''Despair of Innocence [3]'''
+| 70
+| 20
+| 5
+| 2
+| HP+1% per refine<br />
+Neutral Resistance +5%<br />
+If Refine +7:<br />
+Delta Skyfall pulls enemies to caster
+| Defense Pierce 15%
+| Waterfall Caves
+|-
+| '''Edge [3]'''
+| 70
+| 25
+| 10
+| 2
+| Delta Skyfall Cooldown -0.5s<br />
+Delta Skyfall DMG+20%<br />
+HP+2%<br />
+<br />
+If Refine is +8 or higher:<br />
+Double Effect
+| Defense Pierce 16%
+| Malaya
+|-
+| '''Draco Slayer [2]'''
+| 70
+| 30
+| 5
+| 3
+| Damage vs Dragons +25%<br />
+Overpower DMG +20%
+| Defense Pierce 10%
+| Dragon Nest
+|-
+| '''Muramasa [2]'''
+| 75
+| 20
+| 20
+| 3
+| Every 5 base STR:<br />
+HP+1%<br />
+Every 15 base VIT:<br />
+ATK+1%
+| Defense Pierce 15%
+| Amatsu Dungeon
+|-
+| '''Muscle Cutter [2]'''
+| 75
+| 34
+| 0
+| 3
+| 10% chance of causing bleeding when attacking.<br />
+5% chance to decrease agi when attacking.
+| Defense Pierce 10%
+| Geffenia
+|-
+| '''Masamune [1]'''
+| 75
+| 40
+| 0
+| 4
+| Agi-based Flee +20%<br />
+Critical Rate Total +10%<br />
+Move Speed +10%<br />
+Defense -100%<br />
+Void Dash DMG +12%
+| Defense Pierce 25%
+| Amatsu Dungeon
+|-
+| '''Mineral Sword [1]'''
+| 80
+| 3
+| 0
+| 1
+| DEF+20
+| Defense Pierce 5%
+| Crystal Caves Sword
+|-
+| '''Starfall [1]'''
+| 80
+| 10
+| 25
+| 1
+| Per Refine:<br />
+Comet DMG+6%<br />
+SP-6%
+| Defense Pierce 5%
+| Abyss Lake
+|-
+| '''Eternal Icicle Sword [3]'''
+| 80
+| 15
+| 15
+| 4
+| 25% Magic Defense Pierce<br />
+20% Extra \Frost Diver\ Damage per Refine<br />
+| Defense Pierce 0%
+| [[Dicastes Diel Exchange]]
+|-
+| '''Sword of the Second [2]'''
+| 80
+| 20
+| 24
+| 2
+| Pierces 20% Magic Defense<br />
+MATK+2%<br />
+Rachel Second Set:<br />
+Armor and Weapon<br />
+'''[Set Bonus]'''<br />
+SP +5%
+| Defense Pierce 5%
+| Rachel Sanctuary
+|-
+| '''Platinum Shotel [1]'''
+| 80
+| 20
+| 0
+| 2
+| Sky Assault DMG +10%<br />
+Blitz Beat DMG +20%<br />
+LUK +5<br />
+ASPD-10
+| Defense Pierce 5%
+| Cursed Monastery
+|-
+| '''Blackguard Anti-Sword [2]'''
+| 80
+| 25
+| 5
+| 3
+| Chilling Frost DMG+25%Enables Shatter Cross Lv3<br />
+Shatter Cross Autocasts Chilling Frost
+| Defense Pierce 10%
+| Geffenia Antitower
+|-
+| '''Atlas Weapon [2]'''
+| 80
+| 35
+| 0
+| 4
+| ASPD-50<br />
+VIT+7<br />
+Critical Rate+50<br />
+Atlas Set:<br />
+Weapon and Shield<br />
+'''[Set Bonus]'''<br />
+All Stats +3
+| Defense Pierce 22%
+| Atroce
+|-
+| '''Nopaew Lufrewop [2]'''
+| 90
+| 25
+| 25
+| 3
+| Queen's Gambit DMG +20%+5% extra per refine<br />
+SP Regen+3% per refine<br />
+HP-2% per refine
+| Defense Pierce 20%
+| Kiel Hyre University
+|-
+| '''Sea King [2]'''
+| 100
+| 10
+| 25
+| 3
+| Water Long Sword<br />
+DMG vs Fire Enemies +25%<br />
+MATK +5%<br />
+Magic Defense Pierce +2% per refine<br />
+INT+5
+| Defense Pierce 15%
+| [[Ancient Temple]]
+|-
+| '''Balmung [1]'''
+| 100
+| 40
+| 40
+| 4
+| HP+7%<br />
+SP+7%<br />
+SP consumption -3% per refine.
+| Defense Pierce 25%
+| Sky Garden Exchange
+|-
+| '''Mysteltainn [1]'''
+| 110
+| 0
+| 45
+| 4
+| Magic Defense Pierce +25%<br />
+INT+5<br />
+Permanent Endure Effect<br />
+SP Cost+35%
+| Defense Pierce 00%
+| Invaded Prontera
+|-
+| '''Abandoned Guardian [4]'''
+| 110
+| 12
+| 0
+| 1
+| Cover Cooldown -0.5s per refine<br />
+King's Chains DMG+3% per refine
+| Defense Pierce 13%
+| Horror Toy Factory
+|-
+| '''Executioner [1]'''
+| 110
+| 45
+| 0
+| 4
+| STR+5<br />
+Permanent Endure Effect<br />
+SP Cost+35%
+| Defense Pierce 25%
+| Invaded Prontera
+|-
+| '''Daybreak Sword [2]'''
+| 115
+| 30
+| 10
+| 3
+| Fire Sword<br />
+Rolling Flames Cooldown -1s<br />
+Rolling Flames DMG+25%<br />
+Claymore Trap DMG+25%<br />
+Variable Cast Time -1% per level of Rolling Flames Learned.<br />
+Variable Cast Time -1% per level of Claymore Trap Learned.
+| Defense Pierce 15%
+| Thor Volcano
+|-
+| '''Tyrfing [4]'''
+| 115
+| 30
+| 30
+| 4
+| Dark Knight Sword<br />
+HP +20%<br />
+Vengeance DMG +5% per Refine<br />
+SP +25 per kill<br />
+Disables HP/SP Natural Regeneration
+| Vengeance Rate. 10%
+| Abyss Glast Heim
+|-
+| '''Tartaros [4]'''
+| 115
+| 30
+| 30
+| 4
+| Dark Knight Sword<br />
+HP +15%<br />
+Conflagration Cooldown -5s<br />
+HP Regen +500%<br />
+Regenerates HP on movement
+| Vengeance Rate. 12%
+| Invaded Prontera
+|-
+| '''Drake Claw Sword [3]'''
+| 120
+| 30
+| 20
+| 4
+| ATK/MATK+1%<br />
+HP +1% per Refine
+| Dragon Claw Rate. 50%
+| Regenschutz Lab
+|-
+| '''Ruined Noble Sword [3]'''
+| 120
+| 30
+| 10
+| 2
+| Queen's Brand DMG+30%<br />
+Queen's Brand Cooldown -0.5s per refine
+| Defense Pierce 15%
+| Varmundt Mansion
+|-
+| '''Muninn [3]'''
+| 120
+| 35
+| 5
+| 1
+| Blitz Beat DMG+7% per refine<br />
+Twin Crows Set:<br />
+Sword and Dagger<br />
+'''[Set Bonus]'''<br />
+ATK+7%<br />
+ASPD+1 per Steel Wings Level.
+| Defense Pierce 5%
+| Varmundt Mansion
+|-
+| '''Royal Saber [2]'''
+| 130
+| 10
+| 30
+| 4
+| Magic Defense Pierce +22%<br />
+Using Heal activates Cast Ready<br />
+Healing Power +5% per refine
+| Defense Pierce 0%
+| Lost Tomb of the King
+|-
+| '''Lingering Sadness [3]'''
+| 130
+| 20
+| 10
+| 2
+| Delta Skyfall has 50% chance to autocast Retribution Lv5<br />
+Retribution DMG+25%<br />
+VIT+3
+| Defense Pierce 10%
+| Thanatos Paradise
+|-
+| '''Sword of Conquest [3]'''
+| 130
+| 25
+| 0
+| 4
+| Enables Northern Cross at the same level as current refine<br />
+Northern Cross DMG+35%<br />
+HP+1% per refine<br />
+Total DEF +1% per Refine
+| Defense Pierce 20%
+| Dimensional Gorge
+|-
+| '''Royal Long Sword [2]'''
+| 130
+| 30
+| 10
+| 4
+| Delta Skyfall activates Shadow Slash<br />
+Critical Damage +5% per Refine
+| Defense Pierce 22%
+| Lost Tomb of the King
+|-
+| '''Avenged Tartaros [1]'''
+| 130
+| 100
+| 0
+| 4
+| Dark Knight Sword<br />
+HP Regen +2000%<br />
+Disables skills use<br />
+ASPD-10<br />
+HP/SP drained when equipped.
+| Vengeance Rate. 100%
+| Thanatos Paradise
+|}
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+ [[File:BowIcon.gif|24x24px|BowIcon.gif]] Special Bows from dungeons.
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;" | Req.<br />
+Lv
+! style="background: #99d9ea;" | ATK
+! style="background: #99d9ea;" | MATK
+! style="background: #99d9ea;" | Weap.<br />
+Lv
+! style="background: #99d9ea;" | Effects
+! style="background: #99d9ea;" | Innate Bonus
+! style="background: #99d9ea;" | Obtained From
+|-
+| '''Bow of the Orphan [0]'''
+| 1
+| 6
+| 6
+| 1
+| Cannot be Refined<br />
+EXP Received +10%<br />
+SP Regen+20%
+| Attack Range +5<br />
+Attack SP Cost: 3
+| Orphan Voucher
+|-
+| '''Arbalest [2]'''
+| 10
+| 8
+| 0
+| 2
+| Arrow Shower DMG+25%<br />
+SP+5%<br />
+DEX+1
+| Attack Range +3<br />
+Attack SP Cost: 2
+| Upper Pyramid
+|-
+| '''Bone Bow [2]'''
+| 10
+| 10
+| 5
+| 1
+| Double Strafe DMG +10%<br />
+Double Strafe SP Cost -20%
+| Attack Range +3<br />
+Attack SP Cost: 2
+| Payon Cave
+|-
+| '''Burial Bow [3]'''
+| 10
+| 10
+| 12
+| 2
+| 25% to autocast Eruption Lv3 when casting Double Strafe<br />
+Earth Magic DMG +10%
+| Attack Range +4<br />
+Attack SP Cost: 5
+| Upper Pyramid
+|-
+| '''Web Bow [2]'''
+| 10
+| 11
+| 0
+| 3
+| 5% to snare enemies with a trap when attacking<br />
+DEX+3
+| Attack Range +4<br />
+Attack SP Cost: 6
+| Prontera Culvert
+|-
+| '''Lost Bow [2]'''
+| 15
+| 12
+| 0
+| 4
+| ASPD+10%<br />
+Double Strafe DMG +15%<br />
+Double Strafe DMG +1% per Refine<br />
++Extra 1 ATK per Refine<br />
+| Attack Range +4<br />
+Attack SP Cost: 2
+| Pyramid Basement - MVP
+|-
+| '''Nest Fiber Bow [4]'''
+| 15
+| 12
+| 0
+| 1
+| Arrow Shower Cooldown -1s
+| Attack Range +4<br />
+Attack SP Cost: 5
+| Insect Nest
+|-
+| '''Silver Crossbow [2]'''
+| 20
+| 20
+| 0
+| 3
+| DMG vs Undead and Demons +30%<br />
+After Cast Delay -20%<br />
+DEX+2
+| Attack Range +8<br />
+Attack SP Cost: 6
+| [[Geffen Cave]]
+|-
+| '''Orc Bow [3]'''
+| 30
+| 10
+| 0
+| 1
+| ATK +1 per refine
+| Attack Range +7<br />
+Attack SP Cost: 10
+| Orc Village
+|-
+| '''Strafe Bow [2]'''
+| 30
+| 20
+| 0
+| 2
+| Double Strafe DMG+33%<br />
+Double Strafe Autocasts Backslide
+| Attack Range +7<br />
+Attack SP Cost: 8
+| Sphinx
+|-
+| '''Master Bow [1]'''
+| 40
+| 10
+| 10
+| 4
+| Per Level of Bow Mastery:<br />
+ATK+1%<br />
+MATK+1%<br />
+Perfect Hit Rate+1%<br />
+DEX+1
+| Attack Range +10<br />
+Attack SP Cost: 10
+| Noble Bathhouse
+|-
+| '''Golden Bow [4]'''
+| 40
+| 15
+| 5
+| 1
+| Double Strafe has 50% chance to cast Coin Flip<br />
+Ranged Damage +3%
+| Attack Range +4<br />
+Attack SP Cost: 7
+| Sunken Temple
+|-
+| '''Sentinel Bow [2]'''
+| 40
+| 18
+| 0
+| 3
+| Enables Sniper Nest Lv1<br />
+Headshot DMG+20%
+| Attack Range +10<br />
+Attack SP Cost: 8
+| Clock Tower
+|-
+| '''Thunderclap Bow [3]'''
+| 50
+| 5
+| 15
+| 2
+| Fire Magic DMG +20%<br />
+Water Magic DMG+20%<br />
+Wind Magic DMG+20%<br />
+Thunderclap Set:<br />
+Bow and Headgear<br />
+'''[Set Bonus]'''<br />
+ASPD +5
+| Attack Range +6<br />
+Attack SP Cost: 15
+| Airship Crash Site
+|-
+| '''Falken Strafe [1]'''
+| 50
+| 10
+| 0
+| 4
+| 100% chance to autocast Double Strafe Lv10 when attacking.<br />
+Ranged Damage +1% per refine<br />
+ASPD-40%<br />
+Disables Manual Double Strafe.
+| Attack Range +4<br />
+Attack SP Cost: 10
+| Turtle Dungeon
+|-
+| '''Devil's Whisper [1]'''
+| 60
+| 20
+| 5
+| 3
+| Aimed Bolt DMG+15%<br />
+Aimed Bolt Cast Time-15%<br />
+Ranged DMG+3% when wielded with Angel Slayer Arrows
+| Attack Range +6<br />
+Attack SP Cost: 10
+| Ayothaya Temple
+|-
+| '''Rudra Bow [2]'''
+| 70
+| 8
+| 22
+| 4
+| Enables Heal Lv10<br />
+Healing Power +3% per refine<br />
+Removes 200 SP when Unequipped
+| Attack Range +5<br />
+Attack SP Cost: 4
+| Glast Heim
+|-
+| '''Guardian Bow [2]'''
+| 75
+| 15
+| 5
+| 4
+| HP+1% per refine<br />
+HP Regen+100%<br />
+Every 1 base DEX:<br />
+DEF+1
+| Attack Range +1<br />
+Attack SP Cost: 9
+| Loki's Palace
+|-
+| '''Forgotten Bow [0]'''
+| 75
+| 30
+| 0
+| 4
+| Defense Pierce +100%<br />
+Ranged Damage +1% per refine
+| Attack Range +2<br />
+Attack SP Cost: 15
+| Loki’s Palace
+|-
+| '''Eternal Blizzard Bow [3]'''
+| 80
+| 15
+| 15
+| 4
+| MATK +2% per Refine<br />
+| Attack Range +4<br />
+Attack SP Cost: 3
+| [[Dicastes Diel Exchange]]
+|-
+| '''Bow of the Third [3]'''
+| 80
+| 23
+| 10
+| 3
+| 5% chance to leech 10% of damage dealt with attacks.<br />
+Rachel Third Set:<br />
+Armor and Weapon<br />
+'''[Set Bonus]'''<br />
+Move Speed +5%
+| Attack Range +7<br />
+Attack SP Cost: 7
+| Rachel Sanctuary
+|-
+| '''Grappling Bowgun [2]'''
+| 80
+| 25
+| 10
+| 3
+| 10% chance to attempt to pull the enemy towards you.
+| Attack Range +9<br />
+Attack SP Cost: 5
+| Kiel Dungeon
+|-
+| '''Living Vigil [1]'''
+| 100
+| 5
+| 15
+| 3
+| Heal SP cost halved<br />
+INT+1 per refine<br />
+Using cover autocasts Heal Lv10
+| Attack Range +2<br />
+Attack SP Cost: 10
+| Abyss Lake Distortion
+|-
+| '''Fleinn [1]'''
+| 100
+| 40
+| 10
+| 4
+| SP+100<br />
+Ranged Damage +7%<br />
+Perfect Hit +3% per refine.
+| Attack Range +10<br />
+Attack SP Cost: 10
+| Sky Garden Exchange
+|-
+| '''Eye Crossbow [2]'''
+| 110
+| 15
+| 10
+| 4
+| Headshot DMG+125%<br />
+DEX +1 per refine<br />
+Sniper's Nest cast time removed<br />
+ASPD-20
+| Attack Range +10<br />
+Attack SP Cost: 1
+| Ancient Verus Lab
+|-
+| '''Overseer Crossbow [3]'''
+| 110
+| 20
+| 0
+| 2
+| DEX +1 per refine<br />
+VIT +1 per refine<br />
+After Cast Delay -20%<br />
+Cannon Turret Cooldown -1s
+| Attack Range +5<br />
+Attack SP Cost: 20
+| Horror Toy Factory
+|-
+| '''Final Bow [2]'''
+| 120
+| 10
+| 10
+| 4
+| ATK/MATK+1% per refine<br />
+Final Arrow Cooldown -10s<br />
+Final Arrow SP Cost doubled
+| Attack Range +7<br />
+Attack SP Cost: 40
+| Regenschutz Lab
+|-
+| '''Rebound Bow [2]'''
+| 120
+| 35
+| 0
+| 4
+| Ricochet Arrow DMG+5% per refine<br />
+Ricochet Arrow Knocksback 5 cells
+| Attack Range +4<br />
+Attack SP Cost: 4
+| Death's Castle
+|-
+| '''Alto Flagelo [2]'''
+| 130
+| 20
+| 0
+| 3
+| ASPD+20%<br />
+Cluster Arrow DMG+20%<br />
+4% chance to autocast Cluster Arrow per refine
+| Attack Range +8<br />
+Attack SP Cost: 10
+| Thanatos Paradise
+|-
+| '''Bow of Famine [3]'''
+| 130
+| 25
+| 0
+| 4
+| Godhand Arrow DMG+3% per refine<br />
+Godhand Arrow SP cost halved
+| Attack Range +8<br />
+Attack SP Cost: 15
+| Dimensional Gorge
+|-
+| '''Royal Crossbow [2]'''
+| 130
+| 30
+| 10
+| 4
+| Fixed Cast -0.5s<br />
+Arrow Storm DMG+3% per refine
+| Attack Range +9<br />
+Attack SP Cost: 9
+| Lost Tomb of the King
+|}
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+ [[File:AxeIcon.gif|24x24px|AxeIcon.gif]] Special Axes from dungeons.
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;" | Req.<br />
+Lv
+! style="background: #99d9ea;" | ATK
+! style="background: #99d9ea;" | MATK
+! style="background: #99d9ea;" | Weap.<br />
+Lv
+! style="background: #99d9ea;" | Effects
+! style="background: #99d9ea;" | Innate Bonus
+! style="background: #99d9ea;" | Obtained From
+|-
+| '''Orc Axe [3]'''
+| 30
+| 17
+| 0
+| 1
+| ATK +1 per refine
+| Splash Range: 1
+| Orc Village
+|-
+| '''Octo Axe [1]'''
+| 35
+| 20
+| 0
+| 3
+| SP-99%<br />
+ASPD-30
+| Splash Range: 8
+| Byalan Island
+|-
+| '''Saw Axe [2]'''
+| 35
+| 25
+| 5
+| 3
+| Boomeraxe DMG+3% per refine<br />
+30% Double Attack Chance<br />
+VIT+5<br />
+| Splash Range: 2
+| Coal Mines
+|-
+| '''Master Axe [1]'''
+| 40
+| 10
+| 10
+| 4
+| Per Level of Axe Mastery:<br />
+ATK+1%<br />
+MATK+1%<br />
+HP+1%<br />
+VIT+1
+| Splash Range: 4
+| Noble Bathhouse
+|-
+| '''Volcano Axe [3]'''
+| 45
+| 10
+| 25
+| 2
+| Boomeraxe autocasts Flaming Petal equal to Refine<br />
+Fire Magic +10%
+| Splash Range : 1
+| Magma Dungeon
+|-
+| '''Hurricane Plague [2]'''
+| 50
+| 15
+| 25
+| 4
+| Axe Tornado applies poison at 4% chance per refine<br />
+Cast Time-10%<br />
+Poison Magic DMG+10%
+| Splash Range: 1
+| Regeschrim Laboratory
+|-
+| '''Acid Elevation [4]'''
+| 60
+| 20
+| 0
+| 1
+| Throw Acid DMG+30%<br />
+Ranged Attack+10%
+| Splash Range: 2
+| Nightmare Clock Tower
+|-
+| '''Nest Avenger [2]'''
+| 60
+| 20
+| 20
+| 4
+| Poison Axe<br />
+INT+1 per refine<br />
+Venom Splasher DMG+20%<br />
+Venom Coat Cooldown Removed.
+| Splash Range: 3
+| Faceworm Nest
+|-
+| '''Juperos Axe [3]'''
+| 65
+| 20
+| 20
+| 1
+| HP/SP+1%
+| Splash Range: 1
+| Juperos
+|-
+| '''Meteor Hammer [2]'''
+| 70
+| 5
+| 5
+| 1
+| HP+500
+| Splash Range: 5
+| Toy Factory
+|-
+| '''Glenvehyde [4]'''
+| 70
+| 25
+| 15
+| 3
+| Spiral Blade DMG+25%<br />
+HP Regen +25%<br />
+Total Flee -10%
+| Splash Range: 1
+| Malaya
+|-
+| '''War Axe [1]'''
+| 70
+| 32
+| 5
+| 2
+| Axe Tornado has 30% per refine chance to cause bleeding<br />
+DEF+5%<br />
+HP+100
+| Splash Range: 2
+| Glast Heim
+|-
+| '''Forgotten Noble [2]'''
+| 70
+| 30
+| 0
+| 3
+| Rolling Cutter DMG +5% per refine<br />
+Axe Tornado DMG +100%<br />
+Axe Tornado Cooldown +2s
+| Splash Range: 2
+| Glast Heim – Castle
+|-
+| '''Belena [3]'''
+| 75
+| 25
+| 5
+| 2
+| Physical DMG vs Small +20%<br />
+Venom Buster DMG +10%
+| Splash Range: 1
+| Alchemist Fortress
+|-
+| '''Eternal Iceberg Axe [3]'''
+| 80
+| 15
+| 15
+| 4
+| 1% per refine chance to auto-cast Frozen Crash Lv3 when hit with close range attacks.<br />
+| Splash Range: 3
+| [[Dicastes Diel Exchange]]
+|-
+| '''Blackguard Axe [3]'''
+| 80
+| 25
+| 0
+| 2
+| ASPD+5
+| Splash Range: 1
+| Geffenia Antitower
+|-
+| '''Guillotine of the First [1]'''
+| 80
+| 30
+| 10
+| 1
+| Pierces 20% Defense<br />
+Rachel First Set:<br />
+Armor and Weapon<br />
+'''[Set Bonus]'''<br />
+HP +5%
+| Splash Range: 1
+| Rachel Sanctuary
+|-
+| '''First Marker [3]'''
+| 95
+| 15
+| 15
+| 2
+| Poison Axe<br />
+Venom Splasher DMG+50%<br />
+Venom Mark cooldown -8s
+| Splash Range: 2
+| Morroc Castle
+|-
+| '''Rotten Slasher [4]'''
+| 100
+| 10
+| 20
+| 3
+| Death Cloud DMG+3% per refine<br />
+Death Cloud has 20% base chance to poison enemies
+| Splash Range: 1
+| Abyss Lake Distortion
+|-
+| '''Mjolnir [1]'''
+| 100
+| 40
+| 40
+| 4
+| All Stats +3<br />
+Weight Limit +1000<br />
+Def Pierce +1% per refine.<br />
+MDef Pierce +1% per refine.
+| Splash Range: 4
+| Sky Garden Exchange
+|-
+| '''Scienza [2]'''
+| 110
+| 10
+| 10
+| 2
+| Mr. Bombastic DMG+3% per refine<br />
+Mr. Bombastic Cooldown -3s<br />
+INT+1 per refine
+| Splash Range: 3
+| Ancient Verus Lab
+|-
+| '''Guardian Axe [3]'''
+| 110
+| 12
+| 12
+| 1
+| HP+10%<br />
+HP+100 per refine<br />
+Final Damage Taken- 3%
+| Splash Range: 3
+| Prontera Distortion
+|-
+| '''Blaster Axe [2]'''
+| 120
+| 10
+| 10
+| 4
+| ATK/MATK+1% per refine<br />
+All Traps DMG+20%<br />
+After Cast Delay-20%
+| Splash Range: 3
+| Regenschutz Lab
+|-
+| '''Royal Great Axe [2]'''
+| 130
+| 34
+| 10
+| 4
+| Spiral Blade DMG+4% per refine<br />
+Defense Pierce +10%
+| Splash Range: 3
+| Lost Tomb of the King
+|-
+| '''Axe of Famine [3]'''
+| 130
+| 35
+| 10
+| 4
+| Rupture Axe DMG+5% per refine<br />
+HP Regen +12% per refine<br />
+VIT +1 per refine
+| Splash Range: 3
+| Dimensional Gorge
+|}
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+ [[File:ScytheIcon.gif|24x24px|ScytheIcon.gif]] Special Scythes from dungeons.
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;" | Req.<br />
+Lv
+! style="background: #99d9ea;" | ATK
+! style="background: #99d9ea;" | MATK
+! style="background: #99d9ea;" | Weap.<br />
+Lv
+! style="background: #99d9ea;" | Effects
+! style="background: #99d9ea;" | Innate Bonus
+! style="background: #99d9ea;" | Obtained From
+|-
+| '''Scythe of the Orphan [0]'''
+| 5
+| 5
+| 5
+| 1
+| Cannot be Refined<br />
+EXP Received +10%<br />
+SP Regen+20%<br />
+| Leech Power 2%
+| Orphan Voucher
+|-
+| '''Bone Scythe [2]'''
+| 10
+| 15
+| 0
+| 1
+| Scythe Reap DMG +20%<br />
+Scythe Reap SP Cost -20%<br />
+Leech 15 HP per hit<br />
+| Leech Power 9%
+| Payon Cave
+|-
+| '''Blood Reaver [4]'''
+| 15
+| 15
+| 0
+| 4
+| SP Regen +10%<br />
+| Leech Power 16%
+| [[Geffen Cave]]
+|-
+| '''Master Scythe [1]'''
+| 40
+| 15
+| 15
+| 4
+| Per Level of Scythe Mastery:<br />
+ATK+1%<br />
+MATK+1%<br />
+Perfect Dodge +1<br />
+STR+1
+| Leech Power 5%
+| Noble Bathhouse
+|-
+| '''Crescent Demon [1]'''
+| 40
+| 35
+| 0
+| 4
+| Per Refine:<br />
+Critical Damage +2%<br />
+ASPD+1<br />
+| Leech Power 18%
+| Forest Maze
+|-
+| '''Roaring Flare [2]'''
+| 45
+| 20
+| 0
+| 1
+| Removes Burning Scythe SP cost<br />
+10% chance to cause burning on physical attacks and skills.<br />
+Attack Splash Range+3
+| Leech Power 12%
+| Magma Dungeon
+|-
+| '''Afterlife Scythe [2]'''
+| 50
+| 18
+| 0
+| 3
+| Enables Hallucination Walk Lv1<br />
+Move Speed +15%<br />
+Perfect Dodge +10<br />
+| Leech Power 20%
+| Sunken Temple
+|-
+| '''Avarice Scythe [1]'''
+| 60
+| 30
+| 0
+| 4
+| Per Refine:<br />
+Scythe Reap DMG+5%<br />
+| Leech Power 25%
+| Nightmare Clock Tower
+|-
+| '''Demon Wings [2]'''
+| 70
+| 20
+| 10
+| 3
+| Critical Damage +2% per refine<br />
+20% to autocast Scythe Reap when attacking<br />
+SP Regen -50%<br />
+| Leech Power 6%
+| Glast Heim
+|-
+| '''Gargantua [2]'''
+| 70
+| 25
+| 0
+| 2
+| Sweeping Slash DMG +7% per refine<br />
+Sweeping Slash SP Cost-20%<br />
+If Refine is +10:<br />
+Sweeping Slash Cooldown -0.5s<br />
+| Leech Power 11%
+| Abandoned Hospital
+|-
+| '''Steel Reaper [0]'''
+| 70
+| 25
+| 0
+| 4
+| After Cast Delay -5% per refine<br />
+ASPD +1 per refine<br />
+| Leech Power 100%
+| Glast Heim – Prison
+|-
+| '''Dark Pact [2]'''
+| 75
+| 22
+| 22
+| 2
+| Leeches SP instead of HP<br />
+| Leech Power 1%
+| Geffenia
+|-
+| '''Eternal Winter Scythe [3]'''
+| 80
+| 30
+| 30
+| 4
+| Water Element
+| Leech Power 80%<br />
+Leech Rate 10%
+| [[Dicastes_Diel_Equipment|Dicastes Diel Exchange]]
+|-
+| '''Baron Scythe [3]'''
+| 80
+| 15
+| 35
+| 3
+| Ghost Scythe<br />
+Recover 100 HP/SP when killing enemies with magic.<br />
+Dark Messenger Cooldown -1s<br />
+Dark Messenger DMG+15% per refine<br />
+| Leech Power 00%
+| Waterfall Caves
+|-
+| '''Silver Scythe [2]'''
+| 80
+| 32
+| 0
+| 3
+| DMG vs Ghost Undead and Poison element +25%<br />
+| Leech Power 15%
+| Cursed Monastery
+|-
+| '''Final Skeleton [1]'''
+| 80
+| 35
+| 10
+| 4
+| Fire Scythe<br />
+Hellraiser DMG +25%<br />
+Hellraiser Cooldown -1.5s<br />
+Critical Rate +15<br />
+ASPD-3<br />
+| Leech Power 13%
+| Geffenia Antitower
+|-
+| '''Pesta [1]'''
+| 100
+| 40
+| 35
+| 4
+| Perfect Dodge +2 per refine<br />
+Disables direct healing<br />
+| Leech Power 50%
+| Sky Garden Exchange
+|-
+| '''Spectral Reaper [3]'''
+| 105
+| 30
+| 30
+| 2
+| Burning Wave DMG+5% per refine<br />
+Immune to Freeze and Burning<br />
+MATK+5%<br />
+| Leech Power 10%
+| Opera House
+|-
+| '''Ominous Lament [2]'''
+| 110
+| 30
+| 0
+| 3
+| Reaping Slash Cooldown -0.5s<br />
+Every level of Ominous Presence or Advanced Scythe Mastery boosts:<br />
+Critical Rate +1<br />
+Reaping Slash DMG+2%<br />
+Roaring Overslash DMG+2%<br />
+| Leech Power 10%
+| Horror Toy Factory
+|-
+| '''Channeling Scythe [2]'''
+| 120
+| 10
+| 10
+| 4
+| ATK/MATK+1% per refine<br />
+All cast times removed<br />
+| Leech Power 15%
+| Regenschutz Lab
+|-
+| '''Lunar Scythe [4]'''
+| 120
+| 15
+| 10
+| 1
+| Reaping Slash DMG+3% per refine<br />
+Reaping Slash SP Cost -5% per refine<br />
+| Leech Power 19%
+| Death's Castle
+|-
+| '''Goddess of Suffering [4]'''
+| 130
+| 25
+| 25
+| 4
+| Holy Scythe<br />
+After Cast Delay-20%<br />
+Underworld Rainstorm DMG+1% per base INT<br />
+| Leech Power 13%
+| Divine Temple of Freya
+|-
+| '''Royal Scythe [2]'''
+| 130
+| 30
+| 10
+| 4
+| Underworld Rainstorm Cast Removed<br />
+Underworld Rainstorm DMG+3% per refine<br />
+| Leech Power 10%
+| Lost Tomb of the King
+|}
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+ [[KatarIcon.gif|24x24px|KatarIcon.gif]] Special Katars from dungeons.
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;" | Req.<br />
+Lv
+! style="background: #99d9ea;" | ATK
+! style="background: #99d9ea;" | MATK
+! style="background: #99d9ea;" | Weap.<br />
+Lv
+! style="background: #99d9ea;" | Effects
+! style="background: #99d9ea;" | Innate Bonus
+! style="background: #99d9ea;" | Obtained From
+|-
+| '''Durga [2]'''
+| 25
+| 20
+| 0
+| 3
+| Defense Pierce +15%<br />
+ASPD Limit +3
+| Critical Damage Bonus: 10%
+| [[Beach_Caves|Beach Caves]]
+|-
+| '''Smoking Katar [2]'''
+| 35
+| 23
+| 0
+| 2
+| Autocasts Smoke Bomb when casting Sonic Blow<br />
+Total Flee +10%
+| Critical Damage Bonus: 10%
+| Coal Mines
+|-
+| '''Master Katar [1]'''
+| 40
+| 10
+| 10
+| 4
+| Per Level of Katar Mastery:<br />
+ATK+1%<br />
+MATK+1%<br />
+Critical Rate+1<br />
+LUK+1
+| Critical Damage Bonus: 25%
+| Noble Bathhouse
+|-
+| '''Sharp Scale [2]'''
+| 50
+| 25
+| 3
+| 3
+| Def Pierce +50%<br />
+DEX+7
+| Critical Damage Bonus: 15%
+| Turtle Dungeon
+|-
+| '''Air Raid Katar [2]'''
+| 50
+| 25
+| 0
+| 4
+| Wind Katar<br />
+50% chance for:<br />
+Sonic Blow autocasts Wind Slash Lv3<br />
+Rolling Cutter autocasts Wind Cutter Lv3
+| Critical Damage Bonus: 5%
+| Airship Crash Site
+|-
+| '''Guillotine Katar [2]'''
+| 50
+| 32
+| 0
+| 4
+| Sonic Blow DMG+20%<br />
+15% to autocast Sonic Blow Lv10 when attacking.<br />
+Sonic Blow Cooldown +2s
+| Critical Damage Bonus: 5%
+| Regeschrim Laboratory
+|-
+| '''Lava Tooth [2]'''
+| 50
+| 35
+| 0
+| 3
+| Impact Tooth Cooldown halved.<br />
+Ranged Damage +10%
+| Critical Damage Bonus: 5%
+| Dewata Volcano
+|-
+| '''Broken Katar [1]'''
+| 50
+| 25
+| 0
+| 3
+| Critical Rate -100<br />
+Critical Damage +1% per base LUK
+| Critical Damage Bonus: 25%
+| Loki's Palace
+|-
+| '''Juperos Katar [3]'''
+| 65
+| 20
+| 20
+| 1
+| HP/SP+1%
+| Critical Damage Bonus: 10%
+| Juperos
+|-
+| '''Meteor Nail [1]'''
+| 70
+| 35
+| 0
+| 4
+| Meteor Rush DMG+5% per refine<br />
+Meteor Rush Cooldown -2s
+| Critical Damage Bonus: 15%
+| Ice Dungeon
+|-
+| '''Paradise Lost [2]'''
+| 70
+| 30
+| 0
+| 3
+| Every 2 base LUK:<br />
+Critical Damage+1%<br />
+Base LUK 99:<br />
+Defense Pierce +20%
+| Critical Damage Bonus: 25%
+| Loki's Palace
+|-
+| '''Crescendo [1]'''
+| 75
+| 27
+| 0
+| 4
+| Critical Rate +3 per refine<br />
+ASPD +3% per refine
+| Critical Damage Bonus: 22%
+| Alchemist Fortress
+|-
+| '''Eternal Storm Katar [3]'''
+| 80
+| 15
+| 15
+| 4
+| 2% per refine chance to auto-cast Frozen Crash Lv3 when attacking.<br />
+| Critical Damage Bonus: 5%
+| [[Dicastes_Diel_Equipment|Dicastes Diel Exchange]]
+|-
+| '''Life Drinker [2]'''
+| 80
+| 25
+| 0
+| 2
+| Per Refine:<br />
+Mass Grave DMG+4%<br />
+Savage Tooth DMG+4%<br />
+HP-1%
+| Critical Damage Bonus: 5%
+| Abyss Lake
+|-
+| '''Demon Claws [4]'''
+| 80
+| 30
+| 5
+| 1
+| Dark Katar<br />
+DMG vs Angel +20%
+| Critical Damage Bonus: 12%
+| Kiel Dungeon
+|-
+| '''Monarch's Twin Edges [2]'''
+| 90
+| 35
+| 0
+| 4
+| Alpha DMG+20%<br />
+Omega DMG+20%<br />
+After Cast Delay -50%<br />
+SP Regen -30%
+| Critical Damage Bonus: 20%
+| Glast Heim
+|-
+| '''Cross Katar [2]'''
+| 95
+| 27
+| 3
+| 4
+| Cross Impact autocasts Meteor Rush<br />
+Meteor Rush DMG+20%<br />
+Cross Impact Cooldown +1s
+| Critical Damage Bonus: 10%
+| Morroc Castle
+|-
+| '''Great Tooth [3]'''
+| 100
+| 15
+| 5
+| 3
+| Impact Tooth DMG +20%<br />
+Impact Tooth CD -0.2s
+| Critical Damage Bonus: 10%
+| Abyss Lake Distortion
+|-
+| '''Dansleif [1]'''
+| 100
+| 40
+| 15
+| 4
+| ASPD +5<br />
+Critical Rate +3 per Refine.<br />
+Flee +10<br />
+After Cast Delay -15%<br />
+SP Regen+20%
+| Critical Damage Bonus: 25%
+| Sky Garden Exchange
+|-
+| '''Laceration [2]'''
+| 115
+| 35
+| 0
+| 3
+| Cursed Coffin DMG+20%<br />
+Desolated Burial DMG+20%<br />
+Both skills always cause bleeding.
+| Critical Damage Bonus: 20%
+| Varmundt Mansion
+|-
+| '''Slashing Shadows [3]'''
+| 120
+| 15
+| 10
+| 4
+| ATK/MATK+1% per refine<br />
+Enables Perfect Hide<br />
+Impact Tooth autocasts Shadow Slash<br />
+Impact Tooth Cooldown +1s
+| Critical Damage Bonus: 15%
+| Regenschutz Lab
+|-
+| '''Crow of Destiny [3]'''
+| 125
+| 30
+| 0
+| 3
+| Blitz Beat DMG+200%<br />
+LUK+3<br />
+Sky Assault DMG+5% per refine<br />
+Autocast Blitz Beat at 1% chance per base LUK
+| Critical Damage Bonus: 5%
+| Divine Temple of Freya
+|-
+| '''Royal Katar [2]'''
+| 130
+| 35
+| 10
+| 4
+| Guard Breaker autocasts Sonic Blow<br />
+Critical Rate +1 per refine<br />
+Sonic Blow DMG +3% per Refine
+| Critical Damage Bonus: 20%
+| Lost Tomb of the King
+|}
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+ [[File:SpearIcon.gif|24x24px|SpearIcon.gif]] Special One-Handed Spears from dungeons.
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;" | Req.<br />
+Lv
+! style="background: #99d9ea;" | ATK
+! style="background: #99d9ea;" | MATK
+! style="background: #99d9ea;" | Weap.<br />
+Lv
+! style="background: #99d9ea;" | Effects
+! style="background: #99d9ea;" | Innate Bonus
+! style="background: #99d9ea;" | Obtained From
+|-
+| '''Spear of the Orphan [0]'''
+| 5
+| 7
+| 7
+| 1
+| Cannot be Refined<br />
+EXP Received +10%<br />
+SP Regen+20%
+| Dragon Thrust Lv5
+| Orphan Voucher
+|-
+| '''Bone Spear [2]'''
+| 10
+| 15
+| 10
+| 1
+| Heavy Stab DMG +10%<br />
+Heavy Stab SP Cost -20%
+| Dragon Thrust Lv5
+| Payon Cave
+|-
+| '''Snake Fork [3]'''
+| 10
+| 15
+| 0
+| 1
+| HP+100<br />
+HP Regen +35%<br />
+SP+5%<br />
+VIT+1
+| Dragon Thrust Lv2
+| Upper Pyramid
+|-
+| '''Stone Spear [3]'''
+| 25
+| 12
+| 0
+| 1
+| HP +10%<br />
+Total DEF +10%<br />
+Enables Cover Lv1
+| Dragon Thrust Lv6
+| [[Beach Caves]]
+|-
+| '''Pharaoh Scepter [1]'''
+| 30
+| 5
+| 25
+| 4
+| Dragon Thrust autocasts Phantom Spear<br />
+MATK +5%<br />
+INT +2
+| Dragon Thrust Lv2
+| Sphinx
+|-
+| '''Duel Lance [2]'''
+| 40
+| 21
+| 5
+| 3
+| Move Speed+15%<br />
+Perfect Dodge+15
+| Dragon Thrust Lv7
+| Clock Tower
+|-
+| '''Spectral Spear [2]'''
+| 50
+| 10
+| 25
+| 3
+| Phantom Spear DMG+25%<br />
+Phantom Spear Receives 1% per VIT Scaling
+| Dragon Thrust Lv7
+| Forest Maze
+|-
+| '''Juperos Lance [3]'''
+| 65
+| 20
+| 20
+| 1
+| HP/SP+1%
+| Dragon Thrust Lv5
+| Juperos
+|-
+| '''Stalactite Spear [2]'''
+| 70
+| 5
+| 30
+| 1
+| Autocast Freezing Spear Lv5 when using Dragon Thrust<br />
+INT+3
+| Dragon Thrust Lv1
+| Ice Dungeon
+|-
+| '''Brocca [1]'''
+| 70
+| 10
+| 0
+| 1
+| Ignores enemy defense<br />
+Max SP -50%
+| Dragon Thrust Lv2
+| Glast Heim
+|-
+| '''Tiamat's Reign [3]'''
+| 100
+| 25
+| 0
+| 4
+| Heavy Stab autocasts Dragon Breath Lv1<br />
+Dragon Claw DMG+5% per refine<br />
+Dragon Claw cooldown -1s
+| Dragon Thrust Lv8
+| Abyss Lake Distortion
+|-
+| '''Gungnir [1]'''
+| 100
+| 30
+| 35
+| 4
+| Geirskogul Cooldown -3s<br />
+MATK+1% per Refine.<br />
+HP+150 per Refine.
+| Dragon Thrust Lv9
+| Sky Garden Exchange
+|-
+| '''Kaiser Lance [4]'''
+| 130
+| 15
+| 0
+| 1
+| Perfect Dodge +20<br />
+After Cast Delay -3% per refine<br />
+If Refine is +9 or higher:<br />
+Enables Hallucination Walk Lv3
+| Dragon Thrust Lv6
+| Thanatos Paradise
+|-
+| '''Royal Spear [2]'''
+| 130
+| 30
+| 10
+| 4
+| Spear Boomerang pulls the enemy to the caster<br />
+Ranged Damage +3% per refine
+| Dragon Thrust Lv9
+| Lost Tomb of the King
+|}
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+ [[File:SpearIcon.gif|24x24px|SpearIcon.gif]] Special Two-Handed Spears from dungeons.
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;" | Req.<br />
+Lv
+! style="background: #99d9ea;" | ATK
+! style="background: #99d9ea;" | MATK
+! style="background: #99d9ea;" | Weap.<br />
+Lv
+! style="background: #99d9ea;" | Effects
+! style="background: #99d9ea;" | Innate Bonus
+! style="background: #99d9ea;" | Obtained From
+|-
+| '''Harpoon [2]'''
+| 20
+| 30
+| 0
+| 2
+| Ranged Damage +20%<br />
+Spear Boomerang Cooldown -3s
+| Dragon Thrust Lv6
+| Insect Nest
+|-
+| '''Master Wyrm Spear [1]'''
+| 40
+| 10
+| 10
+| 4
+| Per Level of Spear Mastery:<br />
+ATK+1%<br />
+MATK+1%<br />
+HP+1%<br />
+VIT+1
+| Dragon Thrust Lv10
+| Noble Bathhouse
+|-
+| '''Old King Spear [4]'''
+| 50
+| 22
+| 0
+| 2
+| Dragon Thrust DMG +50%Perfect Hit +2% per refine<br />
+HIT +3 per refine
+| Dragon Thrust Lv10
+| Dewata Volcano
+|-
+| '''Zephyrus [1]'''
+| 50
+| 25
+| 15
+| 4
+| Wind Wyrm Spear<br />
+Wind Cutter DMG+15%<br />
+Wind Cutter Cooldown-1.5s
+| Dragon Thrust Lv8
+| Toy Factory
+|-
+| '''Scorpion Spear [2]'''
+| 60
+| 25
+| 0
+| 2
+| Poison Wyrm Spear<br />
+ASPD+15%<br />
+Critical Rate +10<br />
+Double Attack Lv3 (30%)<br />
+5% chance to poison on attacks
+| Dragon Thrust Lv8
+| Faceworm Nest
+|-
+| '''Draco Horn [2]'''
+| 70
+| 20
+| 10
+| 3
+| Heavy Stab DMG+25%<br />
+VIT+5
+| Dragon Thrust Lv6
+| Dragon Nest
+|-
+| '''Eternal Stalactite Spear [3]'''
+| 80
+| 15
+| 15
+| 4
+| 50% to Autocast Frozen Crash Lv1 when using Dragon Thrust
+| Dragon Thrust Lv1
+| [[Dicastes_Diel_Equipment|Dicastes Diel Exchange]]
+|-
+| '''Dragon Whisker [4]'''
+| 80
+| 35
+| 0
+| 4
+| Range +3<br />
+Defense Pierce +4% per refine
+| Dragon Thrust Lv10
+| Abyss Lake
+|-
+| '''Gaebolg [1]'''
+| 100
+| 40
+| 15
+| 4
+| Crescent Dive Cooldown -2s<br />
+ATK+1% per Refine.<br />
+ASPD+1 per Refine.<br />
+| Dragon Thrust Lv10
+| Sky Garden Exchange
+|-
+| '''Winged Spear [0]'''
+| 110
+| 30
+| 0
+| 3
+| Dragon Claw and Heavy Stab autocast Crescent Dive at 10% chance per refine<br />
+HP+1% per refine
+| Dragon Thrust Lv3
+| Odin Temple Past
+|-
+| '''Spiral Dancer Spear [2]'''
+| 110
+| 38
+| 0
+| 3
+| Per Refine:<br />
+Crescent Dive DMG+3%<br />
+If Refine is +7:<br />
+Crescent Dive Cooldown -2s
+| Dragon Thrust Lv8
+| Invaded Prontera
+|-
+| '''The Tower [3]'''
+| 115
+| 20
+| 35
+| 4
+| Geirskogul DMG+4% per refine<br />
+20% to autocast Geirskogul when casting Phantom Spear
+| Dragon Thrust Lv5
+| Varmundt Mansion
+|-
+| '''Cold Soulspear [3]'''
+| 120
+| 15
+| 40
+| 3
+| Water Wyrm Spear<br />
+Geirskogul has autocasts Frozen Wind Lv 1<br />
+MATK+1% per refine
+| Dragon Thrust Lv1
+| Death's Castle
+|}
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+ [[File:DeckIcon.png|24x24px|DeckIcon.png]] Special Decks from dungeons.
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;" | Req.<br />
+Lv
+! style="background: #99d9ea;" | ATK
+! style="background: #99d9ea;" | MATK
+! style="background: #99d9ea;" | Weap.<br />
+Lv
+! style="background: #99d9ea;" | Effects
+! style="background: #99d9ea;" | Innate Bonus
+! style="background: #99d9ea;" | Obtained From
+|-
+| '''Joker's Orphan [0]'''
+| 0
+| 3
+| 3
+| 1
+| Cannot be Refined<br />
+SP Regen +50%<br />
+Can Use First Hand without any SP cost while equipped.<br />
+| +100 SP Skill Cost Increase.<br />
+Enables SP Recovery while equipped.
+| Orphan Voucher
+|-
+| '''Joker's Wild [0]'''
+| 0
+| 5
+| 5
+| 1
+| ASPD +13<br />
+Recover 100 SP per hit.<br />
+Increases by 14 SP per refine.<br />
+| SP Cost Increase +100%.<br />
+Enables SP Recovery while equipped.
+| Job Change Jester
+|-
+| '''Joker's Calm [0]'''
+| 0
+| 5
+| 5
+| 1
+| ASPD +10<br />
+Increases SP Recovery speed by 25% + 20% per refine.<br />
+| SP Cost Increase +100%.<br />
+Enables SP Recovery while equipped.
+| Insect Nest
+|-
+| '''4 of Hearts [2]'''
+| 25
+| 1
+| 4
+| 2
+| LUK +4<br />
+ASPD+3<br />
+Instant Aces DMG+5%<br />
+| SP Cost Reduction 12%<br />
+No SP Regen while equipped
+| [[Beach Caves]]
+|-
+| '''4 of Spades [2]'''
+| 25
+| 2
+| 2
+| 3
+| LUK +4<br />
+ASPD+3<br />
+| SP Cost Reduction 17%<br />
+No SP Regen while equipped
+| [[Beach Caves]]
+|-
+| '''4 of Diamonds [2]'''
+| 25
+| 2
+| 2
+| 1
+| LUK +4<br />
+DEF+4%<br />
+ASPD+2<br />
+| SP Cost Reduction 12%<br />
+No SP Regen while equipped
+| [[Beach Caves]]
+|-
+| '''4 of Clubs [2]'''
+| 25
+| 4
+| 1
+| 2
+| LUK +4<br />
+ASPD+3<br />
+Double Down DMG+5%<br />
+| SP Cost Reduction 12%<br />
+No SP Regen while equipped
+| [[Beach_Caves|Beach Caves]]
+|-
+| '''5 of Clubs [4]'''
+| 25
+| 4
+| 4
+| 1
+| First Hand DMG+15%<br />
+ASPD+1 per refine<br />
+LUK+5<br />
+| SP Cost Reduction 13%<br />
+No SP Regen while equipped
+| Byalan Island
+|-
+| '''7 of Hearts [2]'''
+| 30
+| 4
+| 6
+| 2
+| Arcana of Destiny SP Cost-30%<br />
+Arcana of Destiny DMG+20%<br />
+LUK+7<br />
+| SP Cost Reduction 15%<br />
+No SP Regen while equipped
+| Orc Dungeon
+|-
+| '''5 of Spades [1]'''
+| 40
+| 3
+| 3
+| 4
+| Per Level of Sleight Mastery and Card Mastery:<br />
+ATK+0.5%<br />
+MATK+0.5%<br />
+SP+1%<br />
+LUK+1
+| SP Cost Reduction 18%<br />
+No SP Regen while equipped
+| Noble Bathhouse
+|-
+| '''6 of Clubs [3]'''
+| 50
+| 5
+| 5
+| 3
+| Double Down DMG+4% per refine<br />
+Long Range Attack +2% per refine<br />
+| SP Cost Reduction 14%<br />
+No SP Regen while equipped
+| Sunken Temple
+|-
+| '''Joker's Laugh [0]'''
+| 60
+| 6
+| 6
+| 3
+| ASPD +5<br />
+Joker's Draw DMG+100%<br />
+Regens 150 SP per kill<br />
+| SP Cost Increase +100%.<br />
+Enables SP Recovery while equipped.
+| Nightmare Clock Tower
+|-
+| '''Jack of Hearts [1]'''
+| 70
+| 1
+| 11
+| 2
+| LUK +10<br />
+10% chance that First Hand will autocast Arcana of Destiny<br />
+SP-20%<br />
+| SP Cost Reduction 5%<br />
+No SP Regen while equipped
+| Waterfall Caves
+|-
+| '''Queen of Diamonds [2]'''
+| 70
+| 6
+| 6
+| 3
+| LUK +11<br />
+5% chance to autocast Lv3 Heal when using Instant Aces<br />
+10% chance to autocast Lv3 Heal when using Double Down<br />
+| SP Cost Reduction 4%<br />
+No SP Regen while equipped
+| Morroc Destruction
+|-
+| '''Ace of Hearts [3]'''
+| 80
+| 1
+| 15
+| 4
+| LUK +1<br />
+2% per refine chance that Instant Aces will autocast Freezing Spear Lv2.<br />
+| SP Cost Reduction 15%<br />
+No SP Regen while equipped
+| [[Dicastes Diel Exchange]]
+|-
+| '''8 of Spades [3]'''
+| 80
+| 7
+| 7
+| 3
+| LUK +8<br />
+Instant Aces DMG +13%<br />
+| SP Cost Reduction 22%<br />
+No SP Regen while equipped
+| Geffenia Antitower
+|-
+| '''9 of Clubs [2]'''
+| 90
+| 9
+| 1
+| 3
+| Gift Card DMG+50%<br />
+Gift Card Cooldown -1s<br />
+LUK+9<br />
+| SP Cost Reduction 17%<br />
+No SP Regen while equipped
+| Kiel Hyre University
+|-
+| '''Ace of Clubs [3]'''
+| 90
+| 15
+| 1
+| 4
+| First Hand DMG+100%<br />
+Double Down DMG+5% per refine<br />
+ATK+1% per refine<br />
+LUK+13<br />
+| SP Cost Reduction 17%<br />
+No SP Regen while equipped
+| Divine Temple of Freya
+|-
+| '''10 of Hearts [4]'''
+| 100
+| 5
+| 9
+| 4
+| Instant Aces activates Combo Ready<br />
+Instant Aces DMG +3% per refine<br />
+| SP Cost Reduction 18%<br />
+No SP Regen while equipped
+| Odin Temple
+|-
+| '''Jack of Diamonds [2]'''
+| 100
+| 6
+| 6
+| 2
+| LUK+10<br />
+Perfect Dodge +2 per refine<br />
+INT+1 per refine<br />
+Lady Luck's Kiss Cooldown -5s<br />
+| SP Cost Reduction 19%<br />
+No SP Regen while equipped
+| [[Ancient_Temple|Ancient Temple]]
+|-
+| '''Joker's Bifrost [0]'''
+| 100
+| 13
+| 13
+| 4
+| ASPD Limit +5<br />
+Recover 42 Max SP per hit per refine.<br />
+Double Natural SP Regeneration speed.<br />
+| SP Cost Increase +100%.<br />
+Enables SP Recovery while equipped.
+| Sky Garden Exchange
+|-
+| '''King of Hearts [4]'''
+| 110
+| 1
+| 14
+| 4
+| LUK +13<br />
+5% chance that Instant Aces will autocast Royal Flush.<br />
+| SP Cost Reduction 15%<br />
+No SP Regen while equipped
+| Varmundt Mansion
+|-
+| '''10 of Diamonds [2]'''
+| 110
+| 5
+| 5
+| 3
+| LUK +10<br />
+Curtain Call DMG+4% per refine<br />
+HP+1% per refine<br />
+HP+10 per refine<br />
+| SP Cost Reduction 18%<br />
+No SP Regen while equipped
+| Horror Toy Factory
+|-
+| '''Queen of Spades [4]'''
+| 130
+| 11
+| 11
+| 4
+| LUK +11<br />
+First Hand autocasts Double Down<br />
+First Hand SP Cost -2% per refine<br />
+| SP Cost Reduction 15%<br />
+No SP Regen while equipped
+| Lost Tomb of the King
+|-
+| '''King of Diamonds [0]'''
+| 130
+| 12
+| 12
+| 4
+| LUK +12<br />
+All Skills have no flat SP Cost (% costs still apply)<br />
+| SP Cost Reduction 100%.<br />
+No SP Regen while equipped
+| Abandoned Castle
+|}
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+ [[File:RevolverIcon.gif|24x24px|RevolverIcon.gif]] Special Revolvers (Mainly obtained through quests, [[Judge_Headquarters|Click here]] for more info).
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;" | Req.<br />
+Lv
+! style="background: #99d9ea;" | ATK
+! style="background: #99d9ea;" | MATK
+! style="background: #99d9ea;" | Weap.<br />
+Lv
+! style="background: #99d9ea;" | Effects
+! style="background: #99d9ea;" | Innate Bonus
+! style="background: #99d9ea;" | Obtained From
+|-
+| '''Royal Revolver [4]'''
+| 15
+| 10
+| 0
+| 1
+| HIT +15<br />
+3% chance to generate a Seal per attack<br />
+Ranged Damage +1% per refine
+| Attack SP Cost: 1<br />
+Special: All Stats +1
+| Job Change Judge
+|-
+| '''Wasteland Revolver [3]'''
+| 25
+| 15
+| 0
+| 1
+| Absolution DMG +3% per Refine<br />
+Ranged Damage +1% per 5 base AGI<br />
+ASPD+1
+| Attack SP Cost: 2<br />
+Special: ASPD+25%
+| Job Quest Basic
+|-
+| '''Long Revolver [2]'''
+| 25
+| 18
+| 0
+| 2
+| Scathe DMG +4% per Refine<br />
+Heavy Shot Knocksback +3 cells
+| Attack SP Cost: 3<br />
+Special: Range +3
+| Job Quest Basic
+|-
+| '''Darksteel Revolver [1]'''
+| 25
+| 21
+| 0
+| 3
+| Death Sentence DMG +3% per Refine<br />
+Move Speed +10%<br />
+After Cast Delay -10%
+| Attack SP Cost: 4<br />
+Special: Def Pierce 15%
+| Job Quest Basic
+|-
+| '''Blessed Revolver [0]'''
+| 25
+| 24
+| 0
+| 4
+| Dragonic Dive DMG +5% per Refine<br />
+HP+2% per refine<br />
+Doesn't drain SP when unequipped
+| Attack SP Cost: 5<br />
+Special: SP +20%
+| Job Quest Basic
+|-
+| '''King of Seas [2]'''
+| 25
+| 25
+| 0
+| 4
+| Normal attacks hit in a small area around target<br />
+Critical Damage +5% per refine
+| Attack SP Cost: 5<br />
+Special: Critical Rate +10
+| Sunken Ship Quest
+|-
+| '''Master Revolver [1]'''
+| 40
+| 10
+| 10
+| 4
+| Per Level of Judgment Mastery:<br />
+ATK+1%<br />
+MATK+1%<br />
+ASPD+1<br />
+DEX+1
+| Attack SP Cost: 3<br />
+Special: Random Options
+| Noble’s Bathhouse
+|-
+| '''Auctoritas Regium [4]'''
+| 50
+| 25
+| 0
+| 4
+| Perfect Hit +15%<br />
+5% chance to generate a Seal per attack<br />
+Ranged Damage +2% per refine
+| Attack SP Cost: 1<br />
+Special: All Stats +3
+| Job Advanced Quest
+|-
+| '''Eternal Ice Heart Revolver [2]'''
+| 80
+| 15
+| 15
+| 4
+| 25% Chance to autocast Freezing Spear Lv7 when attacking or using Absolution.
+| Attack SP Cost: 3<br />
+Special: INT+5
+| [[Dicastes Diel Exchange]]
+|-
+| '''Arenae Sicarius [4]'''
+| 80
+| 20
+| 0
+| 1
+| Absolution DMG +3% per Refine<br />
+Ranged Damage +2% per 5 base AGI<br />
+ASPD+3
+| Attack SP Cost: 2<br />
+Special: ASPD+30%
+| Requires MVP Drop
+|-
+| '''Ignis Divina [3]'''
+| 80
+| 23
+| 0
+| 2
+| Scathe DMG +4% per Refine<br />
+Heavy Shot Knocksback +5 cells
+| Attack SP Cost: 3<br />
+Special: Range +4
+| Requires MVP Drop
+|-
+| '''Aurum Mandatum [2]'''
+| 80
+| 26
+| 0
+| 3
+| Death Sentence DMG +3% per Refine<br />
+Move Speed +15%<br />
+After Cast Delay -15%<br />
+Death Sentence Refills one Seal
+| Attack SP Cost: 4<br />
+Special: Def Pierce 20%
+| Requires MVP Drop
+|-
+| '''Iudex Draco Arma [1]'''
+| 80
+| 29
+| 0
+| 4
+| Dragonic Dive DMG +5% per Refine<br />
+HP+4% per refine<br />
+Removes Variable Cast from Dragonic Dive
+| Attack SP Cost: 5<br />
+Special: SP +30%
+| Requires MVP Drop
+|-
+| '''Rubrum Vestigium [3]'''
+| 100
+| 20
+| 0
+| 4
+| 30% chance to drain 5% damage dealt as HP<br />
+Trigger Heart DMG+3% per refine
+| Attack SP Cost: 2<br />
+Special: SP+100
+| Cursed Monastery qst
+|-
+| '''Tenebris Rosa [4]'''
+| 120
+| 35
+| 0
+| 4
+| Attacks never miss<br />
+Range +1<br />
+ATK+1% per refine<br />
+Trigger Heart Cooldown -0.2s per Refine<br />
+ASPD Limit+2
+| Attack SP Cost: 5<br />
+Special: All Stats +5
+| Requires a Drop +Weap
+|}
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+ [[File:Illuglove2.gif|24x24px|Illuglove2.gif]] Special Gloves.
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;" | Req.<br />
+Lv
+! style="background: #99d9ea;" | ATK
+! style="background: #99d9ea;" | MATK
+! style="background: #99d9ea;" | Weap.<br />
+Lv
+! style="background: #99d9ea;" | Effects
+! style="background: #99d9ea;" | Innate Bonus
+! style="background: #99d9ea;" | Obtained From
+|-
+| '''Illusion Glove [4]'''
+| 10
+| 10
+| 10
+| 4
+| Boosts Real Magic Attack damage by 3% per refine<br />
+Extra 2 MATK per refine
+| Autocast Real Magic Attack on hit at random level and chance<br />
+Attack Range +3
+| Job Change Illusionist
+|-
+| '''Puppet Claws [3]'''
+| 10
+| 5
+| 5
+| 2
+| Enables Potion Pitcher Lv1<br />
+Potion Pitcher Healing Power +15% per refine<br />
+HP +10%
+| Autocast Real Magic Attack on hit randomly<br />
+Attack Range +4
+| Lutie
+|-
+| '''Vermillion Spirit Glove [2]'''
+| 25
+| 25
+| 10
+| 4
+| HP +300<br />
+ASPD Limit +3<br />
+Illusion of Vermillion DMG +25%<br />
+Per Refine:<br />
+HP+50<br />
+ATK+2<br />
+Illusion of Vermillion DMG +5%<br />
+ASPD+1
+| Autocast Real Magic Attack on hit at random level and chance<br />
+Attack Range +3
+| Society Nest Exchange
+|-
+| '''Eternal Mist Glove [3]'''
+| 80
+| 5
+| 10
+| 4
+| Illusion of Mist DMG +10% per refine<br />
+Extra 1 MATK per refine
+| Autocasts Illusion of Mist on hit at random level and chance<br />
+Attack Range +3
+| [[Dicastes Diel Exchange]]
+|-
+| '''Unknown Glove [4]'''
+| 110
+| 3
+| 15
+| 4
+| Real Magic Attack Damage +100%<br />
+Real Magic Attack autocasts Flaming Petals, Freezing Spear and Wind Blade Lv3<br />
+Unique Defensive Mods.
+| None
+| Horror Toy Factory
+|}
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+ [[File:WeapCodex.gif|24x24px|WeapCodex.gif]] Special Codices.
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;" | Req.<br />
+Lv
+! style="background: #99d9ea;" | ATK
+! style="background: #99d9ea;" | MATK
+! style="background: #99d9ea;" | Weap.<br />
+Lv
+! style="background: #99d9ea;" | Effects
+! style="background: #99d9ea;" | Innate Bonus
+! style="background: #99d9ea;" | Obtained From
+|-
+| '''Mimic Codex [0]'''
+| 1
+| 10
+| 10
+| 1
+| All stats +1
+| Abracadabra Cooldown -1 second
+| Mimic Job Change
+|-
+| '''Mimic Codex [1]'''
+| 1
+| 10
+| 10
+| 1
+| All stats +1
+| Abracadabra Cooldown -1 second
+| Upper Pyramid
+|-
+| '''Orphan Codex [0]'''
+| 25
+| 5
+| 5
+| 1
+| EXP Received +10%<br />
+Enables Heal Lv6
+| Abracadabra Cooldown -2 seconds
+| Weapon Voucher
+|-
+| '''Original Codex [4]'''
+| 45
+| 9
+| 9
+| 2
+| Originality Cooldown -5s
+| Abracadabra Cooldown -4 seconds
+| Magma Dungeon
+|-
+| '''Doctor Codex [3]'''
+| 70
+| 7
+| 18
+| 2
+| Abracadabra Autocasts Heal Lv10<br />
+Healing Done +15%
+| Abracadabra Cooldown -1 seconds
+| Abandoned Hospital
+|-
+| '''Sealed Codex [3]'''
+| 100
+| 18
+| 7
+| 3
+| ATK +5%<br />
+Ignores 25% Physical Defense<br />
+After Cast Delay -5% per Refine
+| Abracadabra Cooldown -3 seconds
+| Odin Temple
+|-
+| '''Royal Codex [2]'''
+| 130
+| 20
+| 20
+| 4
+| Fixed Cast Time -0.5 per Refine<br />
+Enables High Jump Lv5
+| Abracadabra Cooldown -3 seconds
+| Lost Tomb of the King
+|}
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+ [[File:WeapCodex.gif|24x24px|WeapCodex.gif]]]] Special Cantrips.
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;" | Req. Base<br />
+Lv
+! style="background: #99d9ea;" | Req. Cantrip Mastery<br />
+Lv
+! style="background: #99d9ea;" | Effects
+! style="background: #99d9ea;" | Obtained From
+|-
+| '''Initiate Cantrips'''
+| 1
+| 0
+| Allows Memorizing :<br />
+Backstab<br />
+Dragon Thrust<br />
+Equinox<br />
+Real Magic Attack
+| Porings<br />
+Black Market
+|-
+| '''Thievery Cantrips'''
+| 10
+| 1
+| Allows Memorizing :<br />
+Double Strafe<br />
+Rolling Cutter<br />
+Envenom
+| Morroc Deserts
+|-
+| '''Healing Cantrips'''
+| 30
+| 3
+| Allows Memorizing :<br />
+Heal<br />
+Knight's Regen<br />
+Lady Luck's Kiss
+| [[Geffen Cave]]
+|-
+| '''Slash Cantrips'''
+| 40
+| 4
+| Allows Memorizing :<br />
+Sweeping Slash<br />
+Shadow Slash<br />
+Wind Slash
+| Turtle Island
+|-
+| '''Arrow Cantrips'''
+| 50
+| 5
+| Allows Memorizing :<br />
+Arrow Shower<br />
+Arrow Vulcan<br />
+Ricochet Arrow
+| Airship Crash Site
+|-
+| '''Fire Cantrips'''
+| 50
+| 5
+| Allows Memorizing :<br />
+Flaming Petals<br />
+Flaming Wave<br />
+Burning Steps
+| Sphinx
+|-
+| '''Water Cantrips'''
+| 50
+| 5
+| Allows Memorizing :<br />
+Freezing Spear<br />
+Frozen Wind<br />
+Illusion of Mist
+| Sunken Ship
+|-
+| '''Wind Cantrips'''
+| 50
+| 5
+| Allows Memorizing :<br />
+Wind Blade<br />
+Zephyr Gust<br />
+Geirskogul
+| Bathhouse
+|-
+| '''Power Cantrips'''
+| 60
+| 6
+| Allows Memorizing :<br />
+Sonic Blow<br />
+Overpower<br />
+Face-off
+| Clock Tower
+|-
+| '''Specialized Cantrips'''
+| 70
+| 7
+| Allows Memorizing 1 Skill per Specialization
+| Alchemist Fortress
+|-
+| '''Expert Cantrips'''
+| 80
+| 8
+| Allows Memorizing :<br />
+Dragon Breath<br />
+Greater Explosion<br />
+Whirling Kunai<br />
+King's Chains
+| Einbroch Deadlands
+|-
+| '''Master Cantrips'''
+| 100
+| 10
+| Allows Memorizing :<br />
+Royal Flush<br />
+Million Stab<br />
+Mass Grave<br />
+Comet<br />
+Underworld Rainstorm
+| Death Castle
+|}
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+[[File:WhipIcon.gif|24x24px|WhipIcon.gif]] Special Whips from dungeons.
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;" | Req.<br />
+Lv
+! style="background: #99d9ea;" | ATK
+! style="background: #99d9ea;" | MATK
+! style="background: #99d9ea;" | Weap.<br />
+Lv
+! style="background: #99d9ea;" | Effects
+! style="background: #99d9ea;" | Innate Bonus
+! style="background: #99d9ea;" | Obtained From
+|-
+| '''Oathguard[2]'''
+| 1
+| 9
+| 9
+| 1
+| Conviction DMG +20%<br />
+Conviction SP cost -10%
+| 7% chance to inflict Silence
+| Job Quest
+|-
+| '''Dawnstar[3]'''
+| 15
+| 13
+| 13
+| 1
+| Eternal Chain DMG +3%/Refine<br />
+Defense Pierce +10%<br />
+Perfect Dodge +5
+| 5% chance to inflict Crystallize
+| [[Insect Society Nest]]
+|-
+| '''Master Whip[1]'''
+| 40
+| 10
+| 10
+| 4
+| Per level of Chain Mastery:<br />
+ATK/MATK +1%<br />
+DEX +1<br />
+HP +1%
+| 4% chance to inflict Stun
+| [[Noble's Bathhouse]]
+|-
+| '''Rosevine[4]'''
+| 50
+| 15
+| 10
+| 3
+| Leech Rate 15%<br />
+Leech Power +2%/Refine<br />
+HP Regen 5%/Refine
+| 9% chance to inflict Poison
+| [[Airship Crash Site]]
+|-
+| '''Chain of Torment[2]'''
+| 70
+| 30
+| 0
+| 3
+| Critical rate +15<br />
+LUK +3<br />
+Critical Damage +3%Refine<br />
+Lashing Andromeda DMG +15%
+| 8% chance to inflict Blind
+| [[Glast Heim]]
+|-
+| '''Eternal Crystal Whip[2]'''
+| 80
+| 15
+| 15
+| 4
+| Whip skills autocasts Freezing Spear<br />
+INT +5
+| 4% chance to inflict Freeze
+| [[Dicastes Diel Exchange]]
+|-
+| '''Swordwhip[1]'''
+| 90
+| 14
+| 14
+| 2
+| Range +2<br />
+ASPD Limit +2<br />
+ASPD +3%/Refine
+| 4% chance to inflict Bleed
+| Observatorium Astrologika
+|-
+| '''Train of Cinders[3]'''
+| 100
+| 5
+| 15
+| 3
+| When using Wrecking Andromeda, casts Flame Petal lvl 5<br />
+Wrecking Andromeda CD -1s<br />
+Fire Element
+| 7% chance to inflict Burn
+| [[Thor Volcano]]
+|-
+| '''Black Hole Sun[4]'''
+| 110
+| 18
+| 12
+| 2
+| Wrecking and Lashing Andromeda DMG +20%<br />
+ATK+4%<br />
+Wrecking and Lashing Andromeda CD +5s
+| 9% chance to inflict Sleep
+| [[Opera House]]
+|-
+| '''Royal Whip[2]'''
+| 130
+| 22
+| 22
+| 4
+| SP Regen +1% per Int<br />
+DMG vs. All Sizes +5%<br />
+Eternal Chain and Conviction receives 1% additional scaling on INT
+| 5% chance to inflict Curse
+| [[Lost Tomb of the King]]
+|}

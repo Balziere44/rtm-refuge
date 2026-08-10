@@ -1,0 +1,926 @@
+= Normal Monster Droppable Costumes =
+
+
+{| class="wikitable mw-collapsible mw-collapsed" style="font-weight:bold; width: 100%;"
+|-
+| style="background-color:#99d9ea; width: 25%""| Costume 
+| style="background-color:#99d9ea; width: 45%""| Costume Name
+| style="background-color:#99d9ea; width: 30%""| Who Drops
+|-
+| [[File:Amisrt hat.GIF]]
+| Costume Amistr hat
+| Amistr/Chaos Amistr [2%]
+|-
+| [[File:Apple of archer.GIF]]
+| Costume Apple of Archer
+| Archer Skeleton [2%]
+|-
+| [[File:Angry Look.GIF]]
+| Costume Angry Look
+| Angry Wanderer [2%]
+|-
+| [[File:Abyss helmet.GIF]]
+| Costume Abyss Helm
+| Abysmal Knight [2%]
+|-
+| [[File:Alice Wig.GIF]]
+| Costume Alice Wig 
+| Alice [2%]
+|-
+| [[File:Alarm Mask.GIF]]
+| Costume Alarm Mask
+| Alarm [2%]
+|-
+| [[File:Aura Quartz.GIF]]
+| Costume Aura Quartz
+| Crystal Dolomedes [2%]
+|-
+| [[File:Arhat Mask.GIF]]
+| Costume Arhat Mask
+| Tamruan [2%]
+|-
+| [[File:Army Cap.GIF]]
+| Costume Army Cap
+| Zombie Guard [2%]
+|-
+| [[File:Believer Mask.GIF]]
+| Costume Believer's Mask
+| Agav/Echio/Isilla/Vanberk [2%]
+|-
+| [[File:Bongun hat.GIF]]
+| Costume Bongun Hat
+| Bongun [2%]
+|-
+| [[File:Bunny Band.GIF]]
+| Costume Bunny Band
+| Strange Crusader [2%]
+|-
+| [[File:Blue Ribbon Band.GIF]]
+| Costume Blue Ribbon Band
+| Maiden of Present [2%]
+|-
+| [[File:Blue Rose Ornament.GIF]]
+| Costume Blue Rose Ornament
+| Cavalier [2%]
+|-
+| [[File:Blue Rose Eyepatch.GIF]]
+| Costume Blue Rose Eyepatch
+| Maiden of Future [2%]
+|-
+| [[File:Black Hand of Fate.GIF]]
+| Costume Black Hand of Fate
+| Spectre Raydric [2%]
+|-
+| [[File:Bao Bao.GIF]]
+| Costume Bao Bao
+| Gwisin Warrior [2%]
+|-
+| [[File:Baby dragon hat.GIF]]
+| Costume Baby Dragon
+| Green Ferus [2%]
+|-
+| [[File:Black cat hat.GIF]]
+| Costume Black Cat
+| Loli Ruri [2%]
+|-
+| [[File:Black cat hood.GIF]]
+| Costume Black Cat Hood
+| Chepet [2%]
+|-
+| [[File:Black frame glasses.GIF]]
+| Costume Black Frame Glasses
+| Gentleman [2%]
+|-
+| [[File:Bunny Headdress.GIF]]
+| Costume Bunny Headdress
+| Spring Rabbit [2%]
+|-
+| [[File:Corsair.GIF]]
+| Costume Corsair
+| Mad Corsair [2%]
+|-
+| [[File:Cursed Scroll.GIF]]
+| Costume Cursed Scroll
+| Silent Ronin [2%]
+|-
+| [[File:Crimson Aura.GIF]]
+| Costume Crimson Aura
+| Decayed Egnigem [2%]
+|-
+| [[File:Cigarette.GIF]]
+| Costume Cigarette
+| Holden [2%]
+|-
+| [[File:Crow Tengu mask.GIF]]
+| Costume Crow Tengu Hat
+| Tengu [2%]
+|-
+| [[File:Chilly breath.GIF]]
+| Costume Chilly Breath
+| Baby Hatii [2%]
+|-
+| [[File:Cuckoo Roof.GIF]]
+| Costume Cuckoo Roof
+| Clock [2%]
+|-
+| [[File:Celestial Hat.GIF]]
+| Costume Celestial Hat
+| Idun Avatar [2%]
+|-
+| [[File:Dark pumkin hat.GIF]]
+| Costume Dark Pumpkin Hat
+| Jakk [2%]
+|-
+| [[File:Drooping alicel.GIF]]
+| Costume Dropping Alicel
+| Alicel [2%]
+|-
+| [[File:Deviruchi hat.GIF]]
+| Costume Deviruchi Hat
+| Deviruchi [2%]
+|-
+| [[File:Drooping Aliot.GIF]]
+| Costume Dropping Aliot
+| Aliot [2%]
+|-
+| [[File:Dragon Skull.GIF]]
+| Costume Dragon Skull
+| Purple Ferus [2%]
+|-
+| [[File:Drosera hairpin.GIF]]
+| Costume Drosera Hairpin
+| Drosera [2%]
+|-
+| [[File:Dolor Thanatos.GIF]]
+| Costume Dolor
+| Dolor of Thanatos [2%]
+|-
+| [[File:Despero Thanatos.GIF]]
+| Costume Despero
+| Despero of Thanatos [2%]
+|-
+| [[File:Dark Stall.GIF]]
+| Costume Dark Stall
+| Abyss Wanderer [2%]
+|-
+| [[File:Dullahan hat.GIF]]
+| Costume Dullahan Mask
+| Gan Ceann [2%]
+|-
+| [[File:Dancing octopus.GIF]]
+| Costume Dancing Octopus
+| Marse [2%]
+|-
+| [[File:Dragon Crown.GIF]]
+| Costume Dragon Crown
+| Black Acidus [2%]
+|-
+| [[File:Drooping nine tails.GIF]]
+| Costume Drooping Nine Tails
+| Nine Tails [2%]
+|-
+| [[File:Dragon Wishes.GIF]]
+| Costume Dragon Wishes
+| Ancient Mimic [2%]
+|-
+| [[File:Disgay's coat.GIF]]
+| Costume Disguise Scarf
+| Disguise [2%]
+|-
+| [[File:Drooping neko crew.GIF]]
+| Costume Dropping Neko Crew
+| Night Ruri [2%]
+|-
+| [[File:Evil druid hat.GIF]]
+| Costume Evil Druid Hat
+| Evil Druid [2%]
+|-
+| [[File:Filir hat.GIF]]
+| Costume Filir
+| Filir/Chaos Filir [2%]
+|-
+| [[File:Flaming Ten gallon hat.GIF]]
+| Costume Flaming Ten Gallon Hat
+| Marilith [2%]
+|-
+| [[File:Fox Doll.GIF]]
+| Costume Fox Doll
+| Nine Tails [2%]
+|-
+| [[File:Fox hat.GIF]]
+| Costume Fox Hat
+| Nine Tails [2%]
+|-
+| [[File:Gothic pumpkin.GIF]]
+| Costume Gothic Pumpkin Hat
+| Jakk [2%]
+|-
+| [[File:Galapago hat.GIF]]
+| Costume Galapago Cap
+| Galapago [3%]
+|-
+| [[File:Gryphon Hat.GIF]]
+| Costume Gryphon Hat
+| Gryphon [2%]
+|-
+| [[File:Gryphon wing ears.GIF]]
+| Costume Gryphon Wing Ears
+| Gryphon  [2%]
+|-
+| [[File:Grand Peco hairband.GIF]]
+| Costume Grand Peco Hairband
+| Grand Peco [2%]
+|-
+| [[File:Green Top hat.GIF]]
+| Costume Green Tophat
+| Forest Creeper [2%]
+|-
+| [[File:Hill Wind Mask.GIF]]
+| Costume Hill Wind Mask
+| Hill Wind Mage [2%]
+|-
+| [[File:Hyegun Hat.GIF]]
+| Costume Hyegun Hat
+| Hyegun [2%]
+|-
+| [[File:Heart Eyepatch.GIF]]
+| Costume Heart Eyebandage
+| Bangungot [2%]
+|-
+| [[File:Heart Shaped Ace.GIF]]
+| Costume Heart-Shaped Ace
+| Joker [2%]
+|-
+| [[File:Hockey Mask.GIF]]
+| Costume Hockey Mask
+| Bloody Murderer [2%]
+|-
+| [[File:Incubus horn.GIF]]
+| Costume Incubus Horn
+| Incubus [2%]
+|-
+| [[File:Ifrit ears.GIF]]
+| Costume Ifrit Ears
+| Hellfire Agni [2%]
+|-
+| [[File:Iron Cain.GIF]]
+| Costume Iron Cain
+| Raydric Knight/Archer [2%]
+|-
+| [[File:Jitterbug hat.GIF]]
+| Costume Jitterbug Cap
+| Opera Jitterbug [2%]
+|-
+| [[File:Khalitz blue.GIF]]
+| Costume Khalitz Helm Blue
+| Khalitzburg Knight [2%]
+|-
+| [[File:Khalitz black.GIF]]
+| Costume Khalitz Helm Black
+| Khalitzburg [2%]
+|-
+| [[File:Kettle hat.GIF]]
+| Costume Kettle Hat
+| Waste Stove [2%]
+|-
+| [[File:Lif Hat.GIF]]
+| Costume Lif
+| Lif/Chaotic Lif [2%]
+|-
+| [[File:Love Rabbit hood.GIF]]
+| Costume Love Rabbit Hood
+| Strange Thief [2%]
+|-
+| [[File:Lady feather hat.GIF]]
+| Costume Lady's Feather Hat
+| Angry Wanderer [2%]
+|-
+| [[File:Leopard ear hat.GIF]]
+| Costume Leopard Ears
+| Baby Leopard [2%]
+|-
+| [[File:Lost TIme.GIF]]
+| Costume Lost Time
+| Navigator [2%]
+|-
+| [[File:Lunatic muffler.GIF]]
+| Costume Lunatic Muffler
+| Eclipse [2%]
+|-
+| [[File:Leaf Cat hat.GIF]]
+| Costume Leaf Cat Hat
+| Leaf Cat [2%]
+|-
+| [[File:Marin earrings.GIF]]
+| Costume Marin Earrings
+| Marin [2%]
+|-
+| [[File:Mini Crown.GIF]]
+| Costume Mini Crown
+| Enchanted Dragon [2%]
+|-
+| [[File:Munak Hat.GIF]]
+| Costume Munak Hat
+| Munak [2%]
+|-
+| [[File:Maero Thanatos.GIF]]
+| Costume Maero
+| Maero of Thanatos [2%]
+|-
+| [[File:Maple falling leaves.GIF]]
+| Costume Maple Falling Leaves
+| Ghost Tree [2%]
+|-
+| [[File:BaphoJr.GIF]]
+| Costume Majestic Goat
+| Baphomet Jr [2%]
+|-
+| [[File:Mine helmet.GIF]]
+| Costume Mine Helmet
+| Knocker [2%]
+|-
+| [[File:Minorous horns.GIF]]
+| Costume Minorous Horns
+| Minorous [2%]
+|-
+| [[File:Ninja Scroll.GIF]]
+| Costume Ninja Scroll
+| Silent Ronin [2%]
+|-
+| [[File:Nine Tail Wig.GIF]]
+| Costume Nine Tails Fox Hair
+| Fire Fox/Cat O nine [2%]
+|-
+| [[File:Nurse cap.GIF]]
+| Costume Nurse Cap
+| Manananggal [2%]
+|-
+| [[File:Odium Thanatos.GIF]]
+| Costume Odium
+| Odium of Thanatos [2%]
+|-
+| [[File:Oracle Doll hat.GIF]]
+| Costume Oracle Doll hat
+| Oracle Spirit [2%]
+|-
+| [[File:Owl Top hat.GIF]]
+| Costume Owl Tophat
+| Owl Duke [2%]
+|-
+| [[File:Poring muffler.GIF]]
+| Costume Poring Muffler
+| Poring [2%]
+|-
+| [[File:Poporing muffler.GIF]]
+| Costume Poporing Muffler
+| Poporing [2%]
+|-
+| [[File:Pirate Bandana.GIF]]
+| Costume Pirate Bandana
+| Pirate Skeleton [2%]
+|-
+| [[File:Pumpkin hat.GIF]]
+| Costume Pumpkin Hat
+| Jakk [2%]
+|-
+| [[File:Pumpkin head.GIF]]
+| Costume Pumpkin Head
+| Jakk [2%]
+|-
+| [[File:Puppy headband.GIF]]
+| Costume Puppy Headband
+| Kobold Archer [2%]
+|-
+| [[File:Ph D hat.GIF]]
+| Costume Ph D Hat
+| Sage Worm [2%]
+|-
+| [[File:Poison spore hat.GIF]]
+| Costume Poison Spore Hat
+| Poison Spore [2%]
+|-
+| [[File:Pipe hat.GIF]]
+| Costume Pipe
+| Giearth [2%]
+|-
+| [[File:Pope Crown.GIF]]
+| Costume Pope Crown
+| Fake Pope [2%]
+|-
+| [[File:Princess veil.GIF]]
+| Costume Princess Veil
+| Princess Tiara [2%]
+|-
+| [[File:Rainbow Poring hat.GIF]]
+| Costume Rainbow Poring Hat
+| Drops [2%]
+|-
+| [[File:Romantic Leaf.GIF]]
+| Costume Romantic Leaf
+| Forest Creeper [2%]
+|-
+| [[File:Runaway Accel.GIF]]
+| Costume Runaway Accelerator
+| Model MCH [2%]
+|-
+| [[File:Requiem of wings.GIF]]
+| Costume Requiem of Wings
+| Abyss Lord [2%]
+|-
+| [[File:Remover hat.GIF]]
+| Costume Remover Hat
+| Remover [2%]
+|-
+| [[File:Ribbon chief hat.GIF]]
+| Costume Ribbon Chef
+| Parus [2%]
+|-
+| [[File:Succubus horn.GIF]]
+| Costume Succubus Horn
+| Succubus [2%]
+|-
+| [[File:Snow Bear Hood.GIF]]
+| Costume Snow Bear Hood
+| Sasquatch [2%]
+|-
+| [[File:Sleeper hat.GIF]]
+| Costume Sleeper Hat
+| Sleeper [2%]
+|-
+| [[File:Spore hat.GIF]]
+| Costume Spore Hat
+| Spore [2%]
+|-
+| [[File:Shelter wing ears.GIF]]
+| Costume Shelter Wing Ears
+| Shelter [2%]
+|-
+| [[File:Santa hat.GIF]]
+| Costume Santa Hat
+| Christmas Cookie [2%]
+|-
+| [[File:Santa hairband.GIF]]
+| Costume Santa hairband
+| Antonio [2%]
+|-
+| [[File:Safety hat.GIF]]
+| Costume Safety Helm
+| Martin [2%]
+|-
+| [[File:Sea otter hat.GIF]]
+| Costume Sea Otter Hat
+| Sea Otter [2%]
+|-
+| [[File:Seal hat.GIF]]
+| Costume Seal Hat
+| Seal [2%]
+|-
+| [[File:Sif hat.GIF]]
+| Costume Sif Hat
+| Sif Avatar [2%]
+|-
+| [[File:There is Something.GIF]]
+| Costume There is Something
+| Drowned Spirit [2%]
+|-
+| [[File:Twin pom santa hat.GIF]]
+| Costume Twin Pom Santa Hat
+| Myst Case [2%]
+|-
+| [[File:Tower manager intercom.GIF]]
+| Costume Tower Manager Incom
+| Tower Manager [2%]
+|-
+| [[File:Unicorn horn.GIF]]
+| Costume Unicorn Horn
+| Enchanted Cornus [2%]
+|-
+| [[File:Vanil hat.GIF]]
+| Costume Vanilmirth
+| Vanilmirth/Chaotic Vanilmirth [2%]
+|-
+| [[File:Vicious Aura.GIF]]
+| Costume Vicious Aura
+| Decayed Lighthalzen Adventurers [2%]
+|-
+| [[File:Vicious stop bandage.GIF]]
+| Costume Vicious Stop Bandage
+| Tarou [2%]
+|-
+| [[File:Wandering Wolf hat.GIF]]
+| Costume Wandering Wolf King
+| Wolf [2%]
+|-
+| [[File:Wild rose hat.GIF]]
+| Costume Wild Rose Hat
+| Wild Rose [2%]
+|-
+| [[File:Abyss helm white.GIF]]
+| Costume White Abyss Helm
+| White Knight [2%]
+|-
+| [[File:Whisper mask.GIF]]
+| Costume Whisper Mask
+| Whisper [2%]
+|-
+| [[File:Wind up key.GIF]]
+| Costume Wind-Up Key
+| Cruiser [2%]
+|-
+| [[File:White Rose Princess.GIF]]
+| Costume White Rose Princess
+| Voice of Sorrow [2%]
+|-
+| [[File:Yoyo hat.GIF]]
+| Costume Yoyo Hat
+| Yoyo [2%]
+|-
+| [[File:Zealotus hat.GIF]]
+| Costume Zealotus Doll
+| Zealotus [2%]
+|}
+
+= MVP Droppable Costumes =
+
+{| class="wikitable mw-collapsible mw-collapsed" style="font-weight:bold; width: 100%;"
+|-
+| style="background-color:#99d9ea; width: 25%""| Costume Sprite
+| style="background-color:#99d9ea; width: 45%""| Costume Name
+| style="background-color:#99d9ea; width: 30%""| Who Drops
+|-
+| [[File:Devil whisper.GIF]]
+| Costume Devil Whisper
+| Corruption Root [3%]
+|-
+| [[File:Rune circlet.GIF]]
+| Costume Rune Circlet
+| Absolute Seyren [60%]
+|-
+| [[File:Black devil mask.GIF]]
+| Costume Black Devil Mask
+| Amdarais [60%]
+|-
+| [[File:Sphinx hat.GIF]]
+| Costume Sphinx Helm
+| Amon Ra [60%]
+|-
+| [[File:Noble Mask.GIF]]
+| Costume Noble Mask
+| Angry Pyuriel [60%]
+|-
+| [[File:Mono Gothic Bonnet.GIF]]
+| Costume Mono Gothic Bonnet
+| Atroce [60%]
+|-
+| [[File:Large majestic goat.GIF]]
+| Costume Majestic Goat
+| Baphomet [60%]
+|-
+| [[File:Opera Phantom mask.GIF]]
+| Costume Opera Masque
+| Baroness of Sorrow [60%]
+|-
+| [[File:Elemental Crown.GIF]]
+| Costume Elemental Crown
+| Baroness of Despair [60%]
+|-
+| [[File:Beelzebub Crown.GIF]]
+| Costume Beelzebub Crown
+| Beelzebub [60%]
+|-
+| [[File:Skull hood.GIF]]
+| Costume Skull Hood
+| Bestia [60%]
+|-
+| [[File:Bijou hat.GIF]]
+| Costume Bijou Hat
+| Bijou [60%]
+|-
+| [[File:Tendrilion hat.GIF]]
+| Costume Tendrilion Hat
+| Black Tendrilion [60%]
+|-
+| [[File:Dragon's helm.GIF]]
+| Costume Dragon's Helm
+| Detardeurus [60%]
+|-
+| [[File:Ancients horn.GIF]]
+| Costume Ancient Horns
+| Bone Detardeurus [60%]
+|-
+| [[File:Snow hair.GIF]]
+| Costume Snow Ice Hair
+| Brinaranea [60%]
+|-
+| [[File:Angelic light.GIF]]
+| Costume Angelic Light
+| Broken Thanatos [60%]
+|-
+| [[File:Celine Ribbon.GIF]]
+| Costume Celine Ribbon
+| Celine Kimi [60%]
+|-
+| [[File:Charleston Antenna.GIF]]
+| Costume Charleston Antenna
+| Charleston [60%]
+|-
+| [[File:Fish head hat.GIF]]
+| Costume Fish Head
+| Coelacanth [60%]
+|-
+| [[File:Whisper tall hat.GIF]]
+| Costume Whisper Tall Hat
+| Dark Lord [60%]
+|-
+| [[File:Rose hairband.GIF]]
+| Costume Rose Headband
+| Dark Rose Dragon [60%]
+|-
+| [[File:Golden Majestic Horns.GIF]]
+| Costume Golden Majestic Goat
+| Desperate Njord [60%]
+|-
+| [[File:Blood sucker.GIF]]
+| Costume Blood Sucker
+| Dracula [60%]
+|-
+| [[File:Dagger in mouth.GIF]]
+| Costume Dagger In Mouth
+| Drake [60%]
+|-
+| [[File:Crown of victory.GIF]]
+| Costume Sword Master Crown
+| Dream of Kings [60%]
+|-
+| [[File:Drooping eddga.GIF]]
+| Costume Drooping Eddga
+| Eddga [60%]
+|-
+| [[File:Loyal Servant.GIF]]
+| Costume Loyal Servant of Devil Morocc
+| Emperor Morroc [60%]
+|-
+| [[File:Greater Horn.GIF]]
+| Costume Greater Horn
+| Satan Morocc [60%]
+|-
+| [[File:Thorny hairband.GIF]]
+| Costume Thorny Hairband
+| Entweihen Crothen [60%]
+|-
+| [[File:Helm of Darkness.GIF]]
+| Costume Helm of Darkness
+| Evil Fanatic [60%]
+|-
+| [[File:Super Novice hat.GIF]]
+| Costume Super Novice Hat
+| Expert Novice [60%]
+|-
+| [[File:Coiled white snake.GIF]]
+| Costume Coiledup Snake Hat
+| Faceworm Queen [60%]
+|-
+| [[File:Amistr Beret.GIF]]
+| Costume Amistr Beret
+| Failed Abomination [60%]
+|-
+| [[File:Mitra.GIF]]
+| Costume Mitra
+| Fallen Bishop [60%]
+|-
+| [[File:Orc hero helm.GIF]]
+| Costume Orc Hero Helm
+| Fallen Orc Hero [60%]
+|-
+| [[File:Cat ears cape.GIF]]
+| Costume Cat Ears Cape
+| First Revenant [60%]
+|-
+| [[File:War Princess Ribbon.GIF]]
+| Costume War Princess Ribbon
+| Forgotten Egnigem [60%]
+|-
+| [[File:Dragon general helm.GIF]]
+| Costume Dragon General Helm
+| General Daehyon [60%]
+|-
+| [[File:Dragon turtle hat.GIF]]
+| Costume Dragon Turtle Hat
+| Turtle General [60%]
+|-
+| [[File:Gobling king mask.GIF]]
+| Costume Goblin Leader Mask
+| Goblin King [60%]
+|-
+| [[File:Freya crown.GIF]]
+| Costume Freya Crown
+| Goddess Freya [60%]
+|-
+| [[File:Golden Gear.GIF]]
+| Costume Golden Gear
+| Golden Thief Bug [60%]
+|-
+| [[File:Moon eyepatch.GIF]]
+| Costume Moon Eyepatch
+| Hatii [60%]
+|-
+| [[File:Book of Magic.GIF]]
+| Costume Book of Magic
+| Himelmez [60%]
+|-
+| [[File:Master of flames.GIF]]
+| Costume Master Of Flames
+| Ifrit [60%]
+|-
+| [[File:Tatenashi.GIF]]
+| Costume Tatenashi Helm
+| Incantation Samurai [60%]
+|-
+| [[File:Jormungandr.GIF]]
+| Costume Jormungandr Shadow
+| Jormungandr [60%]
+|-
+| [[File:First kafra hat.GIF]]
+| Costume First Kafra Hat
+| Kafra Manager Jenni [60%]
+|-
+| [[File:Drooping kiel.GIF]]
+| Costume Drooping Kiel
+| Kiel D-01 [60%]
+|-
+| [[File:Robo Eyes.GIF]]
+| Costume Robot Eyes
+| Kiel DX-03 [60%]
+|-
+| [[File:King poring.GIF]]
+| Costume King Poring Hat
+| King Poring [60%]
+|-
+| [[File:Drooping schmidt.GIF]]
+| Costume Drooping Schmidt
+| King Schmidt [60%]
+|-
+| [[File:Grim reaper protec.GIF]]
+| Costume Grim Reaper Protection
+| Knight Sakray [60%]
+|-
+| [[File:Cat santa hat.GIF]]
+| Costume Cat Santa Hat
+| Stormy Knight [60%]
+|-
+| [[File:Hunting Cap.GIF]]
+| Costume Hunting Cap Of Gust
+| Kobold Leader [60%]
+|-
+| [[File:Evolved blue fish.GIF]]
+| Costume Evolved Blue Fish
+| Kraken [60%]
+|-
+| [[File:Baby polar bear.GIF]]
+| Costume Baby Polar Bear
+| Ktullanux [60%]
+|-
+| [[File:Lady Tanee hat.GIF]]
+| Costume Lady Tanee
+| Lady Tanee [60%]
+|-
+| [[File:Phantom masquerade.GIF]]
+| Costume Phantom Masquerade
+| Lord Of The Dead [60%]
+|-
+| [[File:Deviruchi head.GIF]]
+| Costume Deviruchi Headphone
+| Mark Bearer [60%]
+|-
+| [[File:Diabolic head.GIF]]
+| Costume Diabolic Headphone
+| Mark Bearer [60%]
+|-
+| [[File:Loki mask.GIF]]
+| Costume Loki Mask
+| Master Loki [60%]
+|-
+| [[File:Tiger mask.GIF]]
+| Costume Tiger Mask
+| Miguel [60%]
+|-
+| [[File:Coronet.GIF]]
+| Costume Coronet
+| Mistress [60%]
+|-
+| [[File:Moonlight hat.GIF]]
+| Costume Moonlight Flower Hat
+| Moonlight Flower [60%]
+|-
+| [[File:Sombrero.GIF]]
+| Costume Sombrero
+| MukaMuka [60%]
+|-
+| [[File:Nydd wig.GIF]]
+| Costume Nydhoggur Wig
+| Nydhogg [60%]
+|-
+| [[File:Sacred Torch coronet.GIF]]
+| Costume Sacred Torch Coronet
+| Muspelskoll [60%]
+|-
+| [[File:Welding mask.GIF]]
+| Costume Welding Mask
+| Noble Devourer [60%]
+|-
+| [[File:Orc helm.GIF]]
+| Costume Orc Helm
+| Orc Lord Zombie [60%]
+|-
+| [[File:Piamette hood.GIF]]
+| Costume Piamette Hood
+| Orphan Piamette [60%]
+|-
+| [[File:Bloody Stop bandage.GIF]]
+| Costume Bloody Stop Bandage
+| Osiris [60%]
+|-
+| [[File:Vanargand helm.GIF]]
+| Costume Vanargand Helm
+| Paradox Amdarais [60%]
+|-
+| [[File:Ceremony crown.GIF]]
+| Costume Ceremony Crown
+| Pharaoh [60%]
+|-
+| [[File:Straw hat.GIF]]
+| Costume Straw Hat
+| Phreeoni [60%]
+|-
+| [[File:Crown.GIF]]
+| Costume Crown
+| Queen Maya [60%]
+|-
+| [[File:Tiara.GIF]]
+| Costume Tiara
+| Scaraba Queen [60%]
+|-
+| [[File:Earth master.GIF]]
+| Costume Earth Master
+| Rockullanux [60%]
+|-
+| [[File:Mechanical plant.GIF]]
+| Costume Mechanical Plant Hat
+| RSX-0806 [60%]
+|-
+| [[File:Valk feather band.GIF]]
+| Costume Valkyrie Feather Hat
+| Sarah Irene [60%]
+|-
+| [[File:Fire muffler.GIF]]
+| Costume Fire Muffler
+| Scylla [60%]
+|-
+| [[File:Dark Night veil.GIF]]
+| Costume Dark Night Veil
+| Serpens [60%]
+|-
+| [[File:Mother memory.GIF]]
+| Costume Mother Memory
+| Soul Cage Azrael [60%]
+|-
+| [[File:Stem in mouth.GIF]]
+| Costume Stem in Mouth
+| Shining Plant [60%]
+|-
+| [[File:Wings of sword.GIF]]
+| Costume Wings of Swords
+| Soul of Ymir [60%]
+|-
+| [[File:TwinklingGalaxy.GIF]]
+| Costume Twinkling Galaxy
+| Star Scourge [60%]
+|-
+| [[File:Devil Cap.GIF]]
+| Costume Devil Cap
+| Tao Gunka [60%]
+|-
+| [[File:Decoration of time.GIF]]
+| Costume Decoration Time
+| TIme Holder [60%]
+|-
+| [[File:Reginleif wings.GIF]]
+| Costume Reginleif Hairband
+| Valkyrie Randgris [60%]
+|-
+| [[File:Flapping angel wings.GIF]]
+| Costume Flapping Angel Wing
+| Valkyrie Reginleif [60%]
+|-
+| [[File:Vesper hat.GIF]]
+| Costume Vesper Hat
+| Vesper [60%]
+|-
+| [[File:Saint Frill ribbon.GIF]]
+| Costume Saint Frill Ribbon
+| Gloom Under Night [60%]
+|-
+| [[File:Golden Tiara.GIF]]
+| Costume Golden Tiara
+| Baroness of Blood [60%]
+|}

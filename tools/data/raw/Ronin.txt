@@ -1,0 +1,118 @@
+== <span id="Perfect Blade" class="mw-headline">[[File:Ronin.gif|25x25px|Ronin.gif]]Perfect Blade</span> ==
+
+'''Note:''' Ronin is a special job focused on perfect play. Core Feature of class is high crit rate. All of the Ronin skill can crit.
+
+'''Best:''' High damage potential. High Mobility. High flee and perfect dodge. Defensive options are buff that evades any physical attack.
+
+'''Worst:''' Squishy. Taking any damage removes Damage buffs. High Skill celling.
+
+'''Weapons:''' Swords. Unqiue Scabbard.
+
+
+=== <span id="Gameplay_Identity" class="mw-headline">Gameplay Identity</span> ===
+
+Ronin has high damage potential as long as you keep up buffs and Combo/Finisher Ready status.
+Great movement speed and mobility via offensive skills and passives. High flee rate making Ronin unkillable with good preparation.
+Highest Perfect dodge among all classes.
+
+'''Tranquil battlefield'''
+
+'''An open, flowing cut breeze'''
+
+'''At the Perfect Blade'''
+
+<br />
+
+=== <span id="Core_Gameplay" class="mw-headline">Core Gameplay</span> ===
+
+Ronin excells at dealing critical damage. Main passive skill grants huge critical strike chance for hit penalty. All of the ronin skills can crit.
+
+Way of the blade skill grants buff that increases damage of every skill, and also gives ability to "evade" any physical attack or skill.
+
+Instant Draw is heavy combo skill that increases in hits depending on Ready status you have active.
+
+Void dash is unqiue ranged skill that scales on movement speed, dashing across target and dealing delayed damage.
+
+Ronis Also has unique off-hand scabbard that is given on job change.
+
+== <span id="Skills" class="mw-headline">Skills</span> ==
+
+{| class="wikitable" style="font-weight:normal; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|-
+! style="text-align:center; background-color:#99d9ea;" | Skill
+! style="text-align:center; background-color:#99d9ea;" | Max Level
+! style="text-align:center; background-color:#99d9ea;" | Description
+! style="text-align:center; background-color:#99d9ea;" | Skill Type
+! style="text-align:center; background-color:#99d9ea;" | Details
+! style="text-align:center; background-color:#99d9ea;" | Scaling
+
+|-
+| [[File:PerfectionMastery.gif|26x26px|File:PerfectionMastery.gif]] Perfection Mastery
+| Lv 10
+| Increases Crit rate. Reduces Hit Rate.
+| Passive
+| None
+| None
+|-
+| [[File:Sidestep.GIF|26x26px|File:Sidestep.GIF]] Sidestep Mastery
+| Lv 10
+| Increases Movement speed and Perfect Dodge.
+| Passive
+| None
+| None
+|-
+| [[File:Running.GIF|26x26px|File:Running.GIF]] Sprint
+| Lv 5
+| Quickly runs forward preparing for attacks.
+| Active
+| Enters Finisher Ready on cast.
+| None
+|-
+| [[File:Villain.GIF|26x26px|File:Villain.GIF]] Shatter Villain
+| Lv 5
+| Deals damage and breaks enemy resistance from the inside.
+| Physical Melee
+| Increases neutral damage taken for duration.
+| None
+|-
+| [[File:Watterfall.GIF|26x26px|File:Watterfall.GIF]] Waterfall Breeze
+| Lv 5
+| Increases ATK/MATK.
+| Party-buff
+| Removed on taking damage.
+| None
+|-
+| [[File:Way of the blade.GIF|26x26px|File:Way of the blade.GIF]] Way of the Blade
+| Lv 5
+| Channels power into the blade, granting additional scaling for skills
+| Self-buff
+| Gives Buff that evades physical attack/skills. Lost on taking damage
+| DEX
+|-
+| [[File:Ascending.GIF|26x26px|File:Ascending.GIF]] Ascending Steel
+| Lv 10
+| Strikes an enemy with upward strike.
+| Physical Melee
+| Enters Combo Ready status.
+| INT
+|-
+| [[File:Descending.GIF|26x26px|File:Descending.GIF]] Descending Steel
+| Lv 10
+| Strikes an enemy with downward strike.
+| Physical Melee
+| Enters Finisher Ready status.
+| INT
+|-
+| [[File:Draw.GIF|26x26px|File:Draw.GIF]] Instant Draw
+| Lv 5
+| Instantly Draws blade dealing damage to the enemy
+| Physical Melee
+| Consumes Combo/Finisher ready to repeat the skill.
+| INT/DEX/AGI/ASPD
+|-
+| [[File:Void dash.GIF|26x26px|File:Void dash.GIF]] Void Dash
+| Lv 10
+| Dashes behind enemy, quickly slashing enemy with delayed hits
+| Physical Ranged
+| Increases Damage and has splash while in Finisher Ready status.
+| INT/Movement Speed

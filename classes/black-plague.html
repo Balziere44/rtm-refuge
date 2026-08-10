@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Black Plague | Return to Morroc: Refuge</title>
+<meta name="description" content="Black Plague in Return to Morroc: Refuge - Double axes and diseases. Kills bosses from the inside. Skill list, strengths, weaknesses and what the rebuild changed.">
+<link rel="canonical" href="https://rtmrefuge.pages.dev/classes/black-plague.html">
+
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#06040a">
+<meta name="theme-color" content="#06040a" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f2f0f5" media="(prefers-color-scheme: light)">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Return to Morroc: Refuge">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://rtmrefuge.pages.dev/classes/black-plague.html">
+<meta property="og:title" content="Black Plague | Return to Morroc: Refuge">
+<meta property="og:description" content="Black Plague in Return to Morroc: Refuge - Double axes and diseases. Kills bosses from the inside. Skill list, strengths, weaknesses and what the rebuild changed.">
+<meta property="og:image" content="https://rtmrefuge.pages.dev/assets/social/og-cover.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Return to Morroc: Refuge">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Black Plague | Return to Morroc: Refuge">
+<meta name="twitter:description" content="Black Plague in Return to Morroc: Refuge - Double axes and diseases. Kills bosses from the inside. Skill list, strengths, weaknesses and what the rebuild changed.">
+<meta name="twitter:image" content="https://rtmrefuge.pages.dev/assets/social/og-cover.jpg">
+
+<link rel="icon" href="../assets/img/icon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="../assets/img/icon-180.png">
+<link rel="manifest" href="../site.webmanifest">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+
+<script>
+/* The only blocking script on the site. It has to run before the first paint
+   or the wrong theme shows for a frame. */
+(function () {
+  try {
+    var t = localStorage.getItem('rtmr-theme');
+    if (!t) t = matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+    document.documentElement.dataset.theme = t;
+  } catch (e) {}
+})();
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "item": "https://rtmrefuge.pages.dev/index.html", "name": "Home"},
+    {"@type": "ListItem", "position": 2, "item": "https://rtmrefuge.pages.dev/classes.html", "name": "Classes"},
+    {"@type": "ListItem", "position": 3,  "name": "Black Plague"}
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="shell header-inner">
+    <a class="brand" href="../index.html">
+      <img class="mark" src="../assets/img/icon-192.png" width="34" height="34" alt="" aria-hidden="true">
+      <span class="brand-text">
+        <span class="brand-name">RETURN TO MORROC</span>
+        <span class="brand-sub">Refuge</span>
+      </span>
+    </a>
+    <!-- NAV:START -->
+    <nav class="nav" aria-label="Main">
+      <a href="../index.html">Home</a>
+      <a href="../server.html">The Server</a>
+      <a href="../start.html">Start Here</a>
+      <a href="../classes.html" aria-current="page">Classes</a>
+      <a href="../mechanics.html">Mechanics</a>
+      <a href="../gear.html">Gear</a>
+      <a href="../world.html">World</a>
+      <a href="../guides.html">Guides</a>
+      <a href="../join.html">Join</a>
+    </nav>
+    <!-- NAV:END -->
+    <div class="header-actions">
+      <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch theme">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+          <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" stroke-linejoin="round"/>
+        </svg>
+      </button>
+      <a class="icon-btn" href="https://discord.gg/a5P3PFNMhn" rel="noopener" aria-label="Community chat server">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M19.6 5.6A16 16 0 0 0 15.7 4.4l-.2.4a12 12 0 0 1 3.4 1.7 14 14 0 0 0-12-.6 13 13 0 0 0-1.7.6 12 12 0 0 1 3.4-1.7l-.2-.4A16 16 0 0 0 4.4 5.6C2 9.2 1.3 12.7 1.6 16.2a16 16 0 0 0 4.9 2.5l1-1.6a10 10 0 0 1-1.6-.8l.4-.3a11 11 0 0 0 9.4 0l.4.3a10 10 0 0 1-1.6.8l1 1.6a16 16 0 0 0 4.9-2.5c.4-4-.7-7.5-2.8-10.6zM8.6 14.3c-1 0-1.7-.9-1.7-1.9s.8-1.9 1.7-1.9 1.8.9 1.7 1.9c0 1-.7 1.9-1.7 1.9zm6.3 0c-1 0-1.7-.9-1.7-1.9s.8-1.9 1.7-1.9 1.8.9 1.7 1.9c0 1-.7 1.9-1.7 1.9z"/>
+        </svg>
+      </a>
+      <button class="icon-btn nav-toggle" type="button" data-drawer-open aria-expanded="false" aria-controls="drawer" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+          <path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="drawer" id="drawer" data-open="false" role="dialog" aria-modal="true" aria-label="Menu">
+  <div class="shell">
+    <div class="drawer-head">
+      <span class="eyebrow">Menu</span>
+      <button class="icon-btn" type="button" data-drawer-close aria-label="Close menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+          <path d="M6 6l12 12M18 6L6 18" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+    <!-- DRAWER:START -->
+    <nav aria-label="Mobile">
+      <a href="../index.html">Home</a>
+      <a href="../server.html">The Server</a>
+      <a href="../start.html">Start Here</a>
+      <a href="../classes.html" aria-current="page">Classes</a>
+      <a href="../mechanics.html">Mechanics</a>
+      <a href="../gear.html">Gear</a>
+      <a href="../world.html">World</a>
+      <a href="../guides.html">Guides</a>
+      <a href="../join.html">Join</a>
+    </nav>
+    <!-- DRAWER:END -->
+  </div>
+</div>
+<main id="main">
+<section class="page-hero page-hero--class">
+  <div class="shell">
+    <p class="crumbs"><a href="../index.html">Home</a><span>/</span><a href="../classes.html">Classes</a><span>/</span><span>Black Plague</span></p>
+    <p class="eyebrow">Final job</p>
+    <h1>Black Plague</h1>
+    <p class="lede">Double axes and diseases. Kills bosses from the inside.</p>
+  </div>
+</section>
+
+<div class="shell class-body">
+  <article class="prose">
+      <aside class="callout callout--refuge" aria-labelledby="refuge-black-plague">
+        <h2 id="refuge-black-plague">What the Refuge changed</h2>
+        <ul><li>Enchant Deadly Poison now negates the whole flat defence, not 75% of it.</li><li>Venom Buster cooldown halved; Spiral Blade and Mjolnir's Fall both hit harder.</li></ul>
+      </aside>
+    <dl class="factbar">
+        <div><dt>Tier</dt><dd>Final job</dd></div>
+        <div><dt>Changes from</dt><dd><a href="scoundrel.html">Scoundrel</a></dd></div>
+        <div><dt>Weapons</dt><dd>Dagger, Sword, Katar, Axe</dd></div>
+    </dl>
+      <div class="verdict">
+        <div class="verdict-col verdict-col--good">
+          <h3>Strengths</h3>
+          <p>Many debuff options, high skills scaling, tanky.</p>
+        </div>
+        <div class="verdict-col verdict-col--bad">
+          <h3>Weaknesses</h3>
+          <p>limited potential against some enemy types, very complex rotations and build.</p>
+        </div>
+      </div>
+    <div class="prose-flow">
+      <ul><li>1 Death comes from inside</li><li>1.1 Gameplay Identity</li><li>1.2 Core Gameplay Loop</li><li>2 Skills</li><li>3 Toxins</li></ul>
+      <h2 id="death-comes-from-inside">Death comes from inside</h2>
+      <p>The Black Plague is a job focused on applying different debilitations to an enemy, and using their applied statuses to boost the power of their other skills, alternatively, they can use sheer brute force to kill them with axe skills.</p>
+      <p>The Black Plague is a strong job when correctly used, and almost useless when not correctly built or played. It has important restrictions but these come with massive Pay-off.</p>
+      <h2 id="gameplay-identity">Gameplay Identity</h2>
+      <p>The Black Plague has a variety of tools that can be used to massively boost the power of its skills, according to one's resources, time and skills, this makes them:</p>
+      <p>A very resistant debuff-stacker that can apply cumulative damage based on how much they debilitate their enemy with multiple burst window skills.</p>
+      <p>The Black Plague has many complex rotations. Most of the Axe-side of the tree is very simple to use, albeit with some HP costs and management buffs.</p>
+      <p>It's strongest potential comes on its poison skills. By applying it through many ways (Envenom, Enchant Poison, Venom Splasher...) one can stack a massive venomous bomb into an enemy, ready to be detonated with different means.</p>
+      <p>The Black Plague can also carry Toxins, specific items that can be applied anytime to improve their combat capacity and debuff enemies even further. They may also craft such toxins themselves, which might be preferable for long fights as the materials are much lighter than the toxins themselves.</p>
+      <p>NOTE: The Poison negative status and element have been reworked in Return to Morroc, allowing them to be useful and reliable. Check Stat Changes and Elemental Table for more details.</p>
+      <h2 id="core-gameplay-loop">Core Gameplay Loop</h2>
+      <p>The Black Plague can be a very complex job to manage. Due to the depth of its gameplay style, correctly playing a Black Plague can deal incredible damage and quickly assist any party members due to enemies being very debuffed:</p>
+      <p>Due to the large amount of tools to keep track of, it's important to elaborate the best way to apply all debuffs to a target, in a way you both have sufficient time to apply all of them, and to make use of them.</p>
+      <p>A simple example rotation: Apply poison status with Envenom, Increase poison element strenght with Venom Mark, debuff poison defenses with Death Cloud, deal massive damage with Venom Buster, which deals poison-element extra damage according to poison status and state of target. This can be further expanded with Enchant Deadly Poison, Toxins, Axe skills and many more.</p>
+      <ul><li>It's important to apply Poison status to targets to take full advantage of the kit.</li><li>Against poison-resistant enemies, the Axe skills are not only a backup plan but a very viable strategy.</li><li>Toxins are a strong buff/debuff at the same time, when correctly used, can make impossible situations easier to manage.</li><li>There are many ways to passively deal damage as a Black Plague.</li><li>Building a Black Plague is very complex and many skill can be used regardless of situation. It's important to find a healthy balance of offense and utility to ensure the effectiveness of the job.</li><li>Final Skill: Enchant Deadly Poison (Lv3). A powerful buff that increases the multiplying power of most offensive skills of the Black Plague, adding yet another bonus damage layer.</li></ul>
+      <h2 id="toxins">Toxins</h2>
+      <p>For details on how to obtain or create the Toxins, check Black Market</p>
+      <p>All materials are sold and weight MUCH less than the ready to use toxin, so creating according to use is recommended.</p>
+      <p>All Toxins Increase physical damage dealt by 10%.</p>
+    </div>
+      <section class="section--tight" id="skills">
+        <div class="section-head">
+          <h2>Skills</h2>
+          <p>14 entries, as documented for the world the Refuge inherited.
+             Exact numbers are deliberately not listed - they move with balance passes.</p>
+        </div>
+        <div class="cluster" style="margin-bottom:1rem">
+          <label class="visually-hidden" for="sk">Filter skills</label>
+          <input id="sk" type="search" class="field" placeholder="Filter skills..."
+                 data-filter="skilltable" data-filter-count="skcount">
+          <span class="chip mono" id="skcount">-</span>
+        </div>
+        <div class="table-wrap">
+          <table id="skilltable">
+            <caption class="visually-hidden">Black Plague skills</caption>
+            <thead><tr><th scope="col">Skill</th><th scope="col">What it does</th><th scope="col">Type</th></tr></thead>
+            <tbody>
+        <tr data-row>
+          <th scope="row">Adv. Axe Mastery<span class="skill-max mono">Lv 5</span></th>
+          <td>Increases Axe damage<div class="skill-extra"><span class="skill-note">Also increases hit rate</span><span class="chip chip--sm mono">No</span></div></td>
+          <td><span class="badge sk-passive">Passive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Warring State<span class="skill-max mono">Lv 5</span></th>
+          <td>Increases attack scaling of whole party<div class="skill-extra"><span class="skill-note">Has a very long cast time and high cost</span><span class="chip chip--sm mono">No</span></div></td>
+          <td><span class="badge sk-other">Party-Support</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Horror Scream<span class="skill-max mono">Lv 5</span></th>
+          <td>Screams and breaks concentration of enemies around, adding cast time to skills<div class="skill-extra"><span class="skill-note">Success chance improves with level, also reduces SP(players) and INT</span><span class="chip chip--sm mono">No</span></div></td>
+          <td><span class="badge sk-support">AoE Debuff</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Spiral Blade<span class="skill-max mono">Lv 10</span></th>
+          <td>Deals heavy repeatable damage with the Axe to an enemy, consuming HP<div class="skill-extra"><span class="skill-note">Has a small chance to stun target</span><span class="chip chip--sm mono">VIT</span></div></td>
+          <td><span class="badge sk-physical">Physical Melee</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Rupture Axe<span class="skill-max mono">Lv 10</span></th>
+          <td>Smashes the ground and causes lava to erupt, dealing damage over an area<div class="skill-extra"><span class="skill-note">Eruption damage is fixed, can cause burning and stun</span><span class="chip chip--sm mono">VIT</span></div></td>
+          <td><span class="badge sk-physical">Ground Physical Special</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Mjolnir Fall<span class="skill-max mono">Lv 10</span></th>
+          <td>Consumes a large amount of HP to deal damage over a massive area<div class="skill-extra"><span class="skill-note">Has high scaling potential and AoE coverage</span><span class="chip chip--sm mono">VIT</span></div></td>
+          <td><span class="badge sk-other">AoE Special Ranged</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Adv. Venom Mastery<span class="skill-max mono">Lv 10</span></th>
+          <td>Allows creation of different toxins, materials can be bought in the Black Market<div class="skill-extra"><span class="skill-note">Also increases EDP duration by 60s per level</span><span class="chip chip--sm mono">No</span></div></td>
+          <td><span class="badge sk-passive">Passive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Toxin Creation<span class="skill-max mono">Lv 1</span></th>
+          <td>Creates a toxin by using materials on inventory, amount and chance increases based on Job Level<div class="skill-extra"><span class="skill-note">Instruction Books and Poison Kits are not consumed</span><span class="chip chip--sm mono">No</span></div></td>
+          <td><span class="badge sk-other">Self-Crafting</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Advanced Detoxify<span class="skill-max mono">Lv 1</span></th>
+          <td>Removes any poison-related debuffs on a target<div class="skill-extra"><span class="skill-note">Requires an Antidote, either crafted or from Black Market</span><span class="chip chip--sm mono">No</span></div></td>
+          <td><span class="badge sk-other">Party-Support</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Disease Coating<span class="skill-max mono">Lv 10</span></th>
+          <td>Applies a toxin to the weapon, applying the buffs to cast and debuffs to targets<div class="skill-extra"><span class="skill-note">Debuff applying chance and duration increases per level</span><span class="chip chip--sm mono">No</span></div></td>
+          <td><span class="badge sk-support">Self-Support/Debuff</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Pandemic<span class="skill-max mono">Lv 5</span></th>
+          <td>Spreads the toxin in a smoke over a small area, does not consume the applied toxin<div class="skill-extra"><span class="skill-note">50% chance to apply the toxin effect to targets every 2 seconds</span><span class="chip chip--sm mono">No</span></div></td>
+          <td><span class="badge sk-support">Ground Debuff</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Plague Impress<span class="skill-max mono">Lv 10</span></th>
+          <td>Forcefully applies toxin to target while dispelling weapon toxin<div class="skill-extra"><span class="skill-note">High damage and high cooldown, double damage vs poisoned targets</span><span class="chip chip--sm mono">INT</span></div></td>
+          <td><span class="badge sk-support">Ground Debuff</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Death Cloud<span class="skill-max mono">Lv 10</span></th>
+          <td>Spreads poison in an area, dealing continuous magic damage and applying Inner Poison debuff<div class="skill-extra"><span class="skill-note">Inner poison increases poison element damage taken by target</span><span class="chip chip--sm mono">INT</span></div></td>
+          <td><span class="badge sk-magic">Ground Magic AoE/Debuff</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Living Dead<span class="skill-max mono">Lv 5</span></th>
+          <td>Infuses body with a unique poison that deals constant damage to nearby enemies<div class="skill-extra"><span class="skill-note">Consumes a poison bottle, high cooldown</span><span class="chip chip--sm mono">VIT</span></div></td>
+          <td><span class="badge sk-other">Self-Support Special</span></td>
+        </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    <p class="source-note">Descriptions and the skill list are transcribed from the community wiki for the world the Refuge inherited. Where the Refuge changed something, it is called out above.</p>
+    <nav class="pill-row" aria-label="Other final jobs">
+      <span class="dim">More final jobs:</span> <a class="pill" href="dracomancer.html">Dracomancer</a><a class="pill" href="revenant.html">Revenant</a><a class="pill" href="legend.html">Legend</a><a class="pill" href="pit-boss.html">Pit Boss</a><a class="pill" href="night-raven.html">Night Raven</a><a class="pill" href="satsujin.html">Satsujin</a>
+      <a class="pill pill--strong" href="../classes.html">Full tree</a>
+    </nav>
+  </article>
+</div>
+
+</main>
+<!-- FOOTER:START -->
+<footer class="site-footer">
+  <div class="shell">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="../index.html">
+          <img class="mark" src="../assets/img/icon-192.png" width="34" height="34" alt="" aria-hidden="true">
+          <span class="brand-text">
+            <span class="brand-name">RETURN TO MORROC</span>
+            <span class="brand-sub">Refuge</span>
+          </span>
+        </a>
+        <p class="muted" style="margin-top:1rem;font-size:0.92rem;max-width:34ch">
+          A free, non-commercial hobby world built and run by a handful of players
+          for anyone who wants somewhere unhurried to play.
+        </p>
+        <p class="cluster" style="margin-top:1rem">
+          <a class="btn btn--ghost" href="https://discord.gg/a5P3PFNMhn" rel="noopener">Community chat</a>
+        </p>
+      </div>
+      <div>
+        <h4>Start here</h4>
+        <ul>
+        <li><a href="../server.html">What the Refuge is</a></li>
+        <li><a href="../start.html">New player guide</a></li>
+        <li><a href="../join.html">How to join</a></li>
+        <li><a href="../faq.html">Questions and answers</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>The game</h4>
+        <ul>
+        <li><a href="../classes.html">All 30 classes</a></li>
+        <li><a href="../newjobs.html">Bouncer and Pit Boss</a></li>
+        <li><a href="../mechanics.html">Combat and stats</a></li>
+        <li><a href="../gear.html">Items, refining, shadows</a></li>
+        <li><a href="../world.html">Regions, dungeons, MVPs</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Reference</h4>
+        <ul>
+        <li><a href="../changes.html">Changes from the original</a></li>
+        <li><a href="../database.html">Community database</a></li>
+        <li><a href="../guides.html">Player-written guides</a></li>
+        <li><a href="../llms.txt">llms.txt</a></li>
+        <li><a href="../sitemap.xml">Sitemap</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-legal">
+      Return to Morroc: Refuge is an unofficial, non-commercial fan project with no affiliation to,
+      sponsorship by or endorsement from any game publisher, developer or rights
+      holder. It hosts no commercial storefront, sells nothing, and accepts no
+      real-money trading. All third-party names that appear anywhere on this site
+      belong to their respective owners and are used only to describe gameplay.
+      Nothing here is distributed for profit.
+      <br><br>
+      Built by the community, in the open. Site content is free to copy.
+    </p>
+  </div>
+</footer>
+<!-- FOOTER:END -->
+
+<script src="../assets/js/main.js" defer></script>
+</body>
+</html>

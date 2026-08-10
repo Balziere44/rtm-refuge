@@ -1,0 +1,281 @@
+= Sky Garden Exchange =
+
+Sky Garden Is a custom dungeon with 3 layers of maps with normal mobs and MVP on 3rd Floor.
+
+Every mob drops [[File:Einherjar Soul.GIF|24x24px|link=EinherjarSoul]] '''Einherjar Soul''', 100 of this item can be exchanged for [[File:Odin's blessing.GIF|24x24px|link=OdinBlessing]] '''Odin's Blessing'''.
+Sarah Irene "MVP" and Avatar of Thor also drops [[File:Odin's blessing.GIF|24x24px|link=OdinBlessing]] '''Odin's Blessing'''.
+
+
+[[File:Sky Garden Exchange.GIF|thumb|240px|File:Sky Garden Exchange.GIF|]]
+
+To exchange [[File:Einherjar Soul.GIF|24x24px|link=EinherjarSoul]] '''Einherjar Soul''' for [[File:Odin's blessing.GIF|24x24px|link=OdinBlessing]] '''Odin's Blessing''' , Player would need to meet "Wish Maiden" at the end of the dungeon for both Blessing and Items exchange.
+
+
+
+"'''Swordsman?'''" NPC can teleport player back to the entrance of the dungeon, if you wish to start over.
+
+
+[[File:Swordsman Sky Garden..GIF|left|thumb|150px|File:Swordsman Sky Garden..GIF|]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+= Accessory List: =
+
+'''All Accessories are left side only'''
+{| class = "wikitable mw-collapsible mw-collapsed" style ="normal; text-align = left; width: 100%;
+|-
+! style="background-color:#99d9ea; text-align:center;" | Image
+! style="background-color:#99d9ea; text-align:center;" | Name
+! style="background-color:#99d9ea; text-align:center;" | Description
+! style="background-color:#99d9ea; text-align:center;" | Cost
+|-
+| [[File:Megingjard.GIF|90x75px]]
+| '''Megingjard'''
+| Every 9 base STR gives +1 Bonus STR. Defence Pierce +5%
+| '''1 Odin's Blessing''' [[File:Odin's blessing.GIF|30x30px|link=OdinBlessing]]
+|-
+| [[File:Gleipnir.GIF|90x75px]]
+| '''Gleipnir'''
+| Every 9 Base AGI gives +1 Bonus AGI. ASPD +3
+| '''1 Odin's Blessing''' [[File:Odin's blessing.GIF|30x30px|link=OdinBlessing]]
+|-
+| [[File:Gjallar.GIF|90x75px]]
+| '''Gjallar'''
+| Every 9 Base VIT gives +1 Bonus VIT. Def/Mdef Total +5%
+| '''1 Odin's Blessing''' [[File:Odin's blessing.GIF|30x30px|link=OdinBlessing]]
+|-
+| [[File:Jarngreipr.GIF|90x75px]]
+| '''Jarngreipr'''
+| Every 9 Base DEX gives +1 Bonus Dex. Perfect Hit +5%
+| '''1 Odin's Blessing''' [[File:Odin's blessing.GIF|30x30px|link=OdinBlessing]]
+|-
+| [[File:Brisingamen.GIF|90x75px]]
+| '''Brisingamen'''
+| Every 9 Base INT gives +1 Bonus INT. Magic Defence Pierce +5%
+| '''1 Odin's Blessing''' [[File:Odin's blessing.GIF|30x30px|link=OdinBlessing]]
+|-
+| [[File:Draupnir.GIF|90x75px]]
+| '''Draupnir'''
+| Every 9 Base LUK gives +1 Bonus LUK. Total Crit rate +5%
+| '''1 Odin's Blessing''' [[File:Odin's blessing.GIF|30x30px|link=OdinBlessing]]
+|-
+| [[File:Andvarinaut.GIF|90x75px]]
+| '''Andvarinaut'''
+| HP/SP +5%. 
+
+'''Set Bonus: '''Permanent Endure effect. Revives with full HP/SP, <span style="color:red"> disables Left Accessory stats </span>
+| '''1 Odin's Blessing''' [[File:Odin's blessing.GIF|30x30px|link=OdinBlessing]]
+|}
+
+
+
+= Equipment List: =
+
+{| class = "wikitable mw-collapsible mw-collapsed" style ="normal; text-align = left; width: 100%;
+|-
+! style="background-color:#99d9ea; text-align:center;" | Image
+! style="background-color:#99d9ea; text-align:center;" | Type
+! style="background-color:#99d9ea; text-align:center;" | Name
+! style="background-color:#99d9ea; text-align:center;" | Description
+! style="background-color:#99d9ea; text-align:center;" | Cost
+|-
+| [[File:Wyrmbrand.GIF|90x75px]]
+| style="width: 10%|'''Headgear'''
+| style="width: 10%";|'''Wyrmbrand'''
+| '''HardDef: 5 / HardMdef: 0'''
+ 
+All stats +3. ASPD limit +1.
+
+Recover 500/20 HP/SP on kill [Refine bonus: +100/5 HP/SP]
+| '''3 Odin's Blessing''' [[File:Odin's blessing.GIF|30x30px|link=OdinBlessing]]
+|-
+| [[File:Odin's mask.GIF|90x75px]]
+| style="width: 10%| '''Mid Headgear'''
+| style="width: 10%|'''Odin's Mask'''
+| Heal Cooldown -1 second.
+| '''3 Odin's Blessing''' [[File:Odin's blessing.GIF|30x30px|link=OdinBlessing]]
+|-
+| [[File:Brynhild.GIF|90x75px]]
+| style="width: 10%|'''Body Armor'''
+| style="width: 10%|'''Brynhild'''
+| '''HardDef: 45 / HardMdef: 10'''
+
+'''Per refine:''' +1% HP/SP '''.''' Knockback Immune. <span style="color:red">Healing Recieved -10%</span>
+| '''3 Odin's Blessing''' [[File:Odin's blessing.GIF|30x30px|link=OdinBlessing]]
+|-
+| [[File:Asprika.GIF|90x75px]]
+| style="width: 10%|'''Garment'''
+| style="width: 10%|'''Asprika'''
+| '''HardDef: 10 / HardMdef: 5 / Perfect Dodge: 20'''
+
+All Non-Neutral Resistances + 20%. Total Flee + 20%
+| '''2 Odin's Blessing''' [[File:Odin's blessing.GIF|30x30px|link=OdinBlessing]]
+|-
+| [[File:Sleipnir.GIF|90x75px]]
+| style="width: 10%|'''Shoes'''
+| style="width: 10%|'''Sleipnir'''
+| '''HardDef: 10 / HardMdef: 5 / Movement Speed: 15%'''
+
+Neutral Damage Resistance +5%. ASPD Limit +2. Fixed Cast time -0.2. After Cast Delay -10%
+| '''2 Odin's Blessing''' [[File:Odin's blessing.GIF|30x30px|link=OdinBlessing]]
+|-
+| [[File:Hervor Alvitr.GIF|90x75px]]
+| style="width: 10%|'''Shield'''
+| style="width: 10%|'''Hervor Alvitr'''
+| '''HardDef: 10 / HardMdef: 7 / Autoguard: 10'''
+
+Permanent Endure Effect. HP +5%.
+
+Final Damage Reduction +1% Per Refine.
+| '''4 Odin's Blessing''' [[File:Odin's blessing.GIF|30x30px|link=OdinBlessing]]
+|}
+{| class = "wikitable mw-collapsible mw-collapsed" style ="normal; text-align = left; width: 70%;
+! style="background-color:#99d9ea; text-align:center;" | Set Pieces
+! style="background-color:#99d9ea; text-align:center;" | Set Bonus
+|- 
+|style="width: 50%"; rowspan="2"|
+[[File:Wyrmbrand.GIF|90x75px]] '''Wyrmbrand'''
+
+[[File:Brynhild.GIF|90x75px]] '''Brynhild'''
+
+[[File:Asprika.GIF|90x75px]] '''Asprika'''
+
+[[File:Sleipnir.GIF|90x75px]] '''Sleinpnir'''
+|style="width: 50%"| <span style="color:green">Doubles Max HP/SP.</span>
+
+<span style="color:red">Disables Natural Regeneration.</span>
+
+<span style="color:red">Healing recieved -50%.</span>
+|}
+
+= Weapon List: =
+
+
+{| class = "wikitable mw-collapsible mw-collapsed" style ="normal; text-align = left; width: 100%;
+|-
+! style="background-color:#99d9ea; text-align:center;" | Image
+! style="background-color:#99d9ea; text-align:center;" | Weapon Type
+! style="background-color:#99d9ea; text-align:center;" | Name
+! style="background-color:#99d9ea; text-align:center;" | Description
+! style="background-color:#99d9ea; text-align:center;" | Cost
+|-
+| [[File:Joker's bifrost.GIF|90x75px]]
+| '''Deck of Cards'''
+| '''Joker's Bifrost'''
+| Weapon Level: 4 / ATK: 13 / MATK: 13 / <span style="color:red">SP cost +100%</span>
+
+ASPD Limit +5. Doubles SP regen.
+
+'''Per Refine +42 SP on hit.'''
+| '''4 Odin's Blessing''' [[File:Odin's blessing.GIF|30x30px|link=OdinBlessing]]
+|-
+| [[File:Gungnir.GIF|90x75px]]
+| '''Spear'''
+| '''Gungnir'''
+| Weapon Level: 4 / ATK: 30 / MATK: 35 / Dragon Thrust: 9
+
+Geirskogul Cooldown -3 sec.
+
+'''Per Refine +1% MATK/150HP.'''
+| '''4 Odin's Blessing''' [[File:Odin's blessing.GIF|30x30px|link=OdinBlessing]]
+|-
+| [[File:Gaebolg.GIF|90x75px]]
+| '''Wyrm Spear'''
+| '''Gaebolg'''
+| Weapon Level: 4 / ATK: 40 / MATK: 15 / Dragon Thrust: 10
+
+Crescent Dive cooldown -2 sec.
+
+'''Per Refine +1% ASPD/ATK.'''
+| '''4 Odin's Blessing''' [[File:Odin's blessing.GIF|30x30px|link=OdinBlessing]]
+|-
+| [[File:Balmung.GIF|90x75px]]
+| '''Sword'''
+| '''Balmung'''
+| Weapon Level: 4 / ATK: 40 / MATK: 40 / Defence Pierce: 25%
+
+HP/SP +7%
+
+'''Per Refine -3% SP Cost.'''
+| '''4 Odin's Blessing''' [[File:Odin's blessing.GIF|30x30px|link=OdinBlessing]]
+|-
+| [[File:Laevateinn.GIF|90x75px]]
+| '''Dagger'''
+| '''Laevateinn'''
+| Weapon Level: 4 / ATK: 40 / MATK: 40 / Double Attack: 10
+
+ATK/MATK +10%
+
+'''Per Refine -3% SP Cost '''
+| '''4 Odin's Blessing''' [[File:Odin's blessing.GIF|30x30px|link=OdinBlessing]]
+|-
+| [[File:Mjolnir.GIF|90x75px]]
+| '''Axe'''
+| '''Mjolnir'''
+| Weapon Level: 4 / ATK: 40 / MATK: 40 / Splash Range: 4
+
+All Stats +3. Weight Limit +1000.
+
+'''Per Refine +1% Def/Mdef Pierce.''' 
+| '''4 Odin's Blessing''' [[File:Odin's blessing.GIF|30x30px|link=OdinBlessing]]
+|-
+| [[File:Dansleif.GIF|90x75px]]
+| '''Katar'''
+| '''Dansleif'''
+| Weapon Level: 4 / ATK: 40 / MATK: 15 / Critical Damage Bonus: 25%
+
+ASPD +5. Flee +10. After Cast Delay -15%. SP Regeneration +20%
+
+'''Per Refine +3 Critical Rate.'''
+| '''4 Odin's Blessing''' [[File:Odin's blessing.GIF|30x30px|link=OdinBlessing]]
+|-
+| [[File:Fleinn.GIF|90x75px]]
+| '''Bow'''
+| '''Fleinn'''
+| Weapon Level: 4 / ATK: 40 / MATK: 10 / Attack Range: +10/ Attack SP cost: 10
+
+SP + 100. Ranged Damage +7%
+
+'''Per Refine +3% Perfect Hit.'''
+| '''4 Odin's Blessing''' [[File:Odin's blessing.GIF|30x30px|link=OdinBlessing]]
+|-
+| [[File:Pesta.GIF|90x75px]]
+| '''Scythe'''
+| '''Pesta'''
+| Weapon Level: 4 / ATK: 40 / MATK: 35 / Leech Rate/Power: 100/50%
+
+'''Per Refine +3 Perfect Dodge.'''
+
+<span style="color:red">Disables Direct Healing.</span>
+| '''4 Odin's Blessing''' [[File:Odin's blessing.GIF|30x30px|link=OdinBlessing]]
+|}
+
+
+= Costume List: =
+
+
+{| class = "wikitable mw-collapsible mw-collapsed" style ="normal; text-align = left; width: 100%;
+|-
+! style="background-color:#99d9ea; text-align:center;" | Image
+! style="background-color:#99d9ea; text-align:center;" | Name
+! style="background-color:#99d9ea; text-align:center;" | Cost
+|-
+| [[File:Wyrmbrand.GIF|90x75px]]
+| '''Costume Wyrmbrand'''
+| '''5 Odin's Blessing''' [[File:Odin's blessing.GIF|30x30px|link=OdinBlessing]]
+|-
+| [[File:Odin's mask.GIF|90x75px]]
+| '''Odin's Mask'''
+| '''5 Odin's Blessing''' [[File:Odin's blessing.GIF|30x30px|link=OdinBlessing]]
+|}

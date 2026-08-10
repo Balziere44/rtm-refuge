@@ -1,0 +1,203 @@
+== <span id="Quick_barrage_before_any_reaction" class="mw-headline">[[File:Jester.gif|25x25px|link=Jester]]Quick barrage before any reaction</span> ==
+
+<div class="thumb tleft">
+
+<div class="thumbinner" style="width:130px;">
+
+[[File:128px-JesterCharacter.png|128x135px|class=thumbimage|link=JesterCharacter]]
+<div class="thumbcaption">
+
+<div class="magnify">
+
+[[File_JesterCharacter.html|File_JesterCharacter.html]]
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+'''Jesters''' are medium ranged card fighters that deal quick and constant damage while burning through their huge SP pool.
+
+The Jester core-mechanic is ''weapon swapping'', as it can't recover SP naturally while fighting with Deck cards, needing to swap into a Shuffling Deck to recover SP in many different ways.
+
+Its skills are a mix of physical and magical damage, with multiple combo interactions, allowing for creative and adaptive gameplay.
+
+The Quest necessary for becoming a Jester can be found at the [[Job Quests]] page under the Unique Tree section.
+
+* '''Pros:''' Fast skill use, easy to play, multiple playstyles and builds, massive SP Pool.
+
+* '''Cons:''' Weapon swapping can be hard to master, medium ranged, low defense and defensive options.
+
+* '''Weapon:[[File:DeckIcon.png|24x24px|link=DeckIcon]] =''' Decks, Shuffling Decks
+* '''Main Stats:''' LUK, INT, DEX
+
+== <span id="Identity" class="mw-headline">Identity</span> ==
+
+As defining characteristics, the Jester class has:
+
+* LUK and INT as core status for skill damage scaling.
+* A two (or more) '''weapon-swap mechanic''', one mainly for recovering SP (the Joker or ''Shuffling-Deck'' cards) and other for dealing damage (the Suits or ''deck'' cards).
+* ASPD-Based animation for its skills (which have short to zero cast time).
+* A very large SP pool, but with very high SP costs.
+* Magic, Physical or Hybrid build options.
+* Combo-based interactions.
+
+This makes the Jester Class a “'''Rapid Fire Skill Caster, with coverage of both physical and magical damage, with an SP reloading mechanic on weapon swap.'''”
+
+== <span id="Weapons" class="mw-headline">[[Weapons]]</span> ==
+
+The Jester uses Cards ([[File:DeckIcon.png|24x24px|link=DeckIcon]]), which are divided in two types: the Deck and the Shuffling deck cards. Both types are '''two-handed''' and exclusive to the class.
+
+==== <span id="Deck_.28or_Suits.29_Cards"></span><span id="Deck_(or_Suits)_Cards" class="mw-headline">Deck (or Suits) Cards</span> ====
+
+Allows the use of spells, being the damage dealing card. They have an innate ''sp reduction'' passive, but also '''lock you out of natural SP regeneration'''.
+
+Currently, there are four type of Deck cards:
+
+♠ '''''Spades''''' (Balanced): provides a balanced amount of ATK and MATK, with options to increase damage of magic or physical skills and increased ''sp reduction''.
+
+♣ '''''Clubs''''' (Physical Attack): for physical builds, provides a great amount of ATK and bonus for skills such as ''First Hand'' [[File:Firsthand.gif|26x26px|link=Firsthand]].
+
+♥ '''''Hearts''''' (Magic Attack): for magical builds, provides a great amount of MATK and bonus for skills such as ''Instant Aces'' [[File:Instantaces.gif|26x26px|link=Instantaces]].
+
+♦ '''''Diamonds''''' (Defensive): a more defensive option, provides bonus to defensive attributes.
+
+==== <span id="Joker_.28or_Shuffling_Deck.29_Cards"></span><span id="Joker_(or_Shuffling_Deck)_Cards" class="mw-headline">Joker (or Shuffling Deck) Cards</span> ====
+
+Joker Cards allow '''natural SP regeneration''' while also improving/creating other means of SP recovery. However, it '''disables the use of most offensive spells'''.
+
+While technically not locking you out of defensive spells, such &quot;Heal&quot; and &quot;Hiding&quot;, using them with a Joker Card equipped '''will consume a large amount of SP'''.
+
+== <span id="Gameplay" class="mw-headline">Gameplay</span> ==
+
+Jesters have a great freedom of skill rotation options, both for magic and physical variants, based on '''combo or ability spam''' playstyles.
+
+Nonetheless, due to its low defensive status and overall lack of defensive spells, a mastery (or mix) of both styles is recommended for succeding in different situations.
+
+==== <span id="Offensive_skills" class="mw-headline">Offensive skills</span> ====
+
+* Physical combos use as a common opener the '''First Hand''' [[File:Firsthand.gif|26x26px|link=Firsthand]], following up with Double Down [[File:Doubledown.gif|26x26px|link=Doubledown]] or Arcana of Destiny [[File:Arcanaofdestiny.gif|26x26px|link=Arcanaofdestiny]].
+* Using '''Joker's Draw''' [[File:Jokerdraw.gif|26x26px|link=Jokerdraw]] (which require '''Stack Deck''') as it activates combo followup.
+* As a desperation act, jesters can call the '''Curtain Call''' [[File:Curtaincall.gif|26x26px|link=Curtaincall]] to consume all HP (but 1) to deal heavy damage to a single target under a high risk of retaliation.
+* '''Instant Aces''' [[File:Instantaces.gif|26x26px|link=Instantaces]] is a quick spell that can be spammed without combo interactions, providing a simple spam alternative.
+* '''Royal Flush''' [[File:Royalflush.gif|26x26px|link=Royalflush]] can be used as a final combo skill for a heavy magic AoE against enemies.
+
+==== <span id="Defensive_skills" class="mw-headline">Defensive skills</span> ====
+
+* '''Deflect Blades'''[[File:Deflectblades.gif|26x26px|link=Deflectblades]] provides a damage reduction and retaliation against some enemy attacks. However, there are some ''risks'' to it due to the skill animation.
+* '''Lady Luck's Kiss''' [[File:Ladyluckkiss.gif|26x26px|link=Ladyluckkiss]] is the only supportive spell available for Jesters, removing most ''Abnormal Status'', even on yourself.
+
+== <span id="Skills" class="mw-headline">Skills</span> ==
+
+{|class="wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+! style="background: #99d9ea;" | Skill
+! style="background: #99d9ea;" |Max Level
+! style="background: #99d9ea;" |Description
+! style="background: #99d9ea;" |Skill Type
+! style="background: #99d9ea;" |Detailed Information
+! style="background: #99d9ea;" |Scaling
+|-
+| [[File:Cardmastery.gif|26x26px|link=Cardmastery]] Card Mastery
+| Lv 7
+| Increases attack and attack speed with decks
+| Passive
+| N/A
+| None
+|-
+| [[File:Sleightmastery.gif|26x26px|link=Sleightmastery]] Sleight Mastery
+| Lv 7
+| Increases flee and grants a chance of dodging magical damage
+| Passive
+| N/A
+| None
+|-
+| [[File:Firsthand.gif|26x26px|link=Firsthand]] First Hand
+| Lv 7
+| Deals light damage and causes a random short duration debuff. Combo opener.
+| Ranged Physical
+| Can reduce defense, reduce speed, reduce attack or deal double damage.<br />
+Does activate Combo Ready.
+| LUK
+|-
+| [[File:Doubledown.gif|26x26px|link=Doubledown]] Double Down
+| Lv 7
+| Deals 2 hits to an enemy with a small chance to cause bleeding
+| Ranged Physical
+| Increased damage if Combo Ready is active<br />
+Can land critical hits.
+| LUK
+|-
+| [[File:Instantaces.gif|26x26px|link=Instantaces]] Instant Aces
+| Lv 7
+| Deals quick damage to an enemy and anyone around in a small area
+| Magic Targeted-AoE
+| Splits damage amongst all targets.<br />
+Deals Small Knockback.
+| INT/LUK
+|-
+| [[File:Arcanaofdestiny.gif|26x26px|link=Arcanaofdestiny]] Arcana of Destiny
+| Lv 7
+| Deals magic damage to an single enemy
+| Magic Targeted
+| Increased damage if Combo Ready is active.
+| INT/LUK
+|-
+| [[File:Giftcard.gif|26x26px|link=Giftcard]] Gift Card
+| Lv 7
+| Deals heavy area damage to all enemies around a target
+| Physical Ranged Targeted-AoE
+| Increased damage if Combo Ready is active.<br />
+Has 100% Perfect Hit Rate.
+| LUK
+|-
+| [[File:Royalflush.gif|26x26px|link=Royalflush]] Royal Flush
+| Lv 7
+| Summons pure energy against a small area of enemies
+| Magic Targeted-AoE
+| Increased damage if Combo Ready is active.
+| LUK/INT
+|-
+| [[File:Stackdeck.gif|24x24px|link=Stackdeck]] Stack Deck
+| Lv 1
+| Enables drawing Jokers when attacking the enemy with basic attacks
+| Stance
+| When it activates, Joker's Draw can be quickly activated for a follow-up hit.
+| None
+|-
+| [[File:Jokerdraw.gif|26x26px|link=Jokerdraw]] Joker's Draw
+| Lv 7
+| Deals heavy damage against targeted enemy. Requires Stack Deck activation
+| Ranged Physical
+| Requires Stack Deck Activation.<br />
+Knocks back other monsters near the target.
+| LUK
+|-
+| [[File:Ladyluckkiss.gif|26x26px|link=Ladyluckkiss]] Lady Luck's Kiss
+| Lv 7
+| Heals an ally and cures a large variety of status effects
+| Support
+| Can heal stone, freezing, stun, poison, blind, silence, hallucination and burning.<br />
+Higher skill level increases success chance.
+| None
+|-
+| [[File:Deflectblades.gif|26x26px|link=Deflectblades]] Deflect Blades
+| Lv 7
+| Parries some physical attacks back to the enemy, reflecting half the damage taken
+| Self-Support
+| Hits deflected are same amount as skill level.<br />
+Works against Swords, Daggers and Scythes on PvP.
+| None
+|-
+| [[File:Curtaincall.gif|26x26px|link=Curtaincall]] Curtain Call
+| Lv 7
+| Sacrifices current HP to deal heavy damage to a single target, reducing HP to 1
+| Special Ranged Damage
+| Can't be boosted by ranged modifiers. Deals damage based on HP and current SP.
+| LUK
+|}
+
+== <span id="Notes" class="mw-headline">Notes</span> ==
+
+* Jesters are mentioned in the &quot;Plant Farming&quot; Achievement due to their Job Change Quest.

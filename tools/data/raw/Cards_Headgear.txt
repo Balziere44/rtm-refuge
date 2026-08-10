@@ -1,0 +1,1077 @@
+You are currently looking at '''Headgear''' cards, click below to check other slots!
+
+{| class="wikitable sortable" style="text-align: left; width:100%;"
+|-
+! style="background: #99d9ea; padding:5px" rowspan="2"| Card name
+! style="background: #99d9ea; padding:5px" rowspan="2"| Effect
+! style="background: #99d9ea; padding:5px" rowspan="2"| Detail
+! style="background: #dfce1f; padding:5px; text-align:center" colspan="3"| Mob information
+|-
+! style="background: #dfce1f; padding:5px"| Mob Lv.
+! style="background: #dfce1f; padding:5px"| Type
+! style="background: #dfce1f; padding:5px"| Location
+|-
+| [[File:CardIcon.gif|24x24px]]'''Abyss Lord Card'''
+| Magic Defense Piercing +5%
+| Lower Headgear
+|align="center"| 125
+|align="center"| [[File:BossIcon.png|13x11px|BossIcon.png]] Mini Boss
+|align="center"| [[Glast Heim (Distortion)]]
+|-
+| [[File:CardIcon.gif|24x24px|CardIcon.gif]]'''Abyss Mimic Card'''
+| Drop Rate +1% per refine<br />
+SP-2% per refine
+| Upper Headgear
+|align="center"| 112
+|align="center"| Normal
+|align="center"| [[Abyss Lake Distortion]]
+|-
+| [[File:CardIcon.gif|24x24px|CardIcon.gif]]'''Amdarais Card'''
+| ASPD Limit +2<br />
+HP/SP-20%
+| Mid Headgear
+|align="center"| 120
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]] MVP
+|align="center"| [[Old Glast Heim (Distortion)]]
+|-
+| [[File:CardIcon.gif|24x24px|CardIcon.gif]]'''Ancient Mimic Card'''
+| Zeny Limit on kill +20
+| Upper Headgear
+|align="center"| 94
+|align="center"| Champion
+|align="center"| [[Abyss_Lake|Abyss Lake]]
+|-
+| [[File:CardIcon.gif|24x24px|CardIcon.gif]]'''Angel of Genesis Card'''
+| For each base stat over 98:<br />
+ATK+2%
+| Lower Headgear
+|align="center"| 150
+|align="center"| Normal
+|align="center"| [[Jormungandr's Lair]]
+|-
+| [[File:CardIcon.gif|24x24px|CardIcon.gif]]'''Angry Wanderer Card'''
+| Arrow Vulcan Cooldown -0.5s
+| Mid Headgear
+|align="center"| 49
+|align="center"| [[File:BossIcon.png|13x11px|BossIcon.png]]MiniBoss
+|align="center"| [[Noble's Bathhouse]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Apocalipse Card'''
+| DMG vs Undead Element +5%
+| Any Slot
+|align="center"| 93
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Juperos|Juperos]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Archdam Card'''
+| DMG vs Water Element +5%
+| Any Slot
+|align="center"| 92
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Juperos|Juperos]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Ascended Follower Card'''
+| EXP+15%<br />
+Drop Rate -50%
+| Mid Headgear
+|align="center"| 144
+|align="center"| Champion
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Divine_Temple_of_Freya|Divine Temple of Freya]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Baby Hatii Card'''
+| Enables Storm Gust Lv 1
+| Lower Headgear
+|align="center"| 84
+|align="center"| Champion
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Snow_Fields|Snow Fields]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Banshee Card'''
+| If Base INT is over 98:<br />
+INT+5
+| Low Headgear
+|align="center"| 101
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Cursed_Monastery|Cursed Monastery]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Baphomet Card'''
+| Roaring Overslash Cooldown -0.5s
+| Mid Headgear
+|align="center"| 50
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]]  MVP
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Forest_Maze|Forest Maze]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Baphomet Jr. Card'''
+| Total Critical Rate +15%
+| Upper Headgear
+|align="center"| 45
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Forest_Maze|Forest Maze]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Baphomet's Shadow Card'''
+| Roaring Overslash DMG+10%
+| Low Headgear
+|align="center"| 48
+|align="center"| Champion
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Forest_Maze|Forest Maze]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Baroness of Despair Card'''
+| 1% chance when damaging enemy with non-magic attacks to deal extra 2% max HP of target as direct damage
+| Low Headgear
+|align="center"| 95
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]]  MVP
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Waterfall_Caves|Waterfall Caves]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Beelzebub Card'''
+| Umbral Cut DMG +50%Umbral Cut SP Cost +200%
+| Mid Headgear
+|align="center"|
+|align="center"|
+|align="center"|
+|-
+| [[File:CardIcon.gif|24x24px]]'''Bigfoot Card'''
+| Move Speed +10%<br />
+HP -5%<br />
+SP -5%
+| Headgear
+|align="center"| 10
+|align="center"| Champion
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Payon_Forest|Payon Forest]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Bijou Card'''
+| Regain 100 SP on kill<br />
+Leech 5 SP per attack<br />
+Max SP -50%
+| Lower Headgear
+|align="center"| 120
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]]  MVP
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Prontera_Distortion|Invaded Prontera]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Black Swordfish Card'''
+| Enables Dual Cast Lv4
+| Headgear
+|align="center"| 110
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Ancient_Temple|Ancient Temple]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Broken Thanatos Card'''
+| Night Menace DMG+25%<br />
+HP-50%
+| Mid Headgear
+|align="center"| 150
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]]  MVP
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Thanatos_Paradise|Thanatos Paradise]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Celine Kimi Card'''
+| Real Magic Attack DMG+50%
+| Mid Headgear
+|align="center"| 125
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]]  MVP
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Horror_Toy_Factory|Horror Toy Factory]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Charleston Card'''
+| Axe Tornado Cooldown -1s<br />
+Axe Tornado DMG+50%
+| Mid Headgear
+|align="center"| 130
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]]  MVP
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Ancient_Verus_Laboratory|Ancient Verus Laboratory]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Corrupted Shinobi Card'''
+| Makibishi Cooldown -3s
+| Mid Headgear
+|align="center"| 94
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Amatsu_Dungeon|Amatsu Dungeon]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Creamy Card'''
+| Teleport Cooldown -10s
+| Mid Headgear
+|align="center"| 10
+|align="center"| Champion
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Prontera_Fields|Prontera Fields]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Cruiser Card'''
+| Ranged Damage +3%
+| Headgear
+|align="center"| 71
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Toy_Factory|Toy Factory]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Dark Lord Card'''
+| Magic Defense Piercing +2% per refine
+| Upper Headgear
+|align="center"| 95
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]]  MVP
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Glast_Heim|Glast Heim - Church]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Dark Rose Dragon Card'''
+| Attack Range +2<br />
+HP-15%<br />
+SP-15%
+| Lower Headgear
+|align="center"| 105
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]]  MVP
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Grey_Forest|Grey Forest]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Demon Pungus Card'''
+| Adds 0.5% per base INT scaling to the skill:<br />
+Envenom
+| Upper Headgear
+|align="center"| 62
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Einbroch_Fields|Einbroch Fields]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Demon of Apocalypse Card'''
+| For each base stat over 98:<br />
+MATK+2%
+| Lower Headgear
+|align="center"| 150
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Jormungandr%27s_Lair|Jormungandr's Lair]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Depths Dollocaris Card'''
+| Immune to Curse
+| Headgear
+|align="center"| 92
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Waterfall_Caves|Waterfall Caves]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Detardeurus Card'''
+| When using Dragon Claw automatically changes into Dragon Force Stance for spear skills
+| Mid Headgear
+|align="center"| 100
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]]  MVP
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Abyss_Lake|Abyss Lake]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Devoted Knight Card'''
+| Immune to Confusion<br />
+SP+5%
+| Headgear
+|align="center"| 143
+|align="center"| Champion
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Lost_Tomb_of_the_King|Lost Tomb of the King]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Dimik Card'''
+| DMG vs Earth Element +5%
+| Any Slot
+|align="center"| 93
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Juperos|Juperos]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Dollocaris Card'''
+| Immune to Blind
+| Headgear
+|align="center"| 91
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Waterfall_Caves|Waterfall Caves]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Dream of Kings Card'''
+| Defense Piercing +2% per refine
+| Upper Headgear
+|align="center"| 110
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]]  MVP
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Glast_Heim|Glast Heim - Central Castle]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Driller Card'''
+| Adds 0.2% per base AGI scaling to the skill:<br />
+Backstab
+| Upper Headgear
+|align="center"| 61
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Einbroch_Fields|Einbroch Fields]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Dustiness Card'''
+| Enables Perfect Hiding
+| Mid Headgear
+|align="center"| 97
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Rachel_Fields|Rachel Fields]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Elvira Card'''
+| DMG vs Wind Element +5%
+| Any Slot
+|align="center"| 92
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Juperos|Juperos]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Emperor Morroc Card'''
+| Morroc's Mark Cooldown reduced to 2 minutes<br />
+(Cannot be used by Unchained Jobs)
+| Mid Headgear
+|align="center"| 150
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]]  MVP
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Dimensional_Gorge|Dimensional Gorge]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Enchanted Cornus Card'''
+| Water Magic DMG+3%
+| Any Slot
+|align="center"| 72
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Splendide_Forest|Splendide Forest]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Enchanted Dragon Card'''
+| Fire Magic DMG+3%
+| Any Slot
+|align="center"| 74
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Splendide_Forest|Splendide Forest]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Enchanted Fatum Card'''
+| Earth Magic DMG+3%
+| Any Slot
+|align="center"| 73
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Splendide_Forest|Splendide Forest]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Enchanted Mavka Card'''
+| Wind Magic DMG+3%
+| Any Slot
+|align="center"| 71
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Splendide_Forest|Splendide Forest]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Enchanted Serpent Card'''
+| Poison Magic DMG+3%
+| Any Slot
+|align="center"| 75
+|align="center"| Champion
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Splendide_Forest|Splendide Forest]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Expert Novice Card'''
+| All Stats +1<br />
+HP-3%<br />
+SP-3%
+| Lower Headgear
+|align="center"| 20
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]]  MVP
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Prontera_Fields|Prontera Fields]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Fabre Card'''
+| SP +5%
+| Headgear
+|align="center"| 1
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Prontera_Fields|Prontera Fields]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Fake Angel Card'''
+| DMG vs Angel Race +5%
+| Mid Headgear
+|align="center"| 95
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Geffenia|Geffenia]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Fanat Card'''
+| Cast can't be interrupted<br />
+SP+5%
+| Headgear
+|align="center"| 141
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Divine_Temple_of_Freya|Divine Temple of Freya]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Flame Skull Card'''
+| If Base LUK is over 98:<br />
+LUK+5
+| Low Headgear
+|align="center"| 100
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Cursed_Monastery|Cursed Monastery]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Forgotten Egnigem Card'''
+| Devil Raid autocasts Vengeance Lv5, STR +1
+| Mid Headgear
+|align="center"| 80
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]]  MVP
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Regenschirm_Lab|Regenschirm Laboratory]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Galapago Card'''
+| Frost Diver Cooldown -2s
+| Mid Headgear
+|align="center"| 48
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Comodo_Forest|Comodo Forest]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Gazeti Card'''
+| Enables Frost Diver Lv3
+| Headgear
+|align="center"| 96
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Ice_Dungeon|Ice Dungeon]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''General Daehyon Card'''
+| 5% chance to activate Combo Ready with auto attacks.
+| Lower Headgear
+|align="center"| 70
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]]  MVP
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Sunken_Temple|Sunken Temple]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Genesis Card'''
+| DMG vs Ghost Element +5%
+| Any Slot
+|align="center"| 94
+|align="center"| Champion
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Juperos|Juperos]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Giga Sandworm Card'''
+| Critical Damage +10%
+| Headgear
+|align="center"| 20
+|align="center"| Champion
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Morroc_Desert|Morroc Desert]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Gioia Card'''
+| DMG vs Holy and Dark Element +5%
+| Any Slot
+|align="center"| 94
+|align="center"| [[File:BossIcon.png|13x11px|BossIcon.png]] Mini Boss
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Juperos|Juperos]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Goblin King Card'''
+| Damage vs Brute +10%<br />
+Damage vs All Races +5%
+| Headgear
+|align="center"| 35
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]]  MVP
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Geffen_Fields|Geffen Fields]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Goddess Freya Card'''
+| Enables Unlimited Power Lv9
+| Mid Headgear
+|align="center"| 145
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]]  MVP
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Divine_Temple_of_Freya|Divine Temple of Freya]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Golden Thief Bug Card'''
+| Magic Damage Received -5%<br />
+SP Regeneration -5%
+| Any Slot
+|align="center"| 30
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]]  MVP
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Prontera_Culvert|Prontera Culvert]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Googly Card'''
+| Total Hit +9%
+| Headgear
+|align="center"| 63
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Airship_Crash_Site|Airship Crash Site]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Hallucigenia Card'''
+| Southern Cross Cooldown -0.75s
+| Mid Headgear
+|align="center"| 75
+|align="center"| Champion
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Hugel_Fields|Hugel Fields]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Hatii Card'''
+| Enables Storm Gust Lv 2
+| Upper Headgear
+|align="center"| 85
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]]  MVP
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Snow_Fields|Snow Fields]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Heart of the Serpent Card'''
+| SP+25%
+| Mid Headgear
+|align="center"| 155
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Jormungandr%27s_Lair|Jormungandr's Lair]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Heartless Card'''
+| For each base stat over 98:<br />
+Final Damage Reduction +2%
+| Lower Headgear
+|align="center"| 150
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Jormungandr%27s_Lair|Jormungandr's Lair]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Heater Card'''
+| Immune to Burning
+| Headgear
+|align="center"| 58
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Turtle_Dungeon|Turtle Dungeon]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Hell Poodle Card'''
+| If Base AGI is over 98:<br />
+AGI+5
+| Low Headgear
+|align="center"| 103
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Cursed_Monastery|Cursed Monastery]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Himelmez Card'''
+| Fixed Cast Time -0.4s
+| Mid Headgear
+|align="center"| 130
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]]  MVP
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Abyss_Glast_Heim|Abyss Glast Heim (Distortion)]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Horong Card'''
+| Can see invisible enemies
+| Mid Headgear
+|align="center"| 89
+|align="center"| Champion
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Ayothaya_Temple|Ayothaya Temple]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Hunter Fly Card'''
+| Total Flee +4%
+| Headgear
+|align="center"| 83
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Yuno_Fields|Yuno Fields]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Idun Avatar Card'''
+| HP/SP Regen +50%<br />
+HP/SP+1%
+| Mid Headgear
+|align="center"| 102
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Sky_Garden|Sky Garden]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Isilla Card'''
+| Variable Cast Time -10%
+| Headgear
+|align="center"| 102
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Rachel_Sanctuary|Rachel Sanctuary]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Joker Card'''
+| Double Down DMG +12%<br />
+Instant Aces DMG +12%
+| Upper Headgear
+|align="center"| 86
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Nightmare_Clock_Tower|Nightmare Clock Tower]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Jormungandr Card'''
+| HP+25%
+| Mid Headgear
+|align="center"| 160
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]]  MVP
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Jormungandr%27s_Lair|Jormungandr's Lair]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Juliette D Rachel Card'''
+| Sonic Blow DMG+50%<br />
+SP-80%
+| Lower Headgear
+|align="center"| 90
+|align="center"| [[File:BossIcon.png|13x11px|BossIcon.png]] Mini Boss
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Loki%27s_Palace|Loki's Palace]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Kafra Manager Jenni Card'''
+| Weight Limit +500<br />
++300 per Refine<br />
+All Stats +1
+| Headgear
+|align="center"| 105
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]]  MVP
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Abandoned_Kafra_Warehouse|Abandoned Kafra Warehouse]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Kasa Card'''
+| Burning Spiral Cooldown -1s
+| Mid Headgear
+|align="center"| 122
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Thor_Volcano|Thor Volcano]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''King Schmidt Card'''
+| For each stat higher than 99:<br />
+Ignores 15% of enemies DEF and MDEF
+| Mid Headgear
+|align="center"| 145
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]]  MVP
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Lost_Tomb_of_the_King|Lost Tomb of the King]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Kobold Card'''
+| Critical Rate +1<br />
+Critical Damage +3%
+| Any Slot
+|align="center"| 56
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Fort_St_Darmain|Fort St Darmain]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Kobold Leader Card'''
+| Wind Slash Cooldown -1s
+| Mid Headgear
+|align="center"| 60
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]]  MVP
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Fort_St_Darmain|Fort St Darmain]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Kraken Card'''
+| Tetragrammaton cast times removed
+| Mid Headgear
+|align="center"| 115
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]]  MVP
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Ancient_Temple|Ancient Temple]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Lady Tanee Card'''
+| Item Healing Power +25%
+| Upper Headgear
+|align="center"| 40
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]]  MVP
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Banana_Forest|Banana Forest]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Lake Dragon Card'''
+| Dragon Thrust DMG+5%
+| Headgear
+|align="center"| 79
+|align="center"| Champion
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Dragon_Nest|Dragon Nest]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Decayed Laurell Weinder Card'''
+| INT+1
+| Headgear
+|align="center"| 50
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Lighthalzen_Fields|Lighthalzen Fields]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Limacina Card'''
+| Perfect Hit Rate+10%
+| Headgear
+|align="center"| 94
+|align="center"| Champion
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Waterfall_Caves|Waterfall Caves]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Living Crystal Card'''
+| Freezing Spear DMG+10%
+| Headgear
+|align="center"| 91
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Crystal_Caves|Crystal Caves]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Living Failure Card'''
+| Immune to Poison<br />
+VIT+3
+| Low Headgear
+|align="center"| 85
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Einbroch_Deadlands|Einbroch Deadlands]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Lord of The Dead Card'''
+| Scythe Reap Autocasts Reaping Slash Lv1 at 30% chance
+| Mid Headgear
+|align="center"| 140
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]]  MVP
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Death%27s_Castle|Death's Castle]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Lost Codex Card'''
+| MATK+1% per Refine
+| Upper Headgear
+|align="center"| 134
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Varmundt%27s_Mansion|Varmundt's Mansion]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Mantis Card'''
+| Adds 0.2% per base VIT scaling to the skills:<br />
+Rolling Cutter.<br />
+Cross Ripper Slasher.
+| Upper Headgear
+|align="center"| 53
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Mjolnir_Mountain|Mjolnir Mountain]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Martin Card'''
+| Immune to Stun<br />
+SP-25%
+| Headgear
+|align="center"| 55
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Coal_Mines|Coal Mines]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Master Loki Card'''
+| Hiding Cooldown -0.5s<br />
+Enables Perfect Hiding<br />
+Enables Tunnel Drive Lv3
+| Mid Headgear
+|align="center"| 99
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]]  MVP
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Loki%27s_Palace|Loki's Palace]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Mastering Card'''
+| VIT+1<br />
+INT+1<br />
+'''[Set Bonus]'''<br />
+----<br />
+Poring Card<br />
+Drops Card<br />
+PoPoring Card<br />
+Marin Card<br />
+Mastering Card<br />
+-----<br />
+All Stats +3.<br />
+| Headgear
+|align="center"| 18
+|align="center"| [[File:BossIcon.png|13x11px|BossIcon.png]] Mini Boss
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Poring_Family|Poring Family]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Mega Peco Card'''
+| Throw Stone DMG+500%<br />
+Throw Stone Cooldown is set to 5 seconds
+| Mid Headgear
+|align="center"|
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]]  MVP
+|align="center"|
+|-
+| [[File:CardIcon.gif|24x24px]]'''Mind Vessel Card'''
+| SP Regen 10%+1% per 2 base LUK
+| Lower Headgear
+|align="center"| 126
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Ancient_Verus_Laboratory|Ancient Verus Laboratory]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Mistress Card'''
+| SP Cost -15%
+| Upper Headgear
+|align="center"| 60
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]]  MVP
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Mjolnir_Mountain|Mjolnir Mountain]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''MukaMuka Card'''
+| 01% chance to cast Earthquake Lv1 when hit
+| Mid Headgear
+|align="center"|
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]]  MVP
+|align="center"|
+|-
+| [[File:CardIcon.gif|24x24px]]'''North Scavenger Card'''
+| If Base VIT &lt; 50:<br />
+HP+10%<br />
+If Base VIT &gt; 49:<br />
+HP-10%
+| Upper Headgear
+|align="center"| 90
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Einbroch_Deadlands|Einbroch Deadlands]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Old Phoenix Card'''
+| Revive with full HP/SP<br />
+HP+100<br />
+Fire Magic DMG+2%
+| Headgear
+|align="center"| 114
+|align="center"| Champion
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Veins_Fields|Veins Fields]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Opera Jitterbug Card'''
+| Void Dash DMG +10%
+| Low Headgear
+|align="center"| 119
+|align="center"| Champion
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Opera_House|Opera House]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Oracle Spirit Card'''
+| Enables Free Cast Lv5
+| Headgear
+|align="center"| 69
+|align="center"| Champion
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Sunken_Temple|Sunken Temple]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Orphan Piamette Card'''
+| ATK+3<br />
+MATK+3<br />
+ATK+1 per refine.<br />
+MATK+1 per refine
+| Headgear
+|align="center"| 15
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]]  MVP
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Pyramid_Basement|Pyramid Basement]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Osiris Card'''
+| 10% chance to autocast Envenom when attacking
+| Mid Headgear
+|align="center"| 25
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]]  MVP
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Upper_Pyramid|Upper Pyramid]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Paradox Amdarais Card'''
+| 0.2% chance to apply Lex Aeterna on enemy when attacking per base level. (Max 30% at Lv 150)<br />
+HP-30%<br />
+ASPD-12
+| Mid Headgear
+|align="center"| 135
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]]  MVP
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Varmundt%27s_Mansion|Varmundt's Mansion]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Pharaoh Card'''
+| Flaming Petals, Freezing Spear and Wind Blade DMG+10%
+| Mid Headgear
+|align="center"| 35
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]]  MVP
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Sphinx|Sphinx]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Photon Cannon Card'''
+| DMG vs Fire Element +5%
+| Any Slot
+|align="center"| 91
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Juperos|Juperos]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Pitaya Card'''
+| 5% Chance to auto-cast Decoy Lv3 when attacked
+| Headgear
+|align="center"| 102
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Grey_Forest|Grey Forest]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Pitman Card'''
+| Drop Rate +5%<br />
+HP-25%<br />
+SP-25%
+| Low Headgear
+|align="center"| 71
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Einbroch_Mines|Einbroch Mines]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Prayer Card'''
+| Base Level 130 or higher:<br />
+Total MDEF+15%
+| Upper Headgear
+|align="center"| 146
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Thanatos_Paradise|Thanatos Paradise]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Pupa Card'''
+| HP +5%
+| Headgear
+|align="center"| 2
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Prontera_Fields|Prontera Fields]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Queen Maya Card'''
+| Scythe Reap DMG +10%
+| Mid Headgear
+|align="center"| 20
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]]  MVP
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Insect_Society_Nest|Insect Society Nest]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Queen Scaraba Card'''
+| Real Magic Attack DMG +15%
+| Mid Headgear
+|align="center"| 20
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]]  MVP
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Insect_Society_Nest|Insect Society Nest]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Ragged Zombie Card'''
+| If Base DEX is over 98:<br />
+DEX+5
+| Low Headgear
+|align="center"| 102
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Cursed_Monastery|Cursed Monastery]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Rank A Shadow Card'''
+| MDEF +10%
+| Lower Headgear
+|align="center"|
+|align="center"|
+|align="center"| Rank A Dungeons
+|-
+| [[File:CardIcon.gif|24x24px]]'''Reginleif Card'''
+| Perfect Hit +50%<br />
+SP-40%
+| Lower Headgear
+|align="center"| 125
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]]  MVP
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Odin_Temple_Distortion|Odin Temple Distortion]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Regret of Thanatos Card'''
+| Base Level 130 or higher:<br />
+Magic Defense Pierce +10%
+| Upper Headgear
+|align="center"| 148
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Thanatos_Paradise|Thanatos Paradise]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Rekember Core Card'''
+| All Stats +1<br />
+HP+5%<br />
+SP+5%
+| Mid Headgear
+|align="center"|
+|align="center"|
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Regenschutz_Lab|Regenschutz Lab]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Remade Margaretha Card'''
+| HP/SP-10%<br />
+Strange powers when all 6 cards are united.
+| Headgear
+|align="center"| 137
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Regenschutz_Lab|Regenschutz Lab]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Revenant Ebel Card'''
+| Total Critical Rate +10%<br />
+Critical Damage +10%<br />
+Card is character bound, Revenant only
+| Any Slot
+|align="center"| 137
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Regenschutz_Lab|Regenschutz Lab]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Rhyncho Card'''
+| HP+1% per Improve Wisdom skill level
+| Upper Headgear
+|align="center"| 109
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Odin_Temple|Odin Temple]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Roda Frog Card'''
+| HP +3%<br />
+SP +3%
+| Headgear
+|align="center"| 6
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Prontera_Fields|Prontera Fields]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Rotar Zairo Card'''
+| ASPD +1% per refine
+| Upper Headgear
+|align="center"| 33
+|align="center"| Champion
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Geffen_Fields|Geffen Fields]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Satan Morroc Card'''
+| Base STR 99:<br />
+Splash Range +1<br />
+Base AGI 99:<br />
+Double Attack Rate +10%<br />
+Base VIT 99:<br />
+Immune to Knockback<br />
+Base INT 99:<br />
+SP Cost -10%<br />
+Base DEX 99:<br />
+Cast can't be Interrupted<br />
+Base LUK 99:<br />
+Immune to Curse Bleeding and Stone<br />
+Each Stat at 99:<br />
+HP +2%
+| Mid Headgear
+|align="center"| 100
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]]  MVP
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Morroc_Distortion|Morroc Distortion]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Savage Bebe Card'''
+| Stun Resistance +25%
+| Headgear
+|align="center"| 15
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Prontera_Fields|Prontera Fields]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Shining Plant Card'''
+| 1% chance to cast Check Mate when hit
+| Mid Headgear
+|align="center"| ??
+|align="center"| ??
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Yggdrasil_Tree|Yggdrasil Tree]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Soldier Andre Card'''
+| Sweeping Slash Cooldown -1s
+| Mid Headgear
+|align="center"| 18
+|align="center"| Champion
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Insect_Society_Nest|Insect Society Nest]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Soul of Ymir Card'''
+| SP Cost -40%<br />
+Movement Speed -50%
+| Mid Headgear
+|align="center"| 150
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]]  MVP
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Abandoned_Castle|Abandoned Castle]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Temple Watcher Card'''
+| SP+1% per Improve Defense skill level
+| Upper Headgear
+|align="center"| 111
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Odin_Temple|Odin Temple]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Thanatos Odium Card'''
+| DMG vs Boss +1% per refine
+| Headgear
+|align="center"| 90
+|align="center"| [[File:BossIcon.png|13x11px|BossIcon.png]]Mini Boss
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Thanatos_Tower|Thanatos Tower]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Thor Avatar Card'''
+| Mjolnir Fall Cooldown -3s<br />
+Mjolnir Fall DMG+10%
+| Low Headgear
+|align="center"| 104
+|align="center"| Champion
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Sky_Garden|Sky Garden]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Trainer Fenrir Card'''
+| Cast cannot be interrupted<br />
+Card is character bound.
+| Mid Headgear
+|align="center"| Non-droppable
+|align="center"| Class Quest Reward
+|align="center"| Arcane Master Quest
+|-
+| [[File:CardIcon.gif|24x24px]]'''Vanberk Card'''
+| Critical Rate +5
+| Headgear
+|align="center"| 101
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Rachel_Sanctuary|Rachel Sanctuary]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Veins Ghoul Card'''
+| Haunting Slice Cooldown -1.5s
+| Mid Headgear
+|align="center"| 113
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Veins_Fields|Veins Fields]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Venatu Card'''
+| DMG vs Neutral Element +5%
+| Any Slot
+|align="center"| 91
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Juperos|Juperos]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Verus Eye Card'''
+| Perfect Hit +3% per refine
+| Upper Headgear
+|align="center"| 110
+|align="center"| Champion
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Verus_Lost_Sectors|Verus Lost Sectors]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Vesper Card'''
+| DMG vs All Elements +4%
+| Any Refineable Slot
+|align="center"| 95
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]]  MVP
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Juperos|Juperos]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Vision of Surt Card'''
+| Spectral Servants DMG+3% per refine<br />
+| Upper Headgear
+|align="center"| 146
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Dimensional_Gorge|Dimensional Gorge]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Voice of Sorrow Card'''
+| Immune to Silence<br />
+ATK/MATK +1%
+| Lower Headgear
+|align="center"| 120
+|align="center"| [[File:BossIcon.png|13x11px|BossIcon.png]] Mini Boss
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Opera_House|Opera House]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Ymir Emperium Card'''
+| DMG vs Boss +6%<br />
+Resistance to Boss +6%
+| Low Headgear
+|align="center"| 150
+|align="center"| [[File:MvpIcon.png|13x11px|MvpIcon.png]]  MVP
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Abandoned_Castle|Abandoned Castle]]
+|-
+| [[File:CardIcon.gif|24x24px]]'''Zombie Slaughter Card'''
+| If Base STR is over 98:<br />
+STR+5
+| Low Headgear
+|align="center"| 104
+|align="center"| Normal
+|align="center"| [[web/20231127162925/https://returntomorroc.com/wiki/index.php/Cursed_Monastery|Cursed Monastery]]
+|}

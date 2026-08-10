@@ -1,0 +1,814 @@
+Return to Morroc features custom Achievements and Achievement Rewards!
+
+Remember to check the tab Achievement Challenges tab [[File:AchievCup.gif|AchievCup]], some achievements can help you in the early game by giving freebies!
+
+* Many Achievements are granted automatically on completion, some are achieved by talking to NPCs and More!
+
+* There are Achievements which can help you figure out where to progress next!
+
+* Some achievements have been grouped together based on how they are earned. Their original category has also been listed in parentheses.
+
+
+
+== Contents ==
+
+<span class="toctogglespan"></span>
+
+== <span id="Character_Achievements" class="mw-headline">Character Achievements</span> ==
+
+This are all the Character related Achievements
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20" 
+|+[[File:24px-Achievicon.gif|24x24px|link=Achievicon]] Leveling Achievements
+! Achiev. Name
+! Description
+! Requirement
+! Reward
+! Points
+|-
+| '''Awakened Orphan'''
+| Having awakened from a strange, 5 year long slumber, you have learned how to live in New-Midgard. Hopefully.
+| Achieved Base Level 10
+| First Rune Coffer
+| 10
+|-
+| '''A Path Ahead...'''
+| Can change jobs and finally create a destiny for yourself... You can even get a reward from someone familiar.
+| Achieved Job Level 10
+| Weapon Voucher
+| 10
+|-
+| '''Wandering Orphan'''
+| The world is a cruel mistress, but those who persevere will evolve and grow along with it. And prosper.
+| Achieved Base level 50
+| My First Card Album
+| 10
+|-
+| '''Expert Orphan'''
+| Where the heroes once reached their limits and asked the Valkyries for a new way, an Orphan can continue forging ahead.
+| Achieved Base level 99
+| Yggdrasil Berry
+| 10
+|-
+| '''Master Orphan'''
+| A fearless person shall face all its challenges head on, never looking back, no regrets, no pain, only hope and dreams.
+| Achieved Base level 130
+| 2nd Shadow Coffer
+| 10
+|-
+| '''One More Step...'''
+| For those who went beyond their limits and never stopped, taking one more step can be the hardest moment, but the greatest.
+| Achieved Base level 149
+| 4th Shadow Coffer
+| 10
+|-
+| '''Conqueror of the Mark (Great Feat)'''
+| May the greatest of heroes rise above the world and spread wings.
+| Achieved Base level 150
+| Costume Rudra Wings (Account Bound - Garment)
+| 10
+|-
+| '''The Einherjar (Great Feat)'''
+| Only the best deserve the living wings.
+| AAchieved Base Level 150 without dying once
+| Costume Bloody Wings (Account Bound - Garment)
+| 30
+|}
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+[[File:Sm_sword.gif|24x24px|Sm sword.gif]] Stats Growth Achievements
+! Achiev. Name
+! Description
+! Requirement
+! Reward
+! Points
+|-
+| '''Thor's Strength'''
+| Power to crush your enemies. The mightiest hammer.
+| Achieved 99 base STR
+| None
+| 10
+|-
+| '''Loki's Agility'''
+| Agility to avoid danger. The quickest blade.
+| Achieved 99 base AGI
+| None
+| 10
+|-
+| '''Idun's Vitality'''
+| Vitality to endure the injustice. The resilient body.
+| Achieved 99 base VIT
+| None
+| 10
+|-
+| '''Mimir's Intelligence'''
+| Knowledge to outwit your enemies. The smartest mind.
+| Achieved 99 base INT
+| None
+| 10
+|-
+| '''Bragi's Dexterity'''
+| Dexterity to focus the target. The perfect song.
+| Achieved 99 base DEX
+| None
+| 10
+|-
+| '''Balder's Luck'''
+| Luck for when all else fails. The hand of destiny.
+| Achieved 99 base LUK
+| None
+| 10
+|}
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+[[File:AchievCup.gif|24x23px|AchievCup.gif]] Character Challenges Achievements
+! Achiev. Name
+! Description
+! Requirement
+! Reward
+! Points
+|-
+| '''The Hoarder'''
+| Everything has a value, and value can be money. Everything can be made into money.
+| Increase Max Weight Limit to 5000
+| None
+| 10
+|-
+| '''The Hippie'''
+| Having stuff is useless and a waste in this beautiful world. You should move to the beach and sell art.
+| Having 0 carried weight and money
+| None
+| 10
+|-
+| '''The Achievement'''
+| You got this one for free, can't complain!
+| Talk to the Collector and ask for Achievements
+| None
+| 10
+|-
+| '''Impossible'''
+| There's no way that can be right!
+| Raise HP over 9.000
+| None
+| 10
+|-
+| '''The Glass'''
+| I can't be killed if enemies die first
+| Reduce Max HP to 1
+| None
+| 10
+|-
+| '''The Brute'''
+| Me strong. Me smash hard.
+| Reduce Max SP to 1
+| None
+| 10
+|-
+| '''Welcome To Morroc'''
+| It happens to everyone, don't take it too seriously.
+| Died once in the game
+| Initiate Potion
+| 10
+|-
+| '''No Hiding Allowed'''
+| I swear, I dodged that, this is bullshit.
+| Died over 100 times.
+| Yggdrasil Berry
+| 10
+|}
+
+== <span id="World_Achievements" class="mw-headline">World Achievements</span> ==
+
+This are all the World related Achievements
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+[[File:CityMap.gif|24x24px|CityMap.gif]] Orphanage Achievements
+! Achiev. Name
+! Description
+! Requirement
+! Reward
+! Points
+|-
+| '''Member of the Orphanage'''
+| It's appreciated when a person helps out of the good of their heart.
+| Donated 10.000z to the Orphanage at once
+| None
+| 10
+|-
+| '''Supporter of the Orphanage'''
+| Thats very nice of you. I'm sure everyone is grateful.
+| Donated 50.000z to the Orphanage at once
+| None
+| 10
+|-
+| '''Patron of the Orphanage'''
+| Wow! Are you even an Orphan???
+| Donated 100.000z to the Orphanage at once
+| None
+| 10
+|-
+| '''Bonfire Lit'''
+| Not really a firekeeper, but clearly a nice lady regardless.
+| Ask Kafra Allysia for a Kafra Elixir refill
+| None
+| 10
+|-
+| '''Remember Me?'''
+| Once a person who helps newcomers, always a person who helps newcomers.
+| Talk to Sprakki on the Orphanage Reception
+| None
+| 10
+|}
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+[[File:ManualsIcon.gif|24x24px|ManualsIcon.gif]] Varmundt Achievements
+! Achiev. Name
+! Description
+! Requirement
+! Reward
+! Points
+|-
+| '''Gate to Paradiso'''
+| For those looking for a charm of protection and blessings.
+| Create the Paradiso Tome
+| None
+| 10
+|-
+| '''Gate to Purgatorio'''
+| For those looking for a charm of speed and utility.
+| Create the Purgatorio Tome
+| None
+| 10
+|-
+| '''Gate to Inferno'''
+| For those looking for a charm of power and offensive.
+| Create the Inferno Tome
+| None
+| 10
+|-
+| '''Divine Trinity (Great Feat)'''
+| For those who break all limits of humanity and delve into divinity.
+| Create the Celestial Tome
+| Costume White Angel Wings (Account Bound - Garment)
+| 10
+|-
+| '''Blooming Roses'''
+| The most beautiful shoes to exist in the fanciest place in this land.
+| Repair the Old Blooming Sandals
+| None
+| 10
+|}
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+[[File:Tombstone.gif|24x24px|Tombstone.gif]] Refining Achievements
+! Achiev. Name
+! Description
+! Requirement
+! Reward
+! Points
+|-
+| '''Greatest. Smith. Ever.'''
+| Get used to it. At least he doesn't break your stuff.
+| Fail a refinement for the first time
+| None
+| 10
+|-
+| '''Master Weaponsmith Lv1'''
+| That wasn't so hard was it?
+| Successfully refine a level 1 weapon to 10
+| None
+| 10
+|-
+| '''Master Weaponsmith Lv2'''
+| This must have been expensive
+| Successfully refine a level 2 weapon to 10
+| None
+| 10
+|-
+| '''Master Weaponsmith Lv3'''
+| Now now, we don't like to show-off a lot, but this is pretty impressive!
+| Successfully refine a level 3 weapon to 10
+| None
+| 10
+|-
+| '''Master Weaponsmith Lv4 (Great Feat)'''
+| Unbelievable.
+| Successfully refine a level 4 weapon to 10
+| Costume Brilliant Wings (Account Bound - Garment)
+| 10
+|}
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+[[File:24px-Rg_coinflip.gif|24x24px|Rg coinflip.gif]] Zeny Achievements
+! Achiev. Name
+! Description
+! Requirement
+! Reward
+! Points
+|-
+| '''Mr Kim a Rich Man Lv1'''
+| You can hear a distant duo playing this for you.
+| Carry 100.000z in your Inventory
+| None
+| 10
+|-
+| '''Mr Kim a Rich Man Lv2'''
+| You can hear a duo playing this for you nearby.
+| Carry 1.000.000z in your Inventory
+| None
+| 10
+|-
+| '''Mr Kim a Rich Man Lv3'''
+| You basically carry a duo playing this for you around, dont you?
+| Carry 10.000.000z in your Inventory
+| None
+| 10
+|-
+| '''I think I need it!'''
+| Welcome to Alberta! You can buy cool stuff here!
+| Spend 10.000z in a Merchant Vend
+| None
+| 10
+|-
+| '''I really I need it!'''
+| Welcome to Alberta! Be careful to not go broke!
+| Spend 100.000z in a Merchant Vend
+| None
+| 10
+|-
+| '''I MUST I need it!'''
+| Welcome to Alberta! Please don't become a beggar!
+| Spend 1.000.000z in a Merchant Vend
+| None
+| 10
+|}
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+[[File:24px-Rg_faceoff.gif|24x24px|Rg faceoff.gif]] Social Achievements
+! Achiev. Name
+! Description
+! Requirement
+! Reward
+! Points
+|-
+| '''Better with Friends~~'''
+| Parties are essential to fight as a group. Friends make any trip easier.
+| Create a party
+| None
+| 10
+|-
+| '''AFK'''
+| Everyone knows you wrote this on the chatroom title.
+| Create a chatroom
+| None
+| 10
+|-
+| '''Ress PLS'''
+| No priests around this time.
+| Create a chatroom when dead
+| None
+| 10
+|-
+| '''Reasonable Expectations'''
+| Ornstein expected this many people in Discord when he started. Crazy huh?
+| Fill a chatroom with 20 people
+| None
+| 10
+|}
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+[[File:24px-WorldMap.gif|24x21px|WorldMap.gif]] Travel Achievements
+! Achiev. Name
+! Description
+! Requirement
+! Reward
+! Points
+|-
+| '''Welcome to Prontera'''
+| Everyone comes through this place sometime.
+| Talk to the Prontera Kafra for the first time
+| None
+| 10
+|-
+| '''Welcome to Yuno'''
+| Do you know how this city floats? It's a really interesting story...
+| Talk to the Yuno Kafra for the first time
+| None
+| 10
+|-
+| '''Welcome to Rachel'''
+| Now go away.
+| Talk to the Rachel Kafra for the first time
+| None
+| 10
+|-
+| '''Welcome to Niflheim'''
+| Everyone eventually meets this kafra anyway.
+| Talk to the Niflheim Kafra for the first time
+| None
+| 10
+|-
+| '''Welcome to Dicastes Diel'''
+| A fortress of ice and knowledge, a place of research.
+| Talk to the Sage Receptionist for the first time
+| None
+| 10
+|-
+| '''Welcome to Nomad Village'''
+| A home for everyone looking for a new life.
+| Talk to the Nomad Village Kafra for the first time
+| None
+| 10
+|-
+| '''Welcome to Mora'''
+| Aren't these plants cute? Watch your wallet.
+| Talk to the Mora Kafra for the first time
+| None
+| 10
+|}
+
+== <span id="Battle_Achievements" class="mw-headline">Battle Achievements</span> ==
+
+This are all the Battle related Achievements
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+[[File:Dungeonchanges.gif|24x20px|Dungeonchanges.gif]] Gauntlets Achievements
+! Achiev. Name
+! Description
+! Requirement
+! Reward
+! Points
+|-
+| '''Jellocide'''
+| These monsters may seem harmless, but they can swarm you and eat all your items. And mess up your hair.
+| Hunt the terrible beasts of evil :<br />
+250 Poring<br />
+250 Drops<br />
+250 Poporing<br />
+250 Marin<br />
+50 Mastering
+| Costume Poring Aura (Garment)
+| 10
+|-
+| '''Rain season'''
+| You swear it's gonna rain soon. So you need to purify those umbrella demons
+| Wipe the Karakasa population :<br />
+1000 Karakasa
+| Costume Umbrella Hat (Upper)
+| 10
+|-
+| '''Plant Farming'''
+| Jesters get extra joy from this activity.
+| It's Harvest time :<br />
+200 Red Plants<br />
+200 Blue Plants<br />
+200 Green Plants<br />
+200 Yellow Plants<br />
+200 White Plants
+| Costume Blowing Scattered Sakura (Lower)
+| 10
+|-
+| '''Chocolate Run'''
+| It will not drop any chocolate, but that won't stop you, will it?
+| Consume every Chocolate Bear :<br />
+1000 Chocolate Bear
+| Costume Teddy Bear Hood (Upper)
+| 10
+|-
+| '''Waste of Time'''
+| It won't even give you a cool reward!
+| Exterminate the useless coward :<br />
+100 Coward Q
+| Costume Invisible Manteau (Garment)
+| 10
+|-
+| '''First Boss'''
+| Piamette is an evil being. A strange girl that once was taken to the Orphanage, until she started murdering her friends...
+| Defeat Orphan Piamette :<br />
+1 Orphan Piamette
+| Lost Orphan Coffer
+| 20
+|}
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+[[File:MvpIcon.png|24x20px|MvpIcon.png]] Bosses Achievements
+! Achiev. Name
+! Description
+! Requirement
+! Reward
+! Points
+|-
+| '''Rank E Hunter'''
+| Show that you can handle simple fighting!
+| Defeat the Bosses and dominate the Rank E Dungeons :<br />
+1 Golden Thief Bug<br />
+1 Noble Devourer<br />
+1 Stormy Knight<br />
+1 Vesper
+| None
+| 10
+|-
+| '''Rank D Hunter'''
+| Show that you can handle decent fighting!
+| Defeat the Bosses and dominate the Rank D Dungeons :<br />
+1 Osiris<br />
+1 Dracula<br />
+1 Coelacanth<br />
+1 RSX-0806
+| None
+| 10
+|-
+| '''Rank C Hunter'''
+| Show that you can handle good fighting!
+| Defeat the Bosses and dominate the Rank C Dungeons :<br />
+1 Orc Lord<br />
+1 Nydhogg<br />
+1 Brinaranea<br />
+1 Gloom Under Night
+| None
+| 10
+|-
+| '''Rank B Hunter'''
+| Show that you can handle complex fighting!
+| Defeat the Bosses and dominate the Rank V Dungeons :<br />
+1 Pharaoh<br />
+1 Incarnation Samurai<br />
+1 Kafra Manager Jenni<br />
+1 Paradox Amdarais
+| None
+| 10
+|-
+| '''Rank A Hunter'''
+| Show that you can handle difficult fighting!
+| Defeat the Bosses and dominate the Rank A Dungeons :<br />
+1 Angry Pyuriel<br />
+1 Faceworm Queen<br />
+1 Kafra Manager Jenni<br />
+1 Paradox Amdarais
+| None
+| 10
+|-
+| '''Rank S Hunter'''
+| Show that you can handle legendary fighting!
+| Defeat the Bosses and dominate the Rank S Dungeons :<br />
+1 Serpens<br />
+1 Baroness of Despair<br />
+1 Master Loki<br />
+1 Absolute Seyren
+| None
+| 10
+|-
+| '''Legendary Hunter (Great Feat)'''
+| The Ultimate Warrior can defeat any enemy!
+| Defeat the Bosses and become the greatest in New-Midgard! :<br />
+1 Goddess Freya<br />
+1 King Schmidt<br />
+1 Emperor Morroc<br />
+1 Jormungandr
+| Costume Fallen Angel Wings (Account Bound - Garment)
+| 10
+|}
+
+== <span id="Lore_Achievements" class="mw-headline">Lore Achievements</span> ==
+
+This are all the Lore related Achievements
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+[[File:Mainstoryicon.gif|24x10px|Mainstoryicon.gif]] Main Story Quests Achievements
+! Achiev. Name
+! Description
+! Requirement
+! Reward
+! Points
+|-
+| '''1st Chapter'''
+| Help the good old lady.
+| Complete the Lv10 Main Story Quest.
+| None
+| 10
+|-
+| '''2nd Chapter'''
+| Go to the castle.
+| Complete the Lv20 Main Story Quest.
+| None
+| 10
+|-
+| '''3rd Chapter'''
+| Look for your friend.
+| Complete the Lv30 Main Story Quest.
+| None
+| 10
+|-
+| '''4th Chapter'''
+| Understand this situation.
+| Complete the Lv40 Main Story Quest.
+| None
+| 10
+|-
+| '''5th Chapter'''
+| Invade the location successfully.
+| Complete the Lv50 Main Story Quest.
+| None
+| 10
+|-
+| '''6th Chapter'''
+| Meet the man in Hugel.
+| Complete the Lv60 Main Story Quest.
+| None
+| 10
+|-
+| '''7th Chapter'''
+| Protect your home.
+| Complete the Lv70 Main Story Quest.
+| None
+| 10
+|-
+| '''8th Chapter'''
+| Find a way to turn your luck around.
+| Complete the Lv80 Main Story Quest.
+| None
+| 10
+|-
+| '''9th Chapter'''
+| Escape the difficult situation
+| Complete the Lv90 Main Story Quest.
+| None
+| 10
+|-
+| '''10th Chapter'''
+| Face your fears.
+| Complete the Lv100 Main Story Quest.
+| None
+| 10
+|-
+| '''11th Chapter'''
+| Make the hardest decision in your life.
+| Complete the Lv110 Main Story Quest.
+| None
+| 10
+|-
+| '''12th Chapter'''
+| Fulfill your destiny.
+| Complete the Lv120 Main Story Quest.
+| None
+| 10
+|}
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+[[File:CityMap.gif|24x24px|CityMap.gif]] Exploration Achievements
+! Achiev. Name
+! Description
+! Requirement
+! Reward
+! Points
+|-
+| '''Lost Ring'''
+| She went through so much already and she takes care of you. Take care of her.
+| Find Kafra Allysia's lost ring
+| None
+| 10
+|-
+| '''3 Sages'''
+| The scrolls of the sages can show new secrets around the world. Eventually...
+| Find the Record Keeper.
+| None
+| 10
+|-
+| '''Pay Respects'''
+| Pay your respects for the victims of the Veins Incident
+| Press F.
+| None
+| 10
+|-
+| '''Chaos'''
+| Is this really the hero that will save everyone?
+| Meet Chaos, the hero from Payon, for the first time
+| None
+| 10
+|-
+| '''Sarah's Costume Shop'''
+| She can help her friends now!
+| Find Sarah's Costume Shop
+| None
+| 10
+|}
+
+== <span id="Quests_Achievements" class="mw-headline">Quests Achievements</span> ==
+
+This are all the Quests related Achievements
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+[[File:Costumeicon.gif|24x26px|Costumeicon.gif]] HATred Achievements
+! Achiev. Name
+! Description
+! Requirement
+! Reward
+! Points
+|-
+| '''Hello Dude'''
+| The HATred Dude can be found in 90 locations around the world. Can you get all his hats?
+| Finish the Pyramid Basement HATred Quest
+| None
+| 10
+|-
+| '''10 HATred Quests'''
+| Nobody knows who the HATred dude is, or what he wants. Can you figure it out?
+| Finish 10 HATred Quests
+| None
+| 10
+|-
+| '''45 HATred Quests'''
+| For how angry the HATred dude is, he actually is very helpful, in his own way.
+| Finish 45 HATred Quests
+| None
+| 10
+|-
+| '''All HATred Quests'''
+| You finally have finished all his requests. Is he calm now?
+| Finish All HATred Quests
+| None
+| 10
+|}
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+[[File:24px-Bifrostshard.gif|24x23px|Bifrostshard.gif]] Bifrost Mirror Achievements
+! Achiev. Name
+! Description
+! Requirement
+! Reward
+! Points
+|-
+| '''Mirror Shard'''
+| The Shard can be found near where Morroc opened the Dimensional Gorge and was defeated in battle by the guild coallition.
+| Find the Bifrost Mirror Shard
+| None
+| 10
+|-
+| '''Eye of Vidar'''
+| Each eye from the sons of Odin can be found in one of the corners of the world.
+| Find the Eye of Vidar
+| None
+| 10
+|-
+| '''Eye of Vali'''
+| The 4 corners of New-Midgard are: Rune-Midgard, Arunafeltz, Schwarzwald and Niflheim.
+| Find the Eye of Vali
+| None
+| 10
+|-
+| '''Eye of Thor'''
+| The Eyes can be used with the Bifrost Mirror Shard to access Temporal Distortions.
+| Find the Eye of Thor
+| None
+| 10
+|-
+| '''Eye of Balder'''
+| Temporal Distortions can show you the past, the present or an entirely new reality.
+| Find the Eye of Balder
+| None
+| 10
+|-
+| '''Complete Mirror'''
+| An Orphan with a complete mirror can travel through every reality without restrictions.
+| Complete the Bifrost Mirror Shard
+| None
+| 10
+|}
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+[[File:24px-Creationbook.gif|24x25px|Creationbook.gif]] Basic Learning Achievements
+! Achiev. Name
+! Description
+! Requirement
+! Reward
+! Points
+|-
+| '''Meet the Nanny'''
+| The Nanny cares about all orphans, she will provide a helping hand to help with the rough start.
+| Speak with the Nanny in the Orphanage
+| None
+| 10
+|-
+| '''Meet the Caravan'''
+| The Caravan can take orphans to Prontera Fields or Payon Forest, both places are welcoming as first steps.
+| Use the Caravan in the Orphanage to visit other places
+| None
+| 10
+|-
+| '''Meet the Cartographer'''
+| The Cartographer can usually be found near the caravan, and will explain how maps work to anyone willing to listen.
+| Talk to the map Cartographer near the Oasis in Sograt Desert
+| None
+| 10
+|-
+| '''Try Again'''
+| The Fountain can help you correct mistakes and rework your path. For a price. Mistakes can be fixed with fair work.
+| Check the fountain in the Orphanage
+| None
+| 10
+|-
+| '''Return the Mirror'''
+| The Mirror can reset stats. But this will break the mirror and make the Nanny sad...
+| Return the Mirror to the Nanny after you reach Base Level 15.
+| None
+| 10
+|}

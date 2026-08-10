@@ -1,0 +1,173 @@
+* [[#A_true_master_of_all_weapons|<span class="tocnumber">1</span> <span class="toctext">A true master of all weapons</span>]]
+** [[#Gameplay_Identity|<span class="tocnumber">1.1</span> <span class="toctext">Gameplay Identity</span>]]
+** [[#Core_Gameplay_Loop|<span class="tocnumber">1.2</span> <span class="toctext">Core Gameplay Loop</span>]]
+* [[#Skills|<span class="tocnumber">2</span> <span class="toctext">Skills</span>]]
+
+== <span id="A_true_master_of_all_weapons" class="mw-headline">[[File:Nightraven.gif|25x25px|link=Nightraven]]A true master of all weapons</span> ==
+
+The Night Raven is a master of wielding any combination of weapons. It has access to a high variety of situational skills, that can fill any variety of builds and styles.
+
+It's skills are varied both in weapon bonuses, approach, use cases, mobility and more.
+
+'''Best:''' Flexible builds, highest mobility in the game, easy to pickup.
+
+'''Worst:''' No major Combo interactions, relies on older skills for creating a full rotation, hard to master.
+
+'''Weapons:''' Dagger, Sword, Katar, Axe
+
+<br />
+
+
+=== <span id="Gameplay_Identity" class="mw-headline">Gameplay Identity</span> ===
+
+The Night Raven has no enforced rotation, this gives players full control of the best rotation they can use to improve their damage power. This makes the Night Raven:
+
+<br />
+'''A very mobile DPS with multiple hit and run options using all kinds of weapons according to situation, allowing them to quickly dominate unpredictable fights'''
+
+<br />
+Due to it's nature in wielding multiple weapons, Most of its offensive skills have varied scaling and deal '''Boosted Scaling Damage''' when wielding matching weapons.
+
+The use of the Raven (similar to original RO's Falcon) brings alternative concepts, ensuring a night raven will always have ways to deal reliable damage to enemies, if prepared for it.
+
+Night Raven can also apply a Night Wound to targets. This red cross-shaped debuff provides minor extra damage with most skills when used on a marked target, making Blitz Beat and Blade Dancer's Southern Cross great openers to any rotation. The bonus is also small enough that it doesn't feel punishing for missing or ignoring its window.
+
+Finally, the Night Raven can proc the Raven's attacks automatically when auto-attacking, if the player is wielding specifically a '''dagger + sword''' combination.
+
+<br />
+
+
+=== <span id="Core_Gameplay_Loop" class="mw-headline">Core Gameplay Loop</span> ===
+
+Final jobs always have varied core loops. The Night Raven is not a very skill point starved job, meaning it doesn't need to get a ton of skills to become decent... as long as you know what you're looking for:
+
+* Double Dagger Builds should always Get '''Definitive Dagger'''.
+* Double Sword Builds should always Get '''Northern Cross'''.
+* Double Axe Builds should always get '''Bloody Fangs'''.
+* Dagger+Sword Builds can have impressive auto attack power with '''Blitz Beat''' procs.
+
+* All builds should consider '''Typhoon Edge''' for AoE coverage if they need it or the '''Raven Skills''' for more reliability.
+
+* '''Final Skill:''' Raven Steps. Requires having a Raven, quickly dashes to any location with a very small cooldown and SP cost.
+
+Rest of skill points can be used for buffs, mobility and overall class coverage.
+
+Due to access to Raven Steps to quickly move out of danger, a Night Raven can take bigger risks when fighting strong enemies. This allows them to use longer combo rotations with less risk, mixing Blade Dancer skills like Soul Destroyer and alternating Southern Cross (for it's doubled damage when reused in a short window due to Night Wound) is very recommended to boost the damage potential while rotating the cooldowns quickly.
+
+Overall, the Night Raven is a very free-form job, fitting for players who would rather be creative in their progression and experimenting with varied combinations of skills.
+
+== <span id="Skills" class="mw-headline">Skills</span> ==
+
+{|class="wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+!width="16%" style="background: #99d9ea;" | Skill
+!width="16%" style="background: #99d9ea;" | Max Level
+!width="16%" style="background: #99d9ea;" | Description
+!width="16%" style="background: #99d9ea;" | Skill Type
+!width="16%" style="background: #99d9ea;" | Details
+!width="16%" style="background: #99d9ea;" | Scaling
+|-
+| [[File:Advblade.gif|26x26px|link=Advblade]] Adv. Blade Mastery
+| Lv 5
+| Increases Attack and hit rate with swords and daggers.
+| Passive
+| Added as a flat bonus in damage.
+| No
+|-
+| [[File:Cloakingexceed.gif|26x26px|link=Cloakingexceed]] Cloaking Exceed
+| Lv 5
+| Quickly consumes SP for perfect cloaking with very quick movement.
+| Self-Support
+| Can take a few hits without being revealed
+| No
+|-
+| [[File:Raven.gif|26x26px|link=Raven]] Raven Pact
+| Lv 1
+| Allows summoning of a Raven using a Raven Flute.
+| Passive
+| Raven Flute can be bought on the Black Market.
+| No
+|-
+| [[File:Northerncross.gif|26x26px|link=Northerncross]] Northern Cross
+| Lv 10
+| Deals quick damage to an enemy, damage is boosted when wielding dual swords
+| Offensive Melee
+| Extra damage if enemy is marked with Night Wound
+| AGI and DEX
+|-
+| [[File:Definitivedagger.gif|26x26px|link=Definitivedagger]] Definitive Dagger
+| Lv 10
+| Deals instant damage to an enemy, damage is boosted when wielding dual daggers
+| Offensive Melee
+| Extra damage if enemy is marked with Night Wound, extra hit rate
+| AGI and DEX
+|-
+| [[File:Bloodyfangs.gif|26x26px|link=Bloodyfangs]] Bloody Fangs
+| Lv 5
+| Deals magic damage to an enemy, damage is boosted when wielding dual axes
+| Magic
+| Extra damage if enemy is marked with Night Wound, Heals damage dealt
+| INT and DEX
+|-
+| [[File:Typhoonedge.gif|26x26px|link=Typhoonedge]] Typhoon Edge
+| Lv 10
+| Quickly spins weapons knocking back enemies and dealing heavy damage if the hit a wall
+| Melee AoE
+| Damage dealt when hitting a wall is 3x base damage from regular hit. Damage boosted by Rolling Counters.
+| STR
+|-
+| [[File:Blitzbeat.gif|26x26px|link=Blitzbeat]] Blitz Beat
+| Lv 5
+| Attacks a small area with perfect accuracy using the Raven and applying Night Wound
+| Ranged AoE/Automatic
+| Automatic activation based on LUK. Requires a Dagger+Sword.
+| LUK
+|-
+| [[File:Steelwings.gif|26x26px|link=Steelwings]] Steel Wings
+| Lv 10
+| Increases damage of raven-based skills
+| Passive
+| Damage increase is a multiplier per level. Also boosts damage of Counter Slash, modified by player agi.
+| No
+|-
+| [[File:Detect.gif|26x26px|link=Detect]] Sixth Sense
+| Lv 5
+| Commands the Raven to find hidden enemies in an area
+| Ranged Support
+| Range Increases per level
+| No
+|-
+| [[File:Risingwings.gif|26x26px|link=Risingwings]] Rising Wings
+| Lv 5
+| Consumes a large amount of SP to increase weapon attack power
+| Self-Support
+| Requires a Raven and damage is based on weapon default ATK
+| No
+|-
+| [[File:Skyassault.gif|26x26px|link=Skyassault]] Sky Assault
+| Lv 5
+| Commands Raven to strike a target with full power
+| Ranged
+| Deals fixed damage based on DEX and LUK, boosted by Steel Wings
+| DEX and LUK
+|-
+| [[File:Midnighteye.gif|26x26px|link=Midnighteye]] Midnight Eye
+| Lv 5
+| Strikes an enemy with power from the night to remove status changes
+| Ranged
+| Chance increases per level, removes all buffs and debuffs
+| INT
+|-
+| [[File:Nighthunt.gif|26x26px|link=Nighthunt]] Night Hunt
+| Lv 10
+| Consumes HP with up to skill level/hits to deal defense-piercing damage
+| Self-Support
+| Cannot proc double attack, damage scales with dex and agi and is unaffected by % mods.
+| DEX/AGI
+|-
+| [[File:Ravensteps.gif|26x26px|link=Ravensteps]] Raven Steps
+| Lv 5
+| Instantly moves to a line-of-sight cell, requires a Raven.
+| Self-Support
+| Range increases per level.
+| No
+|}

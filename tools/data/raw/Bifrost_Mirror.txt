@@ -1,0 +1,52 @@
+== A Piece of Asgard in New-Midgard ==
+The '''Bifrost Mirror Shard''' is a piece of equipment that cannot be equipped, sold, traded, dropped or stored, being 100% Character Bound.
+
+This item is required to access the [[Distortion Dungeons]], as it can reflect the light seen on the blue orbs that contains the distortion to be accessed. The Mirror by itself is useless, but the Eyes of the 4 Sons of Odin can power it up in order to unlock access to different distortions.
+
+'''Upon fully completing Bifrost Mirror on any character , gives access to all distortion on whole account regardless of having Biforst Mirror in inventory.'''
+
+== How to Obtain ==
+[[File:Map1.png|thumb|right|Bifrost Mirror location|150px|Bifrost Mirror location]]
+The Mirror is not dropped, instead its location can be described as follows:
+
+'''Where Satan Morroc was slain, the Mirror shall bring a new light to anyone who seeks to find a different path.'''
+
+When the Mirror is obtained, the player can begin working on developing it, as the Mirror itself has no powers.
+
+'''The Mirror can be found in moc_fild14 - 345,196'''
+
+== The 4 Jewels ==
+The '''4 Jewels of the sons of Odin''' are spread around the world. they can be found in 4 different regions:
+
+'''The sons of Odin walked the land and each was visiting one of the nations: Rune-Midgard, Arunafeltz, Schwarzwald and Niflheim.'''
+
+The eyes must be slotted in a fixed order, only the sages in Dicastes Diel can add them.
+
+* '''First Eye:''' pay_fild06 - 103,222
+* '''Second Eye:''' hu_fild06 - 188,230
+* '''Third Eye:''' ra_fild03 - 214,267
+* '''Fourth Eye:''' Niflheim - 289,262
+[[File:Map2.png|thumb|4 Eyes locations|250px|4 Eyes locations]]
+
+== Slotting the Eyes ==
+The Sages in Dicastes Diel are dressed according to their expertise based on their colors. The distortions available for each can be found on the [[Distortion Dungeons]] Page.
+
+The Eyes on a Bifrost Mirror Shard can be seen like the slots of cards on an equipment by checking the Mirror in the inventory.
+
+This is considered a requirement for any distortion access, and once done, the character permanently unlocks that access. Regardless if the player loses a fully upgraded Mirror, they retain permanent access to those.
+
+'''The Master of Vidar slots the first Jewel. The price to add the Eye of Vidar is 75.000z'''
+
+This enables access to past distortions, they took place in the past and are part of history.
+
+'''The Master of Vali slots the second Jewel. The price to add the Eye of Vali is 100.000z'''
+
+This enables access to future distortions, they indicate a situation that may happen someday and must be avoided.
+
+'''The Master of Thor slots the third Jewel. The price to add the Eye of Thor is 150.000z'''
+
+This enables access to paradox distortions, they are unique places that happen in different timelines or circumstances to our world.
+
+'''The Master of Balder slots the fourth Jewel. The price to add the Eye of Balder is 350.000z'''
+
+This enables access to end of the world distortions, they take place in apocalyptic scenarios where all hope is lost and a great evil roams the land freely.

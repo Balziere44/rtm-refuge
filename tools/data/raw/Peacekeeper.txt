@@ -1,0 +1,151 @@
+== <span id="Peacekeeper" class="mw-headline">[[File:Peacekeeper.gif|26x26px|File:Peacekeeper.gif]]Peacekeeper</span> ==
+
+'''Note:''' Peacekeeper is Expert job designed for combo playstyle and unqiue trinkets usage.
+
+'''Best:''' High damage potential. High leech power with certain trinkets. High natural resistances. Weapon Endows from trinkets. Damage scaling depends on trinkets used.
+
+'''Worst:''' High skill celling. Trinkets are expensive to make.Squishy without investments. Long Cooldown on finisher skills.
+
+'''Weapons:''' Whips.Trinkets.
+
+=== <span id="Gameplay_Identity" class="mw-headline">Gameplay Identity</span> ===
+
+Peacekeeper is melee dps job that uses whips and scales mainly on DEX instead of STR. Combo playstyle offers high dps with great sustain if you can keep combo going.
+
+Unique trinkets can change or improve your desired playstyle, change your weapon endows and stat scaling on skills, or other unqiue effects.
+
+Using Assault Mode grants increased offensive stats for exchange in defences. Use with caution.
+
+=== <span id="Gameplay_Identity" class="mw-headline">Gameplay Identity</span> ===
+
+Peacekeeper has consistent dps while using combo skills. Each damaging skill has 2-3 effects depending on combo state. Giving endless chain of heavy hits. By adding trinktes use on top of active combo can further improve option on damagin potential of the class.
+
+Trinkets are non-consumable throwing items, that grants effects depending on "Use trinket" skil level. Level 1~5 Deals damage depending on trinket. Level 6~10 Deals damage and grants trinket effect while under turnabout mode with increased cooldown.
+
+'''Possible combo:'''
+
+'''Constant DPS combo:'''
+Conviction -> Eternal Chain -> Conviction -> Use Trinket [1~5] -> Conviction -> Repeat.
+
+'''Finisher combo:'''
+Use Trinket [6~10] -> Conviction -> Eternal Chain -> Conviction -> Lashing Andromeda(Single target) or Wrecking Andromeda(AoE).
+
+'''AutoAttack combo:'''
+'''Note:''' Only usable with high ASPD. Great for leveling.
+
+Use Trinket [1~5] -> Autocast Conviction -> Eternal Chain -> Repeat.
+
+Or
+
+Enter Turnabout mode -> Use Trinket [6~10] -> Autocast Conviction -> Eternal Chain -> repeat
+
+And a lot more if you wish to push Peacekeeper even further.
+
+=== <span id="Peacekeeper HQ" class="mw-headline">Peacekeeper HQ</span> ===
+
+In Marrol Kingdom the Free city of Frontier gives access to Peacekeeper HQ upon changing job to Peacekeeper, where you can gain information about "secret" Trinket crafting.
+
+Around the HQ certain Npc can give information about trinkets crafting and materials needed for them.
+
+To craft trinkets you need to enter '''Place of Power''' in the middle of the room, while having required materials you can craft every trinket.
+Crafting trinket will require 1 refine material and 1 unique catalyst.
+
+'''List of Trinket Recipes:'''
+
+
+Frost Spinner - Permafrost crystal + Oridecon
+
+Deadly Rose - Valkyrie Flower + Shadowdecon
+
+Guard Rock - Toxic Stone of Rot + Enriched Elunium
+
+Broken Serenade - Cute Bell + Enriched Oridecon
+
+Amulet of Siegfried - Valkyrie Legend + Bradium
+
+Holy Cross - Rune of Darkness + Jewel Bradium
+
+Destiny Brush - Cursed Samurai Scroll + Jewel Oridecon
+
+Wicked Eden - Perfect Tuxedo + Emperium
+
+== <span id="Skills" class="mw-headline">Skills</span> ==
+
+{| class="wikitable" style="font-weight:normal; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|-
+! style="text-align:center; background-color:#99d9ea;" | Skill
+! style="text-align:center; background-color:#99d9ea;" | Max Level
+! style="text-align:center; background-color:#99d9ea;" | Description
+! style="text-align:center; background-color:#99d9ea;" | Skill Type
+! style="text-align:center; background-color:#99d9ea;" | Details
+! style="text-align:center; background-color:#99d9ea;" | Scaling
+|-
+| [[File:Chain Mastery.GIF|26x26px|File:Chain Mastery.GIF]] Chain Mastery
+| Lv 10
+| Increases Damage with Whips and max SP
+| Pasive
+| None
+| None
+|-
+| [[File:Trinket Mastery.GIF|26x26px|File:Trinket Mastery.GIF]] Trinket Mastery
+| Lv 10
+| Increases Trinket base damage and Movement speed.
+| Pasive
+| Also Increases ATK vs Boss monsters
+| None
+|-
+| [[File:Conviction.GIF|26x26px|File:Conviction.GIF]] Conviction
+| Lv 10
+| Quickly slices enemy with whip.
+| Physical Melee
+| Can trigger on autoattacks. Enters/Changes Combo status.
+| DEX/Trinket Bonus
+|-
+| [[File:Use Trinket.GIF|26x26px|File:Use Trinket.GIF]] Use Trinket
+| Lv 10
+| Uses/Breaks Trinkets depending on skill lvl.
+| Physical Ranged
+| Skill lvl 6~10 grants unique effects in turnabout mode
+| DEX/Trinket Effect
+|-
+| [[File:Lashing Andromeda.GIF|26x26px|File:Lashing Andromeda.GIF]] Lashing Andromeda
+| Lv 10
+| Slashes enemy from range using whip
+| Physical Ranged
+| Damage can be critical
+| DEX/Trinket Effect
+|-
+| [[File:Eternal Chain.GIF|26x26px|File:Eternal Chain.GIF]] Eternal Chain
+| Lv 10
+| Whips enemy in quick succession
+| Physical Melee
+| Can be used instantly after Conviction
+| DEX/Trinket Effect
+|-
+| [[File:Wrecking Andromeda.GIF|26x26px|File:Wrecking Andromeda.GIF]] Wrecking Andromeda
+| Lv 10
+| Creates Vortex of energy around the caster
+| Physical Melee
+| Skill ignores flee
+| DEX/Trinket Effect
+|-
+| [[File:Royal Mastery.GIF|26x26px|File:Royal Mastery.GIF]] Royal Mastery
+| Lv 5
+| Increase Whip based skill damage and Neutral element resistance
+| Passive
+| None
+| None
+|-
+| [[File:Final Angel.GIF|26x26px|File:Final Angel.GIF]] Final Angel
+| Lv 5
+| Sacrifices Caster hp to ressurect fallen ally
+| Active
+| None
+| None
+|-
+| [[File:Dawn to Dusk.GIF|26x26px|File:Dawn to Dusk.GIF]] Dawn to Dusk
+| Lv 10
+| Increases resistance against holy and shadow element, while also boosting HP regen
+| Self-Ally Buff
+| None
+| None

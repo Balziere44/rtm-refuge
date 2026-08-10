@@ -1,0 +1,484 @@
+<div style="border: 1px solid #f5c518; background-color: #fff8dc; color: #5c4400; padding: 12px; border-radius: 8px; font-size: 14px; margin-bottom: 15px;">
+<span style="font-weight: bold;">🤓☝️ Actually...</span> Remember that <b>random bonuses</b> can be <i>amplified</i> by the new <b>level rarities</b> system.
+</div>
+
+
+= <span id="Weapons" class="mw-headline">Weapons</span> =
+
+Weapon random bonuses generally focus on offensive stats.<br />
+All weapons have 4 options, with the exception of Spears (3) and Decks (2)
+
+{|class="wikitable sortable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+!width="20%" style="background: #99d9ea;" | Weapon
+!width="20%" style="background: #99d9ea;" | Slot 1
+!width="20%" style="background: #99d9ea;" | Slot 2
+!width="20%" style="background: #99d9ea;" | Slot 3
+!width="20%" style="background: #99d9ea;" | Slot 4
+|-
+| [[File:KnifeIcon.gif|30x30px|link=KnifeIcon]] Daggers
+|
+* ATK +1~3%
+* MATK +1~3%
+* HP +1~3%
+* SP +1~3%
+|
+* ATK +1~5
+* MATK +1~5
+* Critical Rate +1~10
+* SP Cost -1~10%
+* Hit +10~20
+* ASPD +1~2
+|
+* Melee Damage +1~10%
+* Magic Damage +1~10%
+* Nullify Size Penalty
+* Ignore Damage Reflect
+|
+* Experience Bonus +10%
+* Fixed Cast Time -10%
+* Fixed Cast Time -0.2s
+* Perfect Hit +10%
+* Leech 2 HP per Hit
+* Splash Attack +1
+* Double Attack Rate +10%
+* Critical Damage +10%
+|-
+| [[File:SwordIcon.gif|30x30px|link=SwordIcon]] Swords
+|
+* ATK +1~3%
+* MATK +1~3%
+* HP +1~3%
+* SP +1~3%
+|
+* ATK +1~5
+* MATK +1~5
+* Critical Rate +1~10
+* SP Cost -1~10%
+* HIT +10~20
+* ASPD +1~2
+|
+* Melee Damage +1~10%
+* Magic Damage +1~10%
+* Ranged Damage +1~10%
+* Nullify Size Penalty
+* Ignore Reflect Damage
+|
+* Experience Bonus +10%
+* Fixed Cast Time -10%
+* Fixed Cast Time -0.2s
+* Perfect Hit +10%
+* Leech 3 HP per Hit
+* Splash Attack +1
+* Defense Pierce +10%
+* Magic Defense Pierce +10%
+|-
+| [[File:BowIcon.gif|30x30px|link=BowIcon]] Bows
+|
+* ATK +1~3%
+* MATK +1~3%
+* HP +1~3%
+* SP +1~3%
+|
+* ATK +1~5
+* MATK +1~5
+* Critical Rate +1~10
+* SP Cost -1~10%
+* HIT +10~20
+* ASPD +1~2
+|
+* Ranged Damage +1~10%
+* Magic Damage +1~10%
+* Attack Range +1~2
+* SP +1~5%
+|
+* Experience Bonus +10%
+* Fixed Cast Time -10%
+* Fixed Cast Time -0.2s
+* Perfect Hit +10%
+* Leech 1 HP per Hit
+* Double Attack Rate +10%
+* Critical Damage +10%
+* Attack Range +1
+|-
+| [[File:AxeIcon.gif|30x30px|link=AxeIcon]] Axes
+|
+* ATK +1~3%
+* MATK +1~3%
+* HP +1~3%
+* SP +1~3%
+|
+* ATK +1~5
+* MATK +1~5
+* After Cast Delay -1~10%
+* SP Cost -1~10%
+* HIT +10~20
+* ASPD +1~2
+|
+* Melee Damage +1~10%
+* Magic Damage +1~10%
+* Nullify Size Penalty
+* Ignore Reflect Damage
+|
+* Experience Bonus +10%
+* Fixed Cast Time -10%
+* Fixed Cast Time -0.2s
+* Perfect Hit +10%
+* Leech 4 HP per Hit
+* Splash Attack +2
+* Physical Damage Resist +1~3%
+* Magic Damage Resist +1~3%
+|-
+| [[File:ScytheIcon.gif|30x30px|link=ScytheIcon]] Scythes
+|
+* ATK +1~3%
+* MATK +1~3%
+* HP +1~3%
+* SP +1~3%
+|
+* ATK +1~5
+* MATK +1~5
+* Critical Rate +1~10
+* SP Cost -1~10%
+* HIT +10~20
+* ASPD +1~2
+|
+* Melee Damage +1~10%
+* Critical Damage +1~10%
+* Ranged Damage +1~10%
+* Ignore Reflect Damage
+|
+* Experience Bonus +10%
+* Fixed Cast Time -10%
+* Fixed Cast Time -0.2s
+* Perfect Hit +10%
+* Leech 5 HP per Hit
+* Splash Attack +1
+* Attack Range +1
+|-
+| [[File:KatarIcon.gif|30x30px|link=KatarIcon]] Katars
+|
+* ATK +1~3%
+* MATK +1~3%
+* HP +1~3%
+* SP +1~3%
+|
+* ATK +1~5
+* MATK +1~5
+* Critical Rate +1~10
+* SP Cost -1~10%
+* HIT +10~20
+* ASPD +1~2
+|
+* Melee Damage +1~10%
+* Critical Damage +1~10%
+* Nullify Size Penalty
+* Ignore Reflect Damage
+|
+* Experience Bonus +10%
+* Fixed Cast Time -10%
+* Fixed Cast Time -0.2s
+* Perfect Hit +10%
+* Leech 2 HP per Hit
+* Splash Attack +1
+* Defense Pierce +10%
+* Critical Damage +10%
+|-
+| [[File:SpearIcon.gif|30x30px|link=SpearIcon]] Spears
+|
+* ATK +1~5
+* MATK +1~5
+|
+* HP +5~10%
+* SP +5~10%
+|
+* Stat +1~3
+| N/A
+|-
+| [[File:DeckIcon.png|30x30px|link=DeckIcon]] Decks
+|
+* ATK +1~7
+* MATK +1~7
+|
+* LUK +1~7
+|
+* ASPD Limit Cap +1~7
+| N/A
+|-
+| [[File:Whip.GIF|30x30px|File:Whip.GIF]] Whips
+|
+* ATK +1~3
+* MATK +1~3
+* HP +1~3%
+* SP +1~3%
+|
+* Melee Damage +1~5%
+* Ranged Damage +1~5%
+* Magic Damage +1~5%
+* Critical Damage +1~5%
+|
+* Base ASPD +1~2
+* After Cast Delay +5~5%
+* Critical Chance +1~5%
+| None
+|}
+
+= <span id="Armor" class="mw-headline">Armor</span> =
+
+Armor random bonuses generally focus on defensive stats and have 3 random bonuses.<br />
+Accessories have 1.
+
+{|class="wikitable sortable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+!width="25%" style="background: #99d9ea;" | Equipment Slot
+!width="25%" style="background: #99d9ea;" | Slot 1
+!width="25%" style="background: #99d9ea;" | Slot 2
+!width="25%" style="background: #99d9ea;" | Slot 3
+|-
+| [[File:ArmorIcon.gif|30x30px|link=ArmorIcon]] Armor
+|
+* +1~3 Stat
+|
+* HP +3~8%
+* SP +3~8%
+|
+* Physical Damage Resist +3~8%
+* Magic Damage Resist +3~8%
+* Healing Received +5~10%
+|-
+| [[File:BootsIcon.gif|30x30px|link=BootsIcon]] Shoes
+|
+* +1~3 Stat
+|
+* Move Speed +5~10%
+* ASPD +5~10%
+|
+* Variable Cast - 5~15%
+* After Cast Delay -5~15%
+* ASPD Limit Cap +1~2
+|-
+| [[File:MufflerIcon.gif|30x30px|link=MufflerIcon]] Garment
+|
+* +1~3 Stat
+|
+* Flee +5~15
+* PDodge +1~5
+|
+* HP Regen +10~20%
+* SP Regen +5~15%
+* Leech Chance +10%/Leech Power +5~10%
+* Fixed Cast Time Reduction -0.2~0.6 sec
+|-
+| [[File:GuardIcon.gif|30x30px|link=GuardIcon]] Shields
+|
+* +1~3 Stat
+|
+* DEF +5~15
+* MDEF +5~15
+* PDodge +1~3
+|
+* Physical Damage Resist +3~8%
+* Magic Damage Resist +3~8%
+* Healing Received +5~10%
+|-
+| [[File:AccessoryIcon.gif|30x30px|link=AccessoryIcon]] Accessories
+|
+* +1~2 Stat
+* ATK +1~2%
+* MATK +1~2%
+* ASPD +1~2
+| N/A
+| N/A
+|-
+| [[File:Seer offhand.png|30x30px|File:Seer offhand.png]] Shadowseer Offhand Daggers
+|
+* +1~2 Stat
+| N/A
+| N/A
+|}
+
+= <span id="Other" class="mw-headline">Other</span> =
+
+* Shadow sets give a bonus to a random skill from any class or specialization.
+* Some unique items may have different random options, such as Dragon Orbs or Job Sets.
+
+{|class="wikitable sortable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+!width="33%" style="background: #99d9ea;" | Item Slot
+!width="33%" style="background: #99d9ea;" | Slot 1
+!width="33%" style="background: #99d9ea;" | Slot 2
+|-
+| [[File:KnifeIcon.gif|30x30px|link=KnifeIcon]] Shadow Set
+|
+* +1~3 Stat
+|
+* +5% Random Skill Damage
+|-
+| [[File:ManualsIcon.gif|30x30px|link=ManualsIcon]] Manual
+|
+* +1~2 Stat
+| N/A
+|-
+| [[File:Uniquebonus.png|30x30px|link=Uniquebonus]] Special Items
+|
+* Varies
+|
+* Varies
+|}
+
+== Rarity System & Rerolling ==
+
+We are introducing two brand new systems made from scratch that allow any piece of equipment, including shadow gear, runes, and manuals, to have a rarity.
+<div style="float: right; margin: 0 0 15px 15px; text-align: center;">
+  https://media.tenor.com/4SP8JrTcZdYAAAAM/despair.gif
+  <div style="font-size: 12px; color: #666;">When no Doomed drops... 🤕</div>
+</div>
+
+Every equipment that drops from monsters will roll a chance to have a rarity.
+
+Each rarity will give a bonus to the value of the equipment options.
+
+
+=== Rarity Levels ===
+Equipment items can drop with different rarity levels, each with their own drop rates:
+
+{| class="wikitable"
+! Rank !! Visual !! Name !! Drop Rate !! Bonus Range
+|-
+| No Rank || - || Common || - || No changes
+|-
+| Rank D || [[File:Forsaken.png|link=https://wiki.echoesofmorroc.com/images/6/67/Forsaken.png?20250214230836]] || Forsaken || 40% || 20% - 120% of base max
+|-
+| Rank C || [[File:Haunted.PNG|link=https://wiki.echoesofmorroc.com/images/e/e8/Haunted.PNG?20250214230824]] || Haunted || 25% || 50% - 150% of base max
+|-
+| Rank B || [[File:Cursed.PNG|link=https://wiki.echoesofmorroc.com/images/d/d9/Cursed.PNG]] || Cursed || 8% || 80% - 180% of base max
+|-
+| Rank A || [[File:Doomed.PNG|link=https://wiki.echoesofmorroc.com/images/0/08/Doomed.PNG?20250214230800]] || Doomed || 0.2% || 110% - 200% of base max
+|}
+
+==== Important Notes ====
+* These rarity levels only apply to equipment items
+* Ammunition and costume items are excluded from the rarity system
+* The interaction with rarity is based on the '''max possible random bonus''' of the item
+* Higher grades allow for exceeding normal random bonus limitations
+
+For instance, if you have a '''Haunted Knife''', the ''All Magical DMG'' bonus could exceed the usual 10% max value.
+
+=== Reroll System ===
+On top of the rarity system, which increases the RNG elements of an item, we introduce the reroll system to improve the quality of life.
+
+We will have '''ten types of Orbs''', each granting a form of item modification (and inventory).
+
+
+Every monster has a chance to drop an orb, but some orbs drop only from MVPs or can be obtained from the '''World Boss Shop'''.
+
+The drop chance increases depending on the mob tier: 30, 75, 100, 130
+
+=== Types of Orbs ===
+
+<div style="text-align: center;">
+https://echoesofmorroc.com/cp/data/items/images/1130002.png
+https://echoesofmorroc.com/cp/data/items/images/1130003.png
+https://echoesofmorroc.com/cp/data/items/images/1130004.png
+https://echoesofmorroc.com/cp/data/items/images/1130005.png
+https://echoesofmorroc.com/cp/data/items/images/1130008.png
+https://echoesofmorroc.com/cp/data/items/images/1130009.png
+https://echoesofmorroc.com/cp/data/items/images/1130010.png
+</div>
+
+==== Normal Monster Orbs ====
+
+{| style="width:100%;"
+| valign="top" width="50%" |
+
+'''Drop Rates by Monster Level'''
+{| class="wikitable"
+! Monster Level !! Drop Rate
+|-
+| 1–29 || 0.5%
+|-
+| 30–74 || 1.2%
+|-
+| 75–99 || 2%
+|-
+| 100–129 || 3.5%
+|-
+| 130+ || 5%
+|}
+
+| valign="top" width="50%" |
+
+'''Orb Types'''
+{| class="wikitable"
+! Icon !! Orb Name !! Effect
+|-
+| https://echoesofmorroc.com/cp/data/items/icons/1130004.png || '''Orb of Change''' || Alters a random option of an equipment.
+|-
+| https://echoesofmorroc.com/cp/data/items/icons/1130002.png || '''Orb of Chance''' || Alters all random options of an equipment.
+|-
+| https://echoesofmorroc.com/cp/data/items/icons/1130003.png || '''Orb of Hope''' || Alters all option values of an equipment.
+|}
+|}
+
+==== MVP Orbs ====
+
+{| style="width:100%;"
+| valign="top" width="50%" |
+
+'''Drop Rates by MVP Level (10x higher than normal monsters)'''
+{| class="wikitable"
+! MVP Level !! Drop Rate
+|-
+| 1–29 || 5%
+|-
+| 30–74 || 12%
+|-
+| 75–99 || 20%
+|-
+| 100–129 || 35%
+|-
+| 130+ || 50%
+|}
+
+'''Harder MVP Orb Drop Rates (Level 100+)'''
+{| class="wikitable"
+! MVP Level !! Drop Rate
+|-
+| 100–129 || 3%
+|-
+| 130+ || 10%
+|}
+
+'''Extra Hard MVP Orb Drop Rates (Level 100+)'''
+{| class="wikitable"
+! MVP Level !! Drop Rate
+|-
+| 100+ || 0.3%
+|}
+
+| valign="top" width="50%" |
+
+'''MVP Orbs'''
+{| class="wikitable"
+! Icon !! Orb Name !! Effect
+|-
+| https://echoesofmorroc.com/cp/data/items/icons/1130004.png || '''Orb of Growth''' || Adds an extra option to an item (if below 5 options).
+|-
+| https://echoesofmorroc.com/cp/data/items/icons/1130005.png || '''Orb of Divinity''' || Alters the rarity and all random options of an equipment.
+|}
+
+'''Harder MVP Orbs'''
+{| class="wikitable"
+! Icon !! Orb Name !! Effect
+|-
+| https://echoesofmorroc.com/cp/data/items/icons/1130008.png || '''Orb of Abyss''' || Chance to upgrade equipment rarity (no downgrade).
+|-
+| https://echoesofmorroc.com/cp/data/items/icons/1130009.png || '''Orb of Offering''' || Select an option to reroll (cost depends on chosen slot).
+|}
+
+'''Extra Hard MVP Orbs'''
+{| class="wikitable"
+! Icon !! Orb Name !! Effect
+|-
+| https://echoesofmorroc.com/cp/data/items/icons/1130010.png || '''Orb of Abundance''' || Unlocks +10 extra inventory slots (max 5 times).
+|}
+|}
+
+'''Note:''' World Boss orbs (Orb of Crimson and Orb of Darkness) are not found in this drop system and might be obtained through different mechanics.

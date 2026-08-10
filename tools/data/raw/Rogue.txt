@@ -1,0 +1,217 @@
+== [[File:Rogue.gif|25px]] Rogue ==
+This job is the first on the "Power of Change" job tree. A tree focused on creating openings or protection around difficult situations.
+
+The Assassin and Rogue guilds have united themselves in order to better allocate their resources and share training. With this, the Rogues had the opportunity to learn multiple approaches to combat, providing creative ways to fight.
+
+'''Weapons Available:''' Daggers, Swords, Bows.
+
+=== Skill Trees ===
+The Rogue is a job class that can specialize in conditional damage, special damage, control, protection or magic damage. It can't dual wield but can use multiple weapon specialties to build new styles around it. Even providing cover to allies while wielding a bow to attack from afar.
+Max Job Level for Rogue is 50. A Rogue can choose one of 4 Specializations or Unchain its limits once it hits Base Level 99.
+
+==== Core Skills ====
+{| class="wikitable" style="font-weight:normal; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|-
+! style="text-align:center; background-color:#99d9ea;" | Skill
+! style="text-align:center; background-color:#99d9ea;" | Max Level
+! style="text-align:center; background-color:#99d9ea;" | Description
+! style="text-align:center; background-color:#99d9ea;" | Skill Type
+! style="text-align:center; background-color:#99d9ea;" | Details
+! style="text-align:center; background-color:#99d9ea;" | Scaling
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Rg_tunneldrive.gif|26px]] Tunnel Drive
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Allows walking while under Hiding. Movement speed increases with higher level.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Passive
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No Changes from original.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:St_chasewalk.gif|26px]] Chase Walk
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Hides after a short cast. Allows walking undetected and can't be revealed.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Self-Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Leaves footprints when moving. SP Cost is applied every few seconds.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Rg_raid.gif|26px]] Sneak Attack
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Can only be used in hiding status. Appears and deals damage and reduces defenses.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Self-Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Affects a small area around user. Good Opener.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | DEX
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:As_pierce.gif|26px]] Magic Pierce
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Ignores 5% MDEF of enemy per level for duration.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Self Offensive Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Also Ignores 1% DEF of enemy per level.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Mg_fireball.gif|24px]] Fire Ball
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Deals fire magic damage to enemy and surroundings. Chance to cause burning.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Offensive AoE Magic
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Can be used with Autospell (Lv4)
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Mg_frostdiver.gif|24px]] Frost Diver
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Deals high base magic damage to an enemy and attempts to freeze it.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Offensive Magic
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Can be used with autospell (Lv4)
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|}
+== Blade Skills ==
+{| class="wikitable" style="font-weight:normal; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|-
+! style="text-align:center; background-color:#99d9ea;" | Skill
+! style="text-align:center; background-color:#99d9ea;" | Max Level
+! style="text-align:center; background-color:#99d9ea;" | Description
+! style="text-align:center; background-color:#99d9ea;" | Skill Type
+! style="text-align:center; background-color:#99d9ea;" | Details
+! style="text-align:center; background-color:#99d9ea;" | Scaling
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Sm_sword.gif|24px|alt=Sm sword.gif]] Blade Mastery
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Increases attack with swords and daggers by 3 per level.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Passive
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Also increases ASPD by 1% per level.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Rg_overpower.gif|26px|alt=Rg overpower.gif]] Overpower
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Strikes a target and enemies around it and knocks them among themselves.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Offensive AoE
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Can be chained with other skills. Ignores flee
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | STR
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Rk_sonicwave.gif|26px|alt=Rk sonicwave.gif]] Wind Slash
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Throws a wave of wind from a sword or dagger.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Offensive Ranged
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Damage is affected by ranged modifiers.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | STR
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Rg_faceoff.gif|26px|alt=Rg faceoff.gif]] Face-Off
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Smashes into an enemy with great strength, pushing them back.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Offensive Melee
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Deals double damage if enemy is knocked into a wall.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | STR
+|}
+
+== Gadget Skills ==
+{| class="wikitable" style="font-weight:normal; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|-
+! style="text-align:center; background-color:#99d9ea;" | Skill
+! style="text-align:center; background-color:#99d9ea;" | Max Level
+! style="text-align:center; background-color:#99d9ea;" | Description
+! style="text-align:center; background-color:#99d9ea;" | Skill Type
+! style="text-align:center; background-color:#99d9ea;" | Details
+! style="text-align:center; background-color:#99d9ea;" | Scaling
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Rg_gadgetmst.gif|24px|alt=Rg gadgetmst.gif]] Gadget Mastery
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Increases Trap set range and bomb damage power. Also boosts INT and SP.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Passive
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Trap and bomb skills deal physical or special damage, but have INT scaling.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Sc_feintbomb.gif|24px|alt=Sc feintbomb.gif]] Decoy
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Creates a clone and becomes invisible, the clone explodes dealing damage.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Offensive AoE
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Dashes back after being used.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | INT and LUK
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Am_acidterror.gif|26px|alt=Am acidterror.gif]] Throw Acid
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Throws a bottle of acid that can reduce enemy defense temporarily.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Special Ranged
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Requires an Acid Bottle.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | INT
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Am_demonstration.gif|26px|alt=Am demonstration.gif]] Throw Molotov
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Creates a small area that deals constant damage.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Special AoE
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Requires a Bottle Grenade.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | INT
+|}
+== Bow Skills ==
+{| class="wikitable" style="font-weight:normal; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|-
+! style="text-align:center; background-color:#99d9ea;" | Skill
+! style="text-align:center; background-color:#99d9ea;" | Max Level
+! style="text-align:center; background-color:#99d9ea;" | Description
+! style="text-align:center; background-color:#99d9ea;" | Skill Type
+! style="text-align:center; background-color:#99d9ea;" | Details
+! style="text-align:center; background-color:#99d9ea;" | Scaling
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Rg_bowmastery.gif|24px|alt=Rg bowmastery.gif]] Bow Mastery
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Increases DEX per level.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Passive
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | DEX influences most ranged modifiers in the game.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Cg_arrowvulcan.gif|26px|alt=Cg arrowvulcan.gif]] Arrow Vulcan
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Throws a long string of arrows at a single enemy.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Offensive
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Deals 50% bonus damage vs enemies under half HP.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | DEX and STR
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Rg_coinflip.gif|26px|alt=Rg coinflip.gif]] Coin Flip
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Spends 1 zeny to flip a coin. If it lands on heads, 1 coin is added.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Self-Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Coins add +1 ATK, skills require coins, higher level increases success rate.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | None
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Rg_ricochetarrow.gif|26px|alt=Rg ricochetarrow.gif]] Ricochet Arrow
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Strikes all enemies in a small area with strong arrow attacks.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Offensive Ranged
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Requires 1 Coin. Low cooldown. Area of effect increases based on skill level.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | LUK
+|}
+
+== Shield Skills ==
+{| class="wikitable" style="font-weight:normal; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|-
+! style="text-align:center; background-color:#99d9ea;" | Skill
+! style="text-align:center; background-color:#99d9ea;" | Max Level
+! style="text-align:center; background-color:#99d9ea;" | Description
+! style="text-align:center; background-color:#99d9ea;" | Skill Type
+! style="text-align:center; background-color:#99d9ea;" | Details
+! style="text-align:center; background-color:#99d9ea;" | Scaling
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Rg_shieldmastery.gif|26px|alt=Rg shieldmastery.gif]] Shield Mastery
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Increases HP by 25 per level when equipped with a shield.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Passive
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Skill also increases the damage of shield-based skills
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Cr_shieldboomerang.gif|26px|alt=Cr shieldboomerang.gif]] Shield Boomerang
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Throws your shield at a distant enemy.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Offensive Ranged
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Damage is slightly boosted by shield refine and weight
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | VIT
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Cr_reflectshield.gif|26px|alt=Cr reflectshield.gif]] Reflect
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Reflects part of physical damage taken back when hit.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Offensive Self-Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Amount increases per level.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Cr_devotion.gif|26px|alt=Cr devotion.gif]] Cover
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Transfers any damage taken by a linked party member to the caster.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Party-Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Range and duration increases with higher level.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|}

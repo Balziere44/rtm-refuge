@@ -1,0 +1,187 @@
+* [[#The_Storm_Walker|<span class="tocnumber">1</span> <span class="toctext">The Storm Walker</span>]]
+** [[#New_Mechanics|<span class="tocnumber">1.1</span> <span class="toctext">New Mechanics</span>]]
+** [[#Dragon_Orbs|<span class="tocnumber">1.2</span> <span class="toctext">Dragon Orbs</span>]]
+** [[#Stances|<span class="tocnumber">1.3</span> <span class="toctext">Stances</span>]]
+* [[#Job_Quest|<span class="tocnumber">2</span> <span class="toctext">Job Quest</span>]]
+* [[#Skills|<span class="tocnumber">3</span> <span class="toctext">Skills</span>]]
+
+== <span id="The_Storm_Walker" class="mw-headline">[[File:Dracomancer.gif|25x25px|link=Dracomancer]]The Storm Walker</span> ==
+
+The Dracomancer is a powerful evolution of the [[Raider]], only the best will have the skills needed to ascend above all others.
+
+These strong warriors carry the legacy of the Dragons of the Past at the tip of its spear, fighting in a furious way while changing their stance to focus on each strength.
+
+'''Greatest changes from Raider:''' More offensive oriented, tools to negate any kind of enemy, extremely versatile
+
+'''Weapons:''' Spears, Wyrm Spears, Daggers, Swords, Bone Swords
+
+=== <span id="New_Mechanics" class="mw-headline">New Mechanics</span> ===
+
+The main defining features of the Dracomancer are:
+
+* Allows usage of '''Dragon Orbs'''.
+
+* Access to '''Dragon Pact''' and '''Dragon Force''' stances.
+
+The use of both systems is essential for a Dracomancer to fight enemies with efficiency and cover different needs of an eventual party.
+
+=== <span id="Dragon_Orbs" class="mw-headline">Dragon Orbs</span> ===
+
+There are 3 types of Orbs:
+* '''Claw Orbs''' That boost the offensive powers.
+
+* '''Wing Orbs''' that boost the defensive powers.
+
+* '''Scale Orbs''' that allow the Dracomancer to transform into a specific Dragon for a duration.
+
+The Different Orbs can be seen on the [[Draco Orbs]] Page. They also consume the entire HP/SP when equipped. Dragon Orbs also provide unique colors for Dracomancers.
+
+=== <span id="Stances" class="mw-headline">Stances</span> ===
+
+To use specific offensive skills, a Dracomancer needs to change its stances.
+
+'''Dragon Pact''' (Small dragon symbols spin around the player) will allow the use of '''Dragon Claw''' and '''Dragon Breath''', providing a well defined combo with a reliable engagement potential.
+
+'''Dragon Force''' (small spear tip symbols spin around the player) will allow the use of '''Crescent Dive''' and '''Geirskogul''', skills focused on raw damage potential and high offensive power.
+
+A strong Dracomancer will find ways to change between stances as needed and using its large arsenal of defensive skills to fight any enemy.
+
+== <span id="Job_Quest" class="mw-headline">Job Quest</span> ==
+
+The Job quest to become a Dracomancer is much more complex than most jobs. It's not recommended for inexperienced Raiders to attempt on their own.
+
+A more experienced Dracomancer can supply a Raider with the tools needed.
+
+The Quest requires a Dracomancer to push their limits and watch their surroundings. A '''card will be required from a dragon that does not spawn naturally'''. The drop rate is higher than normal and the card is key for those facing the quest.
+
+The Job Changer for the Raider can provide important tips on how to complete this quest.
+
+== <span id="Skills" class="mw-headline">Skills</span> ==
+
+'''Weapon Skill'''
+
+Level available depends on the equipped weapon.
+
+{|class="wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+!width="16%" style="background: #99d9ea;" | Skill
+!width="16%" style="background: #99d9ea;" | Max Level
+!width="16%" style="background: #99d9ea;" | Description
+!width="16%" style="background: #99d9ea;" | Skill Type
+!width="16%" style="background: #99d9ea;" | Details
+!width="16%" style="background: #99d9ea;" | Scaling
+|-
+| [[File:Dragonthrust.gif|26x26px|link=Dragonthrust]] Dragon Thrust
+| Lv 10
+| Quickly strikes enemies ahead and locks position for follow-up skills
+| Melee
+| Damage hits in a small area. Enables Combo follow up
+| STR and VIT
+|}
+
+'''Orb Skill'''
+
+Level available depends on the equipped orb.
+
+{|class="wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+!width="16%" style="background: #99d9ea;" | Skill
+!width="16%" style="background: #99d9ea;" | Max Level
+!width="16%" style="background: #99d9ea;" | Description
+!width="16%" style="background: #99d9ea;" | Skill Type
+!width="16%" style="background: #99d9ea;" | Details
+!width="16%" style="background: #99d9ea;" | Scaling
+|-
+| [[File:Dracomancer.gif|25x25px|link=Dracomancer]] Dragon Soul
+| Lv 5
+| Transforms into a dragon, granting unique abilities
+| Self-Support
+| Effects are based on equipped orb
+| None
+|}
+
+'''Skill Tree Skills'''
+
+{|class="wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+!width="16%" style="background: #99d9ea;" | Skill
+!width="16%" style="background: #99d9ea;" | Max Level
+!width="16%" style="background: #99d9ea;" | Description
+!width="16%" style="background: #99d9ea;" | Skill Type
+!width="16%" style="background: #99d9ea;" | Details
+!width="16%" style="background: #99d9ea;" | Scaling
+|-
+| [[File:Dragonforce.gif|26x26px|link=Dragonforce]] Dragon Force
+| Lv 1
+| Channels energy from the dragons to your weapon directly, boosting attack slightly
+| Stance
+| Allows the use of Crescent Dive and Geirskogul
+| None
+|-
+| [[File:Dragonpact.gif|26x26px|link=Dragonpact]] Dragon Pact
+| Lv 1
+| Channels energy from the dragons to your body directly, boosting defenses slightly
+| Stance
+| Allows the use of Dragon Claw and Dragon Breath
+| None
+|-
+| [[File:Crescentdive.gif|26x26px|link=Crescentdive]] Crescent Dive
+| Lv 10
+| Dives from the skies with a spear, hitting all enemies around
+| Melee AoE
+| Requires Dragon Force stance, must be used as a follow-up to Dragon Thrust
+| STR/AGI
+|-
+| [[File:Geirskogul.gif|26x26px|link=Geirskogul]] Geirskogul
+| Lv 10
+| Summons lightning to strike from the sky dealing wind damage
+| Magic AoE
+| Requires Dragon Force stance, boosted if used as a combo follow-up
+| STR/INT
+|-
+| [[File:Dragonclaw.gif|26x26px|link=Dragonclaw]] Dragon Claw
+| Lv 10
+| Dashes to an enemy dealing heavy damage, boosted by burning status on enemy
+| Gap Closer Melee
+| Skill can be boosted by &quot;Claw Sharpening&quot; Passive from equipment, requires Dragon Pact
+| VIT
+|-
+| [[File:Dragonclaw.gif|26x26px|link=Dragonclaw]] Dragon Breath
+| Lv 10
+| Burns the soul and spews flames over a large area, causing burning status
+| Special Ranged AoE
+| Burning Status boosts damage of Dragon Claw, requires Dragon Pact
+| VIT
+|-
+| [[File:Dracowings.gif|26x26px|link=Dracowings]] Draco Wings
+| Lv 5
+| When targeted by a ranged or magical skill has a chance to jump directly to the enemy
+| Self-Support
+| Does not work on every attack, skill may be required for specific situations
+| None
+|-
+| [[File:Dracospirit.gif|26x26px|link=Dracospirit]] Draco Spirit
+| Lv 10
+| Heals multiple negative status to all party members
+| Party-Wide Support
+| Slightly increases Max HP of all party members not affected by negative status
+| None
+|-
+| [[File:Gaebolgascension.gif|26x26px|link=Gaebolgascension]] Gaebolg Ascension
+| Lv 10
+| Increases all defensive properties on self for a duration
+| Self-Support
+| Greatly affects defenses and healing received.
+| None
+|-
+| [[File:Gungnirflight.gif|26x26px|link=Gungnirflight]] Gungnir Flight
+| Lv 10
+| Floats for a short duration, avoiding most terrain-based skills
+| Self-Support
+| Requires a Shadow Orb, skills avoided are any skills directly affecting the ground/feet
+| None
+|-
+| [[File:Skyprophecy.gif|26x26px|link=Skyprophecy]] Sky Prophecy
+| Lv 5
+| Marks all enemies in an area to receive 2x Damage from the next attack
+| AoE of Enemies
+| Area increases per level, cast decreases per level
+| None
+|}

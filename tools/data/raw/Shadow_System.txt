@@ -1,0 +1,162 @@
+* [[#The_Shadows|<span class="tocnumber">1</span> <span class="toctext">The Shadows</span>]]
+** [[#The_Mark|<span class="tocnumber">1.1</span> <span class="toctext">The Mark</span>]]
+** [[#Shadow_Mechanics|<span class="tocnumber">1.2</span> <span class="toctext">Shadow Mechanics</span>]]
+*** [[#Shadow_Types|<span class="tocnumber">1.2.1</span> <span class="toctext">Shadow Types</span>]]
+** [[#Shadow_Cards|<span class="tocnumber">1.3</span> <span class="toctext">Shadow Cards</span>]]
+
+= <span id="The_Shadows" class="mw-headline">[[File:Shadowsystems.gif|26x26px|link=Shadowsystems]]The Shadows</span> =
+
+Shadows are the curse of The Mark given form. They are the main reason Orphans are hated by so many people around New-Midgard.
+
+== <span id="The_Mark" class="mw-headline">The Mark</span> ==
+
+* The Mark is a red glow in the eyes of every Orphan. It's commonly called Morroc's Mark due to it appearing during the mass disappearances after Morroc's Death.
+* Orphans who carried the mark have vanished for between 4 to 5 years, leaving no trace behind and having no memory of where they have gone to. They aged normallly.
+* The mark has no other known properties apart from creating Shadows.
+
+== <span id="Shadow_Mechanics" class="mw-headline">Shadow Mechanics</span> ==
+
+* Whenever a player dies in any dungeon (and only dungeons), a Shadow will spawn. The type of shadow depends on the dungeon ranking.
+* Each shadow has a specific behavior, and will randomly attempt to Self-Destruct whenever anyone comes near it.
+* If the shadow is defeated before it explodes, '''the last player who died on the map is revived with partial HP/SP.'''.
+* Multiple player deaths can cause multiple shadows to spawn, all must be defeated to revive a player. Only the last player who died is revived.
+* If the shadow explodes it deals heavy area damage based on how much HP it had left. Damage is fixed at 100 per HP left. Shadows take 1 damage from any source.
+
+=== <span id="Shadow_Types" class="mw-headline">Shadow Types</span> ===
+
+<div class="floatright">
+
+[[File:Shadow1.gif|114x134px|link=Shadow1]]
+
+</div>
+'''Rank E Shadow'''
+
+'''HP:''' 10
+
+Maximum Damage: 1000
+
+'''Behavior:''' This shadow won't move or attack, and will self destruct after 15 seconds of cast time.
+
+<br />
+
+
+<div class="floatright">
+
+[[File:Shadow2.gif|114x135px|link=Shadow2]]
+
+</div>
+'''Rank D Shadow'''
+
+'''HP:''' 15
+
+Maximum Damage: 1500
+
+'''Behavior:''' This shadow will quickly move close to any item on the floor and self destruct after 10 seconds of cast time.
+
+<br />
+
+
+<div class="floatright">
+
+[[File:Shadow3.gif|114x117px|link=Shadow3]]
+
+</div>
+'''Rank C Shadow'''
+
+'''HP:''' 20
+
+Maximum Damage: 2000
+
+'''Behavior:''' This shadow might use Pneuma or Safety Wall around and self destruct after 10 seconds of cast time.
+
+<br />
+
+
+<div class="floatright">
+
+[[File:Shadow4.gif|99x125px|link=Shadow4]]
+
+</div>
+'''Rank B Shadow'''
+
+'''HP:''' 25
+
+Maximum Damage: 2500
+
+'''Behavior:''' This shadow won't move but deals constant hits of 1 damage to hitlock players, will self destruct after 10 seconds of cast time.
+
+<br />
+
+
+<div class="floatright">
+
+[[File:Shadow5.gif|109x129px|link=Shadow5]]
+
+</div>
+'''Rank A Shadow'''
+
+'''HP:''' 30
+
+Maximum Damage: 3000
+
+'''Behavior:''' This shadow will cast magic on players to cause negative status, will self destruct after 8 seconds of cast time.
+
+<br />
+
+
+<div class="floatright">
+
+[[File:Shadow6.gif|103x130px|link=Shadow6]]
+
+</div>
+'''Rank S Shadow'''
+
+'''HP:''' 50
+
+Maximum Damage: 5000
+
+'''Behavior:''' This shadow will slowly walk towards a player, and may instantly teleport to them, will self destruct after 3 seconds of cast time.
+
+== <span id="Shadow_Cards" class="mw-headline">Shadow Cards</span> ==
+
+Shadows can also drop cards, all cards have 1% drop rate like common monsters.
+
+{|class="wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+!width="33%" style="background: #99d9ea;" | Name
+!width="33%" style="background: #99d9ea;" | Slot
+!width="33%" style="background: #99d9ea;" | Bonus
+|-
+| [[File:Card.gif|24x24px|link=Card]]Rank E Shadow Card
+| Accessory
+| SP+10%
+|-
+| [[File:Card.gif|24x24px|link=Card]]Rank D Shadow Card
+| Shoes
+| Move Speed+10%
+|-
+| [[File:Card.gif|24x24px|link=Card]]Rank C Shadow Card
+| Garment
+| HP+10%
+|-
+| [[File:Card.gif|24x24px|link=Card]]Rank B Shadow Card
+| Armor
+| DEF+10%
+|-
+| [[File:Card.gif|24x24px|link=Card]]Rank A Shadow Card
+| Headgear
+| MDEF+10%
+|-
+| [[File:Card.gif|24x24px|link=Card]]Rank S Shadow Card
+| Weapon
+| ATK+3%, MATK+3%
+|}
+
+{|
+!width="33%" style="background: #99d9ea;" | Combo
+!width="33%" style="background: #99d9ea;" | Stat Bonus
+!width="33%" style="background: #99d9ea;" | Extra Bonus
+|-
+| [[File:Card.gif|24x24px|link=Card]]6 Shadow Cards
+| All Stats +5
+| Def Pierce +10%, MDef Pierce +10%
+|}

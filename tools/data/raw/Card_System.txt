@@ -1,0 +1,69 @@
+== <span id="Reasonable_Treasures" class="mw-headline">[[File:Cardsystem.gif|26x22px|Cardsystem.gif]]Reasonable Treasures</span> ==
+
+Cards were always a core part of the ragnarok experience. As such, in Return to Morroc, we expect players to get any card they wish, as long as they can consistently handle its monsters. As a core experience, they are now essential to facing the hardest challenges, and as such, are a more attainable goal for any player prepared for the challenge.
+
+'''Every card effect was completely remade from scratch. Some might even include new art (the ones that don't will be updated eventually).'''
+
+<br />
+We don't believe that killing something 10.000 times means its difficult to obtain. We believe that's a time sink.
+
+'''We don't like time sinks. We value player experience and time.'''
+
+* Normal Monster Card Drop Rate: '''1.00%'''
+* Champion Monster Card Drop Rate: '''1.00%'''
+* Mini-Boss Card Drop Rate: '''2.00%'''
+* MVP Boss Card Drop Rate: '''3.00%'''
+
+This drop rate ensures cards are reasonable to farm and can be obtained eventually, if a player consistently can handle the monsters that drop those.
+
+With the '''100% remade''' effects, cards from Mini Bosses and MVPs no longer are an instant broken asset, but an interesting concept that can be built around.
+
+== <span id="A_true_balance_of_card_modifiers" class="mw-headline">A true balance of card modifiers</span> ==
+
+Return to Morroc aims to also rework bonuses that may be an issue in balancing the impact of both stats and equipment. We found a balance that strikes closer to our vision of card bonuses:
+
+'''Card damage bonuses are split between stats and equipment. This means if you get, for example, a +10% vs Large Size card, you'll get a 5% bonus from your stats, and 5% from your equipment.'''
+
+* Renewal made equipment too strong with cards applying only to weapon/equip attack. This meant stats were mostly irrelevant.
+* Pre-Renewal had the opposite issue: card modifiers applied to all attack, making lower level weapons with more slots more useful.
+* Return to Morroc splits a card bonus between stats and equipment, 1/2 for each, this ensures the bonuses require a healthy balance between stats and equipment for ideal effect.
+* Note that left-hand weapons only receive 1/3 the bonuses, not 1/2.
+* Final Modifiers like Ranged Damage, Melee Damage and ATK+% are unchanged.
+* MATK bonuses are unchanged.
+* Keep in mind that a card that says '''+10% damage vs Fire''' for example also includes '''MAGIC''' and not only physical attacks.
+
+== <span id="Reworked_Slots_Systems" class="mw-headline">Reworked Slots Systems</span> ==
+
+Return to Morroc believes players should be able to customize their experience to their play style. so Cards now may have different use cases.
+
+* Some cards can now have multiple slots that they can fit. Like a card being a '''Garment or Shoes''' Card. allowing you to wear more than one copy, or matching combos in different ways.
+* Some cards may now have extra restrictive slots, such as being a '''Lower Headgear'''-only card. Usually these cards bear unique effects or are very powerful.
+* Finally, some simple cards can have a bonus that applies to '''Any Slot''', allowing a player to stack as many of them as they want, in order to fully specialize a build around a concept, with expected downsides.
+
+== <span id="Reworked_Item_Balance" class="mw-headline">Reworked Item Balance</span> ==
+
+With the complete rework of items, different slot situations may show up, compared to the vanilla experience:
+
+* Some equipment may have extra slots, such as accessories with 2 slots, or similar effects.
+* '''Paradox''' equipment, that can be obtained in '''Varmundt's Mansion''' have '''2''' slots. They have negligible bonuses by themselves.
+* '''Sage''' equipment, that can be obtained in '''Dicastes Diel''' have '''3''' slots. These equipment require many Distortion Essences, items obtained from the [https://web.archive.org/web/20231127162729/https://returntomorroc.com/wiki/index.php/Distortion_Dungeons Distortion Dungeons], and are a very good goal for end-game farming. They have very basic bonuses, but their versatility due to 3 slots is unmatched.
+
+== <span id="Card_Removal" class="mw-headline">Card Removal</span> ==
+
+Cards can be removed with the Card Master in the Orphanage. The card master requires the '''Orphanage Level to be 25''' before he can start working.
+
+The price to remove cards is 20.000z + 5.000z per card. There's no chance of failure.
+
+== <span id="Protocards" class="mw-headline">Protocards</span> ==
+
+Protocards are a unique type of card that have combo interactions if slotted into specific equipment only. They are an exclusive mechanic of '''Juperos''' Dungeon.
+
+These cards have basic bonuses but can unleash powerful effects when equipped into Juperos Weapons.
+
+This system can be expanded in the future with more items and cards.
+
+== <span id="Dream_Enchantments" class="mw-headline">Dream Enchantments</span> ==
+
+Dream Enchantments are special enchantments used to push High-End items and particular builds to their limits.
+
+'''[[Dream Enchantments| Click Here]]''' to read more about them!

@@ -1,0 +1,187 @@
+== For the King ==
+The [[Judge]] is a unique job in Return to Morroc and one of the expert jobs. It's defining trait is the access to the Headquarters, an area of Prontera Castle exclusive to Judges.
+
+This area has all the NPCs a player may need for basic combat, progression lore and even secret skills.
+
+Visit [[Combat Reworked]] for details on how the combat works and it's dynamics.
+
+== Location ==
+The Headquarters are located behind the Throne Room in Prontera Castle. An Orphan will be allowed access to this area after a certain point in their quest in order to finish their job change. The area can only be accessed by Judges under any circumstance.
+
+== Notable People ==
+* '''Catherine Gaebolg''', Widow to King Tristram III is the ceremonial leader of the Judges and responsible for the job change.
+* '''Quartermaster''' can sell supplies and can also remove cards specifically from revolvers.
+* '''Friedrich Heine''' captain of inner affair of the Judges, can provide titles and promotions for special feats. ('''Planned feature, not available''')
+* '''Lovejoy''' captain of deployment missions of the Judges, can provide good information about how to obtain different weapons and ammo... according to your level.
+* '''Elena Bolkova''' Daughter of a famous gunsmith, is looking for a strong Judge who mastered multiple weapons to help her with an important issue, found outside HQ, around the castle.
+* '''Regional Judges''' provide quests and progression for multiple weapons.
+
+== Royal Arms Crafting ==
+A Judge has multiple weapons they must carry at all times. All judge weapons are character-bound and unique. They never have weapon random modifiers but have strong innate effects.
+
+To craft a revolver, the Judge usually requires specific materials requested by someone. There are also unique revolvers that can be rewarded for specific requirements not in the Headquarters.
+
+{| class="wikitable mw-collapsible mw-collapsed sortable" style="margin:5px"
+|+ style="white-space:nowrap" | [[File:RevolverIcon.gif|24px]] Special Revolvers.
+|-
+! style="background: #99d9ea;" | Revolver
+! style="background: #99d9ea;" | Weapon Lv
+! style="background: #99d9ea;" | ATK/MATK
+! style="background: #99d9ea;padding:5px;width:300px" | Bonus Effects
+! style="background: #99d9ea;padding:5px;" | Innate Bonus
+! style="background: orange;" | Obtained From
+|-
+| '''Royal Revolver [4]'''
+| 1
+| 10
+| HIT +15<br />3% to generate a Seal per attack<br />Ranged Damage +1% per refine
+| SP Cost: 1<br />All Stats +1
+| Received on Job Change
+|-
+| '''Auctoritas Regium [4]'''
+| 1
+| 25
+| Perfect Hit +15%<br />5% to generate a Seal per attack<br />Ranged Damage +2% per Refine
+| SP cost: 1<br /> All Stats +3
+| '''Loyal Judge Quest:'''
+* 5 Enriched Oridecons
+|-
+| '''Wasteland Revolver [3]'''
+| 1
+| 15
+| Absolution DMG+3% per refine<br />Ranged Damage +1% per base 5 AGI<br />ASPD+1
+| SP Cost: 2<br />ASPD +25%
+| '''Desert Judge Quest:'''
+* 10 Oridecons<br />5 HD Oridecons<br />2 Enriched Oridecon
+|-
+| '''Arenae Sicarius [4]'''
+| 1
+| 20
+| Absolution DMG+3% per refine<br />Ranged Damage +2% per 5 base AGI<br />ASPD+3
+| SP Cost: 2<br />ASPD+30%
+| '''Desert Judge Quest:'''
+* 3 Jewel Oridecons<br />150 Distortion Shards
+|-
+| '''Long Revolver [2]'''
+| 2
+| 18
+| Scathe DMG+4% per refine<br />Heavy Shot Knocksback +3 cells
+| SP cost: 3<br />Range +3
+| '''Mountain Judge Quest:'''
+* 5 Oridecon<br />10 HD Oridecons<br />3 Enriched Oridecons
+|-
+| '''Ignis Divina [3]'''
+| 2
+| 23
+| Scathe DMG +4% per refine<br />Heavy Shot knocksback +5 cells
+| SP Cost: 3<br />Range +4
+| '''Mountain Judge Quest:'''
+* 5 MVP Prize Box
+|-
+| '''Darksteel Revolver [1]'''
+| 3
+| 21
+| Death Sentence DMG +3% per refine<br />Move Speed +10%<br />After Cast Delay -10%
+| SP Cost: 4<br />Def Pierce +15%
+| '''Forest Judge Quest:'''
+* 3 Oridecon<br />15 HD Oridecon<br />5 Enriched Oridecon
+|-
+| '''Aurum Mandatum [2]'''
+| 3
+| 26
+| Death Sentence DMG +3% per refine<br />Move Speed +15%<br />After Cast Delay -15%<br />Death Sentence refills one Seal
+| SP Cost: 4<br />Defense Pierce +20%
+| '''Forest Judge Quest:'''
+* 10 Oridecons<br />3 MVP Shards
+|-
+| '''Blessed Revolver [0]'''
+| 4
+| 24
+| Dragonic Dive DMG +5% per refine<br />HP +2% per Refine<br />Doesn't Drain SP when unequipped
+| SP cost: 5<br />SP+20%
+| '''Distortion Judge Quest:'''
+* 100 Distortion Shards<br />5 Enriched Oridecon
+|-
+| '''Iudex Draco Arma [1]'''
+| 4
+| 29
+| Dragonic Dive DMG +5% per refine<br />HP +4% per refine<br />Removes Variable Cast from Dragonic Dive<br />Doesn't Drain SP when unequipped
+| SP cost: 5<br />SP +30%
+| '''Distortion Judge Quest:'''
+* 10 Jewel Oridecon<br />20 MVP Prize Boxes
+|-
+| '''King of Seas [2]'''
+| 4
+| 25
+| Normal attacks hit in a small area around the target<br />Critical Damage +5% per Refine
+| SP Cost: 5<br />Critical Rate +10%
+| '''Sunken Ship Quest'''
+|-
+| '''Rubrum Vestigium [3]'''
+| 4
+| 20
+| 30% Chance to drain 5% damage dealt as HP<br />Trigger Heart DMG +3% per refine
+| SP Cost: 2<br />SP +100
+| '''Cursed Monastery Quest'''
+|-
+| '''Tenebris Rosa [4]'''
+| 4
+| 36
+| Attacks never miss (can still be blocked by shields)<br />Range +1<br />ATK +1% per refine<br />Trigger Heart Cooldown -0.2s per Refine<br />ASPD Limit +2
+| SP Cost: 5<br />All stats +5
+| Obtain all 12 Judge Weapons/Upgrades and talk to Elena
+|-
+| '''Eternal Ice Heart [3]'''
+| 4
+| 15/15
+| 25% Chance to autocast Freezing Spear Lv7 when attacking or using Absolution
+| SP Cost: 3<br />INT +5
+| '''Dicastes Diel Exchange'''
+* Not required for Tenebris Rosa
+|}
+
+{| class="wikitable mw-collapsible mw-collapsed sortable" style="margin:5px"
+|+ style="white-space:nowrap" | [[File:Bullet.gif|24px]] Judge's Bullets.
+|-
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;" | Req. Lv
+! style="background: #99d9ea;" | ATK
+! style="background: #99d9ea;" | Magic ATK
+! style="background: #99d9ea;" | Element
+! style="background: orange;" | Obtained From
+|-
+| '''Bullet'''
+| None
+| 1
+| 0
+| Neutral
+| Judge HQ
+|-
+| '''Blast Bullet'''
+| 25
+| 3
+| 0
+| Neutral
+| Judge HQ
+|-
+| '''Toxic Bullet'''
+| 50
+| 2
+| 0
+| Poison
+| Judge HQ
+|-
+| '''Grave Bullet'''
+| 50
+| 2
+| 0
+| Undead
+| Judge HQ
+|-
+| '''Last Objection'''
+| 100
+| 4
+| 4
+| Neutral
+| Abandoned Castle Distorsion
+|}

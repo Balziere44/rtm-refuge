@@ -1,0 +1,837 @@
+Apart from the accessories sold by NPC's ('''[[NPC Equipment|Check here]]''') and their +1 slot equivalent that can be droped from field monsters.<br />
+This page lists other accessories that can be obtained from dungeons.
+
+== <span id="Accessories_list" class="mw-headline"><span style="padding-bottom:5px">[[File:AccessoryIcon.gif|24x24px|AccessoryIcon.gif]]</span> Accessories list</span> ==
+
+{|class="wikitable" style="font-weight:bold; text-align:center; width: 100%; min-width: 700px;" cellpadding="20"
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;" | Req.<br />
+Lv
+! style="background: #99d9ea;" | Effects
+! style="background: #99d9ea;" | Equipment Slot
+! style="background: #99d9ea;" | Obtained from
+|-
+| '''Flower Ring [1]'''
+| 0
+| Random stat bonus on drop
+| Accessory
+| [[Pyramid Basement]]
+|-
+| '''Ring of the Orphan [0]'''
+| 1
+| EXP Received +10%<br />
+SP+10<br />
+ASPD+3<br />
+Cannot be Worn past Lv30<br />
+<span style="color:blue">Judges only</span>
+| Right Accessory
+| [[Orphan Voucher]]
+|-
+| '''Slime Ring [0]'''
+| 10
+| Enables Perfect Hiding (invisibility against demons and insects)<br />
+Flee +5<br />
+Hiding Cooldown +1s
+| Accessory
+| [[Prontera Culvert]]
+|-
+| '''Burial Charm [1]'''
+| 10
+| Enable Ressurrection Lv1<br />
+SP Regen+10%
+| Accessory
+| [[Payon Cave]]
+|-
+| '''Old Tomb Ring [1]'''
+| 10
+| Recovers 10 SP per kill<br />
+Buried Set:<br />
+Accessory and Headgear<br />
+'''[Set Bonus]'''<br />
+All Stats +1
+| Accessory
+| [[Upper Pyramid]]
+|-
+| '''Old Anklet [1]'''
+| 15
+| Enables Potion Pitcher Lv2
+| Accessory
+| [[Insect Society Nest]]
+|-
+| '''Arch Anklet [1]'''
+| 15
+| MATK+1%<br />
+Enables Potion Pitcher Lv3
+| Accessory
+| [[Society Nest Exchange]]
+|-
+| '''Arch Gloves [1]'''
+| 15
+| Ranged Attack +7%
+| Accessory
+| [[Society Nest Exchange]]
+|-
+| '''Arch Ring [1]'''
+| 15
+| Melee Attack+7%
+| Accessory
+| [[Society Nest Exchange]]
+|-
+| '''Arch Necklace [1]'''
+| 15
+| HP +7%
+| Accessory
+| [[Society Nest Exchange]]
+|-
+| '''Arch Earring [1]'''
+| 15
+| SP +7%
+| Accessory
+| [[Society Nest Exchange]]
+|-
+| '''Arch Brooch [1]'''
+| 15
+| Magic Damage +7%
+| Accessory
+| [[Society Nest Exchange]]
+|-
+| '''Heart Container [1]'''
+| 25
+| HP+4 per VIT<br />
+If VIT is 99:<br />
+HP+4%
+| Accessory
+| [[Byalan Island]]
+|-
+| '''Corsair Ring [1]'''
+| 25
+| Ranged Damage +3%<br />
+Defense Pierce +5%
+| Accessory
+| [[Sunken Ship]]
+|-
+| '''Waterdrop Brooch [1]'''
+| 25
+| DEF+2<br />
+MDEF+2<br />
+HP+3%<br />
+Water Element Resistance +6%
+| Accessory
+| [[Beach Caves]]
+|-
+| '''Orc Ring [1]'''
+| 30
+| Damage vs Neutral enemies +5%<br />
+Orc Set:<br />
+Helm Armor and Ring<br />
+'''[Set Bonus]'''<br />
+ATK+10<br />
+Immune to Bleeding
+| Accessory
+| [[Orc Dungeon]]
+|-
+| '''Red Lantern [0]'''
+| 35
+| Can see invisible enemies<br />
+HIT+9%
+| Accessory
+| [[Coal Mines]]
+|-
+| '''Unbreakable Focus [0]'''
+| 40
+| Cast can't be interrupted<br />
+SP Regen +5%<br />
+DMG vs Holy and Dark +5%
+| Accessory
+| [[Forest Maze]]
+|-
+| '''Magma Ring [1]'''
+| 45
+| Ignore Reflected Damage<br />
+ASPD +2<br />
+Flee+5
+| Accessory
+| [[Magma Dungeon]]
+|-
+| '''Elixir Badge [0]'''
+| 50
+| Increases Kafra Elixir refill limit by +1.<br />
+Variable Cast -5%<br />
+After-cast Delay -5%<br />
+Breaks all carried Kafra elixir when unequipped.
+| Left Accessory
+| [[Yggdrasil Branches]]
+|-
+| '''Demonic Gauntlet [1]'''
+| 50
+| ATK+3%<br />
+MATK+3%<br />
+HP+2%<br />
+SP+2%<br />
+Heal Cooldown +5 seconds
+| Accessory
+| [[Airship Crash Site]]
+|-
+| '''Cold Heart [1]'''
+| 50
+| Ignore Size Penalty<br />
+ATK+1%
+| Accessory
+| [[Loki's Palace]]
+|-
+| '''Somatology Bracelet [2]'''
+| 50
+| Healing Received -25%<br />
+Melee Attack +1%
+| Accessory
+| [[Regenschirm Lab]]
+|-
+| '''Thief's Treasure [1]'''
+| 50
+| Total Hit +5%<br />
+Def Pierce +3%<br />
+DEX+1
+| Accessory
+| [[Einbroch Mines]]
+|-
+| '''Yin Yang Talisman [1]'''
+| 50
+| Healing Received +10%<br />
+Yin Yang Set:<br />
+Earrings Talisman and Amulet<br />
+'''[Set Bonus]'''<br />
+Healing Power +10%<br />
+| Right Accessory
+| [[Sunken Temple]]
+|-
+| '''Toy Ring [1]'''
+| 50
+| Perfect Dodge +3<br />
+Perfect Hit +3%<br />
+HP/SP Regen +15%
+| Accessory
+| [[Toy Factory]]
+|-
+| '''Yin Yang Amulet [1]'''
+| 50
+| Healing Power +10%<br />
+Yin Yang Set:<br />
+Earrings Talisman and Amulet<br />
+'''[Set Bonus]'''<br />
+Healing Power +10%<br />
+| Left Accessory
+| [[Sunken Temple]]
+|-
+| '''Ring of Speeches [2]'''
+| 60
+| MATK+5%<br />
+Immune to Silence<br />
+Variable Cast Time+50%
+| Accessory
+| [[Ayothaya Temple]]
+|-
+| '''Stone Medallion [1]'''
+| 60
+| DEF+5%<br />
+MDEF+5
+| Accessory
+| [[Ayothaya Temple]]
+|-
+| '''Chakra Ring [1]'''
+| 60
+| SP Regen +3% per level of Increase SP Recovery<br />
+Instant Draw DMG +5%
+| Accessory
+| [[Nightmare Clock Tower]]
+|-
+| '''Faceworm Eye [1]'''
+| 60
+| Can see invisible enemies<br />
+HIT+10<br />
+DEF+5
+| Accessory
+| [[Faceworm Nest]]
+|-
+| '''Vesper Core 04 [1]'''
+| 65
+| MATK+1%<br />
+Has Skill Random Mods
+| Left Accessory
+| [[Juperos Exchange]]
+|-
+| '''Vesper Core 03 [1]'''
+| 65
+| ATK+1%<br />
+Has Skill Random Mods
+| Left Accessory
+| [[Juperos Exchange]]
+|-
+| '''Vesper Core 02 [1]'''
+| 65
+| SP+1%<br />
+Has Skill Random Mods
+| Left Accessory
+| [[Juperos Exchange]]
+|-
+| '''Vesper Core 01 [1]'''
+| 65
+| HP+1%<br />
+Has Skill Random Mods
+| Left Accessory
+| [[Juperos Exchange]]
+|-
+| '''Vesper Gear 01 [1]'''
+| 65
+| HP+2%<br />
+01 Set:<br />
+Core and Gear<br />
+'''[Set Bonus]'''<br />
+All Stats +2<br />
+Neutral Resistance +5%<br />
+| Right Accessory
+| [[Juperos Exchange]]
+|-
+| '''Vesper Gear 02 [1]'''
+| 65
+| SP+2%<br />
+02 Set:<br />
+Core and Gear<br />
+'''[Set Bonus]'''<br />
+All Stats +2<br />
+Neutral Resistance +5%<br />
+| Right Accessory
+| [[Juperos Exchange]]
+|-
+| '''Vesper Gear 03 [1]'''
+| 65
+| ATK+2%<br />
+03 Set:<br />
+Core and Gear<br />
+'''[Set Bonus]'''<br />
+All Stats +2<br />
+Neutral Resistance +5%<br />
+| Right Accessory
+| [[Juperos Exchange]]
+|-
+| '''Vesper Gear 04 [1]'''
+| 65
+| MATK+2%<br />
+04 Set:<br />
+Core and Gear<br />
+'''[Set Bonus]'''<br />
+All Stats +2<br />
+Neutral Resistance +5%<br />
+| Right Accessory
+| [[Juperos Exchange]]
+|-
+| '''Ancient Bronze Brooch [1]'''
+| 70
+| Natural elements Magic DMG+5%<br />
+INT+2
+| Accessory
+| [[Dragon Nest]]
+|-
+| '''Ring of White Winter [1]'''
+| 70
+| Water Magic DMG+12%<br />
+INT+1<br />
+Removes Frost Diver cast times<br />
+Frost Diver DMG+25%
+| Accessory
+| [[Ice Dungeon]]
+|-
+| '''Thief Handcuffs [1]'''
+| 70
+| ASPD +2<br />
+After Cast Delay -10%<br />
+SP Cost -3%
+| Accessory
+| [[Glast Heim]]
+|-
+| '''Ring of Despair [1]'''
+| 70
+| ATK+1%<br />
+MATK+1%<br />
+Apocalypse Set:<br />
+Hope and Despair<br />
+'''[Set Bonus]'''<br />
+ATK+2%<br />
+MATK+2%<br />
+HP+2%<br />
+SP+2%
+| Accessory
+| [[Destroyed Morroc Distortion]]
+|-
+| '''Ring of Hope [1]'''
+| 70
+| HP+2%<br />
+SP+2%<br />
+Apocalypse Set:<br />
+Hope and Despair<br />
+'''[Set Bonus]'''<br />
+ATK+2%<br />
+MATK+2%<br />
+HP+2%<br />
+SP+2%
+| Accessory
+| [[Destroyed Morroc Distortion]]
+|-
+| '''Bangungot Agimat Tattoo [0]'''
+| 70
+| HP+6%<br />
+DEF+5<br />
+Tattoo Set:<br />
+Buwaya and Bangungot<br />
+'''[Set Bonus]'''<br />
+All Stats +2<br />
+| Right Accessory
+| [[Malaya]]
+|-
+| '''Equilibrium [0]'''
+| 70
+| Samsara Burst DMG+20%<br />
+Samsara Burst Cooldown -1s<br />
+MATK+1%
+| Left Accessory
+| [[Ice Dungeon]]
+|-
+| '''Buwaya Agimat Tattoo [0]'''
+| 70
+| SP+6%<br />
+DEF+5<br />
+Tattoo Set:<br />
+Buwaya and Bangungot<br />
+'''[Set Bonus]'''<br />
+All Stats +2<br />
+| Left Accessory
+| [[Malaya Fields]]
+|-
+| '''Diamond Ring [1]'''
+| 75
+| Zeny limit on kill +25
+| Accessory
+| [[Geffenia]]
+|-
+| '''Dangerous Medallion [1]'''
+| 75
+| All Traps DMG+10%<br />
+Greater Explosion DMG+10%<br />
+INT+1
+| Accessory
+| [[Alchemist Fortress]]
+|-
+| '''Invoker's Ring [1]'''
+| 80
+| HP Leech Rate +10%<br />
+HP Leech Power +5%
+| Accessory
+| [[Cursed Monastery]]
+|-
+| '''Orleans's Glove [1]'''
+| 80
+| Fixed Cast Time -0.2s<br />
+<br />
+Orleans Set:<br />
+Shield Armor Glove Necklace.<br />
+'''[Set Bonus]'''<br />
+DEX+10<br />
+| Accessory
+| [[Kiel Hyre Factory]]
+|-
+| '''Twisted Pendant [1]'''
+| 80
+| Defense Pierce +5%<br />
+Shadowstab DMG+10%<br />
+Ascending Steel DMG +10%
+| Accessory
+| [[Cursed Monastery]]
+|-
+| '''Morrigane Pendant [0]'''
+| 80
+| MATK +10<br />
+Morrigane Set:<br />
+GarmentHeadgear Pendant Belt<br />
+'''[Set Bonus]'''<br />
+ATK+3%<br />
+MATK+3%<br />
+ATK+1 per 3 base INT<br />
+MATK+1 per 3 base STR
+| Accessory
+| [[Thanatos Tower]]
+|-
+| '''Morrigane Belt [0]'''
+| 80
+| ATK +10<br />
+Morrigane Set:<br />
+GarmentHeadgear Pendant Belt<br />
+'''[Set Bonus]'''<br />
+ATK+3%<br />
+MATK+3%<br />
+ATK+1 per 3 base INT<br />
+MATK+1 per 3 base STR
+| Accessory
+| [[Thanatos Tower]]
+|-
+| '''Follower Ring [1]'''
+| 80
+| Magic DMG vs all sizes +5%<br />
+SP Cost -3%
+| Accessory
+| [[Rachel Sanctuary]]
+|-
+| '''Mark of a Survivor [2]'''
+| 80
+| ATK+1%<br />
+MATK+1%<br />
+2 Slots
+| Right Accessory
+| [[Einbroch_Deadlands]]
+|-
+| '''Pocket Watch [1]'''
+| 80
+| HP Regeneration +15%<br />
+SP Regeneration +15%<br />
+MATK +3%
+| Accessory
+| [[Kiel Hyre Factory]]
+|-
+| '''Orleans's Necklace [1]'''
+| 80
+| After Cast Delay -10%<br />
+<br />
+Orleans Set:<br />
+Shield Armor Glove Necklace.<br />
+'''[Set Bonus]'''<br />
+DEX+10
+| Accessory
+| [[Kiel Hyre Factory]]
+|-
+| '''Strange Metal Ring [2]'''
+| 90
+| SP Regen+20%<br />
+Two Slots
+| Accessory
+| [[Kiel Hyre University]]
+|-
+| '''Sage Earrings [3]'''
+| 100
+| 3 Slots<br />
+| Unique Accessory
+| [[Dicastes Diel Exchange]]
+|-
+| '''Sage Pendant [3]'''
+| 100
+| 3 Slots<br />
+| Unique Accessory
+| [[Dicastes Diel Exchange]]
+|-
+| '''Andvarinaut [0]'''
+| 100
+| HP/SP+5%<br />
+Asgard Artifacts Set:<br />
+Andvarinaut + Accessory<br />
+'''[Set Bonus]'''<br />
+HP/SP Always full when revived.<br />
+Permanent Endure effect.<br />
+Disables Status Bonus from Left Accessory.
+| Right Accessory
+| [[Sky Garden Exchange]]
+|-
+| '''Sage Necklace [3]'''
+| 100
+| 3 Slots<br />
+| Unique Accessory
+| [[Dicastes Diel Exchange]]
+|-
+| '''Stormwalker Necklace [1]'''
+| 100
+| INT+1<br />
+If Base INT is 50:<br />
+Magic Defense Pierce +5%<br />
+Stormwalker Set:<br />
+Mid Headgear Armor Shoes Garment Accessories<br />
+'''[Set Bonus]'''<br />
+All Stats +5<br />
+HP/SP Regen+50%
+| Left Accessory
+| [[Ancient Temple]]
+|-
+| '''Sage Ring [3]'''
+| 100
+| 3 Slots<br />
+| Unique Accessory
+| [[Dicastes Diel Exchange]]
+|-
+| '''Ocean Heart [1]'''
+| 100
+| Unholy Light Cooldown +5s<br />
+SP -20%<br />
+Unholy Light autocasts Waterball Lv2
+| Accessory
+| [[Ancient Temple]]
+|-
+| '''Witch's Sign [1]'''
+| 100
+| SP Consumption -10%<br />
+Total Cast Time -10%
+| Accessory
+| [[Abyss Glast Heim]]
+|-
+| '''Gleipnir [0]'''
+| 100
+| Every 9 base AGI gives you 1 extra AGI.<br />
+ASPD +3
+| Left Accessory
+| [[Sky Garden Exchange]]
+|-
+| '''Gjallar [0]'''
+| 100
+| Every 9 base VIT gives you 1 extra VIT.<br />
+DEF/MDEF Total +5%
+| Left Accessory
+| [[Sky Garden Exchange]]
+|-
+| '''Draupnir [0]'''
+| 100
+| Every 9 base LUK gives you 1 extra LUK.<br />
+Critical Rate Total +5%
+| Left Accessory
+| [[Sky Garden Exchange]]
+|-
+| '''Brisingamen [0]'''
+| 100
+| Every 9 base INT gives you 1 extra INT.<br />
+Magic Def Pierce +5%
+| Left Accessory
+| [[Sky Garden Exchange]]
+|-
+| '''Kafra Ring [2]'''
+| 100
+| Skill Random Options<br />
+EXP Received-10%
+| Accessory
+| [[Abandoned Kafra Warehouse]]
+|-
+| '''Jarngreipr [0]'''
+| 100
+| Every 9 base DEX gives you 1 extra DEX.<br />
+Perfect Hit +5%
+| Left Accessory
+| [[Sky Garden Exchange]]
+|-
+| '''Megingjard [0]'''
+| 100
+| Every 9 base STR gives you 1 extra STR.<br />
+Defense Pierce +5%
+| Left Accessory
+| [[Sky Garden Exchange]]
+|-
+| '''Excelion Gloves [1]'''
+| 100
+| HP Regen+15%<br />
+SP Regen+15%<br />
+Excelion Set:<br />
+Suit Wings Legs Gloves Shield and Visor<br />
+'''[Set Bonus]'''<br />
+All Stats +4<br />
+All Damage taken -5%<br />
+Heal Cooldown -0.5s<br />
+HP/SP Regen +20%
+| Accessory
+| [[Verus Lost Sectors]]
+|-
+| '''Stormwalker Ring [1]'''
+| 100
+| STR+1<br />
+If Base STR is 50:<br />
+Defense Pierce +5%<br />
+Stormwalker Set:<br />
+Mid Headgear Armor Shoes Garment Accessories<br />
+'''[Set Bonus]'''<br />
+All Stats +5<br />
+HP/SP Regen+50%
+| Right Accessory
+| [[Ancient Temple]]
+|-
+| '''Infrared Scanner [2]'''
+| 100
+| Can see invisible enemies<br />
+Revelation autocasts Royal Authority<br />
+SP +25
+| Accessory
+| [[Ancient Verus Lab]]
+|-
+| '''Dream Ring [2]'''
+| 100
+| ATK/MATK +1%<br />
+'''Dream Enchants Available'''<br />
+Dream Set:<br />
+Armor Garment Shoes Left Accessory<br />
+'''[Set Bonus]'''<br />
+All Stats +1<br />
+HP/SP +1% per 2 refines<br />
+HP/SP Regen +50%
+| Left Accessory
+| [[Rachel Nightmare]]<br />
+[[Dream Weaver]] (No Random Options)
+|-
+| '''Silver Moon [1]'''
+| 105
+| HP+10 per base INT<br />
+SP+2 per base VIT<br />
+Moon Set:<br />
+Silver and Golden<br />
+'''[Set Bonus]'''<br />
+HP/SP+5%
+| Right Accessory
+| [[Opera House]]
+|-
+| '''Golden Moon [1]'''
+| 105
+| HP Regen +1% per 2 base INT<br />
+SP Regen +1% per 2 base VIT<br />
+Moon Set:<br />
+Silver and Golden<br />
+'''[Set Bonus]'''<br />
+HP/SP+5%
+| Left Accessory
+| [[Opera House]]
+|-
+| '''Ring of Black Shadow [1]'''
+| 110
+| Magic Attack +7<br />
+SP-10%<br />
+Light and Dark set:<br />
+White Light and Black Shadow Rings<br />
+'''[Set Bonus]'''<br />
+All Stats +1
+| Accessory
+| [[Prontera Distortion]]
+|-
+| '''Ring of Ressonance [1]'''
+| 110
+| MATK +2%<br />
+Natural Element Magic DMG+4%<br />
+Flame Lord Set:<br />
+2 Rings<br />
+'''[Set Bonus]'''<br />
+MATK+1%<br />
+Fixed Cast Time -25%
+| Left Accessory
+| [[Thor Volcano]]
+|-
+| '''Tetra Brooch [4]'''
+| 110
+| 4 Slots<br />
+MATK+1%<br />
+SP-90%<br />
+Tetra Set:<br />
+Ring and Brooch Accessories<br />
+'''[Set Bonus]'''<br />
+HP-99%
+| Right Accessory
+| [[Ancient Verus Lab]]
+|-
+| '''Tetra Ring [4]'''
+| 110
+| 4 Slots<br />
+ATK+1%<br />
+SP-90%<br />
+Tetra Set:<br />
+Ring and Brooch Accessories<br />
+'''[Set Bonus]'''<br />
+HP-99%
+| Left Accessory
+| [[Ancient Verus Lab]]
+|-
+| '''Puppet Hand [2]'''
+| 110
+| HP+2%<br />
+Dagger Weapon Random Options<br />
+(Illusionist Only)
+| Accessory
+| [[Horror Toy Factory]]
+|-
+| '''Death Hand [1]'''
+| 110
+| HP Regen +75%<br />
+Skill Random Mods<br />
+Healing Received -25%
+| Accessory
+| [[Prontera Distortion]]
+|-
+| '''Ring of White Light [1]'''
+| 110
+| Attack +7<br />
+HP-10%<br />
+Light and Dark set:<br />
+White Light and Black Shadow Rings<br />
+'''[Set Bonus]'''<br />
+All Stats +1
+| Accessory
+| [[Prontera Distortion]]
+|-
+| '''Ring of the Flame Lord [1]'''
+| 110
+| MATK +2%<br />
+Corporal Element Magic DMG+4%<br />
+Flame Lord Set:<br />
+2 Rings<br />
+'''[Set Bonus]'''<br />
+MATK+1%<br />
+Fixed Cast Time -25%
+| Right Accessory
+| [[Thor Volcano]]
+|-
+| '''Shield Ring [1]'''
+| 110
+| Perfect Dodge +1 per Shield Mastery<br />
+DEF+1 per 9 VIT<br />
+HP+1%<br />
+Shield Boomerang DMG+10%
+| Accessory
+| [[Prontera Distortion]]
+|-
+| '''Spellslinger Ring [1]'''
+| 120
+| Enables Dual Cast Lv3<br />
+INT+1
+| Accessory
+| [[Death's Castle]]
+|-
+| '''Pure Glove [0]'''
+| 125
+| Healing Power +10%<br />
+Heal Cooldown -0.25s<br />
+SP Costs +10%
+| Accessory
+| [[Divine Temple of Freya]]
+|-
+| '''Dandelion Chains [2]'''
+| 130
+| Ressurrects with full HP and SP
+| Accessory
+| [[Dimensional Gorge]]
+|-
+| '''Ring of Naght Sieger [2]'''
+| 130
+| ATK+3%<br />
+MATK+3%
+| Accessory
+| [[Lost Tomb of the King]]
+|-
+| '''Emperium Ring [1]'''
+| 130
+| Enables Heal Lv10<br />
+Enables Increase Agility Lv10<br />
+HP+1%<br />
+SP+1%<br />
+Emperium Set:<br />
+Armor Garment Shoes Ring<br />
+'''[Set Bonus]'''<br />
+HP/SP Regeneration +100%<br />
+All Stats +3<br />
+ATK/MATK+3%
+| Accessory
+| [[Abandoned Castle]]
+|}

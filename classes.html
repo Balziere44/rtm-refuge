@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Classes and Rebalances | Return to Morroc: Refuge</title>
-<meta name="description" content="The complete job rebalance list for the Refuge: shared baseline skills, the assassin branch and the rogue branch, transcribed skill by skill from the developers' own posts.">
+<title>Classes | Return to Morroc: Refuge</title>
+<meta name="description" content="All 41 classes in the Refuge laid out as a tree: seven roads from Orphan, eight final jobs on the main line, and two jobs that are new.">
 <link rel="canonical" href="https://rtmrefuge.pages.dev/classes.html">
 
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
@@ -17,16 +17,16 @@
 <meta property="og:site_name" content="Return to Morroc: Refuge">
 <meta property="og:locale" content="en_US">
 <meta property="og:url" content="https://rtmrefuge.pages.dev/classes.html">
-<meta property="og:title" content="Classes and Rebalances | Return to Morroc: Refuge">
-<meta property="og:description" content="The complete job rebalance list for the Refuge: shared baseline skills, the assassin branch and the rogue branch, transcribed skill by skill from the developers' own posts.">
+<meta property="og:title" content="Classes | Return to Morroc: Refuge">
+<meta property="og:description" content="All 41 classes in the Refuge laid out as a tree: seven roads from Orphan, eight final jobs on the main line, and two jobs that are new.">
 <meta property="og:image" content="https://rtmrefuge.pages.dev/assets/social/og-cover.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Return to Morroc: Refuge">
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Classes and Rebalances | Return to Morroc: Refuge">
-<meta name="twitter:description" content="The complete job rebalance list for the Refuge: shared baseline skills, the assassin branch and the rogue branch, transcribed skill by skill from the developers' own posts.">
+<meta name="twitter:title" content="Classes | Return to Morroc: Refuge">
+<meta name="twitter:description" content="All 41 classes in the Refuge laid out as a tree: seven roads from Orphan, eight final jobs on the main line, and two jobs that are new.">
 <meta name="twitter:image" content="https://rtmrefuge.pages.dev/assets/social/og-cover.jpg">
 
 <link rel="icon" href="assets/img/icon-32.png" sizes="32x32">
@@ -36,8 +36,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="assets/css/style.css">
-<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
 
 <script>
 /* The only blocking script on the site. It has to run before the first paint
@@ -66,7 +66,7 @@
 <header class="site-header">
   <div class="shell header-inner">
     <a class="brand" href="index.html">
-      <img src="assets/img/icon-192.png" width="34" height="34" alt="" aria-hidden="true">
+      <img class="mark" src="assets/img/icon-192.png" width="34" height="34" alt="" aria-hidden="true">
       <span class="brand-text">
         <span class="brand-name">RETURN TO MORROC</span>
         <span class="brand-sub">Refuge</span>
@@ -76,11 +76,12 @@
     <nav class="nav" aria-label="Main">
       <a href="index.html">Home</a>
       <a href="server.html">The Server</a>
-      <a href="changes.html">What Changed</a>
+      <a href="start.html">Start Here</a>
       <a href="classes.html" aria-current="page">Classes</a>
+      <a href="mechanics.html">Mechanics</a>
+      <a href="gear.html">Gear</a>
       <a href="world.html">World</a>
       <a href="guides.html">Guides</a>
-      <a href="database.html">Database</a>
       <a href="join.html">Join</a>
     </nav>
     <!-- NAV:END -->
@@ -118,11 +119,12 @@
     <nav aria-label="Mobile">
       <a href="index.html">Home</a>
       <a href="server.html">The Server</a>
-      <a href="changes.html">What Changed</a>
+      <a href="start.html">Start Here</a>
       <a href="classes.html" aria-current="page">Classes</a>
+      <a href="mechanics.html">Mechanics</a>
+      <a href="gear.html">Gear</a>
       <a href="world.html">World</a>
       <a href="guides.html">Guides</a>
-      <a href="database.html">Database</a>
       <a href="join.html">Join</a>
     </nav>
     <!-- DRAWER:END -->
@@ -132,339 +134,178 @@
 <section class="page-hero">
   <div class="shell">
     <p class="crumbs"><a href="index.html">Home</a><span>/</span><span>Classes</span></p>
-    <h1>Every job, rebalanced</h1>
-    <p>
-      Three rebalance passes, transcribed in full. The shared baseline first,
-      then the assassin branch, then the rogue branch. Numbers marked as work in
-      progress may still move before launch.
+    <h1>41 classes, seven roads</h1>
+    <p class="lede">
+      Everyone starts as an Orphan. Where you go after job level 10 decides how
+      the next hundred and forty levels feel - and two of these roads did not
+      exist before the Refuge.
     </p>
   </div>
 </section>
 
 <section class="section section--tight">
   <div class="shell">
-    <div class="panel reveal">
+    <dl class="stat-row reveal">
+      <div class="stat"><dt>Classes</dt><dd>41</dd></div>
+      <div class="stat"><dt>Final jobs</dt><dd>13</dd></div>
+      <div class="stat"><dt>Specialisations</dt><dd>8</dd></div>
+      <div class="stat"><dt>Expert jobs</dt><dd>4</dd></div>
+      <div class="stat"><dt>Skills documented</dt><dd>424</dd></div>
+    </dl>
+    <div class="panel reveal" style="margin-top:2rem">
       <p>
-        <strong>Read this first.</strong> Monsters deal more damage than they did
-        and healing is slower. Most of the damage increases below are paying for
-        that, not raising your ceiling. And the job shadow sets are gone, so the
-        overall power curve is lower than the original's by design.
+        <strong>Job shadow sets are gone.</strong> In the original, every job had
+        its own mandatory set past level 100 and it decided your build for you.
+        The Refuge removed them and replaced them with more than fifty
+        dungeon-based sets that any job can wear. Every page below is written
+        with that already true.
       </p>
     </div>
-    <div class="cluster reveal" style="margin-top:1.5rem">
-      <label class="visually-hidden" for="jobsearch">Filter jobs and skills</label>
-      <input id="jobsearch" type="search" placeholder="Filter by job or skill name..."
-             data-filter="joblist" data-filter-count="jobcount"
-             style="flex:1 1 260px;padding:0.7rem 1rem;border-radius:999px;border:1px solid var(--line-strong);background:var(--bg-elevated);color:var(--text);font:inherit">
-      <span class="chip mono" id="jobcount">-</span>
-    </div>
   </div>
 </section>
 
-<div id="joblist">
-
-<section class="section section--tight">
-  <div class="shell">
-    <div class="section-head reveal">
-      <p class="eyebrow">Pass one</p>
-      <h2>The shared baseline and the early game</h2>
-      <p>The skills every character has, then each job in turn.</p>
+<div class="shell tree">
+  <section class="tree-group tree-group--root reveal">
+    <div class="tree-head">
+      <h2>Everyone starts here</h2>
+      <p>Ten job levels as an Orphan and the whole tree opens. The Orphan's own
+      skills stay with you for all one hundred and fifty levels, which is why the
+      Refuge rebuilt four of them before touching anything else.</p>
     </div>
-    <div class="grid grid--wide">
-    <article class="card reveal" id="orphan-shared-baseline" data-row>
-      <h3>Orphan (shared baseline)</h3>
-      <p class="muted">The skills every character carries. These four changes touch every build in the game.</p>
-      <ul>
-  <li><strong>Heal</strong> capped at level 1. The formula was rewritten to scale off base level instead of skill level, so it stays relevant instead of falling off. Cooldown 5s to 7s.</li>
-  <li><strong>Hiding</strong> capped at level 1, fixed 2 second duration, 5s cooldown, cannot be cancelled early - but now works on insects, demons and bosses.</li>
-  <li><strong>Warp Portal</strong> is now a default skill. Memorise three locations plus your save point and warp yourself and the whole party.</li>
-  <li><strong>Teleport level 1</strong> is free for everyone, 60 second cooldown, no SP cost, behaves like a Fly Wing. Level 2 was removed.</li>
-  <li><strong>Increase AGI</strong> no longer grants ASPD or AGI. Slightly better move speed instead, 20s + 2s per AGI.</li>
-  <li>Heal, Hiding and Increase AGI now cost 15 SP + 5% of max SP.</li>
-</ul>
-    </article>
-    <article class="card reveal" id="thief-line" data-row>
-      <h3>Thief line</h3>
-      
-      <ul>
-  <li><strong>Envenom</strong> can poison bosses. Better INT scaling, chance and duration rise with skill level.</li>
-  <li><strong>Improve Defense</strong> rebuilt: 2 HP per skill level per base level. About 150 HP before, roughly 3,900 at level 130.</li>
-  <li><strong>Improve Wisdom</strong> rebuilt: 2 SP per skill level per 3 base levels. About 150 SP before, roughly 1,300 at level 130.</li>
-  <li><strong>Double Strafe</strong> 50 + 7%/lv to 50 + 10%/lv.</li>
-  <li><strong>Arrow Shower</strong> combo damage 80% to 100%.</li>
-  <li>Elemental spell bonus per focus stack 6% to 7%.</li>
-  <li><strong>Backstab</strong> scaling per Improve Dodge level 3% to 5%.</li>
-  <li><strong>Cross Ripper Slasher</strong> damage per counter 20% to 25%.</li>
-</ul>
-    </article>
-    <article class="card reveal" id="assassin" data-row>
-      <h3>Assassin</h3>
-      
-      <ul>
-  <li><strong>Axe Tornado</strong> damage per Rolling Cutter counter 15% to 25%.</li>
-  <li><strong>Axe Boomerang</strong> base damage 60% to 100%.</li>
-  <li><strong>Sonic Blow</strong> LUK scaling 1% to 2% per LUK.</li>
-  <li><strong>Burst Petals</strong> base damage 60% to 100%, hit-count bug fixed.</li>
-  <li><strong>Magic Pierce</strong> no longer adds 1% def pierce per active level.</li>
-  <li><strong>Cloaking</strong> is not detected by normal monsters, but bosses see you.</li>
-</ul>
-    </article>
-    <article class="card reveal" id="rogue" data-row>
-      <h3>Rogue</h3>
-      
-      <ul>
-  <li><strong>Decoy</strong> cooldown 5s to 8s, works on non-bosses.</li>
-  <li><strong>Ricochet Arrow</strong> base 50% to 75%, combo bonus 70% to 75%.</li>
-  <li><strong>Shield Mastery</strong> bonus to shield skills 5%/lv to 10%/lv.</li>
-  <li><strong>Sneak Attack</strong> bonus 30% to 20%, still halved against bosses.</li>
-</ul>
-    </article>
-    <article class="card reveal" id="jester" data-row>
-      <h3>Jester</h3>
-      
-      <ul>
-  <li><strong>Gift Card</strong> 70 + 7%/lv to 77 + 7%/lv, cooldown 5s to 3s.</li>
-  <li><strong>Stack Deck</strong> proc chance for Joker's Draw is now 5% per 7 LUK instead of a flat 30%.</li>
-  <li><strong>Joker's Draw</strong> 70 + 5%/lv to 77 + 7%/lv, and refunds 77 SP on use.</li>
-  <li><strong>Double Down</strong> 30 + 10%/lv to 35 + 15%/lv.</li>
-</ul>
-    </article>
-    <article class="card reveal" id="illusionist" data-row>
-      <h3>Illusionist</h3>
-      
-      <ul>
-  <li><strong>Life Strings</strong> now grants 10% to 20% of the player's stats per level, duration and cooldown 10s to 30s.</li>
-</ul>
-    </article>
-    <article class="card reveal" id="dark-knight" data-row>
-      <h3>Dark Knight</h3>
-      
-      <ul>
-  <li><strong>Conflagration</strong> gains 50% base damage, HP scaling adjusted.</li>
-  <li><strong>Vengeance</strong> cooldown 1.4s to 2s, less HP-based scaling.</li>
-  <li><strong>Fatal Menace</strong> 150 + 10%/lv + 30% per missing HP to 150 + 15%/lv + 10% per missing HP.</li>
-  <li><strong>Night Menace</strong> 150 + 10%/lv + 50% per missing HP to 150 + 20%/lv + 25% per missing HP.</li>
-  <li><strong>Shatter Cross</strong> damage against frozen targets 3% to 10% per STR.</li>
-  <li><strong>Knight Ritual</strong> now boosts STR and VIT instead of AGI and DEX.</li>
-</ul>
-    </article>
-    <article class="card reveal" id="judge" data-row>
-      <h3>Judge</h3>
-      
-      <ul>
-  <li>New revolvers added to the pool.</li>
-  <li><strong>Death Sentence</strong> 50 + 10%/lv to 100 + 10%/lv, DEX scaling 1% to 3%, combo bonus 50% to 100%.</li>
-  <li><strong>Violent Barrage</strong> base 60% to 75%.</li>
-  <li><strong>Gun Swap</strong> DEX bonus from combo 2% to 3% per DEX.</li>
-</ul>
-    </article>
-    <article class="card reveal" id="vagabond-and-legend" data-row>
-      <h3>Vagabond and Legend</h3>
-      <p class="muted">No direct changes - only what flows down from the shared passives such as Improve Defense and Improve Wisdom.</p>
-      <p class="dim">No direct changes.</p>
-    </article>
-    <article class="card reveal" id="raider" data-row>
-      <h3>Raider</h3>
-      
-      <ul>
-  <li>Improve Defense and Improve Wisdom follow the thief rework.</li>
-  <li><strong>Dragon Thrust</strong> base 120% to 110%.</li>
-  <li><strong>Heavy Stab</strong> 50 + 30%/lv + 2%/VIT to 100 + 25%/lv + 3%/VIT.</li>
-  <li><strong>Wind Cutter</strong> base 40% to 60%.</li>
-  <li><strong>Spear Mastery</strong> one-hand spear HP 30 to 25 per level, two-hand spear 2 to 3 flee per level.</li>
-</ul>
-    </article>
-    <article class="card reveal" id="dracomancer" data-row>
-      <h3>Dracomancer</h3>
-      <p class="muted">Dragon Orbs are meant to be a strong extra, not a button you press to always transform and stomp everything.</p>
-      <ul>
-  <li>Orb cooldowns 60-5s per level to a flat 90s.</li>
-  <li>Orb duration flat 10s to 10 + 2s per level.</li>
-  <li><strong>Sky Prophecy</strong> cooldown 15s to 12s, cast time set to 2s.</li>
-  <li><strong>Crescent Dive</strong> scaling 15%/lv to 25%/lv.</li>
-  <li><strong>Geirskogul</strong> base 80% to 100%; 25% stun chance on dragons became 10% on any enemy.</li>
-  <li><strong>Draco Wings</strong> no longer costs 5% max HP.</li>
-  <li><strong>Dragon Breath</strong> 25%/lv to 30%/lv, cast time no longer grows with level.</li>
-</ul>
-    </article>
-    <article class="card reveal" id="trickster" data-row>
-      <h3>Trickster</h3>
-      
-      <ul>
-  <li><strong>Hellraiser</strong> base 110% to 150%, the level 10 requirement for Finisher Ready is gone, duration 3s to 5s.</li>
-  <li><strong>Sweeping Slash</strong> hits three times during Finisher Ready.</li>
-</ul>
-    </article>
-    <article class="card reveal" id="revenant" data-row>
-      <h3>Revenant</h3>
-      
-      <ul>
-  <li><strong>Ominous Presence</strong> takes on croc's overheal mechanic; its hit and critical damage were removed. 3% per level of the extra leeched damage becomes shield.</li>
-  <li><strong>Flaming Wave</strong> loses its cast time, burn 0.5 + 0.5s/lv to 2.5 + 0.5s/lv, cooldown fixed at 5s, damage 25%/lv to 30%/lv.</li>
-  <li><strong>Final Orchestra</strong> flat healing became 1% of the caster's max HP per pulse per skill level, and deals half that as damage plus knockback to anything standing in it. Max SP cost 50% to 25%.</li>
-</ul>
-    </article>
-    <article class="card reveal" id="peacekeeper" data-row>
-      <h3>Peacekeeper</h3>
-      
-      <ul>
-  <li><strong>Chain Mastery</strong> ATK per level 3 to 1.</li>
-  <li><strong>Assault Mode</strong> DEF/MDEF pierce 5%/lv to 3%/lv.</li>
-  <li><strong>Use Trinket</strong> base 50% to 100%, 1% to 3% per DEX, cooldowns 5s to 4s and 15s to 10s for Crash.</li>
-  <li><strong>Lashing Andromeda</strong> 50 + 10%/lv + 1%/DEX to 50 + 15%/lv + 2%/DEX, cooldown 10s to 7s.</li>
-  <li><strong>Wrecking Andromeda</strong> 50 + 10%/lv + 1%/DEX to 100 + 15%/lv + 2%/DEX, cooldown 10s to 7s.</li>
-</ul>
-    </article>
-    <article class="card reveal" id="ronin" data-row>
-      <h3>Ronin</h3>
-      
-      <ul>
-  <li><strong>Ascending</strong> and <strong>Descending Steel</strong> INT scaling 1% to 2%.</li>
-  <li><strong>Ascending Steel</strong> grants Kaupe for 1 second.</li>
-</ul>
-    </article>
-    <article class="card reveal" id="shadowseer" data-row>
-      <h3>Shadowseer</h3>
-      
-      <ul>
-  <li>Max job level 70 to 50.</li>
-  <li>Magic Pierce removed from the tree.</li>
-</ul>
-    </article>
-    <article class="card reveal" id="prowler" data-row>
-      <h3>Prowler</h3>
-      
-      <ul>
-  <li>Max job level 70 to 50. Nothing else changed.</li>
-</ul>
-    </article>
+    <div class="tree-row tree-row--single">
+      <a class="node node--orphan" href="classes/orphan.html"><span class="node-name">Orphan</span><span class="node-tag">Everyone starts here. Nobody stays.</span></a>
     </div>
-  </div>
-</section>
-
-<section class="section section--tight">
-  <div class="shell">
-    <div class="section-head reveal">
-      <p class="eyebrow">Pass two</p>
-      <h2>The assassin branch</h2>
-      <p>Specialisations and final jobs.</p>
+  </section>
+  <section class="tree-group reveal">
+    <div class="tree-head">
+      <h2>The Thief road</h2>
+      <p>The main progression, and the widest. Ten job levels as an Orphan, fifty as a Thief, then a choice that eventually forks eight ways.</p>
     </div>
-    <div class="grid grid--wide">
-    <article class="card reveal" id="blade-dancer-night-raven" data-row>
-      <h3>Blade Dancer / Night Raven</h3>
-      <p class="muted">croc's leech and ranged bonuses on the bird skills are kept.</p>
-      <ul>
-  <li><strong>Soul Destroyer</strong> applies poison to any target including bosses while Enchant Poison is up. 25 + 5%/lv chance, 5 + 1s/lv duration.</li>
-  <li><strong>Counter Slash</strong> starting cooldown 0.5s to 0.6s.</li>
-  <li><strong>Night Hunt</strong> hit count doubled (20 at level 10), HP loss per hit 5% to 7%, 1% damage per 1% missing HP, 1.25x at red health.</li>
-  <li><strong>Bloody Fangs</strong> range 11 to 3 cells, cooldown 4s to 5s, no more double damage with dual axes (folded into a flat 50%/lv + 5%/INT, still MATK based), triple damage at red health, ends Night Hunt early.</li>
-  <li><strong>Cloaking Exceed</strong> move speed 90 + 10%/lv to 40%/lv.</li>
-  <li><strong>Typhoon Edge</strong> now boosted by dual axes.</li>
-  <li><strong>Definitive Dagger</strong> range increased to 3 cells.</li>
-</ul>
-    </article>
-    <article class="card reveal" id="scoundrel-black-plague" data-row>
-      <h3>Scoundrel / Black Plague</h3>
-      <p class="muted">Most toxins affect bosses, carried over from croc's build.</p>
-      <ul>
-  <li><strong>Venom Buster</strong> base cooldown 10s to 5s.</li>
-  <li><strong>Spiral Blade</strong> slightly faster repeat, damage per level 10% to 15%.</li>
-  <li><strong>Mjolnir's Fall</strong> damage per level 10% to 25%.</li>
-  <li><strong>Enchant Deadly Poison</strong> now negates the entire flat defence rather than 75% of it.</li>
-</ul>
-    </article>
-    <article class="card reveal" id="executioner-gravekeeper" data-row>
-      <h3>Executioner / Gravekeeper</h3>
-      <p class="muted">Animation lock timers were reweighted toward after-cast delay.</p>
-      <ul>
-  <li><strong>Meteor Assault</strong> +5% damage per Rolling Counter.</li>
-  <li><strong>Exale Rage</strong> area doubled to 11x11.</li>
-  <li><strong>Mass Grave</strong> cast time removed.</li>
-  <li><strong>Guard Breaker</strong> final damage +25% per defensive buff on the target - Kyrie, Assumptio, Auto Guard, Defender, Reflect and friends.</li>
-  <li><strong>Fissure Tooth</strong> DEX scaling 2% to 3%.</li>
-</ul>
-    </article>
-    <article class="card reveal" id="shinobi-satsujin" data-row>
-      <h3>Shinobi / Satsujin</h3>
-      <p class="muted">Honestly the most balanced job in the game, and one of the hardest to play. It did not need changes.</p>
-      <ul>
-  <li><strong>Dragon Omamori</strong> DEX scaling 2% to 3%.</li>
-  <li><strong>Million Stab</strong> cooldown 15s to 7s, since it lost the gear that supported it.</li>
-</ul>
-    </article>
+    <div class="tree-row">
+      <a class="node node--first" href="classes/thief.html"><span class="node-name">Thief</span><span class="node-tag">The main road. Melee, magic and ranged in one tree.</span></a>
     </div>
-  </div>
-</section>
-
-<section class="section section--tight">
-  <div class="shell">
-    <div class="section-head reveal">
-      <p class="eyebrow">Pass three</p>
-      <h2>The rogue branch</h2>
-      <p>Specialisations and final jobs.</p>
+    <div class="tree-link" aria-hidden="true"></div>
+    <div class="tree-row">
+      <a class="node node--second" href="classes/assassin.html"><span class="node-name">Assassin</span><span class="node-tag">Path of Tradition. Swords, axes, katars and shadows.</span></a>
+      <a class="node node--second" href="classes/rogue.html"><span class="node-name">Rogue</span><span class="node-tag">Path of Change. Four different characters live in this tree.</span></a>
     </div>
-    <div class="grid grid--wide">
-    <article class="card reveal" id="mystic-arcane-master" data-row>
-      <h3>Mystic / Arcane Master</h3>
-      <p class="muted">Still one of the hardest jobs to play at full capacity.</p>
-      <ul>
-  <li><strong>Dual Cast</strong> duration and cooldown 15s to 30s.</li>
-  <li><strong>Unlimited Power</strong> duration 30s, cooldown 60s, magic defence pierce 3%/lv to 1%/lv, MATK bonus 3%/lv to 5%/lv. While it is up: every skill in the game loses its cooldown, every skill gains an irreducible 1s cast time, and every skill costs double SP.</li>
-  <li><strong>Comet</strong> cooldown 20s to 10s, INT scaling 6% to 7%.</li>
-</ul>
-    </article>
-    <article class="card reveal" id="saboteur-blast-juggler" data-row>
-      <h3>Saboteur / Blast Juggler</h3>
-      <p class="muted">Carry weight now scales off base level rather than STR, so hauling materials is easier.</p>
-      <ul>
-  <li><strong>Burning Field</strong> scaling 1%/lv to 2%/lv, cooldown 5s to 4s, fire bottle cost 3 to 2.</li>
-  <li><strong>Greater Explosion</strong> cooldown 10s to 8s, acid bottle cost 3 to 2.</li>
-  <li><strong>Hot Trap</strong> and <strong>Cold Trap</strong> now ignore defence; formula 150 + 5 x lv x INT becomes 100 + 10 x lv x INT.</li>
-  <li><strong>Claymore Trap</strong> ignores defence and triples damage against enemies at full HP.</li>
-  <li><strong>Cluster Bomb</strong> triples damage against enemies below 10% HP - this one does not ignore defence.</li>
-  <li><strong>Rolling Flames</strong> area halved to 3x3, hit detection twice as fast, no longer clears ground effects, scaling 15%/lv to 10%/lv.</li>
-  <li><strong>Fire Expansion</strong> passive bonus to Rolling Flames 20%/lv to 15%/lv.</li>
-  <li><strong>Mr. Bombastic</strong> INT scaling 3% to 2% per INT, and it remains the ground-clearing tool.</li>
-</ul>
-    </article>
-    <article class="card reveal" id="duelist-kingslayer" data-row>
-      <h3>Duelist / Kingslayer</h3>
-      
-      <ul>
-  <li><strong>Duel Stance</strong>: Riposte and Delta Skyfall gain 1% per VIT for every 2 duel counters (5% per VIT at cap).</li>
-  <li><strong>Retribution</strong> damage per counter doubled, SP cost 50 to 10.</li>
-  <li><strong>King's Chains</strong> weight influence up about 8%, and adds your soft and hard defence as extra final damage. Cooldown 5s to 8s.</li>
-  <li><strong>Queen's Gambit</strong> grants 5 duel counters on hit.</li>
-  <li><strong>King's Gambit</strong> grants 5 duel counters when it clears anything from the ground.</li>
-  <li><strong>Check Mate</strong> rebuilt: was a fixed 400 ATK multiplied by twice your total SP. Now a normal formula - 100 + 3 x current SP + current HP/10 as a percentage of attack.</li>
-  <li><strong>Bishop's Tax</strong> 30% (20% on bosses) against afflicted targets became a flat 15% against everything.</li>
-</ul>
-    </article>
-    <article class="card reveal" id="deadeye-sinner" data-row>
-      <h3>Deadeye / Sinner</h3>
-      <p class="muted">The Godhand arrow combo window is more forgiving.</p>
-      <ul>
-  <li><strong>Sniper Nest</strong> fully reworked. It used to trade move speed and flee for damage. Now: -150 flee, +150 hit, Headshot and Aimed Bolt always crit while active, and all SP costs rise 25%.</li>
-  <li><strong>Headshot</strong> always deals full damage regardless of Sniper Nest, and its cooldown is halved when cast from the nest. Bonus per DEX during combo 15% to 10%.</li>
-  <li><strong>Aimed Bolt</strong> always critical inside Sniper Nest.</li>
-  <li><strong>Cannon Turret</strong> receives 7% per level of its owner's ATK, walks with them and attacks the same target.</li>
-  <li><strong>Arrow Storm</strong> cooldown 7s to 10s, damage 20%/lv to 25%/lv, DEX scaling 4% to 5%.</li>
-</ul>
-    </article>
+    <div class="tree-link" aria-hidden="true"></div>
+    <div class="tree-row">
+      <a class="node node--spec" href="classes/blade-dancer.html"><span class="node-name">Blade Dancer</span><span class="node-tag">Master of blades. Dual wielding, properly.</span></a>
+      <a class="node node--spec" href="classes/shinobi.html"><span class="node-name">Shinobi</span><span class="node-tag">Master of elements. Change the element, change the fight.</span></a>
+      <a class="node node--spec" href="classes/executioner.html"><span class="node-name">Executioner</span><span class="node-tag">Master of katars. Chain the skills, land the damage.</span></a>
+      <a class="node node--spec" href="classes/scoundrel.html"><span class="node-name">Scoundrel</span><span class="node-tag">Master of poisons. Debuff everything, including yourself.</span></a>
+      <a class="node node--spec" href="classes/mystic.html"><span class="node-name">Mystic</span><span class="node-tag">Spellcasting, unlocked.</span></a>
+      <a class="node node--spec" href="classes/duelist.html"><span class="node-name">Duelist</span><span class="node-tag">A stance, counter charges, and skills that read them.</span></a>
+      <a class="node node--spec" href="classes/saboteur.html"><span class="node-name">Saboteur</span><span class="node-tag">Traps, explosions, and a pitcher for the party.</span></a>
+      <a class="node node--spec" href="classes/deadeye.html"><span class="node-name">Deadeye</span><span class="node-tag">The bow, the nest, and one very heavy finisher.</span></a>
     </div>
-  </div>
-</section>
-
+    <div class="tree-link" aria-hidden="true"></div>
+    <div class="tree-row">
+      <a class="node node--final" href="classes/night-raven.html"><span class="node-name">Night Raven</span><span class="node-tag">Every assassin weapon, plus a hawk that never misses.</span></a>
+      <a class="node node--final" href="classes/satsujin.html"><span class="node-name">Satsujin</span><span class="node-tag">Melee, magic and ranged trees at once. Jack of all trades.</span></a>
+      <a class="node node--final" href="classes/gravekeeper.html"><span class="node-name">Gravekeeper</span><span class="node-tag">Loki's legacy. Crit damage, and no defensive options at all.</span></a>
+      <a class="node node--final" href="classes/black-plague.html"><span class="node-name">Black Plague</span><span class="node-tag">Double axes and diseases. Kills bosses from the inside.</span></a>
+      <a class="node node--final" href="classes/arcane-master.html"><span class="node-name">Arcane Master</span><span class="node-tag">Unrestricted magic, plus a tree that revives the party.</span></a>
+      <a class="node node--final" href="classes/kingslayer.html"><span class="node-name">Kingslayer</span><span class="node-tag">Chess. A left tree that kills, a right tree that survives.</span></a>
+      <a class="node node--final" href="classes/blast-juggler.html"><span class="node-name">Blast Juggler</span><span class="node-tag">Rules? Explosions are the only option.</span></a>
+      <a class="node node--final" href="classes/sinner.html"><span class="node-name">Sinner</span><span class="node-tag">Repent through cleansing. Auto attack, turret or manual cast.</span></a>
+    </div>
+  </section>
+  <section class="tree-group reveal">
+    <div class="tree-head">
+      <h2>Leaving the road</h2>
+      <p>Thieves can abandon the path entirely. Assassins and Rogues can lock their job forever instead of specialising.</p>
+    </div>
+    <div class="tree-row">
+      <a class="node node--alt" href="classes/prowler.html"><span class="node-name">Prowler</span><span class="node-tag">Abandon the path. Flee, perfect dodge, and a better Backstab.</span></a>
+      <a class="node node--alt" href="classes/shadowseer.html"><span class="node-name">Shadowseer</span><span class="node-tag">Melee that spends magic. Autocast until something dies.</span></a>
+    </div>
+    <div class="tree-link" aria-hidden="true"></div>
+    <div class="tree-row">
+      <a class="node node--alt" href="classes/unchained-thief.html"><span class="node-name">Unchained Thief</span><span class="node-tag">The Super Novice of this world. Core skills from both second jobs.</span></a>
+      <a class="node node--alt" href="classes/unchained-assassin.html"><span class="node-name">Unchained Assassin</span><span class="node-tag">Break the limit, lock the job, master the basics.</span></a>
+      <a class="node node--alt" href="classes/unchained-rogue.html"><span class="node-name">Unchained Rogue</span><span class="node-tag">Break the limit, lock the job, master the basics.</span></a>
+    </div>
+    <div class="tree-link" aria-hidden="true"></div>
+    <div class="tree-row">
+      <a class="node node--final" href="classes/phantom-thief.html"><span class="node-name">Phantom Thief</span><span class="node-tag">Infinite possibilities. Most specialisation skills, and every job's shadow set.</span></a>
+    </div>
+  </section>
+  <section class="tree-group reveal">
+    <div class="tree-head">
+      <h2>The Raider road</h2>
+      <p>Fast job levels, harsh job quests, and a trial nobody will describe.</p>
+    </div>
+    <div class="tree-row">
+      <a class="node node--first" href="classes/raider.html"><span class="node-name">Raider</span><span class="node-tag">Spears, staying power, and a trial that ends in a dragon.</span></a>
+    </div>
+    <div class="tree-link" aria-hidden="true"></div>
+    <div class="tree-row">
+      <a class="node node--final" href="classes/dracomancer.html"><span class="node-name">Dracomancer</span><span class="node-tag">Draco Orbs instead of runes, and a dragon you can borrow.</span></a>
+    </div>
+  </section>
+  <section class="tree-group reveal">
+    <div class="tree-head">
+      <h2>The unbound</h2>
+      <p>Trickster and Vagabond ignore their destiny in opposite directions. Seventy job levels each before the final change.</p>
+    </div>
+    <div class="tree-row">
+      <a class="node node--first" href="classes/trickster.html"><span class="node-name">Trickster</span><span class="node-tag">Scythes, innate leech, and a three-step combo you never stop pressing.</span></a>
+      <a class="node node--first" href="classes/vagabond.html"><span class="node-name">Vagabond</span><span class="node-tag">Daggers and auto attacks. No rotation, no excuses.</span></a>
+    </div>
+    <div class="tree-link" aria-hidden="true"></div>
+    <div class="tree-row">
+      <a class="node node--final" href="classes/revenant.html"><span class="node-name">Revenant</span><span class="node-tag">Lady Hel's subject. Counters, leech, and a spirit that stuns.</span></a>
+      <a class="node node--final" href="classes/legend.html"><span class="node-name">Legend</span><span class="node-tag">Dual wielding, and passives on top of passives.</span></a>
+    </div>
+  </section>
+  <section class="tree-group reveal">
+    <div class="tree-head">
+      <h2>Standing alone</h2>
+      <p>Three jobs with no second step. Jester breaks the story, Ronin meditates on it, Mimic laughs at it.</p>
+    </div>
+    <div class="tree-row">
+      <a class="node node--first" href="classes/jester.html"><span class="node-name">Jester</span><span class="node-tag">A deck, a huge SP pool, and the highest attack speed ceiling in the game.</span></a>
+      <a class="node node--first" href="classes/ronin.html"><span class="node-name">Ronin</span><span class="node-tag">Every skill can crit. Every hit taken takes your buffs with it.</span></a>
+      <a class="node node--first" href="classes/mimic.html"><span class="node-name">Mimic</span><span class="node-tag">Every skill in the game, if the dice agree.</span></a>
+    </div>
+  </section>
+  <section class="tree-group reveal">
+    <div class="tree-head">
+      <h2>The Expert jobs</h2>
+      <p>Unique systems, steeper learning curves, and explicitly not recommended for a first character.</p>
+    </div>
+    <div class="tree-row">
+      <a class="node node--expert" href="classes/judge.html"><span class="node-name">Judge</span><span class="node-tag">Revolvers you craft yourself, and 100 job levels to fill.</span></a>
+      <a class="node node--expert" href="classes/peacekeeper.html"><span class="node-name">Peacekeeper</span><span class="node-tag">Whips and trinkets, in one continuous combo.</span></a>
+      <a class="node node--expert" href="classes/illusionist.html"><span class="node-name">Illusionist</span><span class="node-tag">Two characters in one. Yours, and Kimi's.</span></a>
+      <a class="node node--expert" href="classes/dark-knight.html"><span class="node-name">Dark Knight</span><span class="node-tag">The lower your health, the harder you hit.</span></a>
+    </div>
+  </section>
+  <section class="tree-group reveal">
+    <div class="tree-head">
+      <h2>New in the Refuge</h2>
+      <p>Two jobs that did not exist before. Same progression timing as Raider to Dracomancer, so the second step comes quickly.</p>
+    </div>
+    <div class="tree-row">
+      <a class="node node--first" href="classes/bouncer.html"><span class="node-name">Bouncer <span class="badge tag-added">New</span></span><span class="node-tag">Fists, punch combos, and the first casting skills in the tree.</span></a>
+    </div>
+    <div class="tree-link" aria-hidden="true"></div>
+    <div class="tree-row">
+      <a class="node node--final" href="classes/pit-boss.html"><span class="node-name">Pit Boss <span class="badge tag-added">New</span></span><span class="node-tag">Big setup, big hits. Golf clubs and chains.</span></a>
+    </div>
+  </section>
 </div>
 
 <section class="section section--tight">
   <div class="shell">
     <div class="cta-band reveal">
-      <h2>Two jobs are missing from this page</h2>
-      <p>Bouncer and Pit Boss did not exist before, so there is nothing to compare them to. They have a page of their own.</p>
+      <h2>Not sure where to start?</h2>
+      <p>Thief is the main road and the most forgiving. Ronin, Jester and the Expert jobs are explicitly not recommended for a first character.</p>
       <div class="cluster">
-        <a class="btn btn--primary" href="https://discord.gg/a5P3PFNMhn" rel="noopener">Join the community server</a>
-        <a class="btn btn--ghost" href="join.html">How to get in</a>
+        <a class="btn btn--primary" href="start.html">Read the new player guide</a>
+        <a class="btn btn--ghost" href="newjobs.html">See the two new jobs</a>
       </div>
     </div>
   </div>
@@ -477,7 +318,7 @@
     <div class="footer-grid">
       <div>
         <a class="brand" href="index.html">
-          <img src="assets/img/icon-192.png" width="34" height="34" alt="" aria-hidden="true">
+          <img class="mark" src="assets/img/icon-192.png" width="34" height="34" alt="" aria-hidden="true">
           <span class="brand-text">
             <span class="brand-name">RETURN TO MORROC</span>
             <span class="brand-sub">Refuge</span>
@@ -495,25 +336,27 @@
         <h4>Start here</h4>
         <ul>
         <li><a href="server.html">What the Refuge is</a></li>
+        <li><a href="start.html">New player guide</a></li>
         <li><a href="join.html">How to join</a></li>
-        <li><a href="guides.html">Guides and tools</a></li>
         <li><a href="faq.html">Questions and answers</a></li>
         </ul>
       </div>
       <div>
         <h4>The game</h4>
         <ul>
-        <li><a href="classes.html">Classes and rebalances</a></li>
+        <li><a href="classes.html">All 30 classes</a></li>
         <li><a href="newjobs.html">Bouncer and Pit Boss</a></li>
-        <li><a href="world.html">Distortions and endgame</a></li>
-        <li><a href="changes.html">Every change from the original</a></li>
+        <li><a href="mechanics.html">Combat and stats</a></li>
+        <li><a href="gear.html">Items, refining, shadows</a></li>
+        <li><a href="world.html">Regions, dungeons, MVPs</a></li>
         </ul>
       </div>
       <div>
         <h4>Reference</h4>
         <ul>
-        <li><a href="https://rtm-internal-e.vercel.app/" rel="noopener">Community database</a></li>
-        <li><a href="guides.html#external">Player-written guides</a></li>
+        <li><a href="changes.html">Changes from the original</a></li>
+        <li><a href="database.html">Community database</a></li>
+        <li><a href="guides.html">Player-written guides</a></li>
         <li><a href="llms.txt">llms.txt</a></li>
         <li><a href="sitemap.xml">Sitemap</a></li>
         </ul>

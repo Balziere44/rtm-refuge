@@ -31,6 +31,9 @@ PRIORITY = {
     "join.html": "0.7",
     "faq.html": "0.7",
     "database.html": "0.6",
+    "start.html": "0.9",
+    "mechanics.html": "0.8",
+    "gear.html": "0.8",
 }
 
 TITLE = re.compile(r"<title>(.*?)</title>", re.S)
@@ -38,13 +41,19 @@ DESC = re.compile(r'<meta name="description" content="(.*?)">', re.S)
 
 
 def pages():
+    """Every page, root first then the classes subfolder, in a stable order."""
     for name in sorted(os.listdir(ROOT)):
         if name.endswith(".html"):
             yield name
+    sub = os.path.join(ROOT, "classes")
+    if os.path.isdir(sub):
+        for name in sorted(os.listdir(sub)):
+            if name.endswith(".html"):
+                yield "classes/" + name
 
 
 def read(name):
-    with open(os.path.join(ROOT, name), encoding="utf-8") as fh:
+    with open(os.path.join(ROOT, name.replace("/", os.sep)), encoding="utf-8") as fh:
         return fh.read()
 
 

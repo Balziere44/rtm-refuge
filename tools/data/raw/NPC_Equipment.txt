@@ -1,0 +1,2461 @@
+* [[#Basic_doesn't_mean_Bad|<span class="tocnumber">1</span> <span class="toctext">Basic doesn't mean Bad</span>]]
+* [[#Shop_Types|<span class="tocnumber">2</span> <span class="toctext">Shop Types</span>]]
+* [[#Weapons|<span class="tocnumber">3</span> <span class="toctext">Weapons</span>]]
+* [[#Armors|<span class="tocnumber">4</span> <span class="toctext">Armors</span>]]
+* [[#Others|<span class="tocnumber">5</span> <span class="toctext">Others</span>]]
+
+== <span id="Basic_doesn.27t_mean_Bad"></span><span id="Basic_doesn't_mean_Bad" class="mw-headline">Basic doesn't mean Bad</span> ==
+
+The Equipment sold by NPCs in Return to Morroc don't always mean they are useless. They can be a good thing to get if you need to fill any remaining slots or needs a small bump in power.
+
+Field monsters may sometimes have unique drops, but '''they are always guaranteed to drop a NPC equipment with random mods and +1 Slot at a low chance'''.
+
+== <span id="Shop_Types" class="mw-headline">Shop Types</span> ==
+
+The kind of equipment you can find in each shop is determined by their region, each one with a corresponding shop type:
+
+'''Midgard Shop''': Can be found in Prontera, Izlude, Morroc, Payon, Alberta, Aldebaran, Comodo and Geffen.
+
+* Midgard Items usually consist of minor, but impactful bonuses such as ASPD or Cast Time.
+
+'''Schwarzwald Shop''': Can be found in Yuno, Hugel, Einbroch, Einbech and Lighthalzen.
+
+* Schwarzwald Items usually consist of combat and immunity bonuses.
+
+'''Arunafeltz Shop''': Can be found in Rachel and Veins.
+
+* Arunafeltz Items usually consist of situational bonuses that can help in specific scenarios.
+
+'''Island Shop''': Can be found in Dewata, Amatsu, Ayothaya, Malaya and Moscovia.
+
+* Island Items usually have refine based bonuses that increase combat consistency such as SP consumption or critical rates.
+
+'''Tribal Shop''': Can be found in Umbala, Mora and Nomad Village.
+
+* Trival Items consist of negative status effects, elements and minor offensive bonuses.
+
+'''Niflheim Shop''': Can be found in Niflheim and Sage's Palace: Dicastes Diel.
+
+* They are overly expensive items that provide high bonuses with large downsides. They are situational but very unique.
+
+== <span id="Weapons" class="mw-headline">Weapons</span> ==
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+[[File:KnifeIcon.gif|24x24px|link=KnifeIcon]] List of daggers sold by NPCs.
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;" | Req.
+Lv
+! style="background: #99d9ea;" | ATK
+! style="background: #99d9ea;" | MATK
+! style="background: #99d9ea;" | Category
+! style="background: #99d9ea;" | Weap.
+Lv
+! style="background: #99d9ea;" | Effects
+! style="background: #99d9ea;" | Innate Bonus
+! style="background: #99d9ea;" | Location
+|-
+| '''Rusty Knife [1]'''
+| 1
+| 2
+| 0
+| Basic
+| 1
+| 1% chance to inflict '''<span style="color: #9400D3">Poison</span>''' status while physically attacking
+| Double Attack Lv1
+| Midgard
+|-
+| '''Knife [1]'''
+| 1
+| 5
+| 0
+| Basic
+| 1
+|
+
+| Double Attack Lv2
+| Midgard
+|-
+| '''Cinquedea [2]'''
+| 5
+| 7
+| 0
+| Defensive
+| 1
+| HP +5% , DEF +5
+| Double Attack Lv1
+| Midgard
+|-
+| '''Gem Cutter [1]'''
+| 5
+| 2
+| 10
+| Magic
+| 1
+| INT +1
+| Double Attack Lv2
+| Midgard
+|-
+| '''Main Gauche [3]'''
+| 5
+| 8
+| 0
+| Agility
+| 1
+| FLEE +10, Perfect Dodge +3
+| Double Attack Lv5
+| Midgard
+|-
+| '''Stiletto [2]'''
+| 15
+| 9
+| 3
+| Basic
+| 2
+| AGI +2<br />
+ASPD Limit +1
+| Double Attack Lv4
+| Midgard
+|-
+| '''Dirk [3]'''
+| 15
+| 10
+| 0
+| Defensive
+| 2
+| 1% chance of gaining 2% of the damage inflicted as HP
+| Double Attack Lv2
+| Midgard
+|-
+| '''Gemstone Knife [1]'''
+| 15
+| 4
+| 15
+| Magic
+| 2
+| INT +2
+| Double Attack Lv3
+| Midgard
+|-
+| '''Sucsamad [1]'''
+| 15
+| 12
+| 0
+| Agility
+| 2
+| ASPD +10%<br />
+ASPD +2
+| Double Attack Lv6
+| Midgard
+|-
+| '''Gladius [2]'''
+| 30
+| 22
+| 4
+| Basic
+| 3
+| STR +1, DEX +1, AGI +2<br />
+ASPD +2
+| Double Attack Lv5
+| Schwarzwald
+|-
+| '''Cowardice Blade [1]'''
+| 30
+| 13
+| 0
+| Defensive
+| 3
+| Reflect 2% of all physical damage back to the enemy<br />
+DEF +10
+| Double Attack Lv3
+| Schwarzwald
+|-
+| '''Wizardry Dagger [3]'''
+| 30
+| 5
+| 17
+| Magic
+| 3
+| INT +3, MATK +1%
+| Double Attack Lv4
+| Schwarzwald
+|-
+| '''Damascus [1]'''
+| 30
+| 15
+| 0
+| Agility
+| 3
+| ASPD +12%
+| Double Attack Lv7
+| Schwarzwald
+|-
+| '''Rachel Jewel [3]'''
+| 45
+| 23
+| 5
+| Basic
+| 4
+| STR +2, DEX +2, AGI +3
+| Double Attack Lv6
+| Arunafeltz
+|-
+| '''Combat Knife [1]'''
+| 45
+| 18
+| 0
+| Defensive
+| 4
+| Decreases damage from '''Neutral''' Property by 5%
+| Double Attack Lv4
+| Arunafeltz
+|-
+| '''Bazerald [2]'''
+| 45
+| 5
+| 21
+| Magic
+| 4
+| INT +3, Increase '''<span style="color: red">Fire</span>'''/'''<span style="color: green">Wind</span>'''/'''<span style="color: blue">Water</span>'''<span style="color: brown">Earth</span> '''Damage by 10%'''
+| Double Attack Lv5
+| Arunafeltz
+|-
+| '''Dragon Fang [1]'''
+| 45
+| 19
+| 0
+| Agility
+| 4
+| ASPD +2
+| Double Attack Lv8
+| Arunafeltz
+|-
+| '''Khukri [2]'''
+| 60
+| 24
+| 3
+| Basic
+| 3
+| ATK +5%
+| Double Attack Lv7
+| Islands
+|-
+| '''Hakujin [2]'''
+| 60
+| 20
+| 0
+| Defensive
+| 3
+| Add a chance of auto casting Heal on self
+| Double Attack Lv5
+| Islands
+|-
+| '''Asura [2]'''
+| 60
+| 7
+| 23
+| Magic
+| 3
+| MATK +7%
+| Double Attack Lv6
+| Islands
+|-
+| '''Jitte [2]'''
+| 60
+| 22
+| 0
+| Agility
+| 3
+| Perfect Dodge +10
+| Double Attack Lv9
+| Islands
+|-
+| '''Vermilion Dagger [1]'''
+| 70
+| 10
+| 10
+| Elemental (Fire)
+| 2
+| Increase damage inflicted upon '''<span style="color: brown">Earth</span>''' Property enemies by 2%/Refine.
+| Double Attack Lv5
+| Tribes
+|-
+| '''Cerulean Dagger [1]'''
+| 70
+| 10
+| 10
+| Elemental (Water)
+| 2
+| Increase damage inflicted upon '''<span style="color: red">Fire</span>''' Property enemies by 2%/Refine.
+| Double Attack Lv5
+| Tribes
+|-
+| '''Viridian Dagger [1]'''
+| 70
+| 10
+| 10
+| Elemental (Wind)
+| 2
+| Increase damage inflicted upon '''<span style="color: blue">Water</span>''' Property enemies by 2%/Refine.
+| Double Attack Lv5
+| Tribes
+|-
+| '''Pewter Dagger [1]'''
+| 70
+| 10
+| 10
+| Elemental (Earth)
+| 2
+| Increase damage inflicted upon '''<span style="color: green">Wind</span>''' Property enemies by 2%/Refine.
+| Double Attack Lv5
+| Tribes
+|-
+| '''Poison Knife [3]'''
+| 80
+| 5
+| 5
+| Debuff
+| 1
+| '''<span style="color: #9400D3">Poison</span>''' an enemy when you attack (Success chance 2%/Refine)
+| Double Attack Lv7
+| Niflheim
+|-
+| '''Cursed Knife [3]'''
+| 80
+| 5
+| 5
+| Debuff
+| 1
+| '''Curse''' an enemy when you attack (Success chance 2%/Refine)
+| Double Attack Lv7
+| Niflheim
+|-
+| '''Silent Knife [3]'''
+| 80
+| 5
+| 5
+| Debuff
+| 1
+| '''Silence''' an enemy when you attack (Success chance 2%/Refine)
+| Double Attack Lv7
+| Niflheim
+|-
+| '''Misericorde [1]'''
+| 85
+| 25
+| 0
+| Special
+| 4
+| Crit +2/Refine ASPD+1%/Refine<br />
+HP -1%/Refine, DEF -3/Refine
+| Double Attack Lv10
+| Niflheim
+|}
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+ [[File:SwordIcon.gif|24x24px|link=SwordIcon]] List of swords sold by NPCs.
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;" | Req.<br />
+Lv
+!style="background: #99d9ea;" |  ATK
+! style="background: #99d9ea;" | MATK
+! style="background: #99d9ea;" | Category
+! style="background: #99d9ea;" | Weap.<br />
+Lv
+! style="background: #99d9ea;" | Effects
+! style="background: #99d9ea;" | Innate Bonus
+! style="background: #99d9ea;" | Location
+|-
+| '''Sword [2]'''
+| 5
+| 9
+| 0
+| Basic
+| 1
+| ATK +1%
+| 7% DEF Pierce
+| Midgard
+|-
+| '''Vital Blade [1]'''
+| 5
+| 8
+| 1
+| Defensive
+| 1
+| HP/SP Regen +20%
+| 5% DEF Pierce
+| Midgard
+|-
+| '''Rapier [3]'''
+| 5
+| 7
+| 0
+| Agility
+| 1
+| FLEE +5
+| 15% DEF Pierce
+| Midgard
+|-
+| '''Long Sword [2]'''
+| 5
+| 9
+| 0
+| Basic
+| 1
+| ATK +2%, Weapon Range +1
+| 7% DEF Pierce
+| Midgard
+|-
+| '''Saber [1]'''
+| 15
+| 13
+| 0
+| Basic
+| 2
+| ATK +2%
+| 9% DEF Pierce
+| Midgard
+|-
+| '''Broadsword [3]'''
+| 15
+| 20
+| 5
+| Defensive
+| 2
+| ASPD -10%, HP +7%
+| 7% DEF Pierce
+| Midgard
+|-
+| '''Falchion [2]'''
+| 15
+| 20
+| 0
+| Agility
+| 2
+| ASPD +7%
+| 18% DEF Pierce
+| Midgard
+|-
+| '''Raider Saber [1]'''
+| 15
+| 13
+| 0
+| Basic
+| 2
+| ATK +2%, Weapon Range +1
+| 9% DEF Pierce
+| Midgard
+|-
+| '''Scimitar [3]'''
+| 30
+| 15
+| 3
+| Basic
+| 3
+| ATK +3%
+| 11% DEF Pierce
+| Schwarzwald
+|-
+| '''Warrior Blade [1]'''
+| 30
+| 12
+| 4
+| Defensive
+| 3
+| DEF +15
+| 9% DEF Pierce
+| Schwarzwald
+|-
+| '''Cutlass [2]'''
+| 30
+| 11
+| 0
+| Agility
+| 3
+| Perfect Dodge +5
+| 21% DEF Pierce
+| Schwarzwald
+|-
+| '''Bandit Scimitar [3]'''
+| 30
+| 15
+| 3
+| Basic
+| 3
+| ATK +3%, Weapon Range +1
+| 11% DEF Pierce
+| Schwarzwald
+|-
+| '''Flambergue [1]'''
+| 45
+| 25
+| 5
+| Basic
+| 4
+| ATK +4%
+| 13% DEF Pierce
+| Arunafeltz
+|-
+| '''Eye of Rachel [2]'''
+| 45
+| 12
+| 16
+| Defensive
+| 4
+| MDEF +10, DEF +5
+| 11% DEF Pierce
+| Arunafeltz
+|-
+| '''Breaker Stiletto [1]'''
+| 45
+| 21
+| 0
+| Agility
+| 4
+| AGI +5, VIT -5
+| 24% DEF Pierce
+| Arunafeltz
+|-
+| '''Expert Flambergue [3]'''
+| 45
+| 25
+| 5
+| Basic
+| 4
+| ATK +4%, Weapon Range +1<br />
+ASPD -3
+| 13% DEF Pierce
+| Arunafeltz
+|-
+| '''Katana [2]'''
+| 60
+| 20
+| 6
+| Basic
+| 3
+| +2 CRIT/Refine<br />
+Instant Draw DMG +15%
+| 12% DEF Pierce
+| Islands
+|-
+| '''Tsurugi [2]'''
+| 60
+| 15
+| 10
+| Defensive
+| 3
+| +10 Perfect Dodge, Movement Speed +5%
+| 10% DEF Pierce
+| Islands
+|-
+| '''Sashimi Wakizashi [2]'''
+| 60
+| 18
+| 0
+| Agility
+| 3
+| ASPD Limit Cap +1, ASPD +15%
+| 22% DEF Pierce
+| Islands
+|-
+| '''Nodachi [2]'''
+| 60
+| 20
+| 6
+| Basic
+| 3
+| +1 CRIT/Refine, Weapon Range +4<br />
+Shatter Villain DMG +100%
+| 12% DEF Pierce
+| Islands
+|-
+| '''Ice Falchion [1]'''
+| 70
+| 10
+| 8
+| Elemental (Water)
+| 2
+| Increase damage inflicted upon '''<span style="color:red">Fire</span>''' Property enemies by 2%/Refine.
+| 10% DEF Pierce
+| Tribes
+|-
+| '''Flametongue [1]'''
+| 70
+| 10
+| 8
+| Elemental (Fire)
+| 2
+| Increase damage inflicted upon '''<span style="color:brown">Earth</span>''' Property enemies by 2%/Refine.
+| 10% DEF Pierce
+| Tribes
+|-
+| '''Ghost Whisper [1]'''
+| 70
+| 10
+| 8
+| Elemental (Ghost)
+| 2
+| Increase damage inflicted upon '''Undead''' Property enemies by 2%/Refine.
+| 10% DEF Pierce
+| Tribes
+|-
+| '''Saint Sword [1]'''
+| 70
+| 10
+| 8
+| Elemental (Holy)
+| 2
+| Increase damage inflicted upon '''Dark''' Property enemies by 2%/Refine.
+| 10% DEF Pierce
+| Tribes
+|-
+| '''Heat Red Blade [3]'''
+| 80
+| 5
+| 2
+| Debuff
+| 1
+| '''<span style="color:red">Burn</span>''' an enemy when you attack (Success chance 2%/Refine)
+| 15% DEF Pierce
+| Niflheim
+|-
+| '''Ominous Black Blade [3]'''
+| 80
+| 5
+| 2
+| Debuff
+| 1
+| '''Fear''' an enemy when you attack (Success chance 2%/Refine)
+| 15% DEF Pierce
+| Niflheim
+|-
+| '''Word of Misery [2]'''
+| 85
+| 22
+| 0
+| Special
+| 4
+| CRIT +2/Refine, HP +2%/Refine, ATK +1%/Refine<br />
+SP -2%/Refine, FLEE -10/Refine
+| 20% DEF Pierce
+| Niflheim
+|}
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+ [[File:BowIcon.gif|24x24px|link=BowIcon]] List of bows sold by NPCs.
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;" | Req.<br />
+Lv
+! style="background: #99d9ea;" | ATK
+! style="background: #99d9ea;" | MATK
+! style="background: #99d9ea;" | Category
+! style="background: #99d9ea;" | Weap.<br />
+Lv
+! style="background: #99d9ea;" | Effects
+! style="background: #99d9ea;" | Innate Bonus
+! style="background: #99d9ea;" | Location
+|-
+| '''Short Bow [2]'''
+| 10
+| 5
+| 0
+| Basic
+| 1
+| SP +10
+| Range +2 /1 SP
+| Midgard
+|-
+| '''Long Bow [1]'''
+| 10
+| 7
+| 0
+| Extra Range
+| 1
+| SP + 5%
+| Range +4 /1 SP
+| Midgard
+|-
+| '''Composite Bow [2]'''
+| 10
+| 10
+| 0
+| Heavy (-20% ASPD)
+| 1
+| 5% DEF Pierce
+| Range +2 /2 SP
+| Midgard
+|-
+| '''Great Bow [3]'''
+| 15
+| 9
+| 0
+| Basic
+| 2
+| SP +20, DEX +1
+| Range +2 /1 SP
+| Midgard
+|-
+| '''Hunter Bow [2]'''
+| 15
+| 11
+| 0
+| Extra Range
+| 2
+| HIT +15
+| Range +4 /1 SP
+| Midgard
+|-
+| '''Metal Bow [1]'''
+| 15
+| 13
+| 0
+| Heavy (-20% ASPD)
+| 2
+| The '''Double Strafe''' skill pushes the target 1 cell back, -30 ASPD
+| Range +2 /2 SP
+| Midgard
+|-
+| '''Gakkung [2]'''
+| 30
+| 15
+| 0
+| Basic
+| 3
+| SP +30, DEX +2
+| Range +3 /1 SP
+| Schwarzwald
+|-
+| '''Gigantic Bow [2]'''
+| 30
+| 13
+| 0
+| Extra Range
+| 3
+| Weapon Range +2, SP -20%
+| Range +6 /1 SP
+| Schwarzwald
+|-
+| '''War Bow [3]'''
+| 30
+| 16
+| 0
+| Heavy (-20% ASPD)
+| 3
+| The '''Arrow Shower''' skill pushes the target +2 cells back
+| Range +3 /2 SP
+| Schwarzwald
+|-
+| '''Masterwork Bow [3]'''
+| 45
+| 21
+| 0
+| Basic
+| 4
+| SP Cost = 0
+| Range +3
+| Arunafeltz
+|-
+| '''Repeating Bow [3]'''
+| 45
+| 17
+| 0
+| Extra Range
+| 4
+| Double Attack Lv2
+| Range +5 /2 SP
+| Arunafeltz
+|-
+| '''Rachel Vulcan [2]'''
+| 45
+| 21
+| 0
+| Heavy (-20% ASPD)
+| 4
+| '''Arrow Vulcan''' Cooldown -1s
+| Range +3 /3 SP
+| Arunafeltz
+|-
+| '''Yumi Bow [2]'''
+| 60
+| 21
+| 0
+| Basic
+| 3
+| Has a 1% chance/Refine of auto casting '''Double Strafe'''
+| Range +3 /1 SP
+| Islands
+|-
+| '''Whisper Bow [2]'''
+| 60
+| 19
+| 0
+| Extra Range
+| 3
+| Ranged Attack Damage + 1%/Refine.
+| Range +5 /2 SP
+| Islands
+|-
+| '''Burning Bow [1]'''
+| 70
+| 5
+| 12
+| Autocast
+| 2
+| 0.5% chance of auto casting '''<span style="color:red">Burning Spiral</span>'''<br />
+If equipped with ''Fire Arrow'', increases damage by 2%/Refine
+| Range +3/4 SP
+| Tribes
+|-
+| '''Gust Bow [1]'''
+| 70
+| 5
+| 12
+| Autocast
+| 2
+| 0.5% chance of auto casting '''<span style="color:green">Lightning Bolt</span>'''<br />
+If equipped with ''Wind Arrow'', increases damage by 2%/Refine
+| Range +3/4 SP
+| Tribes
+|-
+| '''Frozen Bow [1]'''
+| 70
+| 5
+| 12
+| Autocast
+| 2
+| 0.5% chance of auto casting '''<span style="color:blue">Frozen Crash</span>'''<br />
+If equipped with ''Crystal Arrow'', increases damage by 2%/Refine
+| Range +3/4 SP
+| Tribes
+|-
+| '''Earth Bow [1]'''
+| 70
+| 5
+| 12
+| Autocast
+| 2
+| 0.5% chance of auto casting '''<span style="color:brown">Land Fissure</span>'''<br />
+If equipped with ''Stone Arrow'', increases damage by 2%/Refine
+| Range +3/4 SP
+| Tribes
+|-
+| '''Nepenthes Bow [2]'''
+| 80
+| 3
+| 3
+| Debuff
+| 1
+| '''Stun''' an enemy when you attack (Success chance 2%/Refine)
+| Range +3/3 SP
+| Niflheim
+|-
+| '''Crow Wings [3]'''
+| 85
+| 23
+| 0
+| Special
+| 4
+| -3% HP/Refine, DEF -2/Refine<br />
+CRIT +3/Refine, SP +2%/Refine
+| Range +4 /3 SP
+| Niflheim
+|}
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+ [[File:AxeIcon.gif|24x24px|link=AxeIcon]] List of axes sold by NPCs.
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;" | Req.<br />
+Lv
+! style="background: #99d9ea;" | ATK
+! style="background: #99d9ea;" | MATK
+! style="background: #99d9ea;" | Category
+! style="background: #99d9ea;" | Weap.<br />
+Lv
+! style="background: #99d9ea;" | Effects
+! style="background: #99d9ea;" | Innate Bonus
+! style="background: #99d9ea;" | Location
+|-
+| '''Axe [2]'''
+| 40
+| 12
+| 0
+| Basic
+| 1
+| Increases damage when using '''Axe Tornado''' skill by 15%.
+| Splash +1
+| Midgard
+|-
+| '''Great Axe [3]'''
+| 40
+| 15
+| 2
+| Trapper
+| 2
+| STR +2, INT +2
+| Splash +2
+| Midgard
+|-
+| '''Rust Axe [3]'''
+| 60
+| 13
+| 7
+| Poisoning
+| 3
+| Add a 3% chance of auto casting '''Envenom''' on an enemy when attacking
+| Splash +1
+| Schwarzwald
+|-
+| '''Double Axe [2]'''
+| 60
+| 18
+| 5
+| Trapper
+| 3
+| Weight +300
+| Splash +2
+| Schwarzwald
+|-
+| '''Rachel Mawler [2]'''
+| 70
+| 15
+| 12
+| Poisoning
+| 4
+| Increase damage inflicted upon '''Neutral''' Property enemies by 10%
+| Splash +1
+| Arunafeltz
+|-
+| '''Slaughter [1]'''
+| 75
+| 18
+| 2
+| Trapper
+| 3
+| Increases damage when using '''Acid Demonstration''' skill by 3%/Refine
+| Splash +2
+| Islands
+|-
+| '''Buster [1]'''
+| 75
+| 13
+| 13
+| Poisoning
+| 3
+| Increases damage when using '''Axe Tornado''' and '''Boomeraxe''' skills by 2%/Refine
+| Splash +2
+| Tribes
+|-
+| '''Flame Rupture [2]'''
+| 80
+| 5
+| 7
+| Debuff
+| 1
+| '''<span style="color:red">Burn</span>''' an enemy when you attack (Success chance 2%/Refine)
+| Splash +3
+| Niflheim
+|-
+| '''Frost Rupture [2]'''
+| 80
+| 5
+| 7
+| Debuff
+| 1
+| '''<span style="color:#021691">Crystallize</span>''' an enemy when you attack (Success chance 2%/Refine)
+| Splash +3
+| Niflheim
+|-
+| '''Bone Slasher [2]'''
+| 85
+| 35
+| 0
+| Special
+| 4
+| Drains HP from its owner when attacking, HP -3%/Refine<br />
+CRIT +5/Refine, ASPD +3%/Refine
+| Splash +5
+| Niflheim
+|}
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+ [[File:ScytheIcon.gif|24x24px|link=ScytheIcon]] List of scythes sold by NPCs.
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;" | Req.<br />
+Lv
+! style="background: #99d9ea;" | ATK
+! style="background: #99d9ea;" | MATK
+! style="background: #99d9ea;" | Category
+! style="background: #99d9ea;" | Weap.<br />
+Lv
+! style="background: #99d9ea;" | Effects
+! style="background: #99d9ea;" | Innate Bonus
+! style="background: #99d9ea;" | Location
+|-
+| '''Black Scythe [1]'''
+| 10
+| 12
+| 0
+| Damage
+| 1
+| ASPD +10%
+| Leech Power: 10%
+| Midgard
+|-
+| '''Pickaxe [2]'''
+| 25
+| 14
+| 0
+| Critical
+| 2
+| Critical Damage +5%<br />
+Increase damage inflicted upon '''<span style="color:brown">Earth</span>''' Property enemies by 5%.
+| Leech Power: 7%
+| Midgard
+|-
+| '''Long Sickle [2]'''
+| 45
+| 19
+| 0
+| Damage
+| 2
+| Weapon Range +2
+| Leech Power: 20%
+| Schwarzwald
+|-
+| '''Dual Sharp Scythe [1]'''
+| 45
+| 22
+| 0
+| Critical
+| 3
+| Double Attack Lv4, Critical Damage +7%<br />
+ASPD Limit +2
+| Leech Power: 8%
+| Schwarzwald
+|-
+| '''Rachel Reaper [2]'''
+| 60
+| 25
+| 0
+| Damage
+| 3
+| Critical Rate +10, Perfect Dodge +5
+| Leech Power: 10%
+| Arunafeltz
+|-
+| '''Cult Scythe [1]'''
+| 60
+| 15
+| 20
+| Elemental (Dark)
+| 4
+| MATK+5%
+| Leech Power: 3%
+| Arunafeltz
+|-
+| '''Ojika [2]'''
+| 70
+| 25
+| 0
+| Critical
+| 3
+| CRIT +1/Refine, Critical Damage +1%/Refine
+| Leech Power: 9%
+| Islands
+|-
+| '''Green Mantis [0]'''
+| 70
+| 18
+| 0
+| Damage
+| 2
+| Increase damage inflicted upon '''Undead''' Property enemies by 3%/Refine.
+| Leech Power: 15%
+| Tribes
+|-
+| '''Mist Slasher [2]'''
+| 80
+| 10
+| 10
+| Debuff
+| 1
+| '''Blind''' an enemy when you attack (Success chance 2%/Refine)
+| Leech Power: 4%
+| Niflheim
+|-
+| '''Heart of Evil [2]'''
+| 85
+| 32
+| 0
+| Special
+| 4
+| ASPD -1%/Refine, HP -1%/Refine<br />
+CRIT +3/Refine, Critical Damage +3%/Refine
+| Leech Power: 2%
+| Niflheim
+|}
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+ [[File:KatarIcon.gif|24x24px|link=KatarIcon]] List of katars sold by NPCs.
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;" | Req.<br />
+Lv
+! style="background: #99d9ea;" | ATK
+! style="background: #99d9ea;" | MATK
+! style="background: #99d9ea;" | Category
+! style="background: #99d9ea;" | Weap.<br />
+Lv
+! style="background: #99d9ea;" | Effects
+! style="background: #99d9ea;" | Innate Bonus
+! style="background: #99d9ea;" | Location
+|-
+| '''Jur [2]'''
+| 30
+| 12
+| 0
+| Critical
+| 1
+| CRIT +15
+| Crit Damage +8%
+| Midgard
+|-
+| '''Needle Katar [2]'''
+| 40
+| 17
+| 0
+| Basic
+| 2
+| Double Attack Lv3
+| Crit Damage +5%
+| Midgard
+|-
+| '''Jamadhar [2]'''
+| 50
+| 21
+| 0
+| Agility
+| 3
+| ASPD +20%, After Cast Delay -20%
+| Crit Damage +5%
+| Schwarzwald
+|-
+| '''Juliette D. Rachel [2]'''
+| 60
+| 30
+| 0
+| Critical
+| 4
+| 10% Extra Crit Damage, '''Sonic Blow''' cooldown -1s
+| Crit Damage +15%
+| Arunafeltz
+|-
+| '''Krishna [2]'''
+| 70
+| 32
+| 0
+| Basic
+| 3
+| ATK +2%/Refine
+| Crit Damage +5%
+| Islands
+|-
+| '''Raging Blaze [1]'''
+| 70
+| 12
+| 10
+| Elemental (Fire)
+| 2
+| Increase damage inflicted upon '''<span style="color:brown">Earth</span>''' Property enemies by 2%/Refine.
+| Crit Damage +5%
+| Tribes
+|-
+| '''Piercing Wind [1]'''
+| 70
+| 12
+| 10
+| Elemental (Wind)
+| 2
+| Increase damage inflicted upon '''<span style="color:blue">Water</span>''' Property enemies by 2%/Refine.
+| Crit Damage +5%
+| Tribes
+|-
+| '''Frozen Icicle [1]'''
+| 70
+| 12
+| 10
+| Elemental (Water)
+| 2
+| Increase damage inflicted upon '''<span style="color:red">Fire</span>''' Property enemies by 2%/Refine.
+| Crit Damage +5%
+| Tribes
+|-
+| '''Dusty Thornbrush [1]'''
+| 70
+| 12
+| 10
+| Elemental (Earth)
+| 2
+| Increase damage inflicted upon '''<span style="color:green">Wind</span>''' Property enemies by 2%/Refine.
+| Crit Damage +5%
+| Tribes
+|-
+| '''Bloody Tears [2]'''
+| 80
+| 5
+| 5
+| Debuff
+| 1
+| '''Bleed''' an enemy when you attack (Success chance 2%/Refine)
+| Crit Damage +5%
+| Niflheim
+|-
+| '''Ripping Spectre [3]'''
+| 85
+| 25
+| 0
+| Special
+| 4
+| HP -1%/Refine, DEF -50<br />
+CRIT +3/Refine, Critical Damage +3%/Refine
+| Crit Damage +10%
+| Niflheim
+|}
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+ [[File:SpearIcon.gif|24x24px|link=SpearIcon]] List of spears sold by NPCs.
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;" | Req.<br />
+Lv
+! style="background: #99d9ea;" | ATK
+! style="background: #99d9ea;" | MATK
+! style="background: #99d9ea;" | Category
+! style="background: #99d9ea;" | Weap.<br />
+Lv
+! style="background: #99d9ea;" | Effects
+! style="background: #99d9ea;" | Innate Bonus
+! style="background: #99d9ea;" | Location
+|-
+| '''Metal Spear [1]'''
+| 10
+| 12
+| 3
+| Basic
+| 1
+| STR +2
+| Dragon Thrust Lv3
+|
+
+|-
+| '''Partizan [2]'''
+| 30
+| 16
+| 5
+| Agility
+| 2
+| ASPD +3
+| Dragon Thrust Lv5
+|
+
+|-
+| '''Glaive [3]'''
+| 50
+| 15
+| 20
+| Basic
+| 3
+| '''Dragon Thrust''' skill SP Cost -25%
+| Dragon Thrust Lv4
+|
+
+|-
+| '''Trident [2]'''
+| 60
+| 28
+| 8
+| Basic
+| 4
+| Increases damage when using '''Dragon Thrust''' skill by 10%
+| Dragon Thrust Lv7
+|
+
+|}
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+ [[File:DeckIcon.png|24x24px|link=DeckIcon]] List of card decks sold by NPCs.
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;" | Req.<br />
+Lv
+! style="background: #99d9ea;" | ATK
+! style="background: #99d9ea;" | MATK
+! style="background: #99d9ea;" | Category
+! style="background: #99d9ea;" | Weap.<br />
+Lv
+! style="background: #99d9ea;" | Effects
+! style="background: #99d9ea;" | Innate Bonus
+! style="background: #99d9ea;" | Location
+|-
+| '''2 of Spades [1]'''
+| 10
+| 1
+| 1
+| Basic
+| 1
+| LUK +2
+| SP Cost -15%
+|
+
+|-
+| '''2 of Clubs [1]'''
+| 10
+| 2
+| 1
+| Basic
+| 1
+| LUK +2
+| SP Cost -10%
+|
+
+|-
+| '''2 of Hearts [1]'''
+| 10
+| 1
+| 2
+| Basic
+| 1
+| LUK +2
+| SP Cost -10%
+|
+
+|-
+| '''2 of Diamonds [1]'''
+| 10
+| 1
+| 1
+| Defensive
+| 1
+| LUK +2, DEF +2%
+| SP Cost -10%
+|
+
+|-
+| '''3 of Spades [2]'''
+| 40
+| 2
+| 2
+| Basic
+| 2
+| LUK +3, Max SP +10%
+| SP Cost -16%
+|
+
+|-
+| '''3 of Clubs [2]'''
+| 40
+| 3
+| 1
+| Basic
+| 2
+| LUK +3, '''First Hand''' skill SP Cost -10%
+| Sp Cost -12%
+|
+
+|-
+| '''3 of Hearts [2]'''
+| 40
+| 1
+| 3
+| Basic
+| 2
+| LUK +3, '''Instant Ace''' skill SP Cost -10%
+| SP Cost -12%
+|
+
+|-
+| '''3 of Diamonds [2]'''
+| 40
+| 2
+| 2
+| Defensive
+| 2
+| LUK +3, DEF +3%, HP +10%
+| SP Cost -12%
+|
+
+|-
+| '''Joker's Loss [0]'''
+| 40
+| 3
+| 3
+| Special
+| 2
+| ASPD -90%, SP per Hit +500<br />
+ASPD +5%/Refine
+|
+
+|
+
+|}
+
+== <span id="Armors" class="mw-headline">Armors</span> ==
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+ [[File:GuardIcon.gif|24x24px|link=GuardIcon]] List of shields sold by NPCs.
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;" | Req.<br />
+Lv
+! style="background: #99d9ea;" | DEF
+! style="background: #99d9ea;" | MDEF
+! style="background: #99d9ea;" | Category
+! style="background: #99d9ea;" | Effects
+! style="background: #99d9ea;" | Innate Bonus
+! style="background: #99d9ea;" | Location
+|-
+| '''Guard [0]'''
+| 1
+| 10
+| 5
+| Defensive
+| HP +3%, VIT +1
+| Auto Guard Lv3
+| Midgard
+|-
+| '''Buckler [0]'''
+| 5
+| 5
+| 3
+| Parry
+| SP +3%, VIT +1
+| Auto Guard Lv5
+| Midgard
+|-
+| '''Arm Guard [0]'''
+| 5
+| 2
+| 2
+| Agility
+| FLEE +10, Perfect Dodge +2, AGI +2
+| Auto Guard Lv1
+| Midgard
+|-
+| '''Holy Guard [0]'''
+| 15
+| 15
+| 7
+| Defensive
+| HP +5%, Increases resistance to '''<span style="color:gray">Holy</span>''' Property by 5%
+| Auto Guard Lv3
+| Midgard
+|-
+| '''Black Buckler [0]'''
+| 15
+| 8
+| 5
+| Parry
+| SP +5%, Increases resistance to '''Dark''' Property by 5%
+| Auto Guard Lv5
+| Midgard
+|-
+| '''Mirror Shield [0]'''
+| 30
+| 20
+| 15
+| Defensive
+| HP +7%, HP Regen +10%
+| Auto Guard Lv4
+| Schwarzwald
+|-
+| '''Stone Buckler [0]'''
+| 30
+| 13
+| 7
+| Parry
+| SP +7%, SP Regen +10%
+| Auto Guard Lv6
+| Schwarzwald
+|-
+| '''Plated Arm Guard [0]'''
+| 30
+| 5
+| 5
+| Agility
+| FLEE +15/ Perfect Dodge +5<br />
+Increases Movement Speed by 5%
+| Auto Guard Lv2
+| Schwarzwald
+|-
+| '''Knight Shield [0]'''
+| 45
+| 30
+| 10
+| Defensive
+| HP +10%, '''Cover''' skill SP Cost -25%
+| Auto Guard Lv5
+| Arunafeltz
+|-
+| '''Round Buckler [0]'''
+| 45
+| 20
+| 10
+| Parry
+| SP +10%, '''Shield Boomerang''' skill SP Cost -25%
+| Auto Guard Lv7
+| Arunafeltz
+|-
+| '''Moon Armguard [0]'''
+| 65
+| 10
+| 7
+| Agility
+| FLEE +20 / MATK +5%
+| Auto Guard Lv3
+| Islands
+|-
+| '''Fox Armguard [0]'''
+| 65
+| 10
+| 7
+| Agility
+| FLEE +20 / ASPD +4
+| Auto Guard Lv3
+| Islands
+|-
+| '''Wolf Armguard [0]'''
+| 65
+| 10
+| 7
+| Agility
+| FLEE +20 / ATK +5%
+| Auto Guard Lv3
+| Islands
+|-
+| '''Volcano Shield [0]'''
+| 70
+| 10
+| 20
+| Defensive
+| Decreases damage from '''<span style="color:red">Fire</span>''' Property attacks by 3%/Refine
+| Auto Guard Lv2
+| Tribes
+|-
+| '''Tidal Shield [0]'''
+| 70
+| 10
+| 20
+| Defensive
+| Decreases damage from '''<span style="color:blue">Water</span>''' Property attacks by 3%/Refine
+| Auto Guard Lv2
+| Tribes
+|-
+| '''Tornado Shield [0]'''
+| 70
+| 10
+| 20
+| Defensive
+| Decreases damage from '''<span style="color:green">Wind</span>''' Property attacks by 3%/Refine
+| Auto Guard Lv2
+| Tribes
+|-
+| '''Quake Shield [0]'''
+| 70
+| 10
+| 20
+| Defensive
+| Decreases damage from '''<span style="color:brown">Earth</span>''' Property attacks by 3%/Refine
+| Auto Guard Lv2
+| Tribes
+|-
+| '''Bash Shield [0]'''
+| 80
+| 25
+| 9
+| Defensive
+| After Cast Delay -10%, Increases damage when using '''Boomerang''' skill by 20%.
+| Auto Guard Lv2
+| Niflheim
+|-
+| '''Death Ward Shield [0]'''
+| 85
+| 50
+| 25
+| Special
+| ATK -5%/Refine, MATK -5%/Refine<br />
+HP +3%/Refine, SP +3%/Refine<br />
+Weight: 120
+| Auto Guard Lv10
+| Niflheim
+|}
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+[[File:ArmorIcon.gif|24x24px|link=ArmorIcon]] List of armors sold by NPCs.
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;" | Req.<br />
+Lv
+! style="background: #99d9ea;" | DEF
+! style="background: #99d9ea;" | MDEF
+! style="background: #99d9ea;" | Category
+! style="background: #99d9ea;" | Effects
+! style="background: #99d9ea;" | Innate Bonus
+! style="background: #99d9ea;" | Location
+|-
+| '''Cotton Shirt [0]'''
+| 1
+| 3
+| 0
+| Light Armor
+| SP +10
+| HP +50
+| Starting Equip
+|-
+| '''Silk Robe [0]'''
+| 5
+| 1
+| 3
+| Light Armor
+| Decreases damage from '''<span style="color:blue">Water</span>''' Property by 5%
+| HP +5% - SP+15%
+| Midgard
+|-
+| '''Adventurer Suit [0]'''
+| 5
+| 5
+| 2
+| Medium Armor
+| ATK +2
+| HP +10% - SP +10%
+| Midgard
+|-
+| '''Mage Coat [0]'''
+| 15
+| 5
+| 5
+| Light Armor
+| Cast Time -15%
+| HP +5% - SP +15%
+| Midgard
+|-
+| '''Red Tunic [0]'''
+| 15
+| 10
+| 3
+| Medium Armor
+| ASPD +5%
+| HP +10% - SP +10%
+| Midgard
+|-
+| '''Padded Armor [0]'''
+| 15
+| 22
+| 0
+| Heavy Armor
+| Decreases damage from '''Neutral''' Property by 5%
+| HP +15% - SP +5%
+| Midgard
+|-
+| '''Silver Robe [0]'''
+| 30
+| 10
+| 8
+| Light Armor
+| Decreases damage from '''<span style="color:gray">Holy</span>''' Property by 10%
+| HP +5% - SP +15%
+| Schwarzwald
+|-
+| '''Mantle [0]'''
+| 30
+| 15
+| 3
+| Medium Armor
+| Add 25% resistance to '''<span style="color:blue">Freeze</span>'''
+| HP+10% - SP+10%
+| Schwarzwald
+|-
+| '''Chain Mail [0]'''
+| 30
+| 30
+| 0
+| Heavy Armor
+| Reflect 2% of all physical damage back to the enemy
+| HP +15% - SP +5%
+| Schwarzwald
+|-
+| '''Rachel Robe [0]'''
+| 45
+| 15
+| 8
+| Light Armor
+| Decreases damage from '''Dark''' Property by 10%
+| HP +5% - SP +15%
+| Arunafeltz
+|-
+| '''Desert Clothes [0]'''
+| 45
+| 20
+| 4
+| Medium Armor
+| Increase damage inflicted on Medium size monster by 10%
+| HP +10% - SP +10%
+| Arunafeltz
+|-
+| '''Full Plate [0]'''
+| 45
+| 46
+| 0
+| Heavy Armor
+| VIT +5
+| HP +15% - SP +5%
+| Arunafeltz
+|-
+| '''Ritual Robe [0]'''
+| 65
+| 22
+| 9
+| Light Armor
+| Reduces Fixed Cast Time by -0.05s/Refine
+| HP +5% - SP +15%
+| Islands
+|-
+| '''Ninja Suit [0]'''
+| 65
+| 26
+| 5
+| Medium Armor
+| Increases Movement Speed by +2%/Refine
+| HP+10% - SP+10%
+| Islands
+|-
+| '''Samurai Plate [0]'''
+| 65
+| 47
+| 1
+| Heavy Armor
+| Reduces SP Consumption by -2%/Refine
+| HP +15% - SP +5%
+| Islands
+|-
+| '''Shaman Robe [0]'''
+| 70
+| 30
+| 10
+| Light Armor
+| MATK +1/Refine
+| HP +5% - SP +15%
+| Tribes
+|-
+| '''Black Forest Coat [0]'''
+| 70
+| 34
+| 6
+| Medium Armor
+| ASPD +1%/Refine
+| HP +10% - SP +10%
+| Tribes
+|-
+| '''T Warrior Armor [0]'''
+| 70
+| 60
+| 1
+| Heavy Armor
+| ATK +1/Refine
+| HP +15% - SP +5%
+| Tribes
+|-
+| '''Fallen Wizard Robe [0]'''
+| 80
+| 35
+| 11
+| Light Armor
+| INT +2<br />
+'''[Set Bonus]''' 1% MATK
+| HP +5% - SP +15%
+| Niflheim
+|-
+| '''Fallen Assassin Coat [0]'''
+| 80
+| 41
+| 7
+| Medium Armor
+| STR +2<br />
+'''[Set Bonus]''' 1% ATK
+| HP +10% - SP +10%
+| Niflheim
+|-
+| '''Fallen Knight Armor [0]'''
+| 80
+| 68
+| 2
+| Heavy Armor
+| VIT +2<br />
+'''[Set Bonus]''' 2% HP
+| HP +15% - SP +5%
+| Niflheim
+|-
+| '''DeathBound Armor [0]'''
+| 85
+| 75
+| 10
+|
+
+| Reduces Magic damage received by 1%/Refine<br />
+Disable natural SP Regen
+| HP +12% - SP +12%
+| Niflheim
+|}
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+ [[File:MufflerIcon.gif|24x24px|link=MufflerIcon]] List of garments sold by NPCs.
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;" | Req.<br />
+Lv
+! style="background: #99d9ea;" | DEF
+! style="background: #99d9ea;" | MDEF
+! style="background: #99d9ea;" | Category
+! style="background: #99d9ea;" | Effects
+! style="background: #99d9ea;" | Innate Bonus
+! style="background: #99d9ea;" | Location
+|-
+| '''Hood [0]'''
+| 1
+| 2
+| 2
+| Light Garment
+| Reduces Cast Time by 5%
+| Perfect Dodge +2
+| Midgard
+|-
+| '''Muffler [0]'''
+| 5
+| 5
+| 1
+| Medium Garment
+| ASPD +5%
+| Perfect Dodge +3
+| Midgard
+|-
+| '''Manteau [0]'''
+| 15
+| 7
+| 0
+| Heavy Garment
+| Decreases damage from '''Neutral''' Property by 2%
+| Perfect Dodge +1
+| Midgard
+|-
+| '''Silver Cape [0]'''
+| 30
+| 5
+| 3
+| Light Garment
+| Decreases damage from '''<span style="color:gray">Holy</span>''' Property by 5%
+| Perfect Dodge +3
+| Schwarzwald
+|-
+| '''Scarlet Muffler [0]'''
+| 30
+| 9
+| 2
+| Medium Garment
+| Add 25% resistance to '''Bleeding'''
+| Perfect Dodge +4
+| Schwarzwald
+|-
+| '''Spaulders [0]'''
+| 30
+| 11
+| 0
+| Heavy Garment
+| Reflect 1% of all physical damage back to the enemy
+| Perfect Dodge +2
+| Schwarzwald
+|-
+| '''Rachel Mantle [0]'''
+| 45
+| 9
+| 5
+| Light Garment
+| Decreases damage from '''Dark''' Property by 5%
+| Perfect Dodge +4
+| Arunafeltz
+|-
+| '''Desert Muffler [0]'''
+| 45
+| 14
+| 3
+| Medium Garment
+| Increase damage inflicted on ''Large'' size monster by 2%
+| Perfect Dodge +5
+| Arunafeltz
+|-
+| '''Pauldron [0]'''
+| 45
+| 18
+| 1
+| Heavy Garment
+| VIT +1
+| Perfect Dodge +3
+| Arunafeltz
+|-
+| '''Ritual Manteau [0]'''
+| 65
+| 13
+| 6
+| Light Garment
+| Reduce Cast Time by 1%/Refine
+| Perfect Dodge +3
+| Islands
+|-
+| '''Ninja Mantle [0]'''
+| 65
+| 20
+| 4
+| Medium Garment
+| Increase Movement Speed by 1%/Refine
+| Perfect Dodge +4
+| Islands
+|-
+| '''Samurai Surcoat [0]'''
+| 65
+| 30
+| 1
+| Heavy Garment
+| Reduce SP Consumption by 1%/Refine
+| Perfect Dodge +2
+| Islands
+|-
+| '''Shaman Cloak [0]'''
+| 70
+| 20
+| 8
+| Light Garment
+| MATK +1/Refine
+| Perfect Dodge +3
+| Tribes
+|-
+| '''Black Forest Hood [0]'''
+| 70
+| 32
+| 5
+| Medium Garment
+| FLEE +3/Refine
+| Perfect Dodge +4
+| Tribes
+|-
+| '''Warrior Manteau [0]'''
+| 70
+| 40
+| 2
+| Heavy Garment
+| ATK +1/Refine
+| Perfect Dodge +2
+| Tribes
+|-
+| '''Fallen Wizard Shawl [0]'''
+| 80
+| 25
+| 10
+| Light Garment
+| INT +1
+| Perfect Dodge +3
+| Niflheim
+|-
+| '''Fallen Assassin Hood [0]'''
+| 80
+| 39
+| 6
+| Medium Garment
+| STR +1
+| Perfect Dodge +4
+| Niflheim
+|-
+| '''Fallen Knight Cape [0]'''
+| 80
+| 50
+| 3
+| Heavy Garment
+| VIT +1
+| Perfect Dodge +2
+| Niflheim
+|-
+| '''DeathCover Mantle [0]'''
+| 85
+| 60
+| 9
+|
+
+| Reduces '''Misc''' Damage received by 1%/Refine<br />
+Lose 5 HP/Refine per second
+| Perfect Dodge +6
+| Niflheim
+|}
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+[[File:BootsIcon.gif|24x24px|link=BootsIcon]] List of shoes sold by NPCs.
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;" | Req.<br />
+Lv
+! style="background: #99d9ea;" | DEF
+! style="background: #99d9ea;" | MDEF
+! style="background: #99d9ea;" | Category
+! style="background: #99d9ea;" | Effects
+! style="background: #99d9ea;" | Innate Bonus
+! style="background: #99d9ea;" | Location
+|-
+| '''Sandals [0]'''
+| 1
+| 2
+| 2
+| Light Shoes
+| Reduce Cast Time by 5%
+| Move Speed +3%
+| Midgard
+|-
+| '''Shoes [0]'''
+| 5
+| 5
+| 1
+| Medium Shoes
+| ASPD +5%
+| Move Speed +5%
+| Midgard
+|-
+| '''Boots [0]'''
+| 15
+| 7
+| 0
+| Heavy Shoes
+| Increases resistance to '''Neutral''' Property by 2%
+| Move Speed +1%
+| Midgard
+|-
+| '''Silver Shoes [0]'''
+| 30
+| 5
+| 3
+| Light Shoes
+| Increases resistance to '''<span style="color:gray">Holy</span>''' Property by 5%
+| Move Speed +4%
+| Schwarzwald
+|-
+| '''Safety Shoes [0]'''
+| 30
+| 9
+| 2
+| Medium Shoes
+| Add 25% resistance to '''<span style="color:brown">Stone</span>''' status
+| Move Speed +6%
+| Schwarzwald
+|-
+| '''Combat Greaves [0]'''
+| 30
+| 11
+| 0
+| Heavy Shoes
+| Reflect 1% of all physical damage back to the enemy
+| Move Speed +2%
+| Schwarzwald
+|-
+| '''Rachel Sandals [0]'''
+| 45
+| 9
+| 5
+| Light Shoes
+| Increases resistance to '''Dark''' Property by 5%
+| Move Speed +5%
+| Arunafeltz
+|-
+| '''Desert Boots [0]'''
+| 45
+| 14
+| 3
+| Medium Shoes
+| Increase damage inflicted on ''Small'' size monster by 10%
+| Move Speed +7%
+| Arunafeltz
+|-
+| '''Full Greaves [0]'''
+| 45
+| 18
+| 1
+| Heavy Shoes
+| VIT +1
+| Move Speed +3%
+| Arunafeltz
+|-
+| '''Ritual Sandals [0]'''
+| 65
+| 13
+| 6
+| Light Shoes
+| Reduce Cast Time by 2%/Refine
+| Move Speed +4%
+| Islands
+|-
+| '''Ninja Boots [0]'''
+| 65
+| 20
+| 4
+| Medium Shoes
+| Move Speed +1%/Refine
+| Move Speed +6%
+| Islands
+|-
+| '''Samurai Boots [0]'''
+| 65
+| 30
+| 1
+| Heavy Shoes
+| Reduce SP Consumption by 1%/Refine
+| Move Speed +2%
+| Islands
+|-
+| '''Shaman Shoes [0]'''
+| 70
+| 20
+| 8
+| Light Shoes
+| MATK +1/Refine
+| Move Speed +4%
+| Tribes
+|-
+| '''Black Forest Shoes [0]'''
+| 70
+| 32
+| 5
+| Medium Shoes
+| ASPD +1%/Refine<br />
+ASPD Limit +1
+| Move Speed +6%
+| Tribes
+|-
+| '''T Warrior Boots [0]'''
+| 70
+| 40
+| 2
+| Heavy Shoes
+| ATK +1/Refine
+| Move Speed +2%
+| Tribes
+|-
+| '''Fallen Wizard Boots [0]'''
+| 80
+| 25
+| 10
+| Light Shoes
+| INT +1
+| Move Speed +4%
+| Niflheim
+|-
+| '''Fallen Assassin Boots [0]'''
+| 80
+| 39
+| 6
+| Medium Shoes
+| STR +1
+| Move Speed +6%
+| Niflheim
+|-
+| '''Fallen Knight Greaves [0]'''
+| 80
+| 50
+| 3
+| Heavy Shoes
+| VIT +1
+| Move Speed +2%
+| Niflheim
+|-
+| '''DeathLand [0]'''
+| 85
+| 60
+| 9
+|
+
+| Reduces ''Physical'' Damage received by 1%/Refine<br />
+Lose 1 SP/Refine per second
+| Move Speed +8%
+| Niflheim
+|}
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+[[File:AccessoryIcon.gif|24x24px|link=AccessoryIcon]] List of accessories sold by NPCs.
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;" | Req.<br />
+Lv
+! style="background: #99d9ea;" | DEF
+! style="background: #99d9ea;" | MDEF
+! style="background: #99d9ea;" | Effects
+! style="background: #99d9ea;" | Location
+|-
+| '''Bloodstone Ring [0]'''
+| 1
+| 0
+| 0
+| HP +2%
+| Midgard
+|-
+| '''Soulstone Ring [0]'''
+| 1
+| 0
+| 0
+| SP +2%
+| Midgard
+|-
+| '''Mindstone Ring [0]'''
+| 1
+| 0
+| 0
+| HP +1%, SP +1%
+| Midgard
+|-
+| '''Pendant of Chaos [0]'''
+| 25
+| 0
+| 0
+| ATK +5
+| Schwarzwald
+|-
+| '''Pendant of Harmony [0]'''
+| 25
+| 0
+| 0
+| MATK +5
+| Schwarzwald
+|-
+| '''Pendant of Balance [0]'''
+| 25
+| 0
+| 0
+| ATK +3, MATK +3
+| Schwarzwald
+|-
+| '''STR Glove [0]'''
+| 50
+| 0
+| 0
+| STR +1<br />
+Extra Status +1 if 50, +3 if 99
+| Arunafeltz
+|-
+| '''AGI Glove [0]'''
+| 50
+| 0
+| 0
+| AGI +1<br />
+Extra Status +1 if 50, +3 if 99
+| Arunafeltz
+|-
+| '''INT Glove [0]'''
+| 50
+| 0
+| 0
+| INT +1<br />
+Extra Status +1 if 50, +3 if 99
+| Arunafeltz
+|-
+| '''VIT Glove [0]'''
+| 50
+| 0
+| 0
+| VIT +1<br />
+Extra Status +1 if 50, +3 if 99
+| Arunafeltz
+|-
+| '''DEX Glove [0]'''
+| 50
+| 0
+| 0
+| DEX +1<br />
+Extra Status +1 if 50, +3 if 99
+| Arunafeltz
+|-
+| '''LUK Glove [0]'''
+| 50
+| 0
+| 0
+| LUK +1<br />
+Extra Status +1 if 50, +3 if 99
+| Arunafeltz
+|-
+| '''Occult Incense [0]'''
+| 65
+| 0
+| 0
+| Reduce Cast Time by 10%
+| Islands
+|-
+| '''Sacred Incense [0]'''
+| 65
+| 0
+| 0
+| ASPD +5%
+| Islands
+|-
+| '''True Target Ring [0]'''
+| 70
+| 0
+| 0
+| Perfect Hit +10
+| Tribe
+|-
+| '''Fake Target Ring [0]'''
+| 70
+| 0
+| 0
+| Perfect Dodge +3
+| Tribe
+|-
+| '''Fallen Wizard Figure [0]'''
+| 80
+| 3
+| 1
+| MATK +2%
+| Niflheim
+|-
+| '''Fallen Assassin Figure [0]'''
+| 80
+| 2
+| 2
+| Critical Damage +5%
+| Niflheim
+|-
+| '''Fallen Knight Figure [0]'''
+| 80
+| 1
+| 3
+| ATK +2%
+| Niflheim
+|-
+| '''Black Rosary [1]'''
+| 85
+| 10
+| 5
+| All stats +1<br />
+HP/SP -10%
+| Niflheim
+|}
+
+== <span id="Others" class="mw-headline">Others</span> ==
+
+{|class="mw-collapsible mw-collapsed wikitable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|+[[File:ManualsIcon.gif|24x24px|link=ManualsIcon]] List of skill manuals sold by NPCs.
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea;" | Req.<br />
+Lv
+! style="background: #99d9ea;" | DEF
+! style="background: #99d9ea;" | MDEF
+! style="background: #99d9ea;" | Effects
+! style="background: #99d9ea;" | Location
+|-
+| '''Agility Manual [5]'''
+| 10
+| 0
+| 0
+| AGI +1, '''Increase Agi''' Lv5
+| Midgard
+|-
+| '''Vanish Manual [5]'''
+| 10
+| 0
+| 0
+| LUK +1, '''Hiding''' Lv5
+| Midgard
+|-
+| '''Pickpocket Manual [5]'''
+| 10
+| 0
+| 0
+| DEX +1, '''Steal''' Lv5
+| Midgard
+|-
+| '''Vision Manual [1]'''
+| 10
+| 0
+| 0
+| HIT +5, '''Ruwach''' Lv1
+| Midgard
+|-
+| '''Medic Manual [5]'''
+| 10
+| 0
+| 1
+| '''Heal''' Lv5
+| Midgard
+|-
+| '''Life Manual [1]'''
+| 10
+| 3
+| 0
+| '''Resurrection''' Lv1
+| Midgard
+|-
+| '''Paradiso Tome'''
+| 100
+| 5
+| 3
+| '''Heal''' Lv10<br />
+'''Coluceo Heal'''<br />
+'''Resurrection''' Lv4
+| Quest Req. All Books
+|-
+| '''Blink Manual [1]'''
+| 10
+| 0
+| 0
+| Move Speed +2%, '''Teleport''' Lv1
+| Midgard
+|-
+| '''Portal Manual [2]'''
+| 10
+| 0
+| 0
+| Move Speed +2%, '''Warp Portal''' Lv2
+| Midgard
+|-
+| '''Purgatorio Tome'''
+| 100
+| 0
+| 0
+| Move Speed +5%, '''Teleport''' Lv2<br />
+'''Warp Portal''' Lv4<br />
+'''Convenio''' Lv1
+| Quest Req. All Books
+|-
+| '''Hammer Manual [1]'''
+| 10
+| 0
+| 0
+| STR +1, '''Hammer Fall''' Lv1
+| Midgard
+|-
+| '''Inferno Tome [1]'''
+| 100
+| 4
+| 1
+| '''Provoke''' Lv10<br />
+'''Hammer Fall''' Lv3<br />
+'''Sacr/Strik''' Lv1
+| Quest Req. All Books
+|-
+| '''Celestial Tome [1]'''
+| 130
+| 10
+| 5
+| All stats +2<br />
+'''<span style="color:green">Paradiso</span>''' + '''<span style="color:green">Purgatorio</span>''' + '''<span style="color:green">Inferno</span>''' Books effects
+| Quest Req. All Books
+|-
+| '''Unleashed Manual [10]'''
+| 100
+| 0
+| 0
+| All stats +1<br />
+All Novice Skills Lv10<br />
+'''Warp Portal''' v2
+| Abandoned Castle
+|-
+| '''Equilibrium Tome [x]'''
+| 10
+| 0
+| 0
+| All stats +1<br />
+Atk +1%, Matk +1%<br />
+HP +1%, SP+1%
+| ???
+|}

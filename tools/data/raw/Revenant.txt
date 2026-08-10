@@ -1,0 +1,127 @@
+
+
+== <span id="Revenant" class="mw-headline">[[File:Revenant.gif|25x25px|Revenant.gif]]Revenant</span> ==
+ 
+'''Note:''' Revenant is durable comabtant , with high leech power.
+
+'''Best:''' Consistent Dps, High leech power, good AoE, inbuilt Leech -> Barrier.
+
+'''Worst:''' Weakness to CC, ranged damage, and lingering AoE skills.
+
+'''Weapons:''' Scythe.
+
+=== <span id="Gameplay_Identity" class="mw-headline">Gameplay Identity</span> ===
+ 
+The Revenant is a unique DPS class that focuses on a life-steal mechanic combined with a shield generated from excess life force. They are a sustained damage dealer, relying on consistently draining life from their enemies to fuel their own survivability.
+
+Upon job change , Revenants are given pet egg, which can be either:
+
+- Hatched for combat pet, who stuns and burns enemies.
+
+or
+
+- Changed to Revenant Ebel card which gives crit chance/dmg.
+
+== <span id="Skills" class="mw-headline">Skills</span> ==
+
+{| class="wikitable" style="font-weight:normal; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|-
+! style="text-align:center; background-color:#99d9ea;" | Skill
+! style="text-align:center; background-color:#99d9ea;" | Max Level
+! style="text-align:center; background-color:#99d9ea;" | Description
+! style="text-align:center; background-color:#99d9ea;" | Skill Type
+! style="text-align:center; background-color:#99d9ea;" | Details
+! style="text-align:center; background-color:#99d9ea;" | Scaling
+|-
+| Advanced Scythe mastery
+| Lv 10
+| Passive
+| Increases ATK/Crit/Flee while using Scythe
+| Sweeping slash activates Combo Ready
+| None
+|-
+| Ominous Pressence
+| Lv 10
+| Passive
+| Increases Critical Chance and Damage with scythe.
+
+Grants Barrier with overleech.
+| None
+| Barrier formula: [(20% x Skill lvl) x (2x Str + 5 x Luk + 100 x Base Level + 5 x Leech Power)]
+|-
+| Reaping Slash
+| Lv 10
+| Active
+| Deals damage to target and its surroundings 
+| Grants Overslash Stack, when dealing damage, If caster has Combo Ready.
+| LUK
+|-
+| Roaring Overslash
+| Lv 10
+| Active
+| Deals damage around caster. Repeat for every Overslash Stack.
+| Deals 0.2% of target max hp per hit.Dmg is reduced without Combo Ready.
+| LUK
+|-
+| Phantom Slice
+| Lv 5
+| Active
+| Pulls enemy by using scythe.
+| Can be used on Party Member, without dealing damage, range increases with Skill Level
+| VIT
+|-
+| Haunting Slice
+| Lv 5
+| Active
+| Dashes to target and deals damage.
+| None
+| ATK , STR
+|-
+| Underworld Rainstorm
+| Lv 10
+| Active
+| Calls upon Underworld rays, that deals damage in wide AoE.
+| Increased damage per Overslash stack. Requires Shadow Orb.
+| INT , LUK. 
+|-
+| Vampire's Mark
+| Lv 5
+| Active/Buff
+| Grants Leeching power to caster or ally.
+| Increased leech power with level, Decrease duration with level.
+| None
+|-
+| Darkside Shadow
+| Lv 10
+| Active, Self-Buff
+| Summons shadow clone, which which repeats caster attacks.
+| Grants 2% dmg per DEX to skill. Increased Double attack chance with level.
+| None
+|-
+| High Jump
+| Lv 5
+| Active
+| Prepares for high Jump which can Go over some terrain.
+| None
+| None
+|-
+| Final Orchestra
+| Lv 10
+| Active
+| Summons Healing area on cast, Undead/Demon monsters takes Half of reco very amount as magic damage.
+| Can heal monsters.
+| None
+|-
+| Mirror Break
+| Lv 5
+| Active, Debuff
+| Dispells Reflect damage buff from target.
+| Skill may fail, if target is already under Mirror Break
+| None
+|-
+| Flaming Wave
+| Lv 10
+| Active
+| Sends out a wave of flame, that burns enemy and surrounding targets.
+| None
+| INT

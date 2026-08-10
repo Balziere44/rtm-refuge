@@ -1,0 +1,184 @@
+== Quality Equipment ==
+In Return to Morroc, EVERY equipment has what is called "'''Innate Bonus'''", these are bonuses that you will always find on these items, regardless of other stats.
+The value in these items don't always mean an item is better or worse, but it's a good way to know what to expect from them.
+
+'''The innate bonus of any equipment can be found on the first block of their description window.'''
+
+'''Some special items might break the average innate of its type according to its theme.'''
+
+Accessories and headgears have no innate bonuses, but they may have random options.
+
+== Weapons ==
+'''You can check which weapon each job can use by checking their fixed passive in each skill tree. Or their respective wiki page.'''
+
+* '''Note:''' Katars in Return to Morroc have 1.5x bonus critical rate, for balancing reasons.
+
+{| class="wikitable sortable" style="text-align: center;"
+! style="background: #99d9ea;" | Weapon
+! style="background: #99d9ea;" | Bonus
+! style="background: #99d9ea;" | Variation
+! style="background: #99d9ea;" | Details
+|-
+| style="background: #ffffff;" | [[File:KnifeIcon.gif|30px]] Daggers
+| Double Attack
+| Lv1 ~ Lv10
+| Chance to attack twice with auto-attacks. 10% per level.
+|-
+| style="background: #ffffff;" | [[File:SwordIcon.gif|30px]] Swords
+| Defense Pierce
+| 1% ~ 25%
+| Ignores a portion of target's total defense.
+|-
+| style="background: #ffffff;" | [[File:AxeIcon.gif|30px]] Axes
+| Splash Range
+| +1 ~ +5
+| Increases area of auto-attacks by 3x3 per range. Doesn't Stack.
+|-
+| style="background: #ffffff;" | [[File:BowIcon.gif|30px]] Bows
+| Range and SP Cost
+| +0 ~ +10 / 0 ~ 25
+| Increases range of attacks and most skills. Increases SP cost per auto-attack.
+|-
+| style="background: #ffffff;" | [[File:KatarIcon.gif|30px]] Katars
+| Critical Damage
+| 1% ~ 25%
+| Increases the damage dealt with critical attacks. Also affects skills that can be critical.
+|-
+| style="background: #ffffff;" | [[File:ScytheIcon.gif|30px]] Scythes
+| Leech Power
+| 1 ~ 100%
+| Scythes drain HP on physical damage. It's the amount of damage dealt transformed into HP.
+|-
+| style="background: #ffffff;" | [[File:DeckIcon.png|30px]] Decks
+| SP Cost Reduction
+| 0 ~ 30%
+| Reduces the SP cost of skills.
+|-
+| style="background: #ffffff;" | [[File:SpearIcon.gif|30px]] Spears
+| Dragon Thrust
+| Lv1 ~ Lv9
+| Enables use of Dragon Thrust Skill. 2 cells range.
+|-
+| style="background: #ffffff;" | [[File:Wspear.gif|30px]] Wyrm Spears
+| Dragon Thrust
+| Lv2 ~ Lv10
+| Enables use of Dragon Thrust Skill. 3 cells range.
+|-
+| style="background: #ffffff;" | [[File:Illuglove.gif|30px]] Illusion Gloves
+| Autospell Chance
+| Varies
+| Chance to autocast various magic, chance and power varies.
+|-
+| style="background: #ffffff;" | [[File:Revolver.gif|30px]] Revolvers
+| Varies
+| Varies
+| Varies by weapon crafted. Check [[Judge Headquarters]] for details.
+|-
+| style="background: #ffffff;" | [[File:Bonesword.gif|30px]] Bone Swords
+| Dragon Skill
+| 1 ~ 25%
+| Autocast chance of various dragon skills.
+|-
+| style="background: #ffffff;" | [[File:Codex.gif|30px]] Codex
+| Abracadabra Cooldown Reduction
+| 1 ~ 5 seconds
+| Abracadabra autocasts random skills, unique to [[Mimic]].
+|}
+
+== Shields ==
+'''Shields come in 3 varieties. Round shields can also be called Square Shields. All of them allow the use of shield-only skills.'''
+
+Note: [[Prowler]] Armguards have a random +1 to a single attribute and no slots.
+
+{| class="wikitable sortable" style="text-align: center;"
+! style="background: #99d9ea;" | Shield
+! style="background: #99d9ea;" | Bonus
+! style="background: #99d9ea;" | Variation
+! style="background: #99d9ea;" | Details
+|-
+| style="background: #ffffff;" | [[File:Armguard.gif|30px]] Arm Guard
+| Auto Guard
+| Lv1 ~ Lv5
+| Lighter, Lower Auto Guard levels, Might include offensive/flee bonuses.
+|-
+| style="background: #ffffff;" | [[File:Roundshield.gif|30px]] Round Shield
+| Auto Guard
+| Lv5 ~ Lv10
+| Balanced, Stronger Auto Guard levels, Focuses on utility bonuses.
+|-
+| style="background: #ffffff;" | [[File:Heavyshield.gif|30px]] Heavy Shield
+| Auto Guard
+| Lv1 ~ Lv10
+| Heavier, Balanced Auto Guard levels, Focuses on defensive power.
+|}
+
+== Armors ==
+'''Return to Morroc armors come in a variety of 3. Light, Medium or Heavy.'''
+
+{| class="wikitable sortable" style="text-align: center;"
+! style="background: #99d9ea;" | Armor
+! style="background: #99d9ea;" | Bonus
+! style="background: #99d9ea;" | Variation
+! style="background: #99d9ea;" | Details
+|-
+| style="background: #ffffff;" | [[File:Lightarmor.gif|30px]] Light Armor
+| Small HP&#160;%, Large SP&#160;%
+| 1% ~ 25%
+| Low Weight, usually favors Magic Defense.
+|-
+| style="background: #ffffff;" | [[File:Mediumarmor.gif|30px]] Medium Armor
+| Medium HP&#160;%, Medium SP&#160;%
+| 1% ~ 25%
+| Average Weight, has balanced Defense and Magic Defense.
+|-
+| style="background: #ffffff;" | [[File:Heavyarmor.gif|30px]] Heavy Armor
+| Large HP&#160;%, Small SP&#160;%
+| 1% ~ 25%
+| Heavy Weight, usually favors Defense.
+|}
+
+{| class="wikitable sortable" style="text-align: center;"
+! style="background: #99d9ea;" | Garment
+! style="background: #99d9ea;" | Bonus
+! style="background: #99d9ea;" | Variation
+! style="background: #99d9ea;" | Details
+|-
+| style="background: #ffffff;" | [[File:Lightgarment.gif|30px]] Light Garment
+| Average Perfect Dodge
+| 1 ~ 10
+| Low Weight, usually favors Magic Defense.
+|-
+| style="background: #ffffff;" | [[File:Mediumgarment.gif|30px]] Medium Garment
+| High Perfect Dodge
+| 1 ~ 15
+| Average Weight, has balanced Defense and Magic Defense.
+|-
+| style="background: #ffffff;" | [[File:Heavygarment.gif|30px]] Heavy Garment
+| Low Perfect Dodge
+| 1 ~ 5
+| Heavy Weight, usually favors Defense.
+|}
+
+{| class="wikitable sortable" style="text-align: center;"
+|+ Shoes Information
+|-
+! style="background: #99d9ea;" | Shoes
+! style="background: #99d9ea;" | Bonus
+! style="background: #99d9ea;" | Variation
+! style="background: #99d9ea;" | Details
+|-
+! style="background: #ffffff;" | [[File:Lightshoes.png|30px|link=File_Lightshoes.html]]
+| Average Movement Speed
+| 1% ~ 10%
+| Low Weight, usually favors Magic Defense.
+|-
+! style="background: #ffffff;" | [[File:Mediumshoes.png|30px|link=File_Mediumshoes.html]]
+| High Movement Speed
+| 5% ~ 15%
+| Average Weight, has balanced Defense and Magic Defense.
+|-
+! style="background: #ffffff;" | [[File:Heavyshoes.png|30px|link=File_Heavyshoes.html]]
+| Low Movement Speed
+| 1% ~ 5%
+| Heavy Weight, usually favors Defense.
+|}

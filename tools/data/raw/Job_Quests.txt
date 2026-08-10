@@ -1,0 +1,249 @@
+<center>
+<div style="display:inline-block; background-color:#0078D7; color:white; padding:12px 20px; border-radius:8px; text-align:center; font-weight:bold; font-size:14px; text-decoration:none; transition:0.3s; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);">
+[https://echoesofmorroc.com/quests <span style="color:white; text-decoration:none;">🔗 Job quests can be found at the database</span>]
+</div>
+</center>
+
+<p>Jobs are not only ways to play here, but also a unique identity of the player. The Job Change Quests are an essential part of this.</p>
+
+= Thief Tree =
+The Thief tree is the "regular progression" tree of the game. There are multiple job quests and paths to be taken. It's the perfect way to follow your destiny.
+
+=== [[File:Thief.gif]]Thief Quest ===
+
+'''Start Location:''' Lydia the Thief, Orphanage
+
+'''Required:''' Orphan Job Lv10
+
+'''Objective:''' Pay the price and assist the guild by talking to Lydia on the Orphanage entrance
+
+=== [[File:Prowler.gif]]Prowler Quest ===
+
+'''Start Location:''' Lighthalzen
+
+'''Required:''' Thief Job Lv50
+
+'''Objective:''' Use the Prowler Armguard and prove you can fight the strongest enemies no matter what.
+
+=== [[File:Shadowseer.gif]]Shadowseer Quest ===
+
+'''Start Location:''' Niflheim
+
+'''Required:''' Thief Job Lv50
+
+'''Objective:''' Understand the path of Life and Death.
+
+=== [[File:Assassin.gif]][[File:Rogue.gif]]Assassin/Rogue Quest ===
+
+'''Start Location:''' Sograt Desert Guild - moc_fild16
+
+'''Required:''' Thief Job Lv50
+
+'''Objective:''' Clear all the trials of the assassins, including basic knowledge, evasion and intuition to choose into become an Assassin or a Rogue.
+
+'''Note:''' The Master at the top of the pyramid can help any thief with their Assassin and Rogue job quest.
+
+=== [[File:Unchthief.gif]][[File:Unchassassin.gif]][[File:Unchrogue.gif]]Unchained Classes Quests ===
+
+'''Start Location:''' Master Room, Orphanage
+
+'''Required:''' Job Level 50 (Unchained Thief), Base Level 99, Job Level 50 (Unchained Assassin, Unchained Rogue, Phantom Thief)
+
+'''Objective:''' A specific weapon with random options will be requested at a high refine level, bring the weapon to the master. The weapon will need to be at the EXACT refine level.
+
+=== [[File:Bladedancer.gif]][[File:Scoundrel.gif]][[File:Shinobi.gif]][[File:Executioner.gif]][[File:Mystic.gif]][[File:Duelist.gif]][[File:Saboteur.gif]][[File:Deadeye.gif]]Specialization Quests ===
+
+'''Start Location:''' Desert Guild, moc_fild16
+
+'''Required:''' Assassin or Rogue Job Lv50
+
+'''Objective:''' Talk to the master to learn the details about a specialization, the master will change you into the specialization if you wish.
+
+'''Note:''' Entrance to the Desert Guild is on the center island, to the left-side/west. The Top of the temple is only for the Assassin and Rogue tests.
+
+=== [[File:Nightraven.gif]]Night Raven Quest ===
+
+'''Start Location:''' Sky Brother, Rachel Fields
+
+'''Required:''' Blade Dancer Job Lv70
+
+'''Objective:''' Scout the area and prepare a escape route to save the people from the cultists. This Quest is shared with Scoundrel's quest, you'll work outside.
+
+=== [[File:Blackplague.gif]]Black Plague Quest ===
+
+'''Start Location:''' Land Brother, Rachel Fields
+
+'''Required:''' Scoundrel Job Lv70
+
+'''Objective:''' Infiltrate the cultist base and help the people escape. This Quest is shared with Blade Dancer's quest, you'll work inside.
+
+=== [[File:Satsujin.gif]]Satsujin Quest ===
+
+'''Start Location:''' Master Saito, Yuno
+
+'''Required:''' Shinobi Job Lv70
+
+'''Objective:''' Capture the mysterious fugitive and survive all its traps.
+
+=== [[File:Gravekeeper.gif]]Gravekeeper Quest ===
+
+'''Start Location:''' Tomb Guardian, Pyramid Basement
+
+'''Required:''' Executioner Job Lv70
+
+'''Objective:''' Enter Loki's tomb and learn the hardships of the Assassin path.
+
+=== [[File:Arcanemaster.gif]]Arcane Master Quest ===
+
+'''Start Location:''' Mystic Assistant, Geffen Fields
+
+'''Required:''' Mystic Job Lv70
+
+'''Objective:''' Control the 4 natural elements and be approved by the Grandmaster.
+
+=== [[File:Kingslayer.gif]]Kingslayer Quest ===
+
+'''Start Location:''' Dethroned King, Moscovia
+
+'''Required:''' Duelist Job Lv70
+
+'''Objective:''' Face the usurper and bring justice back to a lost kingdom.
+
+=== [[File:Sinner.gif]]Sinner Quest ===
+
+'''Start Location:''' High Priest Zhed, Rachel Temple Garden
+
+'''Required:''' Deadeye Job Lv70
+
+'''Objective:''' Find the truth about the darkness covering the holy lands.
+
+=== [[File:Blastjuggler.gif]]Blast Juggler Quest ===
+
+'''Start Location:''' Mad Scientist, Lighthalzen
+
+'''Required:''' Saboteur Job Lv70
+
+'''Objective:''' Track down Wolfchev and make sure he pays for his crimes with his life.
+
+= Trickster/Revenant Tree =
+The trickster path is a simple way to break the rules and make your own destiny.
+
+=== [[File:Trickster.gif]]Trickster Quest ===
+
+'''Start Location:''' Mrs. Sorin, Orphanage
+
+'''Required:''' Orphan Job Lv10
+
+'''Objective:''' Embrace the cold of your soul and change your life forever.
+
+=== [[File:Revenant.gif]]Revenant Quest ===
+
+'''Start Location:''' Trickster, Niflheim
+
+'''Required:''' Trickster Job Lv70
+
+'''Objective:''' Silence the mark and use the darkness feared by all Orphans.
+
+= Vagabond/Legend Tree =
+The path of not having a path. You can ignore your destiny.
+
+=== [[File:Vagabond.gif]]Vagabond Quest ===
+
+'''Start Location:''' Vagabond, Orphanage
+
+'''Required:''' Orphan Base Level 15, Job Lv10
+
+'''Objective:''' Ignore the world that moves around you and forge a new path, free of any expectations and rules.
+
+=== [[File:Legend.gif]]Legend Quest ===
+
+'''Start Location:''' Vagabond, Dicastes Diel
+
+'''Required:''' Vagabond Job Lv70
+
+'''Objective:''' Understand where the energy that flows around the world comes from and gain its approval.
+
+= Raider/Dracomancer Tree =
+The true path to change your destiny and become something greater.
+
+=== [[File:Raider.gif]]Raider Quest ===
+
+'''Start Location:''' Wandering Knight, Payon Forest
+
+'''Required:''' Orphan Job Lv10
+
+'''Objective:''' Understand the qualities of a true warrior and how to control your impulses.
+=== [[File:Dracomancer.gif]]Dracomancer Quest ===
+
+'''Start Location:''' ????
+
+'''Required:''' Raider Job Lv50
+
+'''Objective:''' Survive the fury of ancient dragons and pay the price of blood.
+
+= Unique Tree =
+Sometimes a single step is all it takes. You can laugh at your destiny or change it.
+
+=== [[File:Ronin.gif]]Ronin Quest ===
+
+'''Start Location:''' Old Man, Amatsu Southeast.
+
+'''Required:''' Orphan Job lvl 10
+
+'''Objective:''' Become one with the world around you.
+
+=== [[File:Jester.gif]]Jester Quest ===
+
+'''Start Location:''' Funny Guy, Prontera Southwest
+
+'''Required:''' Orphan Job Lv10
+
+'''Objective:''' See the fun in the world and see how you can make everything fun.
+
+=== [[File:Illusionist.gif]]Illusionist Quest ===
+
+'''Note: Illusionist is an Expert Job. It may be harder to play than usual.'''
+
+'''Start Location:''' Broken Clock, Orphanage
+
+'''Required:''' Orphan Base Level 15, Job Lv10
+
+'''Objective:''' Learn the true use of your memories and how to transform them into power and fear.
+
+=== [[File:Judge.gif]]Judge Quest ===
+
+'''Note: Judge is an Expert Job. It may be harder to play than usual.'''
+
+'''Start Location:''' Leon Damon, Orphanage
+
+'''Required:''' Orphan Base Level 15, Job Lv10
+
+'''Objective:''' Earn the approval of all 7 royal families and become a figure of authority in New-Midgard.
+
+=== [[File:Darkknight.gif]]Dark Knight Quest ===
+
+'''Start Location:''' Strange Mirror, Prontera Knight's Guild
+
+'''Required:''' Orphan Base Level 15, Job Lv10
+
+'''Objective:''' Look deep inside yourself and see the true form of a shadow.
+
+=== [[File:Peacekeeper.gif]] Peacekeeper Quest ===
+
+'''Start Location:''' City of Frontier.
+
+'''Required:''' Orphan Base level 15.
+
+'''Objective:''' Reclaim which was stolen, and prove your worth.
+
+= Extra Tree =
+Destiny may not be to fight.
+
+=== Merchant Quest ===
+'''Note: Merchant is not a combat job and cannot level up.'''
+
+'''Start Location:''' Merchant Representative, Orphanage
+
+'''Required:''' Orphan Base Level 1, Job Level 1, and not higher.
+
+'''Objective:''' Get your license and work earning honest money by selling in Alberta.

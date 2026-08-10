@@ -1,0 +1,111 @@
+==[[File:Shadowseer.gif]] Watcher of Light and Darkness ==
+The Shadowseer is a spellblade job, which uses multiple enchantments to deal magic damage and cast spells along with auto attacks.
+
+The amount of continuous magic damage is unmatched by any other job, especially when properly played.
+
+'''Best:''' Constant magic damage, multiple approaches to building, damage goes brrrrrrr.
+
+'''Worst:''' Complex to play and master, extreme status spread needs, harder than usual to properly build.
+
+'''Weapons:''' Daggers, Swords, Offhand Daggers
+
+=== Gameplay Identity ===
+The Shadowseer is a job that brings out the strongest forms of autospell available, making them capable of causing a flurry of magic damage with supportive physical damage, raining down spells with extremely fast power while keeping balance of its buffs.
+
+While Shadowseers in fighting are very simple jobs, their true difficulty comes in the maintenance of its enchantments, since most of them have harsh SP % costs and very long cast times.
+
+The correct use of '''Equinox''' is essential, as it removes most of the cast time of its spells, with the downside of requiring an enemy target to cast, forcing it to be used under a combat scenario. The Shadowseer can opt to slowcast its buffs and enchantments outside combat, at the cost of harsh cast times.
+
+The Shadowseer also has a unique tool in '''Astral Mastery''' which converts its MATK into raw ATK, only during auto-attacks, allowing its magic damage to effectively become critical hits on some builds.
+
+The [[Shields#Shadowseer_Offhand_list|Offhand Dagger]] is a unique secondary tool that provides them with higher levels of Double Attack regardless of main weapon, at the cost of not providing auto-attacks. This weapon has multiple interactions with the Masteries of the job, especially '''Spectral Mastery'''.
+
+=== Core Gameplay Loop ===
+The Shadowseer has a very different gameplay loop from most jobs. While they will usually rotate skills actively during combat, the Shadowseer will rotate its cast times for enchants and buffs in preparation and only after that, it can begin fighting enemies to the best of its abilities.
+
+The use of '''Convention''' while very risky due to heavy costs, is also a strong tool to fight, as under specific circumstances, allows thief magic to be always autocast at Lv10, breaking the usual restriction of randomly using Lv1~5.
+
+'''Umbral Cut''' is the definitive finisher of the job. Dealing massive damage, it requires long setups and procs of spirit spheres from '''Astral Weapon'''. The spheres have a short duration, forcing the Shadowseer to always be on the offensive in order to finally summon enough spheres for the cast of a strong, large AoE Umbral Cut.
+
+By finding a correct balance between speed, power, magic, physical damage and magical damage, the Shadowseer can attack an enemy with excellent reliability, proving to be one of the hardest, and most rewarding, jobs in Return to Morroc.
+
+== Skills ==
+{| class="wikitable" style="font-weight:normal; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|-
+! style="background-color:#99d9ea; text-align:center;" | Skill
+! style="background-color:#99d9ea; text-align:center;" | Max Level
+! style="background-color:#99d9ea; text-align:center;" | Description
+! style="background-color:#99d9ea; text-align:center;" | Skill Type
+! style="background-color:#99d9ea; text-align:center;" | Details
+! style="background-color:#99d9ea; text-align:center;" | Scaling
+|-
+| [[File:Equinox.gif|24px]] Equinox
+| Lv 10
+| Deals damage and enables "Cast Ready" status to reduce other spells' cast times
+| Offensive Magic
+| Cast Ready reduces variable cast time by 95% for duration
+| No
+|-
+| [[File:Spectmastery.gif|26px]] Spectral Mastery
+| Lv 5
+| Provides different bonuses according to the currently equipped [[Shields#Shadowseer_Offhand_list|Offhand Dagger]]
+| Passive
+| Also increases skills and auto-attack range.
+| No
+|-
+| [[File:Specservant.gif|26px]] Spectral Servants
+| Lv 10
+| Summons two servants that will randomly attack enemies along with the Shadowseer
+| Physical and Magical
+| Each hit randomly deals ATK-Physical or MATK-Magical based damage
+| No
+|-
+| [[File:Astralmastery.gif|24px]] Astral Mastery
+| Lv 5
+| Energizes the auto-attacks of the user with MATK, increasing damage for duration
+| Self-Support
+| The Damage applied is final, making the usual magic defense formula apply
+| No
+|-
+| [[File:Astralweapon.gif|24px]] Astral Weapon
+| Lv 10
+| Increases ASPD, Critical Rate and generates spirit spheres on attack for duration
+| Self-Support
+| Spirit spheres are required for the cast of Umbral Cut
+| No
+|-
+| [[File:Umbralcut.gif|24px]] Umbral Cut
+| Lv 10
+| Consumes Spirit Spheres to deal heavy damage to an area of enemies on a long cooldown
+| Offensive Magic AoE
+| Requires Equinox to be cast right before it, area and spheres consumed varies by level
+| INT
+|-
+| [[File:Soulguard.gif|26px]] Soul Guard
+| Lv 5
+| Greatly reduces all damage taken over a short duration with a long cooldown
+| Self-Support
+| The damage reduction is on final damage, and is a fixed percentage
+| No
+|-
+| [[File:Soulchange.gif|26px]] Soul Charge
+| Lv 5
+| Exchanges the entire SP of caster with the entire SP of target, ally or enemy
+| Support/Debuff
+| Efficiency of exchange is 50%, regardless of value, can't be over max SP
+| No
+|-
+| [[File:Convention.gif|26px]] Convention
+| Lv 5
+| Restricts the movement of the caster while boosting its spell capabilities
+| Self-Support
+| Makes thief spells on Autospell always cast at Lv5. Level can be boosted with Umbral Mastery
+| No
+|-
+| [[File:As_pierce.gif|26px]] Magic Pierce
+| Lv 5
+| Ignores 5% MDEF of enemy per level for duration.
+| Offensive Self-Support
+| Also Ignores 1% DEF of enemy per level.
+| No
+|}

@@ -120,12 +120,11 @@ def build_home():
   <div class="shell hero-inner">
     <div>
       <p class="eyebrow"><span class="live-dot" aria-hidden="true"></span> In development &middot; no launch date yet</p>
-      <h1>Somewhere <span class="accent">unhurried</span> to play again.</h1>
+      <h1>The Orphans have their <span class="accent">old home</span> back.</h1>
       <p class="hero-lede">
-        Return to Morroc: Refuge is a custom fantasy MMO world, rebuilt from the
-        ashes of a server that closed. Same idea, better bones: every job
-        rebalanced, two new ones added, three new endgame dungeons, and not a
-        single thing for sale.
+        The orphanage went dark when the original world closed. It is being lit
+        again - same place, better bones. Every job rebalanced, two new ones
+        added, three new endgame dungeons, and not a single thing for sale.
       </p>
       <div class="cluster" style="margin-top:2rem">
         <a class="btn btn--primary" href="{DISCORD}" rel="noopener">Join the community server</a>
@@ -139,7 +138,7 @@ def build_home():
       </div>
     </div>
     <div class="hero-art">
-      <img src="assets/img/logo-900.png" width="900" height="900"
+      <img src="assets/img/mark-900.png" width="900" height="900"
            alt="The Refuge mark: a shattered star of silver and purple shards"
            fetchpriority="high" decoding="async">
     </div>
@@ -179,8 +178,8 @@ def build_home():
       </a>
       <a class="card card--link reveal" href="classes.html">
         <span class="card-kicker">Classes</span>
-        <h3>Every job, rebalanced</h3>
-        <p>Line by line. The skills nobody used got attention first, and the shared baseline skills were rebuilt from scratch.</p>
+        <h3>41 classes, seven roads</h3>
+        <p>The whole tree, plus a page each: skills, strengths, weaknesses, and exactly what the rebuild changed.</p>
       </a>
       <a class="card card--link reveal" href="newjobs.html">
         <span class="card-kicker">New</span>
@@ -189,13 +188,23 @@ def build_home():
       </a>
       <a class="card card--link reveal" href="world.html">
         <span class="card-kicker">World</span>
-        <h3>21 distortions and three SS dungeons</h3>
+        <h3>21 distortions, three SS dungeons</h3>
         <p>Levels 85 to 150, ranked B to SS, with where to find each one - plus the new endgame the team has been building since June.</p>
       </a>
-      <a class="card card--link reveal" href="guides.html">
-        <span class="card-kicker">Guides</span>
-        <h3>The community's own writing</h3>
-        <p>Hidden quests, dungeon access, costume hunts. Written by players, collected here so nobody has to dig through chat history.</p>
+      <a class="card card--link reveal" href="start.html">
+        <span class="card-kicker">Start here</span>
+        <h3>From no name to level 130</h3>
+        <p>Your first job change, every levelling spot in order, when to specialise, and which old guides will lie to you now.</p>
+      </a>
+      <a class="card card--link reveal" href="mechanics.html">
+        <span class="card-kicker">Mechanics</span>
+        <h3>How combat actually works</h3>
+        <p>Stats, elements, attack speed, combos, and what happens to your party when you die.</p>
+      </a>
+      <a class="card card--link reveal" href="gear.html">
+        <span class="card-kicker">Gear</span>
+        <h3>1,500 items and a refine that cannot break them</h3>
+        <p>Random options, cards, runes, manuals - and the fifty-plus shadow sets that replaced the job sets.</p>
       </a>
       <a class="card card--link reveal" href="{DB}" rel="noopener">
         <span class="card-kicker">Reference</span>
@@ -513,95 +522,6 @@ def build_changes():
 
 
 # ---------------------------------------------------------------------------
-# Classes
-# ---------------------------------------------------------------------------
-
-def build_classes():
-    body = f"""<section class="page-hero">
-  <div class="shell">
-    {crumbs("Classes")}
-    <h1>Every job, rebalanced</h1>
-    <p>
-      Three rebalance passes, transcribed in full. The shared baseline first,
-      then the assassin branch, then the rogue branch. Numbers marked as work in
-      progress may still move before launch.
-    </p>
-  </div>
-</section>
-
-<section class="section section--tight">
-  <div class="shell">
-    <div class="panel reveal">
-      <p>
-        <strong>Read this first.</strong> Monsters deal more damage than they did
-        and healing is slower. Most of the damage increases below are paying for
-        that, not raising your ceiling. And the job shadow sets are gone, so the
-        overall power curve is lower than the original's by design.
-      </p>
-    </div>
-    <div class="cluster reveal" style="margin-top:1.5rem">
-      <label class="visually-hidden" for="jobsearch">Filter jobs and skills</label>
-      <input id="jobsearch" type="search" placeholder="Filter by job or skill name..."
-             data-filter="joblist" data-filter-count="jobcount"
-             style="flex:1 1 260px;padding:0.7rem 1rem;border-radius:999px;border:1px solid var(--line-strong);background:var(--bg-elevated);color:var(--text);font:inherit">
-      <span class="chip mono" id="jobcount">-</span>
-    </div>
-  </div>
-</section>
-
-<div id="joblist">
-
-<section class="section section--tight">
-  <div class="shell">
-    <div class="section-head reveal">
-      <p class="eyebrow">Pass one</p>
-      <h2>The shared baseline and the early game</h2>
-      <p>The skills every character has, then each job in turn.</p>
-    </div>
-    <div class="grid grid--wide">
-{job_blocks(D.CORE_CHANGES)}
-    </div>
-  </div>
-</section>
-
-<section class="section section--tight">
-  <div class="shell">
-    <div class="section-head reveal">
-      <p class="eyebrow">Pass two</p>
-      <h2>The assassin branch</h2>
-      <p>Specialisations and final jobs.</p>
-    </div>
-    <div class="grid grid--wide">
-{job_blocks(D.ASSASSIN_BRANCH)}
-    </div>
-  </div>
-</section>
-
-<section class="section section--tight">
-  <div class="shell">
-    <div class="section-head reveal">
-      <p class="eyebrow">Pass three</p>
-      <h2>The rogue branch</h2>
-      <p>Specialisations and final jobs.</p>
-    </div>
-    <div class="grid grid--wide">
-{job_blocks(D.ROGUE_BRANCH)}
-    </div>
-  </div>
-</section>
-
-</div>
-
-{cta("Two jobs are missing from this page",
-     "Bouncer and Pit Boss did not exist before, so there is nothing to compare them to. They have a page of their own.")}
-"""
-    page("classes.html",
-         "Classes and Rebalances | Return to Morroc: Refuge",
-         "The complete job rebalance list for the Refuge: shared baseline skills, the assassin branch and the rogue branch, transcribed skill by skill from the developers' own posts.",
-         "classes.html", body, trail=[("index.html", "Home"), (None, "Classes")])
-
-
-# ---------------------------------------------------------------------------
 # New jobs
 # ---------------------------------------------------------------------------
 
@@ -626,7 +546,7 @@ def build_newjobs():
     <div class="grid grid--wide">
       <div class="card reveal">
         <span class="card-kicker">First job</span>
-        <h3>Bouncer</h3>
+        <h3><a href="classes/bouncer.html">Bouncer</a></h3>
         <p>
           Fists. Quick punch combos that build stacks, and the first casting
           skills in the tree. Tanky, versatile, flexible in how you build it.
@@ -637,7 +557,7 @@ def build_newjobs():
       </div>
       <div class="card reveal">
         <span class="card-kicker">Final job</span>
-        <h3>Pit Boss</h3>
+        <h3><a href="classes/pit-boss.html">Pit Boss</a></h3>
         <p>
           Doubles down on the identity: prepare big swings, land big strikes.
           Most of its skills have fixed cast time, so gear that reduces it is not
@@ -720,156 +640,6 @@ def build_newjobs():
 
 
 # ---------------------------------------------------------------------------
-# World
-# ---------------------------------------------------------------------------
-
-def build_world():
-    rows = []
-    for name, lv, rank, where in D.DUNGEONS:
-        rows.append(f"""        <tr data-row>
-          <td><strong>{name}</strong></td>
-          <td class="num">{lv}</td>
-          <td class="num"><span class="badge rank-{rank.lower()}">{rank}</span></td>
-          <td class="muted">{where}</td>
-        </tr>""")
-    rows = "\n".join(rows)
-
-    body = f"""<section class="page-hero">
-  <div class="shell">
-    {crumbs("World")}
-    <h1>Distortions, dungeons and the endgame</h1>
-    <p>
-      Twenty-one distortion dungeons carried over from the original, three new
-      SS-rank dungeons built for the Refuge, and one of them nobody will describe.
-    </p>
-  </div>
-</section>
-
-<section class="section">
-  <div class="shell">
-    <div class="section-head reveal">
-      <p class="eyebrow">Levels 85 to 150</p>
-      <h2>The distortion dungeons</h2>
-      <p>
-        Instanced endgame content, ranked B through SS. Most are reached the same
-        way: carry an Orphan Badge, take a Kafra teleport to the nearest city,
-        walk out into the fields and find the portal named after the distortion.
-        Loki's Palace needs one Enriched Oridecon, once, and stays open forever.
-      </p>
-    </div>
-    <div class="cluster reveal" style="margin-bottom:1.2rem">
-      <label class="visually-hidden" for="dsearch">Filter dungeons</label>
-      <input id="dsearch" type="search" placeholder="Filter by name, level or rank..."
-             data-filter="dtable" data-filter-count="dcount"
-             style="flex:1 1 260px;padding:0.7rem 1rem;border-radius:999px;border:1px solid var(--line-strong);background:var(--bg-elevated);color:var(--text);font:inherit">
-      <span class="chip mono" id="dcount">-</span>
-    </div>
-    <div class="table-wrap reveal">
-      <table id="dtable">
-        <caption class="visually-hidden">Distortion dungeons with level range, rank and location</caption>
-        <thead>
-          <tr><th scope="col">Dungeon</th><th scope="col">Level</th><th scope="col">Rank</th><th scope="col">Where</th></tr>
-        </thead>
-        <tbody>
-{rows}
-        </tbody>
-      </table>
-    </div>
-    <p class="muted" style="margin-top:1rem">
-      Directions are condensed from the community access guide. For turn-by-turn
-      routing with screenshots, see <a href="guides.html#external">the guides page</a>.
-    </p>
-  </div>
-</section>
-
-<section class="section section--alt">
-  <div class="shell">
-    <div class="section-head reveal">
-      <p class="eyebrow">New for the Refuge</p>
-      <h2>Nightmare in Amatsu</h2>
-    </div>
-    <div class="grid grid--wide">
-      <div class="prose reveal">
-        <p>
-          The priestess has been slain hundreds of times. That was the prophecy,
-          and it has been fulfilled. The samurai specter is no longer a single
-          ghost - it is an army that came back to fight again after death.
-        </p>
-        <p>
-          You will find the familiar boss there, with a twist. Not quite a ghost.
-          Not quite summoned, either. And a second boss the team will not talk
-          about.
-        </p>
-      </div>
-      <div class="stack">
-        <div class="card reveal">
-          <span class="card-kicker">Level 150 recommended</span>
-          <h3>An SS dungeon that fights the map</h3>
-          <ul>
-            <li>A heavily customised version of the classic first floor - no hidden doors, and real openings you can actually walk through.</li>
-            <li>You spawn at a semi-random location.</li>
-            <li><strong>There is no minimap.</strong> Orient yourself by the map shadows; the light source is at the centre.</li>
-            <li>Or pay zeny to spawn at a specific safe location instead.</li>
-            <li>Monsters require planning and coordination. This is not a solo lap.</li>
-          </ul>
-        </div>
-        <div class="panel panel--warn reveal">
-          <p><strong>The Amatsu penalty.</strong> Dying here costs you a base level. That was announced as a spoiler and it was not a joke.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="shell">
-    <div class="grid grid--wide">
-      <div class="card reveal">
-        <span class="card-kicker">Announced August 2026</span>
-        <h3>Two more SS dungeons</h3>
-        <p>
-          Both finished. Both on fully custom maps. No details will be posted
-          about the second one - the only thing the designer would say is that
-          it really owns its title.
-        </p>
-      </div>
-      <div class="card reveal">
-        <span class="card-kicker">Optional mode</span>
-        <h3>Einherjar Challenge</h3>
-        <p>
-          Your maximum level is locked. It only rises when you defeat a boss of
-          the same level as you. Nobody can contest a spawn out from under your
-          progression, because your progression <em>is</em> the fight.
-        </p>
-        <p class="muted">
-          It awards costumes, not relics. The team considered handing out one of
-          each relic per level and decided it would turn the mode into a
-          min-maxing farm. Both modes have access to the entire game.
-        </p>
-      </div>
-      <div class="card reveal">
-        <span class="card-kicker">Gear</span>
-        <h3>Fifty-plus new shadow sets</h3>
-        <p>
-          One or more for every dungeon past level 100, none of them job-locked.
-          They replace the old job sets entirely and exist to make the neglected
-          half of each skill tree worth building around.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-{cta("Getting there is half the problem",
-     "The community's access guides cover every distortion portal, the hidden mirror quest, and the costume hunts.")}
-"""
-    page("world.html",
-         "World, Distortions and Endgame | Return to Morroc: Refuge",
-         "All 21 distortion dungeons with level ranges, ranks and locations, plus the new SS-rank endgame: Nightmare in Amatsu and Einherjar Challenge Mode.",
-         "world.html", body, trail=[("index.html", "Home"), (None, "World")])
-
-
-# ---------------------------------------------------------------------------
 # Guides
 # ---------------------------------------------------------------------------
 
@@ -886,7 +656,7 @@ def build_guides():
 </section>
 
 <section class="section">
-  <div class="shell">
+  <div class="shell" id="bifrost">
     <div class="section-head reveal">
       <p class="eyebrow">Walkthrough</p>
       <h2>The Bifrost Mirror Shard</h2>
@@ -1247,9 +1017,7 @@ def main():
     build_home()
     build_server()
     build_changes()
-    build_classes()
     build_newjobs()
-    build_world()
     build_guides()
     build_database()
     build_join()

@@ -1,0 +1,122 @@
+==The Forgotten Myth==
+[[File:Raider.gif|25px|alt=Raider.gif]] The Raider is an off-tank with large damage overall, capable of fighting in multiple ways.
+
+It has plenty of buffs to protect itself under specific circumstances.
+
+'''Best:''' Versatile fighter, decent resistances, good party potential.
+
+'''Worst:''' below average damage, gear reliant, hard to balance stats.
+
+'''Weapons:''' Spears, Wyrm Spears, limited Daggers and Swords
+
+===Gameplay Identity===
+The Raider is the opposite of the [[Trickster]]. It's a safe job class that can progress at a steady pace and handle most situations, making this job:
+
+'''A well rounded warrior with good damage variety, high frontline potential and a simple kit that can cover every situation it faces.'''
+
+A smart Raider knows what path to take to correctly engage enemies. In risky situations they may favor the use of a '''1-Handed Spear with a Shield''' to keep the enemies at bay. When more comfortable they can swap into the powerful '''2-Handed Wyrm Spear''' to increase their damage potential and Dragon Thrust Level.
+
+'''Dragon Thrust''' is a Powerful Opener for the Dracomancer. The level of this skill that is enabled depends on the currently equipped spear. The skill is the center-piece of any Raider or Dracomancer.
+
+The entire kit of a Raider is built around skills that should be used situationally, either by pushing enemies back, increasing defenses or attacking with more offensive power.
+
+Raiders have quick job level growth, hitting the max Job level of 50 well before most other non-thief jobs. However, only the best will be able to continue their training until they peak and become a [[Dracomancer]].
+
+==Skills==
+'''Weapon Skill'''
+
+Level Available depends on the current weapon
+
+{| class="wikitable" style="font-weight:normal; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|-
+! style="text-align:center; background-color:#99d9ea;" | Skill
+! style="text-align:center; background-color:#99d9ea;" | Max Level
+! style="text-align:center; background-color:#99d9ea;" | Description
+! style="text-align:center; background-color:#99d9ea;" | Skill Type
+! style="text-align:center; background-color:#99d9ea;" | Details
+! style="text-align:center; background-color:#99d9ea;" | Scaling
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Dragonthrust.gif|26px|alt=Dragonthrust.gif]] Dragon Thrust
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Quickly strikes enemies ahead and locks position for follow-up skills
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Melee
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Damage hits in a small area<br />Enables Combo Ready
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | STR and VIT
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Scythemst.gif|24px|alt=Scythemst.gif]] Spear Mastery
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Increases attack with spears
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Passive
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Also increases HP when wielding 1-Handed Spears or Flee with 2-Handed Spears
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | None
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Heavystab.gif|26px|alt=Heavystab.gif]] Heavy Stab
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Deals damage to a single enemy with a spear
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Melee
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Damage is severely reduced when not used as a combo follow-up
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | VIT
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Windcutter.gif|26px|alt=Windcutter.gif]] Wind Cutter
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Deals damage against all enemies around, knocking them back
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Melee AoE
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Has VIT scaling with 1-Handed Spears and deals 2 hits with 2-Handed Spears
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | None(VIT)
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Spearboomerang.gif|26px|alt=Spearboomerang.gif]] Spear Boomerang
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Throws the spear at a distant enemy
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Ranged
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Range increases with level
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | DEX
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Phantomspear.gif|24px|alt=Phantomspear.gif]] Phantom Spear
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Summons a spectral spear to damage a small area.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Magic AoE
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Also reduces enemy move speed temporarily<br />Enables Combo Ready
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | INT/VIT
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Lifeofdragon.gif|26px|alt=Lifeofdragon.gif]] Life of Dragon
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Increases defenses, regeneration and vitality temporarily
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Buff
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Slightly increases the scaling of all abilities
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | VIT
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Elusivefeint.gif|26px|alt=Elusivefeint.gif]] Elusive Feint
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Parries an enemy attack, severely reducing damage taken and reflecting it
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Self-Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Doesn't work with bosses, knockbacks enemy, damage reflected is capped to 300% ATK
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Opponent's current % HP
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Spearquicken.gif|26px|alt=Spearquicken.gif]] Spear Quicken
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Increases attack speed, flee and hit rate with spears for duration
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Self-Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Requires a Shadow Orb
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | AGI
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Sprecov.gif|24px|alt=Sprecov.gif]] Increase SP Recovery
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Provides extra SP recovery on top of natural regeneration.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Passive
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Regens 0.1% + 2 max SP per level.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Impdef.gif|24px|alt=Impdef.gif]] Improve Defense
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Increases Max HP
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Passive
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | HP+50 per level
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Impwisdom.gif|24px|alt=Impwisdom.gif]] Improve Wisdom
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Increases Max SP
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Passive
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | SP+10 per level
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|}

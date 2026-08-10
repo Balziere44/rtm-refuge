@@ -27,37 +27,45 @@ SHORT = "RTM: Refuge"
 NAV = [
     ("index.html", "Home"),
     ("server.html", "The Server"),
-    ("changes.html", "What Changed"),
+    ("start.html", "Start Here"),
     ("classes.html", "Classes"),
+    ("mechanics.html", "Mechanics"),
+    ("gear.html", "Gear"),
     ("world.html", "World"),
     ("guides.html", "Guides"),
-    ("database.html", "Database"),
     ("join.html", "Join"),
 ]
 
 FOOTER_COLUMNS = [
     ("Start here", [
         ("server.html", "What the Refuge is"),
+        ("start.html", "New player guide"),
         ("join.html", "How to join"),
-        ("guides.html", "Guides and tools"),
         ("faq.html", "Questions and answers"),
     ]),
     ("The game", [
-        ("classes.html", "Classes and rebalances"),
+        ("classes.html", "All 30 classes"),
         ("newjobs.html", "Bouncer and Pit Boss"),
-        ("world.html", "Distortions and endgame"),
-        ("changes.html", "Every change from the original"),
+        ("mechanics.html", "Combat and stats"),
+        ("gear.html", "Items, refining, shadows"),
+        ("world.html", "Regions, dungeons, MVPs"),
     ]),
     ("Reference", [
-        (DATABASE, "Community database"),
-        ("guides.html#external", "Player-written guides"),
+        ("changes.html", "Changes from the original"),
+        ("database.html", "Community database"),
+        ("guides.html", "Player-written guides"),
         ("llms.txt", "llms.txt"),
         ("sitemap.xml", "Sitemap"),
     ]),
 ]
 
-FONTS = ("https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&"
-         "family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap")
+# Viaoda Libre is one of Google's seven Art Nouveau families and carries the
+# decorative headings; Atkinson Hyperlegible was designed for low-vision
+# readability and does the actual reading. One decorative face, one legible
+# face, one mono for labels - nothing else gets loaded.
+FONTS = ("https://fonts.googleapis.com/css2?family=Viaoda+Libre&"
+         "family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&"
+         "family=JetBrains+Mono:wght@400;500&display=swap")
 
 
 def head(prefix, title, description, canonical, extra_ld="", preload_hero=False):
@@ -66,7 +74,7 @@ def head(prefix, title, description, canonical, extra_ld="", preload_hero=False)
     `canonical` is a path relative to the site root, e.g. "" or "world.html".
     """
     url = SITE + "/" + canonical
-    hero = ('\n<link rel="preload" as="image" href="%sassets/img/logo-900.png" fetchpriority="high">'
+    hero = ('\n<link rel="preload" as="image" href="%sassets/img/mark-900.png" fetchpriority="high">'
             % prefix) if preload_hero else ""
     return f"""<!DOCTYPE html>
 <html lang="en" data-theme="dark">
@@ -138,7 +146,7 @@ def header(prefix, active):
     return f"""<header class="site-header">
   <div class="shell header-inner">
     <a class="brand" href="{prefix}index.html">
-      <img src="{prefix}assets/img/icon-192.png" width="34" height="34" alt="" aria-hidden="true">
+      <img class="mark" src="{prefix}assets/img/icon-192.png" width="34" height="34" alt="" aria-hidden="true">
       <span class="brand-text">
         <span class="brand-name">RETURN TO MORROC</span>
         <span class="brand-sub">Refuge</span>
@@ -206,7 +214,7 @@ def footer(prefix):
     <div class="footer-grid">
       <div>
         <a class="brand" href="{prefix}index.html">
-          <img src="{prefix}assets/img/icon-192.png" width="34" height="34" alt="" aria-hidden="true">
+          <img class="mark" src="{prefix}assets/img/icon-192.png" width="34" height="34" alt="" aria-hidden="true">
           <span class="brand-text">
             <span class="brand-name">RETURN TO MORROC</span>
             <span class="brand-sub">Refuge</span>

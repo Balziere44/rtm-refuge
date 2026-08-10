@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>World, Distortions and Endgame | Return to Morroc: Refuge</title>
-<meta name="description" content="All 21 distortion dungeons with level ranges, ranks and locations, plus the new SS-rank endgame: Nightmare in Amatsu and Einherjar Challenge Mode.">
+<title>World and Dungeons | Return to Morroc: Refuge</title>
+<meta name="description" content="New-Midgard region by region: all 21 distortion dungeons with levels and ranks, the MVP relic system, and the three SS dungeons built for the Refuge.">
 <link rel="canonical" href="https://rtmrefuge.pages.dev/world.html">
 
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
@@ -17,16 +17,16 @@
 <meta property="og:site_name" content="Return to Morroc: Refuge">
 <meta property="og:locale" content="en_US">
 <meta property="og:url" content="https://rtmrefuge.pages.dev/world.html">
-<meta property="og:title" content="World, Distortions and Endgame | Return to Morroc: Refuge">
-<meta property="og:description" content="All 21 distortion dungeons with level ranges, ranks and locations, plus the new SS-rank endgame: Nightmare in Amatsu and Einherjar Challenge Mode.">
+<meta property="og:title" content="World and Dungeons | Return to Morroc: Refuge">
+<meta property="og:description" content="New-Midgard region by region: all 21 distortion dungeons with levels and ranks, the MVP relic system, and the three SS dungeons built for the Refuge.">
 <meta property="og:image" content="https://rtmrefuge.pages.dev/assets/social/og-cover.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Return to Morroc: Refuge">
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="World, Distortions and Endgame | Return to Morroc: Refuge">
-<meta name="twitter:description" content="All 21 distortion dungeons with level ranges, ranks and locations, plus the new SS-rank endgame: Nightmare in Amatsu and Einherjar Challenge Mode.">
+<meta name="twitter:title" content="World and Dungeons | Return to Morroc: Refuge">
+<meta name="twitter:description" content="New-Midgard region by region: all 21 distortion dungeons with levels and ranks, the MVP relic system, and the three SS dungeons built for the Refuge.">
 <meta name="twitter:image" content="https://rtmrefuge.pages.dev/assets/social/og-cover.jpg">
 
 <link rel="icon" href="assets/img/icon-32.png" sizes="32x32">
@@ -36,8 +36,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="assets/css/style.css">
-<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
 
 <script>
 /* The only blocking script on the site. It has to run before the first paint
@@ -66,7 +66,7 @@
 <header class="site-header">
   <div class="shell header-inner">
     <a class="brand" href="index.html">
-      <img src="assets/img/icon-192.png" width="34" height="34" alt="" aria-hidden="true">
+      <img class="mark" src="assets/img/icon-192.png" width="34" height="34" alt="" aria-hidden="true">
       <span class="brand-text">
         <span class="brand-name">RETURN TO MORROC</span>
         <span class="brand-sub">Refuge</span>
@@ -76,11 +76,12 @@
     <nav class="nav" aria-label="Main">
       <a href="index.html">Home</a>
       <a href="server.html">The Server</a>
-      <a href="changes.html">What Changed</a>
+      <a href="start.html">Start Here</a>
       <a href="classes.html">Classes</a>
+      <a href="mechanics.html">Mechanics</a>
+      <a href="gear.html">Gear</a>
       <a href="world.html" aria-current="page">World</a>
       <a href="guides.html">Guides</a>
-      <a href="database.html">Database</a>
       <a href="join.html">Join</a>
     </nav>
     <!-- NAV:END -->
@@ -118,11 +119,12 @@
     <nav aria-label="Mobile">
       <a href="index.html">Home</a>
       <a href="server.html">The Server</a>
-      <a href="changes.html">What Changed</a>
+      <a href="start.html">Start Here</a>
       <a href="classes.html">Classes</a>
+      <a href="mechanics.html">Mechanics</a>
+      <a href="gear.html">Gear</a>
       <a href="world.html" aria-current="page">World</a>
       <a href="guides.html">Guides</a>
-      <a href="database.html">Database</a>
       <a href="join.html">Join</a>
     </nav>
     <!-- DRAWER:END -->
@@ -132,266 +134,324 @@
 <section class="page-hero">
   <div class="shell">
     <p class="crumbs"><a href="index.html">Home</a><span>/</span><span>World</span></p>
-    <h1>Distortions, dungeons and the endgame</h1>
-    <p>
-      Twenty-one distortion dungeons carried over from the original, three new
-      SS-rank dungeons built for the Refuge, and one of them nobody will describe.
-    </p>
+    <h1>New-Midgard</h1>
+    <p class="lede">Regions, dungeons, distortions and MVPs - plus the endgame the Refuge built on top of them.</p>
   </div>
 </section>
 
-<section class="section">
-  <div class="shell">
-    <div class="section-head reveal">
-      <p class="eyebrow">Levels 85 to 150</p>
-      <h2>The distortion dungeons</h2>
-      <p>
-        Instanced endgame content, ranked B through SS. Most are reached the same
-        way: carry an Orphan Badge, take a Kafra teleport to the nearest city,
-        walk out into the fields and find the portal named after the distortion.
-        Loki's Palace needs one Enriched Oridecon, once, and stays open forever.
-      </p>
-    </div>
-    <div class="cluster reveal" style="margin-bottom:1.2rem">
-      <label class="visually-hidden" for="dsearch">Filter dungeons</label>
-      <input id="dsearch" type="search" placeholder="Filter by name, level or rank..."
-             data-filter="dtable" data-filter-count="dcount"
-             style="flex:1 1 260px;padding:0.7rem 1rem;border-radius:999px;border:1px solid var(--line-strong);background:var(--bg-elevated);color:var(--text);font:inherit">
-      <span class="chip mono" id="dcount">-</span>
-    </div>
-    <div class="table-wrap reveal">
-      <table id="dtable">
-        <caption class="visually-hidden">Distortion dungeons with level range, rank and location</caption>
-        <thead>
-          <tr><th scope="col">Dungeon</th><th scope="col">Level</th><th scope="col">Rank</th><th scope="col">Where</th></tr>
-        </thead>
-        <tbody>
+<div class="shell doc">
+  <nav class="doc-toc" aria-label="On this page">
+    <h2>On this page</h2>
+    <ol>
+        <li><a href="#world">New-Midgard</a></li>
+        <li><a href="#regions">Regions and dungeons</a></li>
+        <li><a href="#distortions">Distortion dungeons</a></li>
+        <li><a href="#mvps">MVPs and relics</a></li>
+        <li><a href="#instances">Instances</a></li>
+        <li><a href="#endgame">The Refuge's own endgame</a></li>
+        <li><a href="#story">The story, and the lore underneath it</a></li>
+    </ol>
+  </nav>
+  <div class="doc-body">
+    <section id="world">
+      <h2>New-Midgard</h2>
+      <p>The world was expanded rather than replaced. No access quests, no instanced dungeons in the levelling loop, and a great many places that are not where you remember them.</p>
+      <h3 id="main-features-a-new-world-to-explore">A New World to explore</h3>
+      <p>The world has been expanded and revamped. There's no New World across a Dimensional Gap because the world is more than enough for a big adventure:</p>
+      <ul><li>Ever wanted to see where Lost storage items go to? The Abandoned Kafra Warehouse is one of many custom dungeons added.</li><li>Or you're looking to revisit old places like the Ant Hell? Too bad, as the Insect Society Nest is a new place where both Maya and Queen Scaraba cooperate!</li><li>Do you hate the Tatami Maze in Amatsu Dungeon? The place has been completely reworked. Gone are most the invisible walls, a new temple is now there!</li><li>Monsters are no simples palette swaps. They are themed, changed concepts with fresh ideas. Even on Kiel Hyre Factory, a place that fell from its peak.</li><li>No Access quests required for dungeons.</li><li>Old Glast Heim, Abyss Glast Heim and Present Glast Heim, all available as regular dungeons, no more instances.</li><li>Distortion dungeons can take you years to the past like during the fall of Geffenia Antitower.</li><li>Or years into the future during the return of the gods on the Divine Temple of Freya.</li><li>Custom dungeons, new lore, new content for every region. Leveling is part of the journey, the game starts at Lv1!</li><li>New MVPs like the cowardly Orphan Piamette, the mighty Scylla or the legendary Jormungandr.</li><li>MVP Relics! No longer you need to hope to find the MVP to have a fun fight! You can farm relics in a dungeon and summon the MVP yourself! (Usual Random Spawns and Timers apply, relics are an extra!).</li></ul>
+      <h3 id="world-changes-a-new-world">A New World</h3>
+      <p>Return to Morroc provides a familiar world with entirely new rules. In this page, you can understand the major behavior changes, along with layout differences.</p>
+      <h3 id="world-changes-world-map-layout-changes">World Map Layout Changes</h3>
+      <p>The World map has been fully reworked. Previously accessible areas are no longer included, while many areas have been greatly expanded.</p>
+      <p>Changes Compared to Classic (Overall, includes information from both pre-renewal and renewal):</p>
+      <ul><li>New World has been completely removed, including most of its locations.</li><li>Louyang, Brasilis, and Gonryun and their dungeons have been completely removed. Moscovia Dungeon has also been removed.</li><li>Dicastes (Diel only) and Mora have been reworked into brand-new locations in New-Midgard.</li><li>Splendide Forest is now an area that bridges Geffen Fields West and Comodo Forest.</li><li>Lutie Field has been removed and replaced by Snow Fields, which comprise a larger region and provide access to Dicastes Diel (Sage's Palace).</li><li>Grey Forest Area is available, now including the added Nomad Village.</li><li>Morroc Desert Maps are in their pre-destruction version.</li><li>All fields from pre-renewal that were removed in renewal (like West Orc Village) are restored.</li><li>Some fields have expanded to include once-inaccessible areas, sometimes with new secrets or dungeons.</li><li>Verus can be accessed through either Juperos East Ruins (Inside Juperos Dungeon) or an elevator in the Yuno East Peninsula (Expanded area, previously unavailable).</li></ul>
+      <h3 id="world-changes-dungeon-changes">Dungeon Changes</h3>
+      <p>Besides the introduction of lore-friendly new dungeons like Kafra Warehouse, Alchemist Fortress, or Lost Island, many other places have undergone major changes.</p>
+      <ul><li>It's important to note that every single monster has been fully reworked combat-wise, with most receiving visual updates and some even having entirely new sounds.</li><li>Some dungeons have reworked themes, such as Kiel Dungeon becoming an abandoned factory with rusty robots, or Ant Hell transforming into the Society Nest, complete with city ruins.</li><li>Most dungeons have received visual updates; for instance, Forest Maze is now a darker forest overall.</li><li>Dungeons with issues have had walkways added (most mazes), convenience passages (Payon Dungeon), or entirely reworked floors (Amatsu Dungeon 1F).</li><li>The entrances to many classic dungeons have been relocated, such as Geffen Cave and Geffenia.</li><li>Overly long dungeons have had filler floors removed.</li><li>Thanatos Tower specifically has had all quest, party, and price requirements removed, and now consists of only 6 floors.</li><li>All Access Quests have been completely removed.</li><li>Previous MVPs that required quests to summon (like Thanatos, Ktullanux, etc.) no longer require them and operate on the usual respawn timer.</li></ul>
+      <h3 id="world-changes-travel-changes">Travel Changes</h3>
+      <p>The way the world functions for long travels has undergone minor changes for convenience and lore adaptation.</p>
+      <ul><li>The Airship is no longer available to Orphans, except for the one in Lighthalzen (which transports players to Varmundt's Mansion).</li><li>Kafra Teleportation can now take players to any city within a region or to another region's capital (Prontera, Yuno, Rachel).</li><li>To reach the Eastern Islands (Amatsu, Ayothaya, Moscovia, and Malaya), players can take a ferry from Alberta.</li><li>Traveling to Dewata requires taking the Daedalus Route; the ship can be found in Comodo Pharos.</li><li>Traveling to the Snow Fields (including Lutie and Dicastes Diel) can be done by taking a boat from Hugel.</li><li>Mora, Niflheim, and Nomad Village can all be accessed on foot.</li></ul>
+      <h3 id="world-changes-city-changes">City Changes</h3>
+      <p>Many cities have undergone major changes compared to their presentation in classic:</p>
+      <ul><li>Lighthalzen is now a bankrupt fallen city, filled with poverty. The guard that once blocked access to the slums and city no longer exists, allowing free passage.</li><li>Veins is enveloped in a dense fog, rumored to house the MVP Beelzebub. Most facilities are now indoors.</li><li>With the collapse of Geffen underground, the tower stairs now lead directly to Geffenia. Access to Geffen Cave is through a cave south of Geffen.</li><li>Orc Village has declined significantly from its former glory.</li><li>Umbala's inhabitants now speak fluent English after extensive study.</li><li>Rachel is now populated by Freya cultists, making it relatively safe on the streets but dangerous elsewhere.</li><li>Classic Payon is accessible as a distortion deep inside the Sunken Temple.</li><li>The Island Monastery represents a distortion of Nameless Island before it succumbed to monster infestation.</li></ul>
+      <h3 id="world-changes-item-skill-behavior-changes">Item/Skill Behavior Changes</h3>
+      <p>Due to the focus on world exploration and efficient movement, "cheating" movement options have been adjusted with new quality-of-life changes.</p>
+      <ul><li>Fly Wing and Teleport now have significantly increased cooldowns and are not recommended for quick travel.</li><li>Movement speed has been increased, and all players now have default access to Increase Agility Lv1, along with many more movement speed options.</li><li>Some dungeons have disabled teleportation.</li><li>All distortion dungeons have disabled teleportation.</li><li>Consumables are now heavier, and it's not advisable to carry more than a few due to cooldowns and effectiveness. They are no longer required for usual gameplay.</li></ul>
+      <h3 id="world-changes-monster-changes">Monster Changes</h3>
+      <ul><li>All monster levels, behaviors, drops, and details have been reworked.</li><li>Many monsters now feature changed palettes and sprites.</li><li>Several monsters have had new sounds added.</li><li>Most monsters are now aggressive by default.</li></ul>
+      <h3 id="world-changes-shop-changes">Shop Changes</h3>
+      <ul><li>Tool dealers mostly sell the same items.</li><li>A cook shop offering stat foods (+1 to +7) at varied prices is available in some cities. Note that these food buffs do not stack.</li><li>Weapon and armor shops are now region-based. Each region specializes in specific equipment types: Midgard, Schwarzwald, Arunafeltz, Islands, Tribal, and Niflheim.</li><li>All dropped equipment can be sold to NPCs for 250z. Shadow Pieces are sold for 500z.</li><li>Shadow Pieces can be dismantled at the Orphanage for varying amounts of Shadowdecons.</li></ul>
+    </section>
+    <section id="regions">
+      <h2>Regions and dungeons</h2>
+      <p>Where to go, at what level, and how hard it will be when you get there.</p>
+      <p>[https://echoesofmorroc.com/dungeons 🔗 You can know more about dungeons at the database ]</p>
+      <h3 id="regions-and-dungeons-new-exploration">New Exploration</h3>
+      <p>Return to Morroc provides a whole new world to explore. It's a familiar but heavily changed place, all done in a way to make exploration rewarding, unique and varied.</p>
+      <h3 id="regions-and-dungeons-regions">Regions</h3>
+      <p>Regions of Midgard are vastly changed compared to original places. Some areas might be familiar to some, but the way they work may be completely changed. Below is a full breakdown of all major field regions.</p>
+      <p>Regions never spawn a Shadow when a player dies.</p>
+      <h3 id="regions-and-dungeons-dungeons">Dungeons</h3>
+      <p>Dungeons are regular places to hunt for items, cards and level up. They are harder than most fields but always carry considerable and unique rewards. Dungeons are NOT instance-based. They are open maps that can be explored as much as needed.</p>
+      <p>They also have a Ranking that dictates how hard a dungeon is, the rank also dictates what shadows will spawn for the [https://web.archive.org/web/20230822235444/https://returntomorroc.com/wiki/index.php/Shadow_System Shadow System].</p>
+    </section>
+    <section id="distortions">
+      <h2>Distortion dungeons</h2>
+      <p>Twenty-one instanced endgame dungeons from level 85 to 150, ranked B through SS. Each one bends a rule: draining experience on death, disabling resurrection, enabling free PvP, buffing the monsters.</p>
+      <h3 id="distortion-dungeons-a-challenge-for-the-strongest">A challenge for the strongest</h3>
+      <p>Distortion Dungeons are unique [https://returntomorroc.com/wiki/index.php/Regions_and_Dungeons.html#Dungeons dungeons] that require precise gameplay while under new rules.</p>
+      <p>The biggest difference for those is that each one has a unique mechanic, either simple or complex and take place in a different time period/timeline.</p>
+      <p>Distortions are either in the Past or in the Future, and when entering one, it tells you how far from the original timeline it takes place.</p>
+      <p>They are also always Rank B or higher.</p>
+      <h3 id="distortion-dungeons-how-to-access-a-distortion-dungeon">How to access a Distortion Dungeon</h3>
+      <p>The Dungeons require a powered-up [https://returntomorroc.com/wiki/index.php/Bifrost_Mirror Bifrost Mirror], each type of dungeon requires a a different level of it. The Bifrost Mirror has 4 levels of energy, depending on the current eyes slotted into it.</p>
+      <p>You can find the location of all pieces and details about them on the page linked above.</p>
+      <p>Reminder that Bifrost Mirror and the 4 Eyes cannot be stored or traded and are character bound.</p>
+      <p>Eye of Vidar: Travel to the past.</p>
+      <p>Eye of Vali: Travel to the future.</p>
+      <p>Eye of Thor: Travel to an alternate timeline or travel deeper within a distortion.</p>
+      <p>Eye of Balder: Travel to a paradox or world-ending event.</p>
+      <p>The Eyes can be added to the Mirror in Dicastes Diel (Sage's Palace). Once obtained, they are never lost and access to distortions is permanent and unrestricted.</p>
+      <h3 id="distortion-dungeons-distortion-gameplay">Distortion Gameplay</h3>
+      <p>Distortions may feature different rules and mechanics in specific cases, such as movement changes or buffs/debuffs.</p>
+      <p>They also completely lock any kind of teleport or /memo.</p>
+      <p>Finally, monsters don't drop regular trash loot and the HATred dude can't be found in them, they however drop Distortion Essences</p>
+      <h3 id="distortion-dungeons-distortion-rewards">Distortion Rewards</h3>
+      <p>Other than the usual monster drops of equipments, shadow sets and cards, the Distortion Essences drop from any monster in them. The drop rate is always 0.1% per monster level.</p>
+      <p>Distortion Essences are researched by the Sages in Dicastes Diel, they will exchange a large amount of those for the Sage equipment (equipment with little bonuses but 3 slots), some consumables and materials or the unique Eternal Weapons.</p>
+      <h3 id="distortion-dungeons-distortion-dungeons-available">Distortion Dungeons available</h3>
+      <p>The Distortion mechanics can be changed anytime without warning.</p>
+      <div class="cluster" style="margin:1.4rem 0 1rem">
+        <label class="visually-hidden" for="dsearch">Filter dungeons</label>
+        <input id="dsearch" type="search" class="field" placeholder="Filter by name, level or rank..."
+               data-filter="dtable" data-filter-count="dcount">
+        <span class="chip mono" id="dcount">-</span>
+      </div>
+      <div class="table-wrap">
+        <table id="dtable">
+          <caption class="visually-hidden">Distortion dungeons with level range, rank and location</caption>
+          <thead><tr><th scope="col">Dungeon</th><th scope="col">Level</th><th scope="col">Rank</th><th scope="col">Where</th></tr></thead>
+          <tbody>
         <tr data-row>
-          <td><strong>Loki's Palace</strong></td>
+          <th scope="row">Loki's Palace</th>
           <td class="num">85-90</td>
           <td class="num"><span class="badge rank-s">S</span></td>
-          <td class="muted">Morroc, through the assassin guild. One Enriched Oridecon opens it permanently.</td>
+          <td>Morroc, through the assassin guild. One Enriched Oridecon opens it permanently.</td>
         </tr>
         <tr data-row>
-          <td><strong>Nightmare Clock Tower</strong></td>
+          <th scope="row">Nightmare Clock Tower</th>
           <td class="num">85-90</td>
           <td class="num"><span class="badge rank-b">B</span></td>
-          <td class="muted">Aldebaran clock tower, portal to the south-west inside.</td>
+          <td>Aldebaran clock tower, portal to the south-west inside.</td>
         </tr>
         <tr data-row>
-          <td><strong>Einbroch Deadlands</strong></td>
+          <th scope="row">Einbroch Deadlands</th>
           <td class="num">85-100</td>
           <td class="num"><span class="badge rank-b">B</span></td>
-          <td class="muted">Einbroch fields, industrial outskirts.</td>
+          <td>Einbroch fields, industrial outskirts.</td>
         </tr>
         <tr data-row>
-          <td><strong>Morroc</strong></td>
+          <th scope="row">Morroc</th>
           <td class="num">90-100</td>
           <td class="num"><span class="badge rank-b">B</span></td>
-          <td class="muted">The ruined city itself. The distortion sits in the open.</td>
+          <td>The ruined city itself. The distortion sits in the open.</td>
         </tr>
         <tr data-row>
-          <td><strong>Morroc Castle</strong></td>
+          <th scope="row">Morroc Castle</th>
           <td class="num">100-105</td>
           <td class="num"><span class="badge rank-a">A</span></td>
-          <td class="muted">Deeper into the ruins, past the outer city.</td>
+          <td>Deeper into the ruins, past the outer city.</td>
         </tr>
         <tr data-row>
-          <td><strong>Geffenia Antitower</strong></td>
+          <th scope="row">Geffenia Antitower</th>
           <td class="num">100-105</td>
           <td class="num"><span class="badge rank-b">B</span></td>
-          <td class="muted">Under Geffen, the mirrored tower.</td>
+          <td>Under Geffen, the mirrored tower.</td>
         </tr>
         <tr data-row>
-          <td><strong>Kiel Hyre University</strong></td>
+          <th scope="row">Kiel Hyre University</th>
           <td class="num">105-110</td>
           <td class="num"><span class="badge rank-b">B</span></td>
-          <td class="muted">Kiel Hyre grounds, through the academy wing.</td>
+          <td>Kiel Hyre grounds, through the academy wing.</td>
         </tr>
         <tr data-row>
-          <td><strong>Abyss Lake</strong></td>
+          <th scope="row">Abyss Lake</th>
           <td class="num">105-115</td>
           <td class="num"><span class="badge rank-a">A</span></td>
-          <td class="muted">Hugel side, down into the lake caverns.</td>
+          <td>Hugel side, down into the lake caverns.</td>
         </tr>
         <tr data-row>
-          <td><strong>Ancient Temple</strong></td>
+          <th scope="row">Ancient Temple</th>
           <td class="num">105-115</td>
           <td class="num"><span class="badge rank-a">A</span></td>
-          <td class="muted">Old temple grounds, deep interior.</td>
+          <td>Old temple grounds, deep interior.</td>
         </tr>
         <tr data-row>
-          <td><strong>Old Glast Heim</strong></td>
+          <th scope="row">Old Glast Heim</th>
           <td class="num">110-120</td>
           <td class="num"><span class="badge rank-a">A</span></td>
-          <td class="muted">The castle before the fall.</td>
+          <td>The castle before the fall.</td>
         </tr>
         <tr data-row>
-          <td><strong>Abyss Glast Heim</strong></td>
+          <th scope="row">Abyss Glast Heim</th>
           <td class="num">115-125</td>
           <td class="num"><span class="badge rank-a">A</span></td>
-          <td class="muted">The castle after it. Same walls, worse tenants.</td>
+          <td>The castle after it. Same walls, worse tenants.</td>
         </tr>
         <tr data-row>
-          <td><strong>Prontera</strong></td>
+          <th scope="row">Prontera</th>
           <td class="num">115-120</td>
           <td class="num"><span class="badge rank-b">B</span></td>
-          <td class="muted">The capital, folded in on itself.</td>
+          <td>The capital, folded in on itself.</td>
         </tr>
         <tr data-row>
-          <td><strong>Horror Toy Factory</strong></td>
+          <th scope="row">Horror Toy Factory</th>
           <td class="num">120-125</td>
           <td class="num"><span class="badge rank-b">B</span></td>
-          <td class="muted">Lutie, the factory floor.</td>
+          <td>Lutie, the factory floor.</td>
         </tr>
         <tr data-row>
-          <td><strong>Odin Temple</strong></td>
+          <th scope="row">Odin Temple</th>
           <td class="num">120-125</td>
           <td class="num"><span class="badge rank-a">A</span></td>
-          <td class="muted">Odin's shrine, upper terraces.</td>
+          <td>Odin's shrine, upper terraces.</td>
         </tr>
         <tr data-row>
-          <td><strong>Rachel Nightmare</strong></td>
+          <th scope="row">Rachel Nightmare</th>
           <td class="num">130</td>
           <td class="num"><span class="badge rank-ss">SS</span></td>
-          <td class="muted">Rachel, south-west. The first true wall.</td>
+          <td>Rachel, south-west. The first true wall.</td>
         </tr>
         <tr data-row>
-          <td><strong>Ancient Verus Laboratory</strong></td>
+          <th scope="row">Ancient Verus Laboratory</th>
           <td class="num">140-145</td>
           <td class="num"><span class="badge rank-s">S</span></td>
-          <td class="muted">Verus city centre, through the Yuno fields.</td>
+          <td>Verus city centre, through the Yuno fields.</td>
         </tr>
         <tr data-row>
-          <td><strong>Divine Temple of Freya</strong></td>
+          <th scope="row">Divine Temple of Freya</th>
           <td class="num">145-150</td>
           <td class="num"><span class="badge rank-s">S</span></td>
-          <td class="muted">Rachel's inner sanctum.</td>
+          <td>Rachel's inner sanctum.</td>
         </tr>
         <tr data-row>
-          <td><strong>Dimensional Gorge</strong></td>
+          <th scope="row">Dimensional Gorge</th>
           <td class="num">145-150</td>
           <td class="num"><span class="badge rank-s">S</span></td>
-          <td class="muted">The rift itself.</td>
+          <td>The rift itself.</td>
         </tr>
         <tr data-row>
-          <td><strong>Thanatos Paradise</strong></td>
+          <th scope="row">Thanatos Paradise</th>
           <td class="num">145-150</td>
           <td class="num"><span class="badge rank-s">S</span></td>
-          <td class="muted">The tower, all the way up.</td>
+          <td>The tower, all the way up.</td>
         </tr>
         <tr data-row>
-          <td><strong>Abandoned Castle</strong></td>
+          <th scope="row">Abandoned Castle</th>
           <td class="num">145-150</td>
           <td class="num"><span class="badge rank-s">S</span></td>
-          <td class="muted">Off the main routes. Bring a party.</td>
+          <td>Off the main routes. Bring a party.</td>
         </tr>
         <tr data-row>
-          <td><strong>Jormungand's Lair</strong></td>
+          <th scope="row">Jormungand's Lair</th>
           <td class="num">150</td>
           <td class="num"><span class="badge rank-s">S</span></td>
-          <td class="muted">End of the line for the original roster.</td>
+          <td>End of the line for the original roster.</td>
         </tr>
-        </tbody>
-      </table>
-    </div>
-    <p class="muted" style="margin-top:1rem">
-      Directions are condensed from the community access guide. For turn-by-turn
-      routing with screenshots, see <a href="guides.html#external">the guides page</a>.
+          </tbody>
+        </table>
+      </div>
+      <p class="dim">Directions are condensed from the community access guide.
+      <a href="guides.html#external">The original, with screenshots, is here.</a></p>
+    </section>
+    <section id="mvps">
+      <h2>MVPs and relics</h2>
+      <p>You no longer have to hope the spawn timer likes you.</p>
+      <h3 id="mvp-system-great-challenges--for-everyone">Great Challenges, for EVERYONE</h3>
+      <p>In Return to Morroc, The Bosses are a fair challenge. They will provide you with a challenge you can tackle at any moment in your journey!</p>
+      <p>Are you at Lv20 and fighting around Payon Cave? Try to fight Moonlight Flower! Maybe you'll have a good chance of taking her down!</p>
+      <p>MVPs have plenty of differences, like the rest of the game:</p>
+      <ul><li>MVPs don't have cheap, unpredictable one shots.</li><li>They usually have complex mechanics on higher ranks, that require smart thinking or avoiding certain situations</li><li>They are worth a ton of EXP and zeny when killed. not to mention the MVP Prize Box.</li><li>Most regular MVPs have a respawn random timer of 45min to 1:30h, to avoid camping, they also don't have a tomb to check timer.</li><li>Some final dungeon maps block teleport, and the MVP may have a fixed spawn location, at the end of a difficult path.</li><li>You can get the infinite-use CONVEX MIRROR (with a cooldown) by finishing the main story quest. The Mirror is account-bound but can help with Boss hunting.</li></ul>
+      <h3 id="mvp-system-rewards-and-prizes">Rewards and prizes</h3>
+      <p>Besides our well-known 3% drop rate for cards, MVPs also provide cool new rewards.</p>
+      <p>Every MVP share some specific loot:</p>
+      <p>The MVP Prize Box may contain (all items with the same chance):</p>
+      <ul><li>MVP Prize Box, that contains cool items, the drop rate is always half the MVP's Level (LV60 boss? 30% drop rate)</li><li>A unique costume, rewarded for the player who wins the MVP, drop rate of 15%</li><li>A lot of cool stuff.</li><li>All kinds of Refine Materials (Except Jewel items)</li><li>Growth Shadow Coffer (Which itself contains a random mid-tier golden shadow set, with unique bonuses)</li><li>Yggdrasil Berry (Ultra-rare consumables that fully heal the player)</li><li>MVP Shard, a rare currency that can be exchanged for cool stuff in Mora Village.</li></ul>
+      <h3 id="mvp-system-relics">Relics</h3>
+      <p>Tired of MVPs being camped? No more! Some dungeons have a unique drop, the Boss Relic. These items allow you to summon the MVP for another go, even between normal spawns!</p>
+      <p>While killing enemies in one of these dungeons, there is a very small (0.1%) chance for each enemy to drop the Relic for the current dungeon's boss.</p>
+      <p>While the relic can be dropped by enemies on any floor of the dungeon, the item is only usable on the normal floor for the MVP to spawn, often the last.</p>
+      <p>In addition, only one MVP can be spawned by a relic at a time - attempting to use a relic while a summoned MVP is still alive will waste the use, consuming the Relic.</p>
+      <p>The normally spawned MVP does not have to be killed in order to summon one with a relic. In fact, summoning one with a relic gives information based on the current state of the normal MVP.</p>
+      <ul><li>If the MVP is alive, it will tell you it's alive and show the location on the mini-map</li><li>If the MVP is dead, it will tell you how long until it respawns</li><li>This is similar to the effect of the Convex Mirror</li></ul>
+      <h3 id="mvp-system-list-of-relics">List of Relics</h3>
+      <p>Below is a list of relics and the MVPs they summon. Note that there are no Relics for Field or Distortion MVPs, and not all dungeons have a Relic.</p>
+    </section>
+    <section id="instances">
+      <h2>Instances</h2>
+      <p>Deliberately rare. They exist for the story and a few job quests, and nowhere else.</p>
+      <h3 id="instance-list-a-true-open-world">A True Open World</h3>
+      <p>Running the same corridor over and over?</p>
+      <p>Repeating the same cutscenes and same bosses, always in the same order, to no end?</p>
+      <p>Not Here!</p>
+      <p>Instances here are a narrative experience. You are not expected to do any of them more than once! And they are usually pretty short experiences, tailor-made to be both interesting, unique and provide additional challenges.</p>
+      <p>No farming/grinding content is in instances.</p>
+      <h3 id="instance-list-main-story-instances">Main Story Instances</h3>
+      <p>The main story is comprised of 12 Quests. But only 8 of them are instance-based. The final instance also has a party-based version with a harder fight.</p>
+      <p>All main story rewards are storage-able and cannot be traded.</p>
+      <h3 id="instance-list-job-instances">Job Instances</h3>
+      <p>Most final jobs also have an instance for their quest. They are listed below.</p>
+    </section>
+    <section id="endgame">
+      <h2>The Refuge's own endgame</h2>
+      <p>Three SS-rank dungeons that did not exist before, and an optional mode that changes what levelling means.</p>
+      <aside class="callout callout--refuge">
+        <h3>New in the Refuge</h3>
+        <ul><li><strong>Nightmare in Amatsu.</strong> Level 150 recommended. A heavily customised version of the classic first floor - no hidden doors, real openings, and no minimap. You spawn semi-randomly and orient yourself by the map shadows, because the light source is at the centre. Or you pay zeny to spawn somewhere safe.</li><li><strong>The Amatsu penalty.</strong> Dying there costs you a base level.</li><li><strong>Two more SS dungeons</strong>, both finished, both on fully custom maps. The second will not be described before launch.</li><li><strong>Bosses were rebalanced</strong> because Hiding now works against them.</li></ul>
+      </aside>
+      <h3>Nightmare in Amatsu, in the designer's words</h3>
+      <p>The priestess has been slain hundreds of times. That was the prophecy, and
+      it has been fulfilled. The samurai specter is no longer a single ghost - it is
+      an army that came back to fight again after death. You will find the familiar
+      boss there, with a twist. Not quite a ghost. Not quite summoned, either. And a
+      second boss the team will not talk about.</p>
+      <h3>Einherjar Challenge Mode</h3>
+      <p>Your maximum level is locked. It only rises when you defeat a boss of the
+      same level as you. Nobody can contest a spawn out from under your progression,
+      because your progression <em>is</em> the fight.</p>
+      <p>It awards costumes, not relics. The team considered handing out one of each
+      relic per level and decided it would turn the mode into a min-maxing farm.
+      Both modes have access to the entire game.</p>
+    </section>
+    <section id="story">
+      <h2>The story, and the lore underneath it</h2>
+      <p>Completely optional, and the only place instances still live.</p>
+      <p>Everyone has a story, even your character!</p>
+      <p>The main story quest gives you a chance to figure out all the questions you may have about who you are, what's the mark, who are the Orphans and much more!</p>
+      <p>It's completely optional but does have a few rewards.</p>
+      <h3 id="main-story-quest-main-story-progression">Main Story Progression</h3>
+      <p>The main story is comprised of 12 Quests + Tutorial Introduction. With 8 Instances in total.</p>
+      <p>Note that only the tutorial and chapters 1-5 of the main story quest are currently available. The remainder will be implemented with upcoming patches.</p>
+      <h3 id="grimoire-of-new-midgard-grimoire-of-new-midgard">Grimoire of New-Midgard</h3>
+      <p>A new story is born from an old story. New Heroes. New Villains and a new world full of changes.</p>
+      <p>PS: This information is considered regular knowledge and is all considered SPOILER-FREE.</p>
+      <h3 id="grimoire-of-new-midgard-the-grimoire">The Grimoire</h3>
+      <p>The Grimoire chronicles every detail regarding the progress of the Story of New-Midgard, the world of Return to Morroc. Here you can see how the episodes evolved differently from the original timeline of the game, and how NPCs will deal with it.</p>
+      <h3 id="grimoire-of-new-midgard-the-5-years">The 5 Years</h3>
+      <p>5 years have passed since the defeat of Satan Morroc with the return of the now called "Orphans", who once were believed to have died with their family. The Death of Satan Morroc is celebrated all around the world, in what is now called "Year Zero", a new moment for the world.</p>
+      <p>The Royal Families who are still mourning the late King Tristram III begin rebuilding the world and investigating the disappearances and other strange situations.</p>
+      <h3 id="main-features-a-new-tale-to-read">A New Tale to read</h3>
+      <p>An Orphan might be hated by many, but destiny may smile upon the unfortunate ones.</p>
+      <ul><li>A brand new Main Story Quest, completely optional with unique instances, bosses and story in over 10 quests.</li><li>A new world lore. What happened to Lighthalzen? The Veins Incident? What is the Nomad Village?</li><li>Who are the Shadows? Where is your family? What is the Mark?</li><li>Brand-new Job Quests, with no filler content and a straight story, becoming a new job now brings a sense of power and progression.</li><li>An interactive World Map, with new dungeons, details, region levels and an entire world to explore.</li></ul>
+    </section>
+    <p class="source-note">
+      Material on this page is transcribed from the community wiki for the world
+      the Refuge inherited, and from the development team's own posts. Where the
+      two disagree, the posts win and the difference is called out in a purple
+      box. Numbers may still move before launch.
     </p>
   </div>
-</section>
-
-<section class="section section--alt">
-  <div class="shell">
-    <div class="section-head reveal">
-      <p class="eyebrow">New for the Refuge</p>
-      <h2>Nightmare in Amatsu</h2>
-    </div>
-    <div class="grid grid--wide">
-      <div class="prose reveal">
-        <p>
-          The priestess has been slain hundreds of times. That was the prophecy,
-          and it has been fulfilled. The samurai specter is no longer a single
-          ghost - it is an army that came back to fight again after death.
-        </p>
-        <p>
-          You will find the familiar boss there, with a twist. Not quite a ghost.
-          Not quite summoned, either. And a second boss the team will not talk
-          about.
-        </p>
-      </div>
-      <div class="stack">
-        <div class="card reveal">
-          <span class="card-kicker">Level 150 recommended</span>
-          <h3>An SS dungeon that fights the map</h3>
-          <ul>
-            <li>A heavily customised version of the classic first floor - no hidden doors, and real openings you can actually walk through.</li>
-            <li>You spawn at a semi-random location.</li>
-            <li><strong>There is no minimap.</strong> Orient yourself by the map shadows; the light source is at the centre.</li>
-            <li>Or pay zeny to spawn at a specific safe location instead.</li>
-            <li>Monsters require planning and coordination. This is not a solo lap.</li>
-          </ul>
-        </div>
-        <div class="panel panel--warn reveal">
-          <p><strong>The Amatsu penalty.</strong> Dying here costs you a base level. That was announced as a spoiler and it was not a joke.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="shell">
-    <div class="grid grid--wide">
-      <div class="card reveal">
-        <span class="card-kicker">Announced August 2026</span>
-        <h3>Two more SS dungeons</h3>
-        <p>
-          Both finished. Both on fully custom maps. No details will be posted
-          about the second one - the only thing the designer would say is that
-          it really owns its title.
-        </p>
-      </div>
-      <div class="card reveal">
-        <span class="card-kicker">Optional mode</span>
-        <h3>Einherjar Challenge</h3>
-        <p>
-          Your maximum level is locked. It only rises when you defeat a boss of
-          the same level as you. Nobody can contest a spawn out from under your
-          progression, because your progression <em>is</em> the fight.
-        </p>
-        <p class="muted">
-          It awards costumes, not relics. The team considered handing out one of
-          each relic per level and decided it would turn the mode into a
-          min-maxing farm. Both modes have access to the entire game.
-        </p>
-      </div>
-      <div class="card reveal">
-        <span class="card-kicker">Gear</span>
-        <h3>Fifty-plus new shadow sets</h3>
-        <p>
-          One or more for every dungeon past level 100, none of them job-locked.
-          They replace the old job sets entirely and exist to make the neglected
-          half of each skill tree worth building around.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section section--tight">
-  <div class="shell">
-    <div class="cta-band reveal">
-      <h2>Getting there is half the problem</h2>
-      <p>The community's access guides cover every distortion portal, the hidden mirror quest, and the costume hunts.</p>
-      <div class="cluster">
-        <a class="btn btn--primary" href="https://discord.gg/a5P3PFNMhn" rel="noopener">Join the community server</a>
-        <a class="btn btn--ghost" href="join.html">How to get in</a>
-      </div>
-    </div>
-  </div>
-</section>
+</div>
 
 </main>
 <!-- FOOTER:START -->
@@ -400,7 +460,7 @@
     <div class="footer-grid">
       <div>
         <a class="brand" href="index.html">
-          <img src="assets/img/icon-192.png" width="34" height="34" alt="" aria-hidden="true">
+          <img class="mark" src="assets/img/icon-192.png" width="34" height="34" alt="" aria-hidden="true">
           <span class="brand-text">
             <span class="brand-name">RETURN TO MORROC</span>
             <span class="brand-sub">Refuge</span>
@@ -418,25 +478,27 @@
         <h4>Start here</h4>
         <ul>
         <li><a href="server.html">What the Refuge is</a></li>
+        <li><a href="start.html">New player guide</a></li>
         <li><a href="join.html">How to join</a></li>
-        <li><a href="guides.html">Guides and tools</a></li>
         <li><a href="faq.html">Questions and answers</a></li>
         </ul>
       </div>
       <div>
         <h4>The game</h4>
         <ul>
-        <li><a href="classes.html">Classes and rebalances</a></li>
+        <li><a href="classes.html">All 30 classes</a></li>
         <li><a href="newjobs.html">Bouncer and Pit Boss</a></li>
-        <li><a href="world.html">Distortions and endgame</a></li>
-        <li><a href="changes.html">Every change from the original</a></li>
+        <li><a href="mechanics.html">Combat and stats</a></li>
+        <li><a href="gear.html">Items, refining, shadows</a></li>
+        <li><a href="world.html">Regions, dungeons, MVPs</a></li>
         </ul>
       </div>
       <div>
         <h4>Reference</h4>
         <ul>
-        <li><a href="https://rtm-internal-e.vercel.app/" rel="noopener">Community database</a></li>
-        <li><a href="guides.html#external">Player-written guides</a></li>
+        <li><a href="changes.html">Changes from the original</a></li>
+        <li><a href="database.html">Community database</a></li>
+        <li><a href="guides.html">Player-written guides</a></li>
         <li><a href="llms.txt">llms.txt</a></li>
         <li><a href="sitemap.xml">Sitemap</a></li>
         </ul>

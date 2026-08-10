@@ -1,0 +1,367 @@
+# -*- coding: utf-8 -*-
+"""Generate the class tree overview and one page per class.
+
+    python tools/build_classes.py
+
+Reads tools/data/wiki.json (the inherited world, transcribed from the
+community wiki) and tools/classes_meta.py (the tree, plus what the Refuge
+changed). The two are never merged silently: wiki material is presented as
+the world as it stands, and every Refuge change is rendered as a labelled
+callout so a reader always knows which is which.
+"""
+
+import html
+import json
+import os
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+import chrome as C
+import classes_meta as M
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+WIKI = json.load(open(os.path.join(ROOT, "tools", "data", "wiki.json"), encoding="utf-8"))
+
+SKILL_TYPE_CLASS = {
+    "passive": "sk-passive", "active": "sk-active",
+    "physical": "sk-physical", "magic": "sk-magic", "magical": "sk-magic",
+    "buff": "sk-support", "party-buff": "sk-support", "self-buff": "sk-support",
+    "debuff": "sk-debuff", "summon": "sk-summon", "stance": "sk-stance",
+}
+
+
+def esc(s):
+    return html.escape(s or "", quote=False)
+
+
+def write(rel, text):
+    path = os.path.join(ROOT, rel)
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "w", encoding="utf-8", newline="\n") as fh:
+        fh.write(text)
+    return rel
+
+
+def name_of(slug):
+    return M.NAMES.get(slug, slug)
+
+
+# ---------------------------------------------------------------------------
+# pulling a class out of the wiki data
+# ---------------------------------------------------------------------------
+
+def wiki_for(meta):
+    """Return (prose_sections, skills) for one class."""
+    page = meta.get("page")
+    if not page or page not in WIKI:
+        return [], []
+
+    data = WIKI[page]
+    want = meta.get("section")
+    if not want:
+        sections = data["sections"]
+    else:
+        # A class documented inside a shared page: its own heading, plus the
+        # "<name> Skills" heading that sometimes follows it.
+        sections = [s for s in data["sections"]
+                    if s["title"] == want or s["title"].startswith(want + " ")]
+
+    prose, skills = [], []
+    for sec in sections:
+        skills.extend(sec["skills"])
+        if sec["paras"] or sec["bullets"]:
+            prose.append(sec)
+    return prose, skills
+
+
+def skill_rows(skills):
+    rows = []
+    for sk in skills:
+        kind = (sk.get("type") or "").strip()
+        cls = "sk-other"
+        for key, val in SKILL_TYPE_CLASS.items():
+            if key in kind.lower():
+                cls = val
+                break
+        extra = " ".join(x for x in (sk.get("details"), sk.get("scaling")) if x and x != "None")
+        detail = ""
+        if sk.get("details") and sk["details"] != "None":
+            detail += '<span class="skill-note">%s</span>' % esc(sk["details"])
+        if sk.get("scaling") and sk["scaling"] != "None":
+            detail += '<span class="chip chip--sm mono">%s</span>' % esc(sk["scaling"])
+        rows.append(f"""        <tr data-row>
+          <th scope="row">{esc(sk['name'])}<span class="skill-max mono">{esc(sk['max'])}</span></th>
+          <td>{esc(sk['desc'])}{('<div class="skill-extra">' + detail + '</div>') if detail else ''}</td>
+          <td><span class="badge {cls}">{esc(kind) or 'Skill'}</span></td>
+        </tr>""")
+    return "\n".join(rows), rows and extra
+
+
+def prose_html(prose):
+    out = []
+    for sec in prose:
+        title = sec["title"]
+        if title.lower() in ("skills", ""):
+            # A bare "Skills" heading has nothing under it worth printing.
+            body = sec["paras"]
+            if not body and not sec["bullets"]:
+                continue
+            title = ""
+        block = []
+        if title:
+            block.append('<h2 id="%s">%s</h2>' % (slugify(title), esc(title)))
+        for p in sec["paras"]:
+            block.append("<p>%s</p>" % esc(p))
+        if sec["bullets"]:
+            block.append("<ul>" + "".join("<li>%s</li>" % esc(b) for b in sec["bullets"]) + "</ul>")
+        out.append("\n      ".join(block))
+    return "\n      ".join(out)
+
+
+def slugify(s):
+    return "".join(ch.lower() if ch.isalnum() else "-" for ch in s).strip("-")
+
+
+# ---------------------------------------------------------------------------
+# the class page
+# ---------------------------------------------------------------------------
+
+def class_page(meta):
+    slug = meta["slug"]
+    name = name_of(slug)
+    prose, skills = wiki_for(meta)
+    rows, _ = skill_rows(skills)
+    tier = M.TIER_LABEL[meta["tier"]]
+
+    facts = [("Tier", tier)]
+    if meta["parents"]:
+        facts.append(("Changes from", " or ".join(
+            '<a href="%s.html">%s</a>' % (p, name_of(p)) for p in meta["parents"])))
+    if meta["leads_to"]:
+        facts.append(("Leads to", ", ".join(
+            '<a href="%s.html">%s</a>' % (p, name_of(p)) for p in meta["leads_to"])))
+    if meta.get("weapons") or (meta.get("page") and WIKI.get(meta["page"], {}).get("weapons")):
+        w = meta.get("weapons") or WIKI[meta["page"]]["weapons"]
+        facts.append(("Weapons", esc(w)))
+
+    fact_html = "\n".join(
+        '        <div><dt>%s</dt><dd>%s</dd></div>' % (k, v) for k, v in facts)
+
+    src = WIKI.get(meta.get("page") or "", {})
+    verdict = ""
+    if src.get("best") or src.get("worst"):
+        verdict = f"""      <div class="verdict">
+        <div class="verdict-col verdict-col--good">
+          <h3>Strengths</h3>
+          <p>{esc(src.get('best', 'Not documented yet.'))}</p>
+        </div>
+        <div class="verdict-col verdict-col--bad">
+          <h3>Weaknesses</h3>
+          <p>{esc(src.get('worst', 'Not documented yet.'))}</p>
+        </div>
+      </div>"""
+
+    refuge = ""
+    if meta["refuge"]:
+        items = "".join("<li>%s</li>" % r for r in meta["refuge"])
+        refuge = f"""      <aside class="callout callout--refuge" aria-labelledby="refuge-{slug}">
+        <h2 id="refuge-{slug}">What the Refuge changed</h2>
+        <ul>{items}</ul>
+      </aside>"""
+
+    skills_block = ""
+    if rows:
+        skills_block = f"""      <section class="section--tight" id="skills">
+        <div class="section-head">
+          <h2>Skills</h2>
+          <p>{len(skills)} entries, as documented for the world the Refuge inherited.
+             Exact numbers are deliberately not listed - they move with balance passes.</p>
+        </div>
+        <div class="cluster" style="margin-bottom:1rem">
+          <label class="visually-hidden" for="sk">Filter skills</label>
+          <input id="sk" type="search" class="field" placeholder="Filter skills..."
+                 data-filter="skilltable" data-filter-count="skcount">
+          <span class="chip mono" id="skcount">-</span>
+        </div>
+        <div class="table-wrap">
+          <table id="skilltable">
+            <caption class="visually-hidden">{esc(name)} skills</caption>
+            <thead><tr><th scope="col">Skill</th><th scope="col">What it does</th><th scope="col">Type</th></tr></thead>
+            <tbody>
+{rows}
+            </tbody>
+          </table>
+        </div>
+      </section>"""
+
+    if meta.get("page") is None:
+        source_note = ("This job is new in the Refuge, so there is no inherited "
+                       "documentation for it. Everything here comes from the "
+                       "designer's own posts.")
+    else:
+        source_note = ("Descriptions and the skill list are transcribed from the "
+                       "community wiki for the world the Refuge inherited. Where "
+                       "the Refuge changed something, it is called out above.")
+
+    siblings = [c for c in M.CLASSES if c["tier"] == meta["tier"] and c["slug"] != slug][:6]
+    sib_html = "".join(
+        '<a class="pill" href="%s.html">%s</a>' % (s["slug"], name_of(s["slug"]))
+        for s in siblings)
+
+    trail = [("index.html", "Home"), ("classes.html", "Classes"), (None, name)]
+    body = f"""<section class="page-hero page-hero--class">
+  <div class="shell">
+    {C.breadcrumbs("../", trail)}
+    <p class="eyebrow">{tier}</p>
+    <h1>{esc(name)}</h1>
+    <p class="lede">{esc(meta['tagline'])}</p>
+  </div>
+</section>
+
+<div class="shell class-body">
+  <article class="prose">
+{refuge}
+    <dl class="factbar">
+{fact_html}
+    </dl>
+{verdict}
+    <div class="prose-flow">
+      {prose_html(prose)}
+    </div>
+{skills_block}
+    <p class="source-note">{source_note}</p>
+    <nav class="pill-row" aria-label="Other {tier.lower()}s">
+      <span class="dim">More {tier.lower()}s:</span> {sib_html}
+      <a class="pill pill--strong" href="../classes.html">Full tree</a>
+    </nav>
+  </article>
+</div>
+"""
+
+    title = "%s | Return to Morroc: Refuge" % name
+    desc = ("%s in Return to Morroc: Refuge - %s Skill list, strengths, weaknesses "
+            "and what the rebuild changed." % (name, meta["tagline"]))
+    desc = desc[:174]
+    html_out = C.head("../", title, desc, "classes/%s.html" % slug,
+                      extra_ld=C.crumb_ld(trail))
+    html_out += C.header("../", "classes.html")
+    html_out += '<main id="main">\n' + body + "\n</main>\n"
+    html_out += C.footer("../")
+    return write("classes/%s.html" % slug, html_out)
+
+
+# ---------------------------------------------------------------------------
+# the overview
+# ---------------------------------------------------------------------------
+
+def node(slug):
+    meta = M.BY_SLUG[slug]
+    new = ' <span class="badge tag-added">New</span>' if meta.get("page") is None else ""
+    return (f'      <a class="node node--{meta["tier"]}" href="classes/{slug}.html">'
+            f'<span class="node-name">{esc(name_of(slug))}{new}</span>'
+            f'<span class="node-tag">{esc(meta["tagline"])}</span></a>')
+
+
+def overview():
+    blocks = []
+    for title, blurb, rows in M.TREE:
+        row_html = []
+        for i, row in enumerate(rows):
+            if i:
+                row_html.append('    <div class="tree-link" aria-hidden="true"></div>')
+            row_html.append('    <div class="tree-row">\n' + "\n".join(node(s) for s in row) + "\n    </div>")
+        blocks.append(f"""  <section class="tree-group reveal">
+    <div class="tree-head">
+      <h2>{title}</h2>
+      <p>{blurb}</p>
+    </div>
+{chr(10).join(row_html)}
+  </section>""")
+
+    counts = {}
+    for c in M.CLASSES:
+        counts[c["tier"]] = counts.get(c["tier"], 0) + 1
+
+    body = f"""<section class="page-hero">
+  <div class="shell">
+    {C.breadcrumbs("", [("index.html", "Home"), (None, "Classes")])}
+    <h1>{len(M.CLASSES)} classes, seven roads</h1>
+    <p class="lede">
+      Everyone starts as an Orphan. Where you go after job level 10 decides how
+      the next hundred and forty levels feel - and two of these roads did not
+      exist before the Refuge.
+    </p>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="shell">
+    <dl class="stat-row reveal">
+      <div class="stat"><dt>Classes</dt><dd>{len(M.CLASSES)}</dd></div>
+      <div class="stat"><dt>Final jobs</dt><dd>{counts.get('final', 0)}</dd></div>
+      <div class="stat"><dt>Specialisations</dt><dd>{counts.get('spec', 0)}</dd></div>
+      <div class="stat"><dt>Expert jobs</dt><dd>{counts.get('expert', 0)}</dd></div>
+      <div class="stat"><dt>Skills documented</dt><dd>{sum(len(wiki_for(c)[1]) for c in M.CLASSES)}</dd></div>
+    </dl>
+    <div class="panel reveal" style="margin-top:2rem">
+      <p>
+        <strong>Job shadow sets are gone.</strong> In the original, every job had
+        its own mandatory set past level 100 and it decided your build for you.
+        The Refuge removed them and replaced them with more than fifty
+        dungeon-based sets that any job can wear. Every page below is written
+        with that already true.
+      </p>
+    </div>
+  </div>
+</section>
+
+<div class="shell tree">
+  <section class="tree-group tree-group--root reveal">
+    <div class="tree-head">
+      <h2>Everyone starts here</h2>
+      <p>Ten job levels as an Orphan and the whole tree opens. The Orphan's own
+      skills stay with you for all one hundred and fifty levels, which is why the
+      Refuge rebuilt four of them before touching anything else.</p>
+    </div>
+    <div class="tree-row tree-row--single">
+{node("orphan")}
+    </div>
+  </section>
+{chr(10).join(blocks)}
+</div>
+
+<section class="section section--tight">
+  <div class="shell">
+    <div class="cta-band reveal">
+      <h2>Not sure where to start?</h2>
+      <p>Thief is the main road and the most forgiving. Ronin, Jester and the Expert jobs are explicitly not recommended for a first character.</p>
+      <div class="cluster">
+        <a class="btn btn--primary" href="start.html">Read the new player guide</a>
+        <a class="btn btn--ghost" href="newjobs.html">See the two new jobs</a>
+      </div>
+    </div>
+  </div>
+</section>
+"""
+    trail = [("index.html", "Home"), (None, "Classes")]
+    out = C.head("", "Classes | Return to Morroc: Refuge",
+                 "All %d classes in the Refuge laid out as a tree: seven roads from Orphan, "
+                 "eight final jobs on the main line, and two jobs that are new." % len(M.CLASSES),
+                 "classes.html", extra_ld=C.crumb_ld(trail))
+    out += C.header("", "classes.html")
+    out += '<main id="main">\n' + body + "\n</main>\n"
+    out += C.footer("")
+    return write("classes.html", out)
+
+
+def main():
+    print("building classes")
+    print("  wrote", overview())
+    for meta in M.CLASSES:
+        class_page(meta)
+    print("  wrote %d class pages" % len(M.CLASSES))
+
+
+if __name__ == "__main__":
+    main()

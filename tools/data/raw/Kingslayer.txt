@@ -1,0 +1,156 @@
+==[[File:Kingslayer.gif]] Heart of the Party==
+The Kingslayer is a tanky wall that can control and buff the party in a multitude of defensive ways.
+
+Since they can take a lot of damage before going down, Kingslayers are a very strong choice for people looking for more survival or to take extra risks against enemies.
+
+'''Best:''' Highest HP, very defensive, great control with offensive skills.
+
+'''Worst:''' Underwhelming DPS, very reaction-based, skill point starved.
+
+'''Weapons:''' Dagger, Sword, Bows
+
+===Gameplay Identity===
+The Kingslayer doesn't have rotations, instead favoring the use of conditional skills, offensively and defensively to adapt to circumstances, so they are:
+
+'''The core pillar of parties, who can change the flow of the gameplay directly, either by saving them from difficult moments or by increasing the margin for risks.'''
+
+They are a unique class in regards to the skills distribution, since they are themed around '''Chess'''. This can be an issue due to the huge amount of skills they have at their disposal, making them unreliable in the hands of a player that doesn't know what to focus on. Regardless of skill levels, even a lower level skill can be very well used by a skilled player.
+
+A Kingslayer, even if undergeared, can tank many hits due to its multiple mitigation tools, and if built around using a bow, they can use the rogue skill '''Cover''' in a much more similar way to the vanilla RO Paladin's Devotion by standing in the backline. (Devotion being a long term buff you can apply to many members, while cover lasts a few seconds but has a shorter range and no cast time, making it very good for quick saves and bursts of risky plays).
+
+The Kingslayer can also attempt to quickly finish-off an enemy by casting '''Check Mate''', dealing potential high damage if the resources are being well managed.
+
+===Core Gameplay Loop===
+The Kingslayer has the tree divided in 2 clear major branches, they mimic the positions of the chess pieces overall on the skill tree:
+
+* '''White''' Skills are focused on protection, defense, regeneration and mitigation.
+
+* '''Black''' Skills are focused on damage, control, knockback and monster interactions.
+
+* The 2 '''Gambit''' Skills (Queen and King) provide strong opportunities to handle a difficult situation, either by dealing high damage or quickly blocking a strong spell.
+
+* '''Final Skill:''' Check Mate. Converts the current SP amount into ATK% to deal damage to an enemy. The higher the SP, the higher total damage.
+
+By Making use of the shield skills from Rogue, The damage reflection and parrying from Duelist and the Variety of the the Kingslayer, they can cover any possible gaps in the defense of the party.
+
+==Skills==
+{| class="wikitable" style="font-weight:normal; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|-
+! style="text-align:center; background-color:#99d9ea;" | Skill
+! style="text-align:center; background-color:#99d9ea;" | Max Level
+! style="text-align:center; background-color:#99d9ea;" | Description
+! style="text-align:center; background-color:#99d9ea;" | Skill Type
+! style="text-align:center; background-color:#99d9ea;" | Details
+! style="text-align:center; background-color:#99d9ea;" | Scaling
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Pawnrod.gif|24x24px]] Pawn's Rod
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 1
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Absorbs a targeted spell
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Self-Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | The timing-window of the skill is 1.5s
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Pawncure.gif|24x24px]] Pawn's Cure
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 1
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Cures multiple abnormal status effects
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Ally-Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Removes Stone, Freeze, Stun or Bleeding status
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Bishoptax.gif|24x24px]] Bishop's Tax
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Expend HP to deal heavy damage to an enemy
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Physical
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Range increase per skill level
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | DEX
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Bishopguard.gif|24x24px]] Bishop's Guard
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Increases vitality defense of the party by 20% per level
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Party-Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Vitality defense reduces damage taken by a flat amount
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Knightcapture.gif|24x24px]] Knight's Capture
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Teleports self and enemy to a random location on the map
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Physical
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Chance increases with level, some places don't allow teleport
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | AGI
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Knightregen.gif|24x24px]] Knight's Regen
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Increases HP Regeneration speed of the entire party
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Party-Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | VIT
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Rooksmash.gif|24x24px]] Rook's Smash
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Knockbacks all enemies between you and target
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Physical Ranged
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Affects enemies in a straight line, requires a shield.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | STR
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Rookwall.gif|24x24px]] Rook's Wall
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Reduces ranged damage taken at the cost of overall speed
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Self-Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Requires a shield.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Queenbrand.gif|24x24px]] Queen's Brand
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Knocks back and damages all enemies around targeted area
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Ground Physical
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Affects the direction cast
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | VIT
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Queenbarrier.gif|24x24px]] Queen's Barrier
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Creates a shield that blocks a certain amount of attacks
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Ally-Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Amount and hits/damage absorption increases with level
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Kingchains.gif|24x24px]] King's Chains
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Throws a shield around an enemy multiple times for high damage
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Ranged Special Physical
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Damage increases with shield refine and weight
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | VIT
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Kingfortress.gif|24x24px]] King's Fortress
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 3
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Changes position of shield to generate a buff according to level
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Self-Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Increases HP Regen, SP Regen or Shield-skills damage
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Queengambit.gif|24x24px]] Queens's Gambit
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Deals heavy damage to all enemies around caster
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Mixed ATK/MATK AoE on Self
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Damage is split if enemies share cells
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Kinggambit.gif|24x24px]] King's Gambit
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Quickly creates a terrain that protects from any ground targeted spell
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Party-Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Has no cast time, very small size and long cooldown
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Checkmate.gif|24x24px]] Check Mate
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 1
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Converts current SP into ATK damage and deals a single strong hit
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Special Physical
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Cast can't be interrupted
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|}

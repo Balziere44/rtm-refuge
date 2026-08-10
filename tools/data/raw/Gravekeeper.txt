@@ -1,0 +1,155 @@
+== [[File:Gravekeeper.gif|25px]] Resources should be spent ==
+
+The Gravekeeper is a powerful fighter that can quickly end battles with short bursts of critical damage. As an alternative, they can also quickly barrage their opponents with many quick attacks.
+
+The core of their combat is around the way they can combo and simply ignore enemy defenses and resistances, making them always easy prey.
+
+'''Best:''' Many critical options, easy to build, powerful DPS potential.
+
+'''Worst:''' Resource intensive, requires many status investments, no unique defensive choices.
+
+'''Weapons:''' Dagger, Sword, Katar, Axe
+
+=== Gameplay Identity ===
+
+The Gravekeeper has a strong focus on chaining skills together to find an outcome, while debilitating enemies by decreasing their defenses, this makes them:
+
+'''A heavy-duty job that can hit enemies with massive damage, while ignoring most defensive tactics used by them, ensuring they don't need to adapt much.'''
+
+Since most Gravekeeper skills can crit, they have a very high power in dealing with enemies over both short and long fights, as long as their resources aren't drained.
+
+The access to 2 different ways of achieving Fury status, with the Assassin's Fury and their own Loki's Fury provides them tools to always keep the aggression up.
+
+The Gravekeeper has a short 3-skill combo where the last hit can be changed between a strong direct hit or an AoE to help with quick crowd-control and adaptation.
+
+Gravekeepers also have access to a multitude of terrain and enemy debilitation by making them unable to fight effectively, either by revealing hidden enemies, petrification, large area coverage, doubling damage taken or straight up defense piercing, up to a point, as long as resources are available.
+
+=== Core Gameplay Loop ===
+
+The Gravekeeper is a job that only needs access to part of its kit, depending on how it's built by the player. It has different focus for different ways of fighting:
+* When using combos, always starts by casting Executioner's '''Alpha''' and '''Omega'''.
+* The final hit comes with either '''Desolated Burial''' or '''Cursed Coffin'''.
+* Making use of '''Cross Impact''' to fill in rotations with a very quick hit is a good way to extract extra DPS.
+* It's important to properly build a SP reserve due to the constant cost of the skill chains.
+* All builds should consider '''Loki's Mark''' for support and burst potential by doubling the enemy damage taken on next hit (Lex Aterna effect).
+* '''Final Skill:''' Mass Grave. A walking large AoE that deals massive physical damage to enemies caught in the path.
+
+Due to the need to be in Fury status for its combo, the Gravekeeper needs to properly prepare how to achieve this status. Loki's Fury requires a large amount of SP but provides the status for a long time, being more recommended before engaging in combat, while Fury itself (from the Assassin tree) is a good way to keep it up later on. The Gravekeeper can also forego its combo skills entirely and focus on alternating Sonic Blows, Cross Impact, Impact Tooth and Fissure Tooth to overwhelm enemies with skill casts.
+
+Gravekeeper is a job that values quick reactions and high skill use, the rotations outside of combo are very free form but require extra care on SP management to not burn it entirely and be exposed. The fact it can deal critical damage in many skills makes it a perfect user of Katar weapons.
+
+== Skills ==
+{| class="wikitable" style="font-weight:normal; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+|-
+! style="text-align:center; background-color:#99d9ea;" | Skill
+! style="text-align:center; background-color:#99d9ea;" | Max Level
+! style="text-align:center; background-color:#99d9ea;" | Description
+! style="text-align:center; background-color:#99d9ea;" | Skill Type
+! style="text-align:center; background-color:#99d9ea;" | Details
+! style="text-align:center; background-color:#99d9ea;" | Scaling
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Advkatar.gif|26px]] Adv. Katar Mastery
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Increases Katar damage
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Passive
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Damage bonus is %-based, making it a strong modifier
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Ancientpower.gif|24px]] Ancient Power
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Increases attack power of the entire party for a short duration
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Party-Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | High SP cost
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Lokifury.gif|24px]] Loki's Fury
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Increases HP/SP and enables Fury status for a long duration
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Self-Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | High SP cost
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Veil.gif|24px]] Loki's Veil
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Halts SP regeneration to always deal max damage with no variation
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Self-Support
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Higher levels decrease upkeep cost
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Lokimark.gif|24px]] Loki's Mark
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 1
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Marks an enemy with Loki's Curse, applying Lex Aeterna to them
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Debuff
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lex Aeterna doubles the damage taken on the next attack
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Tombstone.gif|24px]] Tombstone Curse
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Petrify an enemy rendering them defenseless
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Crowd-Control
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Higher levels increase effect duration and decrease resistance
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Exalerage.gif|24px]] Exale Rage
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Deals quick damage to all enemies around caster
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Ranged AoE
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Requires Fury status.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | DEX
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Quagmire.gif|24px]] Quagmire
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Destroys terrain in a small area, decreasing enemy speed, DEX and AGI
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Ground Debuff
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Has a short duration
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Fissuretooth.gif|24px]] Fissure Tooth
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Erupts earth spikes over a large area, dealing damage to all targets
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Physical AoE Ranged
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Has a small chance of applying bleeding status
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | DEX
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Guardbreaker.gif|24px]] Guard Breaker
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Attacks an enemy with a drilling attack dealing heavy damage.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Physical Melee
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Has a skill level based chance to remove any defensive/shield buffs from enemy.
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | VIT
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Crossimpact.gif|24px]] Cross Impact
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 5
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Quickly strikes an enemy multiple times attempting critical damage
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Physical Melee
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Very short cooldown with high repeat rate. Half critical chance
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | AGI
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Desolatedburial.gif|24px]] Desolated Burial
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Deals strong damage with a katar to enemies around caster
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Physical Melee AoE
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Can be critical, if chained after Executioner's Omega, damage is massively boosted
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | LUK
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Cursedcoffin.gif|24px]] Cursed Coffin
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Deals strong damage with a katar to an enemy, if cast directly, can be ranged
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Physical Melee/Ranged
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Can be critical, if chained after Executioner's Omega, damage is massively boosted
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | LUK
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Opengrave.gif|24px]] Open Graveyard
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 1
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Strikes the ground to reveal hidden enemies around
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | AoE Support on Self
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Deals heavy damage to any revealed enemies
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | No
+|-
+| style="width: 15%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | [[File:Massgrave.gif|24px]] Mass Grave
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Lv 10
+| style="width: 45%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Summons a powerful wave of land to hit enemies in a large path.
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Physical Special
+| style="width: 20%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | Skill will redirect itself randomly if it finds any terrain obstacles
+| style="width: 5%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" | STR
+|}

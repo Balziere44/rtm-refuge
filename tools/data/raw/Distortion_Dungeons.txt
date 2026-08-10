@@ -1,0 +1,178 @@
+== A challenge for the strongest ==
+Distortion Dungeons are unique [https://returntomorroc.com/wiki/index.php/Regions_and_Dungeons.html#Dungeons dungeons] that require precise gameplay while under new rules.
+
+The biggest difference for those is that each one has a unique mechanic, either simple or complex and take place in a different time period/timeline.
+
+Distortions are either in the Past or in the Future, and when entering one, it tells you how far from the original timeline it takes place.
+
+They are also always Rank B or higher.
+
+== How to access a Distortion Dungeon ==
+The Dungeons require a powered-up [https://returntomorroc.com/wiki/index.php/Bifrost_Mirror Bifrost Mirror], each type of dungeon requires a a different level of it. The Bifrost Mirror has 4 levels of energy, depending on the current eyes slotted into it.
+
+You can find the location of all pieces and details about them on the page linked above.
+
+'''Reminder that Bifrost Mirror and the 4 Eyes cannot be stored or traded and are character bound.'''
+
+Eye of Vidar: Travel to the past.
+
+Eye of Vali: Travel to the future.
+
+Eye of Thor: Travel to an alternate timeline or travel deeper within a distortion.
+
+Eye of Balder: Travel to a paradox or world-ending event.
+
+The Eyes can be added to the Mirror in Dicastes Diel (Sage's Palace). Once obtained, they are never lost and access to distortions is permanent and unrestricted.
+
+== Distortion Gameplay ==
+Distortions may feature different rules and mechanics in specific cases, such as movement changes or buffs/debuffs.
+
+They also completely lock any kind of teleport or /memo.
+
+Finally, monsters don't drop regular trash loot and the HATred dude can't be found in them, they however drop '''Distortion Essences'''
+
+== Distortion Rewards ==
+Other than the usual monster drops of equipments, shadow sets and cards, the Distortion Essences drop from any monster in them. The drop rate is always 0.1% per monster level.
+
+Distortion Essences are researched by the Sages in Dicastes Diel, they will exchange a large amount of those for the Sage equipment (equipment with little bonuses but 3 slots), some consumables and materials or the unique Eternal Weapons.
+
+== Distortion Dungeons available ==
+'''The Distortion mechanics can be changed anytime without warning.'''
+
+{| class="wikitable sortable" style="text-align: center;"
+! style="background: #99d9ea;" | Distortion
+! style="background: #99d9ea;" | Level/Rank
+! style="background: #99d9ea;" | Eye Required
+! style="background: #99d9ea;" | Basic Lore
+! style="background: #99d9ea;" | Timeline
+! style="background: #99d9ea;" | Mechanic
+! style="background: #99d9ea;" | MVP
+|-
+| [[Loki's Palace]]
+| Lv 85~90 - S
+| Vidar
+| The proud Assassin's Guild yearly Assassin Cross test takes place and only the strongest has a chance of success.
+| 300 Years in the past
+| Access to the second floor requires overcoming a trial in order to face the true challenges of the guild.
+| Master Loki
+|-
+| [[Clock Tower]]
+| Lv 85~90 - B
+| Vali
+| The tower clock has come under a terrible curse and can now control the flow of time inside it.
+| 100 Years in the future
+| Players randomly get buffed with Agi Up or Agi Down inside the dungeon.
+| Entweihen Crothen
+|-
+| [[Einbroch Deadlands]]
+| Lv 85~100 - B
+| Vali
+| Einbroch's greed has no end, as using a piece of Ymir's heart to drill has damaged the planet's core and caused an apocalypse.
+| 10 Years in the future
+| PvP is enabled in all maps and no rules are enforced in the area.
+| Mark Bearer
+|-
+| [[Morroc]]
+| Lv 90~100 - B
+| Vidar
+| Satan Morroc has freed himself and is rampaging through the town while the heroes are trying to save the people.
+| 5 Years in the past
+| Meteors fall around the map, some of them cause damage, some don't.
+| Satan Morroc
+|-
+| [[Morroc Castle]]
+| Lv 100~105 - A
+| Thor
+| The Dandelion Organization is almost finishing its ritual and bringing Satan Morroc back.
+| 5 Years and 1 Hour in the past
+| The rooms are all scrambled and the warps follow no logical order.
+| Evil Fanatic
+|-
+| [[Geffenia Antitower]]
+| Lv 100~105 - B
+| Vidar
+| The forces of Himmelmez are attacking the magic city of Geffenia and exterminating everyone.
+| 100 Years in the past
+| Maps are very small and packed with strong enemies.
+| First Revenant
+|-
+| [[Kiel Hyre University]]
+| Lv 105~110 - B
+| Thor
+| The students of kiel made an incredible discovery that forever changed the face of the world.
+| 15 Years in the future
+| The robots always fight in pairs. They are sturdy and immune to knockbacks and status effects.
+| Kiel DX-02
+|-
+| [[Abyss Lake]]
+| Lv 105~115 - A
+| Balder
+| In the end, everything dies, even the millenial dragons meet their end in the face of time.
+| 5000 years in the future
+| Players who die cannot be resurrected.
+| Bone Detardeurus
+|-
+| [[Ancient Temple]]
+| Lv 105~115 - A
+| Vidar
+| The ocean is big. The dangers who dwell deep inside are also always unknown.
+| 1000 Years in the past
+| Powerful tides may wash players away to random places if they don't grip the floor (sit) when warned.
+| Kraken
+|-
+| [[Old Glast Heim]]
+| Lv 110~120 - A
+| Vidar
+| The proud castle of Glast Heim is fighting a strange curse that corrupts its warriors.
+| 100 Years in the past
+| Black portals warp anyone who steps on them back to the entrance hall. A portal is required to reach the MVP.
+| Amdarais
+|-
+| [[Abyss Glast Heim]]
+| Lv 115~125 - A
+| Thor
+| The darkness of the realm of the dead has completely frozen the entire castle to the point it snows from the ceilings.
+| 100 Years in the future
+| Every monster is immune to knockback and have massive movement speed.
+| Himmelmez
+|-
+| [[Prontera]]
+| Lv 115~120 - B
+| Vidar
+| The corrupted forces of Glast Heim attack prontera and attempt to overwhelm its defenses.
+| 99 Years in the past
+| Guards can help players fight monsters or hold aggro momentarily.
+| Bijou and Knight Sakray
+|-
+| [[Horror Toy Factory]]
+| Lv 120~125 - B
+| Vali
+| The smile ends when the toymaker finally dies.
+| 25 Years in the future
+| Toys stand completely still until someone comes close or tries to attack them.
+| Celine Kimi
+|-
+| [[Odin Temple]]
+| Lv 120~125 - A
+| Vidar
+| The Valkyries are the warriors of Odin who guard his image and holy grounds.
+| 2000 Years in the past
+| Valkyries come to take the soul of dead players to Valhalla, disabling the [[Shadow System]] and it's ressurrections.
+| Valkyrie Reginleif
+|-
+| [[Ancient Verus Laboratory]]
+| Lv 125~130 - B
+| Vidar
+| The mighty civilization of Verus may have made a terrible mistake that brought it down.
+| 500 Years in the past
+| Healing is constantly nulified and actions interrupted.
+| Charleston
+|-
+| [[Temple of Freya]]
+| Lv 140~145 - S
+| Balder
+| The cult of Rachel has gone out of control and managed to bring Freya back.
+| 5000 Years in the past
+| Players take random damage every 30 seconds. Tanks can absorb damage from others.
+| Freya
+|}

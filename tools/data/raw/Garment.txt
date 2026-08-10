@@ -1,0 +1,303 @@
+<p>Apart from the garments sold by NPC's (<b>[[NPC Equipment|Check here]]</b>) and their +1 slot equivalent that can be droped from field monsters.<br/>
+This page lists other garments that can be obtained from dungeons.
+</p>
+== Garments list ==
+[[File:MufflerIcon.gif|24px]] '''Garments list'''
+{| class="wikitable sortable"
+|-
+! style="background: #99d9ea;" | Name
+! style="background: #99d9ea; width:40px; padding:5px;" | Req.<br/>Lv
+! style="background: #99d9ea; width:40px; padding:5px;" | DEF
+! style="background: #99d9ea; width:40px; padding:5px;" | MDEF
+! style="background: #99d9ea; padding:5px;" | Effects
+! style="background: #99d9ea; padding:5px;" | Innate Bonus
+! style="background: orange; padding:5px;" | Obtained from
+|-
+| '''Orphan Cape [1]'''
+| 1
+| 4
+| 2
+| ATK/MATK+2<br/>Young Orphan Set:<br/>Clothes Cape and Shoes<br/>'''[Set Bonus]'''<br/>All Stats +1<br/>Enables Heal Lv4<br/>Exp Received +10%
+| Perfect Dodge: 003
+| [[Pyramid Basement]]
+|-
+| '''Undershirt [0]'''
+| 10
+| 5
+| 3
+| HP+3%<br/>SP+3%<br/>Black Shirt Set:<br/>Undershirt and Black Shirt<br/>'''[Set Bonus]'''<br/>AGI+3<br/>Pink Shirt Set:<br/>Undershirt and Pink Shirt<br/>'''[Set Bonus]'''<br/>DEX+3
+| Perfect Dodge: 004
+| [[Prontera Culvert]]
+|-
+| '''Tomb Thief Mantle [1]'''
+| 10
+| 4
+| 2
+| Critical Rate +5<br/>Tomb Thief Set:<br/>Armor Garment Shoes<br/>'''[Set Bonus]'''<br/>ATK+3<br/>MATK+3<br/>Enables Hiding and Increase Agility Lv3
+| Perfect Dodge: 005
+| [[Upper Pyramid]]
+|-
+| '''Scarlet Cape [1]'''
+| 10
+| 6
+| 1
+| SP+25<br/>SP Regen +10%<br/>Scarlet Set:<br/>Armor Garment Shoes<br/>'''[Set Bonus]'''<br/>EXP+5%<br/>All Stats +1
+| Perfect Dodge: 003
+| [[Payon Cave]]
+|-
+| '''Adventurer Backpack [1]'''
+| 10
+| 0
+| 0
+| Increases Kafra Elixir refill limit by +3.<br/>EXP+5%<br/>Move Speed -20%<br/>Breaks all carried Kafra elixir when unequipped.
+| Perfect Dodge: 001
+| [[Payon Cave]]
+|-
+| '''Dracula Manteau [0]'''
+| 15
+| 5
+| 5
+| 25% chance to drain 5% damage done on physical damage.<br/>Disables natural HP Regeneration.
+| Perfect Dodge: 003
+| [[Geffen Cave]]
+|-
+| '''The Cloak [1]'''
+| 15
+| 5
+| 2
+| Backstab DMG +10%<br/>Cast Time -10%<br/>Cloak and Dagger Set:<br/>Dagger and Garment<br/>'''[Set Bonus]'''<br/>Backstab Cooldown -0.5s<br/>After Cast Delay -10%
+| Perfect Dodge: 005
+| [[Geffen Cave]]
+|-
+| '''The Cape [1]'''
+| 15
+| 1
+| 0
+| Flee +10
+| Perfect Dodge: 010
+| [[Geffen Cave]]
+|-
+| '''Insect Wings [1]'''
+| 15
+| 5
+| 10
+| SP Consumption -10%<br/>Move Speed +10%<br/>This item has no visual effect.
+| Perfect Dodge: 007
+| [[Insect Society Nest]]
+|-
+| '''Sphinx Shawl [1]'''
+| 30
+| 1
+| 10
+| MATK+5<br/>Sphinx Set:<br/>Armor Garment and Shoes<br/>'''[Set Bonus]'''<br/>Fire Water Earth and Wind Magic ATK +10%<br/>INT+3
+| Perfect Dodge: 002
+| [[Sphinx]]
+|-
+| '''Drowned Queen Cape [1]'''
+| 35
+| 10
+| 2
+| Critical Damage Taken-20%<br/>Drowned King Set:<br/>Armor Boots Cape and Helm<br/>'''[Set Bonus]'''<br/>Immune to Knockback<br/>Regenerates 5 SP per second
+| Perfect Dodge: 004
+| [[Byalan Island]]
+|-
+| '''Clean Towel [1]'''
+| 40
+| 5
+| 5
+| Recover 75 HP per kill<br/>Recover 25 SP per kill
+| Perfect Dodge: 005
+| [[Noble's Bathhouse]]
+|-
+| '''Great Magician Cape [0]'''
+| 40
+| 5
+| 5
+| Fixed Cast Time -0.3s<br/>Cast Can't be Interrupted
+| Perfect Dodge: 001
+| [[Clock Tower]]
+|-
+| '''Phoenix Manteau [1]'''
+| 50
+| 5
+| 10
+| 5% chance to auto-cast Flaming Petals Lv1 when attacked.<br/>HP/SP Regen +10%<br/>Revives with full HP/SP<br/>Volcano Set:<br/>Dark Flare and Volcano/Phoenix Manteau<br/>'''[Set Bonus]'''<br/>Def Pierce +2%<br/>MDef Pierce +2%
+| Perfect Dodge: 001
+| [[Dewata Volcano]]
+|-
+| '''White Scavenger Cape [1]'''
+| 50
+| 10
+| 5
+| DMG vs Humans +5%<br/>Extra 1% per refine<br/>White Offense Set:<br/>Armor Garment and Shoes<br/>'''[Set Bonus]'''<br/>All Stats +3<br/>DMG vs Humans +10%
+| Perfect Dodge: 005
+| [[Einbroch Deadlands]]
+|-
+| '''Airship Captain Cape [1]'''
+| 50
+| 7
+| 3
+| Ricochet Arrow DMG+10%<br/>Airship Set:<br/>Armor Cape and Shoes<br/>'''[Set Bonus]'''<br/>Ranged Damage +5%<br/>Attack Range +1
+| Perfect Dodge: 003
+| [[Airship Crash Site]]
+|-
+| '''Sylph Cloak [0]'''
+| 50
+| 2
+| 3
+| ASPD +3<br/>After Cast Delay -15%<br/>Movement Speed +5%<br/>Eternal Chain DMG +12%
+| Perfect Dodge: 005
+| [[Turtle Dungeon]]
+|-
+| '''Black Scavenger Cape [1]'''
+| 50
+| 10
+| 5
+| Resistance vs Humans +3%<br/>Extra +1% per refine<br/>Black Defense Set:<br/>Armor Garment and Shoes<br/>'''[Set Bonus]'''<br/>All Stats +3<br/>Resistance vs Humans +10%
+| Perfect Dodge: 005
+| [[Einbroch Deadlands]]
+|-
+| '''Honor of the Fallen [1]'''
+| 50
+| 0
+| 0
+| Skill Random Mods<br/>Per Refine:<br/>HP+1%<br/>SP+1%<br/>ATK+1<br/>MATK+1<br/>ASPD+1%
+| Perfect Dodge: 000
+| [[Lighthalzen Fields]]
+|-
+| '''Volcano Manteau [1]'''
+| 50
+| 10
+| 5
+| ATK+3%<br/>Flee+10<br/>Volcano Set:<br/>Dark Flare and Volcano/Phoenix Manteau<br/>'''[Set Bonus]'''<br/>Def Pierce +2%<br/>MDef Pierce +2%
+| Perfect Dodge: 004
+| [[Dewata Volcano]]
+|-
+| '''Tendrillion Skin [1]'''
+| 50
+| 5
+| 1
+| Fan of Knives DMG+30%<br/>Fan of Knives Cooldown-1s<br/>DEX+5
+| Perfect Dodge: 003
+| [[Splendide Forest]]
+|-
+| '''Hermit Shawl [1]'''
+| 50
+| 5
+| 10
+| Magic Damage Received -9%
+| Perfect Dodge: 012
+| [[Sunken Temple]]
+|-
+| '''Miner Backpack [0]'''
+| 50
+| 5
+| 1
+| Drop Rate+10%
+| Perfect Dodge: 001
+| [[Einbroch Mines]]
+|-
+| '''Infinite Butterfly [0]'''
+| 60
+| 9
+| 4
+| ASPD+3%<br/>Cri+1<br/>HP+100<br/>SP+50<br/>Agi+2
+| Perfect Dodge: 002
+| [[Lutie]] of [[Lutie Field]]
+|-
+| '''Fallen Angel Muffler [1]''' || 60 || 1 || 10 || Dark Magic DMG+15%<br/>Poison Magic DMG+15%<br/>HP Regen+20% || Perfect Dodge: 002 || [[Ayothaya Temple]]
+|-
+| '''Ivory Muffler [1]''' || 60 || 10 || 5 || Critical Damage +12%<br/>LUK+3 || Perfect Dodge: 005 || [[Nightmare Clock Tower]]
+|-
+| '''Giant Snake Skin [1]''' || 60 || 25 || 5 || Poison Ghost and Undead Resistance +15%<br/>Enable Tunnel Drive Lv5<br/>Enable Hiding Lv3 || Perfect Dodge: 004 || [[Faceworm Nest]]
+|-
+| '''Goibne's Spaulders [1]''' || 70 || 25 || 0 || Total Defense +5%<br/>Goibne Set:<br/>Armor Helm Shoes Garment<br/>'''[Set Bonus]'''<br/>Total Defense +5%<br/>DEF+1 por cada 2 VIT base || Perfect Dodge: 001 || [[Thanatos Tower]]
+|-
+| '''Darkness Mantle [1]''' || 70 || 0 || 0 || Neutral Resistance +5% || Perfect Dodge: 000 || [[Waterfall Caves]]
+|-
+| '''Nidhogg's Garb [1]''' || 70 || 12 || 4 || SP+5%<br/>Dragon Breath DMG +15%<br/>Dragon Claw cooldown -1s<br/>Nidhogg Set:<br/>Garment and Card<br/>'''[Set Bonus]'''<br/>All Stats +1<br/>HP +5% || Perfect Dodge: 005 || [[Dragon Nest]]
+|-
+| '''Draco Manteau [1]''' || 70 || 10 || 2 || ATK+1%<br/>MATK+1%<br/>SP+50<br/>Draco Set:<br/>Armor Garment Shoes<br/>'''[Set Bonus]'''<br/>ASPD+10%<br/>Cast Time -10%<br/>After Cast Delay -10% || Perfect Dodge: 003 || [[Dragon Nest]]
+|-
+| '''Wakwak Manteau [1]''' || 70 || 16 || 5 || Bloody Fangs DMG+18%<br/>Vampire Mark Cooldown -5s<br/>HP Regen +12%<br/>Flee +5 || Perfect Dodge: 004 || [[Abandoned Hospital]]
+|-
+| '''Winged Mantle [1]''' || 70 || 10 || 3 || Move Speed +25%<br/>Enables High Jump Lv2 || Perfect Dodge: 008 || [[Thanatos Tower]]
+|-
+| '''Tundra Cape [1]''' || 70 || 10 || 3 || SP Cost-5%<br/>Frozen Crash DMG+10%<br/>Tundra Set:<br/>Armor Shoes and Garment<br/>'''[Set Bonus]'''<br/>All Stats +2<br/>SP Cost -5%<br/>Regen 5 SP por segundo || Perfect Dodge: 003 || [[Ice Dungeon]]
+|-
+| '''Tsukuyomi Muffler [1]''' || 75 || 10 || 5 || Ghost Magic DMG+10%<br/>SP Regen +5%<br/>Tsukuyomi Set:<br/>Robes Muffler Shoes<br/>'''[Set Bonus]'''<br/>INT+10<br/>Darkness Flows Cooldown -0.5s<br/>Unholy Light Cooldown -0.5s<br/>Venom Buster Cooldown -3s || Perfect Dodge: 003 || [[Amatsu Dungeon]]
+|-
+| '''Assassin Muffler [1]''' || 75 || 5 || 0 || Flee +12%<br/>Flying Knife Damage +15%<br/>Backslide cuando se usa Flying Knife || Perfect Dodge: 012 || [[Loki's Palace]]
+|-
+| '''Infiltrator Cape [1]''' || 75 || 5 || 1 || After Cast Delay -25%<br/>Shadowstab DMG+12% || Perfect Dodge: 009 || [[Alchemist Fortress]]
+|-
+| '''Blackguard Manteau [1]''' || 80 || 30 || 5 || Poison Element Resist +10%<br/>Undead Element Resist +10%<br/>Ghost Element Resist +10%<br/>Blackguard Set:<br/>Armor Garment Shoes<br/>'''[Set Bonus]'''<br/>Neutral Element Resist +10%<br/>HP+500<br/>ATK+1%<br/>MATK+1%<br/>All Stats +1 || Perfect Dodge: 005 || [[Geffenia Antitower]]
+|-
+| '''Ragged Manteau [1]''' || 80 || 19 || 25 || All Natural Elements Resistance -20%<br/>All Corporal Elements Resistance +15% || Perfect Dodge: 001 || [[Cursed Monastery]]
+|-
+| '''Morrigane Manteau [1]''' || 80 || 7 || 3 || ATK+5<br/>MATK+5<br/>Morrigane Set:<br/>GarmentHeadgear Pendant Belt<br/>'''[Set Bonus]'''<br/>ATK+3%<br/>MATK+3%<br/>ATK+1 por cada 3 INT base<br/>MATK+1 por cada 3 STR base || Perfect Dodge: 005 || [[Thanatos Tower]]
+|-
+| '''Dragon Scale Cape [1]''' || 80 || 10 || 5 || HP+10%<br/>Dragon Armor Set:<br/>Plate Boots and Cape<br/>'''[Set Bonus]'''<br/>All Stats +2<br/>SP Cost -10% || Perfect Dodge: 009 || [[Abyss Lake]]
+|-
+| '''Old Knight Mantle [1]''' || 90 || 15 || 3 || Neutral Resistance +5%<br/>Holy Resistance +10%<br/>Dark Resistance +10%<br/>Old Knight Set:<br/>Armors and Garment<br/>'''[Set Bonus]'''<br/>ATK +10<br/>MATK +10 || Perfect Dodge: 005 || [[Old Glast Heim]]
+|-
+| '''Ascended Valkyrie Manteau [1]''' || 100 || 15 || 7 || Healing Done +3% por refinar<br/>Ascended Valkyrie Set:<br/>Armor Shoes Garment<br/><br/>'''[Set Bonus]'''<br/>Armor es elemento sagrado<br/>All Stats +3<br/>ATK/MATK+3% || Perfect Dodge: 010 || [[Odin Temple]]
+|-
+| '''Asprika [0]''' || 100 || 10 || 5 || All non-neutral damage reduction +20%<br/>Total Flee +20%<br/>Asgard Set:<br/>Helm Armor Garment Shoes<br/>'''[Set Bonus]'''<br/>Doble Max HP/SP<br/>Desactiva la regeneración de HP/SP.<br/>Curación recibida -50% || Perfect Dodge: 020 || [[Sky Garden Exchange]]
+|-
+| '''Paradox Muffler [2]''' || 100 || 1 || 1 || Mejora completa del paradoja.
+|| Perfect Dodge: 003 || [[Varmundt's Mansion]]
+|-
+| '''Excelion Wing [1]''' || 100 || 15 || 3 || SP+10 por refinar<br/>Si el Refino es +9:<br/>SP+5%<br/>Excelion Set:<br/>Suit Wings Legs Gloves Shield and Visor<br/>'''[Set Bonus]'''<br/>All Stats +4<br/>Todo el daño recibido -5%<br/>Enfriamiento de curación -0.5s<br/>Regeneración de HP/SP +20% || Perfect Dodge: 004 || [[Verus Lost Sectors]]
+|-
+| '''Temporal Manteau [1]''' || 100 || 5 || 5 || HP+1% por refinar<br/>SP+1% por refinar<br/>Modificaciones de habilidades aleatorias<br/>Temporal Boots Combo:<br/>Boot Bonus para estadística 90 aumentada a 1.5x
+|| Perfect Dodge: 010 || [[Abyss Glast Heim]]
+|-
+| '''Fallen Valkyrie Manteau [1]''' || 100 || 15 || 7 || Curación recibida +3% por refinar<br/>Fallen Valkyrie Set:<br/>Armor Shoes Garment<br/><br/>'''[Set Bonus]'''<br/>Armor es elemento oscuro<br/>All Stats +3<br/>ATK/MATK+3% || Perfect Dodge: 010 || [[Odin Temple]]
+|-
+
+| '''Healing Received +3% per refine<br/>Fallen Valkyrie Set:<br/>Armor Shoes Garment<br/><br/>'''<b>[Set Bonus]</b>'''<br/>Armor is Dark Element<br/>All Stats +3<br/>ATK/MATK+3%
+| 100 || 15 || 7 || Perfect Dodge: 010 || [[Odin Temple]]
+|-
+| '''Sage Manteau [3]''' || 100 || 0 || 0 || 3 Slots<br/>HP Bonus: +1%<br/>SP Bonus: +0% || Perfect Dodge: 000 || [[Dicastes Diel Exchange]]
+|-
+| '''Sage Muffler [3]''' || 100 || 0 || 0 || 3 Slots<br/>HP Bonus: +0%<br/>SP Bonus: +1% || Perfect Dodge: 000 || [[Dicastes Diel Exchange]]
+|-
+| '''Stormwalker Mantle [1]''' || 100 || 3 || 3 || DEX+1<br/>If Base DEX is 50:<br/>Variable Cast Time -3% per refine<br/>Stormwalker Set:<br/>Mid Headgear Armor Shoes Garment Accessories<br/><b>[Set Bonus]</b><br/>All Stats +5<br/>HP/SP Regen+50% || Perfect Dodge: 005 || [[Ancient Temple]]
+|-
+| '''Dream Manteau [2]''' || 100 || 5 || 2 || Defense and Magic Defense Pierce +5%<br/>Extra 1% per refine<br/><b>Dream Enchants Available</b><br/>Dream Set:<br/>Armor Garment Shoes Left Accessory<br/><b>[Set Bonus]</b><br/>All Stats +1<br/>HP/SP +1% per 2 refines<br/>HP/SP Regen +50% || Perfect Dodge: 005 || [[Rachel Nightmare]], [[Dream Weaver]] (No Random Options)
+|-
+| '''Showstopper [1]''' || 105 || 4 || 1 || First Hand and Double Down cost no SP<br/>ASPD +12% || Perfect Dodge: 010 || [[Opera House]]
+|-
+| '''Black Cape [0]''' || 105 || 15 || 5 || Enables perfect Hiding<br/>ATK+1 per refine<br/>MATK+1 per refine<br/>Sneak Attack DMG+15% || Perfect Dodge: 007 || [[Opera House]]
+|-
+| '''Lava Spirit Manteau [1]''' || 110 || 32 || 0 || Neutral Resistance +5%<br/>Extra +1% per refine.<br/>Heavy Lava Spirit Set:<br/>Armor Shoes and Garment<br/><b>[Set Bonus]</b><br/>All Stats +2<br/>ATK+3%MATK+3%<br/>Healing Received +20%<br/>HP/SP Regen +25%<br/>Enables Free Cast Lv1 || Perfect Dodge: 004 || [[Thor Volcano]]
+|-
+| '''Lava Spirit Muffler [1]''' || 110 || 25 || 5 || Poison Ghost and Undead Resistance +5%<br/>Extra +1% per refine.<br/>Medium Lava Spirit Set:<br/>Armor Shoes and Garment<br/><b>[Set Bonus]</b><br/>All Stats +2<br/>ATK+3%MATK+3%<br/>Healing Received +20%<br/>HP/SP Regen +25%<br/>Enables Free Cast Lv1 || Perfect Dodge: 006 || [[Thor Volcano]]
+|-
+| '''Lava Spirit Hood [1]''' || 110 || 10 || 10 || Fire Water Wind and Earth Resistance +5%<br/>Extra +1% per refine.<br/>Light Lava Spirit Set:<br/>Armor Shoes and Garment<br/><b>[Set Bonus]</b><br/>All Stats +2<br/>ATK+3%MATK+3%<br/>Healing Received +20%<br/>HP/SP Regen +25%<br/>Enables Free Cast Lv1 || Perfect Dodge: 005 || [[Thor Volcano]]
+|-
+| '''Piercing Veil Cape [1]''' || 120 || 5 || 29 || INT+2<br/>Magic Defense Pierce +2% per refine<br/>Piercing Veil Set:<br/>Tunic Cape and Sandals<br/><b>[Set Bonus]</b><br/>Fire Water Wind and Earth magic DMG +20%<br/>Magic Defense Pierce +10%<br/>INT+1 || Perfect Dodge: 002 || [[Death's Castle]]
+|-
+| '''Cape of Lords [1]''' || 120 || 15 || 2 || Flat Defense +7%<br/>Plague Impress DMG+20%<br/>Lords Set:<br/>Armor Cape Greaves<br/><b>[Set Bonus]</b><br/>Recover HP while moving<br/>HP Regen +50%<br/>Queen's Brand Plague Impress and Dragon Breath DMG+20%<br/>All Stats +2 || Perfect Dodge: 005 || [[Regenschutz Lab]]
+|-
+| '''Spectral Manteau [0]''' || 125 || 2 || 12 || Spectral Servants DMG+50%<br/>ASPD+1 per refine || Perfect Dodge: 009 || [[Divine Temple of Freya]]
+|-
+| '''Mercury Cape [2]''' || 130 || 15 || 5 || HP+3%<br/>SP+3%<br/>After Cast Delay -5%<br/>SP Cost -5%<br/>STR+1 per refine || Perfect Dodge: 009 || [[Thanatos Paradise]]
+|-
+| '''Venus Cape [2]''' || 130 || 15 || 5 || HP+3%<br/>SP+3%<br/>After Cast Delay -5%<br/>SP Cost -5%<br/>AGI+1 per refine || Perfect Dodge: 009 || [[Thanatos Paradise]]
+|-
+| '''Mars Cape [2]''' || 130 || 15 || 5 || HP+3%<br/>SP+3%<br/>After Cast Delay -5%<br/>SP Cost -5%<br/>VIT+1 per refine || Perfect Dodge: 009 || [[Thanatos Paradise]]
+|-
+| '''Surt Shawl [1]''' || 130 || 20 || 10 || Neutral Resistance +10%<br/>Non-Neutral Resistance +2% per refine<br/>Diabolus Set:<br/>Shawl Shoes and Robe or Armor<br/><b>[Set Bonus]</b><br/>Robes: MATK+10%<br/>Armor: ATK+10% || Perfect Dodge: 010 || [[Dimensional Gorge]]
+|-
+| '''Emperium Manteau [1]''' || 130 || 12 || 3 || ATK/MATK +2 per refine<br/>Emperium Set:<br/>Armor Garment Shoes Ring<br/><b>[Set Bonus]</b><br/>HP/SP Regeneration +100%<br/>All Stats +3<br/>ATK/MATK+3% || Perfect Dodge: 009 || [[Abandoned Castle]]
+|-
+| '''Neptune Cape [2]''' || 130 || 15 || 5 || HP+3%<br/>SP+3%<br/>After Cast Delay -5%<br/>SP Cost -5%<br/>LUK+1 per refine || Perfect Dodge: 009 || [[Thanatos Paradise]]
+|-
+| '''King's Mantle [1]''' || 130 || 15 || 8 || SP+1% per 5 VIT<br/>Cursed King Set:<br/>Armor Garment and Shoes<br/><b>[Set Bonus]</b><br/>Final Damage Received -10%<br/>All Stats +3 || Perfect Dodge: 009 || [[Lost Tomb of the King]]
+|-
+| '''Saturn Cape [2]''' || 130 || 15 || 5 || HP+3%<br/>SP+3%<br/>After Cast Delay -5%<br/>SP Cost -5%<br/>INT+1 per refine || Perfect Dodge: 009 || [[Thanatos Paradise]]
+|-
+| '''Jupiter Cape [2]''' || 130 || 15 || 5 || HP+3%<br/>SP+3%<br/>After Cast Delay -5%<br/>SP Cost -5%<br/>DEX+1 per refine || Perfect Dodge: 009 || [[Thanatos Paradise]]
+|}

@@ -1,0 +1,515 @@
+[[File:Anewworld.png|299x67px|link=Anewworld]]
+<center>
+<div style="display:inline-block; background-color:#0078D7; color:white; padding:12px 20px; border-radius:8px; text-align:center; font-weight:bold; font-size:14px; text-decoration:none; transition:0.3s; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);">
+[https://echoesofmorroc.com/dungeons <span style="color:white; text-decoration:none;">🔗 You can know more about dungeons at the database</span>]
+</div>
+</center>
+= <span id="New_Exploration" class="mw-headline">New Exploration</span> =
+
+Return to Morroc provides a whole new world to explore. It's a familiar but heavily changed place, all done in a way to make exploration rewarding, unique and varied.
+
+
+== <span id="Regions" class="mw-headline">Regions</span> ==
+
+Regions of Midgard are vastly changed compared to original places. Some areas might be familiar to some, but the way they work may be completely changed. Below is a full breakdown of all major field regions.
+
+Regions never spawn a Shadow when a player dies.
+
+{|class="wikitable sortable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+! style="background: #99d9ea;" | Region
+! style="background: #99d9ea;" | Monster Areas
+! style="background: #99d9ea;" | Level Range
+! style="background: #99d9ea;" | Related City
+! style="background: #99d9ea;" | Location
+|-
+| [[Morroc Desert]]
+| 18 Maps
+| 1~40
+| Morroc
+| Midgard South
+|-
+| [[Prontera Fields]]
+| 12 Maps
+| 1~40
+| Prontera
+| Midgard Center
+|-
+| [[Payon Forest]]
+| 11 Maps
+| 1~15
+| Payon and Alberta
+| Midgard Southeast
+|-
+| [[Geffen Fields]]
+| 14 Maps
+| 25~60
+| Geffen
+| Midgard East
+|-
+| [[Fort St Darmain]]
+| 4 Maps
+| 55~60
+| Comodo and Morroc
+| Midgard South
+|-
+| [[Comodo Forest]]
+| 5 Maps
+| 45~55
+| Comodo
+| Midgard Southwest
+|-
+| [[Umbala Jungle]]
+| 4 Maps
+| 60~65
+| Umbala
+| Midgard Southwest
+|-
+| [[Splendide Forest]]
+| 3 Maps
+| 70~75
+| Mora
+| Bridges Comodo and Geffen Regions
+|-
+| [[Mjolnir Mountain]]
+| 12 Maps
+| 45~60
+| Aldebaran
+| Midgard North
+|-
+| [[Eastern Islands]]
+| 3 Maps
+| 80~90
+| Amatsu, Ayothaya and Malaya
+| Off-Coast Midgard East
+|-
+| [[Dewata Island]]
+| 1 Map
+| 80~85
+| Dewata
+| Off-Coast Midgard West
+|-
+| [[Yuno Fields]]
+| 12 Maps
+| 50~85
+| Yuno
+| Schwarzwald Center
+|-
+| [[Hugel Fields]]
+| 7 Maps
+| 70~80
+| Hugel
+| Schwarzwald East
+|-
+| [[Einbroch Fields]]
+| 10 Maps
+| 55~65
+| Einbroch, Einbech
+| Schwarzwald West
+|-
+| [[Lighthalzen Fields]]
+| 3 Maps
+| 50
+| Lighthalzen
+| Schwarzwald West
+|-
+| [[Rachel Fields]]
+| 13 Maps
+| 85~99
+| Rachel
+| Arunafeltz North
+|-
+| [[Veins Fields]]
+| 6 Maps
+| 105~115
+| Veins, Rachel
+| Arunafeltz South
+|-
+| [[Snow Fields]]
+| 5 Maps
+| 75~85
+| Lutie, Dicastes Diel
+| Schwarzwald Off-Coast East
+|-
+| [[Verus Lost Sectors]]
+| 4 Maps
+| 105~115
+| Verus
+| Schwarzwald Underground
+|-
+| [[Niflheim Fields]]
+| 2 Maps
+| 115~120
+| Niflheim
+| New-Midgard Underworld
+|-
+| [[Yggdrasil Branches]]
+| 2 Maps
+| 95~100
+| Umbala
+| Yggdrasil Tree
+|}
+
+== <span id="Dungeons" class="mw-headline">Dungeons</span> ==
+
+Dungeons are regular places to hunt for items, cards and level up. They are harder than most fields but always carry considerable and unique rewards. Dungeons are NOT instance-based. They are open maps that can be explored as much as needed.
+
+They also have a Ranking that dictates how hard a dungeon is, the rank also dictates what shadows will spawn for the [https://web.archive.org/web/20230822235444/https://returntomorroc.com/wiki/index.php/Shadow_System Shadow System].
+
+{|class="wikitable sortable" style="font-weight:bold; text-align:left; width: 100%; min-width: 700px;" cellpadding="20"
+! style="background: #99d9ea;" | Dungeon
+! style="background: #99d9ea;" | Rank
+! style="background: #99d9ea;" | Level Range
+! style="background: #99d9ea;" | Access Location
+! style="background: #99d9ea;" | MVP
+! style="background: #99d9ea;" | Major Changes
+|-
+| [[Pyramid Basement]]
+| D
+| 1~15
+| Morroc Ruins
+| Orphan Piamette
+| More passages are open on the labyrinth
+|-
+| [[Upper Pyramid]]
+| D
+| 1~25
+| Morroc Ruins
+| Osiris
+| No Changes
+|-
+| [[Insect Society Nest]]
+| A
+| 15~20
+| Sograt Desert
+| Queen Maya and Queen Scaraba
+| Rubble brought from the surface
+|-
+| [[Payon Cave]]
+| D
+| 15~25
+| Archer Village
+| Moonlight Flower
+| added shortcuts, one less floor
+|-
+| [[Prontera Culvert]]
+| E
+| 20~30
+| West Prontera
+| Golden Thief Bug
+| Added shortcut, removed 2 floors
+|-
+| [[Sphinx]]
+| B
+| 25~35
+| Morroc Sphinx
+| Pharaoh
+| Added shortcuts
+|-
+| [[Byalan Island]]
+| D
+| 30~45
+| Izlude Marina
+| Coelacanth
+| Lighting
+|-
+| [[Geffen Cave]]
+| D
+| 35~40
+| Geffen South
+| Dracula
+| New entrance and changed order
+|-
+| [[Sunken Ship]]
+| C
+| 35~45
+| Alberta Marina
+| Drake
+| Lighting, Ambience, ghosts
+|-
+| [[Beach Caves]]
+| D
+| 40~45
+| Comodo North/West
+| Tao Gunka
+| Removed East floor
+|-
+| [[Noble's Bathhouse]]
+| A
+| 40~50
+| Comodo
+| Angry Pyuriel
+| New Dungeon
+|-
+| [[Orc Dungeon]]
+| C
+| 50~55
+| Geffen South Fields
+| Orc Lord Zombie
+| Lighting and Ambience
+|-
+| [[Coal Mines]]
+| E
+| 55~60
+| Mjolnir Mountain
+| Noble Devourer
+| Changed 2F, Extra floor
+|-
+| [[Turtle Dungeon]]
+| A
+| 55~60
+| Alberta Marina
+| Turtle General
+| Changed 2F, Extra floor
+|-
+| [[Magma Dungeon]]
+| B
+| 55~60
+| Yuno Southeast
+| Muspelskoll
+| Removed a floor
+|-
+| [[Sunken Temple]]
+| B
+| 60~70
+| Payon
+| General Daehyon
+| New Dungeon
+|-
+| [[Airship Crash Site]]
+| S
+| 60~70
+| Einbroch Fields/Mjolnir Mountain
+| Serpens
+| New Dungeon
+|-
+| [[Clock Tower]]
+| D
+| 65~70
+| Aldebaran
+| Timeholder
+| Removed Basement
+|-
+| [[Faceworm Nest]]
+| A
+| 65~70
+| Archer Village
+| Faceworm Queen
+| New Dungeon
+|-
+| [[Einbroch Mines]]
+| D
+| 70~75
+| Einbech
+| RSX-0806
+| Removed 3F
+|-
+| [[Toy Factory]]
+| E
+| 70~75
+| Lutie
+| Stormy Knight
+| Lighting
+|-
+| [[Regenschrim Lab]]
+| A
+| 70~80
+| Lighthalzen
+| Forgotten Egnigem
+| Spoiler
+|-
+| [[Dragon Nest]]
+| C
+| 75~80
+| Comodo Northeast
+| Nidhogg
+| New Dungeon
+|-
+| [[Waterfall Caves]]
+| ?
+| ??~??
+| Malaya Field
+| Baroness of Despair
+| New Dungeon
+|-
+| [[Glast Heim]]
+| C
+| 80~95
+| Geffen West
+| Dream of Kings
+| Removed filler floors
+|-
+| [[Ayothaya Temple]]
+| D
+| 85~90
+| Ayothaya Field
+| Amon Ra
+| Added Minimap
+|-
+| [[Dewata Volcano]]
+| D
+| 85~90
+| Dewata Beach
+| Scylla
+| Removed Caves
+|-
+| [[Amatsu Dungeon]]
+| B
+| 90~95
+| Amatsu Field
+| Incantation Samurai
+| Remade Entrance and First Floor
+|-
+| [[Crystal Caves]]
+| C
+| 90~95
+| Snow Fields
+| Brinaranea
+| New Dungeon
+|-
+| [[Juperos]]
+| E
+| 90~95
+| Yuno Fields
+| Vesper
+| Changed progression and Lighting
+|-
+| [[Alchemist Fortress]]
+| D
+| 90~100
+| Mjolnir Mountain
+| Failed Abomination
+| New Dungeon
+|-
+| [[Geffenia]]
+| C
+| 95~100
+| Geffen
+| Bestia
+| New entrance, under tower
+|-
+| [[Abyss Lake]]
+| B
+| 90~100
+| Hugel Field
+| Detale
+| Changed Lighting
+|-
+| [[Abandoned Hospital]]
+| S
+| 95~100
+| Malaya
+| Soul Cage Azrael
+| Expanded 1 Floor
+|-
+| [[Ice Dungeon]]
+| B
+| 95~100
+| Rachel Field
+| Ktullanux
+| Changed Lighting
+|-
+| [[Rachel Sanctuary]]
+| C
+| 95~100
+| Rachel Temple
+| Gloom Under Night
+| Changed Lighting
+|-
+| [[Cursed Monastery]]
+| A
+| 100~105
+| Nameless Island
+| Fallen Bishop Hibram
+| Unlocked camera
+|-
+| [[Sky Garden]]
+| A
+| 100~105
+| Yggdrasil Branches
+| Sarah Irine
+| New Dungeon
+|-
+| [[Abandoned Kafra Warehouse]]
+| B
+| 100~105
+| Aldebaran North
+| Kafra Manager Jenni
+| New Dungeon
+|-
+| [[Kiel Hyre Factory]]
+| C
+| 100~105
+| Yuno Fields
+| Kiel D-01
+| New Lighting, new theme
+|-
+| [[Odin Temple]]
+| ?
+| 105~115
+| Hugel Boat
+| Valkyrie Randgris
+| New Lighting and mood
+|-
+| [[Opera House]]
+| A
+| 115~120
+| Niflheim
+| Baroness of Sorrow
+| &quot;New&quot; Dungeon
+|-
+| [[Thor Volcano]]
+| A
+| 120~125
+| Veins Field
+| Ifrit
+| Unlocked camera
+|-
+| [[Varmundt's Mansion]]
+| B
+| 130~135
+| Lighthalzen Airship
+| Paradox Amdarais
+| New Dungeon
+|-
+| [[Death's Castle]]
+| B
+| 135~140
+| Niflheim Field
+| Lord of Death
+| New Dungeon
+|-
+| [[Regenschutz Lab]]
+| S
+| 135~140
+| Rachel Field
+| Absolute Seyren
+| New Dungeon
+|-
+| [[Lost Tomb of the King]]
+| S
+| 140~145
+| Alberta
+| King Schmidt
+| New Dungeon
+|-
+| [[Yggdrasil Tree]]
+| E
+| 1~150
+| Umbala
+| Shining Plant
+| Reworked Umbala Dungeon
+|-
+| [[Prontera Maze]]
+| C
+| 1~50
+| Prontera North
+| Baphomet
+| Removed first floor
+|-
+| [[Thanatos Tower]]
+| B
+| 40~100
+| Hugel Field
+| Thanatos
+| Removed later smaller floors, removed quest
+|}

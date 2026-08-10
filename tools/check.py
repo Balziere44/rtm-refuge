@@ -39,7 +39,11 @@ def fail(name, msg):
 
 
 def html_files():
-    return sorted(f for f in os.listdir(ROOT) if f.endswith(".html"))
+    out = sorted(f for f in os.listdir(ROOT) if f.endswith(".html"))
+    sub = os.path.join(ROOT, "classes")
+    if os.path.isdir(sub):
+        out += ["classes/" + f for f in sorted(os.listdir(sub)) if f.endswith(".html")]
+    return out
 
 
 def main():
@@ -49,7 +53,7 @@ def main():
 
     anchors = {}
     for name in files:
-        raw = open(os.path.join(ROOT, name), "rb").read()
+        raw = open(os.path.join(ROOT, name.replace("/", os.sep)), "rb").read()
         if b"\r\n" in raw:
             fail(name, "CRLF line endings")
         src = raw.decode("utf-8")
@@ -90,7 +94,7 @@ def main():
 
     # Internal links: the file has to exist, and #fragments have to exist in it.
     for name in files:
-        src = open(os.path.join(ROOT, name), encoding="utf-8").read()
+        src = open(os.path.join(ROOT, name.replace("/", os.sep)), encoding="utf-8").read()
         for href in re.findall(r'href="([^"]+)"', src):
             if href.startswith(("http", "mailto:", "#", "//")):
                 if href.startswith("#") and href[1:] not in anchors[name]:
@@ -99,9 +103,11 @@ def main():
             target, _, frag = href.partition("#")
             if not target:
                 continue
-            if not os.path.exists(os.path.join(ROOT, target)):
+            base = os.path.dirname(name)
+            resolved = os.path.normpath(os.path.join(base, target)).replace(os.sep, "/")
+            if not os.path.exists(os.path.join(ROOT, resolved.replace("/", os.sep))):
                 fail(name, "link to missing file: %s" % target)
-            elif frag and target.endswith(".html") and frag not in anchors.get(target, set()):
+            elif frag and target.endswith(".html") and frag not in anchors.get(resolved, set()):
                 fail(name, "link to missing anchor: %s" % href)
 
     for required in ("sitemap.xml", "robots.txt", "llms.txt", "_headers",

@@ -1,0 +1,180 @@
+== Job Classes ==
+[[File:Largejobtree.jpg|310px|right]]
+=== Path of the Orphan ===
+In Return to Morroc, the Orphan is the only starter choice for any player. The Orphan has a multitude of paths to choose from, each with a special progression and their own rules. Minor changes in the main story or with NPC behavior might happen with different Trees.
+
+'''NOTE: Specific Numeric values for skills won't be shown as they can be changed slightly over time for balance.'''
+
+You can see the [[Job Quests]] for each of the jobs below.
+
+{| class="wikitable" style="font-weight:bold; text-align:center; width: 100%; min-width: 700px;" cellpadding="20"
+|-
+! colspan="7" style="text-align:center; background-color:#99d9ea;" | [[File:Orphan.gif|25px|link=Orphan]]<br/>[[Orphan]]
+|-
+| style="width: 12%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Thief.gif|25px|link=Thief]]<br/> [[Thief]]
+| style="width: 12%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Trickster.gif|25px|link=Trickster]]<br/> [[Trickster]]
+| rowspan="2" style="width: 12%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Jester.gif|25px|link=Jester]]<br/>[[Jester]]
+| rowspan="2" style="width: 12%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Ronin.gif|25px|link=Ronin]]<br/>[[Ronin]]
+| rowspan="2" style="width: 12%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Mimic.gif|25px|link=Mimic]]<br/>[[Mimic]]
+| style="width: 12%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Vagabond.gif|25px|link=Vagabond]]<br/>[[Vagabond]]
+| style="width: 12%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Raider.gif|25px|link=Raider]]<br/>[[Raider]]
+|-
+| style="width: 12%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Unchthief.gif|25px|link=Unchained_Evolutions]]<br/>[[Unchained Evolutions]]
+| style="width: 12%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Revenant.gif|25px|link=Revenant]]<br/>[[Revenant]]
+| style="width: 12%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Legend.gif|25px|link=Legend]]<br/>[[Legend]]
+| style="width: 12%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Dracomancer.gif|25px|link=Dracomancer]]<br/>[[Dracomancer]]
+|}
+
+=== Thief Tree ===
+{| class="wikitable" style="font-weight:bold; text-align:center; width: 100%; min-width: 700px;" cellpadding="20"
+|-
+! colspan="10" style="text-align:center; background-color:#9999ea;" | Thief Tree
+|-
+| colspan="4" style="width: 46%; border-left:1px solid #99d9ea; border-right: 1px solid #ccc;" |
+[[File:Assassin.gif|25px|link=Assassin]]<br/>[[Assassin]]
+| rowspan="4" style="width: 8%; border-left:1px solid #99d9ea; border-right: 1px solid #ccc;" |
+[[File:Shadowseer.gif|25px|link=Shadowseer]]<br/>[[Shadowseer]]
+| rowspan="4" style="width: 8%; border-left:1px solid #99d9ea; border-right: 1px solid #ccc;" |
+[[File:Prowler.gif|25px|link=Prowler]]<br/>[[Prowler]]
+| colspan="4" style="width: 46%; border-left:1px solid #99d9ea; border-right: 1px solid #ccc;" |
+[[File:Rogue.gif|25px|link=Rogue]]<br/>[[Rogue]]
+|-
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Bladedancer.gif|25px|link=Blade_Dancer]]<br/>[[Specializations#Blade_Dancer|Blade dancer]]
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Shinobi.gif|25px|link=Shinobi]]<br/>[[Specializations#Shinobi|Shinobi]]
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Executioner.gif|25px|link=Executioner]]<br/>[[Specializations#Executioner|Executioner]]
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Scoundrel.gif|25px|link=Scoundrel]]<br/>[[Specializations#Scoundrel|Scoundrel]]
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Mystic.gif|25px|link=Mystic]]<br/>[[Specializations#Mystic|Mystic]]
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Duelist.gif|25px|link=Duelist]]<br/>[[Specializations#Duelist|Duelist]]
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Deadeye.gif|25px|link=Deadeye]]<br/>[[Specializations#Deadeye|Deadeye]]
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Saboteur.gif|25px|link=Saboteur]]<br/>[[Specializations#Saboteur|Saboteur]]
+|-
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Nightraven.gif|25px|link=Night_Raven]]<br/>[[Night Raven]]
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Satsujin.gif|25px|link=Satsujin]]<br/>[[Satsujin]]
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Gravekeeper.gif|25px|link=Gravekeeper]]<br/>[[Gravekeeper]]
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Black_plague.gif|25px|link=Black Plague]]<br/>[[Black_Plague|Black plague]]
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+
+[[File:Arcanemaster.gif|25px|link=Arcanemaster]]<br />[[Arcanemaster]]
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Kingslayer.gif|25px|link=Kingslayer]]<br /> [[Kingslayer]]
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Sinner.gif|25px|link=Sinner]]<br />[[Sinner]]
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Blastjuggler.gif|25px|link=Blastjuggler]]<br />[[Blast_Juggler|Blastjuggler]]
+|}
+{| class="wikitable" style="font-weight:bold; text-align:center; width: 100%; min-width: 700px;" cellpadding="20"
+|-
+! colspan="10" style="text-align:center; background-color:#9999ea;" | Expert Classes
+|-
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Judge.gif|25px|link=Judge]]<br />[[Judge]]
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Peacekeeper.gif|25px|link=Peacekeeper]]<br />[[Peacekeeper]]
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Illusionist.gif|25px|link=Illusionist]]<br />[[Illusionist]]
+| style="width: 10%; border-left:1px solid #ccc; border-right: 1px solid #ccc;" |
+[[File:Darkknight.gif|25px|link=Darkknight]]<br />[[Darkknight]]
+|}
+
+== <span id="Job_Progression" class="mw-headline">Job Progression</span> ==
+
+=== <span id="Thief_Tree" class="mw-headline">Thief Tree</span> ===
+
+* The Thief is the &quot;main&quot; progress route for most players. It provides balanced gameplay with a large variety of choices.
+* The Thief tree is for players who are ready to fight and fulfill their destiny as an Orphan.
+* Thief, Assassin and Rogue can also UNCHAIN their jobs, locking them out of job changes, but unlocking new, mixed skill trees.
+*# Reach Job Level 10 as Orphan.
+*# Change into Thief.
+*# Reach job Level 50 as a Thief.
+*# Change into either Assassin(Path of Tradition) or Rogue(Path of Change).
+*# Get Job Level 50 as Assassin or Rogue.
+*# Choose one of the [[Specializations|Specializations]]. This will unlock the Job Level cap from 50 to 70.
+*# Get Job Level 70 with the Specialization. Specializations start at Job Level 50.
+*# Change into final job Class. Max Job level is 70.
+*# There are 8 possible final jobs: Night Raven, Satsujin, Black Plague and Gravekeeper for Assassin. Arcane Master, Kingslayer, Sinner and Blast Juggler for Rogue.
+
+* Thieves also have an unique alternative of abandoning the path and becoming Prowlers or Shadowseers.
+*# Requires being a Job Level 50 Thief
+*# Prowler and Shadowseer have a maximum level of 150/70
+
+=== <span id="Trickster.2FVagabond_Tree"></span><span id="Trickster/Vagabond_Tree" class="mw-headline">Trickster/Vagabond Tree</span> ===
+
+* The Trickster and the Vagabond are an alternative progress path for players. They provide unique mechanics and gameplay choices unlike any other.
+* These trees are for players who are willing to ignore their destiny and either control Morroc's Mark (Tricksters) or ignore it completely (Vagabond).
+*# Reach Job Level 10 as Orphan. Vagabond also requires Base Lv 15.
+*# Change into Trickster or Vagabond.
+*# Reach job Level 70 as either.
+*# Change into either Revenant(for Tricksters) or Legend(for Vagabonds). Max Job level is 70.
+
+=== <span id="Jester_Tree" class="mw-headline">Jester Tree</span> ===
+
+* The Jester is a unique job that plays around alternating weapons. They are an easy job to play for people familiar with classic Ragnarok Online mechanics, with very short cooldowns.
+* This job is for players who don't care about Morroc's Mark and sees everything as a terrible joke played on them, They completely break the main story.
+*# Reach Job Level 10 as Orphan.
+*# Change into Jester. Jester has 70 job levels.
+
+=== <span id="Ronin_Tree" class="mw-headline">Ronin Tree</span> ===
+
+* The Ronin is a special job focused on perfect play. They are 100% focused on criticals and have very low hit chance when not dealing critical damage.
+* This job is for players who meditate about Morroc's Mark and can keep a good spiritual health while keeping balance of spirit, mind and body.
+*# Reach Job Level 10 as Orphan.
+*# Change into Ronin. Ronin has 50 job levels.
+
+=== <span id="Raider_Tree" class="mw-headline">Raider Tree</span> ===
+
+* The Raider tree is for players who want to fight for extra objectives and a bigger meaning. They must be prepared to take extra time to hunt and grow.
+* This tree has a unique interaction with multiple items and NPCs, and a simple job quest. Their main story quest has little change.
+* Be prepared to find harsh requirements for job quests and equipments.
+*# Reach Job Level 10 as an Orphan.
+*# Change into Raider. Raider has 50 Job levels, those job levels are very fast.
+*# Raider can start the Trial of Dragons to become a Dracomancer. Details for this trial are unknown.
+*# Dracomancers have 70 job levels and can equip Draco Orbs instead of [[Runes]].
+
+=== <span id="Expert_Tree" class="mw-headline">Expert Tree</span> ===
+
+* The Illusionist, Dark Knight, Peacekeeper and Judge jobs are considered Expert Jobs, they offer unique challenging gameplay systems and are not recommended for new players or those unprepared.
+* These jobs are for players who want to have minor unique interactions with lore and systems while sticking to the regular main story.
+* Illusionist has a focus on it's Puppet, Judge has unique crafted weapons and combat mechanics based on its job level.
+* Peacekeepers are a job from the new Frontier region, they fight using whips and trinkets.
+* Judges are the only job who can access the Inner Prontera Castle Headquarters.
+* Dark Knights focus on missing HP to increase the final damage of their skills.
+*# Reach Job Level 10 and Base Level 15 as an Orphan.
+*# Change into Illusionist, Dark Knight, Peacekeeper or Judge. Illusionist has 50 Job levels and you can get all skills. Dark Knight and Peacekeeper have 70 Job Levels. Judge has 100 job levels.
+
+=== <span id="Unchained_Evolutions" class="mw-headline">Unchained Evolutions</span> ===
+
+* The Unchained evolutions are ways to progress as a Thief, Assassin or Rogue in an alternative way.
+* They provide unique paths that focus on non-final job skills and new interactions.
+* Unchained Thief Requires Thief Job Level 50, and can become a Phantom Thief when Base Level 100.
+* Assassins and Rogues can break the limits and forever lock their job in that form when they reach Base Level 100 with no specialization.
+
+== <span id="Merchant" class="mw-headline">Merchant</span> ==
+
+* The Merchant is a unique job that allows players to buy and sell items with ease.
+* They cannot level up. They also have free travel between the Orphanage and Alberta.
+* Merchants can get a cart anywhere, anytime, by using their exclusive item.
+* Merchants have 3 skills, all learned at job change. Orphan must be Base Level 1 to change.
+* To change into a Merchant, visit the Merchant Envoy near the backroom in the Orphanage.

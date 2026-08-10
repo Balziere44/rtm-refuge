@@ -1,0 +1,52 @@
+The **Paradox system** introduces a clear separation between different gameplay environments, designed to support **seasonal content** and alternative progression paths without affecting the main game.
+
+At its core, Paradox exists to ensure that progress made in one environment cannot be carried into another. This keeps each experience fair, self-contained, and balanced over time.
+
+== Realm separation ==
+Characters and items belong to a specific realm.  Interactions are only allowed when both sides belong to the same realm.
+
+In practice, this means that Paradox and Normal gameplay do not mix.  Items, zeny, and progression obtained in Paradox cannot be transferred to Normal characters, and vice versa.
+
+This separation helps prevent indirect advantages, same-account transfers, and unintended shortcuts between different progression environments.
+
+== What gets blocked ==
+To preserve this separation, interactions across realms are restricted.  When a mismatch is detected, the action is simply not allowed.
+
+This includes, but is not limited to:
+
+* Trading items or zeny
+* Player shops (vending and buying stores)
+* Storage and guild storage access
+* Mail and auctions
+* Party and guild interactions
+* Using shortcuts or portals created by characters from another realm
+
+These restrictions apply consistently and are not meant to be bypassed during normal gameplay.
+
+== Paradox and Seasons ==
+Paradox is closely tied to the concept of **Seasons**.
+
+Each season represents a fresh, self-contained experience where players can start over, explore new mechanics, and progress through exclusive content.
+
+Paradox characters are the foundation of seasonal gameplay.
+
+== Seasonal questlines ==
+Each Paradox season features its own dedicated questlines.  These quests are designed to introduce the seasonal theme, guide progression, and encourage exploration of season-specific mechanics.
+
+Seasonal questlines are exclusive to Paradox characters and do not interact with Normal progression.
+
+=== (To be expanded) ===
+
+== Seasonal tickets & rewards ==
+Seasons use a separate reward system based on **Seasonal Tickets**.
+
+These tickets are earned through Paradox gameplay and can be exchanged for seasonal rewards, cosmetics, and other exclusive items tied to that season.
+
+Seasonal rewards are designed to remain within the Paradox ecosystem and do not affect the Normal economy.
+
+=== (To be expanded) ===
+
+== Design philosophy ==
+Paradox is not meant to replace the Normal game.  It exists as an optional, parallel experience that allows for experimentation, fresh progression, and seasonal content.
+
+By keeping realms isolated, the server can safely introduce new ideas, mechanics, and progression models while preserving the integrity of the core game.

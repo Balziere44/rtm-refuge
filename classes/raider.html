@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Raider | Return to Morroc: Refuge</title>
+<meta name="description" content="Raider in Return to Morroc: Refuge - Spears, staying power, and a trial that ends in a dragon. Skill list, strengths, weaknesses and what the rebuild changed.">
+<link rel="canonical" href="https://rtmrefuge.pages.dev/classes/raider.html">
+
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="theme-color" content="#06040a">
+<meta name="theme-color" content="#06040a" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f2f0f5" media="(prefers-color-scheme: light)">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Return to Morroc: Refuge">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://rtmrefuge.pages.dev/classes/raider.html">
+<meta property="og:title" content="Raider | Return to Morroc: Refuge">
+<meta property="og:description" content="Raider in Return to Morroc: Refuge - Spears, staying power, and a trial that ends in a dragon. Skill list, strengths, weaknesses and what the rebuild changed.">
+<meta property="og:image" content="https://rtmrefuge.pages.dev/assets/social/og-cover.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Return to Morroc: Refuge">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Raider | Return to Morroc: Refuge">
+<meta name="twitter:description" content="Raider in Return to Morroc: Refuge - Spears, staying power, and a trial that ends in a dragon. Skill list, strengths, weaknesses and what the rebuild changed.">
+<meta name="twitter:image" content="https://rtmrefuge.pages.dev/assets/social/og-cover.jpg">
+
+<link rel="icon" href="../assets/img/icon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="../assets/img/icon-180.png">
+<link rel="manifest" href="../site.webmanifest">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+
+<script>
+/* The only blocking script on the site. It has to run before the first paint
+   or the wrong theme shows for a frame. */
+(function () {
+  try {
+    var t = localStorage.getItem('rtmr-theme');
+    if (!t) t = matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+    document.documentElement.dataset.theme = t;
+  } catch (e) {}
+})();
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "item": "https://rtmrefuge.pages.dev/index.html", "name": "Home"},
+    {"@type": "ListItem", "position": 2, "item": "https://rtmrefuge.pages.dev/classes.html", "name": "Classes"},
+    {"@type": "ListItem", "position": 3,  "name": "Raider"}
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="shell header-inner">
+    <a class="brand" href="../index.html">
+      <img class="mark" src="../assets/img/icon-192.png" width="34" height="34" alt="" aria-hidden="true">
+      <span class="brand-text">
+        <span class="brand-name">RETURN TO MORROC</span>
+        <span class="brand-sub">Refuge</span>
+      </span>
+    </a>
+    <!-- NAV:START -->
+    <nav class="nav" aria-label="Main">
+      <a href="../index.html">Home</a>
+      <a href="../server.html">The Server</a>
+      <a href="../start.html">Start Here</a>
+      <a href="../classes.html" aria-current="page">Classes</a>
+      <a href="../mechanics.html">Mechanics</a>
+      <a href="../gear.html">Gear</a>
+      <a href="../world.html">World</a>
+      <a href="../guides.html">Guides</a>
+      <a href="../join.html">Join</a>
+    </nav>
+    <!-- NAV:END -->
+    <div class="header-actions">
+      <button class="icon-btn" type="button" data-theme-toggle aria-label="Switch theme">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+          <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" stroke-linejoin="round"/>
+        </svg>
+      </button>
+      <a class="icon-btn" href="https://discord.gg/a5P3PFNMhn" rel="noopener" aria-label="Community chat server">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M19.6 5.6A16 16 0 0 0 15.7 4.4l-.2.4a12 12 0 0 1 3.4 1.7 14 14 0 0 0-12-.6 13 13 0 0 0-1.7.6 12 12 0 0 1 3.4-1.7l-.2-.4A16 16 0 0 0 4.4 5.6C2 9.2 1.3 12.7 1.6 16.2a16 16 0 0 0 4.9 2.5l1-1.6a10 10 0 0 1-1.6-.8l.4-.3a11 11 0 0 0 9.4 0l.4.3a10 10 0 0 1-1.6.8l1 1.6a16 16 0 0 0 4.9-2.5c.4-4-.7-7.5-2.8-10.6zM8.6 14.3c-1 0-1.7-.9-1.7-1.9s.8-1.9 1.7-1.9 1.8.9 1.7 1.9c0 1-.7 1.9-1.7 1.9zm6.3 0c-1 0-1.7-.9-1.7-1.9s.8-1.9 1.7-1.9 1.8.9 1.7 1.9c0 1-.7 1.9-1.7 1.9z"/>
+        </svg>
+      </a>
+      <button class="icon-btn nav-toggle" type="button" data-drawer-open aria-expanded="false" aria-controls="drawer" aria-label="Open menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+          <path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="drawer" id="drawer" data-open="false" role="dialog" aria-modal="true" aria-label="Menu">
+  <div class="shell">
+    <div class="drawer-head">
+      <span class="eyebrow">Menu</span>
+      <button class="icon-btn" type="button" data-drawer-close aria-label="Close menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+          <path d="M6 6l12 12M18 6L6 18" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+    <!-- DRAWER:START -->
+    <nav aria-label="Mobile">
+      <a href="../index.html">Home</a>
+      <a href="../server.html">The Server</a>
+      <a href="../start.html">Start Here</a>
+      <a href="../classes.html" aria-current="page">Classes</a>
+      <a href="../mechanics.html">Mechanics</a>
+      <a href="../gear.html">Gear</a>
+      <a href="../world.html">World</a>
+      <a href="../guides.html">Guides</a>
+      <a href="../join.html">Join</a>
+    </nav>
+    <!-- DRAWER:END -->
+  </div>
+</div>
+<main id="main">
+<section class="page-hero page-hero--class">
+  <div class="shell">
+    <p class="crumbs"><a href="../index.html">Home</a><span>/</span><a href="../classes.html">Classes</a><span>/</span><span>Raider</span></p>
+    <p class="eyebrow">First job</p>
+    <h1>Raider</h1>
+    <p class="lede">Spears, staying power, and a trial that ends in a dragon.</p>
+  </div>
+</section>
+
+<div class="shell class-body">
+  <article class="prose">
+      <aside class="callout callout--refuge" aria-labelledby="refuge-raider">
+        <h2 id="refuge-raider">What the Refuge changed</h2>
+        <ul><li>Heavy Stab and Wind Cutter hit harder; Dragon Thrust slightly less.</li><li>Spear Mastery retuned: less HP on one-hand, more flee on two-hand.</li></ul>
+      </aside>
+    <dl class="factbar">
+        <div><dt>Tier</dt><dd>First job</dd></div>
+        <div><dt>Changes from</dt><dd><a href="orphan.html">Orphan</a></dd></div>
+        <div><dt>Leads to</dt><dd><a href="dracomancer.html">Dracomancer</a></dd></div>
+        <div><dt>Weapons</dt><dd>Spears, Wyrm Spears, limited Daggers and Swords</dd></div>
+    </dl>
+      <div class="verdict">
+        <div class="verdict-col verdict-col--good">
+          <h3>Strengths</h3>
+          <p>Versatile fighter, decent resistances, good party potential.</p>
+        </div>
+        <div class="verdict-col verdict-col--bad">
+          <h3>Weaknesses</h3>
+          <p>below average damage, gear reliant, hard to balance stats.</p>
+        </div>
+      </div>
+    <div class="prose-flow">
+      <h2 id="the-forgotten-myth">The Forgotten Myth</h2>
+      <p>The Raider is an off-tank with large damage overall, capable of fighting in multiple ways.</p>
+      <p>It has plenty of buffs to protect itself under specific circumstances.</p>
+      <h2 id="gameplay-identity">Gameplay Identity</h2>
+      <p>The Raider is the opposite of the Trickster. It's a safe job class that can progress at a steady pace and handle most situations, making this job:</p>
+      <p>A well rounded warrior with good damage variety, high frontline potential and a simple kit that can cover every situation it faces.</p>
+      <p>A smart Raider knows what path to take to correctly engage enemies. In risky situations they may favor the use of a 1-Handed Spear with a Shield to keep the enemies at bay. When more comfortable they can swap into the powerful 2-Handed Wyrm Spear to increase their damage potential and Dragon Thrust Level.</p>
+      <p>Dragon Thrust is a Powerful Opener for the Dracomancer. The level of this skill that is enabled depends on the currently equipped spear. The skill is the center-piece of any Raider or Dracomancer.</p>
+      <p>The entire kit of a Raider is built around skills that should be used situationally, either by pushing enemies back, increasing defenses or attacking with more offensive power.</p>
+      <p>Raiders have quick job level growth, hitting the max Job level of 50 well before most other non-thief jobs. However, only the best will be able to continue their training until they peak and become a Dracomancer.</p>
+      <p>Weapon Skill</p>
+      <p>Level Available depends on the current weapon</p>
+    </div>
+      <section class="section--tight" id="skills">
+        <div class="section-head">
+          <h2>Skills</h2>
+          <p>12 entries, as documented for the world the Refuge inherited.
+             Exact numbers are deliberately not listed - they move with balance passes.</p>
+        </div>
+        <div class="cluster" style="margin-bottom:1rem">
+          <label class="visually-hidden" for="sk">Filter skills</label>
+          <input id="sk" type="search" class="field" placeholder="Filter skills..."
+                 data-filter="skilltable" data-filter-count="skcount">
+          <span class="chip mono" id="skcount">-</span>
+        </div>
+        <div class="table-wrap">
+          <table id="skilltable">
+            <caption class="visually-hidden">Raider skills</caption>
+            <thead><tr><th scope="col">Skill</th><th scope="col">What it does</th><th scope="col">Type</th></tr></thead>
+            <tbody>
+        <tr data-row>
+          <th scope="row">Dragon Thrust<span class="skill-max mono">Lv 10</span></th>
+          <td>Quickly strikes enemies ahead and locks position for follow-up skills<div class="skill-extra"><span class="skill-note">Damage hits in a small area Enables Combo Ready</span><span class="chip chip--sm mono">STR and VIT</span></div></td>
+          <td><span class="badge sk-other">Melee</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Spear Mastery<span class="skill-max mono">Lv 10</span></th>
+          <td>Increases attack with spears<div class="skill-extra"><span class="skill-note">Also increases HP when wielding 1-Handed Spears or Flee with 2-Handed Spears</span></div></td>
+          <td><span class="badge sk-passive">Passive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Heavy Stab<span class="skill-max mono">Lv 10</span></th>
+          <td>Deals damage to a single enemy with a spear<div class="skill-extra"><span class="skill-note">Damage is severely reduced when not used as a combo follow-up</span><span class="chip chip--sm mono">VIT</span></div></td>
+          <td><span class="badge sk-other">Melee</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Wind Cutter<span class="skill-max mono">Lv 5</span></th>
+          <td>Deals damage against all enemies around, knocking them back<div class="skill-extra"><span class="skill-note">Has VIT scaling with 1-Handed Spears and deals 2 hits with 2-Handed Spears</span><span class="chip chip--sm mono">None(VIT)</span></div></td>
+          <td><span class="badge sk-other">Melee AoE</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Spear Boomerang<span class="skill-max mono">Lv 5</span></th>
+          <td>Throws the spear at a distant enemy<div class="skill-extra"><span class="skill-note">Range increases with level</span><span class="chip chip--sm mono">DEX</span></div></td>
+          <td><span class="badge sk-other">Ranged</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Phantom Spear<span class="skill-max mono">Lv 5</span></th>
+          <td>Summons a spectral spear to damage a small area.<div class="skill-extra"><span class="skill-note">Also reduces enemy move speed temporarily Enables Combo Ready</span><span class="chip chip--sm mono">INT/VIT</span></div></td>
+          <td><span class="badge sk-magic">Magic AoE</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Life of Dragon<span class="skill-max mono">Lv 5</span></th>
+          <td>Increases defenses, regeneration and vitality temporarily<div class="skill-extra"><span class="skill-note">Slightly increases the scaling of all abilities</span><span class="chip chip--sm mono">VIT</span></div></td>
+          <td><span class="badge sk-support">Buff</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Elusive Feint<span class="skill-max mono">Lv 5</span></th>
+          <td>Parries an enemy attack, severely reducing damage taken and reflecting it<div class="skill-extra"><span class="skill-note">Doesn't work with bosses, knockbacks enemy, damage reflected is capped to 300% ATK</span><span class="chip chip--sm mono">Opponent's current % HP</span></div></td>
+          <td><span class="badge sk-other">Self-Support</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Spear Quicken<span class="skill-max mono">Lv 10</span></th>
+          <td>Increases attack speed, flee and hit rate with spears for duration<div class="skill-extra"><span class="skill-note">Requires a Shadow Orb</span><span class="chip chip--sm mono">AGI</span></div></td>
+          <td><span class="badge sk-other">Self-Support</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Increase SP Recovery<span class="skill-max mono">Lv 10</span></th>
+          <td>Provides extra SP recovery on top of natural regeneration.<div class="skill-extra"><span class="skill-note">Regens 0.1% + 2 max SP per level.</span><span class="chip chip--sm mono">No</span></div></td>
+          <td><span class="badge sk-passive">Passive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Improve Defense<span class="skill-max mono">Lv 10</span></th>
+          <td>Increases Max HP<div class="skill-extra"><span class="skill-note">HP+50 per level</span><span class="chip chip--sm mono">No</span></div></td>
+          <td><span class="badge sk-passive">Passive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Improve Wisdom<span class="skill-max mono">Lv 10</span></th>
+          <td>Increases Max SP<div class="skill-extra"><span class="skill-note">SP+10 per level</span><span class="chip chip--sm mono">No |}</span></div></td>
+          <td><span class="badge sk-passive">Passive</span></td>
+        </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    <p class="source-note">Descriptions and the skill list are transcribed from the community wiki for the world the Refuge inherited. Where the Refuge changed something, it is called out above.</p>
+    <nav class="pill-row" aria-label="Other first jobs">
+      <span class="dim">More first jobs:</span> <a class="pill" href="thief.html">Thief</a><a class="pill" href="trickster.html">Trickster</a><a class="pill" href="jester.html">Jester</a><a class="pill" href="ronin.html">Ronin</a><a class="pill" href="mimic.html">Mimic</a><a class="pill" href="vagabond.html">Vagabond</a>
+      <a class="pill pill--strong" href="../classes.html">Full tree</a>
+    </nav>
+  </article>
+</div>
+
+</main>
+<!-- FOOTER:START -->
+<footer class="site-footer">
+  <div class="shell">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="../index.html">
+          <img class="mark" src="../assets/img/icon-192.png" width="34" height="34" alt="" aria-hidden="true">
+          <span class="brand-text">
+            <span class="brand-name">RETURN TO MORROC</span>
+            <span class="brand-sub">Refuge</span>
+          </span>
+        </a>
+        <p class="muted" style="margin-top:1rem;font-size:0.92rem;max-width:34ch">
+          A free, non-commercial hobby world built and run by a handful of players
+          for anyone who wants somewhere unhurried to play.
+        </p>
+        <p class="cluster" style="margin-top:1rem">
+          <a class="btn btn--ghost" href="https://discord.gg/a5P3PFNMhn" rel="noopener">Community chat</a>
+        </p>
+      </div>
+      <div>
+        <h4>Start here</h4>
+        <ul>
+        <li><a href="../server.html">What the Refuge is</a></li>
+        <li><a href="../start.html">New player guide</a></li>
+        <li><a href="../join.html">How to join</a></li>
+        <li><a href="../faq.html">Questions and answers</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>The game</h4>
+        <ul>
+        <li><a href="../classes.html">All 30 classes</a></li>
+        <li><a href="../newjobs.html">Bouncer and Pit Boss</a></li>
+        <li><a href="../mechanics.html">Combat and stats</a></li>
+        <li><a href="../gear.html">Items, refining, shadows</a></li>
+        <li><a href="../world.html">Regions, dungeons, MVPs</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Reference</h4>
+        <ul>
+        <li><a href="../changes.html">Changes from the original</a></li>
+        <li><a href="../database.html">Community database</a></li>
+        <li><a href="../guides.html">Player-written guides</a></li>
+        <li><a href="../llms.txt">llms.txt</a></li>
+        <li><a href="../sitemap.xml">Sitemap</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-legal">
+      Return to Morroc: Refuge is an unofficial, non-commercial fan project with no affiliation to,
+      sponsorship by or endorsement from any game publisher, developer or rights
+      holder. It hosts no commercial storefront, sells nothing, and accepts no
+      real-money trading. All third-party names that appear anywhere on this site
+      belong to their respective owners and are used only to describe gameplay.
+      Nothing here is distributed for profit.
+      <br><br>
+      Built by the community, in the open. Site content is free to copy.
+    </p>
+  </div>
+</footer>
+<!-- FOOTER:END -->
+
+<script src="../assets/js/main.js" defer></script>
+</body>
+</html>
