@@ -994,6 +994,17 @@ html[data-theme="light"] .node-art { filter: drop-shadow(0 2px 5px rgb(29 5 51 /
   align-items: center;
 }
 .class-hero-text { min-width: 0; }
+
+/* The sprite is an animated PNG - six frames of idle. There is no way to stop
+   one from CSS or from script, so the still frame ships as its own file and
+   the media query chooses between them. */
+.class-art-wrap { display: block; line-height: 0; }
+.class-art--still { display: none; }
+@media (prefers-reduced-motion: reduce) {
+  .class-art--motion { display: none; }
+  .class-art--still { display: block; }
+}
+
 .class-art {
   width: 130px;
   height: 150px;
@@ -1006,7 +1017,7 @@ html[data-theme="light"] .class-art { filter: drop-shadow(0 6px 16px rgb(29 5 51
 
 @media (max-width: 720px) {
   .class-hero--art { grid-template-columns: minmax(0, 1fr); }
-  .class-hero--art .class-art { order: -1; justify-self: start; }
+  .class-hero--art .class-art-wrap { order: -1; justify-self: start; }
 }
 
 /* One colour per tier, on the top edge, so a row reads as a rank. */

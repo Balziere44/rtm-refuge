@@ -54,11 +54,20 @@ actually changed upstream.
 - `tools/fetch_sprites.py` vendors the 718 monster sprites into
   `assets/sprites/`, so seven hundred images do not depend on somebody else's
   Pages deployment staying up.
-- `tools/fetch_class_art.py` fetches one job sprite per class into
-  `assets/img/classes/`. 29 exist; the deepest jobs have none of their own and
-  inherit the one they branch from at build time, which is what the source
-  does too. Bouncer, Pit Boss and Merchant have no sprite anywhere and render
-  without one rather than borrowing the starter's.
+- `tools/fetch_class_art.py` fetches two job sprites per class into
+  `assets/img/classes/`: `<slug>.png` is an animated PNG, six frames of idle,
+  and `<slug>-still.png` is a single frame. 29 classes have art; the deepest
+  jobs have none of their own and inherit the one they branch from at build
+  time, which is what the source does too. Bouncer, Pit Boss and Merchant have
+  no sprite anywhere and render without one rather than borrowing the
+  starter's.
+
+  The class page animates; the tree uses the still frame, because 39 idle
+  loops on one screen is a lot of movement behind a list somebody is reading,
+  and it would be a megabyte of animated PNG. An APNG cannot be paused from
+  CSS or from script, so shipping the still frame as its own file is the only
+  way `prefers-reduced-motion` can be honoured at all - the class page emits
+  both and a media query picks one.
 - `tools/extract_gamedata.py` reads the emulator's rAthena tables (the
   checkout next to this one) into `tools/data/game.json`. It is now only a
   *secondary* source: the numbers the encyclopedia does not carry - monster

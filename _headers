@@ -13,6 +13,12 @@
 /assets/img/*
   Cache-Control: public, max-age=31536000, immutable
 
+# Monster sprites: 718 files keyed by monster id, so a name never changes
+# meaning. The database paints sixty rows at a time and each one wants an
+# image, which is only bearable if the second visit asks for none of them.
+/assets/sprites/*
+  Cache-Control: public, max-age=31536000, immutable
+
 # The share card is replaced under the same filename whenever the branding
 # changes, so it must revalidate or chat clients keep showing the old one.
 # This is exactly why it does not live under /assets/img/.

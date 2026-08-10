@@ -88,6 +88,17 @@ def art_for(slug):
     return None
 
 
+def still_of(art):
+    """The single-frame file for a class, falling back to the animation.
+
+    Every sprite currently has both, but a class published with only an
+    animation should still render rather than 404.
+    """
+    if os.path.exists(os.path.join(ART, art + "-still.png")):
+        return art + "-still.png"
+    return art + ".png"
+
+
 # ---------------------------------------------------------------------------
 # pulling a class out of the wiki data
 # ---------------------------------------------------------------------------
@@ -304,10 +315,18 @@ def class_page(meta):
         for s in siblings)
 
     art = art_for(slug)
-    # Twice the sprite's own size, nearest-neighbour: these are 130x150 pixel
-    # art and smoothing them turns crisp edges into mush.
-    hero_art = (f'<img class="class-art" src="../assets/img/classes/{art}.png" '
-                f'alt="" width="130" height="150" decoding="async">') if art else ""
+    # The animated sprite, at its own size and nearest-neighbour: this is
+    # 130x150 pixel art and smoothing it turns crisp edges into mush.
+    #
+    # Both frames are emitted and CSS picks one. An animated PNG cannot be
+    # paused from CSS or from script, so a second file is the only way to
+    # honour prefers-reduced-motion at all.
+    hero_art = (f'<span class="class-art-wrap">'
+                f'<img class="class-art class-art--motion" src="../assets/img/classes/{art}.png" '
+                f'alt="" width="130" height="150" decoding="async">'
+                f'<img class="class-art class-art--still" src="../assets/img/classes/{still_of(art)}" '
+                f'alt="" width="130" height="150" decoding="async">'
+                f'</span>') if art else ""
 
     trail = [("index.html", "Home"), ("classes.html", "Classes"), (None, name)]
     body = f"""<section class="page-hero page-hero--class">
@@ -367,9 +386,11 @@ def node(slug):
     meta = M.BY_SLUG[slug]
     new = ' <span class="badge tag-added">New</span>' if meta.get("page") is None else ""
     art = art_for(slug)
-    # Decorative: the name is right next to it, so alt text would only be read
-    # out twice. Width and height are on it because 42 of these load at once.
-    img = (f'<img class="node-art" src="assets/img/classes/{art}.png" alt="" '
+    # The still frame here, not the animation: thirty-nine idle loops on one
+    # screen is a lot of movement to put behind a list somebody is reading,
+    # and it would be a megabyte of animated PNG. The class page animates.
+    # Decorative, so no alt text - the name is right next to it.
+    img = (f'<img class="node-art" src="assets/img/classes/{still_of(art)}" alt="" '
            f'width="65" height="75" loading="lazy" decoding="async">') if art else ""
     return (f'      <a class="node node--{meta["tier"]}" href="classes/{slug}.html">'
             f'{img}<span class="node-body">'
