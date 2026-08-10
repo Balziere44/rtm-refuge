@@ -1,0 +1,1261 @@
+# -*- coding: utf-8 -*-
+"""Generate every HTML page.
+
+    python tools/build.py
+
+Deterministic, offline, no dependencies. What lands in the repository is
+exactly what the browser receives.
+"""
+
+import os
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+import chrome as C
+import data as D
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+DISCORD = C.DISCORD
+DB = C.DATABASE
+
+
+def write(name, html):
+    path = os.path.join(ROOT, name)
+    # LF everywhere. Windows checkouts otherwise produce diffs nobody made.
+    with open(path, "w", encoding="utf-8", newline="\n") as fh:
+        fh.write(html)
+    print("  wrote", name, len(html) // 1024, "kb")
+
+
+def page(name, title, description, active, body, trail=None, extra_ld="", hero=False):
+    ld = extra_ld
+    if trail:
+        ld = C.crumb_ld(trail) + ld
+    html = C.head("", title, description, "" if name == "index.html" else name,
+                  extra_ld=ld, preload_hero=hero)
+    html += C.header("", active)
+    html += '<main id="main">\n' + body + "\n</main>\n"
+    html += C.footer("")
+    return write(name, html)
+
+
+def crumbs(label, href=None):
+    return C.breadcrumbs("", [("index.html", "Home"), (href, label)])
+
+
+def cta(title, text):
+    return f"""<section class="section section--tight">
+  <div class="shell">
+    <div class="cta-band reveal">
+      <h2>{title}</h2>
+      <p>{text}</p>
+      <div class="cluster">
+        <a class="btn btn--primary" href="{DISCORD}" rel="noopener">Join the community server</a>
+        <a class="btn btn--ghost" href="join.html">How to get in</a>
+      </div>
+    </div>
+  </div>
+</section>"""
+
+
+def ul(items, cls=""):
+    if not items:
+        return ""
+    c = f' class="{cls}"' if cls else ""
+    return "<ul%s>\n" % c + "\n".join("  <li>%s</li>" % i for i in items) + "\n</ul>"
+
+
+def job_blocks(groups):
+    out = []
+    for name, note, bullets in groups:
+        anchor = name.lower().replace(" / ", "-").replace(" ", "-").replace("(", "").replace(")", "")
+        note_html = f'<p class="muted">{note}</p>' if note else ""
+        body = ul(bullets) if bullets else '<p class="dim">No direct changes.</p>'
+        out.append(f"""    <article class="card reveal" id="{anchor}" data-row>
+      <h3>{name}</h3>
+      {note_html}
+      {body}
+    </article>""")
+    return "\n".join(out)
+
+
+# ---------------------------------------------------------------------------
+# Home
+# ---------------------------------------------------------------------------
+
+HOME_LD = """<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "%(site)s/#website",
+      "url": "%(site)s/",
+      "name": "Return to Morroc: Refuge",
+      "description": "A free, non-commercial hobby world rebuilt by the people who played the original.",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "VideoGame",
+      "@id": "%(site)s/#game",
+      "name": "Return to Morroc: Refuge",
+      "url": "%(site)s/",
+      "genre": ["MMORPG", "Fantasy"],
+      "gamePlatform": "PC",
+      "playMode": ["SinglePlayer", "MultiPlayer", "CoOp"],
+      "isAccessibleForFree": true,
+      "description": "A custom, free-to-play fantasy MMO world. Two new jobs, a full skill rebalance, 21 distortion dungeons and three SS-rank endgame dungeons. No cash shop, no real-money trading.",
+      "author": {"@type": "Organization", "name": "The Refuge team"}
+    }
+  ]
+}
+</script>
+""" % {"site": C.SITE}
+
+
+def build_home():
+    body = f"""<section class="hero">
+  <div class="shell hero-inner">
+    <div>
+      <p class="eyebrow"><span class="live-dot" aria-hidden="true"></span> In development &middot; no launch date yet</p>
+      <h1>Somewhere <span class="accent">unhurried</span> to play again.</h1>
+      <p class="hero-lede">
+        Return to Morroc: Refuge is a custom fantasy MMO world, rebuilt from the
+        ashes of a server that closed. Same idea, better bones: every job
+        rebalanced, two new ones added, three new endgame dungeons, and not a
+        single thing for sale.
+      </p>
+      <div class="cluster" style="margin-top:2rem">
+        <a class="btn btn--primary" href="{DISCORD}" rel="noopener">Join the community server</a>
+        <a class="btn btn--ghost" href="server.html">What this is</a>
+      </div>
+      <div class="cluster" style="margin-top:1.6rem">
+        <span class="chip"><strong>Free</strong> forever</span>
+        <span class="chip">No <strong>cash shop</strong></span>
+        <span class="chip">No <strong>RMT</strong></span>
+        <span class="chip"><strong>Solo-friendly</strong> PvE</span>
+      </div>
+    </div>
+    <div class="hero-art">
+      <img src="assets/img/logo-900.png" width="900" height="900"
+           alt="The Refuge mark: a shattered star of silver and purple shards"
+           fetchpriority="high" decoding="async">
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="shell">
+    <dl class="stat-row reveal">
+      <div class="stat"><dt>New items</dt><dd>300+</dd></div>
+      <div class="stat"><dt>New shadow sets</dt><dd>50+</dd></div>
+      <div class="stat"><dt>Distortion dungeons</dt><dd>21</dd></div>
+      <div class="stat"><dt>New SS dungeons</dt><dd>3</dd></div>
+      <div class="stat"><dt>New jobs</dt><dd>2</dd></div>
+      <div class="stat"><dt>Cash shop items</dt><dd>0</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section class="section">
+  <div class="shell">
+    <div class="section-head reveal">
+      <p class="eyebrow">The short version</p>
+      <h2>A better version of the thing we already loved</h2>
+      <p>
+        The original ran for years and then stopped. Its developer came back,
+        another developer came with him, and an admin paid for the hardware.
+        None of them are trying to build a business. They are trying to build a
+        place worth logging into.
+      </p>
+    </div>
+    <div class="grid">
+      <a class="card card--link reveal" href="changes.html">
+        <span class="card-kicker">What changed</span>
+        <h3>Everything that was wrong, on a list</h3>
+        <p>Transformed, added, removed - the developers' own three buckets, written out in full and kept up to date.</p>
+      </a>
+      <a class="card card--link reveal" href="classes.html">
+        <span class="card-kicker">Classes</span>
+        <h3>Every job, rebalanced</h3>
+        <p>Line by line. The skills nobody used got attention first, and the shared baseline skills were rebuilt from scratch.</p>
+      </a>
+      <a class="card card--link reveal" href="newjobs.html">
+        <span class="card-kicker">New</span>
+        <h3>Bouncer and Pit Boss</h3>
+        <p>An ultra-aggressive melee caster with a brand new weapon type. Big setup, big hits, and yes, one of the skills is a Swanton Bomb.</p>
+      </a>
+      <a class="card card--link reveal" href="world.html">
+        <span class="card-kicker">World</span>
+        <h3>21 distortions and three SS dungeons</h3>
+        <p>Levels 85 to 150, ranked B to SS, with where to find each one - plus the new endgame the team has been building since June.</p>
+      </a>
+      <a class="card card--link reveal" href="guides.html">
+        <span class="card-kicker">Guides</span>
+        <h3>The community's own writing</h3>
+        <p>Hidden quests, dungeon access, costume hunts. Written by players, collected here so nobody has to dig through chat history.</p>
+      </a>
+      <a class="card card--link reveal" href="{DB}" rel="noopener">
+        <span class="card-kicker">Reference</span>
+        <h3>The database</h3>
+        <p>Items, skills, monsters and maps, maintained by the admin and open for the community to correct. Work in progress.</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="shell">
+    <div class="section-head reveal">
+      <p class="eyebrow">Three promises</p>
+      <h2>What this place will not do to you</h2>
+    </div>
+    <div class="grid">
+      <div class="card reveal">
+        <h3>Nothing is for sale</h3>
+        <p>
+          No cash shop at launch. No real-money trading, ever. The admin covered
+          the costs himself and has said any future discussion about recouping
+          them happens in the open, with the community, and never touches power.
+        </p>
+      </div>
+      <div class="card reveal">
+        <h3>Your time is the budget</h3>
+        <p>
+          The experience rate is slightly lower than the original's, and the
+          curve is more rewarding for it. Warp Portal and Teleport are free for
+          everyone. Drop-rate gear is gone, so nobody is farming for the right
+          to farm.
+        </p>
+      </div>
+      <div class="card reveal">
+        <h3>No single correct build</h3>
+        <p>
+          The job-locked shadow sets that funnelled everyone into one playstyle
+          past level 100 are gone. The replacement sets exist to make the
+          neglected half of each skill tree worth pressing.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="shell shell-narrow">
+    <div class="section-head reveal">
+      <p class="eyebrow">How it got here</p>
+      <h2>From a poll to three finished dungeons</h2>
+    </div>
+    <ol class="timeline reveal">
+{chr(10).join('      <li><time>%s</time><h3>%s</h3><p>%s</p></li>' % t for t in D.TIMELINE)}
+    </ol>
+    <p class="muted" style="margin-top:2rem">
+      Dates come from the team's own announcements. The full story, including who
+      does what, is on <a href="server.html">The Server</a>.
+    </p>
+  </div>
+</section>
+
+{cta("There is no launch date. There is a door.",
+     "The community server is where every announcement lands first, where the developers answer questions directly, and where the feedback that shaped this rebuild came from.")}
+"""
+    page("index.html",
+         "Return to Morroc: Refuge | A free custom fantasy MMO world",
+         "A free, non-commercial custom fantasy MMO world rebuilt by its own players. Two new jobs, every skill rebalanced, 21 distortion dungeons, no cash shop and no RMT.",
+         "index.html", body, extra_ld=HOME_LD, hero=True)
+
+
+# ---------------------------------------------------------------------------
+# The Server
+# ---------------------------------------------------------------------------
+
+def build_server():
+    body = f"""<section class="page-hero">
+  <div class="shell">
+    {crumbs("The Server")}
+    <h1>What the Refuge actually is</h1>
+    <p>
+      Who built it, why it exists, how it is paid for, and what it refuses to
+      become. Written from the team's own posts rather than a pitch deck.
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="shell">
+    <div class="grid grid--wide">
+      <div class="prose reveal">
+        <h2>The one-paragraph version</h2>
+        <p>
+          Return to Morroc: Refuge is a special take on Return to Morroc, which was
+          itself a heavily customised world that closed some time ago. It is not a
+          revival in the nostalgic sense. It is the same design philosophy with the
+          mistakes taken out, several hundred new items in, two jobs that never
+          existed, and an explicit decision that nothing will ever be for sale.
+        </p>
+        <p>
+          The team is three people plus moderators. They are not a studio. They
+          have said in as many words that this is not meant to be a professional
+          server - just a good experience for people who want somewhere to play
+          that adds content, fixes what was broken, and respects your time.
+        </p>
+        <h2>Who does what</h2>
+      </div>
+      <div class="stack">
+        <div class="card reveal">
+          <span class="card-kicker">Head admin</span>
+          <h3>Metta</h3>
+          <p>Hosting, costs, planning and server progression. He paid for all of it, and the idea was his - he called Ornstein and spent hours arguing that the old world deserved better than a sequel-in-name.</p>
+        </div>
+        <div class="card reveal">
+          <span class="card-kicker">Co-developer</span>
+          <h3>croc</h3>
+          <p>Items, code and the day-to-day running of the build. Much of his earlier work on the original is folded straight into the Refuge.</p>
+        </div>
+        <div class="card reveal">
+          <span class="card-kicker">Co-developer</span>
+          <h3>Ornstein</h3>
+          <p>Design, job adjustments and the gameplay plan. He built the original world's direction and came back for this one. The new jobs, the rebalance passes and the Amatsu dungeon are his.</p>
+        </div>
+        <div class="card reveal">
+          <span class="card-kicker">Community</span>
+          <h3>The moderation team</h3>
+          <p>Issues, arguments and the human side. Feedback from the community server has already changed the balance lists more than once.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="shell">
+    <div class="section-head reveal">
+      <p class="eyebrow">Money</p>
+      <h2>How this is paid for, honestly</h2>
+    </div>
+    <div class="grid">
+      <div class="card reveal">
+        <h3>At launch: nothing</h3>
+        <p>No cash shop. No founder tiers gating content. No real-money trading, and that one is permanent rather than a launch-window promise.</p>
+      </div>
+      <div class="card reveal">
+        <h3>The costs are real</h3>
+        <p>The head admin covered development and hosting out of pocket. He has said he intends to talk to the community about recouping that - donations, a Patreon, founder packs, something - once there is a community to talk to.</p>
+      </div>
+      <div class="card reveal">
+        <h3>The line that will not move</h3>
+        <p>Whatever that conversation lands on, it will not sell power and it will not sell time. That is the point of the whole project.</p>
+      </div>
+    </div>
+    <div class="panel reveal" style="margin-top:2rem">
+      <p>
+        There is no launch date. The team aimed for the end of the World Cup, missed
+        it because real life happened to all three of them, said so plainly, and now
+        plan on August 2026 at roughly 95% confidence. That is the entire status
+        report, and it is more than most projects give you.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="shell shell-narrow">
+    <div class="section-head reveal">
+      <p class="eyebrow">Design</p>
+      <h2>The rules the rebuild follows</h2>
+    </div>
+    <div class="prose reveal">
+      <h3>Expand what was good, fix what was not</h3>
+      <p>
+        Every change on this site traces back to that sentence. Skills nobody
+        pressed got numbers worth pressing. Systems that funnelled everyone into
+        the same build got deleted. Nothing was changed because change looks like
+        progress.
+      </p>
+      <h3>A small cozy town, not a live service</h3>
+      <p>
+        Updates arrive at a reasonable pace. New content keeps coming. There are
+        no plans to close, and the stated ambition is to go considerably further
+        than the original ever did.
+      </p>
+      <h3>Simple to read, varied to play</h3>
+      <p>
+        The jobs are meant to be easy to understand and varied by utility rather
+        than by spectacle. If you are expecting a skill tree that reads like a
+        light show, this is the wrong world - the interest here is in what a
+        skill does for the party, not how big it is.
+      </p>
+      <h3>Built where you can watch</h3>
+      <p>
+        Balance lists, skill trees, dungeon reveals and missed deadlines all get
+        posted publicly before launch. Suggestions from the community server have
+        already changed the design more than once.
+      </p>
+    </div>
+  </div>
+</section>
+
+{cta("Questions the team has already answered",
+     "Nine of the most common ones are collected on the FAQ. Anything else, ask directly - the developers answer.")}
+"""
+    page("server.html",
+         "The Server | Return to Morroc: Refuge",
+         "Who builds the Refuge, why it exists, how it is funded, and the design rules the rebuild follows. Three people, no cash shop, no real-money trading.",
+         "server.html", body, trail=[("index.html", "Home"), (None, "The Server")])
+
+
+# ---------------------------------------------------------------------------
+# What changed
+# ---------------------------------------------------------------------------
+
+def build_changes():
+    body = f"""<section class="page-hero">
+  <div class="shell">
+    {crumbs("What Changed")}
+    <h1>Everything the Refuge changed</h1>
+    <p>
+      The developers keep this in three buckets: transformed, added, removed.
+      So does this page. If you played the original, start here.
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="shell">
+    <div class="grid grid--wide">
+      <div class="card reveal">
+        <span class="card-kicker tag-changed">Transformed</span>
+        <h3>Rebuilt rather than tuned</h3>
+        {ul(D.TRANSFORMED)}
+      </div>
+      <div class="card reveal">
+        <span class="card-kicker tag-added">Added</span>
+        <h3>New in the Refuge</h3>
+        {ul(D.ADDED)}
+      </div>
+      <div class="card reveal">
+        <span class="card-kicker tag-removed">Removed</span>
+        <h3>Gone, on purpose</h3>
+        {ul(D.REMOVED)}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="shell shell-narrow">
+    <div class="section-head reveal">
+      <p class="eyebrow">The reasoning</p>
+      <h2>Why the shadow sets had to go</h2>
+    </div>
+    <div class="prose reveal">
+      <p>
+        This is the change people ask about most, so it deserves the space. In the
+        original, every job had its own shadow set past level 100. They were strong,
+        they were mandatory, and they were built around whichever skill the set
+        assumed you would press. The result was that reaching 100 narrowed your
+        character instead of opening it up.
+      </p>
+      <p>
+        The Refuge deletes them and replaces them with more than fifty new sets tied
+        to dungeons rather than to jobs. They are not job-locked. Several of them
+        exist specifically to make an unloved skill worth building around - and one
+        that is still in testing puts you at 1 HP in exchange for chaining a lot of
+        skills in a row, which tells you roughly how far the team is willing to go.
+      </p>
+      <p class="muted">
+        This is also why the power curve overall sits lower than the original's.
+        Nothing is missing; the ceiling simply is not propped up by a mandatory set
+        any more.
+      </p>
+      <h2>And why drop-rate gear went with them</h2>
+      <p>
+        Drop-rate bonuses on equipment create a tax: before you farm the thing you
+        want, you farm the thing that lets you farm. Removing them means the drop
+        tables can be tuned once, honestly, for everyone.
+      </p>
+      <h2>Difficulty moved, it did not vanish</h2>
+      <p>
+        Monsters deal more damage and healing is slower. In exchange, a large share
+        of the skill changes on the <a href="classes.html">classes page</a> are
+        straight damage increases - they exist to pay for the increased monster
+        power and density, not to make you stronger than you were.
+      </p>
+      <p>
+        Hiding now works on bosses, insects and demons. That is a genuine new tool,
+        and the bosses had their skills rebalanced in response, so it is a
+        conversation rather than an exploit.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="shell">
+    <div class="section-head reveal">
+      <p class="eyebrow">Related</p>
+      <h2>Keep reading</h2>
+    </div>
+    <div class="grid">
+      <a class="card card--link reveal" href="classes.html"><h3>Every job change, line by line</h3><p>All three rebalance passes in one place.</p></a>
+      <a class="card card--link reveal" href="newjobs.html"><h3>The two new jobs</h3><p>Bouncer and Pit Boss, including the full skill list.</p></a>
+      <a class="card card--link reveal" href="world.html"><h3>Where the new content lives</h3><p>Distortions, Amatsu SS and the two unannounced dungeons.</p></a>
+    </div>
+  </div>
+</section>
+"""
+    page("changes.html",
+         "What Changed | Return to Morroc: Refuge",
+         "Every difference between the original world and the Refuge: what was transformed, what was added, what was removed, and the reasoning behind each decision.",
+         "changes.html", body, trail=[("index.html", "Home"), (None, "What Changed")])
+
+
+# ---------------------------------------------------------------------------
+# Classes
+# ---------------------------------------------------------------------------
+
+def build_classes():
+    body = f"""<section class="page-hero">
+  <div class="shell">
+    {crumbs("Classes")}
+    <h1>Every job, rebalanced</h1>
+    <p>
+      Three rebalance passes, transcribed in full. The shared baseline first,
+      then the assassin branch, then the rogue branch. Numbers marked as work in
+      progress may still move before launch.
+    </p>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="shell">
+    <div class="panel reveal">
+      <p>
+        <strong>Read this first.</strong> Monsters deal more damage than they did
+        and healing is slower. Most of the damage increases below are paying for
+        that, not raising your ceiling. And the job shadow sets are gone, so the
+        overall power curve is lower than the original's by design.
+      </p>
+    </div>
+    <div class="cluster reveal" style="margin-top:1.5rem">
+      <label class="visually-hidden" for="jobsearch">Filter jobs and skills</label>
+      <input id="jobsearch" type="search" placeholder="Filter by job or skill name..."
+             data-filter="joblist" data-filter-count="jobcount"
+             style="flex:1 1 260px;padding:0.7rem 1rem;border-radius:999px;border:1px solid var(--line-strong);background:var(--bg-elevated);color:var(--text);font:inherit">
+      <span class="chip mono" id="jobcount">-</span>
+    </div>
+  </div>
+</section>
+
+<div id="joblist">
+
+<section class="section section--tight">
+  <div class="shell">
+    <div class="section-head reveal">
+      <p class="eyebrow">Pass one</p>
+      <h2>The shared baseline and the early game</h2>
+      <p>The skills every character has, then each job in turn.</p>
+    </div>
+    <div class="grid grid--wide">
+{job_blocks(D.CORE_CHANGES)}
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="shell">
+    <div class="section-head reveal">
+      <p class="eyebrow">Pass two</p>
+      <h2>The assassin branch</h2>
+      <p>Specialisations and final jobs.</p>
+    </div>
+    <div class="grid grid--wide">
+{job_blocks(D.ASSASSIN_BRANCH)}
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="shell">
+    <div class="section-head reveal">
+      <p class="eyebrow">Pass three</p>
+      <h2>The rogue branch</h2>
+      <p>Specialisations and final jobs.</p>
+    </div>
+    <div class="grid grid--wide">
+{job_blocks(D.ROGUE_BRANCH)}
+    </div>
+  </div>
+</section>
+
+</div>
+
+{cta("Two jobs are missing from this page",
+     "Bouncer and Pit Boss did not exist before, so there is nothing to compare them to. They have a page of their own.")}
+"""
+    page("classes.html",
+         "Classes and Rebalances | Return to Morroc: Refuge",
+         "The complete job rebalance list for the Refuge: shared baseline skills, the assassin branch and the rogue branch, transcribed skill by skill from the developers' own posts.",
+         "classes.html", body, trail=[("index.html", "Home"), (None, "Classes")])
+
+
+# ---------------------------------------------------------------------------
+# New jobs
+# ---------------------------------------------------------------------------
+
+def build_newjobs():
+    skills = "\n".join(
+        '      <div class="skill-block" data-row><h4>%s</h4><p class="muted" style="margin:0">%s</p></div>' % s
+        for s in D.PITBOSS_SKILLS)
+    body = f"""<section class="page-hero">
+  <div class="shell">
+    {C.breadcrumbs("", [("index.html", "Home"), ("classes.html", "Classes"), (None, "New jobs")])}
+    <h1>Bouncer and Pit Boss</h1>
+    <p>
+      Two jobs that did not exist before. Commissioned by the head admin,
+      designed by Ornstein, themed by Metta. An ultra-aggressive melee caster
+      built on one idea: big setup for big hits.
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="shell">
+    <div class="grid grid--wide">
+      <div class="card reveal">
+        <span class="card-kicker">First job</span>
+        <h3>Bouncer</h3>
+        <p>
+          Fists. Quick punch combos that build stacks, and the first casting
+          skills in the tree. Tanky, versatile, flexible in how you build it.
+        </p>
+        <p><strong>The cost:</strong> an enormous SP sink. You can make it move
+        fast, but speed eats your bar.</p>
+        <p class="muted">Progression to the second job is quick - the same timing as the raider line.</p>
+      </div>
+      <div class="card reveal">
+        <span class="card-kicker">Final job</span>
+        <h3>Pit Boss</h3>
+        <p>
+          Doubles down on the identity: prepare big swings, land big strikes.
+          Most of its skills have fixed cast time, so gear that reduces it is not
+          optional - it is the build.
+        </p>
+        <p>Roughly the HP of a dracomancer, and a little more SP.</p>
+      </div>
+      <div class="card reveal">
+        <span class="card-kicker">New weapons</span>
+        <h3>Two types, two answers</h3>
+        <p><strong>Golf clubs</strong> carry an innate reduction to fixed cast time, which is how you make the slow skills fast.</p>
+        <p><strong>Chains</strong> boost the job's defensive properties directly, with percentage bonuses to your current defence.</p>
+        <p class="muted">Pit Boss uses a weapon type that did not exist in the game before, with its own visuals and sounds.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="shell">
+    <div class="section-head reveal">
+      <p class="eyebrow">Pit Boss</p>
+      <h2>The full skill tree</h2>
+      <p>
+        As posted by the designer in June 2026. Minor changes were still being
+        made at the time, and the job has since been finished and approved.
+      </p>
+    </div>
+    <div class="grid grid--wide">
+      <div class="card reveal">
+{skills}
+      </div>
+      <div class="stack">
+        <div class="panel reveal">
+          <h3 style="font-size:var(--step-1)">How it feels to play</h3>
+          <p>
+            Very flexible, but pulled toward one of two poles: quick, with combos
+            feeding stacks into a finisher, or slow, with fixed-cast skills that
+            hurt a great deal when they land. Durable throughout.
+          </p>
+        </div>
+        <div class="panel reveal">
+          <h3 style="font-size:var(--step-1)">Where the stacks come from</h3>
+          <p>
+            Bouncer's punch combos build them. <strong>Cross Punch</strong> is the
+            slow shortcut that takes you straight to five.
+            <strong>Diplomacy</strong> is what you spend them on.
+          </p>
+        </div>
+        <div class="panel reveal">
+          <h3 style="font-size:var(--step-1)">Party value</h3>
+          <p>
+            <strong>Retreat Order</strong> raises the whole party's defensive
+            power, <strong>Soul Guard</strong> buys a mitigation window, and
+            <strong>Merry-Go-Round</strong> can be pointed at a boss's adds
+            rather than the boss.
+          </p>
+        </div>
+        <div class="panel panel--warn reveal">
+          <h3 style="font-size:var(--step-1)">Expectations</h3>
+          <p>
+            The designer has been blunt about this: the job follows the world's
+            existing design language - simple, readable, varied by utility. It is
+            not trying to be flashy, and it is not borrowed from anywhere else.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{cta("Everything else got rebalanced too",
+     "Sixteen existing jobs, three rebalance passes, transcribed skill by skill.")}
+"""
+    page("newjobs.html",
+         "Bouncer and Pit Boss | Return to Morroc: Refuge",
+         "The Refuge's two brand new jobs: Bouncer, a combo-building melee first job, and Pit Boss, a fixed-cast heavy hitter with two new weapon types. Full skill list.",
+         "classes.html", body,
+         trail=[("index.html", "Home"), ("classes.html", "Classes"), (None, "New jobs")])
+
+
+# ---------------------------------------------------------------------------
+# World
+# ---------------------------------------------------------------------------
+
+def build_world():
+    rows = []
+    for name, lv, rank, where in D.DUNGEONS:
+        rows.append(f"""        <tr data-row>
+          <td><strong>{name}</strong></td>
+          <td class="num">{lv}</td>
+          <td class="num"><span class="badge rank-{rank.lower()}">{rank}</span></td>
+          <td class="muted">{where}</td>
+        </tr>""")
+    rows = "\n".join(rows)
+
+    body = f"""<section class="page-hero">
+  <div class="shell">
+    {crumbs("World")}
+    <h1>Distortions, dungeons and the endgame</h1>
+    <p>
+      Twenty-one distortion dungeons carried over from the original, three new
+      SS-rank dungeons built for the Refuge, and one of them nobody will describe.
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="shell">
+    <div class="section-head reveal">
+      <p class="eyebrow">Levels 85 to 150</p>
+      <h2>The distortion dungeons</h2>
+      <p>
+        Instanced endgame content, ranked B through SS. Most are reached the same
+        way: carry an Orphan Badge, take a Kafra teleport to the nearest city,
+        walk out into the fields and find the portal named after the distortion.
+        Loki's Palace needs one Enriched Oridecon, once, and stays open forever.
+      </p>
+    </div>
+    <div class="cluster reveal" style="margin-bottom:1.2rem">
+      <label class="visually-hidden" for="dsearch">Filter dungeons</label>
+      <input id="dsearch" type="search" placeholder="Filter by name, level or rank..."
+             data-filter="dtable" data-filter-count="dcount"
+             style="flex:1 1 260px;padding:0.7rem 1rem;border-radius:999px;border:1px solid var(--line-strong);background:var(--bg-elevated);color:var(--text);font:inherit">
+      <span class="chip mono" id="dcount">-</span>
+    </div>
+    <div class="table-wrap reveal">
+      <table id="dtable">
+        <caption class="visually-hidden">Distortion dungeons with level range, rank and location</caption>
+        <thead>
+          <tr><th scope="col">Dungeon</th><th scope="col">Level</th><th scope="col">Rank</th><th scope="col">Where</th></tr>
+        </thead>
+        <tbody>
+{rows}
+        </tbody>
+      </table>
+    </div>
+    <p class="muted" style="margin-top:1rem">
+      Directions are condensed from the community access guide. For turn-by-turn
+      routing with screenshots, see <a href="guides.html#external">the guides page</a>.
+    </p>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="shell">
+    <div class="section-head reveal">
+      <p class="eyebrow">New for the Refuge</p>
+      <h2>Nightmare in Amatsu</h2>
+    </div>
+    <div class="grid grid--wide">
+      <div class="prose reveal">
+        <p>
+          The priestess has been slain hundreds of times. That was the prophecy,
+          and it has been fulfilled. The samurai specter is no longer a single
+          ghost - it is an army that came back to fight again after death.
+        </p>
+        <p>
+          You will find the familiar boss there, with a twist. Not quite a ghost.
+          Not quite summoned, either. And a second boss the team will not talk
+          about.
+        </p>
+      </div>
+      <div class="stack">
+        <div class="card reveal">
+          <span class="card-kicker">Level 150 recommended</span>
+          <h3>An SS dungeon that fights the map</h3>
+          <ul>
+            <li>A heavily customised version of the classic first floor - no hidden doors, and real openings you can actually walk through.</li>
+            <li>You spawn at a semi-random location.</li>
+            <li><strong>There is no minimap.</strong> Orient yourself by the map shadows; the light source is at the centre.</li>
+            <li>Or pay zeny to spawn at a specific safe location instead.</li>
+            <li>Monsters require planning and coordination. This is not a solo lap.</li>
+          </ul>
+        </div>
+        <div class="panel panel--warn reveal">
+          <p><strong>The Amatsu penalty.</strong> Dying here costs you a base level. That was announced as a spoiler and it was not a joke.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="shell">
+    <div class="grid grid--wide">
+      <div class="card reveal">
+        <span class="card-kicker">Announced August 2026</span>
+        <h3>Two more SS dungeons</h3>
+        <p>
+          Both finished. Both on fully custom maps. No details will be posted
+          about the second one - the only thing the designer would say is that
+          it really owns its title.
+        </p>
+      </div>
+      <div class="card reveal">
+        <span class="card-kicker">Optional mode</span>
+        <h3>Einherjar Challenge</h3>
+        <p>
+          Your maximum level is locked. It only rises when you defeat a boss of
+          the same level as you. Nobody can contest a spawn out from under your
+          progression, because your progression <em>is</em> the fight.
+        </p>
+        <p class="muted">
+          It awards costumes, not relics. The team considered handing out one of
+          each relic per level and decided it would turn the mode into a
+          min-maxing farm. Both modes have access to the entire game.
+        </p>
+      </div>
+      <div class="card reveal">
+        <span class="card-kicker">Gear</span>
+        <h3>Fifty-plus new shadow sets</h3>
+        <p>
+          One or more for every dungeon past level 100, none of them job-locked.
+          They replace the old job sets entirely and exist to make the neglected
+          half of each skill tree worth building around.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{cta("Getting there is half the problem",
+     "The community's access guides cover every distortion portal, the hidden mirror quest, and the costume hunts.")}
+"""
+    page("world.html",
+         "World, Distortions and Endgame | Return to Morroc: Refuge",
+         "All 21 distortion dungeons with level ranges, ranks and locations, plus the new SS-rank endgame: Nightmare in Amatsu and Einherjar Challenge Mode.",
+         "world.html", body, trail=[("index.html", "Home"), (None, "World")])
+
+
+# ---------------------------------------------------------------------------
+# Guides
+# ---------------------------------------------------------------------------
+
+def build_guides():
+    body = f"""<section class="page-hero">
+  <div class="shell">
+    {crumbs("Guides")}
+    <h1>Guides written by players</h1>
+    <p>
+      Collected so nobody has to scroll three years of chat history to find the
+      one message that explains where the portal is.
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="shell">
+    <div class="section-head reveal">
+      <p class="eyebrow">Walkthrough</p>
+      <h2>The Bifrost Mirror Shard</h2>
+      <p>
+        A hidden quest with no NPC pointing at it. Four gems, four tombs, one
+        study at the top of a city, and a costume at the end.
+      </p>
+    </div>
+    <div class="grid grid--wide">
+      <div class="card reveal">
+        <h3>1. Find the shard</h3>
+        <p>Use the Orphan Badge and take Kafra Allysia to the free Morroc field. Work right through the portals until <span class="mono">moc_fild14</span>, then head right to the tomb. Interact with the <strong>Bifrost Stone Shard</strong> and choose to dig it out.</p>
+      </div>
+      <div class="card reveal">
+        <h3>2. Eye of Vidar &middot; 25,000z</h3>
+        <p>Kafra to Alberta. Through the north-west portal, then the lower one, then left to the tomb.</p>
+      </div>
+      <div class="card reveal">
+        <h3>3. Eye of Vali &middot; 50,000z</h3>
+        <p>Kafra to Hugel, through the lower portal. The tomb hides behind a house near the centre of the map.</p>
+      </div>
+      <div class="card reveal">
+        <h3>4. Eye of Thor &middot; 100,000z</h3>
+        <p>Prontera, then Kafra to Rachel (3,000z). Portals: right, up, up, left. Tomb at the map centre.</p>
+      </div>
+      <div class="card reveal">
+        <h3>5. Eye of Balder &middot; 300,000z</h3>
+        <p>Prontera to Umbala to Niflheim, 3,000z each hop. Then north-east to the tomb.</p>
+      </div>
+      <div class="card reveal">
+        <h3>6. Assemble it</h3>
+        <p>From Hugel take the ferry (1,500z) and follow the portals to Dicastes Diel. Inside the city building, past reception, Main Elevator to the Main Corridor, then Study Elevator to the Sage's Study. Add the gems <strong>in order</strong>: Vidar, Vali, Thor, Balder.</p>
+      </div>
+    </div>
+    <div class="panel reveal" style="margin-top:2rem">
+      <p><strong>Reward:</strong> the <em>Complete Mirror</em> achievement and Costume Cold Angel Wings. Total cost in fees: 475,000z plus travel.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt" id="external">
+  <div class="shell">
+    <div class="section-head reveal">
+      <p class="eyebrow">Elsewhere</p>
+      <h2>The originals, in full</h2>
+      <p>
+        These are other people's work and they deserve the traffic. Everything
+        above is a condensed version of the first one.
+      </p>
+    </div>
+    <div class="grid">
+      <a class="card card--link reveal" href="https://necropolecomercial.com/nc/guia-de-acesso-para-as-distortion-dungeons/" rel="noopener">
+        <span class="card-kicker">Necropole Comercial</span>
+        <h3>Distortion dungeon access</h3>
+        <p>Turn-by-turn routing to all 21 distortions, with minimap screenshots. Portuguese.</p>
+      </a>
+      <a class="card card--link reveal" href="https://necropolecomercial.com/nc/guia-da-hide-quest-bifrost-mirror-shard/" rel="noopener">
+        <span class="card-kicker">Necropole Comercial</span>
+        <h3>Bifrost Mirror Shard hidden quest</h3>
+        <p>The full version of the walkthrough above, with screenshots at every tomb. Portuguese.</p>
+      </a>
+      <a class="card card--link reveal" href="https://docs.google.com/spreadsheets/d/1RJ_aT-3F3K8f3Q6gjNiOebnsKmBMF6t87sVa95RUz5Y/edit?usp=sharing" rel="noopener">
+        <span class="card-kicker">ElPato / Duck</span>
+        <h3>Dungeon and distortion locations</h3>
+        <p>A low-resolution visual location sheet for anyone who gets lost on the field maps. Community spreadsheet.</p>
+      </a>
+      <a class="card card--link reveal" href="https://docs.google.com/spreadsheets/d/1VXeW7JAKgn26ljPFa8ygWujwqXlkexOBUYtUk2s_Fg8/edit?gid=2052741816#gid=2052741816" rel="noopener">
+        <span class="card-kicker">Pitaya</span>
+        <h3>Hatred, costumes, Sun Hat and Celestial Tome</h3>
+        <p>The reference sheet for the collection hunts. Community spreadsheet.</p>
+      </a>
+    </div>
+    <div class="panel reveal" style="margin-top:2rem">
+      <p>
+        Written something useful? Post it in the community server and it goes on
+        this page with your name on it. That is the whole editorial process.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="shell shell-narrow">
+    <div class="section-head reveal">
+      <p class="eyebrow">Before you go</p>
+      <h2>Things worth knowing early</h2>
+    </div>
+    <div class="prose reveal">
+      <h3>You already have Warp Portal and Teleport</h3>
+      <p>
+        Both are default skills for every character. Warp Portal memorises three
+        locations plus your save point and takes your whole party. Teleport is
+        free with a 60 second cooldown. Nobody needs to buy mobility.
+      </p>
+      <h3>Hiding is a two-second tool, not a hiding place</h3>
+      <p>
+        Fixed duration, five second cooldown, cannot be cancelled early - and it
+        works on bosses, insects and demons. It is an interrupt, not an escape.
+      </p>
+      <h3>Improve Defense and Improve Wisdom are worth points now</h3>
+      <p>
+        They scale with base level rather than being a flat lump. At level 130
+        that is roughly 3,900 HP and 1,300 SP instead of 150 of each. Do not skip
+        them because you remember them being bad.
+      </p>
+      <h3>The Orphan Badge is your key to almost everything</h3>
+      <p>
+        Kafra teleport services, and by extension most distortion access routes,
+        run through it. Get it early.
+      </p>
+    </div>
+  </div>
+</section>
+
+{cta("Nothing here is final",
+     "The world is still in development, which means guides written now will need corrections later. The community server is where those corrections happen.")}
+"""
+    page("guides.html",
+         "Guides | Return to Morroc: Refuge",
+         "Player-written guides for the Refuge: the Bifrost Mirror Shard hidden quest step by step, distortion dungeon access, community spreadsheets and early-game advice.",
+         "guides.html", body, trail=[("index.html", "Home"), (None, "Guides")])
+
+
+# ---------------------------------------------------------------------------
+# Database
+# ---------------------------------------------------------------------------
+
+def build_database():
+    body = f"""<section class="page-hero">
+  <div class="shell">
+    {crumbs("Database")}
+    <h1>The database</h1>
+    <p>
+      Items, skills, monsters and maps, maintained in the open and built so the
+      people who play can correct it.
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="shell">
+    <div class="grid grid--wide">
+      <div class="prose reveal">
+        <h2>What it covers</h2>
+        <p>
+          The head admin has been building a reference database alongside the
+          server itself. It carries tabs for skills, monsters, maps and items,
+          plus fields for discussion - notes on what needs a buff, a nerf or a
+          fix, attached to the thing being discussed rather than lost in a chat
+          channel.
+        </p>
+        <p>
+          That last part is the point. The plan is a world where everyone can
+          contribute, and the database is the mechanism.
+        </p>
+        <div class="panel panel--warn">
+          <p>
+            <strong>Work in progress.</strong> Take numbers with a grain of salt.
+            The server has not launched, the balance lists are still moving, and
+            the database is being filled in as the build settles.
+          </p>
+        </div>
+        <p class="cluster" style="margin-top:1.6rem">
+          <a class="btn btn--primary" href="{DB}" rel="noopener">Open the database</a>
+          <a class="btn btn--ghost" href="{DISCORD}" rel="noopener">Report a correction</a>
+        </p>
+      </div>
+      <div class="stack">
+        <div class="card reveal">
+          <span class="card-kicker">Maintained by</span>
+          <h3>Metta</h3>
+          <p>Head admin. The same person paying for the hardware.</p>
+        </div>
+        <div class="card reveal">
+          <span class="card-kicker">Also on this site</span>
+          <h3>Reference pages</h3>
+          <ul>
+            <li><a href="classes.html">Every job rebalance</a></li>
+            <li><a href="newjobs.html">Bouncer and Pit Boss skills</a></li>
+            <li><a href="world.html">All 21 distortion dungeons</a></li>
+            <li><a href="changes.html">Changes from the original</a></li>
+          </ul>
+        </div>
+        <div class="card reveal">
+          <span class="card-kicker">For machines</span>
+          <h3>llms.txt</h3>
+          <p>
+            A plain-text map of this site for language models and other tools, so
+            an answer about the Refuge can be sourced instead of guessed.
+          </p>
+          <p><a href="llms.txt">/llms.txt</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{cta("Found something wrong?",
+     "Corrections are the most useful thing you can contribute before launch. Every balance list on this site changed at least once because someone said so in chat.")}
+"""
+    page("database.html",
+         "Database | Return to Morroc: Refuge",
+         "The Refuge's community reference database - items, skills, monsters and maps, open for player corrections - plus the reference pages hosted on this site.",
+         "database.html", body, trail=[("index.html", "Home"), (None, "Database")])
+
+
+# ---------------------------------------------------------------------------
+# Join
+# ---------------------------------------------------------------------------
+
+def build_join():
+    body = f"""<section class="page-hero">
+  <div class="shell">
+    {crumbs("Join")}
+    <h1>How to get in</h1>
+    <p>
+      There is no launch date and no client download yet. Here is exactly where
+      things stand and what to do in the meantime.
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="shell">
+    <div class="grid grid--wide">
+      <div class="card reveal">
+        <span class="card-kicker"><span class="live-dot" aria-hidden="true"></span> Status</span>
+        <h3>In development</h3>
+        <p>
+          The endgame dungeons are finished. The two new jobs are finished. What
+          remains is boss changes, items for the new jobs, cleanup, and the
+          outside-the-game work: registration, security, patcher checks.
+        </p>
+        <p class="muted">Last public status: August 2026, described as roughly 95% likely.</p>
+      </div>
+      <div class="card reveal">
+        <span class="card-kicker">Step one</span>
+        <h3>Join the community server</h3>
+        <p>
+          Every announcement lands there first, including the launch. The
+          developers answer questions directly and read the suggestion channels.
+        </p>
+        <p class="cluster">
+          <a class="btn btn--primary" href="{DISCORD}" rel="noopener">Open the invite</a>
+        </p>
+        <p class="mono dim" style="font-size:var(--step--1);margin-top:0.8rem">
+          {DISCORD}
+          <button class="chip" type="button" data-copy="{DISCORD}" style="cursor:pointer;margin-left:0.4rem">Copy</button>
+        </p>
+      </div>
+      <div class="card reveal">
+        <span class="card-kicker">Step two</span>
+        <h3>Read what changed</h3>
+        <p>
+          If you played the original, the <a href="changes.html">changes page</a>
+          and the <a href="classes.html">rebalance lists</a> will save you a
+          respec. If you did not, the <a href="server.html">server page</a> is
+          the shorter introduction.
+        </p>
+      </div>
+      <div class="card reveal">
+        <span class="card-kicker">Step three</span>
+        <h3>Accounts</h3>
+        <p>
+          Not decided yet. There may be a web control panel, or registration may
+          happen through the in-game command. The team has said this is still
+          pending confirmation.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt">
+  <div class="shell shell-narrow">
+    <div class="section-head reveal">
+      <p class="eyebrow">Expectations</p>
+      <h2>What you are signing up for</h2>
+    </div>
+    <div class="prose reveal">
+      <p>
+        This is a hobby project run by three people with day jobs. They missed
+        their first estimate because real life happened to all three of them at
+        once, and they said so publicly rather than going quiet. That is the
+        texture of the thing.
+      </p>
+      <p>
+        In exchange you get a world where nothing is for sale, where the balance
+        decisions are posted before they ship, and where the person who paid for
+        the hardware is in the same chat channel as you.
+      </p>
+      <p class="muted">
+        If you are looking for a polished commercial operation with a roadmap and
+        a support desk, this is honestly not it. If you want a small, well-made
+        place that respects your time, pull up a chair.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="shell">
+    <div class="cta-band reveal">
+      <h2>See you in the Refuge</h2>
+      <p>Soon, in the sense that people who have missed one deadline use the word.</p>
+      <div class="cluster">
+        <a class="btn btn--primary" href="{DISCORD}" rel="noopener">Join the community server</a>
+        <a class="btn btn--ghost" href="faq.html">Read the FAQ</a>
+      </div>
+    </div>
+  </div>
+</section>
+"""
+    page("join.html",
+         "How to Join | Return to Morroc: Refuge",
+         "Current development status of the Refuge, how to follow the launch announcement, and what to expect from a free hobby world run by three people.",
+         "join.html", body, trail=[("index.html", "Home"), (None, "Join")])
+
+
+# ---------------------------------------------------------------------------
+# FAQ
+# ---------------------------------------------------------------------------
+
+def build_faq():
+    items = "\n".join(
+        f"      <details class=\"faq reveal\">\n        <summary>{q}</summary>\n        <p>{a}</p>\n      </details>"
+        for q, a in D.FAQS)
+    body = f"""<section class="page-hero">
+  <div class="shell">
+    {crumbs("FAQ")}
+    <h1>Questions and answers</h1>
+    <p>
+      The nine things people ask most, answered from the team's own posts rather
+      than paraphrased into marketing.
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="shell shell-narrow">
+{items}
+  </div>
+</section>
+
+{cta("Not on the list?",
+     "Ask in the community server. The developers answer questions there directly, and the good ones end up on this page.")}
+"""
+    page("faq.html",
+         "FAQ | Return to Morroc: Refuge",
+         "Launch date, cost, cash shop, shadow sets, Einherjar Challenge Mode and who runs the Refuge - the nine most common questions, answered from the team's own posts.",
+         "join.html", body,
+         trail=[("index.html", "Home"), (None, "FAQ")],
+         extra_ld=C.faq_ld(D.FAQS))
+
+
+def main():
+    print("building", ROOT)
+    build_home()
+    build_server()
+    build_changes()
+    build_classes()
+    build_newjobs()
+    build_world()
+    build_guides()
+    build_database()
+    build_join()
+    build_faq()
+    print("done")
+
+
+if __name__ == "__main__":
+    main()

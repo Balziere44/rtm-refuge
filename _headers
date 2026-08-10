@@ -1,0 +1,26 @@
+# Cloudflare Pages / Netlify header rules.
+# Note: Pages MERGES every matching block instead of letting the most specific
+# one win, so no path may be covered by two blocks that both set Cache-Control.
+
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=(), interest-cohort=()
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+
+# Artwork and icons. The names are never reused, so these can be cached hard.
+/assets/img/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# The share card is replaced under the same filename whenever the branding
+# changes, so it must revalidate or chat clients keep showing the old one.
+# This is exactly why it does not live under /assets/img/.
+/assets/social/*
+  Cache-Control: public, max-age=3600, must-revalidate
+
+/assets/css/*
+  Cache-Control: public, max-age=3600, must-revalidate
+
+/assets/js/*
+  Cache-Control: public, max-age=3600, must-revalidate

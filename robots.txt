@@ -1,0 +1,5 @@
+# Everything here is public and meant to be read.
+User-agent: *
+Allow: /
+
+Sitemap: https://rtmrefuge.pages.dev/sitemap.xml

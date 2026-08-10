@@ -1,0 +1,7 @@
+# One line ending everywhere. Windows checkouts otherwise generate diffs
+# nobody actually made.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.webp binary
+*.ico binary
