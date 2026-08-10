@@ -117,6 +117,43 @@ def slot_name(raw):
     return SLOT_ALIAS.get(key, raw.strip()[:1].upper() + raw.strip()[1:])
 
 
+# A zone name is derived from a map file, and map files are numbered by floor:
+# Abbey01, Abbey03, Mjolnir 01, Mjolnir 04, Tha para01 through Tha para08. That
+# is a hundred and seventeen entries in a filter that is meant to be a list of
+# places. The floor is not lost by merging them - every monster's record still
+# carries the exact map names it walks on.
+ZONE_FLOOR = re.compile(r"[\s_-]*\d+$")
+
+# A handful of prefixes that survive the merge as something nobody would
+# recognise. Only the ones the maps themselves make unambiguous.
+ZONE_ALIAS = {
+    "In sphinx": "Sphinx",
+    "C tower": "Clock Tower",
+    "Anthell": "Ant Hell",
+    "Tha t": "Thanatos Tower",
+    "Tha para": "Thanatos Tower",
+    "Thana boss": "Thanatos Tower",
+    "Jupe core": "Juperos",
+    "Juperos": "Juperos",
+    "Treasure": "Treasure Room",
+    "Treasure Room": "Treasure Room",
+}
+
+
+def zone_name(raw):
+    name = (raw or "").strip()
+    if not name:
+        return "Unknown"
+    stem = ZONE_FLOOR.sub("", name) or name
+    return ZONE_ALIAS.get(stem, stem)
+
+
+def clean_label(raw):
+    """The encyclopedia has a few categories typed by hand, and one of them is
+    "\\Shuffling Deck?". Strip what is clearly a slip of the keyboard."""
+    return re.sub(r"^[^\w]+|[^\w)]+$", "", (raw or "").strip()) or "Other"
+
+
 def group_of(category):
     low = (category or "").lower()
     for name, patterns in GROUPS:
@@ -175,7 +212,7 @@ def read_description(text):
             if key and key not in fields:
                 fields[key] = m.group(2).strip()
             continue
-        body.append(line)
+        body.append(C.house_style(line))
 
     while body and body[-1] == "":
         body.pop()
@@ -211,6 +248,29 @@ class Dict:
 
 def dumps(payload):
     return json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + "\n"
+
+
+def options(table, cells):
+    """(index, label, count) for one column, ready to become <option> tags.
+
+    These are written into the page itself rather than derived in the browser,
+    which is the whole point of the rewrite: the filters are usable, and show
+    how much of everything there is, before a single byte of the payload has
+    been asked for.
+    """
+    counts = {}
+    for cell in cells:
+        for v in (cell if isinstance(cell, list) else [cell]):
+            counts[v] = counts.get(v, 0) + 1
+    out = [(i, table[i], n) for i, n in counts.items()
+           if table[i] and table[i].strip()]
+    # A short list is most useful biggest-first; a long one is only findable
+    # in alphabetical order.
+    if len(out) > 20:
+        out.sort(key=lambda o: o[1].lower())
+    else:
+        out.sort(key=lambda o: (-o[2], o[1].lower()))
+    return out
 
 
 # ---------------------------------------------------------------------------
@@ -259,7 +319,7 @@ def build_payload():
                 src["id"] or 0,
                 mobnames.id(src["name"]),
                 src["level"],
-                zones.id(src["zone"] or "Unknown"),
+                zones.id(zone_name(src["zone"])),
                 src["pct"],
                 1 if src["mvp"] else 0,
             ])
@@ -268,7 +328,7 @@ def build_payload():
         rows.append([
             item_id,
             it["name"],
-            cats.id(it["category"] or "Other"),
+            cats.id(clean_label(it["category"])),
             groups.id(group_of(it["category"])),
             [slots.id(s) for s in slot_names],
             to_int(fields.get("lv") or stat.get("lv") or 0),
@@ -314,7 +374,7 @@ def build_payload():
             elements.id(mob["element"] or "Unknown"),
             mob["element_level"],
             1 if mob["mvp"] else 0,
-            mzones.id(mob["zone"] or "Unknown"),
+            mzones.id(zone_name(mob["zone"])),
             [maps.id(m) for m in mob["maps"]],
             mob["card_effect"],
             mob["card_slot"],
@@ -337,24 +397,87 @@ def build_payload():
         "rows": mrows,
     }))
 
-    return (len(rows), len(mrows),
-            sum(len(m["drops"]) for m in ency["mobs"]),
-            len(mzones.values))
+    picks = {
+        "items": [
+            ("grp", "Any kind", options(groups.values, [r[3] for r in rows])),
+            ("loc", "Any slot", options(slots.values, [r[4] for r in rows])),
+            ("cat", "Any category", options(cats.values, [r[2] for r in rows])),
+        ],
+        "mobs": [
+            ("zone", "Anywhere", options(mzones.values, [r[9] for r in mrows])),
+            ("race", "Any race", options(races.values, [r[5] for r in mrows])),
+            ("element", "Any element", options(elements.values, [r[6] for r in mrows])),
+            ("size", "Any size", options(sizes.values, [r[4] for r in mrows])),
+        ],
+    }
+
+    return ((len(rows), len(mrows),
+             sum(len(m["drops"]) for m in ency["mobs"]),
+             len(mzones.values)), picks)
 
 
 # ---------------------------------------------------------------------------
 # the page
 # ---------------------------------------------------------------------------
 
-def build_page(n_items, n_mobs, n_drops, n_zones):
+def select(tab, key, blank, entries):
+    """One dropdown, options and all, written at build time."""
+    opts = ['      <option value="">%s</option>' % C_esc(blank)]
+    for index, label, n in entries:
+        opts.append('      <option value="%d">%s (%s)</option>'
+                    % (index, C_esc(label), f"{n:,}"))
+    return ('    <label class="visually-hidden" for="pick-%s-%s">%s</label>\n'
+            '    <select class="field field--select" id="pick-%s-%s"\n'
+            '            data-pick="%s" data-tab="%s">\n%s\n    </select>'
+            % (tab, key, C_esc(blank), tab, key, key, tab, "\n".join(opts)))
+
+
+def C_esc(s):
+    return (s.replace("&", "&amp;").replace("<", "&lt;")
+             .replace(">", "&gt;").replace('"', "&quot;"))
+
+
+# The chips on the empty state: the six kinds people actually come looking for,
+# labelled the way a player would say it rather than the way the data files it.
+QUICK = [
+    ("Weapon", "Weapons"),
+    ("Armor", "Armor"),
+    ("Headgear", "Headgear"),
+    ("Card", "Cards"),
+    ("Shadow gear", "Shadow gear"),
+    ("Class gear", "Class gear"),
+]
+
+
+def quick_chips(picks):
+    kinds = dict((key, entries) for key, _, entries in picks["items"])["grp"]
+    index_of = dict((label, i) for i, label, _ in kinds)
+    out = []
+    for label, shown in QUICK:
+        if label in index_of:
+            out.append('          <button type="button" class="chip" '
+                       'data-quick="items:grp:%d">%s</button>'
+                       % (index_of[label], C_esc(shown)))
+    # One monster chip, so the second tab is discoverable from the first.
+    out.append('          <button type="button" class="chip" '
+               'data-quick="mobs:mvp:1">MVPs</button>')
+    return "\n".join(out)
+
+
+def build_page(n_items, n_mobs, n_drops, n_zones, picks):
     trail = [("index.html", "Home"), (None, "Database")]
+    item_picks = "\n".join(select("items", k, blank, entries)
+                           for k, blank, entries in picks["items"])
+    mob_picks = "\n".join(select("mobs", k, blank, entries)
+                          for k, blank, entries in picks["mobs"])
+
     body = """<section class="page-hero page-hero--tight">
   <div class="shell">
-    %s
+    %(crumbs)s
     <h1 data-i18n="db.h1">Database</h1>
     <p class="lede" data-i18n="db.lede">
       Every item and every monster, with the description the game itself shows
-      you. Filter it, search it, and follow a drop in either direction.
+      you. Search a name, or pick a category to browse.
     </p>
   </div>
 </section>
@@ -367,32 +490,54 @@ def build_page(n_items, n_mobs, n_drops, n_zones):
             aria-selected="false" data-db-tab="mobs" data-i18n="db.monsters">Monsters</button>
   </div>
 
-  <div class="db-shell">
-    <form class="db-filters" id="db-filters" aria-label="Filters">
-      <div class="db-search">
-        <label class="visually-hidden" for="db-q">Search</label>
-        <input id="db-q" class="field" type="search" autocomplete="off"
-               placeholder="Search by name or effect..."
-               data-i18n-attr="placeholder:db.search">
+  <form class="db-hunt" id="db-hunt" aria-label="Search and filter">
+    <div class="db-search">
+      <label class="visually-hidden" for="db-q">Search</label>
+      <input id="db-q" class="field" type="search" autocomplete="off"
+             placeholder="Search by name or effect..."
+             data-i18n-attr="placeholder:db.search">
+    </div>
+    <div class="db-picks" data-picks="items">
+%(item_picks)s
+    </div>
+    <div class="db-picks" data-picks="mobs" hidden>
+%(mob_picks)s
+    </div>
+    <details class="db-extra">
+      <summary data-i18n="db.more">More filters</summary>
+      <div class="db-extra-body" id="db-facets">
+        <p class="dim" data-i18n="db.extraWait">Opening this loads the data.</p>
       </div>
-      <div id="db-facets"></div>
-      <button type="button" class="btn btn--ghost btn--block" id="db-reset"
-              data-i18n="db.reset">Clear filters</button>
-    </form>
+    </details>
+  </form>
 
-    <div class="db-main">
-      <div class="db-bar">
-        <p class="db-count mono" id="db-count" aria-live="polite">Loading...</p>
+  <div class="db-main">
+    <div class="db-bar" id="db-bar" hidden>
+      <p class="db-count mono" id="db-count" aria-live="polite"></p>
+      <div class="cluster">
         <label class="visually-hidden" for="db-sort">Sort</label>
         <select id="db-sort" class="field field--select"></select>
+        <button type="button" class="btn btn--ghost btn--sm" id="db-reset"
+                data-i18n="db.reset">Clear</button>
       </div>
-      <div id="panel-items" role="tabpanel" aria-labelledby="tab-items">
-        <ul class="db-list" id="db-list"></ul>
-        <div id="db-sentinel" aria-hidden="true"></div>
-        <p class="db-empty" id="db-empty" hidden data-i18n="db.empty">
-          Nothing matches those filters.
+    </div>
+    <div id="panel-items" role="tabpanel" aria-labelledby="tab-items">
+      <div class="db-start" id="db-start">
+        <p data-i18n="db.startText">
+          Nothing is loaded until you ask for something. Type a name or an
+          effect above, or start from one of these.
         </p>
+        <div class="cluster">
+%(chips)s
+        </div>
       </div>
+      <ul class="db-list" id="db-list"></ul>
+      <p class="db-empty" id="db-empty" hidden data-i18n="db.empty">
+        Nothing matches those filters.
+      </p>
+      <button type="button" class="btn btn--ghost btn--block" id="db-page" hidden>
+        Show more
+      </button>
     </div>
   </div>
 </div>
@@ -416,10 +561,11 @@ def build_page(n_items, n_mobs, n_drops, n_zones):
     </div>
   </div>
 </section>
-""" % C.breadcrumbs("", trail)
+""" % {"crumbs": C.breadcrumbs("", trail), "item_picks": item_picks,
+       "mob_picks": mob_picks, "chips": quick_chips(picks)}
 
     out = C.head("", "Database | Return to Morroc: Refuge",
-                 "Search %s items and %s monsters across %s zones - filter by "
+                 "Search %s items and %s monsters across %s zones. Filter by "
                  "category, slot, level, job, race, element and where it drops."
                  % (f"{n_items:,}", f"{n_mobs:,}", n_zones),
                  "database.html", extra_ld=C.crumb_ld(trail))
@@ -439,6 +585,6 @@ def build_page(n_items, n_mobs, n_drops, n_zones):
 
 if __name__ == "__main__":
     print("building database")
-    counts = build_payload()
-    build_page(*counts)
+    counts, picks = build_payload()
+    build_page(*counts, picks=picks)
     print("  %d items, %d monsters, %d drop entries, %d zones" % counts)

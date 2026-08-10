@@ -330,27 +330,94 @@ hr { border: 0; border-top: 1px solid var(--line); margin: var(--gap-lg) 0; }
 .brand-name { font-family: var(--font-display); font-weight: 400; font-size: 1.02rem; letter-spacing: 0.07em; }
 .brand-sub { font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--accent); }
 
+/* Five entries fit without scrolling, which is what lets the group panels hang
+   below the row: an overflow-x on this element would have clipped them. */
 .nav {
   display: flex;
-  gap: 0.1rem;
+  align-items: center;
+  gap: 0.15rem;
   margin-left: auto;
   min-width: 0;
-  overflow-x: auto;
-  scrollbar-width: none;
 }
-.nav::-webkit-scrollbar { display: none; }
-.nav a {
-  display: block;
-  padding: 0.45rem 0.55rem;
+.nav-top {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.45rem 0.6rem;
+  border: 0;
   border-radius: var(--radius-sm);
+  background: transparent;
+  font: inherit;
   font-size: 0.86rem;
   font-weight: 500;
   color: var(--text-muted);
   text-decoration: none;
   white-space: nowrap;
+  cursor: pointer;
 }
-.nav a:hover { color: var(--text); background: var(--bg-elevated); }
-.nav a[aria-current="page"] { color: var(--text); background: color-mix(in srgb, var(--accent) 16%, transparent); }
+.nav-top:hover { color: var(--text); background: var(--bg-elevated); }
+.nav-top[aria-current="page"],
+.nav-top[data-here="true"] { color: var(--text); background: color-mix(in srgb, var(--accent) 16%, transparent); }
+.nav-caret { width: 13px; height: 13px; opacity: 0.6; transition: transform 0.15s ease; }
+.nav-group[data-open="true"] .nav-caret { transform: rotate(180deg); }
+
+/* The one link that is an action rather than a destination. */
+.nav-cta {
+  margin-left: 0.35rem;
+  color: var(--text);
+  border: 1px solid color-mix(in srgb, var(--accent) 55%, var(--line));
+  background: color-mix(in srgb, var(--accent) 14%, transparent);
+}
+.nav-cta:hover { background: color-mix(in srgb, var(--accent) 26%, transparent); }
+
+.nav-group { position: relative; }
+.nav-menu {
+  position: absolute;
+  top: calc(100% + 0.45rem);
+  left: 50%;
+  translate: -50% 0;
+  min-width: 13rem;
+  padding: 0.35rem;
+  display: grid;
+  gap: 0.1rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--bg-soft);
+  box-shadow: 0 18px 40px rgb(0 0 0 / 0.45);
+  /* visibility rather than display keeps the panel focusable-in-order and
+     lets it fade; a hidden panel cannot be tabbed into by accident. */
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-4px);
+  transition: opacity 0.14s ease, transform 0.14s ease, visibility 0.14s;
+}
+/* Hover and focus-within are the whole interaction without JavaScript. The
+   click handler in main.js only adds touch and a way to close. */
+.nav-group:hover .nav-menu,
+.nav-group:focus-within .nav-menu,
+.nav-group[data-open="true"] .nav-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+}
+/* The gap between button and panel would drop the hover halfway across it. */
+.nav-group::after {
+  content: "";
+  position: absolute;
+  inset: 100% 0 auto;
+  height: 0.5rem;
+}
+.nav-menu a {
+  display: block;
+  padding: 0.5rem 0.6rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.86rem;
+  color: var(--text-muted);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.nav-menu a:hover { color: var(--text); background: var(--bg-elevated); }
+.nav-menu a[aria-current="page"] { color: var(--text); background: color-mix(in srgb, var(--accent) 16%, transparent); }
 
 /* margin-left:auto keeps the buttons on the right edge once the nav collapses
    into the drawer - without it they bunch up next to the mark and the
@@ -373,10 +440,10 @@ hr { border: 0; border-top: 1px solid var(--line); margin: var(--gap-lg) 0; }
 
 .nav-toggle { display: none; }
 
-/* Nine links plus four action buttons need about 1200px. Measured: at 1024px
-   the header was pushing the page 176px wide, and at 1100px, 100px. The
-   drawer takes over well before that now. */
-@media (max-width: 1180px) {
+/* Four labels plus the Join pill measure about 430px, and the brand and action
+   buttons about 440px. Under 900px that stops fitting and the drawer takes
+   over - three hundred pixels earlier than the eleven flat links managed. */
+@media (max-width: 900px) {
   .nav { display: none; }
   .nav-toggle { display: grid; }
 }
@@ -424,6 +491,24 @@ hr { border: 0; border-top: 1px solid var(--line); margin: var(--gap-lg) 0; }
 .drawer nav a:hover { background: var(--bg-elevated); }
 .drawer nav a[aria-current="page"] { border-color: var(--line); background: color-mix(in srgb, var(--accent) 14%, transparent); }
 .drawer-head { display: flex; align-items: center; justify-content: space-between; }
+
+/* Same grouping as the desktop row: five things to read, not eleven. */
+.drawer-group summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.85rem 0.9rem;
+  border-radius: var(--radius-sm);
+  font-size: 1.05rem;
+  color: var(--text);
+  cursor: pointer;
+  list-style: none;
+}
+.drawer-group summary::-webkit-details-marker { display: none; }
+.drawer-group summary::after { content: "+"; color: var(--accent); font-family: var(--font-mono); }
+.drawer-group[open] summary::after { content: "\2212"; }
+.drawer-group-body { display: flex; flex-direction: column; gap: 0.2rem; padding: 0 0 0.4rem 0.9rem; }
+.drawer-group-body a { font-size: 0.98rem; color: var(--text-muted); }
 
 body.no-scroll { overflow: hidden; }
 
@@ -1584,21 +1669,14 @@ body:has(.aurora)::before { display: none; }
 }
 html[data-theme="light"] .db-tab[aria-selected="true"] { color: #fff; }
 
-.db-shell { display: grid; gap: var(--gap-md); grid-template-columns: minmax(0, 1fr); }
 .db-main { min-width: 0; }
 
-@media (min-width: 900px) {
-  .db-shell { grid-template-columns: 268px minmax(0, 1fr); align-items: start; }
-  .db-filters {
-    position: sticky;
-    top: calc(var(--header-h) + 1rem);
-    max-height: calc(100vh - var(--header-h) - 2rem);
-    overflow-y: auto;
-  }
-}
-
-.db-filters {
+/* The front door: one field and a row of dropdowns, across the top rather than
+   down a rail. The rail held nine open facet lists and made the page look like
+   an admin tool before it had shown a single item. */
+.db-hunt {
   min-width: 0;
+  margin-bottom: var(--gap-md);
   border: 1px solid var(--glass-edge);
   border-radius: var(--radius);
   padding: var(--gap-sm);
@@ -1606,8 +1684,38 @@ html[data-theme="light"] .db-tab[aria-selected="true"] { color: #fff; }
   -webkit-backdrop-filter: blur(var(--glass-blur));
   backdrop-filter: blur(var(--glass-blur));
 }
-.db-search { margin-bottom: var(--gap-sm); }
-.db-search .field { width: 100%; }
+.db-search .field { width: 100%; font-size: 1rem; padding-block: 0.7rem; }
+
+.db-picks {
+  display: grid;
+  gap: 0.5rem;
+  margin-top: 0.6rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 170px), 1fr));
+}
+.db-picks .field { width: 100%; }
+
+.db-extra { margin-top: 0.6rem; border-top: 1px solid var(--glass-edge); }
+.db-extra summary {
+  cursor: pointer;
+  padding: 0.6rem 0.1rem 0.2rem;
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  list-style: none;
+}
+.db-extra summary::-webkit-details-marker { display: none; }
+.db-extra summary::before { content: "+ "; color: var(--accent); font-family: var(--font-mono); }
+.db-extra[open] summary::before { content: "\2212 "; }
+.db-extra-body {
+  display: grid;
+  gap: 0 var(--gap-md);
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));
+  padding-bottom: 0.4rem;
+}
+
+/* The resting state. Six chips instead of two thousand rows, and no payload
+   fetched until one of them is pressed. */
+.db-start { padding: var(--gap-lg) 0; max-width: 46ch; }
+.db-start p { color: var(--text-dim); }
 
 .db-facet { border-top: 1px solid var(--glass-edge); }
 .db-facet:first-of-type { border-top: 0; }

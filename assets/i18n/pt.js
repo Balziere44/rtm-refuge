@@ -11,17 +11,27 @@
    must never change what any other key means. */
 window.RTMR_I18N_REGISTER('pt', {
 
-  /* --- navigation ------------------------------------------------------- */
+  /* --- navigation -------------------------------------------------------
+     Three group labels and five leaves each. The group label has to work as a
+     heading in the drawer as well as a button in the row. */
   'nav.home': 'Início',
-  'nav.server': 'O Servidor',
   'nav.start': 'Comece Aqui',
+  'nav.about': 'O Servidor',
+  'nav.game': 'O Jogo',
+  'nav.reference': 'Referência',
+  'nav.join': 'Entrar',
+
+  'nav.server': 'O que é o Refuge',
+  'nav.changes': 'O que mudou',
+  'nav.faq': 'Perguntas',
   'nav.classes': 'Classes',
-  'nav.mechanics': 'Mecânicas',
+  'nav.newjobs': 'Duas novas jobs',
+  'nav.mechanics': 'Combate e atributos',
   'nav.gear': 'Equipamentos',
   'nav.world': 'Mundo',
+  'nav.database': 'Database',
   'nav.codex': 'Codex',
   'nav.guides': 'Guias',
-  'nav.join': 'Entrar',
 
   /* --- interface -------------------------------------------------------- */
   'a11y.skip': 'Pular para o conteúdo',
@@ -114,11 +124,15 @@ window.RTMR_I18N_REGISTER('pt', {
   /* --- database --------------------------------------------------------- */
   'db.h1': 'Database',
   'db.lede': 'Todo item e todo monstro, com a descrição que o próprio jogo ' +
-    'mostra. Filtre, busque e siga um drop nos dois sentidos.',
+    'mostra. Busque um nome, ou escolha uma categoria para navegar.',
   'db.items': 'Itens',
   'db.monsters': 'Monstros',
   'db.search': 'Buscar por nome ou efeito...',
-  'db.reset': 'Limpar filtros',
+  'db.more': 'Mais filtros',
+  'db.extraWait': 'Abrir isto carrega os dados.',
+  'db.startText': 'Nada é carregado até você pedir. Digite um nome ou um ' +
+    'efeito acima, ou comece por um destes.',
+  'db.reset': 'Limpar',
   'db.empty': 'Nada corresponde a esses filtros.',
   'db.note': '<strong>Estes são os dados vivos do jogo.</strong> Nomes, ' +
     'descrições e taxas de drop vêm direto do servidor em que o time está ' +
@@ -127,7 +141,6 @@ window.RTMR_I18N_REGISTER('pt', {
     'site disser algo diferente, ela é que vale. ' +
     '<a href="changes.html">Veja o que mudou</a>.',
   'db.note.link': 'Veja o que mudou',
-  'nav.database': 'Database',
   'foot.database': 'Itens e monstros',
   'foot.codex': 'O que as palavras significam',
 

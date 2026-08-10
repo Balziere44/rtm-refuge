@@ -1,14 +1,19 @@
 /* The database.
 
    Two and a half thousand items and seven hundred monsters, filtered in the
-   browser with no server and no framework. Three things make that work:
+   browser with no server and no framework. Four things make that work:
 
-   1. The payload is column arrays with string tables, so the download is a
+   1. Nothing is fetched until somebody asks for something. The dropdowns and
+      their option lists are written into the page at build time, so the whole
+      filter bar is usable while the 514 KB payload has not been requested at
+      all - and for a reader who only came to look around, never is.
+   2. The payload is column arrays with string tables, so the download is a
       third of what objects would cost.
-   2. Filtering runs over plain arrays and a pre-folded lowercase string, so a
+   3. Filtering runs over plain arrays and a pre-folded lowercase string, so a
       keystroke is a linear scan of numbers, not of objects.
-   3. Nothing is painted until it is near the viewport. A filter that matches
-      two thousand rows renders sixty of them.
+   4. A result set is painted forty rows at a time, on request. The old version
+      kept painting until the viewport was full, which for a broad filter meant
+      hundreds of rows nobody had asked to see.
 
    What it shows is the description the game itself puts in front of a player.
    The emulator's bonus scripts are deliberately not in the payload. */
@@ -19,7 +24,7 @@
   if (!root) return;
 
   var PREFIX = window.RTMR_PREFIX || '';
-  var CHUNK = 60;
+  var CHUNK = 40;
 
   var state = {
     tab: 'items',
@@ -28,15 +33,19 @@
     sort: 'name',
     data: { items: null, mobs: null },
     matched: [],
-    painted: 0
+    painted: 0,
+    live: false        // has anything been asked for yet
   };
 
   var els = {
     list: document.getElementById('db-list'),
     count: document.getElementById('db-count'),
+    bar: document.getElementById('db-bar'),
     empty: document.getElementById('db-empty'),
-    sentinel: document.getElementById('db-sentinel'),
+    start: document.getElementById('db-start'),
+    page: document.getElementById('db-page'),
     facets: document.getElementById('db-facets'),
+    extra: root.querySelector('.db-extra'),
     sort: document.getElementById('db-sort'),
     q: document.getElementById('db-q'),
     detail: document.getElementById('db-detail'),
@@ -79,20 +88,28 @@
      Loaded once, lazily, and the drawer renders fine without it. */
 
   var codex = null;
-  fetch(PREFIX + 'assets/data/codex.json')
-    .then(function (r) { return r.json(); })
-    .then(function (d) {
-      // Longest spelling first, so "Magic Defense Pierce" wins over
-      // "Defense Pierce". The payload is already in that order.
-      codex = {
-        map: {},
-        re: new RegExp('(?<![\\w-])(' + d.terms.map(function (t) {
-          return t[0].replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-        }).join('|') + ')(?![\\w-])', 'g')
-      };
-      d.terms.forEach(function (t) { codex.map[t[0]] = t; });
-    })
-    .catch(function () { codex = null; });
+  var codexAsked = false;
+
+  /* Only the drawer marks terms up, so this waits for the first drawer rather
+     than costing every visitor a request they may never use. */
+  function wantCodex() {
+    if (codexAsked) return;
+    codexAsked = true;
+    fetch(PREFIX + 'assets/data/codex.json')
+      .then(function (r) { return r.json(); })
+      .then(function (d) {
+        // Longest spelling first, so "Magic Defense Pierce" wins over
+        // "Defense Pierce". The payload is already in that order.
+        codex = {
+          map: {},
+          re: new RegExp('(?<![\\w-])(' + d.terms.map(function (t) {
+            return t[0].replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+          }).join('|') + ')(?![\\w-])', 'g')
+        };
+        d.terms.forEach(function (t) { codex.map[t[0]] = t; });
+      })
+      .catch(function () { codex = null; });
+  }
 
   /* Takes escaped text, returns escaped text with links added. */
   function terms(escaped) {
@@ -146,11 +163,16 @@
   // Each facet is a column plus how to read it. `multi` means the cell is a
   // list of indices (an item can occupy two slots), `flag` a 0/1 column,
   // `flagLen` a list that should not be empty, and `range` two number inputs.
+  //
+  // `pick` marks the four or five that are the page's front door. Those are
+  // <select> elements written into the HTML at build time, so they are listed
+  // here only so that matching knows how to read them; renderFacets skips them
+  // and the rest arrive folded behind "More filters".
   var FACETS = {
     items: [
-      { key: 'grp', label: 'Kind', col: 'grp', table: 'grps' },
-      { key: 'cat', label: 'Category', col: 'cat', table: 'cats', wide: true },
-      { key: 'loc', label: 'Equipment slot', col: 'loc', table: 'locs', multi: true },
+      { key: 'grp', col: 'grp', table: 'grps', pick: true },
+      { key: 'loc', col: 'loc', table: 'locs', multi: true, pick: true },
+      { key: 'cat', col: 'cat', table: 'cats', pick: true },
       { key: 'slots', label: 'Card slots', col: 'slots', numbers: [0, 1, 2, 3, 4] },
       { key: 'lv', label: 'Required level', col: 'lv', range: true },
       { key: 'jobs', label: 'Usable by', col: 'jobs', table: 'jobs', skipEmpty: true, wide: true },
@@ -159,10 +181,10 @@
       { key: 'zones', label: 'Drops in', col: 'zones', table: 'zones', multi: true, wide: true }
     ],
     mobs: [
-      { key: 'zone', label: 'Zone', col: 'zone', table: 'zones', wide: true },
-      { key: 'race', label: 'Race', col: 'race', table: 'races' },
-      { key: 'element', label: 'Element', col: 'element', table: 'elements' },
-      { key: 'size', label: 'Size', col: 'size', table: 'sizes' },
+      { key: 'zone', col: 'zone', table: 'zones', pick: true },
+      { key: 'race', col: 'race', table: 'races', pick: true },
+      { key: 'element', col: 'element', table: 'elements', pick: true },
+      { key: 'size', col: 'size', table: 'sizes', pick: true },
       { key: 'mvp', label: 'MVP only', col: 'mvp', flag: true },
       { key: 'lv', label: 'Level', col: 'lv', range: true },
       { key: 'drops', label: 'Drops something', col: 'drops', flagLen: true },
@@ -196,6 +218,7 @@
     var data = state.data[state.tab];
     var out = [];
     FACETS[state.tab].forEach(function (facet) {
+      if (facet.pick) return;   // it already has a dropdown of its own
       var body = '';
       if (facet.range) {
         var sel = state.facets[facet.key] || {};
@@ -288,9 +311,32 @@
     return ok;
   }
 
+  /* Nobody has asked for anything: no query, no filter. That is the page's
+     resting state, and it shows six chips rather than two thousand rows. */
+  function idle() {
+    if (state.q) return false;
+    for (var key in state.facets) {
+      if (state.facets[key] != null) return false;
+    }
+    return true;
+  }
+
+  function showIdle() {
+    state.matched = [];
+    state.painted = 0;
+    els.list.innerHTML = '';
+    els.start.hidden = false;
+    els.bar.hidden = true;
+    els.empty.hidden = true;
+    els.page.hidden = true;
+  }
+
   function apply() {
+    if (idle()) { showIdle(); saveUrl(); return; }
     var data = state.data[state.tab];
     if (!data) return;
+    els.start.hidden = true;
+    els.bar.hidden = false;
     var C = data.C;
     state.matched = data.rows.filter(function (row) { return matches(row, data); });
 
@@ -372,28 +418,22 @@
       '</span></button></li>';
   }
 
+  /* Forty rows, then a button. Infinite scroll used to keep painting until the
+     viewport was full, which for "every weapon" meant several hundred rows
+     nobody had asked for and a page you could not reach the end of. */
   function paint() {
     var data = state.data[state.tab];
     var slice = state.matched.slice(state.painted, state.painted + CHUNK);
-    if (!slice.length) return;
-    var render = state.tab === 'items' ? itemCard : mobCard;
-    els.list.insertAdjacentHTML('beforeend', slice.map(function (r) {
-      return render(r, data);
-    }).join(''));
-    state.painted += slice.length;
-
-    // After painting a block the sentinel is often still on screen and no
-    // second intersection ever fires. Keep going until it is out of reach.
-    requestAnimationFrame(function () {
-      var box = els.sentinel.getBoundingClientRect();
-      if (box.top < window.innerHeight + 600) paint();
-    });
-  }
-
-  if ('IntersectionObserver' in window) {
-    new IntersectionObserver(function (entries) {
-      if (entries[0].isIntersecting) paint();
-    }, { rootMargin: '600px' }).observe(els.sentinel);
+    if (slice.length) {
+      var render = state.tab === 'items' ? itemCard : mobCard;
+      els.list.insertAdjacentHTML('beforeend', slice.map(function (r) {
+        return render(r, data);
+      }).join(''));
+      state.painted += slice.length;
+    }
+    var left = state.matched.length - state.painted;
+    els.page.hidden = left <= 0;
+    els.page.textContent = 'Show ' + num(Math.min(left, CHUNK)) + ' more';
   }
 
   /* ---- detail ----------------------------------------------------------- */
@@ -552,24 +592,64 @@
     history.replaceState(null, '', qs ? '?' + qs : location.pathname);
   }
 
+  var pendingKind = '';
+
   function readUrl() {
     var p = new URLSearchParams(location.search);
     if (p.get('tab') === 'mobs') state.tab = 'mobs';
     if (p.get('q')) { state.q = fold(p.get('q')); els.q.value = p.get('q'); }
     if (p.get('sort')) state.sort = p.get('sort');
+    pendingKind = p.get('kind') || '';
     return p.get('id') ? +p.get('id') : 0;
   }
 
-  /* ?kind=Shadow+gear preselects the Kind facet, so a page elsewhere on the
+  /* ?kind=Shadow+gear preselects the Kind dropdown, so a page elsewhere on the
      site can link straight at one slice of the database. It takes the label
      rather than the index because the index is a build detail and would
      silently point somewhere else the next time the data is rebuilt. */
   function applyUrlFacet() {
-    var want = new URLSearchParams(location.search).get('kind');
     var data = state.data.items;
-    if (!want || state.tab !== 'items' || !data) return;
-    var i = data.grps.indexOf(want);
+    if (!pendingKind || state.tab !== 'items' || !data) return;
+    var i = data.grps.indexOf(pendingKind);
     if (i !== -1) state.facets.grp = [i];
+    pendingKind = '';
+  }
+
+  /* ---- the dropdowns -----------------------------------------------------
+     Their options are in the HTML already. These two keep the elements and
+     `state.facets` saying the same thing in both directions. */
+
+  function picks() {
+    return root.querySelectorAll('[data-pick]');
+  }
+
+  function syncPicks() {
+    picks().forEach(function (sel) {
+      if (sel.dataset.tab !== state.tab) { sel.value = ''; return; }
+      var v = state.facets[sel.dataset.pick];
+      sel.value = (v && v.length === 1) ? String(v[0]) : '';
+    });
+  }
+
+  function showPicksFor(tab) {
+    root.querySelectorAll('[data-picks]').forEach(function (box) {
+      box.hidden = box.dataset.picks !== tab;
+    });
+  }
+
+  /* The payload is fetched here and nowhere else, on the first thing anybody
+     asks for. A visitor who reads the page and leaves never downloads it. */
+  function ensure(then) {
+    if (state.data[state.tab]) { then(); return; }
+    // Fired alongside the payload so the first drawer already has it.
+    wantCodex();
+    els.start.hidden = true;
+    els.bar.hidden = false;
+    els.count.textContent = 'Loading...';
+    load(state.tab).then(function () {
+      renderFacets();
+      then();
+    });
   }
 
   /* ---- events ----------------------------------------------------------- */
@@ -579,13 +659,46 @@
     clearTimeout(timer);
     timer = setTimeout(function () {
       state.q = fold(els.q.value.trim());
-      apply();
-    }, 120);
+      ensure(apply);
+    }, 160);
   });
 
   els.sort.addEventListener('change', function () {
     state.sort = els.sort.value;
-    apply();
+    ensure(apply);
+  });
+
+  /* One dropdown is one value. Two of them at once is what "More filters" is
+     for, and that is where multi-select lives. */
+  root.addEventListener('change', function (e) {
+    var sel = e.target.closest('[data-pick]');
+    if (!sel) return;
+    state.facets[sel.dataset.pick] = sel.value === '' ? null : [+sel.value];
+    ensure(apply);
+  });
+
+  root.addEventListener('click', function (e) {
+    var chip = e.target.closest('[data-quick]');
+    if (!chip) return;
+    var bits = chip.dataset.quick.split(':');
+    switchTab(bits[0], function () {
+      // A 0/1 column is matched against the number 1, everything else against
+      // a list of indices. Setting the wrong shape silently matches every row.
+      var facet = FACETS[bits[0]].filter(function (f) {
+        return f.key === bits[1];
+      })[0];
+      state.facets[bits[1]] =
+        (facet && (facet.flag || facet.flagLen)) ? 1 : [+bits[2]];
+      syncPicks();
+      apply();
+    });
+  });
+
+  els.page.addEventListener('click', paint);
+
+  els.extra.addEventListener('toggle', function () {
+    if (!els.extra.open || state.data[state.tab]) return;
+    load(state.tab).then(renderFacets);
   });
 
   els.facets.addEventListener('change', function (e) {
@@ -600,13 +713,13 @@
       apply();
     } else if (box.dataset.flag) {
       state.facets[box.dataset.flag] = box.checked ? 1 : null;
-      apply();
+      ensure(apply);
     } else if (box.dataset.range) {
       var cur = state.facets[box.dataset.range] || {};
       cur[box.dataset.edge] = box.value === '' ? null : +box.value;
       state.facets[box.dataset.range] =
         (cur.min == null && cur.max == null) ? null : cur;
-      apply();
+      ensure(apply);
     }
   });
 
@@ -621,7 +734,8 @@
     state.facets = {};
     state.q = '';
     els.q.value = '';
-    renderFacets();
+    syncPicks();
+    if (state.data[state.tab]) renderFacets();
     apply();
   });
 
@@ -642,6 +756,12 @@
     if (e.key === 'Escape' && els.detail.dataset.open === 'true') closeDetail();
   });
 
+  function markTabs() {
+    root.querySelectorAll('[data-db-tab]').forEach(function (t) {
+      t.setAttribute('aria-selected', String(t.dataset.dbTab === state.tab));
+    });
+  }
+
   function switchTab(name, then) {
     if (name !== state.tab) {
       state.tab = name;
@@ -651,17 +771,17 @@
       // while switching to monsters shows an empty list with no visible cause.
       state.q = '';
       els.q.value = '';
+      els.extra.open = false;
+      els.facets.innerHTML = '';
+      syncPicks();
       closeDetail();
     }
-    root.querySelectorAll('[data-db-tab]').forEach(function (t) {
-      t.setAttribute('aria-selected', String(t.dataset.dbTab === name));
-    });
-    els.count.textContent = 'Loading...';
-    load(name).then(function () {
-      renderFacets();
-      apply();
-      if (then) then();
-    });
+    markTabs();
+    showPicksFor(name);
+    // Switching tab with nothing selected is browsing, not asking. The other
+    // payload stays unfetched until it is actually wanted.
+    if (!then && idle()) { apply(); return; }
+    ensure(function () { apply(); if (then) then(); });
   }
 
   root.querySelectorAll('[data-db-tab]').forEach(function (tab) {
@@ -670,16 +790,22 @@
     });
   });
 
-  /* ---- boot ------------------------------------------------------------- */
+  /* ---- boot -------------------------------------------------------------
+     A first visit fetches nothing at all. Only a URL that already names
+     something - a query, a kind, an open record - opens the payload. */
 
   var openId = readUrl();
-  root.querySelectorAll('[data-db-tab]').forEach(function (t) {
-    t.setAttribute('aria-selected', String(t.dataset.dbTab === state.tab));
-  });
-  load(state.tab).then(function () {
-    applyUrlFacet();
-    renderFacets();
+  markTabs();
+  showPicksFor(state.tab);
+
+  if (openId || state.q || pendingKind) {
+    ensure(function () {
+      applyUrlFacet();
+      syncPicks();
+      apply();
+      if (openId) openDetail(openId);
+    });
+  } else {
     apply();
-    if (openId) openDetail(openId);
-  });
+  }
 })();

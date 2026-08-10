@@ -251,54 +251,54 @@ def build_server():
   <div class="shell">
     {crumbs("The Server")}
     <h1>What the Refuge actually is</h1>
-    <p>
-      Who built it, why it exists, how it is paid for, and what it refuses to
-      become. Written from the team's own posts rather than a pitch deck.
+    <p class="lede">
+      Return to Morroc: Refuge is a rebuild of Return to Morroc, a heavily
+      customised world that closed some time ago. Same design philosophy, with
+      the mistakes taken out: several hundred new items, two jobs that never
+      existed, and a decision that nothing will ever be for sale.
     </p>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="shell shell-narrow">
+    <div class="panel reveal">
+      <p>
+        Three people and a few moderators. Not a studio. They have said in as
+        many words that this is not meant to be a professional server, just a
+        good experience for people who want somewhere to play that adds
+        content, fixes what was broken, and respects your time.
+      </p>
+    </div>
   </div>
 </section>
 
 <section class="section">
   <div class="shell">
-    <div class="grid grid--wide">
-      <div class="prose reveal">
-        <h2>The one-paragraph version</h2>
-        <p>
-          Return to Morroc: Refuge is a special take on Return to Morroc, which was
-          itself a heavily customised world that closed some time ago. It is not a
-          revival in the nostalgic sense. It is the same design philosophy with the
-          mistakes taken out, several hundred new items in, two jobs that never
-          existed, and an explicit decision that nothing will ever be for sale.
-        </p>
-        <p>
-          The team is three people plus moderators. They are not a studio. They
-          have said in as many words that this is not meant to be a professional
-          server - just a good experience for people who want somewhere to play
-          that adds content, fixes what was broken, and respects your time.
-        </p>
-        <h2>Who does what</h2>
+    <div class="section-head reveal">
+      <p class="eyebrow">The team</p>
+      <h2>Who does what</h2>
+    </div>
+    <div class="grid">
+      <div class="card reveal">
+        <span class="card-kicker">Head admin</span>
+        <h3>Metta</h3>
+        <p>Hosting, costs, planning and server progression. He paid for all of it, and the idea was his. He called Ornstein and spent hours arguing that the old world deserved better than a sequel in name only.</p>
       </div>
-      <div class="stack">
-        <div class="card reveal">
-          <span class="card-kicker">Head admin</span>
-          <h3>Metta</h3>
-          <p>Hosting, costs, planning and server progression. He paid for all of it, and the idea was his - he called Ornstein and spent hours arguing that the old world deserved better than a sequel-in-name.</p>
-        </div>
-        <div class="card reveal">
-          <span class="card-kicker">Co-developer</span>
-          <h3>croc</h3>
-          <p>Items, code and the day-to-day running of the build. Much of his earlier work on the original is folded straight into the Refuge.</p>
-        </div>
-        <div class="card reveal">
-          <span class="card-kicker">Co-developer</span>
-          <h3>Ornstein</h3>
-          <p>Design, job adjustments and the gameplay plan. He built the original world's direction and came back for this one. The new jobs, the rebalance passes and the Amatsu dungeon are his.</p>
-        </div>
-        <div class="card reveal">
-          <span class="card-kicker">Community</span>
-          <h3>The moderation team</h3>
-          <p>Issues, arguments and the human side. Feedback from the community server has already changed the balance lists more than once.</p>
-        </div>
+      <div class="card reveal">
+        <span class="card-kicker">Co-developer</span>
+        <h3>croc</h3>
+        <p>Items, code and the day-to-day running of the build. Much of his earlier work on the original is folded straight into the Refuge.</p>
+      </div>
+      <div class="card reveal">
+        <span class="card-kicker">Co-developer</span>
+        <h3>Ornstein</h3>
+        <p>Design, job adjustments and the gameplay plan. He built the original world's direction and came back for this one. The new jobs, the rebalance passes and the Amatsu dungeon are his.</p>
+      </div>
+      <div class="card reveal">
+        <span class="card-kicker">Community</span>
+        <h3>The moderation team</h3>
+        <p>Issues, arguments and the human side. Feedback from the community server has already changed the balance lists more than once.</p>
       </div>
     </div>
   </div>
@@ -317,7 +317,7 @@ def build_server():
       </div>
       <div class="card reveal">
         <h3>So there will be a way to fund it</h3>
-        <p>What that looks like has not been decided. It will be discussed with the community before it ships, not announced at it. Cosmetics, conveniences, donations, a founder pack - all of that is on the table.</p>
+        <p>What that looks like has not been decided. It will be discussed with the community before it ships, not announced at it. Cosmetics, conveniences, donations, a founder pack: all of that is on the table.</p>
       </div>
       <div class="card reveal">
         <h3>The line that will not move</h3>
@@ -342,38 +342,38 @@ def build_server():
       <h2>The rules the rebuild follows</h2>
     </div>
     <div class="prose reveal">
-      <h3>Expand what was good, fix what was not</h3>
-      <p>
-        Every change on this site traces back to that sentence. Skills nobody
-        pressed got numbers worth pressing. Systems that funnelled everyone into
-        the same build got deleted. Nothing was changed because change looks like
-        progress.
-      </p>
-      <h3>A small cozy town, not a live service</h3>
-      <p>
-        Updates arrive at a reasonable pace. New content keeps coming. There are
-        no plans to close, and the stated ambition is to go considerably further
-        than the original ever did.
-      </p>
-      <h3>Simple to read, varied to play</h3>
-      <p>
-        The jobs are meant to be easy to understand and varied by utility rather
-        than by spectacle. If you are expecting a skill tree that reads like a
-        light show, this is the wrong world - the interest here is in what a
-        skill does for the party, not how big it is.
-      </p>
-      <h3>Built where you can watch</h3>
-      <p>
-        Balance lists, skill trees, dungeon reveals and missed deadlines all get
-        posted publicly before launch. Suggestions from the community server have
-        already changed the design more than once.
-      </p>
+      <p><strong>Expand what was good, fix what was not.</strong> Every change
+      on this site traces back to that sentence.</p>
+      <details class="more">
+        <summary>The other three</summary>
+        <div class="more-body">
+          <h3>A small cozy town, not a live service</h3>
+          <p>
+            Updates arrive at a reasonable pace. New content keeps coming. There
+            are no plans to close, and the stated ambition is to go considerably
+            further than the original ever did.
+          </p>
+          <h3>Simple to read, varied to play</h3>
+          <p>
+            The jobs are meant to be easy to understand and varied by utility
+            rather than by spectacle. If you are expecting a skill tree that
+            reads like a light show, this is the wrong world. What matters here
+            is what a skill does for the party, not how big it is.
+          </p>
+          <h3>Built where you can watch</h3>
+          <p>
+            Balance lists, skill trees, dungeon reveals and missed deadlines all
+            get posted publicly before launch. Suggestions from the community
+            server have already changed the design more than once.
+          </p>
+        </div>
+      </details>
     </div>
   </div>
 </section>
 
 {cta("Questions the team has already answered",
-     "Nine of the most common ones are collected on the FAQ. Anything else, ask directly - the developers answer.")}
+     "Nine of the most common ones are collected on the FAQ. Anything else, ask directly. The developers answer.")}
 """
     page("server.html",
          "The Server | Return to Morroc: Refuge",
@@ -436,7 +436,7 @@ def build_changes():
       <p>
         The Refuge deletes them and replaces them with more than fifty new sets tied
         to dungeons rather than to jobs. They are not job-locked. Several of them
-        exist specifically to make an unloved skill worth building around - and one
+        exist specifically to make an unloved skill worth building around, and one
         that is still in testing puts you at 1 HP in exchange for chaining a lot of
         skills in a row, which tells you roughly how far the team is willing to go.
       </p>
@@ -455,7 +455,7 @@ def build_changes():
       <p>
         Monsters deal more damage and healing is slower. In exchange, a large share
         of the skill changes on the <a href="classes.html">classes page</a> are
-        straight damage increases - they exist to pay for the increased monster
+        straight damage increases. They exist to pay for the increased monster
         power and density, not to make you stronger than you were.
       </p>
       <p>
@@ -519,7 +519,7 @@ def build_newjobs():
         </p>
         <p><strong>The cost:</strong> an enormous SP sink. You can make it move
         fast, but speed eats your bar.</p>
-        <p class="muted">Progression to the second job is quick - the same timing as the raider line.</p>
+        <p class="muted">Progression to the second job is quick, the same timing as the raider line.</p>
       </div>
       <div class="card reveal">
         <span class="card-kicker">Final job</span>
@@ -527,7 +527,7 @@ def build_newjobs():
         <p>
           Doubles down on the identity: prepare big swings, land big strikes.
           Most of its skills have fixed cast time, so gear that reduces it is not
-          optional - it is the build.
+          optional. It is the build.
         </p>
         <p>Roughly the HP of a dracomancer, and a little more SP.</p>
       </div>
@@ -586,7 +586,7 @@ def build_newjobs():
           <h3 style="font-size:var(--step-1)">Expectations</h3>
           <p>
             The designer has been blunt about this: the job follows the world's
-            existing design language - simple, readable, varied by utility. It is
+            existing design language: simple, readable, varied by utility. It is
             not trying to be flashy, and it is not borrowed from anywhere else.
           </p>
         </div>
@@ -719,7 +719,7 @@ def build_guides():
       </p>
       <h3>Hiding is a two-second tool, not a hiding place</h3>
       <p>
-        Fixed duration, five second cooldown, cannot be cancelled early - and it
+        Fixed duration, five second cooldown, cannot be cancelled early, and it
         works on bosses, insects and demons. It is an interrupt, not an escape.
       </p>
       <h3>Improve Defense and Improve Wisdom are worth points now</h3>
@@ -889,7 +889,7 @@ def build_faq():
 """
     page("faq.html",
          "FAQ | Return to Morroc: Refuge",
-         "Launch date, cost, cash shop, shadow sets, Einherjar Challenge Mode and who runs the Refuge - the nine most common questions, answered from the team's own posts.",
+         "Launch date, cost, cash shop, shadow sets, Einherjar Challenge Mode and who runs the Refuge: the nine most common questions, answered from the team's own posts.",
          "join.html", body,
          trail=[("index.html", "Home"), (None, "FAQ")],
          extra_ld=C.faq_ld(D.FAQS))

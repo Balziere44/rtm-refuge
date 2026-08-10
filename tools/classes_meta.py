@@ -73,7 +73,7 @@ CLASSES = [
          tagline="Fists, punch combos, and the first casting skills in the tree.",
          weapons="Fists",
          refuge=["Brand new in the Refuge. Commissioned by the head admin, designed by Ornstein.",
-                 "Tanky, versatile, flexible - and an enormous SP sink.",
+                 "Tanky, versatile, flexible, and an enormous SP sink.",
                  "Progression to Pit Boss is fast, on the same timing as Raider to Dracomancer."],
          own=["Quick punch combos that build stacks, and the first casting skills in the tree.",
               "Tanky and flexible in how you build it, with real survivability for a first job.",
@@ -84,7 +84,7 @@ CLASSES = [
          tagline="A life of peace and profits. Cannot fight, can sell.",
          refuge=[],
          weapons="None",
-         own=["Available from the very start - change at base level 1, at the Merchant Envoy near the backroom in the Orphanage.",
+         own=["Available from the very start. Change at base level 1, at the Merchant Envoy near the backroom in the Orphanage.",
               "Cannot level up at all. That is the trade.",
               "Three skills, all learned at job change.",
               "Free travel between the Orphanage and Alberta, and a cart anywhere, any time, from an exclusive item."]),
@@ -152,7 +152,7 @@ CLASSES = [
                  "Golf clubs cut fixed cast; chains raise your current defence by percentage.",
                  "Roughly a Dracomancer's HP, slightly more SP."],
          own=["Doubles down on the tree's identity: prepare big swings, land big strikes.",
-              "Most skills have fixed cast time, so gear that reduces it is not optional - it is the build.",
+              "Most skills have fixed cast time, so gear that reduces it is not optional. It is the build.",
               "<strong>Golf clubs</strong> carry an innate reduction to fixed cast time.",
               "<strong>Chains</strong> raise the job's defensive properties directly, as a percentage of your current defence.",
               "Roughly a Dracomancer's HP and slightly more SP.",
@@ -273,8 +273,8 @@ TIER_LABEL = {
 # (heading, blurb, [[row], [row], ...]) where a row is a list of slugs.
 TREE = [
     ("Straight from the Orphan",
-     "Ten job levels and you are one of these. None of them changes again - "
-     "what you pick here is what you play for a hundred and forty levels.",
+     "Ten job levels and you are one of these. None of them changes again. "
+     "What you pick here is what you play for a hundred and forty levels.",
      [["jester", "ronin", "mimic", "merchant"]]),
     ("One more step",
      "Four roads with exactly two stations. The first job comes at job level "

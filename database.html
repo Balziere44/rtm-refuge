@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Database | Return to Morroc: Refuge</title>
-<meta name="description" content="Search 2,622 items and 719 monsters across 117 zones - filter by category, slot, level, job, race, element and where it drops.">
+<meta name="description" content="Search 2,622 items and 719 monsters across 77 zones. Filter by category, slot, level, job, race, element and where it drops.">
 <link rel="canonical" href="https://rtmrefuge.pages.dev/database.html">
 
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
@@ -18,7 +18,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:url" content="https://rtmrefuge.pages.dev/database.html">
 <meta property="og:title" content="Database | Return to Morroc: Refuge">
-<meta property="og:description" content="Search 2,622 items and 719 monsters across 117 zones - filter by category, slot, level, job, race, element and where it drops.">
+<meta property="og:description" content="Search 2,622 items and 719 monsters across 77 zones. Filter by category, slot, level, job, race, element and where it drops.">
 <meta property="og:image" content="https://rtmrefuge.pages.dev/assets/social/og-cover.jpg?v=c886e96b">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -26,7 +26,7 @@
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Database | Return to Morroc: Refuge">
-<meta name="twitter:description" content="Search 2,622 items and 719 monsters across 117 zones - filter by category, slot, level, job, race, element and where it drops.">
+<meta name="twitter:description" content="Search 2,622 items and 719 monsters across 77 zones. Filter by category, slot, level, job, race, element and where it drops.">
 <meta name="twitter:image" content="https://rtmrefuge.pages.dev/assets/social/og-cover.jpg?v=c886e96b">
 
 <link rel="icon" href="assets/img/icon-32.png" sizes="32x32">
@@ -75,17 +75,37 @@
     </a>
     <!-- NAV:START -->
     <nav class="nav" aria-label="Main">
-      <a href="index.html" data-i18n="nav.home">Home</a>
-      <a href="server.html" data-i18n="nav.server">The Server</a>
-      <a href="start.html" data-i18n="nav.start">Start Here</a>
-      <a href="classes.html" data-i18n="nav.classes">Classes</a>
-      <a href="mechanics.html" data-i18n="nav.mechanics">Mechanics</a>
-      <a href="gear.html" data-i18n="nav.gear">Gear</a>
-      <a href="world.html" data-i18n="nav.world">World</a>
-      <a href="database.html" aria-current="page" data-i18n="nav.database">Database</a>
-      <a href="codex.html" data-i18n="nav.codex">Codex</a>
-      <a href="guides.html" data-i18n="nav.guides">Guides</a>
-      <a href="join.html" data-i18n="nav.join">Join</a>
+      <a class="nav-top" href="start.html" data-i18n="nav.start">Start Here</a>
+      <div class="nav-group" data-open="false">
+        <button class="nav-top" type="button" data-nav-group
+                aria-expanded="false" data-i18n="nav.about">The Server<svg class="nav-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <div class="nav-menu">
+          <a href="server.html" data-i18n="nav.server">What the Refuge is</a>
+          <a href="changes.html" data-i18n="nav.changes">What changed</a>
+          <a href="faq.html" data-i18n="nav.faq">Questions</a>
+        </div>
+      </div>
+      <div class="nav-group" data-open="false">
+        <button class="nav-top" type="button" data-nav-group
+                aria-expanded="false" data-i18n="nav.game">The Game<svg class="nav-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <div class="nav-menu">
+          <a href="classes.html" data-i18n="nav.classes">Classes</a>
+          <a href="newjobs.html" data-i18n="nav.newjobs">Two new jobs</a>
+          <a href="mechanics.html" data-i18n="nav.mechanics">Combat and stats</a>
+          <a href="gear.html" data-i18n="nav.gear">Gear</a>
+          <a href="world.html" data-i18n="nav.world">World</a>
+        </div>
+      </div>
+      <div class="nav-group" data-open="false">
+        <button class="nav-top" type="button" data-nav-group
+                aria-expanded="false" data-here="true" data-i18n="nav.reference">Reference<svg class="nav-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <div class="nav-menu">
+          <a href="database.html" aria-current="page" data-i18n="nav.database">Database</a>
+          <a href="codex.html" data-i18n="nav.codex">Codex</a>
+          <a href="guides.html" data-i18n="nav.guides">Guides</a>
+        </div>
+      </div>
+      <a class="nav-top nav-cta" href="join.html" data-i18n="nav.join">Join</a>
     </nav>
     <!-- NAV:END -->
     <div class="header-actions">
@@ -145,16 +165,33 @@
     </div>
     <!-- DRAWER:START -->
     <nav aria-label="Mobile">
-      <a href="index.html" data-i18n="nav.home">Home</a>
-      <a href="server.html" data-i18n="nav.server">The Server</a>
       <a href="start.html" data-i18n="nav.start">Start Here</a>
-      <a href="classes.html" data-i18n="nav.classes">Classes</a>
-      <a href="mechanics.html" data-i18n="nav.mechanics">Mechanics</a>
-      <a href="gear.html" data-i18n="nav.gear">Gear</a>
-      <a href="world.html" data-i18n="nav.world">World</a>
-      <a href="database.html" aria-current="page" data-i18n="nav.database">Database</a>
-      <a href="codex.html" data-i18n="nav.codex">Codex</a>
-      <a href="guides.html" data-i18n="nav.guides">Guides</a>
+      <details class="drawer-group">
+        <summary data-i18n="nav.about">The Server</summary>
+        <div class="drawer-group-body">
+          <a href="server.html" data-i18n="nav.server">What the Refuge is</a>
+          <a href="changes.html" data-i18n="nav.changes">What changed</a>
+          <a href="faq.html" data-i18n="nav.faq">Questions</a>
+        </div>
+      </details>
+      <details class="drawer-group">
+        <summary data-i18n="nav.game">The Game</summary>
+        <div class="drawer-group-body">
+          <a href="classes.html" data-i18n="nav.classes">Classes</a>
+          <a href="newjobs.html" data-i18n="nav.newjobs">Two new jobs</a>
+          <a href="mechanics.html" data-i18n="nav.mechanics">Combat and stats</a>
+          <a href="gear.html" data-i18n="nav.gear">Gear</a>
+          <a href="world.html" data-i18n="nav.world">World</a>
+        </div>
+      </details>
+      <details class="drawer-group" open>
+        <summary data-i18n="nav.reference">Reference</summary>
+        <div class="drawer-group-body">
+          <a href="database.html" aria-current="page" data-i18n="nav.database">Database</a>
+          <a href="codex.html" data-i18n="nav.codex">Codex</a>
+          <a href="guides.html" data-i18n="nav.guides">Guides</a>
+        </div>
+      </details>
       <a href="join.html" data-i18n="nav.join">Join</a>
     </nav>
     <!-- DRAWER:END -->
@@ -167,7 +204,7 @@
     <h1 data-i18n="db.h1">Database</h1>
     <p class="lede" data-i18n="db.lede">
       Every item and every monster, with the description the game itself shows
-      you. Filter it, search it, and follow a drop in either direction.
+      you. Search a name, or pick a category to browse.
     </p>
   </div>
 </section>
@@ -180,32 +217,348 @@
             aria-selected="false" data-db-tab="mobs" data-i18n="db.monsters">Monsters</button>
   </div>
 
-  <div class="db-shell">
-    <form class="db-filters" id="db-filters" aria-label="Filters">
-      <div class="db-search">
-        <label class="visually-hidden" for="db-q">Search</label>
-        <input id="db-q" class="field" type="search" autocomplete="off"
-               placeholder="Search by name or effect..."
-               data-i18n-attr="placeholder:db.search">
+  <form class="db-hunt" id="db-hunt" aria-label="Search and filter">
+    <div class="db-search">
+      <label class="visually-hidden" for="db-q">Search</label>
+      <input id="db-q" class="field" type="search" autocomplete="off"
+             placeholder="Search by name or effect..."
+             data-i18n-attr="placeholder:db.search">
+    </div>
+    <div class="db-picks" data-picks="items">
+    <label class="visually-hidden" for="pick-items-grp">Any kind</label>
+    <select class="field field--select" id="pick-items-grp"
+            data-pick="grp" data-tab="items">
+      <option value="">Any kind</option>
+      <option value="2">Card (694)</option>
+      <option value="5">Armor (413)</option>
+      <option value="3">Weapon (375)</option>
+      <option value="4">Material (249)</option>
+      <option value="11">Costume (208)</option>
+      <option value="7">Shadow gear (206)</option>
+      <option value="0">Class gear (127)</option>
+      <option value="1">Usable (126)</option>
+      <option value="6">Accessory (92)</option>
+      <option value="9">Headgear (60)</option>
+      <option value="10">Shield (53)</option>
+      <option value="8">Ammunition (18)</option>
+      <option value="12">Other (1)</option>
+    </select>
+    <label class="visually-hidden" for="pick-items-loc">Any slot</label>
+    <select class="field field--select" id="pick-items-loc"
+            data-pick="loc" data-tab="items">
+      <option value="">Any slot</option>
+      <option value="2">Weapon (357)</option>
+      <option value="1">Upper headgear (286)</option>
+      <option value="4">Accessory (207)</option>
+      <option value="9">Armor (203)</option>
+      <option value="8">Garment (181)</option>
+      <option value="0">Weapon (two-handed) (176)</option>
+      <option value="6">Shoes (152)</option>
+      <option value="7">Middle headgear (131)</option>
+      <option value="3">Lower headgear (112)</option>
+      <option value="10">Shadow accessory (74)</option>
+      <option value="16">Off-hand (64)</option>
+      <option value="11">Shield (53)</option>
+      <option value="12">Shadow armor (51)</option>
+      <option value="13">Shadow shield (51)</option>
+      <option value="14">Shadow shoes (51)</option>
+      <option value="5">Shadow weapon (50)</option>
+      <option value="17">Headgear (33)</option>
+      <option value="15">Ammunition (24)</option>
+      <option value="18">Costume (1)</option>
+    </select>
+    <label class="visually-hidden" for="pick-items-cat">Any category</label>
+    <select class="field field--select" id="pick-items-cat"
+            data-pick="cat" data-tab="items">
+      <option value="">Any category</option>
+      <option value="11">Accessory (73)</option>
+      <option value="103">Ammo (2)</option>
+      <option value="29">Arm Shield (8)</option>
+      <option value="17">Armor (127)</option>
+      <option value="20">Arrow (16)</option>
+      <option value="4">Axe (29)</option>
+      <option value="48">Bone Sword (3)</option>
+      <option value="15">Bow (42)</option>
+      <option value="30">Cantrips Book (12)</option>
+      <option value="2">Card (694)</option>
+      <option value="80">Claw Orb (3)</option>
+      <option value="75">Codex (6)</option>
+      <option value="6">Collectible (172)</option>
+      <option value="32">Colossal Shield (4)</option>
+      <option value="102">Container (2)</option>
+      <option value="54">Costume (208)</option>
+      <option value="24">Dagger (79)</option>
+      <option value="57">Dark Dagger (3)</option>
+      <option value="72">Dark Katar (1)</option>
+      <option value="69">Dark Knight Sword (1)</option>
+      <option value="66">Dark Scythe (2)</option>
+      <option value="0">Deck (26)</option>
+      <option value="96">Delayconsume (1)</option>
+      <option value="111">DelayConsume (1)</option>
+      <option value="84">Dungeon Key (2)</option>
+      <option value="113">Earth Axe (1)</option>
+      <option value="104">Earth Dagger (1)</option>
+      <option value="78">Earth Katar (1)</option>
+      <option value="67">Elemental Rune (6)</option>
+      <option value="55">Equipment (1)</option>
+      <option value="73">Essential (4)</option>
+      <option value="18">Etc (53)</option>
+      <option value="120">Fire Axe (1)</option>
+      <option value="119">Fire Dagger (1)</option>
+      <option value="110">Fire Katar (1)</option>
+      <option value="83">Fire Scythe (1)</option>
+      <option value="70">Fire Sword (2)</option>
+      <option value="118">Fire Whip (1)</option>
+      <option value="43">Flying Knife (6)</option>
+      <option value="50">Forging material (2)</option>
+      <option value="38">Ghost Scythe (1)</option>
+      <option value="87">Ghost Sword (1)</option>
+      <option value="41">Growth Rune (6)</option>
+      <option value="14">Guardian Rune (6)</option>
+      <option value="63">Headgear (18)</option>
+      <option value="26">Healing (8)</option>
+      <option value="25">Heavy Armor (29)</option>
+      <option value="100">Heavy Bow (5)</option>
+      <option value="52">Heavy Garment (17)</option>
+      <option value="34">Heavy Shield (25)</option>
+      <option value="49">Heavy Shoes (19)</option>
+      <option value="91">Holy Dagger (1)</option>
+      <option value="88">Holy Scythe (1)</option>
+      <option value="114">Holy Sword (1)</option>
+      <option value="46">Katar (26)</option>
+      <option value="36">Knight Sword (1)</option>
+      <option value="39">Left Accessory (12)</option>
+      <option value="93">Legendary Rune (1)</option>
+      <option value="44">Light Armor (46)</option>
+      <option value="77">Light Garment (21)</option>
+      <option value="28">Light Shoes (20)</option>
+      <option value="35">Long Sword (12)</option>
+      <option value="82">Low Headgear (5)</option>
+      <option value="56">Lower Head (2)</option>
+      <option value="23">Lower Headgear (10)</option>
+      <option value="12">Manual (23)</option>
+      <option value="9">Medium Armor (44)</option>
+      <option value="8">Medium Garment (46)</option>
+      <option value="7">Medium Shoes (42)</option>
+      <option value="31">Mid Headgear (9)</option>
+      <option value="101">Mid/Low Headgear (2)</option>
+      <option value="90">Musical Instrument (1)</option>
+      <option value="33">Offhand Dagger (7)</option>
+      <option value="85">Poison Axe (2)</option>
+      <option value="81">Poison Dagger (3)</option>
+      <option value="112">Poison Knight Sword (1)</option>
+      <option value="115">Poison Wyrm Spear (1)</option>
+      <option value="79">Power Rune (9)</option>
+      <option value="58">Prowler Gear (10)</option>
+      <option value="16">Quest (4)</option>
+      <option value="94">Refining Material (2)</option>
+      <option value="99">Restorative (3)</option>
+      <option value="98">Revolver (1)</option>
+      <option value="37">Right Accessory (7)</option>
+      <option value="42">Round Shield (13)</option>
+      <option value="5">Scale Orb (10)</option>
+      <option value="10">Scythe (27)</option>
+      <option value="106">Shadow Armor (1)</option>
+      <option value="107">Shadow Gloves (1)</option>
+      <option value="108">Shadow Pendant (1)</option>
+      <option value="19">Shadow Piece (195)</option>
+      <option value="109">Shadow Shoes (1)</option>
+      <option value="21">Shadowgear (7)</option>
+      <option value="64">Shield (2)</option>
+      <option value="89">Shuffling Deck (4)</option>
+      <option value="65">Simple Armor (1)</option>
+      <option value="22">Soul Rune (6)</option>
+      <option value="47">Spear (16)</option>
+      <option value="45">Special (1)</option>
+      <option value="62">Speed Potion (1)</option>
+      <option value="117">Square Shield (1)</option>
+      <option value="53">Support (2)</option>
+      <option value="3">Sword (49)</option>
+      <option value="74">Taming Item (3)</option>
+      <option value="71">Unique Armor (1)</option>
+      <option value="95">Unique Weapon (2)</option>
+      <option value="121">Upper and Mid Headgear (1)</option>
+      <option value="27">Upper Headgear (13)</option>
+      <option value="1">Usable (104)</option>
+      <option value="60">Valuable (10)</option>
+      <option value="59">Water DaggerLv: 2 (1)</option>
+      <option value="86">Water Katar (1)</option>
+      <option value="116">Water Long Sword (1)</option>
+      <option value="92">Water Sword (1)</option>
+      <option value="61">Water Wyrm Spear (1)</option>
+      <option value="51">Weapon (7)</option>
+      <option value="40">Whip (10)</option>
+      <option value="97">Wind Dagger (1)</option>
+      <option value="13">Wind Katar (2)</option>
+      <option value="68">Wind Long Sword (1)</option>
+      <option value="122">Wind Wyrm Spear (1)</option>
+      <option value="105">Wing Orb (2)</option>
+      <option value="76">Wyrm Spear (10)</option>
+    </select>
+    </div>
+    <div class="db-picks" data-picks="mobs" hidden>
+    <label class="visually-hidden" for="pick-mobs-zone">Anywhere</label>
+    <select class="field field--select" id="pick-mobs-zone"
+            data-pick="zone" data-tab="mobs">
+      <option value="">Anywhere</option>
+      <option value="48">Abbey (7)</option>
+      <option value="41">Abyss (11)</option>
+      <option value="6">Ace dun (6)</option>
+      <option value="67">Alch (11)</option>
+      <option value="22">Aldebaran (7)</option>
+      <option value="33">Ama (10)</option>
+      <option value="16">Ant Hell (9)</option>
+      <option value="63">Ast (5)</option>
+      <option value="21">Ayothaya (6)</option>
+      <option value="7">Beach (5)</option>
+      <option value="13">Bra (9)</option>
+      <option value="18">Clock Tower (6)</option>
+      <option value="14">Comodo (13)</option>
+      <option value="36">Cry (7)</option>
+      <option value="34">Ein (14)</option>
+      <option value="65">Einead (6)</option>
+      <option value="69">Ew dun (4)</option>
+      <option value="53">Ew fild (3)</option>
+      <option value="32">Geenia (8)</option>
+      <option value="5">Geffen (30)</option>
+      <option value="20">Glast Heim (36)</option>
+      <option value="52">Greyt (7)</option>
+      <option value="12">Harboro (4)</option>
+      <option value="15">Hugel (8)</option>
+      <option value="47">Ice (7)</option>
+      <option value="27">Instance (8)</option>
+      <option value="58">Int lan (1)</option>
+      <option value="11">Izlude (15)</option>
+      <option value="40">Jor core (2)</option>
+      <option value="61">Jor nest (3)</option>
+      <option value="8">Juno (9)</option>
+      <option value="30">Juperos (9)</option>
+      <option value="72">Ka dun (8)</option>
+      <option value="44">Khu (4)</option>
+      <option value="43">Kiel Hyre (6)</option>
+      <option value="29">Lighthalzen (10)</option>
+      <option value="60">Loki tomb (5)</option>
+      <option value="64">Lost (7)</option>
+      <option value="26">Lutie (12)</option>
+      <option value="56">Ma (6)</option>
+      <option value="76">Ma drk (7)</option>
+      <option value="31">Magma Dungeon (6)</option>
+      <option value="55">Mal (2)</option>
+      <option value="1">Mjolnir (19)</option>
+      <option value="2">Morocc (54)</option>
+      <option value="9">Mosk (4)</option>
+      <option value="51">Nest (5)</option>
+      <option value="57">New 1 (1)</option>
+      <option value="24">Niflheim (17)</option>
+      <option value="46">Oin past (4)</option>
+      <option value="45">Oin tem (7)</option>
+      <option value="23">Orcs (5)</option>
+      <option value="0">Payon (30)</option>
+      <option value="3">Prontera (44)</option>
+      <option value="19">Rachel (27)</option>
+      <option value="75">Rachelnm e (6)</option>
+      <option value="39">Rek (2)</option>
+      <option value="37">Resc (5)</option>
+      <option value="62">Ro fild (6)</option>
+      <option value="74">Rockmi (1)</option>
+      <option value="70">Sky (6)</option>
+      <option value="73">Slabw (2)</option>
+      <option value="25">Snow (7)</option>
+      <option value="17">Sphinx (7)</option>
+      <option value="50">Splendide (5)</option>
+      <option value="42">Thanatos Tower (22)</option>
+      <option value="35">Thor v (7)</option>
+      <option value="4">Treasure Room (12)</option>
+      <option value="28">Tur (6)</option>
+      <option value="38">Umbala (5)</option>
+      <option value="66">Va (9)</option>
+      <option value="59">Va orpha (3)</option>
+      <option value="10">Veins (9)</option>
+      <option value="68">Verus (6)</option>
+      <option value="54">Vip bath (7)</option>
+      <option value="71">Wat (6)</option>
+      <option value="49">Yggdrasil (4)</option>
+    </select>
+    <label class="visually-hidden" for="pick-mobs-race">Any race</label>
+    <select class="field field--select" id="pick-mobs-race"
+            data-pick="race" data-tab="mobs">
+      <option value="">Any race</option>
+      <option value="5">Demihuman (149)</option>
+      <option value="7">Formless (110)</option>
+      <option value="2">Brute (98)</option>
+      <option value="6">Demon (96)</option>
+      <option value="4">Undead (69)</option>
+      <option value="1">Insect (55)</option>
+      <option value="0">Plant (52)</option>
+      <option value="9">Angel (35)</option>
+      <option value="3">Fish (28)</option>
+      <option value="8">Dragon (27)</option>
+    </select>
+    <label class="visually-hidden" for="pick-mobs-element">Any element</label>
+    <select class="field field--select" id="pick-mobs-element"
+            data-pick="element" data-tab="mobs">
+      <option value="">Any element</option>
+      <option value="2">Dark (121)</option>
+      <option value="7">Neutral (121)</option>
+      <option value="3">Earth (94)</option>
+      <option value="5">Fire (80)</option>
+      <option value="0">Water (73)</option>
+      <option value="4">Undead (59)</option>
+      <option value="1">Wind (50)</option>
+      <option value="8">Ghost (44)</option>
+      <option value="6">Poison (41)</option>
+      <option value="9">Holy (36)</option>
+    </select>
+    <label class="visually-hidden" for="pick-mobs-size">Any size</label>
+    <select class="field field--select" id="pick-mobs-size"
+            data-pick="size" data-tab="mobs">
+      <option value="">Any size</option>
+      <option value="0">Medium (366)</option>
+      <option value="2">Large (200)</option>
+      <option value="1">Small (153)</option>
+    </select>
+    </div>
+    <details class="db-extra">
+      <summary data-i18n="db.more">More filters</summary>
+      <div class="db-extra-body" id="db-facets">
+        <p class="dim" data-i18n="db.extraWait">Opening this loads the data.</p>
       </div>
-      <div id="db-facets"></div>
-      <button type="button" class="btn btn--ghost btn--block" id="db-reset"
-              data-i18n="db.reset">Clear filters</button>
-    </form>
+    </details>
+  </form>
 
-    <div class="db-main">
-      <div class="db-bar">
-        <p class="db-count mono" id="db-count" aria-live="polite">Loading...</p>
+  <div class="db-main">
+    <div class="db-bar" id="db-bar" hidden>
+      <p class="db-count mono" id="db-count" aria-live="polite"></p>
+      <div class="cluster">
         <label class="visually-hidden" for="db-sort">Sort</label>
         <select id="db-sort" class="field field--select"></select>
+        <button type="button" class="btn btn--ghost btn--sm" id="db-reset"
+                data-i18n="db.reset">Clear</button>
       </div>
-      <div id="panel-items" role="tabpanel" aria-labelledby="tab-items">
-        <ul class="db-list" id="db-list"></ul>
-        <div id="db-sentinel" aria-hidden="true"></div>
-        <p class="db-empty" id="db-empty" hidden data-i18n="db.empty">
-          Nothing matches those filters.
+    </div>
+    <div id="panel-items" role="tabpanel" aria-labelledby="tab-items">
+      <div class="db-start" id="db-start">
+        <p data-i18n="db.startText">
+          Nothing is loaded until you ask for something. Type a name or an
+          effect above, or start from one of these.
         </p>
+        <div class="cluster">
+          <button type="button" class="chip" data-quick="items:grp:3">Weapons</button>
+          <button type="button" class="chip" data-quick="items:grp:5">Armor</button>
+          <button type="button" class="chip" data-quick="items:grp:9">Headgear</button>
+          <button type="button" class="chip" data-quick="items:grp:2">Cards</button>
+          <button type="button" class="chip" data-quick="items:grp:7">Shadow gear</button>
+          <button type="button" class="chip" data-quick="items:grp:0">Class gear</button>
+          <button type="button" class="chip" data-quick="mobs:mvp:1">MVPs</button>
+        </div>
       </div>
+      <ul class="db-list" id="db-list"></ul>
+      <p class="db-empty" id="db-empty" hidden data-i18n="db.empty">
+        Nothing matches those filters.
+      </p>
+      <button type="button" class="btn btn--ghost btn--block" id="db-page" hidden>
+        Show more
+      </button>
     </div>
   </div>
 </div>

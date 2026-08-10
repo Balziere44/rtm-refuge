@@ -74,17 +74,37 @@
     </a>
     <!-- NAV:START -->
     <nav class="nav" aria-label="Main">
-      <a href="index.html" data-i18n="nav.home">Home</a>
-      <a href="server.html" data-i18n="nav.server">The Server</a>
-      <a href="start.html" aria-current="page" data-i18n="nav.start">Start Here</a>
-      <a href="classes.html" data-i18n="nav.classes">Classes</a>
-      <a href="mechanics.html" data-i18n="nav.mechanics">Mechanics</a>
-      <a href="gear.html" data-i18n="nav.gear">Gear</a>
-      <a href="world.html" data-i18n="nav.world">World</a>
-      <a href="database.html" data-i18n="nav.database">Database</a>
-      <a href="codex.html" data-i18n="nav.codex">Codex</a>
-      <a href="guides.html" data-i18n="nav.guides">Guides</a>
-      <a href="join.html" data-i18n="nav.join">Join</a>
+      <a class="nav-top" href="start.html" aria-current="page" data-i18n="nav.start">Start Here</a>
+      <div class="nav-group" data-open="false">
+        <button class="nav-top" type="button" data-nav-group
+                aria-expanded="false" data-i18n="nav.about">The Server<svg class="nav-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <div class="nav-menu">
+          <a href="server.html" data-i18n="nav.server">What the Refuge is</a>
+          <a href="changes.html" data-i18n="nav.changes">What changed</a>
+          <a href="faq.html" data-i18n="nav.faq">Questions</a>
+        </div>
+      </div>
+      <div class="nav-group" data-open="false">
+        <button class="nav-top" type="button" data-nav-group
+                aria-expanded="false" data-i18n="nav.game">The Game<svg class="nav-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <div class="nav-menu">
+          <a href="classes.html" data-i18n="nav.classes">Classes</a>
+          <a href="newjobs.html" data-i18n="nav.newjobs">Two new jobs</a>
+          <a href="mechanics.html" data-i18n="nav.mechanics">Combat and stats</a>
+          <a href="gear.html" data-i18n="nav.gear">Gear</a>
+          <a href="world.html" data-i18n="nav.world">World</a>
+        </div>
+      </div>
+      <div class="nav-group" data-open="false">
+        <button class="nav-top" type="button" data-nav-group
+                aria-expanded="false" data-i18n="nav.reference">Reference<svg class="nav-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <div class="nav-menu">
+          <a href="database.html" data-i18n="nav.database">Database</a>
+          <a href="codex.html" data-i18n="nav.codex">Codex</a>
+          <a href="guides.html" data-i18n="nav.guides">Guides</a>
+        </div>
+      </div>
+      <a class="nav-top nav-cta" href="join.html" data-i18n="nav.join">Join</a>
     </nav>
     <!-- NAV:END -->
     <div class="header-actions">
@@ -144,16 +164,33 @@
     </div>
     <!-- DRAWER:START -->
     <nav aria-label="Mobile">
-      <a href="index.html" data-i18n="nav.home">Home</a>
-      <a href="server.html" data-i18n="nav.server">The Server</a>
       <a href="start.html" aria-current="page" data-i18n="nav.start">Start Here</a>
-      <a href="classes.html" data-i18n="nav.classes">Classes</a>
-      <a href="mechanics.html" data-i18n="nav.mechanics">Mechanics</a>
-      <a href="gear.html" data-i18n="nav.gear">Gear</a>
-      <a href="world.html" data-i18n="nav.world">World</a>
-      <a href="database.html" data-i18n="nav.database">Database</a>
-      <a href="codex.html" data-i18n="nav.codex">Codex</a>
-      <a href="guides.html" data-i18n="nav.guides">Guides</a>
+      <details class="drawer-group">
+        <summary data-i18n="nav.about">The Server</summary>
+        <div class="drawer-group-body">
+          <a href="server.html" data-i18n="nav.server">What the Refuge is</a>
+          <a href="changes.html" data-i18n="nav.changes">What changed</a>
+          <a href="faq.html" data-i18n="nav.faq">Questions</a>
+        </div>
+      </details>
+      <details class="drawer-group">
+        <summary data-i18n="nav.game">The Game</summary>
+        <div class="drawer-group-body">
+          <a href="classes.html" data-i18n="nav.classes">Classes</a>
+          <a href="newjobs.html" data-i18n="nav.newjobs">Two new jobs</a>
+          <a href="mechanics.html" data-i18n="nav.mechanics">Combat and stats</a>
+          <a href="gear.html" data-i18n="nav.gear">Gear</a>
+          <a href="world.html" data-i18n="nav.world">World</a>
+        </div>
+      </details>
+      <details class="drawer-group">
+        <summary data-i18n="nav.reference">Reference</summary>
+        <div class="drawer-group-body">
+          <a href="database.html" data-i18n="nav.database">Database</a>
+          <a href="codex.html" data-i18n="nav.codex">Codex</a>
+          <a href="guides.html" data-i18n="nav.guides">Guides</a>
+        </div>
+      </details>
       <a href="join.html" data-i18n="nav.join">Join</a>
     </nav>
     <!-- DRAWER:END -->
@@ -285,18 +322,18 @@
       <p>Level here until you get 10/10[Normal Jobs] or 15/10[Expert Jobs](except mimic he needs 25/10) for first Job Change.</p>
       <p>Then proceed on changing jobs to:</p>
       <p>Normal Jobs:</p>
-      <p>Thief - The Default Class in PRM. Has variety of skills, from melee/magic/ranged and passive to increase your Resource management or stat increases such as HP/SP/Flee.</p>
-      <p>Raider - Physical Bruiser Class. Unique job that focuses on using spears, dealing average damage and high survivability.</p>
-      <p>Trickster - Physical Bruiser leech based class. has inbuilt Leech from using Scythes. Fire Endow/AutoGuard and 1-2-3 combo playstyle.</p>
-      <p>Jester - Hybrid Physical/Magical class. Uses Unique Decks of cards that gives different effects depending on suit used. High ASPD limit. Burst and Spam Skills. and strong finisher that consumes HP to deal damage.</p>
-      <p>Ronin - Physical DPS Class. Excells on High Evade and burst damage with combo skills. Way of the Blade buff increases damage dealt with skills, but lost on taking any damage. Blade Skill Deals Melee damage in combo style. Void Dash skill deals Ranged damage by dashing behind target dealing delayed damage.</p>
+      <p>Thief: The Default Class in PRM. Has variety of skills, from melee/magic/ranged and passive to increase your Resource management or stat increases such as HP/SP/Flee.</p>
+      <p>Raider: Physical Bruiser Class. Unique job that focuses on using spears, dealing average damage and high survivability.</p>
+      <p>Trickster: Physical Bruiser leech based class. has inbuilt Leech from using Scythes. Fire Endow/AutoGuard and 1-2-3 combo playstyle.</p>
+      <p>Jester: Hybrid Physical/Magical class. Uses Unique Decks of cards that gives different effects depending on suit used. High ASPD limit. Burst and Spam Skills. and strong finisher that consumes HP to deal damage.</p>
+      <p>Ronin: Physical DPS Class. Excells on High Evade and burst damage with combo skills. Way of the Blade buff increases damage dealt with skills, but lost on taking any damage. Blade Skill Deals Melee damage in combo style. Void Dash skill deals Ranged damage by dashing behind target dealing delayed damage.</p>
       <p>Expert Jobs:</p>
-      <p>Vagabond - Physical DPS class. Deals high dps, with low survivability. Has All element Endows with "Seven Winds". Passsives that increase ASPD/ATK and Flee. Frenzy that sets your APSD to 193 with increased ATK, and disables HP regenration.</p>
-      <p>Judge - Ranged DPS Class. Has burst damage with skills. High Mobility with Vault skill. Seals Management enables/boosts skills. Has access to variety of Revolvers made in Judge HQ</p>
-      <p>Dark Knight - Melee/Magic DPS/Bruiser Class. Harvest Buff Removes Regen, but increases Skill damage based on missing health. Black Heart gives 100% leech chance with 10% amount.</p>
-      <p>Peacekeeper - Melee/Ranged Class. Combo Style Character that has continuous combo gameplay. Damage scaled on dex, and other stats while under crash trinket effect. Trinkets can grant unique effects from Stat Scaling/Buffs/Debuffs.</p>
-      <p>Illusionist - Magic based Summoner class. Can summon Kimi to assist caster in combat. Uses Unique Gloves to change effect on Real Magic Attack. Grand Summoning can summon up to 5 monster to fight alongside Illusionist.</p>
-      <p>Mimic - 4fun Class. Can cast all 150 skills in the game depending on RNG with Abracadabra. Plagiarism can Save skill from other classes that he can use manually.</p>
+      <p>Vagabond: Physical DPS class. Deals high dps, with low survivability. Has All element Endows with "Seven Winds". Passsives that increase ASPD/ATK and Flee. Frenzy that sets your APSD to 193 with increased ATK, and disables HP regenration.</p>
+      <p>Judge: Ranged DPS Class. Has burst damage with skills. High Mobility with Vault skill. Seals Management enables/boosts skills. Has access to variety of Revolvers made in Judge HQ</p>
+      <p>Dark Knight: Melee/Magic DPS/Bruiser Class. Harvest Buff Removes Regen, but increases Skill damage based on missing health. Black Heart gives 100% leech chance with 10% amount.</p>
+      <p>Peacekeeper: Melee/Ranged Class. Combo Style Character that has continuous combo gameplay. Damage scaled on dex, and other stats while under crash trinket effect. Trinkets can grant unique effects from Stat Scaling/Buffs/Debuffs.</p>
+      <p>Illusionist: Magic based Summoner class. Can summon Kimi to assist caster in combat. Uses Unique Gloves to change effect on Real Magic Attack. Grand Summoning can summon up to 5 monster to fight alongside Illusionist.</p>
+      <p>Mimic: 4fun Class. Can cast all 150 skills in the game depending on RNG with Abracadabra. Plagiarism can Save skill from other classes that he can use manually.</p>
       <h3 id="new-player-guide-getting-started">Getting Started</h3>
       <p>Upon Changing to your first Job. You will get "Weapon Voucher" that can be acquired from achievements tab, that can be exchanged for starting job weapon at Ornstein NPC located in backrooms on first floor. Choose weapon depending on what build you are going. it won't last for long time. Expert Jobs such as Judge and Peacekeeper receieves unique Accessory that gives +10% exp/ASPD +3/SP +10 until base level 30.</p>
       <p>Now you will probably want to get some job levels. You can level in upper levels of Morroc Pyramids, if its too hard. you can always go back to basement until you level your damaging skills.</p>
@@ -304,15 +341,15 @@
       <p>Effective Exp from monsters counts by +/- 15 level range, but leveling spots will be listed with preferable player level and +5 of monsters level, Leveling spots will depend on your job/gear and stats, if its too hard, you can always level in easier spot or use reset fountain and spend points in stats that you missing: HP/SP/Damage/Cast Time and etc..</p>
       <p>Leveling Spots:</p>
       <p>"Morroc Pyramid Basement": 1 ~ 14. Starting leveling spot, you can easily get 10/10 or 15/10 for first job change.</p>
-      <p>Items to get: Lost Attire shadow Set - First Shadow set. Orphan Cloths set - gives increase exp. Orphan Runes - first orphan runes from first orphan coffer, gives stats like ATK/MATK/HP and SP. Familiar Card - 5 hp recover on physical damage.</p>
+      <p>Items to get: Lost Attire shadow Set: First Shadow set. Orphan Cloths set: gives increase exp. Orphan Runes: first orphan runes from first orphan coffer, gives stats like ATK/MATK/HP and SP. Familiar Card: 5 hp recover on physical damage.</p>
       <p>"Upper Morroc Pyramid": 5 ~ 25. Minorous/Mummy.</p>
-      <p>Items to get: Lost Tomb Ring - grants SP on kill great for early game resource management.</p>
+      <p>Items to get: Lost Tomb Ring: grants SP on kill great for early game resource management.</p>
       <p>"Payon Cave F1/F2/F3": 10 ~ 28 Skeleton Archer/Soldier. Sohee. Nine Tails. Fire Fox.</p>
       <p>Items to get: Scarlet set. Legacy of Arrows set for ranged classes. Bone weapons. Moonlight Dagger for Bolters.</p>
       <p>"Insect Society": 10 ~ 20. Even tho this dungeon considered low level dungeon. It can be quite rippy for certain jobs and while having low hp and hard DEF. Go here mostly for items.</p>
-      <p>Items to get: Insect Wings - Movement speed garment. Scaraba Tower - AutoGuard 10 shield with great defences. Quick Swarming shadow set for Variable cast reduction. Carapace Armor For melee classes. Dark Tights for ranged classes. Mother's nightmare ETC items for Insect society Scholar Accessory exchange.</p>
+      <p>Items to get: Insect Wings: Movement speed garment. Scaraba Tower: AutoGuard 10 shield with great defences. Quick Swarming shadow set for Variable cast reduction. Carapace Armor For melee classes. Dark Tights for ranged classes. Mother's nightmare ETC items for Insect society Scholar Accessory exchange.</p>
       <p>"Prontera culvert F2": 14 ~ 34. Mega Thief Bug/Fulbuk. Good leveling spot especially if you have AoE.</p>
-      <p>Items to get: Running shoes - high base movement speed shoes, look for Move speed random option. Golden Buckler - good sheild with Regen.</p>
+      <p>Items to get: Running shoes: high base movement speed shoes, look for Move speed random option. Golden Buckler: good sheild with Regen.</p>
       <p>"Geffen Cave entrance map": 20 ~ 35. Goblins.</p>
       <p>Items to get: Wooden Mail, Gives large HP bonus for max SP cost, great for Expert Jobs since their hp pool is low, if you can sustain SP.</p>
       <p>"Geffen Field 08": 28 ~ 40' Earth/Sky Petite and Wild Rose.</p>
@@ -342,15 +379,15 @@
       <p>Effective Exp from monsters counts by +/- 15 level range, but leveling spots will be listed with preferable player level and +5 of monsters level, Leveling spots will depend on your job/gear and stats, if its too hard, you can always level in easier spot or use reset fountain and spend points in stats that you missing: HP/SP/Damage/Cast Time and etc..</p>
       <p>Leveling Spots:</p>
       <p>"Morroc Pyramid Basement": 1 ~ 14. Starting leveling spot, you can easily get 10/10 or 15/10 for first job change.</p>
-      <p>Items to get: Lost Attire shadow Set - First Shadow set. Orphan Cloths set - gives increase exp. Orphan Runes - first orphan runes from first orphan coffer, gives stats like ATK/MATK/HP and SP. Familiar Card - 5 hp recover on physical damage.</p>
+      <p>Items to get: Lost Attire shadow Set: First Shadow set. Orphan Cloths set: gives increase exp. Orphan Runes: first orphan runes from first orphan coffer, gives stats like ATK/MATK/HP and SP. Familiar Card: 5 hp recover on physical damage.</p>
       <p>"Upper Morroc Pyramid": 5 ~ 25. Minorous/Mummy.</p>
-      <p>Items to get: Lost Tomb Ring - grants SP on kill great for early game resource management.</p>
+      <p>Items to get: Lost Tomb Ring: grants SP on kill great for early game resource management.</p>
       <p>"Payon Cave F1/F2/F3": 10 ~ 28 Skeleton Archer/Soldier. Sohee. Nine Tails. Fire Fox.</p>
       <p>Items to get: Scarlet set. Legacy of Arrows set for ranged classes. Bone weapons. Moonlight Dagger for Bolters.</p>
       <p>"Insect Society": 10 ~ 20. Even tho this dungeon considered low level dungeon. It can be quite rippy for certain jobs and while having low hp and hard DEF. Go here mostly for items.</p>
-      <p>Items to get: Insect Wings - Movement speed garment. Scaraba Tower - AutoGuard 10 shield with great defences. Quick Swarming shadow set for Variable cast reduction. Carapace Armor For melee classes. Dark Tights for ranged classes. Mother's nightmare ETC items for Insect society Scholar Accessory exchange.</p>
+      <p>Items to get: Insect Wings: Movement speed garment. Scaraba Tower: AutoGuard 10 shield with great defences. Quick Swarming shadow set for Variable cast reduction. Carapace Armor For melee classes. Dark Tights for ranged classes. Mother's nightmare ETC items for Insect society Scholar Accessory exchange.</p>
       <p>"Prontera culvert F2": 14 ~ 34. Mega Thief Bug/Fulbuk. Good leveling spot especially if you have AoE.</p>
-      <p>Items to get: Running shoes - high base movement speed shoes, look for Move speed random option. Golden Buckler - good sheild with Regen.</p>
+      <p>Items to get: Running shoes: high base movement speed shoes, look for Move speed random option. Golden Buckler: good sheild with Regen.</p>
       <p>"Geffen Cave entrance map": 20 ~ 35. Goblins.</p>
       <p>Items to get: Wooden Mail, Gives large HP bonus for max SP cost, great for Expert Jobs since their hp pool is low, if you can sustain SP.</p>
       <p>"Geffen Field 08": 28 ~ 40' Earth/Sky Petite and Wild Rose.</p>
@@ -372,7 +409,7 @@
       <p>"Amatsu Fields": 73 ~ 82. Stock on some Green potions for bleeding debuff. Evade Rolling Flames from Verpote, in 99% of times its a oneshot.</p>
       <p>Items to get: Sashimi Wakizashi for AA classes. Karakasa Card for critical based classe.</p>
       <p>"Amatsu Dungeon F2": 80 ~ 90. Second floor is quite small so every way you go, you will encounter monsters.</p>
-      <p>Items to Get: Bushido Shadow Set for Critical Strike chance. Crescent Helm - gives bonuses when base stat is at 99. Muramasa for Sword users. Masamune for Ronin.</p>
+      <p>Items to Get: Bushido Shadow Set for Critical Strike chance. Crescent Helm: gives bonuses when base stat is at 99. Muramasa for Sword users. Masamune for Ronin.</p>
       <p>"Rachel Sanctuary F1": 90 ~ 108. Good finishing place to get lvl 99/70. Vanberks Spam Sonic blow and can stun, Martin card can be used for stun immune. Isilla casts ruwach and sometimes silences. Hodremlin is a dog.</p>
       <p>"Sky Garden dungeon": 95 ~ 110 . Hard dungeon with great rewards at the end.</p>
       <p>Items to get: First/Last Einherjar shadow set. Odin blessing exchange items. Avatar of Sleipnir card in shoes for movement speed. Avatar of Idun card for HP/SP and Regen in middle headgear slot. for more info check out Sky Garden Exchange</p>
@@ -387,7 +424,7 @@
       <p>Easy to get Defensive cards:</p>
       <p>Easy to get Resource Management cards:</p>
       <p>Easy to get Damage cards:</p>
-      <ul><li>Medic Manual X - Grants "Heal" level 10.</li><li>Agility Manual X - Grants "Increase Agi" level 10.</li><li>Life Manual - Grants "Resurrection" level 1. good even if you play alone, you could save some orphans in a dire situation.</li><li>Portal Manual - Grants "Warp Portal" level 2. Could be used for saving important warps such as farming spots.</li><li>Teleport Manual - Grants "Teleport" level 2. QoL item to skip some unwanted maps.</li></ul>
+      <ul><li>Medic Manual X: Grants "Heal" level 10.</li><li>Agility Manual X: Grants "Increase Agi" level 10.</li><li>Life Manual: Grants "Resurrection" level 1. good even if you play alone, you could save some orphans in a dire situation.</li><li>Portal Manual: Grants "Warp Portal" level 2. Could be used for saving important warps such as farming spots.</li><li>Teleport Manual: Grants "Teleport" level 2. QoL item to skip some unwanted maps.</li></ul>
       <h3 id="new-player-guide-we-re-so-back">We're So Back!</h3>
       <p>After achieving level 100, you will spend most of the time getting new and better gear,refining, trying out builds, exploring various locations, and getting jobs for new class skills.</p>
       <p>Most of the dungeons will increase in difficulty, meaning without upgrades it will be now tough to level.</p>
@@ -427,12 +464,12 @@
       <p>Death Ruri: Goes invisible and dealing damage around herself. If close she casts Million Stabs, that deals massive amounts of damage, with hp below 12k its a oneshot. Spams Death Cloud that deals DoT damage in AoE.</p>
       <p>Hunting Guise: Ghost element monster, neutral damage will be halved. Spams Critical strike skill that deals medium amounts of damage, but can stack if not killed fast.</p>
       <p>Guillotine: Casts Rupture Axe that can stun, while also casting Horror Scream when below 50% hp.</p>
-      <p>Greater Shadow: Boss protocol Monster. Casts Severe rainstorm that deals massive amounts of DoT damage. Casts Cursed Circle - Control type skill that stuns all targets in AoE. can't removed, evade at all costs. While Below 50% hp casts Suicide Bombing on nearest player, if you get caught in CC that's sure death, suicide bombing can be evaded only with perfect hiding, going behind wall or breaking line of sight doesn't cancel skill.</p>
+      <p>Greater Shadow: Boss protocol Monster. Casts Severe rainstorm that deals massive amounts of DoT damage. Casts Cursed Circle: Control type skill that stuns all targets in AoE. can't removed, evade at all costs. While Below 50% hp casts Suicide Bombing on nearest player, if you get caught in CC that's sure death, suicide bombing can be evaded only with perfect hiding, going behind wall or breaking line of sight doesn't cancel skill.</p>
       <p>Items to Get: 3rd Shadow Coffers. Piercing Veil set and Spellslinger Ring for casters. Jewel Elunium from Greater shadow. Death Ward shield from greater shadow, no refined neeed if you aren't planning on only tanking.</p>
       <p>Regenshutz Lab: 127 ~ 135. Very hard dungeon, if you don't have endow and large amounts of AoE damage. Rekenber core spawns 5 biolab monsters that can kill in you in seconds, while also having ghost 4 as element, Weapon endow is a must here.</p>
       <p>Rekenber Core: easiest monster in the dungeon, by itself its not a danger. Spawns 5 monsters that has various abilities.</p>
       <p>Remade Adventurers: Has Variety of skills that deal massive amounts of damage.</p>
-      <p>Items to Get: 4th shadow coffers, if you have good AoE - best place to farm 4th coffers. Rekenber Core Card, good mid headgear card that works for every job in the game.</p>
+      <p>Items to Get: 4th shadow coffers, if you have good AoE: best place to farm 4th coffers. Rekenber Core Card, good mid headgear card that works for every job in the game.</p>
         </div>
       </details>
     </section>
@@ -446,14 +483,14 @@
       <p>Now you should have Base/Job level 50. And its time to change jobs, Expert Jobs can't change job further. Trickster and Vagabond need level 99/70 before changing to 2nd job.</p>
       <p>Thief Job change:</p>
       <p>Raider Job change:</p>
-      <p>Dracomancer - Bruiser/Off-tank Melee Class. By changing job gain access to using Draco Orb that grants effects via active skill buff for short duration scaling on Orb "Soul Level". Depending on Draco Orb used gives effects by improving certain skill effect or giving more effects to them. Uses Dragon Force/Dragon Pact Stances to activate skills.</p>
-      <ul><li>Rogue - Hybrid Class with multiple "build" skill tree, depending on skill tree chosen can be Melee Bruiser, Creator or Hunter type classes and also having shield mastery tree. Can further change jobs by getting specialization or Unchained evolution.</li><li>Assassin - Hybrid Class with multiple "build" skill tree, depending on skill tree chosen utilize weapons used from Sword, Axe ,Katar and Shadow skill mastery. Can further change jobs by getting specialization or Unchained evolution.</li><li>Prowler - Melee Dps class. Scales Flee and Perfect Dodge. Improves Backstab from thief skill kit. High Burst damage and evasion. Uses Unique Off-hand.</li><li>Shadowseer - Pseudo Melee Magic class. Adds MATK as ATK. Uses Off-hand dagger that increases range(Class is still melee). Depends on Auto spell skil, bursting enemy with autocasting spells. High DPS and ASPD. Squishy.</li><li>Unchained Thief - Super Novice of PRM. Unlocks core skills from both Rogue/Assassin classes. Can further Unchain by getting core skills of all Specialization classes.</li></ul>
+      <p>Dracomancer: Bruiser/Off-tank Melee Class. By changing job gain access to using Draco Orb that grants effects via active skill buff for short duration scaling on Orb "Soul Level". Depending on Draco Orb used gives effects by improving certain skill effect or giving more effects to them. Uses Dragon Force/Dragon Pact Stances to activate skills.</p>
+      <ul><li>Rogue: Hybrid Class with multiple "build" skill tree, depending on skill tree chosen can be Melee Bruiser, Creator or Hunter type classes and also having shield mastery tree. Can further change jobs by getting specialization or Unchained evolution.</li><li>Assassin: Hybrid Class with multiple "build" skill tree, depending on skill tree chosen utilize weapons used from Sword, Axe ,Katar and Shadow skill mastery. Can further change jobs by getting specialization or Unchained evolution.</li><li>Prowler: Melee Dps class. Scales Flee and Perfect Dodge. Improves Backstab from thief skill kit. High Burst damage and evasion. Uses Unique Off-hand.</li><li>Shadowseer: Pseudo Melee Magic class. Adds MATK as ATK. Uses Off-hand dagger that increases range(Class is still melee). Depends on Auto spell skil, bursting enemy with autocasting spells. High DPS and ASPD. Squishy.</li><li>Unchained Thief: Super Novice of PRM. Unlocks core skills from both Rogue/Assassin classes. Can further Unchain by getting core skills of all Specialization classes.</li></ul>
       <h3 id="new-player-guide-choosing-specialization">Choosing Specialization</h3>
       <p>At this point you are probably at Job level 70 for Rogue/Assassin. and now you can choose Specialization.</p>
       <p>Rogue Specialization:</p>
       <p>Assassin Specialization:</p>
       <p>Debuff and DoT gameplay. Uses poisons to debuff both caster and enemies around him. Can change jobs to Black Plague.</p>
-      <ul><li>Mystic - Enhances Spell casting playstyle. offering new damage skills and buffs that improves magical damage. Can change job to Arcane Master</li><li>Duelist - Enhances Melee Bruiser playstyle offering stance that gives counter charges and improves skills depending on amount of charges. Can change job to Kingslayer.</li><li>Saboteur - Enhances Trap playstyle. Gives more explosion skills and traps. Has access to Potion pitcher that heals all allies in aoe. Can change job to Blast Juggler.</li><li>Deadeye - Enhances Ranged Bow playstyle. Giving access to Sniper's nest which reduces movement speed but increased damage dealt and heavy finisher that deals massive single target damage in sniper's nest. Can change job to Sinner.</li><li>Blade Dancer - Master of Blades. Dual Wielding gameplay improvements. Can change job to Night Raven.</li><li>Scoundrel - Master of Poisons.</li><li>Executioner - Master of Katars. Combo playstyle. Chaining skills deals heavy damage. Can change to Gravekeeper</li><li>Shinobi Master of Elements. has ability to change element of skills and weapon. Defensive/Offensive improved. Can change job to Satsujin.</li></ul>
+      <ul><li>Mystic: Enhances Spell casting playstyle. offering new damage skills and buffs that improves magical damage. Can change job to Arcane Master</li><li>Duelist: Enhances Melee Bruiser playstyle offering stance that gives counter charges and improves skills depending on amount of charges. Can change job to Kingslayer.</li><li>Saboteur: Enhances Trap playstyle. Gives more explosion skills and traps. Has access to Potion pitcher that heals all allies in aoe. Can change job to Blast Juggler.</li><li>Deadeye: Enhances Ranged Bow playstyle. Giving access to Sniper's nest which reduces movement speed but increased damage dealt and heavy finisher that deals massive single target damage in sniper's nest. Can change job to Sinner.</li><li>Blade Dancer: Master of Blades. Dual Wielding gameplay improvements. Can change job to Night Raven.</li><li>Scoundrel: Master of Poisons.</li><li>Executioner: Master of Katars. Combo playstyle. Chaining skills deals heavy damage. Can change to Gravekeeper</li><li>Shinobi Master of Elements. has ability to change element of skills and weapon. Defensive/Offensive improved. Can change job to Satsujin.</li></ul>
       <h3 id="new-player-guide-final-job-change">Final job change?</h3>
       <p>Finally after getting 99/70. its time to change to final job. It was long road. but a lot more is ahead.</p>
       <p>Its time to unlock full power of specializations, become one with yourself, swear your loyality to Lady Hel in underworld, or Unchain your full potential.</p>
@@ -463,7 +500,7 @@
       <p>Trickster Job change:</p>
       <p>Vagabond Job change:</p>
       <p>Unchained Job change:</p>
-      <ul><li>Arcane Master - Unrestricted magic. Gain access to variety of AoE spells and heavy hitting finisher. Tree of Yggdrasil that can revive fallen allies. Comet that Decreases elemental resistances of monster and more.</li><li>Kingslayer - Master of Strategy. Chess style character that has Queen's[Mostly Black] and King's skills[Mostly White]. Improves damage with "Left" Skill tree, offering more damaging skills. Improves Defences with "Right" Skill tree, offering defensive buffs and effects. Can use Heavy Finisher that uses total SP by adding spent SP into % ATK.</li><li>Blast Juggler - Rules? Explosions are only option. Great AoE and Sustain. Gain more Trap skills and explosions. increases potion effectiveness. And cooked food for caster and allies.</li><li>Sinner - Repent through cleansing. Further improves ranged playstyle. Offering multiple skills to be used in different builds. from AA/Summon turret/Manual Casting. Great AoE and Mobility/Evasion with decoy.</li><li>Night Raven - Master of Weapons. Can wield any Assassin's weapons such as Daggers/Swords/Axe/Katar. Grants Hawk that can be autocasted with physical attacks while wielding Sword and dagger. High Single target potential. Great mobility with "Raven Step".</li><li>Black Plague - Unseen death from inside. Improves Poison used and offers more Poisons to infect target with. Boost skills when using poisons or target being affected by poison. Great AoE and Defences, Lots of Debuff ailments.</li><li>Gravekeeper - Loki's Legacy. High crit damage potential. burst combo skills with heavy damage. Buffs that increases damage output. No defensive options.</li><li>Satsujin - Jack of all trades. Gain access to Melee/Magic/Ranged skill trees. depending on playstyle can change flow of combat.</li><li>Revenant - Lady's Hel loyal subject. Gains Revenant spirit as Lady's Hel reward who follows the player and stuns monsters, or can be exchanged to unique card. Offers heavy hitting skills with counter mechanic. High Leech rate/power. Good AoE.</li><li>Legend - Become the Legend. Dominate battlefield with overwhelming power. High AA potential. Grants even more passives and buffs that increases Damage potential.</li><li>Unchained Thief/Rogue - Master of Change/Traditions. Increased maximum level of certain skills. Gains unique Scarf and accessory that improves some skill effect.</li><li>Phantom Thief - Infinite Possibilites. Gain access to most of the specializations skills. Can use every other class exclusive shadow sets.</li></ul>
+      <ul><li>Arcane Master: Unrestricted magic. Gain access to variety of AoE spells and heavy hitting finisher. Tree of Yggdrasil that can revive fallen allies. Comet that Decreases elemental resistances of monster and more.</li><li>Kingslayer: Master of Strategy. Chess style character that has Queen's[Mostly Black] and King's skills[Mostly White]. Improves damage with "Left" Skill tree, offering more damaging skills. Improves Defences with "Right" Skill tree, offering defensive buffs and effects. Can use Heavy Finisher that uses total SP by adding spent SP into % ATK.</li><li>Blast Juggler: Rules? Explosions are only option. Great AoE and Sustain. Gain more Trap skills and explosions. increases potion effectiveness. And cooked food for caster and allies.</li><li>Sinner: Repent through cleansing. Further improves ranged playstyle. Offering multiple skills to be used in different builds. from AA/Summon turret/Manual Casting. Great AoE and Mobility/Evasion with decoy.</li><li>Night Raven: Master of Weapons. Can wield any Assassin's weapons such as Daggers/Swords/Axe/Katar. Grants Hawk that can be autocasted with physical attacks while wielding Sword and dagger. High Single target potential. Great mobility with "Raven Step".</li><li>Black Plague: Unseen death from inside. Improves Poison used and offers more Poisons to infect target with. Boost skills when using poisons or target being affected by poison. Great AoE and Defences, Lots of Debuff ailments.</li><li>Gravekeeper: Loki's Legacy. High crit damage potential. burst combo skills with heavy damage. Buffs that increases damage output. No defensive options.</li><li>Satsujin: Jack of all trades. Gain access to Melee/Magic/Ranged skill trees. depending on playstyle can change flow of combat.</li><li>Revenant: Lady's Hel loyal subject. Gains Revenant spirit as Lady's Hel reward who follows the player and stuns monsters, or can be exchanged to unique card. Offers heavy hitting skills with counter mechanic. High Leech rate/power. Good AoE.</li><li>Legend: Become the Legend. Dominate battlefield with overwhelming power. High AA potential. Grants even more passives and buffs that increases Damage potential.</li><li>Unchained Thief/Rogue: Master of Change/Traditions. Increased maximum level of certain skills. Gains unique Scarf and accessory that improves some skill effect.</li><li>Phantom Thief: Infinite Possibilites. Gain access to most of the specializations skills. Can use every other class exclusive shadow sets.</li></ul>
         </div>
       </details>
       <p><a class="btn btn--ghost" href="classes.html">See the full class tree</a></p>
@@ -492,12 +529,12 @@
       <p>The Mirror is not dropped, instead its location can be described as follows:</p>
       <p>Where Satan Morroc was slain, the Mirror shall bring a new light to anyone who seeks to find a different path.</p>
       <p>When the Mirror is obtained, the player can begin working on developing it, as the Mirror itself has no powers.</p>
-      <p>The Mirror can be found in moc_fild14 - 345,196</p>
+      <p>The Mirror can be found in moc_fild14: 345,196</p>
       <h3 id="bifrost-mirror-the-4-jewels">The 4 Jewels</h3>
       <p>The 4 Jewels of the sons of Odin are spread around the world. they can be found in 4 different regions:</p>
       <p>The sons of Odin walked the land and each was visiting one of the nations: Rune-Midgard, Arunafeltz, Schwarzwald and Niflheim.</p>
       <p>The eyes must be slotted in a fixed order, only the sages in Dicastes Diel can add them.</p>
-      <ul><li>First Eye: pay_fild06 - 103,222</li><li>Second Eye: hu_fild06 - 188,230</li><li>Third Eye: ra_fild03 - 214,267</li><li>Fourth Eye: Niflheim - 289,262</li></ul>
+      <ul><li>First Eye: pay_fild06: 103,222</li><li>Second Eye: hu_fild06: 188,230</li><li>Third Eye: ra_fild03: 214,267</li><li>Fourth Eye: Niflheim: 289,262</li></ul>
       <h3 id="bifrost-mirror-slotting-the-eyes">Slotting the Eyes</h3>
       <p>The Sages in Dicastes Diel are dressed according to their expertise based on their colors. The distortions available for each can be found on the Distortion Dungeons Page.</p>
       <p>The Eyes on a Bifrost Mirror Shard can be seen like the slots of cards on an equipment by checking the Mirror in the inventory.</p>

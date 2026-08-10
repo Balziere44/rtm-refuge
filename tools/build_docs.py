@@ -20,6 +20,7 @@ Two rules make that safe to do:
 import html
 import json
 import os
+import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -150,7 +151,7 @@ def clean(items, page="", title=""):
                 or any(bad in line for bad in extra)):
             removed.append((page, title, line))
             continue
-        out.append(line)
+        out.append(C.house_style(line))
     return out
 
 
@@ -394,7 +395,7 @@ def build_mechanics():
          "through the ones that were simply strange.",
          callout("What the Refuge changed", [
              "Base attack speed was re-adjusted on several jobs where the original value made no sense.",
-             "Increase AGI no longer grants attack speed at all - it is a movement skill now.",
+             "Increase AGI no longer grants attack speed at all. It is a movement skill now.",
          ]) + "\n      " + wiki_block("Base_Aspd_Limit_Table")),
 
         ("elements", "Elements",
@@ -406,10 +407,11 @@ def build_mechanics():
          "Some skills read what you cast before them. This is the layer most "
          "players discover late and wish they had known about at level 30.",
          wiki_block("Combos_Rotations", skip=("Combo Ready", "Cast Ready", "Stance")) +
-         '\n      <p>The three states a skill can leave you in - '
+         '\n      <p>A skill can leave you in one of three states: '
          '<a href="codex.html#combo-ready">Combo Ready</a>, '
-         '<a href="codex.html#cast-ready">Cast Ready</a> and the job stances - '
-         'are defined in the codex, and underlined wherever they appear.</p>'),
+         '<a href="codex.html#cast-ready">Cast Ready</a> or a job stance. All '
+         'three are defined in the codex, and underlined wherever they '
+         'appear.</p>'),
 
         ("bonuses", "Innate and unique bonuses",
          "Equipment does more than add numbers. Bouncing skills, repeating "
@@ -421,13 +423,13 @@ def build_mechanics():
          "with your party.",
          wiki_block("Shadow_System") + "\n      " +
          callout("What the Refuge changed", [
-             "Hiding now works on bosses, insects and demons - so boss skills were rebalanced in response.",
+             "Hiding now works on bosses, insects and demons, so boss skills were rebalanced in response.",
              "In <strong>Nightmare in Amatsu</strong>, dying costs a base level outright.",
          ])),
 
         ("ranking", "Dungeon ranks",
          "Every dungeon carries a difficulty tier. Anything can be done solo with "
-         "enough preparation - the rank tells you how much.",
+         "enough preparation, and the rank tells you how much.",
          wiki_block("Ranking_System", skip=(
              "RANK E", "RANK D", "RANK C", "RANK B", "RANK A", "RANK S",
          )) +
@@ -464,7 +466,7 @@ def build_gear():
          "Rebuilt from the ground up so that a roll is interesting on its own "
          "terms, rather than a lottery you have to keep playing.",
          callout("Not in the Refuge", [
-             "There are <strong>no orbs for rerolling random options</strong>. What a piece rolls is what it rolled - the roll is the item, not a starting position you buy your way out of.",
+             "There are <strong>no orbs for rerolling random options</strong>. What a piece rolls is what it rolled. The roll is the item, not a starting position you buy your way out of.",
              "There is <strong>no weapon rarity system</strong> either. A weapon is judged on what it does, not on a tier printed above its name.",
              "Both are a deliberate difference, not an omission.",
          ], kind="warn") + "\n      " + wiki_block("Random_Options")),
@@ -521,7 +523,7 @@ def build_gear():
     doc_page("gear.html",
              "Gear and Items | Return to Morroc: Refuge",
              "Equipment, random options, refining, cards, shadow sets, runes and manuals "
-             "in the Refuge - including the job sets that were removed and what replaced them.",
+             "in the Refuge, including the job sets that were removed and what replaced them.",
              "gear.html",
              "Gear, and what to do with it",
              "Fifteen hundred items, refining that cannot break them, and the shadow "
@@ -592,14 +594,14 @@ def build_world():
          "Two SS-rank dungeons that did not exist before, and an optional mode "
          "that changes what levelling means.",
          callout("New in the Refuge", [
-             "<strong>Nightmare in Amatsu.</strong> Level 150 recommended. A heavily customised version of the classic first floor - no hidden doors, real openings, and no minimap. You spawn semi-randomly and orient yourself by the map shadows, because the light source is at the centre. Or you pay zeny to spawn somewhere safe.",
+             "<strong>Nightmare in Amatsu.</strong> Level 150 recommended. A heavily customised version of the classic first floor: no hidden doors, real openings, and no minimap. You spawn semi-randomly and orient yourself by the map shadows, because the light source is at the centre. Or you pay zeny to spawn somewhere safe.",
              "<strong>The Amatsu penalty.</strong> Dying there costs you a base level.",
              "<strong>A second SS dungeon</strong>, finished, on a fully custom map. It will not be described before launch.",
              "<strong>Bosses were rebalanced</strong> because Hiding now works against them.",
          ]) + """
       <h3>Nightmare in Amatsu, in the designer's words</h3>
       <p>The priestess has been slain hundreds of times. That was the prophecy, and
-      it has been fulfilled. The samurai specter is no longer a single ghost - it is
+      it has been fulfilled. The samurai specter is no longer a single ghost. It is
       an army that came back to fight again after death. You will find the familiar
       boss there, with a twist. Not quite a ghost. Not quite summoned, either. And a
       second boss the team will not talk about.</p>
@@ -623,7 +625,7 @@ def build_world():
              "ranks, the MVP relic system, and the two SS dungeons built for the Refuge.",
              "world.html",
              "New-Midgard",
-             "Regions, dungeons, distortions and MVPs - plus the endgame the Refuge "
+             "Regions, dungeons, distortions and MVPs, plus the endgame the Refuge "
              "built on top of them.",
              sections, "World",
              hero_cta='<a class="btn btn--ghost" href="guides.html">Access guides</a>')

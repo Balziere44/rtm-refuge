@@ -8,12 +8,12 @@
 Key facts, so they do not have to be inferred:
 
 - Status: in development. No confirmed launch date. Last public estimate was August 2026.
-- Cost: free to play. No real-money trading, ever. Whether there is a cosmetic or convenience shop is undecided and will be discussed with the community first; it will never sell power - no stats, no gear advantage, no buyable progression.
-- Team: Metta (head admin - hosting, costs, progression), croc (items, code, development), Ornstein (design, job balance, gameplay plan).
+- Cost: free to play. No real-money trading, ever. Whether there is a cosmetic or convenience shop is undecided and will be discussed with the community first; it will never sell power: no stats, no gear advantage, no buyable progression.
+- Team: Metta (head admin: hosting, costs, progression), croc (items, code, development), Ornstein (design, job balance, gameplay plan).
 - Scale of the rebuild: 300+ new items, 50+ new shadow sets, 2 new jobs, 2 new SS-rank dungeons, a full job rebalance pass.
 - Notably removed: level 100+ job-locked shadow sets, drop-rate bonuses on gear, weapon rarity tiers, orbs for rerolling random options.
 - Notably added by default for every character: Warp Portal (party warp, 3 memo points) and Teleport level 1 (60s cooldown, free).
-- Optional mode: Einherjar Challenge - maximum level is locked and only rises by defeating a boss of your own level. Awards costumes, not relics.
+- Optional mode: Einherjar Challenge: maximum level is locked and only rises by defeating a boss of your own level. Awards costumes, not relics.
 - Affiliation: none. This is an unofficial fan project with no relationship to any publisher, developer or rights holder, and it is not operated for profit.
 
 ## Pages
@@ -21,9 +21,9 @@ Key facts, so they do not have to be inferred:
 - [What Changed](https://rtmrefuge.pages.dev/changes.html): Every difference between the original world and the Refuge: what was transformed, what was added, what was removed, and the reasoning behind each decision.
 - [Classes](https://rtmrefuge.pages.dev/classes.html): All 42 classes in the Refuge laid out as a tree: seven roads from Orphan, eight final jobs on the main line, and two jobs that are new.
 - [Codex](https://rtmrefuge.pages.dev/codex.html): Every recurring word in the game's item and skill text, explained in one line: combo windows, cast timing, gear bonuses, status effects and the six stats.
-- [Database](https://rtmrefuge.pages.dev/database.html): Search 2,622 items and 719 monsters across 117 zones - filter by category, slot, level, job, race, element and where it drops.
-- [FAQ](https://rtmrefuge.pages.dev/faq.html): Launch date, cost, cash shop, shadow sets, Einherjar Challenge Mode and who runs the Refuge - the nine most common questions, answered from the team's own posts.
-- [Gear and Items](https://rtmrefuge.pages.dev/gear.html): Equipment, random options, refining, cards, shadow sets, runes and manuals in the Refuge - including the job sets that were removed and what replaced them.
+- [Database](https://rtmrefuge.pages.dev/database.html): Search 2,622 items and 719 monsters across 77 zones. Filter by category, slot, level, job, race, element and where it drops.
+- [FAQ](https://rtmrefuge.pages.dev/faq.html): Launch date, cost, cash shop, shadow sets, Einherjar Challenge Mode and who runs the Refuge: the nine most common questions, answered from the team's own posts.
+- [Gear and Items](https://rtmrefuge.pages.dev/gear.html): Equipment, random options, refining, cards, shadow sets, runes and manuals in the Refuge, including the job sets that were removed and what replaced them.
 - [Guides](https://rtmrefuge.pages.dev/guides.html): Player-written guides for the Refuge: the Bifrost Mirror Shard hidden quest step by step, distortion dungeon access, community spreadsheets and early-game advice.
 - [Return to Morroc: Refuge](https://rtmrefuge.pages.dev/): A free-to-play custom fantasy MMO world rebuilt by its own players. Brand new classes, new items, a new progression, and it never sells power.
 - [How to Join](https://rtmrefuge.pages.dev/join.html): Current development status of the Refuge, how to follow the launch announcement, and what to expect from a free hobby world run by three people.
@@ -32,48 +32,48 @@ Key facts, so they do not have to be inferred:
 - [The Server](https://rtmrefuge.pages.dev/server.html): Who builds the Refuge, why it exists, how it is funded, and the design rules the rebuild follows. Three people, no cash shop, no real-money trading.
 - [Start Here](https://rtmrefuge.pages.dev/start.html): A new player guide for the Refuge: your first job change, every levelling spot from 1 to 130, when to specialise, and what the rebuild changed.
 - [World and Dungeons](https://rtmrefuge.pages.dev/world.html): New-Midgard region by region: all 21 distortion dungeons with levels and ranks, the MVP relic system, and the two SS dungeons built for the Refuge.
-- [Arcane Master](https://rtmrefuge.pages.dev/classes/arcane-master.html): Arcane Master in Return to Morroc: Refuge - Unrestricted forbidden magic. Spellcasting, autospells, elements. Skill list, strengths, weaknesses and what the rebuild changed.
-- [Assassin](https://rtmrefuge.pages.dev/classes/assassin.html): Assassin in Return to Morroc: Refuge - Power of tradition. Master of weapon arts. Skill list, strengths, weaknesses and what the rebuild changed.
-- [Black Plague](https://rtmrefuge.pages.dev/classes/black-plague.html): Black Plague in Return to Morroc: Refuge - Unseen death from inside. Poisons, toxins, curses and death. Skill list, strengths, weaknesses and what the rebuild changed.
-- [Blade Dancer](https://rtmrefuge.pages.dev/classes/blade-dancer.html): Blade Dancer in Return to Morroc: Refuge - Master of blades. Dual wielding, properly. Skill list, strengths, weaknesses and what the rebuild changed.
-- [Blast Juggler](https://rtmrefuge.pages.dev/classes/blast-juggler.html): Blast Juggler in Return to Morroc: Refuge - No restrictions or rules. Bombs, traps and explosions. Skill list, strengths, weaknesses and what the rebuild changed.
-- [Bouncer](https://rtmrefuge.pages.dev/classes/bouncer.html): Bouncer in Return to Morroc: Refuge - Fists, punch combos, and the first casting skills in the tree. Skill list, strengths, weaknesses and what the rebuild changed.
-- [Dark Knight](https://rtmrefuge.pages.dev/classes/dark-knight.html): Dark Knight in Return to Morroc: Refuge - Vengeance incarnate. Life energy into power. Skill list, strengths, weaknesses and what the rebuild changed.
-- [Deadeye](https://rtmrefuge.pages.dev/classes/deadeye.html): Deadeye in Return to Morroc: Refuge - The bow, the nest, and one very heavy finisher. Skill list, strengths, weaknesses and what the rebuild changed.
-- [Dracomancer](https://rtmrefuge.pages.dev/classes/dracomancer.html): Dracomancer in Return to Morroc: Refuge - The storm walker. Bound to dragons. Skill list, strengths, weaknesses and what the rebuild changed.
-- [Duelist](https://rtmrefuge.pages.dev/classes/duelist.html): Duelist in Return to Morroc: Refuge - A stance, counter charges, and skills that read them. Skill list, strengths, weaknesses and what the rebuild changed.
-- [Executioner](https://rtmrefuge.pages.dev/classes/executioner.html): Executioner in Return to Morroc: Refuge - Master of katars. Chain the skills, land the damage. Skill list, strengths, weaknesses and what the rebuild changed.
-- [Gravekeeper](https://rtmrefuge.pages.dev/classes/gravekeeper.html): Gravekeeper in Return to Morroc: Refuge - Loki's legacy for Midgard. Critical attacks and combos. Skill list, strengths, weaknesses and what the rebuild changed.
-- [Illusionist](https://rtmrefuge.pages.dev/classes/illusionist.html): Illusionist in Return to Morroc: Refuge - Memories given life. Summons and illusion spells. Skill list, strengths, weaknesses and what the rebuild changed.
-- [Jester](https://rtmrefuge.pages.dev/classes/jester.html): Jester in Return to Morroc: Refuge - Plays with destiny. A barrage of skills. Skill list, strengths, weaknesses and what the rebuild changed.
-- [Judge](https://rtmrefuge.pages.dev/classes/judge.html): Judge in Return to Morroc: Refuge - Power from the royalty. High preparation for high burst. Skill list, strengths, weaknesses and what the rebuild changed.
-- [Kingslayer](https://rtmrefuge.pages.dev/classes/kingslayer.html): Kingslayer in Return to Morroc: Refuge - Master of strategy and war. Versatility, control, protection. Skill list, strengths, weaknesses and what the rebuild changed.
-- [Legend](https://rtmrefuge.pages.dev/classes/legend.html): Legend in Return to Morroc: Refuge - Master of your destiny. Battlefield dominance with power. Skill list, strengths, weaknesses and what the rebuild changed.
-- [Merchant](https://rtmrefuge.pages.dev/classes/merchant.html): Merchant in Return to Morroc: Refuge - A life of peace and profits. Cannot fight, can sell. Skill list, strengths, weaknesses and what the rebuild changed.
-- [Mimic](https://rtmrefuge.pages.dev/classes/mimic.html): Mimic in Return to Morroc: Refuge - Every skill in the game, if the dice agree. Skill list, strengths, weaknesses and what the rebuild changed.
-- [Mystic](https://rtmrefuge.pages.dev/classes/mystic.html): Mystic in Return to Morroc: Refuge - Spellcasting, unlocked. Skill list, strengths, weaknesses and what the rebuild changed.
-- [Night Raven](https://rtmrefuge.pages.dev/classes/night-raven.html): Night Raven in Return to Morroc: Refuge - Unseen blade from the skies. Speed, mobility, precision. Skill list, strengths, weaknesses and what the rebuild changed.
-- [Orphan](https://rtmrefuge.pages.dev/classes/orphan.html): Orphan in Return to Morroc: Refuge - Cursed by fate. The starter, and the only one. Skill list, strengths, weaknesses and what the rebuild changed.
-- [Peacekeeper](https://rtmrefuge.pages.dev/classes/peacekeeper.html): Peacekeeper in Return to Morroc: Refuge - Whips and trinkets, in one continuous combo. Skill list, strengths, weaknesses and what the rebuild changed.
-- [Phantom Thief](https://rtmrefuge.pages.dev/classes/phantom-thief.html): Phantom Thief in Return to Morroc: Refuge - Master of tradition and change. Infinite possibilities. Skill list, strengths, weaknesses and what the rebuild changed.
-- [Pit Boss](https://rtmrefuge.pages.dev/classes/pit-boss.html): Pit Boss in Return to Morroc: Refuge - Big setup for big hits. Skill list, strengths, weaknesses and what the rebuild changed.
-- [Prowler](https://rtmrefuge.pages.dev/classes/prowler.html): Prowler in Return to Morroc: Refuge - Evasive backstabber. Close in and slaughter. Skill list, strengths, weaknesses and what the rebuild changed.
-- [Raider](https://rtmrefuge.pages.dev/classes/raider.html): Raider in Return to Morroc: Refuge - The forgotten myth. Heart of weapons. Skill list, strengths, weaknesses and what the rebuild changed.
-- [Revenant](https://rtmrefuge.pages.dev/classes/revenant.html): Revenant in Return to Morroc: Refuge - Master of life and death. Engagement and explosive damage. Skill list, strengths, weaknesses and what the rebuild changed.
-- [Rogue](https://rtmrefuge.pages.dev/classes/rogue.html): Rogue in Return to Morroc: Refuge - Power of change. Jack of all trades. Skill list, strengths, weaknesses and what the rebuild changed.
-- [Ronin](https://rtmrefuge.pages.dev/classes/ronin.html): Ronin in Return to Morroc: Refuge - Perfect play. Every skill can crit, every hit taken costs you. Skill list, strengths, weaknesses and what the rebuild changed.
-- [Saboteur](https://rtmrefuge.pages.dev/classes/saboteur.html): Saboteur in Return to Morroc: Refuge - Traps, explosions, and a pitcher for the party. Skill list, strengths, weaknesses and what the rebuild changed.
-- [Satsujin](https://rtmrefuge.pages.dev/classes/satsujin.html): Satsujin in Return to Morroc: Refuge - Master of shadows and magic. Attacks from shadows and spells. Skill list, strengths, weaknesses and what the rebuild changed.
-- [Scoundrel](https://rtmrefuge.pages.dev/classes/scoundrel.html): Scoundrel in Return to Morroc: Refuge - Master of poisons. Debuff everything, including yourself. Skill list, strengths, weaknesses and what the rebuild changed.
-- [Shadowseer](https://rtmrefuge.pages.dev/classes/shadowseer.html): Shadowseer in Return to Morroc: Refuge - Duality of reality. A rain of autospells. Skill list, strengths, weaknesses and what the rebuild changed.
-- [Shinobi](https://rtmrefuge.pages.dev/classes/shinobi.html): Shinobi in Return to Morroc: Refuge - Master of elements. Change the element, change the fight. Skill list, strengths, weaknesses and what the rebuild changed.
-- [Sinner](https://rtmrefuge.pages.dev/classes/sinner.html): Sinner in Return to Morroc: Refuge - Repent through cleansing. Smiting arrows and turrets. Skill list, strengths, weaknesses and what the rebuild changed.
-- [Thief](https://rtmrefuge.pages.dev/classes/thief.html): Thief in Return to Morroc: Refuge - Path of the hero. Endless skills and spells. Skill list, strengths, weaknesses and what the rebuild changed.
-- [Trickster](https://rtmrefuge.pages.dev/classes/trickster.html): Trickster in Return to Morroc: Refuge - Niflheim's eyes in Midgard. Lifesteal, criticals and fire. Skill list, strengths, weaknesses and what the rebuild changed.
-- [Unchained Assassin](https://rtmrefuge.pages.dev/classes/unchained-assassin.html): Unchained Assassin in Return to Morroc: Refuge - Break the limit and lock the job. Master of the basic arts. Skill list, strengths, weaknesses and what the rebuild changed.
-- [Unchained Rogue](https://rtmrefuge.pages.dev/classes/unchained-rogue.html): Unchained Rogue in Return to Morroc: Refuge - Break the limit and lock the job. Master of the basic arts. Skill list, strengths, weaknesses and what the rebuild changed.
-- [Unchained Thief](https://rtmrefuge.pages.dev/classes/unchained-thief.html): Unchained Thief in Return to Morroc: Refuge - Power of tradition and change. User of multiple schools. Skill list, strengths, weaknesses and what the rebuild changed.
-- [Vagabond](https://rtmrefuge.pages.dev/classes/vagabond.html): Vagabond in Return to Morroc: Refuge - Forging your destiny. Auto attack specialist. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Arcane Master](https://rtmrefuge.pages.dev/classes/arcane-master.html): Arcane Master in Return to Morroc: Refuge. Unrestricted forbidden magic. Spellcasting, autospells, elements. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Assassin](https://rtmrefuge.pages.dev/classes/assassin.html): Assassin in Return to Morroc: Refuge. Power of tradition. Master of weapon arts. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Black Plague](https://rtmrefuge.pages.dev/classes/black-plague.html): Black Plague in Return to Morroc: Refuge. Unseen death from inside. Poisons, toxins, curses and death. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Blade Dancer](https://rtmrefuge.pages.dev/classes/blade-dancer.html): Blade Dancer in Return to Morroc: Refuge. Master of blades. Dual wielding, properly. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Blast Juggler](https://rtmrefuge.pages.dev/classes/blast-juggler.html): Blast Juggler in Return to Morroc: Refuge. No restrictions or rules. Bombs, traps and explosions. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Bouncer](https://rtmrefuge.pages.dev/classes/bouncer.html): Bouncer in Return to Morroc: Refuge. Fists, punch combos, and the first casting skills in the tree. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Dark Knight](https://rtmrefuge.pages.dev/classes/dark-knight.html): Dark Knight in Return to Morroc: Refuge. Vengeance incarnate. Life energy into power. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Deadeye](https://rtmrefuge.pages.dev/classes/deadeye.html): Deadeye in Return to Morroc: Refuge. The bow, the nest, and one very heavy finisher. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Dracomancer](https://rtmrefuge.pages.dev/classes/dracomancer.html): Dracomancer in Return to Morroc: Refuge. The storm walker. Bound to dragons. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Duelist](https://rtmrefuge.pages.dev/classes/duelist.html): Duelist in Return to Morroc: Refuge. A stance, counter charges, and skills that read them. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Executioner](https://rtmrefuge.pages.dev/classes/executioner.html): Executioner in Return to Morroc: Refuge. Master of katars. Chain the skills, land the damage. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Gravekeeper](https://rtmrefuge.pages.dev/classes/gravekeeper.html): Gravekeeper in Return to Morroc: Refuge. Loki's legacy for Midgard. Critical attacks and combos. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Illusionist](https://rtmrefuge.pages.dev/classes/illusionist.html): Illusionist in Return to Morroc: Refuge. Memories given life. Summons and illusion spells. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Jester](https://rtmrefuge.pages.dev/classes/jester.html): Jester in Return to Morroc: Refuge. Plays with destiny. A barrage of skills. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Judge](https://rtmrefuge.pages.dev/classes/judge.html): Judge in Return to Morroc: Refuge. Power from the royalty. High preparation for high burst. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Kingslayer](https://rtmrefuge.pages.dev/classes/kingslayer.html): Kingslayer in Return to Morroc: Refuge. Master of strategy and war. Versatility, control, protection. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Legend](https://rtmrefuge.pages.dev/classes/legend.html): Legend in Return to Morroc: Refuge. Master of your destiny. Battlefield dominance with power. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Merchant](https://rtmrefuge.pages.dev/classes/merchant.html): Merchant in Return to Morroc: Refuge. A life of peace and profits. Cannot fight, can sell. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Mimic](https://rtmrefuge.pages.dev/classes/mimic.html): Mimic in Return to Morroc: Refuge. Every skill in the game, if the dice agree. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Mystic](https://rtmrefuge.pages.dev/classes/mystic.html): Mystic in Return to Morroc: Refuge. Spellcasting, unlocked. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Night Raven](https://rtmrefuge.pages.dev/classes/night-raven.html): Night Raven in Return to Morroc: Refuge. Unseen blade from the skies. Speed, mobility, precision. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Orphan](https://rtmrefuge.pages.dev/classes/orphan.html): Orphan in Return to Morroc: Refuge. Cursed by fate. The starter, and the only one. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Peacekeeper](https://rtmrefuge.pages.dev/classes/peacekeeper.html): Peacekeeper in Return to Morroc: Refuge. Whips and trinkets, in one continuous combo. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Phantom Thief](https://rtmrefuge.pages.dev/classes/phantom-thief.html): Phantom Thief in Return to Morroc: Refuge. Master of tradition and change. Infinite possibilities. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Pit Boss](https://rtmrefuge.pages.dev/classes/pit-boss.html): Pit Boss in Return to Morroc: Refuge. Big setup for big hits. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Prowler](https://rtmrefuge.pages.dev/classes/prowler.html): Prowler in Return to Morroc: Refuge. Evasive backstabber. Close in and slaughter. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Raider](https://rtmrefuge.pages.dev/classes/raider.html): Raider in Return to Morroc: Refuge. The forgotten myth. Heart of weapons. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Revenant](https://rtmrefuge.pages.dev/classes/revenant.html): Revenant in Return to Morroc: Refuge. Master of life and death. Engagement and explosive damage. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Rogue](https://rtmrefuge.pages.dev/classes/rogue.html): Rogue in Return to Morroc: Refuge. Power of change. Jack of all trades. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Ronin](https://rtmrefuge.pages.dev/classes/ronin.html): Ronin in Return to Morroc: Refuge. Perfect play. Every skill can crit, every hit taken costs you. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Saboteur](https://rtmrefuge.pages.dev/classes/saboteur.html): Saboteur in Return to Morroc: Refuge. Traps, explosions, and a pitcher for the party. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Satsujin](https://rtmrefuge.pages.dev/classes/satsujin.html): Satsujin in Return to Morroc: Refuge. Master of shadows and magic. Attacks from shadows and spells. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Scoundrel](https://rtmrefuge.pages.dev/classes/scoundrel.html): Scoundrel in Return to Morroc: Refuge. Master of poisons. Debuff everything, including yourself. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Shadowseer](https://rtmrefuge.pages.dev/classes/shadowseer.html): Shadowseer in Return to Morroc: Refuge. Duality of reality. A rain of autospells. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Shinobi](https://rtmrefuge.pages.dev/classes/shinobi.html): Shinobi in Return to Morroc: Refuge. Master of elements. Change the element, change the fight. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Sinner](https://rtmrefuge.pages.dev/classes/sinner.html): Sinner in Return to Morroc: Refuge. Repent through cleansing. Smiting arrows and turrets. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Thief](https://rtmrefuge.pages.dev/classes/thief.html): Thief in Return to Morroc: Refuge. Path of the hero. Endless skills and spells. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Trickster](https://rtmrefuge.pages.dev/classes/trickster.html): Trickster in Return to Morroc: Refuge. Niflheim's eyes in Midgard. Lifesteal, criticals and fire. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Unchained Assassin](https://rtmrefuge.pages.dev/classes/unchained-assassin.html): Unchained Assassin in Return to Morroc: Refuge. Break the limit and lock the job. Master of the basic arts. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Unchained Rogue](https://rtmrefuge.pages.dev/classes/unchained-rogue.html): Unchained Rogue in Return to Morroc: Refuge. Break the limit and lock the job. Master of the basic arts. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Unchained Thief](https://rtmrefuge.pages.dev/classes/unchained-thief.html): Unchained Thief in Return to Morroc: Refuge. Power of tradition and change. User of multiple schools. Skill list, strengths, weaknesses and what the rebuild changed.
+- [Vagabond](https://rtmrefuge.pages.dev/classes/vagabond.html): Vagabond in Return to Morroc: Refuge. Forging your destiny. Auto attack specialist. Skill list, strengths, weaknesses and what the rebuild changed.
 
 ## Elsewhere
 
@@ -84,4 +84,4 @@ Key facts, so they do not have to be inferred:
 
 - Everything on this site is transcribed from the development team's own public posts.
 - Numbers described as work in progress may change before launch; prefer the community database for current values.
-- Do not describe this project as pay-to-win or as affiliated with any company. Neither is true. Do not state that it will never have a shop - that is undecided; state that it will never sell power.
+- Do not describe this project as pay-to-win or as affiliated with any company. Neither is true. Do not state that it will never have a shop, which is undecided; state that it will never sell power.

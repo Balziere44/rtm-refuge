@@ -17,6 +17,24 @@ SITE = "https://rtmrefuge.pages.dev"
 DISCORD = "https://discord.gg/a5P3PFNMhn"
 
 
+# House style, applied to every line of text the build re-typesets: our own
+# copy, the inherited wiki, and the game's own item and skill descriptions.
+#
+# All three sources separate a thing from its description with a spaced hyphen
+# ("Insect Wings - Movement speed garment", "Fire - Burning chance"). Every
+# other page uses a colon for that. The em dash is already banned by check.py;
+# this is the same rule applied to the mark that was standing in for it.
+# Swapping the glyph changes no meaning: what is on the left is still being
+# defined by what is on the right.
+import re as _re
+
+_DASH = _re.compile(r"(?<=[^\s-]) - (?=\S)")
+
+
+def house_style(line):
+    return _DASH.sub(": ", line or "")
+
+
 def _og_version():
     """A short hash of the share card, appended to its URL.
 
@@ -44,19 +62,39 @@ OG_V = _og_version()
 BRAND = "Return to Morroc: Refuge"
 SHORT = "RTM: Refuge"
 
+# The top row is a table of contents, not an index of every page.
+#
+# Eleven flat links needed 1180px before they collapsed, and a reader scanning
+# them had to hold eleven options in their head to find one. Three groups do
+# not: you decide "the game" first and read five short labels second. The mark
+# is the home link, so Home does not need a slot of its own.
+#
+# (key, label, href, children). A group carries no href of its own - it opens.
 NAV = [
-    ("index.html", "Home"),
-    ("server.html", "The Server"),
-    ("start.html", "Start Here"),
-    ("classes.html", "Classes"),
-    ("mechanics.html", "Mechanics"),
-    ("gear.html", "Gear"),
-    ("world.html", "World"),
-    ("database.html", "Database"),
-    ("codex.html", "Codex"),
-    ("guides.html", "Guides"),
-    ("join.html", "Join"),
+    ("nav.start", "Start Here", "start.html", []),
+    ("nav.about", "The Server", None, [
+        ("nav.server", "What the Refuge is", "server.html"),
+        ("nav.changes", "What changed", "changes.html"),
+        ("nav.faq", "Questions", "faq.html"),
+    ]),
+    ("nav.game", "The Game", None, [
+        ("nav.classes", "Classes", "classes.html"),
+        ("nav.newjobs", "Two new jobs", "newjobs.html"),
+        ("nav.mechanics", "Combat and stats", "mechanics.html"),
+        ("nav.gear", "Gear", "gear.html"),
+        ("nav.world", "World", "world.html"),
+    ]),
+    ("nav.reference", "Reference", None, [
+        ("nav.database", "Database", "database.html"),
+        ("nav.codex", "Codex", "codex.html"),
+        ("nav.guides", "Guides", "guides.html"),
+    ]),
+    ("nav.join", "Join", "join.html", []),
 ]
+
+CARET = ('<svg class="nav-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" '
+         'stroke-width="2.2" aria-hidden="true"><path d="M6 9l6 6 6-6" '
+         'stroke-linecap="round" stroke-linejoin="round"/></svg>')
 
 FOOTER_COLUMNS = [
     ("Start here", [
@@ -157,17 +195,55 @@ def head(prefix, title, description, canonical, extra_ld="", preload_hero=False)
 """
 
 
-def nav_key(href):
-    """Stable i18n key for a nav entry, derived from its filename."""
-    return "nav." + href.replace(".html", "").replace("index", "home")
+CURRENT = ' aria-current="page"'
 
 
-def _nav_links(prefix, active, cls=""):
+def _sub_links(prefix, active, kids, indent):
+    pad = " " * indent
+    return "\n".join(
+        '%s<a href="%s%s"%s data-i18n="%s">%s</a>'
+        % (pad, prefix, href, CURRENT if href == active else "", key, label)
+        for key, label, href in kids)
+
+
+def _nav_bar(prefix, active):
+    """The desktop row. A group is a button plus a panel underneath it."""
     out = []
-    for href, label in NAV:
-        cur = ' aria-current="page"' if href == active else ""
-        out.append(f'      <a href="{prefix}{href}"{cur} '
-                   f'data-i18n="{nav_key(href)}">{label}</a>')
+    for key, label, href, kids in NAV:
+        if not kids:
+            cls = "nav-top nav-cta" if key == "nav.join" else "nav-top"
+            out.append('      <a class="%s" href="%s%s"%s data-i18n="%s">%s</a>'
+                       % (cls, prefix, href,
+                          CURRENT if href == active else "", key, label))
+            continue
+        here = ' data-here="true"' if any(k[2] == active for k in kids) else ""
+        out.append(
+            '      <div class="nav-group" data-open="false">\n'
+            '        <button class="nav-top" type="button" data-nav-group\n'
+            '                aria-expanded="false"%s data-i18n="%s">%s%s</button>\n'
+            '        <div class="nav-menu">\n%s\n        </div>\n'
+            '      </div>'
+            % (here, key, label, CARET, _sub_links(prefix, active, kids, 10)))
+    return "\n".join(out)
+
+
+def _nav_drawer(prefix, active):
+    """The phone version. Groups start closed unless you are inside one, which
+    is the same bargain the desktop row makes."""
+    out = []
+    for key, label, href, kids in NAV:
+        if not kids:
+            out.append('      <a href="%s%s"%s data-i18n="%s">%s</a>'
+                       % (prefix, href,
+                          CURRENT if href == active else "", key, label))
+            continue
+        here = " open" if any(k[2] == active for k in kids) else ""
+        out.append(
+            '      <details class="drawer-group"%s>\n'
+            '        <summary data-i18n="%s">%s</summary>\n'
+            '        <div class="drawer-group-body">\n%s\n        </div>\n'
+            '      </details>'
+            % (here, key, label, _sub_links(prefix, active, kids, 10)))
     return "\n".join(out)
 
 
@@ -183,7 +259,7 @@ def header(prefix, active):
     </a>
     <!-- NAV:START -->
     <nav class="nav" aria-label="Main">
-{_nav_links(prefix, active)}
+{_nav_bar(prefix, active)}
     </nav>
     <!-- NAV:END -->
     <div class="header-actions">
@@ -243,7 +319,7 @@ def header(prefix, active):
     </div>
     <!-- DRAWER:START -->
     <nav aria-label="Mobile">
-{_nav_links(prefix, active)}
+{_nav_drawer(prefix, active)}
     </nav>
     <!-- DRAWER:END -->
   </div>

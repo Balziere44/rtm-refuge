@@ -123,7 +123,15 @@ def wiki_for(meta):
     prose, skills = [], []
     for sec in sections:
         skills.extend(sec["skills"])
-        if sec["paras"] or sec["bullets"]:
+        # "From <site> Wiki" is the MediaWiki page subtitle, not content. It
+        # was reaching the Mimic page as the class's opening sentence.
+        paras = [p for p in sec["paras"] if not p.startswith("From Return to Morroc")]
+        if paras or sec["bullets"]:
+            # Same house rule the reference pages apply: the wiki's "name -
+            # description" separator becomes a colon.
+            sec = dict(sec,
+                       paras=[C.house_style(p) for p in paras],
+                       bullets=[C.house_style(b) for b in sec["bullets"]])
             prose.append(sec)
     return prose, skills
 
@@ -147,7 +155,7 @@ def game_rows(slug):
 
     rows = []
     for sk in entry["skills"]:
-        lines = [l for l in sk["desc"].split("\n") if l.strip()]
+        lines = [C.house_style(l) for l in sk["desc"].split("\n") if l.strip()]
         # Skill text is where the game's private vocabulary is thickest, so
         # this is where the codex earns its keep.
         desc = "".join("<p>%s</p>" % K.mark(esc(l), "../") for l in lines)
@@ -279,7 +287,7 @@ def class_page(meta):
         <div class="section-head">
           <h2 data-i18n="ui.skills">Skills</h2>
           <p>What each one does, in the words the game itself uses.
-             Numbers are deliberately left out - they move with every balance
+             Numbers are deliberately left out, because they move with every balance
              pass, and a page that quotes them goes stale the day one lands.</p>
         </div>
         <div class="cluster" style="margin-bottom:1rem">
@@ -370,7 +378,7 @@ def class_page(meta):
 """
 
     title = "%s | Return to Morroc: Refuge" % name
-    desc = ("%s in Return to Morroc: Refuge - %s Skill list, strengths, weaknesses "
+    desc = ("%s in Return to Morroc: Refuge. %s Skill list, strengths, weaknesses "
             "and what the rebuild changed." % (name, meta["tagline"]))
     desc = desc[:174]
     html_out = C.head("../", title, desc, "classes/%s.html" % slug,
@@ -464,7 +472,7 @@ def overview():
     <h1>{len(M.CLASSES)} classes, seven roads</h1>
     <p class="lede">
       Everyone starts as an Orphan. Where you go after job level 10 decides how
-      the next hundred and forty levels feel - and two of these roads did not
+      the next hundred and forty levels feel, and two of these roads did not
       exist before the Refuge.
     </p>
   </div>

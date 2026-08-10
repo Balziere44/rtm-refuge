@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Trickster | Return to Morroc: Refuge</title>
-<meta name="description" content="Trickster in Return to Morroc: Refuge - Niflheim's eyes in Midgard. Lifesteal, criticals and fire. Skill list, strengths, weaknesses and what the rebuild changed.">
+<meta name="description" content="Trickster in Return to Morroc: Refuge. Niflheim's eyes in Midgard. Lifesteal, criticals and fire. Skill list, strengths, weaknesses and what the rebuild changed.">
 <link rel="canonical" href="https://rtmrefuge.pages.dev/classes/trickster.html">
 
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
@@ -18,7 +18,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:url" content="https://rtmrefuge.pages.dev/classes/trickster.html">
 <meta property="og:title" content="Trickster | Return to Morroc: Refuge">
-<meta property="og:description" content="Trickster in Return to Morroc: Refuge - Niflheim's eyes in Midgard. Lifesteal, criticals and fire. Skill list, strengths, weaknesses and what the rebuild changed.">
+<meta property="og:description" content="Trickster in Return to Morroc: Refuge. Niflheim's eyes in Midgard. Lifesteal, criticals and fire. Skill list, strengths, weaknesses and what the rebuild changed.">
 <meta property="og:image" content="https://rtmrefuge.pages.dev/assets/social/og-cover.jpg?v=c886e96b">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -26,7 +26,7 @@
 
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Trickster | Return to Morroc: Refuge">
-<meta name="twitter:description" content="Trickster in Return to Morroc: Refuge - Niflheim's eyes in Midgard. Lifesteal, criticals and fire. Skill list, strengths, weaknesses and what the rebuild changed.">
+<meta name="twitter:description" content="Trickster in Return to Morroc: Refuge. Niflheim's eyes in Midgard. Lifesteal, criticals and fire. Skill list, strengths, weaknesses and what the rebuild changed.">
 <meta name="twitter:image" content="https://rtmrefuge.pages.dev/assets/social/og-cover.jpg?v=c886e96b">
 
 <link rel="icon" href="../assets/img/icon-32.png" sizes="32x32">
@@ -75,17 +75,37 @@
     </a>
     <!-- NAV:START -->
     <nav class="nav" aria-label="Main">
-      <a href="../index.html" data-i18n="nav.home">Home</a>
-      <a href="../server.html" data-i18n="nav.server">The Server</a>
-      <a href="../start.html" data-i18n="nav.start">Start Here</a>
-      <a href="../classes.html" aria-current="page" data-i18n="nav.classes">Classes</a>
-      <a href="../mechanics.html" data-i18n="nav.mechanics">Mechanics</a>
-      <a href="../gear.html" data-i18n="nav.gear">Gear</a>
-      <a href="../world.html" data-i18n="nav.world">World</a>
-      <a href="../database.html" data-i18n="nav.database">Database</a>
-      <a href="../codex.html" data-i18n="nav.codex">Codex</a>
-      <a href="../guides.html" data-i18n="nav.guides">Guides</a>
-      <a href="../join.html" data-i18n="nav.join">Join</a>
+      <a class="nav-top" href="../start.html" data-i18n="nav.start">Start Here</a>
+      <div class="nav-group" data-open="false">
+        <button class="nav-top" type="button" data-nav-group
+                aria-expanded="false" data-i18n="nav.about">The Server<svg class="nav-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <div class="nav-menu">
+          <a href="../server.html" data-i18n="nav.server">What the Refuge is</a>
+          <a href="../changes.html" data-i18n="nav.changes">What changed</a>
+          <a href="../faq.html" data-i18n="nav.faq">Questions</a>
+        </div>
+      </div>
+      <div class="nav-group" data-open="false">
+        <button class="nav-top" type="button" data-nav-group
+                aria-expanded="false" data-here="true" data-i18n="nav.game">The Game<svg class="nav-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <div class="nav-menu">
+          <a href="../classes.html" aria-current="page" data-i18n="nav.classes">Classes</a>
+          <a href="../newjobs.html" data-i18n="nav.newjobs">Two new jobs</a>
+          <a href="../mechanics.html" data-i18n="nav.mechanics">Combat and stats</a>
+          <a href="../gear.html" data-i18n="nav.gear">Gear</a>
+          <a href="../world.html" data-i18n="nav.world">World</a>
+        </div>
+      </div>
+      <div class="nav-group" data-open="false">
+        <button class="nav-top" type="button" data-nav-group
+                aria-expanded="false" data-i18n="nav.reference">Reference<svg class="nav-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <div class="nav-menu">
+          <a href="../database.html" data-i18n="nav.database">Database</a>
+          <a href="../codex.html" data-i18n="nav.codex">Codex</a>
+          <a href="../guides.html" data-i18n="nav.guides">Guides</a>
+        </div>
+      </div>
+      <a class="nav-top nav-cta" href="../join.html" data-i18n="nav.join">Join</a>
     </nav>
     <!-- NAV:END -->
     <div class="header-actions">
@@ -145,16 +165,33 @@
     </div>
     <!-- DRAWER:START -->
     <nav aria-label="Mobile">
-      <a href="../index.html" data-i18n="nav.home">Home</a>
-      <a href="../server.html" data-i18n="nav.server">The Server</a>
       <a href="../start.html" data-i18n="nav.start">Start Here</a>
-      <a href="../classes.html" aria-current="page" data-i18n="nav.classes">Classes</a>
-      <a href="../mechanics.html" data-i18n="nav.mechanics">Mechanics</a>
-      <a href="../gear.html" data-i18n="nav.gear">Gear</a>
-      <a href="../world.html" data-i18n="nav.world">World</a>
-      <a href="../database.html" data-i18n="nav.database">Database</a>
-      <a href="../codex.html" data-i18n="nav.codex">Codex</a>
-      <a href="../guides.html" data-i18n="nav.guides">Guides</a>
+      <details class="drawer-group">
+        <summary data-i18n="nav.about">The Server</summary>
+        <div class="drawer-group-body">
+          <a href="../server.html" data-i18n="nav.server">What the Refuge is</a>
+          <a href="../changes.html" data-i18n="nav.changes">What changed</a>
+          <a href="../faq.html" data-i18n="nav.faq">Questions</a>
+        </div>
+      </details>
+      <details class="drawer-group" open>
+        <summary data-i18n="nav.game">The Game</summary>
+        <div class="drawer-group-body">
+          <a href="../classes.html" aria-current="page" data-i18n="nav.classes">Classes</a>
+          <a href="../newjobs.html" data-i18n="nav.newjobs">Two new jobs</a>
+          <a href="../mechanics.html" data-i18n="nav.mechanics">Combat and stats</a>
+          <a href="../gear.html" data-i18n="nav.gear">Gear</a>
+          <a href="../world.html" data-i18n="nav.world">World</a>
+        </div>
+      </details>
+      <details class="drawer-group">
+        <summary data-i18n="nav.reference">Reference</summary>
+        <div class="drawer-group-body">
+          <a href="../database.html" data-i18n="nav.database">Database</a>
+          <a href="../codex.html" data-i18n="nav.codex">Codex</a>
+          <a href="../guides.html" data-i18n="nav.guides">Guides</a>
+        </div>
+      </details>
       <a href="../join.html" data-i18n="nav.join">Join</a>
     </nav>
     <!-- DRAWER:END -->
@@ -215,7 +252,7 @@
         <div class="section-head">
           <h2 data-i18n="ui.skills">Skills</h2>
           <p>What each one does, in the words the game itself uses.
-             Numbers are deliberately left out - they move with every balance
+             Numbers are deliberately left out, because they move with every balance
              pass, and a page that quotes them goes stale the day one lands.</p>
         </div>
         <div class="cluster" style="margin-bottom:1rem">

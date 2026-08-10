@@ -74,17 +74,37 @@
     </a>
     <!-- NAV:START -->
     <nav class="nav" aria-label="Main">
-      <a href="index.html" data-i18n="nav.home">Home</a>
-      <a href="server.html" aria-current="page" data-i18n="nav.server">The Server</a>
-      <a href="start.html" data-i18n="nav.start">Start Here</a>
-      <a href="classes.html" data-i18n="nav.classes">Classes</a>
-      <a href="mechanics.html" data-i18n="nav.mechanics">Mechanics</a>
-      <a href="gear.html" data-i18n="nav.gear">Gear</a>
-      <a href="world.html" data-i18n="nav.world">World</a>
-      <a href="database.html" data-i18n="nav.database">Database</a>
-      <a href="codex.html" data-i18n="nav.codex">Codex</a>
-      <a href="guides.html" data-i18n="nav.guides">Guides</a>
-      <a href="join.html" data-i18n="nav.join">Join</a>
+      <a class="nav-top" href="start.html" data-i18n="nav.start">Start Here</a>
+      <div class="nav-group" data-open="false">
+        <button class="nav-top" type="button" data-nav-group
+                aria-expanded="false" data-here="true" data-i18n="nav.about">The Server<svg class="nav-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <div class="nav-menu">
+          <a href="server.html" aria-current="page" data-i18n="nav.server">What the Refuge is</a>
+          <a href="changes.html" data-i18n="nav.changes">What changed</a>
+          <a href="faq.html" data-i18n="nav.faq">Questions</a>
+        </div>
+      </div>
+      <div class="nav-group" data-open="false">
+        <button class="nav-top" type="button" data-nav-group
+                aria-expanded="false" data-i18n="nav.game">The Game<svg class="nav-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <div class="nav-menu">
+          <a href="classes.html" data-i18n="nav.classes">Classes</a>
+          <a href="newjobs.html" data-i18n="nav.newjobs">Two new jobs</a>
+          <a href="mechanics.html" data-i18n="nav.mechanics">Combat and stats</a>
+          <a href="gear.html" data-i18n="nav.gear">Gear</a>
+          <a href="world.html" data-i18n="nav.world">World</a>
+        </div>
+      </div>
+      <div class="nav-group" data-open="false">
+        <button class="nav-top" type="button" data-nav-group
+                aria-expanded="false" data-i18n="nav.reference">Reference<svg class="nav-caret" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <div class="nav-menu">
+          <a href="database.html" data-i18n="nav.database">Database</a>
+          <a href="codex.html" data-i18n="nav.codex">Codex</a>
+          <a href="guides.html" data-i18n="nav.guides">Guides</a>
+        </div>
+      </div>
+      <a class="nav-top nav-cta" href="join.html" data-i18n="nav.join">Join</a>
     </nav>
     <!-- NAV:END -->
     <div class="header-actions">
@@ -144,16 +164,33 @@
     </div>
     <!-- DRAWER:START -->
     <nav aria-label="Mobile">
-      <a href="index.html" data-i18n="nav.home">Home</a>
-      <a href="server.html" aria-current="page" data-i18n="nav.server">The Server</a>
       <a href="start.html" data-i18n="nav.start">Start Here</a>
-      <a href="classes.html" data-i18n="nav.classes">Classes</a>
-      <a href="mechanics.html" data-i18n="nav.mechanics">Mechanics</a>
-      <a href="gear.html" data-i18n="nav.gear">Gear</a>
-      <a href="world.html" data-i18n="nav.world">World</a>
-      <a href="database.html" data-i18n="nav.database">Database</a>
-      <a href="codex.html" data-i18n="nav.codex">Codex</a>
-      <a href="guides.html" data-i18n="nav.guides">Guides</a>
+      <details class="drawer-group" open>
+        <summary data-i18n="nav.about">The Server</summary>
+        <div class="drawer-group-body">
+          <a href="server.html" aria-current="page" data-i18n="nav.server">What the Refuge is</a>
+          <a href="changes.html" data-i18n="nav.changes">What changed</a>
+          <a href="faq.html" data-i18n="nav.faq">Questions</a>
+        </div>
+      </details>
+      <details class="drawer-group">
+        <summary data-i18n="nav.game">The Game</summary>
+        <div class="drawer-group-body">
+          <a href="classes.html" data-i18n="nav.classes">Classes</a>
+          <a href="newjobs.html" data-i18n="nav.newjobs">Two new jobs</a>
+          <a href="mechanics.html" data-i18n="nav.mechanics">Combat and stats</a>
+          <a href="gear.html" data-i18n="nav.gear">Gear</a>
+          <a href="world.html" data-i18n="nav.world">World</a>
+        </div>
+      </details>
+      <details class="drawer-group">
+        <summary data-i18n="nav.reference">Reference</summary>
+        <div class="drawer-group-body">
+          <a href="database.html" data-i18n="nav.database">Database</a>
+          <a href="codex.html" data-i18n="nav.codex">Codex</a>
+          <a href="guides.html" data-i18n="nav.guides">Guides</a>
+        </div>
+      </details>
       <a href="join.html" data-i18n="nav.join">Join</a>
     </nav>
     <!-- DRAWER:END -->
@@ -164,54 +201,54 @@
   <div class="shell">
     <p class="crumbs"><a href="index.html" data-i18n="ui.home">Home</a><span>/</span><span>The Server</span></p>
     <h1>What the Refuge actually is</h1>
-    <p>
-      Who built it, why it exists, how it is paid for, and what it refuses to
-      become. Written from the team's own posts rather than a pitch deck.
+    <p class="lede">
+      Return to Morroc: Refuge is a rebuild of Return to Morroc, a heavily
+      customised world that closed some time ago. Same design philosophy, with
+      the mistakes taken out: several hundred new items, two jobs that never
+      existed, and a decision that nothing will ever be for sale.
     </p>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="shell shell-narrow">
+    <div class="panel reveal">
+      <p>
+        Three people and a few moderators. Not a studio. They have said in as
+        many words that this is not meant to be a professional server, just a
+        good experience for people who want somewhere to play that adds
+        content, fixes what was broken, and respects your time.
+      </p>
+    </div>
   </div>
 </section>
 
 <section class="section">
   <div class="shell">
-    <div class="grid grid--wide">
-      <div class="prose reveal">
-        <h2>The one-paragraph version</h2>
-        <p>
-          Return to Morroc: Refuge is a special take on Return to Morroc, which was
-          itself a heavily customised world that closed some time ago. It is not a
-          revival in the nostalgic sense. It is the same design philosophy with the
-          mistakes taken out, several hundred new items in, two jobs that never
-          existed, and an explicit decision that nothing will ever be for sale.
-        </p>
-        <p>
-          The team is three people plus moderators. They are not a studio. They
-          have said in as many words that this is not meant to be a professional
-          server - just a good experience for people who want somewhere to play
-          that adds content, fixes what was broken, and respects your time.
-        </p>
-        <h2>Who does what</h2>
+    <div class="section-head reveal">
+      <p class="eyebrow">The team</p>
+      <h2>Who does what</h2>
+    </div>
+    <div class="grid">
+      <div class="card reveal">
+        <span class="card-kicker">Head admin</span>
+        <h3>Metta</h3>
+        <p>Hosting, costs, planning and server progression. He paid for all of it, and the idea was his. He called Ornstein and spent hours arguing that the old world deserved better than a sequel in name only.</p>
       </div>
-      <div class="stack">
-        <div class="card reveal">
-          <span class="card-kicker">Head admin</span>
-          <h3>Metta</h3>
-          <p>Hosting, costs, planning and server progression. He paid for all of it, and the idea was his - he called Ornstein and spent hours arguing that the old world deserved better than a sequel-in-name.</p>
-        </div>
-        <div class="card reveal">
-          <span class="card-kicker">Co-developer</span>
-          <h3>croc</h3>
-          <p>Items, code and the day-to-day running of the build. Much of his earlier work on the original is folded straight into the Refuge.</p>
-        </div>
-        <div class="card reveal">
-          <span class="card-kicker">Co-developer</span>
-          <h3>Ornstein</h3>
-          <p>Design, job adjustments and the gameplay plan. He built the original world's direction and came back for this one. The new jobs, the rebalance passes and the Amatsu dungeon are his.</p>
-        </div>
-        <div class="card reveal">
-          <span class="card-kicker">Community</span>
-          <h3>The moderation team</h3>
-          <p>Issues, arguments and the human side. Feedback from the community server has already changed the balance lists more than once.</p>
-        </div>
+      <div class="card reveal">
+        <span class="card-kicker">Co-developer</span>
+        <h3>croc</h3>
+        <p>Items, code and the day-to-day running of the build. Much of his earlier work on the original is folded straight into the Refuge.</p>
+      </div>
+      <div class="card reveal">
+        <span class="card-kicker">Co-developer</span>
+        <h3>Ornstein</h3>
+        <p>Design, job adjustments and the gameplay plan. He built the original world's direction and came back for this one. The new jobs, the rebalance passes and the Amatsu dungeon are his.</p>
+      </div>
+      <div class="card reveal">
+        <span class="card-kicker">Community</span>
+        <h3>The moderation team</h3>
+        <p>Issues, arguments and the human side. Feedback from the community server has already changed the balance lists more than once.</p>
       </div>
     </div>
   </div>
@@ -230,7 +267,7 @@
       </div>
       <div class="card reveal">
         <h3>So there will be a way to fund it</h3>
-        <p>What that looks like has not been decided. It will be discussed with the community before it ships, not announced at it. Cosmetics, conveniences, donations, a founder pack - all of that is on the table.</p>
+        <p>What that looks like has not been decided. It will be discussed with the community before it ships, not announced at it. Cosmetics, conveniences, donations, a founder pack: all of that is on the table.</p>
       </div>
       <div class="card reveal">
         <h3>The line that will not move</h3>
@@ -255,32 +292,32 @@
       <h2>The rules the rebuild follows</h2>
     </div>
     <div class="prose reveal">
-      <h3>Expand what was good, fix what was not</h3>
-      <p>
-        Every change on this site traces back to that sentence. Skills nobody
-        pressed got numbers worth pressing. Systems that funnelled everyone into
-        the same build got deleted. Nothing was changed because change looks like
-        progress.
-      </p>
-      <h3>A small cozy town, not a live service</h3>
-      <p>
-        Updates arrive at a reasonable pace. New content keeps coming. There are
-        no plans to close, and the stated ambition is to go considerably further
-        than the original ever did.
-      </p>
-      <h3>Simple to read, varied to play</h3>
-      <p>
-        The jobs are meant to be easy to understand and varied by utility rather
-        than by spectacle. If you are expecting a skill tree that reads like a
-        light show, this is the wrong world - the interest here is in what a
-        skill does for the party, not how big it is.
-      </p>
-      <h3>Built where you can watch</h3>
-      <p>
-        Balance lists, skill trees, dungeon reveals and missed deadlines all get
-        posted publicly before launch. Suggestions from the community server have
-        already changed the design more than once.
-      </p>
+      <p><strong>Expand what was good, fix what was not.</strong> Every change
+      on this site traces back to that sentence.</p>
+      <details class="more">
+        <summary>The other three</summary>
+        <div class="more-body">
+          <h3>A small cozy town, not a live service</h3>
+          <p>
+            Updates arrive at a reasonable pace. New content keeps coming. There
+            are no plans to close, and the stated ambition is to go considerably
+            further than the original ever did.
+          </p>
+          <h3>Simple to read, varied to play</h3>
+          <p>
+            The jobs are meant to be easy to understand and varied by utility
+            rather than by spectacle. If you are expecting a skill tree that
+            reads like a light show, this is the wrong world. What matters here
+            is what a skill does for the party, not how big it is.
+          </p>
+          <h3>Built where you can watch</h3>
+          <p>
+            Balance lists, skill trees, dungeon reveals and missed deadlines all
+            get posted publicly before launch. Suggestions from the community
+            server have already changed the design more than once.
+          </p>
+        </div>
+      </details>
     </div>
   </div>
 </section>
@@ -289,7 +326,7 @@
   <div class="shell">
     <div class="cta-band reveal">
       <h2>Questions the team has already answered</h2>
-      <p>Nine of the most common ones are collected on the FAQ. Anything else, ask directly - the developers answer.</p>
+      <p>Nine of the most common ones are collected on the FAQ. Anything else, ask directly. The developers answer.</p>
       <div class="cluster">
         <a class="btn btn--primary" href="https://discord.gg/a5P3PFNMhn" rel="noopener" data-i18n="cta.join">Join the community server</a>
         <a class="btn btn--ghost" href="join.html" data-i18n="cta.howto">How to get in</a>

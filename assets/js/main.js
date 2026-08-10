@@ -60,6 +60,37 @@
     if (e.key === 'Escape' && drawer && drawer.dataset.open === 'true') closeDrawer();
   });
 
+  /* ---- header menus ------------------------------------------------------
+     Hover and :focus-within already open a group in CSS, so this file only
+     adds what those two cannot do: a tap on a touch screen, and a way out. */
+  function closeMenus(except) {
+    document.querySelectorAll('.nav-group[data-open="true"]').forEach(function (g) {
+      if (g === except) return;
+      g.dataset.open = 'false';
+      var b = g.querySelector('[data-nav-group]');
+      if (b) b.setAttribute('aria-expanded', 'false');
+    });
+  }
+
+  document.addEventListener('click', function (e) {
+    var btn = e.target.closest('[data-nav-group]');
+    if (!btn) { closeMenus(null); return; }
+    var group = btn.parentNode;
+    var open = group.dataset.open !== 'true';
+    closeMenus(group);
+    group.dataset.open = String(open);
+    btn.setAttribute('aria-expanded', String(open));
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.key !== 'Escape') return;
+    var open = document.querySelector('.nav-group[data-open="true"]');
+    if (!open) return;
+    closeMenus(null);
+    var b = open.querySelector('[data-nav-group]');
+    if (b) b.focus();
+  });
+
   /* ---- scroll reveal -----------------------------------------------------
      Without IntersectionObserver nothing is hidden in the first place, so the
      absence of this feature costs nothing. */

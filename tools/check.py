@@ -65,6 +65,20 @@ SCRIPTS = [
 
 problems = []
 
+# <script> and <style> bodies are not prose, and neither is the JSON-LD block.
+CODE = re.compile(r"<(script|style)\b[^>]*>.*?</\1>", re.S | re.I)
+
+# Things the game itself calls this. A proper name is not punctuation, and
+# renaming a skill to suit a style rule would be a small lie in a table whose
+# whole promise is that it prints what the game prints.
+ALLOW_DASH = {
+    "Unchained Arts - Thief",
+}
+
+
+def strip_code(src):
+    return CODE.sub(" ", src)
+
 
 def fail(name, msg):
     problems.append("%s: %s" % (name, msg))
@@ -100,6 +114,17 @@ def main():
             if m:
                 fail(name, "contains %s (%r) - formulas belong in the wiki"
                      % (what, m.group(0)))
+
+        # A spaced hyphen doing an em dash's job. The em dash is already
+        # forbidden above; this is the same rule for the mark that replaced it.
+        # Only visible text is checked, because a URL, a data attribute or an
+        # inline script may legitimately contain one.
+        for chunk in re.split(r"<[^>]*>", strip_code(src)):
+            if chunk.strip() in ALLOW_DASH:
+                continue
+            for m in re.finditer(r"(?<=[^\s>-]) - (?=[^\s<])", chunk):
+                fail(name, "spaced hyphen in prose: %r"
+                     % chunk[max(0, m.start() - 45):m.end() + 45].strip())
 
         h1 = re.findall(r"<h1[ >]", src)
         if len(h1) != 1:
