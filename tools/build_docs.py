@@ -56,6 +56,12 @@ DROP = {
     ("Shadow_Sets", "Thanatos Tower"),
     ("Job_Sets", ""),
     ("Job_Sets", "Contents"),
+
+    # A real-money shop with a price list, a monthly rotation and a line about
+    # sparing "the most support for the server". The Refuge removed the cash
+    # shop, and how it funds itself is undecided and being discussed in the
+    # open - so a page describing one as if it were live is simply false.
+    ("Systems_and_Exchanges", "Cash Shop"),
 }
 
 # Any bullet or paragraph naming that server, or a system it has and we do
@@ -70,7 +76,53 @@ DROP_IF = (
     # the parse.
     "__TOC__", "media.tenor.com", "https://", "http://",
     "converted from HTML to MediaWiki", "Click Here",
+    # Two inherited boasts the project can no longer make. The Refuge is free
+    # to play and will never sell power, but it cannot promise there will
+    # never be a shop - llms.txt says so explicitly, and these lines were
+    # quietly contradicting it from inside a collapsed section.
+    "cash shop", "Cash Shop",
 )
+
+
+# Lines to remove from one named section, where a blanket phrase would be too
+# blunt. Keyed by (page, section title).
+DROP_LINES = {
+    # Choosing your experience rate is the other server's feature. Their own
+    # wiki gives it away: "x4 Rates: Echoes of Morroc Rates". The Refuge has
+    # one rate - see the callout on the Start Here page.
+    ("New_Player_Guide", "Orphan Dream"): (
+        "option of choosing Rates",
+        "Rates:",
+        "chosen your rates",
+        "x1 Rates",
+        "x4 Rates",
+        # The tutorial scarves come from the same block and appear nowhere in
+        # the team's own posts, so their provenance is unverified. The wiki
+        # parser also split every one of them in half, which is why lines like
+        # "early on." and "movement speed." were reaching the page as
+        # paragraphs of their own.
+        "Scarf", "Scarfs", "scarfs",
+        "early on.", "movement speed.",
+        "Knight, Melee/Magic Thief",
+        "Night Raven, Prowler, Jester.",
+    ),
+    # The same rate choice, referred to from the next section along.
+    ("New_Player_Guide", "First Job Change"): (
+        "based on rates chosen",
+    ),
+    # A paid tier that belongs to the shop that no longer exists.
+    ("Kafra_Services", "Kafra Express"): (
+        "VIP players",
+    ),
+}
+
+# Debris the wiki parser leaves behind, matched whole rather than as a
+# substring: "on." is the tail of a sentence whose head went somewhere else,
+# and a line starting with a pipe is unconverted table syntax.
+FRAGMENTS = {"on.", "early on.", "movement speed."}
+
+# What clean() threw away this run, so a half-emptied section is visible.
+removed = []
 
 
 def esc(s):
@@ -89,8 +141,17 @@ def keep(page, sec):
     return True
 
 
-def clean(items):
-    return [i for i in items if not any(bad in i for bad in DROP_IF)]
+def clean(items, page="", title=""):
+    extra = DROP_LINES.get((page, title), ())
+    out = []
+    for line in items:
+        if (line.strip() in FRAGMENTS or line.lstrip().startswith("|")
+                or any(bad in line for bad in DROP_IF)
+                or any(bad in line for bad in extra)):
+            removed.append((page, title, line))
+            continue
+        out.append(line)
+    return out
 
 
 def wiki_block(page, only=None, skip=(), heading_level=3, label=None):
@@ -118,8 +179,8 @@ def wiki_block(page, only=None, skip=(), heading_level=3, label=None):
             continue
         if title in skip:
             continue
-        paras = clean(sec["paras"])
-        bullets = clean(sec["bullets"])
+        paras = clean(sec["paras"], page, title)
+        bullets = clean(sec["bullets"], page, title)
         if not paras and not bullets:
             continue
         if title and title.lower() not in ("skills",):
@@ -453,7 +514,7 @@ def build_gear():
          wiki_block("Black_Market") + "\n      " + wiki_block("Systems_and_Exchanges") +
          "\n      " + wiki_block("Kafra_Services") +
          "\n      " + callout("What the Refuge changed", [
-             "<strong>There is no cash shop.</strong> It was removed outright, and there is no real-money trading of any kind.",
+             "<strong>The old shop is gone.</strong> How the server pays for itself has not been settled, and it is being worked out with the community rather than announced at it. Whatever it turns out to be, it will never sell power, and there is no real-money trading of any kind. <a href=\"server.html#money\">The funding note</a> has the detail.",
              "<strong>Drop-rate bonuses from gear no longer exist.</strong> Drop tables are tuned once, honestly, for everyone.",
          ])),
     ]
@@ -574,6 +635,17 @@ def main():
     build_mechanics()
     build_gear()
     build_world()
+
+    # A section that loses some of its lines but not all of them is the
+    # dangerous case: what survives reads as ours. This makes every removal
+    # visible, so the next one is noticed rather than shipped.
+    if removed:
+        by_section = {}
+        for page, title, line in removed:
+            by_section.setdefault((page, title), []).append(line)
+        print("  dropped %d line(s) that belong to the other server:" % len(removed))
+        for (page, title), lines in sorted(by_section.items()):
+            print("    %s / %s - %d line(s)" % (page, title or "(intro)", len(lines)))
 
 
 if __name__ == "__main__":

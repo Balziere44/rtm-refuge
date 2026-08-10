@@ -140,6 +140,33 @@ or the relevant `callout(...)` in `tools/build_docs.py`. Never edit a generated
 `.html` directly, and never hand-edit `tools/data/wiki.json` — the next build or
 fetch overwrites both.
 
+### Telling the two servers apart
+
+The wiki this site inherits was written BY the other successor server, about a
+world both projects come from. Most of it is the shared original; some of it
+describes features only they have, and those paragraphs read as ours once they
+are on our pages.
+
+The clearest case was the new player guide having you choose an experience
+rate on waking up. The proof was in the same list:
+
+    x1 Rates: Closest to classic PRM base/job exp rates.
+    x4 Rates: Echoes of Morroc Rates. Classic server experience.
+
+A server offering "closest to PRM" as one option among several is not PRM. The
+Refuge has one rate, slightly below the original's, tuned to pay better - and
+the Start Here page now says so.
+
+Worse, the line filter was already deleting the x4 line for naming them and
+keeping the x1 line, so the page described a rate choice with the tell removed.
+**A half-removed section is more wrong than an untouched one.** `build_docs.py`
+therefore prints every line it drops, grouped by section, on every build.
+
+Also removed on the same grounds: the Cash Shop section (a real-money price
+list for a shop the Refuge deleted), the VIP tier attached to it, and the
+tutorial scarves - which came out of the same block as the rate choice, appear
+in none of the team's posts, and had been split in half by the parser anyway.
+
 ### Two sources, never blended
 
 The site carries two kinds of material and the distinction is load-bearing:
