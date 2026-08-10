@@ -36,8 +36,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="../assets/css/style.css">
-<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
 
 <script>
 /* The only blocking script on the site. It has to run before the first paint
@@ -212,8 +212,9 @@
       <section class="section--tight" id="skills">
         <div class="section-head">
           <h2 data-i18n="ui.skills">Skills</h2>
-          <p>12 entries, as documented for the world the Refuge inherited.
-             Exact numbers are deliberately not listed - they move with balance passes.</p>
+          <p>What each one does, in the words the game itself uses.
+             Numbers are deliberately left out - they move with every balance
+             pass, and a page that quotes them goes stale the day one lands.</p>
         </div>
         <div class="cluster" style="margin-bottom:1rem">
           <label class="visually-hidden" for="sk">Filter skills</label>
@@ -227,70 +228,75 @@
             <thead><tr><th scope="col">Skill</th><th scope="col">What it does</th><th scope="col">Type</th></tr></thead>
             <tbody>
         <tr data-row>
-          <th scope="row">Dragon Thrust<span class="skill-max mono">Lv 10</span></th>
-          <td>Quickly strikes enemies ahead and locks position for follow-up skills<div class="skill-extra"><span class="skill-note">Damage hits in a small area Enables Combo Ready</span><span class="chip chip--sm mono">STR and VIT</span></div></td>
-          <td><span class="badge sk-other">Melee</span></td>
+          <th scope="row">Raider Skills<span class="skill-max mono">Lv 1</span></th>
+          <td><p>Skill Cannot be learned.</p><p>Raiders grow fast and strong but only the best may ascend above the rest.</p><p>Spears are 1-handed and Wyrms Spears are 2-Handed.</p><p>High defensive power through buffs and management.</p><p>Opener skill available with weapons as Dragon Thrust.</p><p>Available Weapons: Spears</p><p>Job Change can be done at Job Level 50.</p></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Spear Mastery<span class="skill-max mono">Lv 10</span></th>
-          <td>Increases attack with spears<div class="skill-extra"><span class="skill-note">Also increases HP when wielding 1-Handed Spears or Flee with 2-Handed Spears</span></div></td>
+          <td><p>Improves fight power</p><p>When wielding spears.</p></td>
           <td><span class="badge sk-passive">Passive</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Heavy Stab<span class="skill-max mono">Lv 10</span></th>
-          <td>Deals damage to a single enemy with a spear<div class="skill-extra"><span class="skill-note">Damage is severely reduced when not used as a combo follow-up</span><span class="chip chip--sm mono">VIT</span></div></td>
-          <td><span class="badge sk-other">Melee</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Wind Cutter<span class="skill-max mono">Lv 5</span></th>
-          <td>Deals damage against all enemies around, knocking them back<div class="skill-extra"><span class="skill-note">Has VIT scaling with 1-Handed Spears and deals 2 hits with 2-Handed Spears</span><span class="chip chip--sm mono">None(VIT)</span></div></td>
-          <td><span class="badge sk-other">Melee AoE</span></td>
+          <td><p>Spear-only skill:</p><p>Spins spear around quickly to hit enemies.</p><p>2H-Spear Bonus:  2 Hits.</p><p>Damage reduced if not Combo Ready.</p><p>Knockbacks all targets 3 cells</p><div class="skill-extra"><span class="chip chip--sm">AoE on Self</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Heavy Stab<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Spear-only skill: deals a follow-up strike to a hurt enemy.</p><p>Damage reduced if not Combo Ready.</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Spear Boomerang<span class="skill-max mono">Lv 5</span></th>
-          <td>Throws the spear at a distant enemy<div class="skill-extra"><span class="skill-note">Range increases with level</span><span class="chip chip--sm mono">DEX</span></div></td>
-          <td><span class="badge sk-other">Ranged</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Phantom Spear<span class="skill-max mono">Lv 5</span></th>
-          <td>Summons a spectral spear to damage a small area.<div class="skill-extra"><span class="skill-note">Also reduces enemy move speed temporarily Enables Combo Ready</span><span class="chip chip--sm mono">INT/VIT</span></div></td>
-          <td><span class="badge sk-magic">Magic AoE</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Life of Dragon<span class="skill-max mono">Lv 5</span></th>
-          <td>Increases defenses, regeneration and vitality temporarily<div class="skill-extra"><span class="skill-note">Slightly increases the scaling of all abilities</span><span class="chip chip--sm mono">VIT</span></div></td>
-          <td><span class="badge sk-support">Buff</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Elusive Feint<span class="skill-max mono">Lv 5</span></th>
-          <td>Parries an enemy attack, severely reducing damage taken and reflecting it<div class="skill-extra"><span class="skill-note">Doesn't work with bosses, knockbacks enemy, damage reflected is capped to 300% ATK</span><span class="chip chip--sm mono">Opponent's current % HP</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Spear Quicken<span class="skill-max mono">Lv 10</span></th>
-          <td>Increases attack speed, flee and hit rate with spears for duration<div class="skill-extra"><span class="skill-note">Requires a Shadow Orb</span><span class="chip chip--sm mono">AGI</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Increase SP Recovery<span class="skill-max mono">Lv 10</span></th>
-          <td>Provides extra SP recovery on top of natural regeneration.<div class="skill-extra"><span class="skill-note">Regens 0.1% + 2 max SP per level.</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-passive">Passive</span></td>
+          <td><p>Spear-only skill:</p><p>Throws spear at a distant enemy.</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Improve Defense<span class="skill-max mono">Lv 10</span></th>
-          <td>Increases Max HP<div class="skill-extra"><span class="skill-note">HP+50 per level</span><span class="chip chip--sm mono">No</span></div></td>
+          <td><p>Increase Max HP</p></td>
           <td><span class="badge sk-passive">Passive</span></td>
         </tr>
         <tr data-row>
+          <th scope="row">Life of Dragon<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Channels your body with ancient power, boosting defenses.</p><p>For Duration:</p><p>Has a long cast time.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Elusive Feint<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Quickly parries an attack, with the spear, knocking back the enemy.</p><p>Duration is canceled when successful</p><p>Damage dealt to enemy is based on Current HP.</p><p>Damage is boosted by auto attack power</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
           <th scope="row">Improve Wisdom<span class="skill-max mono">Lv 10</span></th>
-          <td>Increases Max SP<div class="skill-extra"><span class="skill-note">SP+10 per level</span><span class="chip chip--sm mono">No |}</span></div></td>
+          <td><p>Increase Max SP</p></td>
           <td><span class="badge sk-passive">Passive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Increase SP Recovery<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Increase SP recovery bonus</p></td>
+          <td><span class="badge sk-passive">Passive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Phantom Spear<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Summons a spectral spear, to deal magic damage in a small area.</p><div class="skill-extra"><span class="chip chip--sm">Enemy and AoE</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Dragon Thrust<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Spear-only skill: delivers a quick strong hit against an enemy and it's surrounding with a spear.</p><p>Skill Lv is based on current Spear equipped.</p><p>Damage hits all targets in 3x3</p><p>Skill activates Combo Ready for other skills</p><div class="skill-extra"><span class="chip chip--sm">Enemy and AoE</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Spear Quicken<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Spear-only skill:</p><p>Improves caster's speed and reflexes with spears for duration.</p><p>ASPD bonus improves with AGI.</p><p>Requires a Shadow Orb.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
         </tr>
             </tbody>
           </table>
         </div>
       </section>
-    <p class="source-note">Descriptions and the skill list are transcribed from the community wiki for the world the Refuge inherited. Where the Refuge changed something, it is called out above.</p>
+    <p class="source-note">Skill names and descriptions are read straight out of the server's own skill windows, so they say exactly what a player sees in game. Where the Refuge changed something, it is called out above.</p>
     <nav class="pill-row" aria-label="Other first jobs">
       <span class="dim">More first jobs:</span> <a class="pill" href="thief.html">Thief</a><a class="pill" href="trickster.html">Trickster</a><a class="pill" href="jester.html">Jester</a><a class="pill" href="ronin.html">Ronin</a><a class="pill" href="mimic.html">Mimic</a><a class="pill" href="vagabond.html">Vagabond</a>
       <a class="pill pill--strong" href="../classes.html">Full tree</a>
@@ -342,7 +348,7 @@
         <h4 data-i18n="foot.col2">Reference</h4>
         <ul>
         <li><a href="../changes.html" data-i18n="foot.changes">Changes from the original</a></li>
-        <li><a href="../database.html" data-i18n="foot.database">Community database</a></li>
+        <li><a href="../database.html" data-i18n="foot.database">Items and monsters</a></li>
         <li><a href="../guides.html" data-i18n="foot.guides">Player-written guides</a></li>
         <li><a href="../llms.txt" data-i18n="foot.llms">llms.txt</a></li>
         <li><a href="../sitemap.xml" data-i18n="foot.sitemap">Sitemap</a></li>

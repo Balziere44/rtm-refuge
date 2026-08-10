@@ -36,8 +36,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="../assets/css/style.css">
-<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
 
 <script>
 /* The only blocking script on the site. It has to run before the first paint
@@ -197,8 +197,9 @@
       <section class="section--tight" id="skills">
         <div class="section-head">
           <h2 data-i18n="ui.skills">Skills</h2>
-          <p>5 entries, as documented for the world the Refuge inherited.
-             Exact numbers are deliberately not listed - they move with balance passes.</p>
+          <p>What each one does, in the words the game itself uses.
+             Numbers are deliberately left out - they move with every balance
+             pass, and a page that quotes them goes stale the day one lands.</p>
         </div>
         <div class="cluster" style="margin-bottom:1rem">
           <label class="visually-hidden" for="sk">Filter skills</label>
@@ -212,35 +213,45 @@
             <thead><tr><th scope="col">Skill</th><th scope="col">What it does</th><th scope="col">Type</th></tr></thead>
             <tbody>
         <tr data-row>
-          <th scope="row">Basic Skills<span class="skill-max mono">Lv 1</span></th>
-          <td>An Orphan must learn fast, they can learn all Basic Skills at once. Their hit rate increases by 25 due to the extra attention needed.<div class="skill-extra"><span class="skill-note">Required for other skills.</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-passive">Passive</span></td>
+          <th scope="row">Orphan Skills<span class="skill-max mono">Lv 1</span></th>
+          <td><p>Enables learning of orphan skills. Orphans are resourceful humans.</p><p>Using this skill shows complete battle stats.</p><p>Heal: Allows recovery of HP</p><p>Increase Agi: Allows quicker movement</p><p>Morroc's Mark: Temporary power boost</p><p>Hiding: Allows dodging spells when targeted for casting and avoiding combat with regular enemies.</p><p>Sense: Allows checking an enemy's stats</p><p>Area Loot: Allows picking up items around</p><p>Available Weapons: Daggers</p><p>Job Change can be done at Job Level 10</p></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Heal<span class="skill-max mono">Lv 3</span></th>
-          <td>Recovers a small amount of health, increases with INT and Level.<div class="skill-extra"><span class="skill-note">3s cooldown</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Support</span></td>
+          <th scope="row">Heal<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Restores target's HP.</p><p>Increases with level, INT and status MATK</p><div class="skill-extra"><span class="chip chip--sm">1 Character</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Increase Agility<span class="skill-max mono">Lv 1</span></th>
-          <td>Increases movement speed for duration. Also slightly increases AGI and ASPD.<div class="skill-extra"><span class="skill-note">60s cooldown</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Self Support</span></td>
+          <th scope="row">Increase Agility<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Increases user's</p><p>Movement and Attack Speed for the duration of skill.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Hiding<span class="skill-max mono">Lv 1</span></th>
-          <td>Hides from view from most monsters. Can dodge basic targeted skills.<div class="skill-extra"><span class="skill-note">3s duration</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Self Support</span></td>
+          <th scope="row">Morroc's Mark<span class="skill-max mono">Lv 1</span></th>
+          <td><p>Taps into your Morroc's Mark to push your power to the limit. skill's duration. Fully restores HP when cast, All stats +10% and increases</p><p>Movement Speed for the skill's duration.</p><p>Cannot be removed by Dispel.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Steal<span class="skill-max mono">Lv 3</span></th>
-          <td>Small chance to steal an item from an enemy.<div class="skill-extra"><span class="skill-note">DEX scaling success</span><span class="chip chip--sm mono">No |}</span></div></td>
-          <td><span class="badge sk-other">Offensive Support</span></td>
+          <th scope="row">Hiding<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Hides under the ground to avoid enemy attack. Detection skills and using the skill again can cancel hiding</p><p>Drains 1 SP per second while active.</p><div class="skill-extra"><span class="chip chip--sm">Caster</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Sense<span class="skill-max mono">Lv 1</span></th>
+          <td><p>Reveals detailed information about a targeted monster to the caster including all dropped items.</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Area Loot<span class="skill-max mono">Lv 1</span></th>
+          <td><p>Automatically pick up every item within 2 cells of the caster. This skill cannot be used within towns, PvP maps or in WoE.</p><p>Items picked with this are not party shared.</p><div class="skill-extra"><span class="chip chip--sm">2 cells around the caster</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
             </tbody>
           </table>
         </div>
       </section>
-    <p class="source-note">Descriptions and the skill list are transcribed from the community wiki for the world the Refuge inherited. Where the Refuge changed something, it is called out above.</p>
+    <p class="source-note">Skill names and descriptions are read straight out of the server's own skill windows, so they say exactly what a player sees in game. Where the Refuge changed something, it is called out above.</p>
     <nav class="pill-row" aria-label="Other starters">
       <span class="dim">More starters:</span> 
       <a class="pill pill--strong" href="../classes.html">Full tree</a>
@@ -292,7 +303,7 @@
         <h4 data-i18n="foot.col2">Reference</h4>
         <ul>
         <li><a href="../changes.html" data-i18n="foot.changes">Changes from the original</a></li>
-        <li><a href="../database.html" data-i18n="foot.database">Community database</a></li>
+        <li><a href="../database.html" data-i18n="foot.database">Items and monsters</a></li>
         <li><a href="../guides.html" data-i18n="foot.guides">Player-written guides</a></li>
         <li><a href="../llms.txt" data-i18n="foot.llms">llms.txt</a></li>
         <li><a href="../sitemap.xml" data-i18n="foot.sitemap">Sitemap</a></li>

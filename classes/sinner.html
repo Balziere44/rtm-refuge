@@ -36,8 +36,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="../assets/css/style.css">
-<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
 
 <script>
 /* The only blocking script on the site. It has to run before the first paint
@@ -212,8 +212,9 @@
       <section class="section--tight" id="skills">
         <div class="section-head">
           <h2 data-i18n="ui.skills">Skills</h2>
-          <p>14 entries, as documented for the world the Refuge inherited.
-             Exact numbers are deliberately not listed - they move with balance passes.</p>
+          <p>What each one does, in the words the game itself uses.
+             Numbers are deliberately left out - they move with every balance
+             pass, and a page that quotes them goes stale the day one lands.</p>
         </div>
         <div class="cluster" style="margin-bottom:1rem">
           <label class="visually-hidden" for="sk">Filter skills</label>
@@ -227,80 +228,85 @@
             <thead><tr><th scope="col">Skill</th><th scope="col">What it does</th><th scope="col">Type</th></tr></thead>
             <tbody>
         <tr data-row>
-          <th scope="row">Wolf Eyes<span class="skill-max mono">Lv 3</span></th>
-          <td>Reduces fixed cast time of sinner skills<div class="skill-extra"><span class="skill-note">Reduction is 10% per level</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-passive">Passive</span></td>
-        </tr>
-        <tr data-row>
           <th scope="row">Extra Quiver<span class="skill-max mono">Lv 10</span></th>
-          <td>Increases Max SP and SP Regen speed<div class="skill-extra"><span class="skill-note">Applied to base SP/SP Regen</span><span class="chip chip--sm mono">No</span></div></td>
+          <td><p>Prepares another quiver to boost</p><p>SP regen and MaxSP</p></td>
           <td><span class="badge sk-passive">Passive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Rebound Quiver<span class="skill-max mono">Lv 10</span></th>
-          <td>Defeating enemies with targeted skills refill SP<div class="skill-extra"><span class="skill-note">Amount increases based on enemy level. Also increases max SP</span><span class="chip chip--sm mono">No</span></div></td>
+          <td><p>Increases MaxSP.</p><p>When you defeat an enemy with targeted skills, you will recover SP.</p></td>
           <td><span class="badge sk-passive">Passive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Bloody Quiver<span class="skill-max mono">Lv 5</span></th>
-          <td>Consumes partial HP to refill SP<div class="skill-extra"><span class="skill-note">Amount converted increases per level</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Reload Quiver<span class="skill-max mono">Lv 3</span></th>
-          <td>Reduces variable cost for the next 7 skills by half<div class="skill-extra"><span class="skill-note">Lower SP cost and cast time per level</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
+          <td><p>Consumes 20% of MaxHP to restore SP partially.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Arrow Storm<span class="skill-max mono">Lv 10</span></th>
-          <td>Shoots arrows to the skies so they rain down a large area of enemies<div class="skill-extra"><span class="skill-note">has combo interactions with Double Strafe</span><span class="chip chip--sm mono">DEX</span></div></td>
-          <td><span class="badge sk-other">Ranged Ground AoE</span></td>
+          <td><p>Requires 10 Arrows to use.</p><p>Shoots countless arrows at a target and a certain cell range around the target.</p><div class="skill-extra"><span class="chip chip--sm">Enemy and AoE Around</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Godhand Arrow<span class="skill-max mono">Lv 5</span></th>
-          <td>Shoots a strong arrow full of energy directly at an enemy for high damage<div class="skill-extra"><span class="skill-note">has combo interactions with Double Strafe. High spam rate</span><span class="chip chip--sm mono">DEX</span></div></td>
-          <td><span class="badge sk-other">Ranged</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Cannon Turret<span class="skill-max mono">Lv 5</span></th>
-          <td>Summons a invincible turret to shoot enemies for a short while over an area. Low duration<div class="skill-extra"><span class="skill-note">Multiple turrets can be set. Requires coins from Coin Flip(Rogue)</span><span class="chip chip--sm mono">DEX and VIT</span></div></td>
-          <td><span class="badge sk-summon">Summon</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Smoke Bomb<span class="skill-max mono">Lv 1</span></th>
-          <td>Throws smoke all around the caster to decrease incoming ranged attacks hit rate<div class="skill-extra"><span class="skill-note">also increases flee/reduces hit of anyone attacking inside, including enemies</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">AoE-Support</span></td>
+          <th scope="row">GodHand Arrow<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Godhand Arrow</p><p>Requires 1 Arrow to use.</p><p>Shoots a godly hand at a target with high repeat spam rate.</p><p>Activates Combo Ready for 3s</p><div class="skill-extra"><span class="chip chip--sm">Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Wind Walk<span class="skill-max mono">Lv 10</span></th>
-          <td>Increases movement speed of the entire party<div class="skill-extra"><span class="skill-note">Effect does not stack with increase AGI</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Party-Support</span></td>
+          <td><p>Increases Movement Speed and FLEE rate of yourself and party members. However, Movement Speed will not increased if a similar effect, such as Increase Agility, has already been cast. Skills which decrease Movement</p><p>Speed, such as Quagmire, cancel the Movement Speed increase from Wind</p><p>Walk.</p><div class="skill-extra"><span class="chip chip--sm">Caster and Party Members</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Killer Instinct<span class="skill-max mono">Lv 5</span></th>
-          <td>Increases your offenses and all stats for a short duration<div class="skill-extra"><span class="skill-note">Requires coins from Coin Flip(Rogue), slowly drains HP/SP</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Inquisition Resolve<span class="skill-max mono">Lv 5</span></th>
-          <td>Adds a chance that up to 5 extra attacks will be made when auto attacking<div class="skill-extra"><span class="skill-note">Lower odds for more hits</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
+          <th scope="row">Reload Quiver<span class="skill-max mono">Lv 3</span></th>
+          <td><p>Reduces Variable Cast for the next 7 skills by half.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Final Arrow<span class="skill-max mono">Lv 5</span></th>
-          <td>Prepares a massive auto-attack for massive damage, stacks with all Inquisition Resolve hits<div class="skill-extra"><span class="skill-note">Damage of auto attack is boosted by 100% per level, lost if melee attacked</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
+          <td><p>Requires 6 Arrows to prepare for use.</p><p>Gathers your resolve to prepare and inflict greater damage on your next normal shot. A melee physical attack on your body will cancel the skill.</p><p>Movement Speed is decreased for duration.</p><p>Highly boosted by Bow weight and level.</p><p>Applies to all attacks on Inquisition Resolve.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Last Inquisition<span class="skill-max mono">Lv 5</span></th>
-          <td>Increases ranged damage multipliers for a short duration<div class="skill-extra"><span class="skill-note">Requires a large amount of HP and SP to cast</span><span class="chip chip--sm mono">No |}</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
+          <td><p>Blesses bow in divine godly energy to purge evil.</p><p>Boosts power of ranged attacks for a time.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Inquisition Resolve<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Requires 1 to 6 Arrows to use.</p><p>Maximum hit amount based on ammo.</p><p>During the skill duration, normal ranged attacks have a chance of hitting a target multiple times.</p><p>Extra attack chances are from 2 to 5:</p><p>Extra Attacks stack with Final Arrow.</p><p>Can move slowly while preparing it</p><p>REQUIRES MORE THAN 5 ARROWS EQUIPPED.</p><p>Doesn't work if you have double attack</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Wolf Eyes<span class="skill-max mono">Lv 3</span></th>
+          <td><p>Focuses on skill uses to reduced fixed cast times.</p><p>Only Affects Sinner and Deadeye skills</p></td>
+          <td><span class="badge sk-passive">Passive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Smoke Bomb<span class="skill-max mono">Lv 1</span></th>
+          <td><p>Creates a thick fog in a 4x3 cell area that will cause the Blind status on players and monsters. All long ranged attacks targeted at players within the skill's range will have a greater chance of missing and have reduced damage.</p><div class="skill-extra"><span class="chip chip--sm">Ground</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Cannon Turret<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Sets a Turret on the ground that attacks enemies.</p><p>Requires 3 coins from Coin Flip per turret.</p><p>Turret damage improves with vit and dex.</p><div class="skill-extra"><span class="chip chip--sm">Ground</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Killer Instinct<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Consumes your HP and SP over time to massively boost all stats for duration.</p><p>Cooldown is same as duration.</p><p>Bonus Increases Max HP per level.</p><p>Grants immunity against many effects.</p><p>Costs 5 Coins from Coin Flip to use.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Sinner Soul<span class="skill-max mono">Lv 1</span></th>
+          <td><p>Skill Cannot be learned.</p><p>Sinners can use special buffs to prepare the perfect attack.</p><p>The Smiting side skill tree can deal massive damage quickly from afar.</p><p>The Quiver side skill tree can ensure constant resources are available.</p><p>The Inquisition side skill tree can provide power and automatic support.</p><p>Available Weapons: Daggers, Swords, Bows</p></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
             </tbody>
           </table>
         </div>
       </section>
-    <p class="source-note">Descriptions and the skill list are transcribed from the community wiki for the world the Refuge inherited. Where the Refuge changed something, it is called out above.</p>
+    <p class="source-note">Skill names and descriptions are read straight out of the server's own skill windows, so they say exactly what a player sees in game. Where the Refuge changed something, it is called out above.</p>
     <nav class="pill-row" aria-label="Other final jobs">
       <span class="dim">More final jobs:</span> <a class="pill" href="dracomancer.html">Dracomancer</a><a class="pill" href="revenant.html">Revenant</a><a class="pill" href="legend.html">Legend</a><a class="pill" href="pit-boss.html">Pit Boss</a><a class="pill" href="night-raven.html">Night Raven</a><a class="pill" href="satsujin.html">Satsujin</a>
       <a class="pill pill--strong" href="../classes.html">Full tree</a>
@@ -352,7 +358,7 @@
         <h4 data-i18n="foot.col2">Reference</h4>
         <ul>
         <li><a href="../changes.html" data-i18n="foot.changes">Changes from the original</a></li>
-        <li><a href="../database.html" data-i18n="foot.database">Community database</a></li>
+        <li><a href="../database.html" data-i18n="foot.database">Items and monsters</a></li>
         <li><a href="../guides.html" data-i18n="foot.guides">Player-written guides</a></li>
         <li><a href="../llms.txt" data-i18n="foot.llms">llms.txt</a></li>
         <li><a href="../sitemap.xml" data-i18n="foot.sitemap">Sitemap</a></li>

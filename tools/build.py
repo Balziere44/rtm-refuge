@@ -18,7 +18,6 @@ import data as D
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 DISCORD = C.DISCORD
-DB = C.DATABASE
 
 
 def write(name, html):

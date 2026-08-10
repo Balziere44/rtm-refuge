@@ -36,8 +36,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="../assets/css/style.css">
-<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
 
 <script>
 /* The only blocking script on the site. It has to run before the first paint
@@ -218,8 +218,9 @@
       <section class="section--tight" id="skills">
         <div class="section-head">
           <h2 data-i18n="ui.skills">Skills</h2>
-          <p>13 entries, as documented for the world the Refuge inherited.
-             Exact numbers are deliberately not listed - they move with balance passes.</p>
+          <p>What each one does, in the words the game itself uses.
+             Numbers are deliberately left out - they move with every balance
+             pass, and a page that quotes them goes stale the day one lands.</p>
         </div>
         <div class="cluster" style="margin-bottom:1rem">
           <label class="visually-hidden" for="sk">Filter skills</label>
@@ -233,75 +234,75 @@
             <thead><tr><th scope="col">Skill</th><th scope="col">What it does</th><th scope="col">Type</th></tr></thead>
             <tbody>
         <tr data-row>
-          <th scope="row">Dragon Thrust<span class="skill-max mono">Lv 10</span></th>
-          <td>Quickly strikes enemies ahead and locks position for follow-up skills<div class="skill-extra"><span class="skill-note">Damage hits in a small area. Enables Combo follow up</span><span class="chip chip--sm mono">STR and VIT |}</span></div></td>
-          <td><span class="badge sk-other">Melee</span></td>
+          <th scope="row">Dragon Force<span class="skill-max mono">Lv 1</span></th>
+          <td><p>Prepares your body to channel energy to your weapon. You can use</p><p>Crescent Dive and Geirskogul</p><p>While this effect is active.</p><p>Skill can be toggled on/off anytime.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Dragon Soul<span class="skill-max mono">Lv 5</span></th>
-          <td>Transforms into a dragon, granting unique abilities<div class="skill-extra"><span class="skill-note">Effects are based on equipped orb</span><span class="chip chip--sm mono">None |}</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Dragon Force<span class="skill-max mono">Lv 1</span></th>
-          <td>Channels energy from the dragons to your weapon directly, boosting attack slightly<div class="skill-extra"><span class="skill-note">Allows the use of Crescent Dive and Geirskogul</span></div></td>
-          <td><span class="badge sk-stance">Stance</span></td>
+          <td><p>Absorbs the power from a Dracomancer Orb to activate special powers.</p><p>Power granted varies according to Orb.</p><p>Claw: Increases Offenses</p><p>Wing: Increases Defenses</p><p>Scale: Transforms into Dragon</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Dragon Pact<span class="skill-max mono">Lv 1</span></th>
-          <td>Channels energy from the dragons to your body directly, boosting defenses slightly<div class="skill-extra"><span class="skill-note">Allows the use of Dragon Claw and Dragon Breath</span></div></td>
-          <td><span class="badge sk-stance">Stance</span></td>
+          <td><p>Prepares your body to channel energy to your spirit. You can use</p><p>Dragon Claw and Dragon Breath</p><p>While this effect is active.</p><p>Skill can be toggled on/off anytime.</p><p>Has no maintenance cost, while active</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Crescent Dive<span class="skill-max mono">Lv 10</span></th>
-          <td>Dives from the skies with a spear, hitting all enemies around<div class="skill-extra"><span class="skill-note">Requires Dragon Force stance, must be used as a follow-up to Dragon Thrust</span><span class="chip chip--sm mono">STR/AGI</span></div></td>
-          <td><span class="badge sk-other">Melee AoE</span></td>
+          <td><p>Dragon Force skill:</p><p>Can be used after Dragon Thrust.</p><p>Creates a massive vortex by landing from the sky to deal damage to surrounding enemies.</p><p>Damage is reduced when not Combo Ready</p><div class="skill-extra"><span class="chip chip--sm">AoE around Self</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Geirskogul<span class="skill-max mono">Lv 10</span></th>
-          <td>Summons lightning to strike from the sky dealing wind damage<div class="skill-extra"><span class="skill-note">Requires Dragon Force stance, boosted if used as a combo follow-up</span><span class="chip chip--sm mono">STR/INT</span></div></td>
-          <td><span class="badge sk-magic">Magic AoE</span></td>
+          <th scope="row">Draco Wing<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Draco Wings</p><p>When targeted with a ranged or magic attack (single target), there is a chance you will instantly jump to the attacker.</p><p>Does not work on Magical Ranged skills.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Dragon Claw<span class="skill-max mono">Lv 10</span></th>
-          <td>Dashes to an enemy dealing heavy damage, boosted by burning status on enemy<div class="skill-extra"><span class="skill-note">Skill can be boosted by &amp;quot;Claw Sharpening&amp;quot; Passive from equipment, requires Dragon Pact</span><span class="chip chip--sm mono">VIT</span></div></td>
-          <td><span class="badge sk-other">Gap Closer Melee</span></td>
+          <td><p>Dragon Pact skill:</p><p>Draws Dragon power to lunge and strike a target.</p><p>Skill is boosted by pure attack power.</p><p>Skill ignores flee</p><div class="skill-extra"><span class="chip chip--sm">Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Dragon Breath<span class="skill-max mono">Lv 10</span></th>
-          <td>Burns the soul and spews flames over a large area, causing burning status<div class="skill-extra"><span class="skill-note">Burning Status boosts damage of Dragon Claw, requires Dragon Pact</span><span class="chip chip--sm mono">VIT</span></div></td>
-          <td><span class="badge sk-other">Special Ranged AoE</span></td>
+          <td><p>Dragon Pact skill:</p><p>Burns your soul to spew flame in a large location that deals guaranteed damage to all enemies within its AoE.</p><p>Skill is Fire Element.</p><p>Skill activates Finisher Ready</p><p>If the following skills are active:</p><p>Spear Quicken: Wind Element</p><p>Gaebolg Ascension: Holy Element</p><p>Cast time is short and non-interruptible.</p><p>Boosted by Long Range amplifiers</p><p>Always causes burning status</p><div class="skill-extra"><span class="chip chip--sm">Ground</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Draco Wings<span class="skill-max mono">Lv 5</span></th>
-          <td>When targeted by a ranged or magical skill has a chance to jump directly to the enemy<div class="skill-extra"><span class="skill-note">Does not work on every attack, skill may be required for specific situations</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
+          <th scope="row">Geirskogul<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Dragon Force skill:</p><p>Calls forth lightning from the sky to deal magic damage to enemies.</p><p>Damage is always wind element.</p><p>Doubled Damage if Combo Ready</p><p>After damage, consumes Combo Ready, Cast Ready, and Finisher Ready</p><div class="skill-extra"><span class="chip chip--sm">AoE around Self</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Draco Spirit<span class="skill-max mono">Lv 10</span></th>
-          <td>Heals multiple negative status to all party members<div class="skill-extra"><span class="skill-note">Slightly increases Max HP of all party members not affected by negative status</span></div></td>
-          <td><span class="badge sk-other">Party-Wide Support</span></td>
+          <td><p>Heals Bleeding, Stone</p><p>Curse, Frozen, Stun, Silence and Burning from all party members.</p><p>Increases MaxHP when cast on normal condition party members.</p><div class="skill-extra"><span class="chip chip--sm">Self and Allies</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Gaebolg Ascension<span class="skill-max mono">Lv 10</span></th>
-          <td>Increases all defensive properties on self for a duration<div class="skill-extra"><span class="skill-note">Greatly affects defenses and healing received.</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
+          <td><p>Focuses all draconic energy around self to increase defenses for duration</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Gungnir Flight<span class="skill-max mono">Lv 10</span></th>
-          <td>Floats for a short duration, avoiding most terrain-based skills<div class="skill-extra"><span class="skill-note">Requires a Shadow Orb, skills avoided are any skills directly affecting the ground/feet</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
+          <th scope="row">Gungnir Flight<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Focuses all draconic energy around the wings to increase mobility for duration</p><p>Ignores most terrain-based skills.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Sky Prophecy<span class="skill-max mono">Lv 5</span></th>
-          <td>Marks all enemies in an area to receive 2x Damage from the next attack<div class="skill-extra"><span class="skill-note">Area increases per level, cast decreases per level</span><span class="chip chip--sm mono">None |}</span></div></td>
-          <td><span class="badge sk-other">AoE of Enemies</span></td>
+          <td><p>Doubles the damage of the next incoming attack on all enemies around the target.</p><p>Cast decreases per level</p><div class="skill-extra"><span class="chip chip--sm">AoE around target</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Dracomancer Soul<span class="skill-max mono">Lv 1</span></th>
+          <td><p>Skill Cannot be learned.</p><p>Dracomancers bring the power of the ancients to modern times to fulfill their desires.</p><p>Dragon Force and Dragon Pact allow different skills.</p><p>Incredible self-preservation with a multitude of buffs.</p><p>Can equip Orbs in place of Runes for unique powers.</p><p>Available Weapons: Spears, Bone Swords</p></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
             </tbody>
           </table>
         </div>
       </section>
-    <p class="source-note">Descriptions and the skill list are transcribed from the community wiki for the world the Refuge inherited. Where the Refuge changed something, it is called out above.</p>
+    <p class="source-note">Skill names and descriptions are read straight out of the server's own skill windows, so they say exactly what a player sees in game. Where the Refuge changed something, it is called out above.</p>
     <nav class="pill-row" aria-label="Other final jobs">
       <span class="dim">More final jobs:</span> <a class="pill" href="revenant.html">Revenant</a><a class="pill" href="legend.html">Legend</a><a class="pill" href="pit-boss.html">Pit Boss</a><a class="pill" href="night-raven.html">Night Raven</a><a class="pill" href="satsujin.html">Satsujin</a><a class="pill" href="gravekeeper.html">Gravekeeper</a>
       <a class="pill pill--strong" href="../classes.html">Full tree</a>
@@ -353,7 +354,7 @@
         <h4 data-i18n="foot.col2">Reference</h4>
         <ul>
         <li><a href="../changes.html" data-i18n="foot.changes">Changes from the original</a></li>
-        <li><a href="../database.html" data-i18n="foot.database">Community database</a></li>
+        <li><a href="../database.html" data-i18n="foot.database">Items and monsters</a></li>
         <li><a href="../guides.html" data-i18n="foot.guides">Player-written guides</a></li>
         <li><a href="../llms.txt" data-i18n="foot.llms">llms.txt</a></li>
         <li><a href="../sitemap.xml" data-i18n="foot.sitemap">Sitemap</a></li>

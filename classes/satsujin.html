@@ -36,8 +36,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="../assets/css/style.css">
-<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
 
 <script>
 /* The only blocking script on the site. It has to run before the first paint
@@ -213,8 +213,9 @@
       <section class="section--tight" id="skills">
         <div class="section-head">
           <h2 data-i18n="ui.skills">Skills</h2>
-          <p>16 entries, as documented for the world the Refuge inherited.
-             Exact numbers are deliberately not listed - they move with balance passes.</p>
+          <p>What each one does, in the words the game itself uses.
+             Numbers are deliberately left out - they move with every balance
+             pass, and a page that quotes them goes stale the day one lands.</p>
         </div>
         <div class="cluster" style="margin-bottom:1rem">
           <label class="visually-hidden" for="sk">Filter skills</label>
@@ -228,90 +229,90 @@
             <thead><tr><th scope="col">Skill</th><th scope="col">What it does</th><th scope="col">Type</th></tr></thead>
             <tbody>
         <tr data-row>
-          <th scope="row">Adv. Blade Mastery<span class="skill-max mono">Lv 5</span></th>
-          <td>Increases Attack and hit rate with swords and daggers.<div class="skill-extra"><span class="skill-note">Added as a flat bonus in damage.</span><span class="chip chip--sm mono">No</span></div></td>
+          <th scope="row">Advanced Blade Mastery<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Increases Dagger and Sword class weapon damage and hit rate.</p></td>
           <td><span class="badge sk-passive">Passive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Lotus Pact<span class="skill-max mono">Lv 5</span></th>
-          <td>Clears your mind for 10 seconds to quickly regen HP and SP.<div class="skill-extra"><span class="skill-note">Chance to randomly avoid damage taken when in this state.</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Dragon Omamori<span class="skill-max mono">Lv 10</span></th>
-          <td>Applies a fire talisman to an enemy, dealing damage and allowing it to explode later.<div class="skill-extra"><span class="skill-note">Can be detonated with Omamori Jutsu to deal extra damage.</span><span class="chip chip--sm mono">DEX</span></div></td>
-          <td><span class="badge sk-other">Special Ranged</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Binding Omamori<span class="skill-max mono">Lv 5</span></th>
-          <td>Applies a sticky trap on the ground that slows down enemies inside.<div class="skill-extra"><span class="skill-note">Can be detonated with Omamori Jutsu to deal HP %-based damage.</span><span class="chip chip--sm mono">DEX</span></div></td>
-          <td><span class="badge sk-other">Ground AoE Special</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Omamori Jutsu<span class="skill-max mono">Lv 1</span></th>
-          <td>Detonates any Dragon or Binding Omamoris applied nearby.<div class="skill-extra"><span class="skill-note">Requires 1 Talisman per use.</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Special</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Moonlight Stance<span class="skill-max mono">Lv 5</span></th>
-          <td>Enables use of New Moon Blades and Full Moon Blades.<div class="skill-extra"><span class="skill-note">Also Increases Max HP per level while active.</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">New Moon Blades<span class="skill-max mono">Lv 5</span></th>
-          <td>Attacks surrounding enemies and vanishes for a few seconds.<div class="skill-extra"><span class="skill-note">Can attack while invisible briefly.</span><span class="chip chip--sm mono">AGI</span></div></td>
-          <td><span class="badge sk-other">AoE around Self Melee</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Full Moon Blades<span class="skill-max mono">Lv 5</span></th>
-          <td>Reappears after vanishing with New Moon Blades dealing AoE damage.<div class="skill-extra"><span class="skill-note">Can only be used while invisible.</span><span class="chip chip--sm mono">AGI</span></div></td>
-          <td><span class="badge sk-other">AoE around Self Melee</span></td>
+          <td><p>Focuses your mind for 10 seconds to recover HP and SP quickly.</p><p>You are immobilized while using this skill. There is a chance that you won't receive damage when being attacked in this state.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Darkness Rises<span class="skill-max mono">Lv 10</span></th>
-          <td>Applies Satsujin's Curse to all enemies in an area and improve other skills.<div class="skill-extra"><span class="skill-note">Higher chance with higher level, guaranteed at Lv10.</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">AoE around Enemy</span></td>
+          <td><p>Uses evil spirits to inflict</p><p>Satsujin's Curse status on the target and surrounding enemies.</p><p>Satsujin's Curse targets receive more damage from specific skills.</p><p>Bonus is smaller vs. Boss enemies.</p><p>Affected Skills are: Darkness Falls</p><p>Darkness Flows and Million Stab.</p></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Darkness Falls<span class="skill-max mono">Lv 10</span></th>
-          <td>Deals strong Dark damage to all enemies in an area.<div class="skill-extra"><span class="skill-note">Damage greatly increased vs Satsujin's Curse damage.</span><span class="chip chip--sm mono">LUK</span></div></td>
-          <td><span class="badge sk-other">Ranged AoE around Enemy</span></td>
+          <th scope="row">Moonlight Stance<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Prepares your stance to operate with the moonlight. You can use the Moon skills while this skill is activated.</p><p>Increases also your MaxHP.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Darkness Flows<span class="skill-max mono">Lv 10</span></th>
-          <td>Deals strong Ghost magic damage to all enemies in an area, chance to cause curse status.<div class="skill-extra"><span class="skill-note">Damage greatly increased vs Satsujin's Curse damage.</span><span class="chip chip--sm mono">INT</span></div></td>
-          <td><span class="badge sk-magic">Magic AoE around Enemy</span></td>
+          <th scope="row">Omamori Jutsu<span class="skill-max mono">Lv 1</span></th>
+          <td><p>Activates and detonates caster's Dragon Omamori and Binding Omamori on screen.</p><p>Activates Invisibility when activated</p><div class="skill-extra"><span class="chip chip--sm">Screen</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Frozen Wind<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Creates freezing winds in an area which causes Water magic damage.</p><div class="skill-extra"><span class="chip chip--sm">Ground</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Burning Steps<span class="skill-max mono">Lv 10</span></th>
-          <td>Create a trail of fire when walking around dealing magic damage.<div class="skill-extra"><span class="skill-note">Duration and amount of steps increases with level, extra damage bonus with fire focus.</span><span class="chip chip--sm mono">INT</span></div></td>
-          <td><span class="badge sk-magic">Magic on move</span></td>
+          <td><p>Creates a trail of fire behind the caster dealing continuous</p><p>Fire damage to enemies that move over it.</p><p>Damage pulse is every 0.5s.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Frozen Wind<span class="skill-max mono">Lv 10</span></th>
-          <td>Throws massive shards of ice in a small area to hit all enemies.<div class="skill-extra"><span class="skill-note">Quick cast, long cooldown, extra damage bonus with water focus.</span><span class="chip chip--sm mono">INT</span></div></td>
-          <td><span class="badge sk-magic">Magic AoE</span></td>
+          <th scope="row">Darkness Falls<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Deal Shadow physical damage to the target and surrounding enemies in a 7x7 area.</p><div class="skill-extra"><span class="chip chip--sm">Enemy and AoE</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Frozen Wind<span class="skill-max mono">Lv 10</span></th>
-          <td>Throws massive shards of ice in a small area to hit all enemies<div class="skill-extra"><span class="skill-note">Quick cast, long cooldown, extra damage bonus with water focus</span><span class="chip chip--sm mono">INT</span></div></td>
-          <td><span class="badge sk-magic">Magic AoE</span></td>
+          <th scope="row">New Moon Blades<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Moon-only skill:</p><p>Enter a New Moon state after attacking your enemies around you and hide yourself.</p><p>You can maintain New Moon state until attacking.</p><p>Costs 1 SP per second while hiding.</p><p>Halves any damage taken while invisible.</p><p>Loses focus stacks if autocasting</p><div class="skill-extra"><span class="chip chip--sm">AoE on Self</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Binding Omamori<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Lays down a movement impairing talisman on the ground. All targets that enter the Area of Effect will have their Movement slowed.</p><p>Using Omamori Talisman skill on targets affected by will remove the trap and deal damage to the targets.</p><p>Only 1 mark on the ground at a time.</p><p>Damage is fixed on 5 x User's Dex and an extra 1% Current HP per level.</p><div class="skill-extra"><span class="chip chip--sm">Ground AoE</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Darkness Flows<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Casts strong</p><p>Ghost magic at an enemy in an 5x5 area</p><p>Can also curse enemies and costs vital energy.</p><div class="skill-extra"><span class="chip chip--sm">Enemy and AoE</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Zephyr Gust<span class="skill-max mono">Lv 10</span></th>
-          <td>Throws blades of wind quickly to all enemies between caster and target<div class="skill-extra"><span class="skill-note">High spam rate, quick cast and cooldown, extra damage bonus with wind focus</span><span class="chip chip--sm mono">INT</span></div></td>
-          <td><span class="badge sk-magic">Magic Line AoE</span></td>
+          <td><p>Shoots a blade of sharp wind that will slash all enemies between the caster and the skill's target with Wind elemental magic damage.</p><div class="skill-extra"><span class="chip chip--sm">AoE on Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Full Moon Blades<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Moon-only skill:</p><p>Can only be used when in New Moon state.</p><p>Ends the New Moon state and inflicts damage to surrounding enemies and has a high chance to inflict Blind status to the targets.</p><div class="skill-extra"><span class="chip chip--sm">AoE on Self</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Dragon Omamori<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Applies a talisman at the target to deal small damage.</p><p>The talisman can be exploded by the skill</p><p>Omamori Talisman to deal damage.</p><p>Up to 5 talismans can be applied at a time.</p><p>Has a small chance of applying burning</p><div class="skill-extra"><span class="chip chip--sm">Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Million Stab<span class="skill-max mono">Lv 10</span></th>
-          <td>Quickly strikes all enemies in a small area with strong hits<div class="skill-extra"><span class="skill-note">Extra damage vs Satsujin's Curse targets, very high base cooldown</span><span class="chip chip--sm mono">AGI and DEX |}</span></div></td>
-          <td><span class="badge sk-other">Melee AoE</span></td>
+          <td><p>Stabs targets</p><p>10 times in a row for massive damage.</p><div class="skill-extra"><span class="chip chip--sm">AoE around Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Satsujin Soul<span class="skill-max mono">Lv 1</span></th>
+          <td><p>Skill Cannot be learned.</p><p>Satsujins can use all forms of combat to overcome all situations of fighting.</p><p>The Darkness side of skill tree allow hiding and quick attacks, along with curses for combos</p><p>The Magic side of skill tree allows for controls of elements for high spam of spells.</p><p>Has access to unique talismans for unavoidable delayed damage.</p><p>Available Weapons: Daggers</p></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
             </tbody>
           </table>
         </div>
       </section>
-    <p class="source-note">Descriptions and the skill list are transcribed from the community wiki for the world the Refuge inherited. Where the Refuge changed something, it is called out above.</p>
+    <p class="source-note">Skill names and descriptions are read straight out of the server's own skill windows, so they say exactly what a player sees in game. Where the Refuge changed something, it is called out above.</p>
     <nav class="pill-row" aria-label="Other final jobs">
       <span class="dim">More final jobs:</span> <a class="pill" href="dracomancer.html">Dracomancer</a><a class="pill" href="revenant.html">Revenant</a><a class="pill" href="legend.html">Legend</a><a class="pill" href="pit-boss.html">Pit Boss</a><a class="pill" href="night-raven.html">Night Raven</a><a class="pill" href="gravekeeper.html">Gravekeeper</a>
       <a class="pill pill--strong" href="../classes.html">Full tree</a>
@@ -363,7 +364,7 @@
         <h4 data-i18n="foot.col2">Reference</h4>
         <ul>
         <li><a href="../changes.html" data-i18n="foot.changes">Changes from the original</a></li>
-        <li><a href="../database.html" data-i18n="foot.database">Community database</a></li>
+        <li><a href="../database.html" data-i18n="foot.database">Items and monsters</a></li>
         <li><a href="../guides.html" data-i18n="foot.guides">Player-written guides</a></li>
         <li><a href="../llms.txt" data-i18n="foot.llms">llms.txt</a></li>
         <li><a href="../sitemap.xml" data-i18n="foot.sitemap">Sitemap</a></li>

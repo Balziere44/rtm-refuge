@@ -83,11 +83,11 @@
   --tag-removed: #ff6b7d;
 
   /* Type */
-  /* Viaoda Libre is Art Nouveau and carries the big statements. Atkinson
-     Hyperlegible was designed for low-vision readability and does all the
-     actual reading, including h3 and below where a decorative face stops
-     helping. */
-  --font-display: "Viaoda Libre", Georgia, "Times New Roman", serif;
+  /* Amarante is Art Nouveau and carries the big statements. It has one
+     weight, so nothing may ask it for bold. Atkinson Hyperlegible was designed
+     for low-vision readability and does all the actual reading, including h3
+     and below where a decorative face stops helping. */
+  --font-display: "Amarante", Georgia, "Times New Roman", serif;
   --font-body: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
 
@@ -218,8 +218,8 @@ h1, h2, h3, h4 {
 h1, h2 {
   font-family: var(--font-display);
   font-weight: 400;
-  line-height: 1.1;
-  letter-spacing: 0.005em;
+  line-height: 1.15;
+  letter-spacing: 0.01em;
 }
 
 h3, h4 {
@@ -256,8 +256,11 @@ hr { border: 0; border-top: 1px solid var(--line); margin: var(--gap-lg) 0; }
   left: -9999px;
   top: 0;
   z-index: 200;
-  background: var(--accent);
-  color: var(--accent-ink);
+  /* Not --accent: white on it measures 3.71:1, and the one control a keyboard
+     user meets before anything else should not be the one that fails. The
+     deeper purple takes white at 7.8:1 in either theme. */
+  background: var(--pur-600);
+  color: #fff;
   padding: 0.7em 1.2em;
   border-radius: 0 0 var(--radius-sm) 0;
 }
@@ -324,7 +327,7 @@ hr { border: 0; border-top: 1px solid var(--line); margin: var(--gap-lg) 0; }
 .brand { display: flex; align-items: center; gap: 0.6rem; text-decoration: none; color: var(--text); flex: 0 0 auto; }
 .brand img { width: 34px; height: 34px; filter: drop-shadow(0 0 10px var(--glow)); }
 .brand-text { display: flex; flex-direction: column; line-height: 1.05; }
-.brand-name { font-family: var(--font-display); font-weight: 700; font-size: 0.98rem; letter-spacing: 0.06em; }
+.brand-name { font-family: var(--font-display); font-weight: 400; font-size: 1.02rem; letter-spacing: 0.07em; }
 .brand-sub { font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--accent); }
 
 .nav {
@@ -562,7 +565,7 @@ body.no-scroll { overflow: hidden; }
 
 .stat { text-align: left; }
 .stat dt { font-family: var(--font-mono); font-size: var(--step--1); letter-spacing: 0.14em; text-transform: uppercase; color: var(--text-dim); }
-.stat dd { margin: 0.2rem 0 0; font-family: var(--font-display); font-size: var(--step-2); font-weight: 700; color: var(--text); }
+.stat dd { margin: 0.2rem 0 0; font-family: var(--font-display); font-size: var(--step-2); font-weight: 400; color: var(--text); }
 
 .stat-row { display: grid; gap: var(--gap-md); grid-template-columns: repeat(auto-fit, minmax(min(100%, 160px), 1fr)); margin: 0; }
 
@@ -698,7 +701,7 @@ details.faq {
 details.faq summary {
   cursor: pointer;
   padding: var(--gap-sm) 0;
-  font-weight: 600;
+  font-weight: 400;
   font-family: var(--font-display);
   font-size: var(--step-1);
   list-style: none;
@@ -1587,6 +1590,56 @@ html[data-theme="light"] .db-tab[aria-selected="true"] { color: #fff; }
 .db-count { color: var(--text-dim); font-size: var(--step--1); margin: 0; }
 .field--select { flex: 0 0 auto; padding-block: 0.5rem; }
 
+/* One colour per kind of item. The row carries it as a spine and the category
+   badge as its text colour, so a list of two thousand names has some shape
+   before anybody reads a word of it. Both sets are measured against the card
+   background, not guessed. */
+:root {
+  --h-wpn: #ffa768;
+  --h-shd: #8fbcff;
+  --h-arm: #86d2f5;
+  --h-hat: #ffd479;
+  --h-acc: #ff9fd0;
+  --h-crd: #c4a6ff;
+  --h-cos: #ff93b6;
+  --h-sha: #a8b2c6;
+  --h-run: #74dfbe;
+  --h-amm: #d3b78d;
+  --h-use: #8ade90;
+  --h-mat: #bdb4a4;
+  --h-oth: #a49dae;
+}
+
+html[data-theme="light"] {
+  --h-wpn: #a1500b;
+  --h-shd: #1c5aa8;
+  --h-arm: #0f6285;
+  --h-hat: #8a6000;
+  --h-acc: #a63576;
+  --h-crd: #6b46c1;
+  --h-cos: #a82c55;
+  --h-sha: #4a5568;
+  --h-run: #0e7048;
+  --h-amm: #7a5a26;
+  --h-use: #2b6b2f;
+  --h-mat: #5f5a4e;
+  --h-oth: #5a5464;
+}
+
+.badge--wpn, .db-chip--wpn { color: var(--h-wpn); }
+.badge--shd, .db-chip--shd { color: var(--h-shd); }
+.badge--arm, .db-chip--arm { color: var(--h-arm); }
+.badge--hat, .db-chip--hat { color: var(--h-hat); }
+.badge--acc, .db-chip--acc { color: var(--h-acc); }
+.badge--crd, .db-chip--crd { color: var(--h-crd); }
+.badge--cos, .db-chip--cos { color: var(--h-cos); }
+.badge--sha, .db-chip--sha { color: var(--h-sha); }
+.badge--run, .db-chip--run { color: var(--h-run); }
+.badge--amm, .db-chip--amm { color: var(--h-amm); }
+.badge--use, .db-chip--use { color: var(--h-use); }
+.badge--mat, .db-chip--mat { color: var(--h-mat); }
+.badge--oth, .db-chip--oth { color: var(--h-oth); }
+
 .db-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.5rem; }
 .db-row { margin: 0; }
 
@@ -1605,8 +1658,38 @@ html[data-theme="light"] .db-tab[aria-selected="true"] { color: #fff; }
   color: inherit;
   font: inherit;
   cursor: pointer;
+  /* The spine or the sprite sits in the first track; everything readable
+     stacks in the second. */
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: start;
+  gap: 0.75rem;
 }
 .db-entry:hover { border-color: var(--accent); }
+.db-body { display: grid; gap: 0.3rem; min-width: 0; }
+
+/* Four pixels of colour. It is the cheapest way to make a long list sortable
+   by eye, and it costs no layout. */
+.db-chip {
+  width: 4px;
+  align-self: stretch;
+  min-height: 2.2rem;
+  border-radius: 999px;
+  background: currentColor;
+}
+
+.db-sprite {
+  width: 56px;
+  height: 64px;
+  object-fit: contain;
+  object-position: center bottom;
+  image-rendering: pixelated;
+  flex: 0 0 auto;
+}
+.db-detail-head { display: flex; gap: var(--gap-sm); align-items: flex-end; padding-right: 3rem; }
+.db-detail-head h2 { padding-right: 0; margin-bottom: 0.15rem; }
+.db-detail-head p { margin: 0; font-size: var(--step--1); }
+.db-detail-kind { margin: 0 3rem 0.35rem 0; }
+
 .db-name { font-weight: 700; }
 .db-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: center; }
 .db-sub { font-size: var(--step--1); color: var(--text-dim); }
@@ -1620,6 +1703,41 @@ html[data-theme="light"] .db-tab[aria-selected="true"] { color: #fff; }
   -webkit-box-orient: vertical;
 }
 .db-empty { padding: var(--gap-xl) 0; text-align: center; color: var(--text-dim); }
+
+/* The description the game itself shows. Kept as separate short paragraphs
+   because that is how it is written - one effect per line, not prose. */
+.db-desc { margin: var(--gap-sm) 0 0; font-size: 0.95rem; }
+.db-desc p { margin: 0 0 0.2rem; }
+.db-desc p:last-child { margin-bottom: 0; }
+
+/* A drop rate is the number people came for, so it gets its own weight. */
+.db-rate { flex: 0 0 auto; font-weight: 700; }
+.db-rate.is-common { color: var(--h-use); }
+.db-rate.is-uncommon { color: var(--text-muted); }
+.db-rate.is-rare { color: var(--h-hat); }
+.db-rate.is-veryrare { color: var(--h-acc); }
+
+/* Every name in a drop list opens the other record. It looks like text until
+   it is hovered, because a list of forty underlined links is noise. */
+.db-link {
+  border: 0;
+  padding: 0;
+  background: none;
+  font: inherit;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+  border-bottom: 1px dotted var(--glass-edge);
+}
+.db-link:hover, .db-link:focus-visible { color: var(--accent); border-bottom-color: currentColor; }
+
+.db-maps {
+  margin: var(--gap-sm) 0 0;
+  font-size: var(--font-min);
+  color: var(--text-dim);
+  line-height: 1.7;
+  word-break: break-word;
+}
 
 /* The detail panel: a drawer on desktop, a sheet on a phone. */
 .db-detail {
@@ -1667,19 +1785,6 @@ html[data-theme="light"] .db-tab[aria-selected="true"] { color: #fff; }
 }
 .db-detail-stats dt { color: var(--text-dim); font-size: 0.88rem; }
 .db-detail-stats dd { margin: 0; font-weight: 700; }
-
-.db-script {
-  margin: var(--gap-sm) 0 0;
-  padding: var(--gap-sm);
-  border: 1px solid var(--glass-edge);
-  border-radius: var(--radius-sm);
-  background: var(--glass-fill);
-  font-family: var(--font-mono);
-  font-size: var(--font-min);
-  color: var(--text-muted);
-  white-space: pre-wrap;
-  overflow-x: auto;
-}
 
 .db-drops { list-style: none; margin: var(--gap-sm) 0 0; padding: 0; }
 .db-drops li {

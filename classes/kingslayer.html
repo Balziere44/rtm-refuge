@@ -36,8 +36,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="../assets/css/style.css">
-<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
 
 <script>
 /* The only blocking script on the site. It has to run before the first paint
@@ -212,8 +212,9 @@
       <section class="section--tight" id="skills">
         <div class="section-head">
           <h2 data-i18n="ui.skills">Skills</h2>
-          <p>15 entries, as documented for the world the Refuge inherited.
-             Exact numbers are deliberately not listed - they move with balance passes.</p>
+          <p>What each one does, in the words the game itself uses.
+             Numbers are deliberately left out - they move with every balance
+             pass, and a page that quotes them goes stale the day one lands.</p>
         </div>
         <div class="cluster" style="margin-bottom:1rem">
           <label class="visually-hidden" for="sk">Filter skills</label>
@@ -227,85 +228,90 @@
             <thead><tr><th scope="col">Skill</th><th scope="col">What it does</th><th scope="col">Type</th></tr></thead>
             <tbody>
         <tr data-row>
-          <th scope="row">Pawn's Rod<span class="skill-max mono">Lv 1</span></th>
-          <td>Absorbs a targeted spell<div class="skill-extra"><span class="skill-note">The timing-window of the skill is 1.5s</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
+          <th scope="row">Pawn's Rod<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Upon being attacked with a spell, using this skill in the correct moment will cancel the targeted spell and regain a bit of spent SP, if any.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Pawn's Cure<span class="skill-max mono">Lv 1</span></th>
-          <td>Cures multiple abnormal status effects<div class="skill-extra"><span class="skill-note">Removes Stone, Freeze, Stun or Bleeding status</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Ally-Support</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Bishop's Tax<span class="skill-max mono">Lv 5</span></th>
-          <td>Expend HP to deal heavy damage to an enemy<div class="skill-extra"><span class="skill-note">Range increase per skill level</span><span class="chip chip--sm mono">DEX</span></div></td>
-          <td><span class="badge sk-physical">Physical</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Bishop's Guard<span class="skill-max mono">Lv 5</span></th>
-          <td>Increases vitality defense of the party by 20% per level<div class="skill-extra"><span class="skill-note">Vitality defense reduces damage taken by a flat amount</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Party-Support</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Knight's Capture<span class="skill-max mono">Lv 5</span></th>
-          <td>Teleports self and enemy to a random location on the map<div class="skill-extra"><span class="skill-note">Chance increases with level, some places don't allow teleport</span><span class="chip chip--sm mono">AGI</span></div></td>
-          <td><span class="badge sk-physical">Physical</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Knight's Regen<span class="skill-max mono">Lv 5</span></th>
-          <td>Increases HP Regeneration speed of the entire party<div class="skill-extra"><span class="skill-note">No</span><span class="chip chip--sm mono">VIT</span></div></td>
-          <td><span class="badge sk-other">Party-Support</span></td>
+          <td><p>Cures abnormal status effects such as Stun, Frozen, Stone Curse, Horror Scream and much more.</p><p>Inflicts Blind status on Undead monsters.</p><div class="skill-extra"><span class="chip chip--sm">1 Character</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Rook's Smash<span class="skill-max mono">Lv 5</span></th>
-          <td>Knockbacks all enemies between you and target<div class="skill-extra"><span class="skill-note">Affects enemies in a straight line, requires a shield.</span><span class="chip chip--sm mono">STR</span></div></td>
-          <td><span class="badge sk-physical">Physical Ranged</span></td>
+          <td><p>Smashes a small area of enemies and knock them back.</p><p>Dealing 2 hits, with half damage on each.</p><p>Requires Sword/Dagger.</p><p>Requires a Shield equipped.</p><p>Knockback is always south.</p><p>Generates up to 3 Duel Counters under Duel Stance.</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Knight's Capture<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Strikes a target and forcibly teleport it with the caster to a random location on the same map.</p><div class="skill-extra"><span class="chip chip--sm">1 Character</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Bishop's Tax<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Attacks and taxes the enemy defenses, icnreasing damage taken.</p><p>Halved for bosses</p><div class="skill-extra"><span class="chip chip--sm">1 Character</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Bishop's Guard<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Increases MaxHP and physical defense from VIT of all party members including caster.</p><div class="skill-extra"><span class="chip chip--sm">Caster and Party Members</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Knight's Regen<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Recovers a percentage of HP to self and all party members on screen every 5 seconds. Has no effect on</p><p>Undead elemental players.</p><div class="skill-extra"><span class="chip chip--sm">Caster and Party Members</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Rook's Wall<span class="skill-max mono">Lv 5</span></th>
-          <td>Reduces ranged damage taken at the cost of overall speed<div class="skill-extra"><span class="skill-note">Requires a shield.</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
+          <td><p>Reduces damage taken from long Physical Ranged attacks at the cost of decreasing ASPD and Movement Speed for the skill's duration, but decreases the ASPD penalty according to the skill's level. Casting this skill again cancels the Defender status.</p><p>Requires Shield.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Queen's Brand<span class="skill-max mono">Lv 10</span></th>
-          <td>Knocks back and damages all enemies around targeted area<div class="skill-extra"><span class="skill-note">Affects the direction cast</span><span class="chip chip--sm mono">VIT</span></div></td>
-          <td><span class="badge sk-physical">Ground Physical</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Queen's Barrier<span class="skill-max mono">Lv 10</span></th>
-          <td>Creates a shield that blocks a certain amount of attacks<div class="skill-extra"><span class="skill-note">Amount and hits/damage absorption increases with level</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Ally-Support</span></td>
+          <td><p>After a short preparation, strongly attack an area of enemies to deal heavy damage and smash them around.</p><p>Requires Sword/Dagger.</p><p>Requires 3 Duel Counters to cast</p><div class="skill-extra"><span class="chip chip--sm">AoE of Enemies</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">King's Chains<span class="skill-max mono">Lv 10</span></th>
-          <td>Throws a shield around an enemy multiple times for high damage<div class="skill-extra"><span class="skill-note">Damage increases with shield refine and weight</span><span class="chip chip--sm mono">VIT</span></div></td>
-          <td><span class="badge sk-physical">Ranged Special Physical</span></td>
+          <td><p>Throws a rebounding shield 4 times at an enemy to deal damage.</p><p>Damage is based on shield refine/weight.</p><p>Skill ignores flee</p><p>Requires a Shield.</p><p>Requires 1 Duel Counter to cast</p><div class="skill-extra"><span class="chip chip--sm">Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Queen's Barrier<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Creates a perfect barrier around a character that will be able to block</p><p>Either a given % of HP or amount of hits.</p><p>Cast Time is extremely short</p><div class="skill-extra"><span class="chip chip--sm">1 Character</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">King's Fortress<span class="skill-max mono">Lv 3</span></th>
-          <td>Changes position of shield to generate a buff according to level<div class="skill-extra"><span class="skill-note">Increases HP Regen, SP Regen or Shield-skills damage</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
+          <td><p>Enchants the shield with a unique aura that improves the flow of energy of the caster depending on the skill level used.</p><p>Requires a Shield.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Queens's Gambit<span class="skill-max mono">Lv 10</span></th>
-          <td>Deals heavy damage to all enemies around caster<div class="skill-extra"><span class="skill-note">Damage is split if enemies share cells</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Mixed ATK/MATK AoE on Self</span></td>
+          <th scope="row">Queen's Gambit<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Deals massive damage</p><p>Over multiple hits to enemies around.</p><p>Damage is ATK+MATK divided by 2.</p><div class="skill-extra"><span class="chip chip--sm">Enemies around the caster</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">King's Gambit<span class="skill-max mono">Lv 10</span></th>
-          <td>Quickly creates a terrain that protects from any ground targeted spell<div class="skill-extra"><span class="skill-note">Has no cast time, very small size and long cooldown</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Party-Support</span></td>
+          <td><p>Cast a spell that will block or cancel all ground targeting spells or enchantments, area increases with Level.</p><p>Skill has no cast time.</p><div class="skill-extra"><span class="chip chip--sm">Ground</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Check Mate<span class="skill-max mono">Lv 1</span></th>
-          <td>Converts current SP into ATK damage and deals a single strong hit<div class="skill-extra"><span class="skill-note">Cast can't be interrupted</span><span class="chip chip--sm mono">No |}</span></div></td>
-          <td><span class="badge sk-physical">Special Physical</span></td>
+          <td><p>Inflicts a finishing blow with devastating damage by consuming the caster's remaining SP and will not recover SP for 3 seconds.</p><p>Damage is Current SP as % ATK.</p><p>Doubled Damage with 10 Duel Counters</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Kingslayer Soul<span class="skill-max mono">Lv 3</span></th>
+          <td><p>Skill Cannot be learned.</p><p>Kingslayers can use multiple styles to adapt to any combat situation.</p><p>The Ivory side of skill tree has access to multiple support choices.</p><p>The Ebony side of skill tree has access to multiple combat choices.</p><p>Gambits bring massive changes to the combat situation.</p><p>Check-Mate attempts to finish any fight with a final blow.</p><p>Available Weapons: Daggers, Swords, Bows</p></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
             </tbody>
           </table>
         </div>
       </section>
-    <p class="source-note">Descriptions and the skill list are transcribed from the community wiki for the world the Refuge inherited. Where the Refuge changed something, it is called out above.</p>
+    <p class="source-note">Skill names and descriptions are read straight out of the server's own skill windows, so they say exactly what a player sees in game. Where the Refuge changed something, it is called out above.</p>
     <nav class="pill-row" aria-label="Other final jobs">
       <span class="dim">More final jobs:</span> <a class="pill" href="dracomancer.html">Dracomancer</a><a class="pill" href="revenant.html">Revenant</a><a class="pill" href="legend.html">Legend</a><a class="pill" href="pit-boss.html">Pit Boss</a><a class="pill" href="night-raven.html">Night Raven</a><a class="pill" href="satsujin.html">Satsujin</a>
       <a class="pill pill--strong" href="../classes.html">Full tree</a>
@@ -357,7 +363,7 @@
         <h4 data-i18n="foot.col2">Reference</h4>
         <ul>
         <li><a href="../changes.html" data-i18n="foot.changes">Changes from the original</a></li>
-        <li><a href="../database.html" data-i18n="foot.database">Community database</a></li>
+        <li><a href="../database.html" data-i18n="foot.database">Items and monsters</a></li>
         <li><a href="../guides.html" data-i18n="foot.guides">Player-written guides</a></li>
         <li><a href="../llms.txt" data-i18n="foot.llms">llms.txt</a></li>
         <li><a href="../sitemap.xml" data-i18n="foot.sitemap">Sitemap</a></li>

@@ -15,7 +15,6 @@ a file:// preview and from the final domain without a rebuild.
 SITE = "https://rtmrefuge.pages.dev"
 
 DISCORD = "https://discord.gg/a5P3PFNMhn"
-DATABASE = "https://rtm-internal-e.vercel.app/"
 
 # Deliberate wording note (see README): the site describes itself with generic
 # genre vocabulary and never uses a publisher's brand name, product name or
@@ -53,18 +52,18 @@ FOOTER_COLUMNS = [
     ]),
     ("Reference", [
         ("changes.html", "Changes from the original"),
-        ("database.html", "Community database"),
+        ("database.html", "Items and monsters"),
         ("guides.html", "Player-written guides"),
         ("llms.txt", "llms.txt"),
         ("sitemap.xml", "Sitemap"),
     ]),
 ]
 
-# Viaoda Libre is one of Google's seven Art Nouveau families and carries the
-# decorative headings; Atkinson Hyperlegible was designed for low-vision
-# readability and does the actual reading. One decorative face, one legible
-# face, one mono for labels - nothing else gets loaded.
-FONTS = ("https://fonts.googleapis.com/css2?family=Viaoda+Libre&"
+# Amarante is one of Google's Art Nouveau families and carries the decorative
+# headings; Atkinson Hyperlegible was designed for low-vision readability and
+# does the actual reading. One decorative face, one legible face, one mono for
+# labels - nothing else gets loaded.
+FONTS = ("https://fonts.googleapis.com/css2?family=Amarante&"
          "family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&"
          "family=JetBrains+Mono:wght@400;500&display=swap")
 

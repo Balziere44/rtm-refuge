@@ -36,8 +36,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="../assets/css/style.css">
-<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
 
 <script>
 /* The only blocking script on the site. It has to run before the first paint
@@ -196,8 +196,9 @@
       <section class="section--tight" id="skills">
         <div class="section-head">
           <h2 data-i18n="ui.skills">Skills</h2>
-          <p>15 entries, as documented for the world the Refuge inherited.
-             Exact numbers are deliberately not listed - they move with balance passes.</p>
+          <p>What each one does, in the words the game itself uses.
+             Numbers are deliberately left out - they move with every balance
+             pass, and a page that quotes them goes stale the day one lands.</p>
         </div>
         <div class="cluster" style="margin-bottom:1rem">
           <label class="visually-hidden" for="sk">Filter skills</label>
@@ -211,85 +212,110 @@
             <thead><tr><th scope="col">Skill</th><th scope="col">What it does</th><th scope="col">Type</th></tr></thead>
             <tbody>
         <tr data-row>
-          <th scope="row">Dark Claw<span class="skill-max mono">Lv 5</span></th>
-          <td>Removes reflect power from enemies and increases physical damage for 10 seconds.<div class="skill-extra"><span class="skill-note">Cooldown is 90 seconds, Damage bonus is 2% per level.</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Offensive Support</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Ready to Rip<span class="skill-max mono">Lv 5</span></th>
-          <td>Enables Endure and increases HIT and ATK while decreasing defense.<div class="skill-extra"><span class="skill-note">Cooldown is 2 minutes, Duration is 50 seconds.</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Riposte<span class="skill-max mono">Lv 5</span></th>
-          <td>Block a frontal attack and counters with a critical hit.<div class="skill-extra"><span class="skill-note">Higher level has shorter duration but quicker use animation. Requires 1 Duel Counter. Damage increased by Shield Weight and Refine.</span><span class="chip chip--sm mono">INT</span></div></td>
-          <td><span class="badge sk-other">Offensive Self-Support</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Delta Skyfall<span class="skill-max mono">Lv 10</span></th>
-          <td>Drops blades from the sky to hit distant enemies.<div class="skill-extra"><span class="skill-note">Requires a Dagger or Sword.</span><span class="chip chip--sm mono">AGI</span></div></td>
-          <td><span class="badge sk-other">Offensive Ranged</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Soul Destroyer<span class="skill-max mono">Lv 10</span></th>
-          <td>Deals ranged physical damage to an enemy. High INT scaling.<div class="skill-extra"><span class="skill-note">Uses ATK for calculations, heavy INT-based boost. Deals more damage against targets with Night Wound debuff.</span><span class="chip chip--sm mono">INT</span></div></td>
-          <td><span class="badge sk-other">Offensive Ranged</span></td>
+          <th scope="row">Wind Slash<span class="skill-max mono">Lv 13</span></th>
+          <td><p>Launches a wind blast at an enemy using a blade targeting weak spots.</p><p>Requires a Sword or Dagger and can CRIT</p><div class="skill-extra"><span class="chip chip--sm">Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Southern Cross<span class="skill-max mono">Lv 10</span></th>
-          <td>Deals Heavy damage with both hands to a target. Target is marked with Night Wound.<div class="skill-extra"><span class="skill-note">Repeat use of the skill deals extra damage vs marked targets. Other skills also boosted.</span><span class="chip chip--sm mono">AGI</span></div></td>
-          <td><span class="badge sk-other">Offensive</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Greater Explosion<span class="skill-max mono">Lv 10</span></th>
-          <td>Deals massive damage to all enemies around target.<div class="skill-extra"><span class="skill-note">Requires Fire Bottles and Acid Bottles, high cooldown. Chance of inflicting Bleeding.</span><span class="chip chip--sm mono">INT</span></div></td>
-          <td><span class="badge sk-other">Offensive Special AoE</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Cluster Arrow<span class="skill-max mono">Lv 10</span></th>
-          <td>Hits all enemies around a minor area around a target.<div class="skill-extra"><span class="skill-note">Has bonus critical chance. Damage split between all targets.</span><span class="chip chip--sm mono">LUK</span></div></td>
-          <td><span class="badge sk-other">Offensive Ranged AoE</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Unholy Light<span class="skill-max mono">Lv 10</span></th>
-          <td>Deals Dark Magic Damage to an enemy and surroundings.<div class="skill-extra"><span class="skill-note">Can be cast with Autospell. Strong vs Natural Elements.</span><span class="chip chip--sm mono">INT</span></div></td>
-          <td><span class="badge sk-magic">offensive Magic AoE</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Venom Mark<span class="skill-max mono">Lv 5</span></th>
-          <td>Increases target poison element damage taken by 5% per level<div class="skill-extra"><span class="skill-note">Increases both magic and physical poison damage.</span><span class="chip chip--sm mono">LUK</span></div></td>
-          <td><span class="badge sk-other">Offensive Support</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Venom Splasher<span class="skill-max mono">Lv 10</span></th>
-          <td>Plants a poison bomb against a target that explodes after a moment to deal heavy AoE damage and poison enemies.<div class="skill-extra"><span class="skill-note">Fuse time is 5seconds. Decreases by 1 second every 2 levels. Cooldown also decreases.</span><span class="chip chip--sm mono">VIT</span></div></td>
-          <td><span class="badge sk-other">Offensive Delayed AoE</span></td>
+          <td><p>Enemy receives a Night</p><p>Attacking an enemy with a Night Wound using specific skills deals extra damage.</p><p>Damage is Greatly boosted on marked targets.</p><p>Requires both hands equipped to use</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Meteor Rush<span class="skill-max mono">Lv 5</span></th>
-          <td>Deals damage to all enemies between user and target with a critical chance.<div class="skill-extra"><span class="skill-note">Requires a sword or katar. Damage is not split between targets.</span><span class="chip chip--sm mono">AGI</span></div></td>
-          <td><span class="badge sk-other">Offensive Ranged AoE</span></td>
+          <td><p>Attacks all enemies in a straight line up to 9x3 cells</p><p>Requires A Sword or Katar</p><p>Skill can be Critical</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Venom Splasher<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Venom Dust 5</p><p>Plants a time bomb on an target, which explodes after a certain time with a 5x5 radius dealing physical damage around and inflict Poison status.</p><p>Cooldown is always shorter than fuse time.</p><p>If the enemy dies, the explosion fails.</p><p>Cast time can't be interrupted.</p><p>Cannot be used on enemies immune to status.</p><p>Element is same as weapon.</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Soul Destroyer<span class="skill-max mono">Lv 10</span></th>
+          <td><p>A ranged attack to a target with magic damage bonus.</p><div class="skill-extra"><span class="chip chip--sm">1 Character</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Meteor Assault<span class="skill-max mono">Lv 5</span></th>
-          <td>Deals damage around self with a chance of causing multiple negative status.<div class="skill-extra"><span class="skill-note">Can cause blind, stun and bleeding.</span><span class="chip chip--sm mono">DEX</span></div></td>
-          <td><span class="badge sk-other">Offensive AoE</span></td>
+          <td><p>Smashes enemies around causing multiple statuses and damage.</p><div class="skill-extra"><span class="chip chip--sm">AoE around user</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Venom Mark<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Weakens the enemy's resistance against Poison elemental attack. Has 5 cells range.</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Delta Skyfall<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Drops blades from the sky hitting distant enemies directly.</p><p>Requires a sword or dagger equipped.</p><div class="skill-extra"><span class="chip chip--sm">Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Coin Flip<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Consumes 1 Zeny to flip a Coin. If it lands showing heads, the caster will gain 1 Coin, but if it shows tails, the caster will lose 1</p><p>Coin. The caster can have a maximum of 10 Coins, and increasing this skill's level raises the success rate of flipping a Coin that will show heads.Coins are displayed as glowing orbs around the caster.</p><p>Coins are used as catalysts for some skills</p><div class="skill-extra"><span class="chip chip--sm">Caster</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Kawarimi<span class="skill-max mono">Lv 5</span></th>
-          <td>Automatically dodges a set number of physical attacks and skills.<div class="skill-extra"><span class="skill-note">Moves back quickly when dodging, amount of dodges increases with level. High Cooldown.</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
+          <td><p>Enables Kawarimi status ensuring the caster to automatically dodges a set number of attacks. Each special dodge is followed by a backward movement of 1 cell. Has a 20s cooldown.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Cluster Arrow<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Prepares and shoots quickly against an enemy with great precision.</p><p>Activates Finisher Ready for 5s if combo ready</p><p>Requires 4 arrows to use</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Greater Explosion<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Throws 3 Bottles of Acid that explodes massively on enemies.</p><p>Requires 3 -Acid Bottle-, Sold on Black Market NPCs.</p><p>Chance to cause bleeding.</p><div class="skill-extra"><span class="chip chip--sm">AoE of Enemies</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Unholy Light<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Deals Dark elemental magic damage to a target and all enemies around.</p><p>Damage is boosted according to current focus</p><p>Does not consume any focus</p><div class="skill-extra"><span class="chip chip--sm">Enemy and AoE</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Seven Winds<span class="skill-max mono">Lv 7</span></th>
-          <td>Changes weapon element to any other element except poison.<div class="skill-extra"><span class="skill-note">Element can be changed anytime.</span><span class="chip chip--sm mono">No |}</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
+          <td><p>Summons a wind that will enchant the caster's attacks for 5 minutes with an elemental property based on the level of the casted skill.</p><div class="skill-extra"><span class="chip chip--sm">User</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Riposte<span class="skill-max mono">Lv 5</span></th>
+          <td><p>After receiving melee damage from an enemy, automatically retaliate with a mighty Critical attack.</p><p>You can't walk while this skill is active</p><p>Blocks attacks from any direction</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Dark Claw<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Leaves a painful wound on the enemy and removes melee physical damage reflect effects for 5 seconds. during this time melee physical damage reflect effects are not available and the enemy will receive 2% per level more damage from melee physical attacks.</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Ready to Rip<span class="skill-max mono">Lv 5</span></th>
+          <td><p>When active, this skill endows the caster with the Endure effect and increased ATK and HIT, but will also temporarily reduces caster's Defense.</p><p>50s duration and 2 minutes cooldown.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Unchained Arts - Thief<span class="skill-max mono">Lv 1</span></th>
+          <td><p>Skill Cannot be learned.</p><p>Thieves breaking chains and forging a new path with no limits.</p><p>Have access to many skills from assassins and rogues.</p><p>Must be specially careful with regular Thief Restrictions.</p><p>Available Weapons: Daggers, Swords, Bows</p></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Master Thief Arts<span class="skill-max mono">Lv 1</span></th>
+          <td><p>Skill Cannot be learned.</p><p>Phantom Thieves dominate the battlefield</p><p>Wielding all 8 Specializations with mastery.</p><p>Have access to many Rogue and Assassin specialization skills.</p><p>Must be specially careful with regular Thief Restrictions.</p><p>Can wear any Shadow Set without restrictions.</p><p>Available Weapons: Daggers, Swords, Bows</p></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Sonic Blow<span class="skill-max mono">Lv 13</span></th>
+          <td><p>Directs a flurry of rapid</p><p>Katar strikes that will have a chance of inflicting the Stun status.</p><p>Requires a Katar weapon.</p><p>Skill can be critical</p><div class="skill-extra"><span class="chip chip--sm">1 Character</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
             </tbody>
           </table>
         </div>
       </section>
-    <p class="source-note">Descriptions and the skill list are transcribed from the community wiki for the world the Refuge inherited. Where the Refuge changed something, it is called out above.</p>
+    <p class="source-note">Skill names and descriptions are read straight out of the server's own skill windows, so they say exactly what a player sees in game. Where the Refuge changed something, it is called out above.</p>
     <nav class="pill-row" aria-label="Other final jobs">
       <span class="dim">More final jobs:</span> <a class="pill" href="dracomancer.html">Dracomancer</a><a class="pill" href="revenant.html">Revenant</a><a class="pill" href="legend.html">Legend</a><a class="pill" href="pit-boss.html">Pit Boss</a><a class="pill" href="night-raven.html">Night Raven</a><a class="pill" href="satsujin.html">Satsujin</a>
       <a class="pill pill--strong" href="../classes.html">Full tree</a>
@@ -341,7 +367,7 @@
         <h4 data-i18n="foot.col2">Reference</h4>
         <ul>
         <li><a href="../changes.html" data-i18n="foot.changes">Changes from the original</a></li>
-        <li><a href="../database.html" data-i18n="foot.database">Community database</a></li>
+        <li><a href="../database.html" data-i18n="foot.database">Items and monsters</a></li>
         <li><a href="../guides.html" data-i18n="foot.guides">Player-written guides</a></li>
         <li><a href="../llms.txt" data-i18n="foot.llms">llms.txt</a></li>
         <li><a href="../sitemap.xml" data-i18n="foot.sitemap">Sitemap</a></li>

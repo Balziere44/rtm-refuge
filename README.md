@@ -40,18 +40,50 @@ first failure. The steps individually, if you need one:
 `build_meta.py` and `build_search.py` read the pages the earlier steps wrote,
 so they cannot move earlier in that list.
 
-Two extraction steps sit outside the normal build because they read things
-that are not in this repository:
+Three extraction steps sit outside the normal build because they read things
+that are not in this repository. Everything they write is committed, so a
+normal build is offline and a re-fetch shows up as a readable diff of what
+actually changed upstream.
 
-- `tools/extract_gamedata.py` reads the server's own rAthena database (the
-  emulator checkout next to this one) and writes `tools/data/game.json` -
-  11,098 items and 2,073 monsters with their drop tables. That file is
-  committed, so `build_database.py` never needs the emulator present.
-- `tools/fetch_wiki.py` is separate and touches the network. It downloads the
-community wiki for the world the Refuge inherited into `tools/data/raw/` and
-parses it into `tools/data/wiki.json`. Both are committed, so a normal build is
-offline and a re-fetch shows up as a readable diff of what the wiki changed.
-Run `python tools/fetch_wiki.py --parse-only` to re-parse without re-downloading.
+- `tools/fetch_encyclopedia.py` pulls the team's own internal tool into
+  `tools/data/encyclopedia.json`: 2,622 items with the description the game
+  itself shows, 719 monsters with their drops, zones and card effects, and 40
+  classes with 477 skills. **This is the primary source for the database and
+  for every skill table.** The internal tool also carries staff balance notes
+  and a user list; neither is read and neither is written out.
+- `tools/fetch_sprites.py` vendors the 718 monster sprites into
+  `assets/sprites/`, so seven hundred images do not depend on somebody else's
+  Pages deployment staying up.
+- `tools/extract_gamedata.py` reads the emulator's rAthena tables (the
+  checkout next to this one) into `tools/data/game.json`. It is now only a
+  *secondary* source: the numbers the encyclopedia does not carry - monster
+  experience, attack and defence, and an item's job restrictions. Its `script`
+  column is never written to the site. See "Descriptions, not formulas".
+- `tools/fetch_wiki.py` downloads the wiki for the world the Refuge inherited
+  into `tools/data/raw/` and parses it into `tools/data/wiki.json`. Since the
+  encyclopedia landed this is a fallback only - it covers the prose sections
+  and the two jobs too new to be in the game's own data. Run
+  `python tools/fetch_wiki.py --parse-only` to re-parse without re-downloading.
+
+## Descriptions, not formulas
+
+The database used to print the emulator's `script` column, which reads
+`bonus2 bSkillAtk,"LG_RAYOFGENESIS",4*(.@r)`. That is reference material for a
+wiki, not a description, and it was on eleven thousand rows.
+
+What the site prints now is the text the game puts in front of a player, and
+the extraction splits every description in two:
+
+- **What it does** - the sentences. This is what the pages render.
+- **What it scales by** - `Damage is 100+25% per level +2% per LUK`,
+  `Duration is 10 seconds per level`. Kept in `encyclopedia.json` under
+  `numbers`, printed nowhere. Scaling moves with every balance pass, and a
+  static page that quotes it goes stale the day one lands; the wiki can be
+  corrected the same afternoon.
+
+`SKILL_NUMBERS` and `SKILL_FORMULA` in `tools/fetch_encyclopedia.py` are the
+split. `SCRIPTS` in `tools/check.py` is the guard: the build fails if bonus
+script, a `getrefine()` call or an `.@variable` reaches any page again.
 
 ## Where things live
 
@@ -60,13 +92,16 @@ Run `python tools/fetch_wiki.py --parse-only` to re-parse without re-downloading
 | `tools/chrome.py` | `head()`, `header()`, `footer()`, breadcrumbs, JSON-LD helpers. The nav lives here once. |
 | `tools/data.py` | Refuge-specific content: dungeon list, FAQ, timeline, change buckets. |
 | `tools/classes_meta.py` | The class tree, and what the Refuge changed about each class. |
-| `tools/data/wiki.json` | The inherited world, parsed from the community wiki. Generated - do not hand-edit. |
-| `tools/fetch_wiki.py` | Downloads and parses that wiki. The only networked script. |
+| `tools/data/encyclopedia.json` | Items, monsters and skills from the team's own tool. The primary source. Generated - do not hand-edit. |
+| `tools/fetch_encyclopedia.py` | Pulls and cleans that file. |
+| `tools/fetch_sprites.py` | Vendors the monster sprites into `assets/sprites/` |
+| `tools/data/wiki.json` | The inherited world, parsed from the wiki. Fallback only. Generated - do not hand-edit. |
+| `tools/fetch_wiki.py` | Downloads and parses that wiki. |
 | `tools/build.py` | Home and the short pages. One function each. |
 | `tools/build_docs.py` | The four long reference pages, assembled from wiki sections. |
 | `tools/build_classes.py` | `classes.html` and `classes/*.html` |
 | `tools/build_search.py` | `assets/data/search.json` - the search index. Runs last. |
-| `tools/extract_gamedata.py` | Reads the emulator's YAML into `tools/data/game.json` |
+| `tools/extract_gamedata.py` | Reads the emulator's YAML into `tools/data/game.json`. Secondary - numbers only. |
 | `tools/build_database.py` | `database.html` + `assets/data/db-items.json` and `db-mobs.json` |
 | `tools/check_i18n.py` | Fails if the markup uses a key no locale defines |
 | `assets/i18n/pt.js` | Portuguese table. Add a language by copying this file. |
@@ -86,8 +121,9 @@ fetch overwrites both.
 
 The site carries two kinds of material and the distinction is load-bearing:
 
-- **Inherited.** Descriptions, skill tables and system pages transcribed from
-  the community wiki for the world the Refuge is rebuilding.
+- **Inherited.** System pages and prose sections transcribed from the wiki for
+  the world the Refuge is rebuilding. Skill tables no longer come from here -
+  they come from the game.
 - **Refuge.** Everything the current team changed, from their own public posts.
 
 Refuge material is always rendered as a purple *"What the Refuge changed"*
@@ -166,14 +202,17 @@ Three sources, all of them other people's work:
 - **The development team's own public posts** (Ornstein, croc and Metta,
   May–August 2026) in the project's community server. Everything marked as a
   Refuge change comes from here.
-- **The server's own emulator database**, for every item, monster and drop
-  rate in the database page. This is the most accurate source that exists,
-  because it is not a transcription of anything - it is what the game runs on.
-- **The community wiki** for the world the Refuge is rebuilding, for the
-  inherited systems, regions and skill tables. 77 pages, 424 skill rows. That
-  wiki belongs to another server built from the same origin; it is credited
-  here and nowhere on the site, which links to no competitor and names none.
-  `tools/check.py` fails the build if a link to it reappears.
+- **The team's own internal encyclopedia**, for every item, monster, drop and
+  skill. This is the most accurate source that exists, because it is not a
+  transcription of anything - it is the text the game itself displays, kept by
+  the people changing it.
+- **The server's own emulator tables**, for the numbers the encyclopedia does
+  not carry.
+- **The wiki** for the world the Refuge is rebuilding, for the inherited
+  system pages and the prose sections. That wiki belongs to another server
+  built from the same origin; it is credited here and nowhere on the site,
+  which links to no competitor and names none. `tools/check.py` fails the
+  build if a link to it reappears.
 - **Two community-written guides**, credited and linked on the guides page.
 
 Where a number was posted as work-in-progress, the page says so. Nothing was

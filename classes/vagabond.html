@@ -36,8 +36,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="../assets/css/style.css">
-<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
 
 <script>
 /* The only blocking script on the site. It has to run before the first paint
@@ -211,8 +211,9 @@
       <section class="section--tight" id="skills">
         <div class="section-head">
           <h2 data-i18n="ui.skills">Skills</h2>
-          <p>8 entries, as documented for the world the Refuge inherited.
-             Exact numbers are deliberately not listed - they move with balance passes.</p>
+          <p>What each one does, in the words the game itself uses.
+             Numbers are deliberately left out - they move with every balance
+             pass, and a page that quotes them goes stale the day one lands.</p>
         </div>
         <div class="cluster" style="margin-bottom:1rem">
           <label class="visually-hidden" for="sk">Filter skills</label>
@@ -227,49 +228,54 @@
             <tbody>
         <tr data-row>
           <th scope="row">Improve Dodge<span class="skill-max mono">Lv 10</span></th>
-          <td>Increases flee rate.<div class="skill-extra"><span class="skill-note">+4 Flee per level.</span><span class="chip chip--sm mono">No</span></div></td>
+          <td><p>Increase flee rate</p></td>
           <td><span class="badge sk-passive">Passive</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Increase SP Recovery<span class="skill-max mono">Lv 10</span></th>
-          <td>Provides extra SP recovery on top of natural regeneration.<div class="skill-extra"><span class="skill-note">Regens 0.1% + 2 max SP per level.</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-passive">Passive</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Improve Defense<span class="skill-max mono">Lv 10</span></th>
-          <td>Increases Max HP<div class="skill-extra"><span class="skill-note">HP+50 per level</span><span class="chip chip--sm mono">No</span></div></td>
+          <th scope="row">Enlarge Weight Limit<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Improve Weight</p><p>Increases maximum Weight</p><p>Limit.</p></td>
           <td><span class="badge sk-passive">Passive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Blade Mastery<span class="skill-max mono">Lv 10</span></th>
-          <td>Increases attack with swords and daggers by 3 per level.<div class="skill-extra"><span class="skill-note">Also increases ASPD by 1% per level.</span><span class="chip chip--sm mono">No</span></div></td>
+          <td><p>Increases Sword and Dagger class weapon damage and attack speed.</p><p>Dual Wield only works if weapons are same type</p><p>Vagabonds cannot wield swords.</p><p>Dark Knights cannot wield daggers.</p></td>
           <td><span class="badge sk-passive">Passive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Shadow Mastery<span class="skill-max mono">Lv 10</span></th>
-          <td>Increases flee by 3 per level.<div class="skill-extra"><span class="skill-note">Also increases ASPD by 1% per level.</span><span class="chip chip--sm mono">No</span></div></td>
+          <td><p>Increases flee rate and boosts</p><p>Overall attack speed.</p></td>
           <td><span class="badge sk-passive">Passive</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Improve Weight<span class="skill-max mono">Lv 10</span></th>
-          <td>Increases weight limit<div class="skill-extra"><span class="skill-note">Increase is 300 weight per level</span><span class="chip chip--sm mono">No</span></div></td>
+          <th scope="row">Improve Defense<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Increase Max HP</p></td>
           <td><span class="badge sk-passive">Passive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Pneuma<span class="skill-max mono">Lv 8</span></th>
-          <td>Block ranged physical attacks for a duration on a 3x3 area<div class="skill-extra"><span class="skill-note">Duration and SP cost increases with higher level</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Support</span></td>
+          <td><p>creates a timed barrier in 3x3 cells around targeted cell that for 10 sec will protect anyone inside it from long range physical attacks.</p><p>SP Cost increases per level.</p><div class="skill-extra"><span class="chip chip--sm">Ground</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Increase SP Recovery<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Increase SP recovery bonus</p></td>
+          <td><span class="badge sk-passive">Passive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Frenzy<span class="skill-max mono">Lv 1</span></th>
-          <td>Fully heals and boosts the HP and massively increases attack power and speed in exchange for defenses and flee<div class="skill-extra"><span class="skill-note">Cannot be canceled, block any healing and constantly drains health</span><span class="chip chip--sm mono">No |}</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
+          <td><p>Uses the power of rage to increase offensive capabilities while removing defensive capabilities.</p><p>Skill can be manually disabled making the character exhausted</p><p>Sets the ASPD to 190 for duration</p><p>Quickly drains HP of the character while preventing any direct healing</p><p>Makes all defenses 0 and Disables Harness Speed</p><p>Blocks all item use.</p><p>Chat is disabled for duration.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-passive">Passive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Vagabond Skills<span class="skill-max mono">Lv 1</span></th>
+          <td><p>Skill Cannot be learned.</p><p>Vagabonds gave up all paths in order to focus on their own power.</p><p>Vagabonds are very restricted in skills</p><p>And only the strongest ones survive.</p><p>A Unique perspective on auto attacks.</p><p>Main Stats: STR and AGI</p><p>Available Weapons: Daggers</p></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
             </tbody>
           </table>
         </div>
       </section>
-    <p class="source-note">Descriptions and the skill list are transcribed from the community wiki for the world the Refuge inherited. Where the Refuge changed something, it is called out above.</p>
+    <p class="source-note">Skill names and descriptions are read straight out of the server's own skill windows, so they say exactly what a player sees in game. Where the Refuge changed something, it is called out above.</p>
     <nav class="pill-row" aria-label="Other first jobs">
       <span class="dim">More first jobs:</span> <a class="pill" href="thief.html">Thief</a><a class="pill" href="trickster.html">Trickster</a><a class="pill" href="jester.html">Jester</a><a class="pill" href="ronin.html">Ronin</a><a class="pill" href="mimic.html">Mimic</a><a class="pill" href="raider.html">Raider</a>
       <a class="pill pill--strong" href="../classes.html">Full tree</a>
@@ -321,7 +327,7 @@
         <h4 data-i18n="foot.col2">Reference</h4>
         <ul>
         <li><a href="../changes.html" data-i18n="foot.changes">Changes from the original</a></li>
-        <li><a href="../database.html" data-i18n="foot.database">Community database</a></li>
+        <li><a href="../database.html" data-i18n="foot.database">Items and monsters</a></li>
         <li><a href="../guides.html" data-i18n="foot.guides">Player-written guides</a></li>
         <li><a href="../llms.txt" data-i18n="foot.llms">llms.txt</a></li>
         <li><a href="../sitemap.xml" data-i18n="foot.sitemap">Sitemap</a></li>

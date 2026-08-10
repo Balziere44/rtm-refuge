@@ -36,8 +36,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="../assets/css/style.css">
-<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
 
 <script>
 /* The only blocking script on the site. It has to run before the first paint
@@ -214,8 +214,9 @@
       <section class="section--tight" id="skills">
         <div class="section-head">
           <h2 data-i18n="ui.skills">Skills</h2>
-          <p>13 entries, as documented for the world the Refuge inherited.
-             Exact numbers are deliberately not listed - they move with balance passes.</p>
+          <p>What each one does, in the words the game itself uses.
+             Numbers are deliberately left out - they move with every balance
+             pass, and a page that quotes them goes stale the day one lands.</p>
         </div>
         <div class="cluster" style="margin-bottom:1rem">
           <label class="visually-hidden" for="sk">Filter skills</label>
@@ -229,75 +230,85 @@
             <thead><tr><th scope="col">Skill</th><th scope="col">What it does</th><th scope="col">Type</th></tr></thead>
             <tbody>
         <tr data-row>
-          <th scope="row">Improve Weight<span class="skill-max mono">Lv 10</span></th>
-          <td>Increases weight limit<div class="skill-extra"><span class="skill-note">Increase is 300 weight per level</span><span class="chip chip--sm mono">No</span></div></td>
+          <th scope="row">Enlarge Weight Limit<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Improve Weight</p><p>Increases maximum Weight</p><p>Limit.</p></td>
+          <td><span class="badge sk-passive">Passive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Advanced Axe Mastery<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Increases Axe class weapon damage and hit rate.</p></td>
           <td><span class="badge sk-passive">Passive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Improve Potion<span class="skill-max mono">Lv 10</span></th>
-          <td>Increases potion healing power by 5% per level<div class="skill-extra"><span class="skill-note">also applies to any potions used with Pitcher skills</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-passive">Passive</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Throw Item<span class="skill-max mono">Lv 1</span></th>
-          <td>Uses a throwable item such a specific items and cooked food<div class="skill-extra"><span class="skill-note">must be used with /ns or shift+click on party members</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-active">Active</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Mix Cooking<span class="skill-max mono">Lv 2</span></th>
-          <td>Cooks stat bonus foods for a temporary +10 bonus to an ally. Different food doesn't stack, stack with regular orphanage food.<div class="skill-extra"><span class="skill-note">Success rate increases with job level. Food can be equipped like arrows or bullets and used with Throw Item.</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Crafting</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Full Set Revest<span class="skill-max mono">Lv 5</span></th>
-          <td>Coats a party member in chemical protection, making their items unstrippable/unbreakable<div class="skill-extra"><span class="skill-note">Duration increases with level, requires Glistening Coats (sold on Black Market)</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Party-Support</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Crazy Weed<span class="skill-max mono">Lv 10</span></th>
-          <td>Deals a random amount of hits to enemies according to level<div class="skill-extra"><span class="skill-note">Enemies near the center can take more hits</span><span class="chip chip--sm mono">INT</span></div></td>
-          <td><span class="badge sk-physical">Grounded AoE Physical Ranged</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Rolling Flames<span class="skill-max mono">Lv 10</span></th>
-          <td>Deals damage according to enemies positions in a wide area in front of caster, pushing them back with a strong knockback<div class="skill-extra"><span class="skill-note">Clears the floor of any set traps on path. Higher levels of the skill move more slowly.</span><span class="chip chip--sm mono">STR</span></div></td>
-          <td><span class="badge sk-physical">Directional AoE Physical Ranged</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Fire Expansion<span class="skill-max mono">Lv 5</span></th>
-          <td>Grants bonuses to specific skills<div class="skill-extra"><span class="skill-note">Boosts damage of Greater Explosion, Rolling Flames, Decoy, Throw Acid and Burning Field.</span><span class="chip chip--sm mono">Varies</span></div></td>
+          <td><p>Increases effectiveness of HP Recovery Potion, either consumed or used through skills like -Slim Potion Throw-.</p></td>
           <td><span class="badge sk-passive">Passive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Cold Trap<span class="skill-max mono">Lv 5</span></th>
-          <td>Deals damage in a short area with a high chance of causing Crystallize<div class="skill-extra"><span class="skill-note">chance improves with level, some bomb skills deal extra damage vs Crystallize</span><span class="chip chip--sm mono">DEX</span></div></td>
-          <td><span class="badge sk-other">Special Trap</span></td>
+          <td><p>When this trap activates, it deals damage in a 3x3 area and inflicts Freezing status. Skill Level increases success rate of inflicting</p><p>Crystallization status.</p><p>Can set up to 3 traps at once</p><p>Consumes 1 Alloy Trap.</p><p>Can be set under target</p><div class="skill-extra"><span class="chip chip--sm">Ground</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Claymore<span class="skill-max mono">Lv 5</span></th>
-          <td>Deals damage in a short area to any enemies around<div class="skill-extra"><span class="skill-note">focused on dealing special damage directly, unlike the debuff variations</span><span class="chip chip--sm mono">STR</span></div></td>
-          <td><span class="badge sk-other">Special Trap</span></td>
+          <th scope="row">Claymore Trap<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Generates a trap which will inflict splashed damage in an 7x7 area.</p><p>Claymore Traps can be attacked to explode instantly against nearby enemies.</p><p>Can be set under target</p><div class="skill-extra"><span class="chip chip--sm">Ground</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Fire Expansion<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Improves the handling of explosives and traps making them more effective.</p></td>
+          <td><span class="badge sk-passive">Passive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Mad Bomber<span class="skill-max mono">Lv 1</span></th>
+          <td><p>Throws Normal? Fruits or Mixed Food. Has 11 cells range.</p></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Cluster Bomb<span class="skill-max mono">Lv 10</span></th>
-          <td>Deals damage in a short area to any enemies around, damage has high scaling<div class="skill-extra"><span class="skill-note">Requires multiple resources to setup</span><span class="chip chip--sm mono">INT/DEX</span></div></td>
-          <td><span class="badge sk-other">Special Trap</span></td>
+          <td><p>Maximum 5 traps are allowed to be set at once and damage range is</p><p>3 cells wide and 5 cells deep. Can be combined with Trigger Trap skill. Cluster</p><p>Bomb cannot be removed with Remove Trap.</p><p>Consumes Acid Bottle, Fire Bottle and Alloy Trap.</p><p>Extra damage is fixed 300+lv*Int and Dex.</p><p>Has a large explosion range</p><p>Can be set under target</p><div class="skill-extra"><span class="chip chip--sm">Ground</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Mr. Bombastic<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Burns an area dealing physical damage to enemies over 3 seconds monsters. Removes traps and its effects from the ground.</p><p>Consumes 1 Fire and Acid Bottles.</p><p>Amount of hits increased near center</p><p>Skill ignores terrain protection</p><div class="skill-extra"><span class="chip chip--sm">Ground</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Mix Cooking<span class="skill-max mono">Lv 2</span></th>
+          <td><p>Cooks delicious dishes by mixing various ingredients.Mix Cooking.</p><p>Need a Cook Recipe to make specific food.</p><p>Food is untradeable and needs to be thrown to affect allies.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Detonator<span class="skill-max mono">Lv 1</span></th>
-          <td>Activates any traps around detonator trigger area<div class="skill-extra"><span class="skill-note">Activated traps have slightly higher area of explosion</span><span class="chip chip--sm mono">INT/DEX</span></div></td>
-          <td><span class="badge sk-other">Special</span></td>
+          <td><p>Immediately activates traps on the ground. Skills range is 7x7 cells around the targeted area. skill will not detonate traps of another player.</p><div class="skill-extra"><span class="chip chip--sm">Trap</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Rolling Flames<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Burns the field with heavy hits in front of you. Rolling Flames creates a chance of removing Ground based skills in its range. Including spells and traps.</p><p>Has a wide wave with short range</p><div class="skill-extra"><span class="chip chip--sm">Ground</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Full Set Revest<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Protects the targeted character against all kinds of equipment breaking and removal.</p><p>Consumes 3 Glistening Coat.</p><div class="skill-extra"><span class="chip chip--sm">1 Character</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Acid Demonstration<span class="skill-max mono">Lv 10</span></th>
-          <td>Thows a mix of many chemicals at an enemy, dealing vitality-based damage<div class="skill-extra"><span class="skill-note">Has high cast time, cooldown and resources cost, deals more hits per level</span><span class="chip chip--sm mono">INT |}</span></div></td>
-          <td><span class="badge sk-other">Ranged Special</span></td>
+          <td><p>Attacks an enemy by Throwing a highly reactive mix of bottles.</p><p>Higher levels increase number of hits up to 10.</p><p>Consumes 5 Acid Bottle and 5 Fire Bottle.</p><p>Skill ignores flee and defense</p><div class="skill-extra"><span class="chip chip--sm">Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Blast Juggler Soul<span class="skill-max mono">Lv 1</span></th>
+          <td><p>Skill Cannot be learned.</p><p>Blast Jugglers can use bombs and crafts to explode everything.</p><p>The Juggling side skill tree can create unique bombs and buffs.</p><p>The Blasting side skill tree can trap and explode enemies.</p><p>Can clear fields of traps and tricks.</p><p>Available Weapons: Daggers, Swords, Axes</p></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
             </tbody>
           </table>
         </div>
       </section>
-    <p class="source-note">Descriptions and the skill list are transcribed from the community wiki for the world the Refuge inherited. Where the Refuge changed something, it is called out above.</p>
+    <p class="source-note">Skill names and descriptions are read straight out of the server's own skill windows, so they say exactly what a player sees in game. Where the Refuge changed something, it is called out above.</p>
     <nav class="pill-row" aria-label="Other final jobs">
       <span class="dim">More final jobs:</span> <a class="pill" href="dracomancer.html">Dracomancer</a><a class="pill" href="revenant.html">Revenant</a><a class="pill" href="legend.html">Legend</a><a class="pill" href="pit-boss.html">Pit Boss</a><a class="pill" href="night-raven.html">Night Raven</a><a class="pill" href="satsujin.html">Satsujin</a>
       <a class="pill pill--strong" href="../classes.html">Full tree</a>
@@ -349,7 +360,7 @@
         <h4 data-i18n="foot.col2">Reference</h4>
         <ul>
         <li><a href="../changes.html" data-i18n="foot.changes">Changes from the original</a></li>
-        <li><a href="../database.html" data-i18n="foot.database">Community database</a></li>
+        <li><a href="../database.html" data-i18n="foot.database">Items and monsters</a></li>
         <li><a href="../guides.html" data-i18n="foot.guides">Player-written guides</a></li>
         <li><a href="../llms.txt" data-i18n="foot.llms">llms.txt</a></li>
         <li><a href="../sitemap.xml" data-i18n="foot.sitemap">Sitemap</a></li>

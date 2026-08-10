@@ -36,8 +36,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="../assets/css/style.css">
-<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
 
 <script>
 /* The only blocking script on the site. It has to run before the first paint
@@ -219,8 +219,9 @@
       <section class="section--tight" id="skills">
         <div class="section-head">
           <h2 data-i18n="ui.skills">Skills</h2>
-          <p>18 entries, as documented for the world the Refuge inherited.
-             Exact numbers are deliberately not listed - they move with balance passes.</p>
+          <p>What each one does, in the words the game itself uses.
+             Numbers are deliberately left out - they move with every balance
+             pass, and a page that quotes them goes stale the day one lands.</p>
         </div>
         <div class="cluster" style="margin-bottom:1rem">
           <label class="visually-hidden" for="sk">Filter skills</label>
@@ -234,100 +235,105 @@
             <thead><tr><th scope="col">Skill</th><th scope="col">What it does</th><th scope="col">Type</th></tr></thead>
             <tbody>
         <tr data-row>
+          <th scope="row">Revelation<span class="skill-max mono">Lv 1</span></th>
+          <td><p>Summons a revealing fire to detect hidden characters around user.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Aurum Crucis<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Enchants your weapon with seals, boosting it's power.</p><p>Requires 1 Seal and Shadow Orb to cast.</p><p>Damage bonus cannot be reduced.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Magister Eye<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Marks a target with Magister</p><p>Mark, with each of your eyes, showing them on map</p><p>And boosting specific skills against them.</p><p>Requires 1 Seal per cast</p><p>Boosted: Absolution and Violent Barrage.</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Absolution<span class="skill-max mono">Lv 3</span></th>
+          <td><p>Requires 3 Bullets to use.</p><p>Repeats multiple attacks against enemies with increasing efficiency.</p><p>Must be chained after Double Attack activation</p><p>Deals extra auto attack hits on enemies</p><p>Can be combo followed-up with Violent Barrage</p><p>Magister Mark enemies get 1 extra hit</p><div class="skill-extra"><span class="chip chip--sm">Enemies</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
           <th scope="row">Judgment Mastery<span class="skill-max mono">Lv 10</span></th>
-          <td>Increase damage with revolvers<div class="skill-extra"><span class="skill-note">Revolvers are very static weapons with no random options</span></div></td>
+          <td><p>Increases damage wielding</p><p>Revolvers.</p></td>
           <td><span class="badge sk-passive">Passive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Akimbo Mastery<span class="skill-max mono">Lv 10</span></th>
-          <td>Enables 7% per level chance to activate a double attack<div class="skill-extra"><span class="skill-note">Absolution requires a double attack proc to be used</span></div></td>
+          <td><p>Enables a chance of firing two shots as a Double Attack while attacking enemies when equipped with Revolvers class weapon.</p><p>Activation of this skill is required for Absolution.</p></td>
           <td><span class="badge sk-passive">Passive</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Judge Quiver<span class="skill-max mono">Lv 10</span></th>
-          <td>Decreases SP cost of all skills by a certain amount per level<div class="skill-extra"><span class="skill-note">Recommended to make SP management easier</span></div></td>
-          <td><span class="badge sk-passive">Passive</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Aurum Crucis<span class="skill-max mono">Lv 10</span></th>
-          <td>Enchants weapons with extra attack, this power increases with job level<div class="skill-extra"><span class="skill-note">Damage from this effect cannot be reduced or avoided</span><span class="chip chip--sm mono">JOB</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Magister Eye<span class="skill-max mono">Lv 5</span></th>
-          <td>Marks a target and reduces its flee while marking them on mini-map<div class="skill-extra"><span class="skill-note">Absolution uses will hit any marked enemies on the screen with +1 hit, Violent Barrage will deal AoE higher damage</span></div></td>
-          <td><span class="badge sk-support">Debuff</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Absolution<span class="skill-max mono">Lv 3</span></th>
-          <td>Quickly shoots a target again multiple times according to level after a double attack<div class="skill-extra"><span class="skill-note">Amount of hits increase even further according to Job Level and if target is marked</span><span class="chip chip--sm mono">JOB</span></div></td>
-          <td><span class="badge sk-other">Ranged / Special Ranged</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Violent Barrage<span class="skill-max mono">Lv 10</span></th>
-          <td>follow-up of an Absolution with a strong quick shot for high damage<div class="skill-extra"><span class="skill-note">Deals splash damage vs marked targets and requires seals</span><span class="chip chip--sm mono">AGI</span></div></td>
-          <td><span class="badge sk-other">Ranged/ Ranged AoE</span></td>
+          <td><p>Requires 5 Bullets to use.</p><p>Activates expansions on bullets that hit enemies for more damage.</p><p>Requires 3 Seals per cast.</p><p>Can be chained after Absolution activation</p><p>Magister Mark enemies explode dealing damage in a 5x5 area around them.</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy/AoE</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Monarch Seal<span class="skill-max mono">Lv 10</span></th>
-          <td>Summons a Monarch Seal, required to use most Judge skills<div class="skill-extra"><span class="skill-note">Up to 10 seals can be summoned, according to skill level, ATK+1 per seal</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
+          <th scope="row">Monarch Seal<span class="skill-max mono">Lv 2</span></th>
+          <td><p>Summons a Seal, which can be used to enable different skills for a judge.</p><p>Increases atk by 1 per Seal.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Royal Authority<span class="skill-max mono">Lv 10</span></th>
-          <td>Quickly summons all possible Monarch Seals according to skill level<div class="skill-extra"><span class="skill-note">Duration is very short</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
+          <td><p>Quickly summons multiple Seals at the same time, with a shorter duration and faster cast.</p><p>Increases atk by 1 per Seal.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Judge Quiver<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Reduces the amount of SP that is consumed when using skills.</p></td>
+          <td><span class="badge sk-passive">Passive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Seal Extraction<span class="skill-max mono">Lv 10</span></th>
-          <td>Adds 2% per level chance to generate a seal when attacking or being attacked<div class="skill-extra"><span class="skill-note">Seals have a long duration</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Trigger Heart<span class="skill-max mono">Lv 10</span></th>
-          <td>After preparing, infuses bullets and shoots all remaining seals at an enemy<div class="skill-extra"><span class="skill-note">Deals extra hits according to seals remaining, very high SP cost</span><span class="chip chip--sm mono">DEX</span></div></td>
-          <td><span class="badge sk-other">Ranged</span></td>
+          <td><p>Use the power of royalty on yourself to enable extraction of Seals from enemies with every attack dealt or received, generating seals for use.</p><p>Activated by normal attacks and skills.</p><p>Can generate up to 5 seals maximum.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Vault<span class="skill-max mono">Lv 5</span></th>
-          <td>Quickly dashes out of the way, lower cooldown with each level<div class="skill-extra"><span class="skill-note">Increases the damage of Death Sentence, Scathe and Trigger Heart on follow-up</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
+          <td><p>Moves to the targeted location if there are no obstacles.</p><p>Boosts specific skills used right after</p><p>Increases damage of the following skills:</p><p>Death Sentence, Scathe, Trigger Heart, Increase is 3% per AGI</p><p>Consumes 1 Seal when used.</p><div class="skill-extra"><span class="chip chip--sm">Ground</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Death Sentence<span class="skill-max mono">Lv 10</span></th>
-          <td>Deals area damage around self<div class="skill-extra"><span class="skill-note">Damage is increased when used after Vault and requires seals</span><span class="chip chip--sm mono">DEX</span></div></td>
-          <td><span class="badge sk-other">AoE around caster</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Revelation<span class="skill-max mono">Lv 1</span></th>
-          <td>Summons a revealing light that orbits around the caster for a short moment<div class="skill-extra"><span class="skill-note">reveals any hiding enemies around the caster for a short duration</span></div></td>
-          <td><span class="badge sk-other">AoE around caster</span></td>
+          <th scope="row">Scathe<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Requires 3 Bullets to use.</p><p>Infuses seals on shots to pierce defense and deal heavy damage to an enemy after a short cast.</p><p>Requires 3 Seals to use.</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Heavy Shot<span class="skill-max mono">Lv 10</span></th>
-          <td>Shoots an enemy with a very powerful attack<div class="skill-extra"><span class="skill-note">Decreased accuracy the further the enemy is</span><span class="chip chip--sm mono">STR</span></div></td>
-          <td><span class="badge sk-other">Ranged</span></td>
+          <td><p>Shoots a special bullet at the target from afar to deal damage.</p><p>The revolver is innacurate at longer distances as revolvers have a shorter range.</p><p>Hit rate decreases by 5 per cell.</p><p>Doesn't Require Bullets to use</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Scathe<span class="skill-max mono">Lv 10</span></th>
-          <td>Shoots an enemy instantly with a lacerating wound<div class="skill-extra"><span class="skill-note">Chance to cause bleeding status according to level and requires seals</span><span class="chip chip--sm mono">VIT</span></div></td>
-          <td><span class="badge sk-other">Ranged</span></td>
+          <th scope="row">Trigger Heart<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Jumps over the enemy and rains down damage directly on them</p><p>Requires massive SP amounts</p><p>Requires no bullets at all levels</p><p>Skill shoots the seals themselves</p><p>Maximum of 5 hits.</p><p>Walk Delay increases with level</p><p>Damage can be critical</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Death Sentence<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Requires 5 Bullets to use.</p><p>Deals damage to all targets within 7x7 cells.</p><p>Requires 1 Seal to use.</p><div class="skill-extra"><span class="chip chip--sm">AoE on Self</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Violent Shot<span class="skill-max mono">Lv 10</span></th>
-          <td>Instantly shoots an enemy and knocks it back<div class="skill-extra"><span class="skill-note">Knockback power is 1 cell per level and requires seals</span><span class="chip chip--sm mono">VIT</span></div></td>
-          <td><span class="badge sk-other">Ranged</span></td>
+          <td><p>Requires 2 Bullets to use. shoots both revolvers precisely to push back.</p><p>Requires 2 Seals to cast.</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Dragonic Dive<span class="skill-max mono">Lv 10</span></th>
-          <td>Shoots to the skies and brings down dragons to smash on the targets for heavy damage<div class="skill-extra"><span class="skill-note">Area of effect is massive and consumes 10 seals and most max SP</span><span class="chip chip--sm mono">INT |}</span></div></td>
-          <td><span class="badge sk-other">Ranged</span></td>
+          <th scope="row">Dragonic Dive<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Launches Seals to the sky to fall and deal damage against all enemies around a target</p><p>Damage greatly reduced without Aurum Crucis</p><p>Requires 10 Seals.</p><p>Requires 5 Bullets</p><p>Ignores enemy defenses</p><div class="skill-extra"><span class="chip chip--sm">Massive AoE</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Judge Soul<span class="skill-max mono">Lv 1</span></th>
+          <td><p>Skill Cannot be learned.</p><p>Judges wield handcrafted revolvers and the power of royalty for combat.</p><p>Judges require preparation with Seals.</p><p>For a high burst phase of damage.</p><p>Multiple skills improve in power with a higher job level.</p><p>Enables Combo Ready when swapping guns</p><p>Main Stats: DEX and AGI or VIT</p><p>Available Weapons: Revolvers</p><p>Revolvers massively boost SP Regen</p><p>Weapons can be crafted on the Castle Area.</p></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
             </tbody>
           </table>
         </div>
       </section>
-    <p class="source-note">Descriptions and the skill list are transcribed from the community wiki for the world the Refuge inherited. Where the Refuge changed something, it is called out above.</p>
+    <p class="source-note">Skill names and descriptions are read straight out of the server's own skill windows, so they say exactly what a player sees in game. Where the Refuge changed something, it is called out above.</p>
     <nav class="pill-row" aria-label="Other expert jobs">
       <span class="dim">More expert jobs:</span> <a class="pill" href="peacekeeper.html">Peacekeeper</a><a class="pill" href="illusionist.html">Illusionist</a><a class="pill" href="dark-knight.html">Dark Knight</a>
       <a class="pill pill--strong" href="../classes.html">Full tree</a>
@@ -379,7 +385,7 @@
         <h4 data-i18n="foot.col2">Reference</h4>
         <ul>
         <li><a href="../changes.html" data-i18n="foot.changes">Changes from the original</a></li>
-        <li><a href="../database.html" data-i18n="foot.database">Community database</a></li>
+        <li><a href="../database.html" data-i18n="foot.database">Items and monsters</a></li>
         <li><a href="../guides.html" data-i18n="foot.guides">Player-written guides</a></li>
         <li><a href="../llms.txt" data-i18n="foot.llms">llms.txt</a></li>
         <li><a href="../sitemap.xml" data-i18n="foot.sitemap">Sitemap</a></li>

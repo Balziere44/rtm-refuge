@@ -133,7 +133,8 @@ def build_llms():
         "## Elsewhere",
         "",
         "- [Community chat server](%s): where every announcement lands first." % C.DISCORD,
-        "- [Community database](%s): items, skills, monsters and maps. Work in progress." % C.DATABASE,
+        "- [Database](%s/database.html): every item and monster with the description the game shows, filterable, with drops resolving in both "
+        "directions." % C.SITE,
         "",
         "## Notes for machines",
         "",

@@ -36,8 +36,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="../assets/css/style.css">
-<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
 
 <script>
 /* The only blocking script on the site. It has to run before the first paint
@@ -188,8 +188,9 @@
       <section class="section--tight" id="skills">
         <div class="section-head">
           <h2 data-i18n="ui.skills">Skills</h2>
-          <p>5 entries, as documented for the world the Refuge inherited.
-             Exact numbers are deliberately not listed - they move with balance passes.</p>
+          <p>What each one does, in the words the game itself uses.
+             Numbers are deliberately left out - they move with every balance
+             pass, and a page that quotes them goes stale the day one lands.</p>
         </div>
         <div class="cluster" style="margin-bottom:1rem">
           <label class="visually-hidden" for="sk">Filter skills</label>
@@ -203,35 +204,40 @@
             <thead><tr><th scope="col">Skill</th><th scope="col">What it does</th><th scope="col">Type</th></tr></thead>
             <tbody>
         <tr data-row>
-          <th scope="row">Sniper Nest<span class="skill-max mono">Lv 10</span></th>
-          <td>Greatly reduces movement speed and flee to increase attack and attack speed.<div class="skill-extra"><span class="skill-note">Requires 3 coins to use. Has a long cast time.</span><span class="chip chip--sm mono">INT</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Headshot<span class="skill-max mono">Lv 5</span></th>
-          <td>Takes time to prepare the perfect arrow with high DEX scaling.<div class="skill-extra"><span class="skill-note">Deals 90% less damage without Sniper Nest.</span><span class="chip chip--sm mono">DEX</span></div></td>
-          <td><span class="badge sk-other">Offensive Ranged</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Cluster Arrow<span class="skill-max mono">Lv 10</span></th>
-          <td>Hits all enemies around a minor area around a target.<div class="skill-extra"><span class="skill-note">Has bonus critical chance. Damage split between all targets.</span><span class="chip chip--sm mono">LUK</span></div></td>
-          <td><span class="badge sk-other">Offensive Ranged AoE</span></td>
+          <th scope="row">Sniper Nest<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Temporarily increases</p><p>Attack Speed and damage at the cost of reducing FLEE rate and Movement Speed.</p><p>Sniper Nest status is canceled when this skill is recasted.</p><p>Requires a Bow.</p><p>Requires 3 Coins to use</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Aimed Bolt<span class="skill-max mono">Lv 10</span></th>
-          <td>Quickly shoots a perfect arrow against a target.<div class="skill-extra"><span class="skill-note">Has minimal delay after use. High SP consumption. Knocks the target back a significant distance.</span><span class="chip chip--sm mono">AGI</span></div></td>
-          <td><span class="badge sk-other">Offensive Ranged</span></td>
+          <td><p>Requires 3 Arrows to use.</p><p>Prepares and shoots quickly against an enemy</p><p>Knocksback 7 cells</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Cluster Arrow<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Prepares and shoots quickly against an enemy with great precision.</p><p>Activates Finisher Ready for 5s if combo ready</p><p>Requires 4 arrows to use</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Headshot<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Perfectly aims a strong arrow to the enemy.</p><p>Skill has 12 cells of range</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Ready to Rip<span class="skill-max mono">Lv 5</span></th>
-          <td>Enables Endure and increases HIT and ATK while decreasing defense.<div class="skill-extra"><span class="skill-note">Cooldown is 2 minutes, Duration is 50 seconds.</span><span class="chip chip--sm mono">No |}</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
+          <td><p>When active, this skill endows the caster with the Endure effect and increased ATK and HIT, but will also temporarily reduces caster's Defense.</p><p>50s duration and 2 minutes cooldown.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Specialization of Tracking<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Skill Cannot be learned.</p><p>Deadeyes are Rogues who focus on deadly precision and attacks.</p><p>Can slow down to line up perfect attacks.</p><p>Can prepare a precise arrow shot for targets.</p><p>Can attack quickly and surprise enemies from afar.</p><p>Available Weapons: Daggers, Swords, Bows</p><p>Maximum job level is increased from 50 to 70.</p></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
             </tbody>
           </table>
         </div>
       </section>
-    <p class="source-note">Descriptions and the skill list are transcribed from the community wiki for the world the Refuge inherited. Where the Refuge changed something, it is called out above.</p>
+    <p class="source-note">Skill names and descriptions are read straight out of the server's own skill windows, so they say exactly what a player sees in game. Where the Refuge changed something, it is called out above.</p>
     <nav class="pill-row" aria-label="Other specialisations">
       <span class="dim">More specialisations:</span> <a class="pill" href="blade-dancer.html">Blade Dancer</a><a class="pill" href="shinobi.html">Shinobi</a><a class="pill" href="executioner.html">Executioner</a><a class="pill" href="scoundrel.html">Scoundrel</a><a class="pill" href="mystic.html">Mystic</a><a class="pill" href="duelist.html">Duelist</a>
       <a class="pill pill--strong" href="../classes.html">Full tree</a>
@@ -283,7 +289,7 @@
         <h4 data-i18n="foot.col2">Reference</h4>
         <ul>
         <li><a href="../changes.html" data-i18n="foot.changes">Changes from the original</a></li>
-        <li><a href="../database.html" data-i18n="foot.database">Community database</a></li>
+        <li><a href="../database.html" data-i18n="foot.database">Items and monsters</a></li>
         <li><a href="../guides.html" data-i18n="foot.guides">Player-written guides</a></li>
         <li><a href="../llms.txt" data-i18n="foot.llms">llms.txt</a></li>
         <li><a href="../sitemap.xml" data-i18n="foot.sitemap">Sitemap</a></li>

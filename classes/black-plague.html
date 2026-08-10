@@ -36,8 +36,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="../assets/css/style.css">
-<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
 
 <script>
 /* The only blocking script on the site. It has to run before the first paint
@@ -219,8 +219,9 @@
       <section class="section--tight" id="skills">
         <div class="section-head">
           <h2 data-i18n="ui.skills">Skills</h2>
-          <p>14 entries, as documented for the world the Refuge inherited.
-             Exact numbers are deliberately not listed - they move with balance passes.</p>
+          <p>What each one does, in the words the game itself uses.
+             Numbers are deliberately left out - they move with every balance
+             pass, and a page that quotes them goes stale the day one lands.</p>
         </div>
         <div class="cluster" style="margin-bottom:1rem">
           <label class="visually-hidden" for="sk">Filter skills</label>
@@ -234,80 +235,90 @@
             <thead><tr><th scope="col">Skill</th><th scope="col">What it does</th><th scope="col">Type</th></tr></thead>
             <tbody>
         <tr data-row>
-          <th scope="row">Adv. Axe Mastery<span class="skill-max mono">Lv 5</span></th>
-          <td>Increases Axe damage<div class="skill-extra"><span class="skill-note">Also increases hit rate</span><span class="chip chip--sm mono">No</span></div></td>
+          <th scope="row">Advanced Venom Mastery<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Enables creation of Toxins and mastery over poison element.</p><p>Allows creation of Toxins using Toxin Kit</p><p>Increases Enchant Deadly Poison duration by 3 seconds per level</p></td>
           <td><span class="badge sk-passive">Passive</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Warring State<span class="skill-max mono">Lv 5</span></th>
-          <td>Increases attack scaling of whole party<div class="skill-extra"><span class="skill-note">Has a very long cast time and high cost</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Party-Support</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Horror Scream<span class="skill-max mono">Lv 5</span></th>
-          <td>Screams and breaks concentration of enemies around, adding cast time to skills<div class="skill-extra"><span class="skill-note">Success chance improves with level, also reduces SP(players) and INT</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-support">AoE Debuff</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Spiral Blade<span class="skill-max mono">Lv 10</span></th>
-          <td>Deals heavy repeatable damage with the Axe to an enemy, consuming HP<div class="skill-extra"><span class="skill-note">Has a small chance to stun target</span><span class="chip chip--sm mono">VIT</span></div></td>
-          <td><span class="badge sk-physical">Physical Melee</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Rupture Axe<span class="skill-max mono">Lv 10</span></th>
-          <td>Smashes the ground and causes lava to erupt, dealing damage over an area<div class="skill-extra"><span class="skill-note">Eruption damage is fixed, can cause burning and stun</span><span class="chip chip--sm mono">VIT</span></div></td>
-          <td><span class="badge sk-physical">Ground Physical Special</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Mjolnir Fall<span class="skill-max mono">Lv 10</span></th>
-          <td>Consumes a large amount of HP to deal damage over a massive area<div class="skill-extra"><span class="skill-note">Has high scaling potential and AoE coverage</span><span class="chip chip--sm mono">VIT</span></div></td>
-          <td><span class="badge sk-other">AoE Special Ranged</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Adv. Venom Mastery<span class="skill-max mono">Lv 10</span></th>
-          <td>Allows creation of different toxins, materials can be bought in the Black Market<div class="skill-extra"><span class="skill-note">Also increases EDP duration by 60s per level</span><span class="chip chip--sm mono">No</span></div></td>
+          <th scope="row">Advanced Axe Mastery<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Increases Axe class weapon damage and hit rate.</p></td>
           <td><span class="badge sk-passive">Passive</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Toxin Creation<span class="skill-max mono">Lv 1</span></th>
-          <td>Creates a toxin by using materials on inventory, amount and chance increases based on Job Level<div class="skill-extra"><span class="skill-note">Instruction Books and Poison Kits are not consumed</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Self-Crafting</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Advanced Detoxify<span class="skill-max mono">Lv 1</span></th>
-          <td>Removes any poison-related debuffs on a target<div class="skill-extra"><span class="skill-note">Requires an Antidote, either crafted or from Black Market</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Party-Support</span></td>
+          <td><p>Removes Toxins effect on 1 target.</p><p>Consumes 1 Antidote.</p><div class="skill-extra"><span class="chip chip--sm">1 Character</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Toxin Creation<span class="skill-max mono">Lv 1</span></th>
+          <td><p>Creates new toxins from the list showing available options according to the level of Advanced</p><p>Venom Mastery and the materials you have.</p><p>Every Toxin has an effect for self.</p><p>Toxins are heavy to carry around.</p><p>Toxin materials are very light.</p><p>To learn about toxin effects, they can be bought ready to use from the Black Market.</p><div class="skill-extra"><span class="chip chip--sm">Caster</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Disease Coating<span class="skill-max mono">Lv 10</span></th>
-          <td>Applies a toxin to the weapon, applying the buffs to cast and debuffs to targets<div class="skill-extra"><span class="skill-note">Debuff applying chance and duration increases per level</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-support">Self-Support/Debuff</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Pandemic<span class="skill-max mono">Lv 5</span></th>
-          <td>Spreads the toxin in a smoke over a small area, does not consume the applied toxin<div class="skill-extra"><span class="skill-note">50% chance to apply the toxin effect to targets every 2 seconds</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-support">Ground Debuff</span></td>
+          <td><p>Endows the caster's weapon with strong crafted Toxins.</p><p>During the effect, the caster's melee physical damage is raised and grants various effects depending on the endowed toxin.</p><div class="skill-extra"><span class="chip chip--sm">Caster</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Plague Impress<span class="skill-max mono">Lv 10</span></th>
-          <td>Forcefully applies toxin to target while dispelling weapon toxin<div class="skill-extra"><span class="skill-note">High damage and high cooldown, double damage vs poisoned targets</span><span class="chip chip--sm mono">INT</span></div></td>
-          <td><span class="badge sk-support">Ground Debuff</span></td>
+          <td><p>Forces toxin from weapon against enemy. After casting the skill, the effect of Disease Coating is canceled.</p><p>Damage is doubled on poisoned targets.</p><div class="skill-extra"><span class="chip chip--sm">Enemy</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Rupture Axe<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Causes Lava to erupt from the ground in the area for 5s in a 7x7 area dealing constant damage</p><p>Inflicting Stun and Burning status.</p><p>Eruption damage raised vs enemies under Deadly Poison</p><p>Raised damage is half target vit * EDP level</p><div class="skill-extra"><span class="chip chip--sm">Ground</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Horror Scream<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Howls like mad at any surrounding enemies. Decreases INT and SP of targets in range. Increases skill cast time.</p><div class="skill-extra"><span class="chip chip--sm">Enemies around the caster</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Death Cloud<span class="skill-max mono">Lv 10</span></th>
-          <td>Spreads poison in an area, dealing continuous magic damage and applying Inner Poison debuff<div class="skill-extra"><span class="skill-note">Inner poison increases poison element damage taken by target</span><span class="chip chip--sm mono">INT</span></div></td>
-          <td><span class="badge sk-magic">Ground Magic AoE/Debuff</span></td>
+          <td><p>Creates a poisonous cloud in a 7x7 area, which will continuously deal Poison element damage and cause</p><p>Inner Poison status.</p><p>Inner Poison: Increase poison damage taken</p><p>Damage pulse is every half a second.</p><p>Increases damage enemies (including bosses) take from any source by 25% for a few seconds</p><div class="skill-extra"><span class="chip chip--sm">Ground</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Pandemic<span class="skill-max mono">Lv 5</span></th>
+          <td><p>When Disease Coating is active, spreads a poisonous smoke around 5x5 cells. Enemy in the range have a 50% chance of getting toxins every 2 seconds. Has 5 cells range.</p><div class="skill-extra"><span class="chip chip--sm">AoE on Ground</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Spiral Blade<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Inflicts damage and Stun status to a target by swinging your weapon.</p><p>Can be repeated quickly.</p><div class="skill-extra"><span class="chip chip--sm">Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Warring State<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Increase physical damage dealt by yourself and nearby party members.</p><div class="skill-extra"><span class="chip chip--sm">Party</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Living Dead<span class="skill-max mono">Lv 5</span></th>
-          <td>Infuses body with a unique poison that deals constant damage to nearby enemies<div class="skill-extra"><span class="skill-note">Consumes a poison bottle, high cooldown</span><span class="chip chip--sm mono">VIT</span></div></td>
-          <td><span class="badge sk-other">Self-Support Special</span></td>
+          <td><p>Implants a killer poison to your body, dealing constant damage to nearby targets within 5x5 cells.</p><p>Consumes 1 Poison Bottle.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Mjolnir Fall<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Summon light from Mjolnir and consumes massive vital power to increase power and attack an enemy directly and surrounding enemies.</p><p>Hits a large area around the target.</p><p>Damage doubled if caster is Deadly Poisoned</p><div class="skill-extra"><span class="chip chip--sm">Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Enchant Deadly Poison<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Enchants equipped Weapon with an extremely powerful poison that can affect any enemy and can't be resisted.</p><p>Removing weapon cancels the effect</p><p>Deadly Poison:</p><p>Status cannot be resisted</p><p>Affects Boss Monsters</p><p>Activates any poison status bonuses</p><p>Rupture Axe, Spiral Blade and Mjolnir Fall</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Black Plague Soul<span class="skill-max mono">Lv 1</span></th>
+          <td><p>Skill Cannot be learned.</p><p>Black Plagues are resourceful and can fight targets with fear and toxins.</p><p>The Toxic side of skill tree provides creation and use of specialized venoms for combat.</p><p>The Venoms have limited effect on bosses.</p><p>The Fear side of skill tree provide strong attacks and control with a heavy cost</p><p>Available Weapons: Swords, Axes, Katars</p></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
             </tbody>
           </table>
         </div>
       </section>
-    <p class="source-note">Descriptions and the skill list are transcribed from the community wiki for the world the Refuge inherited. Where the Refuge changed something, it is called out above.</p>
+    <p class="source-note">Skill names and descriptions are read straight out of the server's own skill windows, so they say exactly what a player sees in game. Where the Refuge changed something, it is called out above.</p>
     <nav class="pill-row" aria-label="Other final jobs">
       <span class="dim">More final jobs:</span> <a class="pill" href="dracomancer.html">Dracomancer</a><a class="pill" href="revenant.html">Revenant</a><a class="pill" href="legend.html">Legend</a><a class="pill" href="pit-boss.html">Pit Boss</a><a class="pill" href="night-raven.html">Night Raven</a><a class="pill" href="satsujin.html">Satsujin</a>
       <a class="pill pill--strong" href="../classes.html">Full tree</a>
@@ -359,7 +370,7 @@
         <h4 data-i18n="foot.col2">Reference</h4>
         <ul>
         <li><a href="../changes.html" data-i18n="foot.changes">Changes from the original</a></li>
-        <li><a href="../database.html" data-i18n="foot.database">Community database</a></li>
+        <li><a href="../database.html" data-i18n="foot.database">Items and monsters</a></li>
         <li><a href="../guides.html" data-i18n="foot.guides">Player-written guides</a></li>
         <li><a href="../llms.txt" data-i18n="foot.llms">llms.txt</a></li>
         <li><a href="../sitemap.xml" data-i18n="foot.sitemap">Sitemap</a></li>

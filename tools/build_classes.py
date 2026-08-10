@@ -23,11 +23,19 @@ import classes_meta as M
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 WIKI = json.load(open(os.path.join(ROOT, "tools", "data", "wiki.json"), encoding="utf-8"))
 
+# The game's own skill windows, by class slug. This is the authority for every
+# skill name and description; the wiki is only a fallback for the two jobs
+# that are too new to be in it.
+ENCY = json.load(open(os.path.join(ROOT, "tools", "data", "encyclopedia.json"),
+                      encoding="utf-8"))["classes"]
+
 SKILL_TYPE_CLASS = {
     "passive": "sk-passive", "active": "sk-active",
     "physical": "sk-physical", "magic": "sk-magic", "magical": "sk-magic",
     "buff": "sk-support", "party-buff": "sk-support", "self-buff": "sk-support",
+    "support": "sk-support", "supportive": "sk-support",
     "debuff": "sk-debuff", "summon": "sk-summon", "stance": "sk-stance",
+    "toggle": "sk-stance",
 }
 
 
@@ -79,6 +87,40 @@ def wiki_for(meta):
         if sec["paras"] or sec["bullets"]:
             prose.append(sec)
     return prose, skills
+
+
+def type_class(kind):
+    for key, val in SKILL_TYPE_CLASS.items():
+        if key in (kind or "").lower():
+            return val
+    return "sk-other"
+
+
+def game_rows(slug):
+    """The skill table as the game itself writes it.
+
+    Returns (html, count). Empty when the class is not in the encyclopedia,
+    which is only true of the two jobs the Refuge added.
+    """
+    entry = ENCY.get(slug)
+    if not entry or not entry["skills"]:
+        return "", 0
+
+    rows = []
+    for sk in entry["skills"]:
+        lines = [l for l in sk["desc"].split("\n") if l.strip()]
+        desc = "".join("<p>%s</p>" % esc(l) for l in lines)
+        meta = []
+        if sk["target"]:
+            meta.append('<span class="chip chip--sm">%s</span>' % esc(sk["target"]))
+        if sk["needs"]:
+            meta.append('<span class="skill-note">Needs %s</span>' % esc(sk["needs"]))
+        rows.append(f"""        <tr data-row>
+          <th scope="row">{esc(sk['name'])}<span class="skill-max mono">Lv {sk['max']}</span></th>
+          <td>{desc}{('<div class="skill-extra">' + "".join(meta) + '</div>') if meta else ''}</td>
+          <td><span class="badge {type_class(sk['type'])}">{esc(sk['type']) or 'Skill'}</span></td>
+        </tr>""")
+    return "\n".join(rows), len(entry["skills"])
 
 
 def skill_rows(skills):
@@ -147,7 +189,11 @@ def class_page(meta):
     slug = meta["slug"]
     name = name_of(slug)
     prose, skills = wiki_for(meta)
-    rows, _ = skill_rows(skills)
+    rows, n_skills = game_rows(slug)
+    from_game = bool(rows)
+    if not rows:
+        rows, _ = skill_rows(skills)
+        n_skills = len(skills)
     tier = M.TIER_LABEL[meta["tier"]]
 
     facts = [(t_('ui.tier', 'Tier'), tier)]
@@ -191,8 +237,9 @@ def class_page(meta):
         skills_block = f"""      <section class="section--tight" id="skills">
         <div class="section-head">
           <h2 data-i18n="ui.skills">Skills</h2>
-          <p>{len(skills)} entries, as documented for the world the Refuge inherited.
-             Exact numbers are deliberately not listed - they move with balance passes.</p>
+          <p>What each one does, in the words the game itself uses.
+             Numbers are deliberately left out - they move with every balance
+             pass, and a page that quotes them goes stale the day one lands.</p>
         </div>
         <div class="cluster" style="margin-bottom:1rem">
           <label class="visually-hidden" for="sk">Filter skills</label>
@@ -211,13 +258,17 @@ def class_page(meta):
         </div>
       </section>"""
 
-    if meta.get("page") is None:
+    if from_game:
+        source_note = ("Skill names and descriptions are read straight out of "
+                       "the server's own skill windows, so they say exactly "
+                       "what a player sees in game. Where the Refuge changed "
+                       "something, it is called out above.")
+    elif meta.get("page") is None:
         source_note = ("This job is new in the Refuge, so there is no inherited "
                        "documentation for it. Everything here comes from the "
                        "designer's own posts.")
     else:
-        source_note = ("Descriptions and the skill list are transcribed from the "
-                       "community wiki for the world the Refuge inherited. Where "
+        source_note = ("This job's skills are still being transcribed. Where "
                        "the Refuge changed something, it is called out above.")
 
     siblings = [c for c in M.CLASSES if c["tier"] == meta["tier"] and c["slug"] != slug][:6]

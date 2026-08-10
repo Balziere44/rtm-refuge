@@ -36,8 +36,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="../assets/css/style.css">
-<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
 
 <script>
 /* The only blocking script on the site. It has to run before the first paint
@@ -214,8 +214,9 @@
       <section class="section--tight" id="skills">
         <div class="section-head">
           <h2 data-i18n="ui.skills">Skills</h2>
-          <p>10 entries, as documented for the world the Refuge inherited.
-             Exact numbers are deliberately not listed - they move with balance passes.</p>
+          <p>What each one does, in the words the game itself uses.
+             Numbers are deliberately left out - they move with every balance
+             pass, and a page that quotes them goes stale the day one lands.</p>
         </div>
         <div class="cluster" style="margin-bottom:1rem">
           <label class="visually-hidden" for="sk">Filter skills</label>
@@ -229,60 +230,70 @@
             <thead><tr><th scope="col">Skill</th><th scope="col">What it does</th><th scope="col">Type</th></tr></thead>
             <tbody>
         <tr data-row>
-          <th scope="row">Dual Cast<span class="skill-max mono">Lv 10</span></th>
-          <td>10% chance per level to repeat casting of specific skills instantly<div class="skill-extra"><span class="skill-note">Applies to the 8 main natural element spells, short duration and cooldown</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
+          <th scope="row">Regenerate<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Consumes a certain amount of SP to recover HP everytime an enemy attacks with normal physical damage.</p><p>High level healing can quickly drain SP.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Unlimited Power<span class="skill-max mono">Lv 10</span></th>
-          <td>Increases final MATK for a minute<div class="skill-extra"><span class="skill-note">Consumes HP to cast, strong damage increase</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
+          <th scope="row">Arcane Rewind<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Only usable while casting a magic spell. Immediately cancels a spell and grants cast ready for 3 seconds. another action without any delay. The higher the skill level, the lower the SP consumption of the casting skill.</p><p>Canceled skill still costs reduced SP</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Summon Yggdrasil<span class="skill-max mono">Lv 5</span></th>
-          <td>Summons an avatar of Yggdrasil, tree of life, healing and resurrecting anyone immediately near it<div class="skill-extra"><span class="skill-note">Requires a blue gemstone, range is 5x5</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Party-Support</span></td>
+          <td><p>Summons the Tree of Life that rises any KO'ed characters within</p><p>5x5 cell range of the tree, while increasing MaxHP and recovering HP and SP every 3 seconds.</p><p>Requires a Blue Gemstone to cast.</p><p>Healing amount increases every level.</p><div class="skill-extra"><span class="chip chip--sm">AoE for Party use</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Unlimited Power<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Boosts Power for all spells cast for 90 seconds.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Phoenix<span class="skill-max mono">Lv 5</span></th>
-          <td>Instantly revives player if killed.Requires a Shadow Orb.<div class="skill-extra"><span class="skill-note">HP Recovered is 10% per level.</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Comet<span class="skill-max mono">Lv 5</span></th>
-          <td>summons comets from the skies to deal heavy damage on a large AoE and debuff enemies<div class="skill-extra"><span class="skill-note">Debuff reduces elemental resistances by 25%, can be double-cast</span><span class="chip chip--sm mono">INT</span></div></td>
-          <td><span class="badge sk-magic">Magic Large AoE</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Burning Spiral<span class="skill-max mono">Lv 10</span></th>
-          <td>Casts a spiral of fire magic that deals damages to a targeted enemy and surroundings, generating fire domination<div class="skill-extra"><span class="skill-note">Can be cast with autospell, deals extra damage according to fire focus</span><span class="chip chip--sm mono">INT</span></div></td>
-          <td><span class="badge sk-magic">Magic Targeted AoE</span></td>
+          <td><p>Instantly revives self</p><p>If killed for skill duration.</p><p>Cast Time is irreductible 3s</p><p>Requires a Shadow Orb</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Lightning Bolt<span class="skill-max mono">Lv 10</span></th>
-          <td>Casts lightning upon a targeted area, dealing wind magic damage and generating wind domination<div class="skill-extra"><span class="skill-note">Can be cast with autospell, increased area past Lv5, deals extra damage according to wind focus</span><span class="chip chip--sm mono">INT</span></div></td>
-          <td><span class="badge sk-magic">Magic Ground AoE</span></td>
+          <td><p>Summons lightning bolts around a targeted area inflicting Wind elemental magic damage to enemies within the skill's range.</p><p>Grants a Wind Domination Mark</p><p>Dominations slowly consumes SP</p><p>Consumes all Focus when Cast</p><div class="skill-extra"><span class="chip chip--sm">AoE of Enemies</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Land Fissure<span class="skill-max mono">Lv 10</span></th>
-          <td>Erupts the earth in an AoE, dealing damage and revealing hidden enemies and generating earth domination<div class="skill-extra"><span class="skill-note">Can be cast with autospell, deals extra damage according to earth focus</span><span class="chip chip--sm mono">INT</span></div></td>
-          <td><span class="badge sk-magic">Magic Ground AoE</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Frozen Crash<span class="skill-max mono">Lv 10</span></th>
-          <td>Summons an ice block from the sky around the caster dealing water magic damage and generating water domination<div class="skill-extra"><span class="skill-note">Chance to freeze enemies hit, deals extra damage according to water focus</span><span class="chip chip--sm mono">INT</span></div></td>
-          <td><span class="badge sk-magic">Magic Around Self AoE</span></td>
+          <th scope="row">Burning Spiral<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Summons a flaming spiral that will inflict 3 hits of Fire elemental damage on all enemies in a 5x5 cell area around the targeted enemy by this skill.</p><p>Grants a Fire Domination Mark</p><p>Dominations slowly consumes SP</p><p>Consumes all Focus when Cast</p><div class="skill-extra"><span class="chip chip--sm">Enemy and AoE</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Tetragrammaton<span class="skill-max mono">Lv 10</span></th>
-          <td>Consumes 4 Domination Orbs to deal damage according to the element of each orb, 4 hits in total<div class="skill-extra"><span class="skill-note">Orbs are obtained according to other spells used, low chance to cause negative status</span><span class="chip chip--sm mono">INT |}</span></div></td>
-          <td><span class="badge sk-other">Targeted AoE</span></td>
+          <td><p>Summons 4 elements as a small storm, to deal 4 hits of magic damage.</p><p>The damage is based on the current Dominations</p><p>That are summoned around the caster, in any</p><p>Mix and variation, each hit has its own element and a slight chance to cause a negative status.</p><p>Fire - Burning chance.</p><p>Water - Freezing chance.</p><p>Wind - Stun chance.</p><p>Earth - Bleeding chance.</p><p>Elements can be mixed in any order.</p><p>Requires at least 4 Dominations around.</p><div class="skill-extra"><span class="chip chip--sm">AoE of Enemies</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Land Fissure<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Commands the ground in a targeted area to rise into spikes in order to deal Earth elemental magic damage to enemies within a 5x5 area. If there is a target hidden in the ground within that range, it also deals damage to that target and reveals it.</p><p>Grants a Earth Domination Mark</p><p>Dominations slowly consumes SP</p><p>Consumes all Focus when Cast</p><div class="skill-extra"><span class="chip chip--sm">Ground AoE</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Comet<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Summons destructive comets to attack all targets within</p><p>13x13 AoE that has chance of inflicting</p><p>Weapon-Based elemental damage and Magical Intoxication status, which decreases the resistances against all elemental attacks by 20% for 30 seconds.</p><div class="skill-extra"><span class="chip chip--sm">Massive AoE</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Frozen Crash<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Summons a meteor of ice that will damage enemies with Water elemental magic damage in a 7x7 cell area around the caster and can inflict Freezing status..</p><p>Grants a Water Domination Mark</p><p>Dominations slowly consumes SP</p><p>Consumes all Focus when Cast</p><div class="skill-extra"><span class="chip chip--sm">AoE Around Self</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Arcane Master Soul<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Skill Cannot be learned.</p><p>Arcane Masters can use 4 elements in combination with multi-casting.</p><p>The Elements center of skill tree has access to multiple elemental spells.</p><p>The Spellslinger area of skill tree has access to multiple casting and spell use resources.</p><p>Can combinate elements in different ways to destroy enemies.</p><p>Can increase their power against specific elements of enemies.</p><p>Available Weapons: Daggers, Swords</p></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
             </tbody>
           </table>
         </div>
       </section>
-    <p class="source-note">Descriptions and the skill list are transcribed from the community wiki for the world the Refuge inherited. Where the Refuge changed something, it is called out above.</p>
+    <p class="source-note">Skill names and descriptions are read straight out of the server's own skill windows, so they say exactly what a player sees in game. Where the Refuge changed something, it is called out above.</p>
     <nav class="pill-row" aria-label="Other final jobs">
       <span class="dim">More final jobs:</span> <a class="pill" href="dracomancer.html">Dracomancer</a><a class="pill" href="revenant.html">Revenant</a><a class="pill" href="legend.html">Legend</a><a class="pill" href="pit-boss.html">Pit Boss</a><a class="pill" href="night-raven.html">Night Raven</a><a class="pill" href="satsujin.html">Satsujin</a>
       <a class="pill pill--strong" href="../classes.html">Full tree</a>
@@ -334,7 +345,7 @@
         <h4 data-i18n="foot.col2">Reference</h4>
         <ul>
         <li><a href="../changes.html" data-i18n="foot.changes">Changes from the original</a></li>
-        <li><a href="../database.html" data-i18n="foot.database">Community database</a></li>
+        <li><a href="../database.html" data-i18n="foot.database">Items and monsters</a></li>
         <li><a href="../guides.html" data-i18n="foot.guides">Player-written guides</a></li>
         <li><a href="../llms.txt" data-i18n="foot.llms">llms.txt</a></li>
         <li><a href="../sitemap.xml" data-i18n="foot.sitemap">Sitemap</a></li>

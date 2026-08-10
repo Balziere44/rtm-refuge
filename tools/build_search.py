@@ -24,6 +24,8 @@ import data as D
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 WIKI = json.load(open(os.path.join(ROOT, "tools", "data", "wiki.json"), encoding="utf-8"))
+ENCY = json.load(open(os.path.join(ROOT, "tools", "data", "encyclopedia.json"),
+                      encoding="utf-8"))["classes"]
 
 GROUPS = ["page", "class", "section", "skill", "dungeon"]
 G = {name: i for i, name in enumerate(GROUPS)}
@@ -74,8 +76,19 @@ def main():
             M.TIER_LABEL[meta["tier"]])
 
     # 4. Every skill, pointing at the class page that documents it. A skill
-    #    name is the single most likely thing somebody types into this box.
+    #    name is the single most likely thing somebody types into this box,
+    #    so this has to index the names the pages actually print - the game's
+    #    own - and fall back to the wiki only where the pages do.
     for meta in M.CLASSES:
+        slug = meta["slug"]
+        entry = ENCY.get(slug)
+        if entry and entry["skills"]:
+            for sk in entry["skills"]:
+                add(sk["name"], sk["desc"].split("\n")[0],
+                    "classes/%s.html#skills" % slug, "skill",
+                    M.NAMES.get(slug, "") + " " + (sk.get("type") or ""))
+            continue
+
         page = meta.get("page")
         if not page or page not in WIKI:
             continue
@@ -85,8 +98,8 @@ def main():
                 continue
             for sk in sec["skills"]:
                 add(sk["name"], sk["desc"],
-                    "classes/%s.html#skills" % meta["slug"], "skill",
-                    M.NAMES.get(meta["slug"], "") + " " + (sk.get("type") or ""))
+                    "classes/%s.html#skills" % slug, "skill",
+                    M.NAMES.get(slug, "") + " " + (sk.get("type") or ""))
 
     # 5. Every dungeon.
     for name, lv, rank, where in D.DUNGEONS:

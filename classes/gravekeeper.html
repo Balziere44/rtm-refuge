@@ -36,8 +36,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="../assets/css/style.css">
-<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
 
 <script>
 /* The only blocking script on the site. It has to run before the first paint
@@ -214,8 +214,9 @@
       <section class="section--tight" id="skills">
         <div class="section-head">
           <h2 data-i18n="ui.skills">Skills</h2>
-          <p>15 entries, as documented for the world the Refuge inherited.
-             Exact numbers are deliberately not listed - they move with balance passes.</p>
+          <p>What each one does, in the words the game itself uses.
+             Numbers are deliberately left out - they move with every balance
+             pass, and a page that quotes them goes stale the day one lands.</p>
         </div>
         <div class="cluster" style="margin-bottom:1rem">
           <label class="visually-hidden" for="sk">Filter skills</label>
@@ -229,85 +230,90 @@
             <thead><tr><th scope="col">Skill</th><th scope="col">What it does</th><th scope="col">Type</th></tr></thead>
             <tbody>
         <tr data-row>
-          <th scope="row">Adv. Katar Mastery<span class="skill-max mono">Lv 5</span></th>
-          <td>Increases Katar damage<div class="skill-extra"><span class="skill-note">Damage bonus is %-based, making it a strong modifier</span><span class="chip chip--sm mono">No</span></div></td>
+          <th scope="row">Loki's Veil<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Negates damage variation and always deal max damage.</p><p>Drains SP while active.</p><p>This skill can be canceled by casting it once again.</p><p>Increases the power of multiple skills when active:</p><p>Cross Impact, Guard Breaker, Fissure Tooth</p><p>Desolated Burial, Cursed Coffin</p><p>Mass Grave</p><div class="skill-extra"><span class="chip chip--sm">Caster</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Advanced Katar Mastery<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Enhances attack power with Katar class weapon.</p></td>
           <td><span class="badge sk-passive">Passive</span></td>
         </tr>
         <tr data-row>
+          <th scope="row">Loki's Fury<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Instantly uses Loki's influence to go into Fury and enables Executor Skills.</p><p>Also boosts ASPD slightly.</p><p>Slowly drains HP while active.</p><p>Does not stack/refresh with Fury</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
           <th scope="row">Ancient Power<span class="skill-max mono">Lv 5</span></th>
-          <td>Increases attack power of the entire party for a short duration<div class="skill-extra"><span class="skill-note">High SP cost</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Party-Support</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Loki's Fury<span class="skill-max mono">Lv 5</span></th>
-          <td>Increases HP/SP and enables Fury status for a long duration<div class="skill-extra"><span class="skill-note">High SP cost</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Loki's Veil<span class="skill-max mono">Lv 5</span></th>
-          <td>Halts SP regeneration to always deal max damage with no variation<div class="skill-extra"><span class="skill-note">Higher levels decrease upkeep cost</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
+          <td><p>Boosts the attack power of yourself and nearby party members for 180 seconds.</p><div class="skill-extra"><span class="chip chip--sm">Caster and Party Members</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Loki's Mark<span class="skill-max mono">Lv 1</span></th>
-          <td>Marks an enemy with Loki's Curse, applying Lex Aeterna to them<div class="skill-extra"><span class="skill-note">Lex Aeterna doubles the damage taken on the next attack</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-support">Debuff</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Tombstone Curse<span class="skill-max mono">Lv 10</span></th>
-          <td>Petrify an enemy rendering them defenseless<div class="skill-extra"><span class="skill-note">Higher levels increase effect duration and decrease resistance</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Crowd-Control</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Exale Rage<span class="skill-max mono">Lv 5</span></th>
-          <td>Deals quick damage to all enemies around caster<div class="skill-extra"><span class="skill-note">Requires Fury status.</span><span class="chip chip--sm mono">DEX</span></div></td>
-          <td><span class="badge sk-other">Ranged AoE</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Quagmire<span class="skill-max mono">Lv 5</span></th>
-          <td>Destroys terrain in a small area, decreasing enemy speed, DEX and AGI<div class="skill-extra"><span class="skill-note">Has a short duration</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-support">Ground Debuff</span></td>
+          <td><p>Summons Lex Aeterna against an enemy and doubles damage of the next attack that hits it.</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Fissure Tooth<span class="skill-max mono">Lv 5</span></th>
-          <td>Erupts earth spikes over a large area, dealing damage to all targets<div class="skill-extra"><span class="skill-note">Has a small chance of applying bleeding status</span><span class="chip chip--sm mono">DEX</span></div></td>
-          <td><span class="badge sk-physical">Physical AoE Ranged</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Guard Breaker<span class="skill-max mono">Lv 10</span></th>
-          <td>Attacks an enemy with a drilling attack dealing heavy damage.<div class="skill-extra"><span class="skill-note">Has a skill level based chance to remove any defensive/shield buffs from enemy.</span><span class="chip chip--sm mono">VIT</span></div></td>
-          <td><span class="badge sk-physical">Physical Melee</span></td>
+          <td><p>Transforms the ground into</p><p>Blades, damaging with a chance of Bleeding to targets in its range.</p><div class="skill-extra"><span class="chip chip--sm">Ground</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Cross Impact<span class="skill-max mono">Lv 5</span></th>
-          <td>Quickly strikes an enemy multiple times attempting critical damage<div class="skill-extra"><span class="skill-note">Very short cooldown with high repeat rate. Half critical chance</span><span class="chip chip--sm mono">AGI</span></div></td>
-          <td><span class="badge sk-physical">Physical Melee</span></td>
+          <td><p>Quickly approaches one target and inflicts 7 fast hits, which also can inflict critical damage based on half of the caster's Critical chance.</p><p>Not affected by DMG % Cards.</p><div class="skill-extra"><span class="chip chip--sm">Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Desolated Burial<span class="skill-max mono">Lv 10</span></th>
-          <td>Deals strong damage with a katar to enemies around caster<div class="skill-extra"><span class="skill-note">Can be critical, if chained after Executioner's Omega, damage is massively boosted</span><span class="chip chip--sm mono">LUK</span></div></td>
-          <td><span class="badge sk-physical">Physical Melee AoE</span></td>
+          <td><p>Inflicts massive damage to a target and nearby enemies</p><p>Executor Skills require Fury State.</p><p>Reduced damage to enemies around</p><p>Skill has higher scaling after Omega.</p><p>Cast time is long when used by itself.</p><p>Skill can be critical, Requires Katar.</p><div class="skill-extra"><span class="chip chip--sm">AoE on Self/Target</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Cursed Coffin<span class="skill-max mono">Lv 10</span></th>
-          <td>Deals strong damage with a katar to an enemy, if cast directly, can be ranged<div class="skill-extra"><span class="skill-note">Can be critical, if chained after Executioner's Omega, damage is massively boosted</span><span class="chip chip--sm mono">LUK</span></div></td>
-          <td><span class="badge sk-physical">Physical Melee/Ranged</span></td>
+          <th scope="row">Exale Rage<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Burns rage inside dealing damage to all enemies around.</p><p>Executor Skills require Fury State.</p><p>Ignores flee</p><div class="skill-extra"><span class="chip chip--sm">AoE on Self</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Tombstone Curse<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Inflicts Stone Curse to a target, improving damage taken and immobilizing.</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Open Graveyard<span class="skill-max mono">Lv 1</span></th>
-          <td>Strikes the ground to reveal hidden enemies around<div class="skill-extra"><span class="skill-note">Deals heavy damage to any revealed enemies</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">AoE Support on Self</span></td>
+          <td><p>attacks all hidden enemies within a 7x7 range for high damage. revealing them.</p><div class="skill-extra"><span class="chip chip--sm">Enemies around the caster</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Cursed Coffin<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Inflicts masssive damage to a target close or far.</p><p>Executor Skills require Fury State.</p><p>Skill has higher scaling after Omega.</p><p>Skill is ranged when used by itself.</p><p>Skill is not boosted by ranged modifiers</p><p>Cast time is long when used by itself.</p><p>SP cost is higher when used by itself.</p><p>Skill can be critical, Requires Katar.</p><div class="skill-extra"><span class="chip chip--sm">Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Quagmire<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Temporarily converts targeted area into marshland that will reduce the Movement Speed, AGI and DEX of all targets by half. AGI and DEX can be reduced by a maximum of 50.</p><div class="skill-extra"><span class="chip chip--sm">Ground</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Guard Breaker<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Pierces and drills an enemy to inflict high damage and nullify defensive buff skills cast on the target and can deal critical damage</p><div class="skill-extra"><span class="chip chip--sm">Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Mass Grave<span class="skill-max mono">Lv 10</span></th>
-          <td>Summons a powerful wave of land to hit enemies in a large path.<div class="skill-extra"><span class="skill-note">Skill will redirect itself randomly if it finds any terrain obstacles</span><span class="chip chip--sm mono">STR |}</span></div></td>
-          <td><span class="badge sk-physical">Physical Special</span></td>
+          <td><p>Buries enemies and inflicts Earth elemental damage to all enemies within skill range.</p><p>Skill damage is physical.</p><div class="skill-extra"><span class="chip chip--sm">Ground</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Gravekeeper Soul<span class="skill-max mono">Lv 1</span></th>
+          <td><p>Skill Cannot be learned.</p><p>Gravekeepers can use critical skills and burst to kill enemies quickly.</p><p>The Weapon side of skill tree has extra combos and situational attacks choices</p><p>The Grave side of skill tree has multiple control, buff and debuff choices to improve fighting efficiency.</p><p>Available Weapons: Daggers, Swords, Katars</p></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
             </tbody>
           </table>
         </div>
       </section>
-    <p class="source-note">Descriptions and the skill list are transcribed from the community wiki for the world the Refuge inherited. Where the Refuge changed something, it is called out above.</p>
+    <p class="source-note">Skill names and descriptions are read straight out of the server's own skill windows, so they say exactly what a player sees in game. Where the Refuge changed something, it is called out above.</p>
     <nav class="pill-row" aria-label="Other final jobs">
       <span class="dim">More final jobs:</span> <a class="pill" href="dracomancer.html">Dracomancer</a><a class="pill" href="revenant.html">Revenant</a><a class="pill" href="legend.html">Legend</a><a class="pill" href="pit-boss.html">Pit Boss</a><a class="pill" href="night-raven.html">Night Raven</a><a class="pill" href="satsujin.html">Satsujin</a>
       <a class="pill pill--strong" href="../classes.html">Full tree</a>
@@ -359,7 +365,7 @@
         <h4 data-i18n="foot.col2">Reference</h4>
         <ul>
         <li><a href="../changes.html" data-i18n="foot.changes">Changes from the original</a></li>
-        <li><a href="../database.html" data-i18n="foot.database">Community database</a></li>
+        <li><a href="../database.html" data-i18n="foot.database">Items and monsters</a></li>
         <li><a href="../guides.html" data-i18n="foot.guides">Player-written guides</a></li>
         <li><a href="../llms.txt" data-i18n="foot.llms">llms.txt</a></li>
         <li><a href="../sitemap.xml" data-i18n="foot.sitemap">Sitemap</a></li>

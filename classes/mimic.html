@@ -36,8 +36,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="../assets/css/style.css">
-<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
 
 <script>
 /* The only blocking script on the site. It has to run before the first paint
@@ -168,7 +168,7 @@
     <div class="cluster" style="margin-top:1.4rem">
       <a class="btn btn--primary" href="https://discord.gg/a5P3PFNMhn" rel="noopener" data-i18n="cta.join">Join the community server</a>
       <a class="btn btn--ghost" href="../classes.html">Full class tree</a>
-      
+      <a class="btn btn--ghost" href="#skills">Skills</a>
     </div>
   </div>
 </section>
@@ -219,8 +219,69 @@
       <p>Cantrip Books always teach max level skills, while being hit is limited by the skill cast level. Regardless of this, It can never exceed Plagiarism's learned level.</p>
       <p>At the end of the day, the core feature of a Mimic is being a job that allows plenty of fun options, while breaking the usual limitations of the game.</p>
     </div>
-
-    <p class="source-note">Descriptions and the skill list are transcribed from the community wiki for the world the Refuge inherited. Where the Refuge changed something, it is called out above.</p>
+      <section class="section--tight" id="skills">
+        <div class="section-head">
+          <h2 data-i18n="ui.skills">Skills</h2>
+          <p>What each one does, in the words the game itself uses.
+             Numbers are deliberately left out - they move with every balance
+             pass, and a page that quotes them goes stale the day one lands.</p>
+        </div>
+        <div class="cluster" style="margin-bottom:1rem">
+          <label class="visually-hidden" for="sk">Filter skills</label>
+          <input id="sk" type="search" class="field" placeholder="Filter skills..." data-i18n-attr="placeholder:ui.filterSkills"
+                 data-filter="skilltable" data-filter-count="skcount">
+          <span class="chip mono" id="skcount">-</span>
+        </div>
+        <div class="table-wrap">
+          <table id="skilltable">
+            <caption class="visually-hidden">Mimic skills</caption>
+            <thead><tr><th scope="col">Skill</th><th scope="col">What it does</th><th scope="col">Type</th></tr></thead>
+            <tbody>
+        <tr data-row>
+          <th scope="row">Abracadabra<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Cast a random skill.</p><p>Different skill levels greatly boosts the chance that a specific skill type is cast.</p><p>Skills cast are always max level</p><p>And ignore any requirements</p><div class="skill-extra"><span class="chip chip--sm">Undefined</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Memorize<span class="skill-max mono">Lv 1</span></th>
+          <td><p>Prevents the automatic copying of skills through the Plagiarism skill for 3 minutes in order to preserve the last skill copied through Plagiarism.</p><div class="skill-extra"><span class="chip chip--sm">Caster</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Plagiarism<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Enables the use of the last skill that was inflicted by an enemy. This can only be used to remember some character skills, but not skills exclusive to monsters. The skill level affects the level of last skill which was remembered..</p><p>When using Cantrip Books, skill is limited by learned plagiarism level.</p><p>Can only learn natural player skills.</p></td>
+          <td><span class="badge sk-passive">Passive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Tarot Card of Fate<span class="skill-max mono">Lv 4</span></th>
+          <td><p>Cast a randomly chosen effect from one out of 14 Tarot Cards.</p><p>[Fool]: SP Reduced to 0</p><p>[Magician]: Halved MATK</p><p>[High Priestess]: Full Dispell</p><p>[Chariot]: Fixed 3000 Damage</p><p>[Strenght]: Halved ATK</p><p>[Lovers]: Heals 10000</p><p>[Wheel of Fortune]: 2 Random Effects</p><p>[Hanged Man]: Frozen, Petrified or Cursed</p><p>[Temperance]: Confusion</p><p>[Devil]: 666 Damage and Halved ATK/MATK</p><p>[Death]: Coma</p><p>[Tower]: Fixed 10000 Damage</p><p>[Star]:Stun and Silence</p><p>[Sun]:Halved ATK/MATK/DEF/HIT/FLEE</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Mimic Soul<span class="skill-max mono">Lv 1</span></th>
+          <td><p>Skill Cannot be learned.</p><p>Mimics are masters of combat who are completely unpredictable.</p><p>Mimics have 1s added cooldown to all skills</p><p>The Cantrip Codex allows plagiarism of many skills.</p><p>Can ignore any skill's weapon or item requirements.</p><p>Abracadabra is unpredictable but very powerful.</p><p>Available Weapons: Codex</p></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Originality<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Inflicts damage.</p><p>Damage is based on ATK and MATK of the caster</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Cantrip Mastery<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Increases Maximum Cantrip</p><p>Limit possible to be memorized from Cantrip books. Higher tier skills require higher level.</p><p>Better Cantrip Books require higher Mastery.</p></td>
+          <td><span class="badge sk-passive">Passive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Codex Mastery<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Improves skill with a Codex during combat, allowing for better efficiency.</p></td>
+          <td><span class="badge sk-passive">Passive</span></td>
+        </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    <p class="source-note">Skill names and descriptions are read straight out of the server's own skill windows, so they say exactly what a player sees in game. Where the Refuge changed something, it is called out above.</p>
     <nav class="pill-row" aria-label="Other first jobs">
       <span class="dim">More first jobs:</span> <a class="pill" href="thief.html">Thief</a><a class="pill" href="trickster.html">Trickster</a><a class="pill" href="jester.html">Jester</a><a class="pill" href="ronin.html">Ronin</a><a class="pill" href="vagabond.html">Vagabond</a><a class="pill" href="raider.html">Raider</a>
       <a class="pill pill--strong" href="../classes.html">Full tree</a>
@@ -272,7 +333,7 @@
         <h4 data-i18n="foot.col2">Reference</h4>
         <ul>
         <li><a href="../changes.html" data-i18n="foot.changes">Changes from the original</a></li>
-        <li><a href="../database.html" data-i18n="foot.database">Community database</a></li>
+        <li><a href="../database.html" data-i18n="foot.database">Items and monsters</a></li>
         <li><a href="../guides.html" data-i18n="foot.guides">Player-written guides</a></li>
         <li><a href="../llms.txt" data-i18n="foot.llms">llms.txt</a></li>
         <li><a href="../sitemap.xml" data-i18n="foot.sitemap">Sitemap</a></li>

@@ -36,6 +36,18 @@ FORBIDDEN = [
     "—",  # em dash: house style uses a plain hyphen or a rewrite
 ]
 
+# Emulator bonus scripts and damage formulas. The site prints what the game
+# shows a player; the arithmetic behind it moves with every balance pass and
+# belongs in the wiki, where it can be corrected the day it changes. These
+# patterns are how it got in last time.
+SCRIPTS = [
+    (r"\bbonus\d?\s+b[A-Z]", "an rAthena bonus script"),
+    (r"getrefine\s*\(\s*\)", "a getrefine() call"),
+    (r"\.@[a-z]\w*", "an rAthena temporary variable"),
+    (r"\bautobonus\d?\b", "an autobonus script"),
+    (r"\bskill\s+\"[A-Z]{2}_", "a raw skill constant"),
+]
+
 problems = []
 
 
@@ -67,6 +79,12 @@ def main():
         for term in FORBIDDEN:
             if term in low:
                 fail(name, "contains forbidden term %r" % term)
+
+        for pattern, what in SCRIPTS:
+            m = re.search(pattern, src)
+            if m:
+                fail(name, "contains %s (%r) - formulas belong in the wiki"
+                     % (what, m.group(0)))
 
         h1 = re.findall(r"<h1[ >]", src)
         if len(h1) != 1:

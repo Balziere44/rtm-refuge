@@ -3,21 +3,36 @@
 
     python tools/build_database.py
 
-Reads tools/data/game.json (produced by extract_gamedata.py from the server's
-own emulator) and writes:
+Reads two sources and prefers the first:
+
+    tools/data/encyclopedia.json   the team's own curated data - the names
+                                   players see, the in-game descriptions, the
+                                   category each item is filed under, and every
+                                   drop with its zone and rate
+    tools/data/game.json           the emulator's tables, used only to fill in
+                                   numbers the encyclopedia does not carry
+                                   (experience, monster attack and defence)
+
+Writes:
 
     assets/data/db-items.json   every item, as column arrays
     assets/data/db-mobs.json    every monster and what it drops
     database.html               the page shell
 
-Rows are arrays, not objects, and repeated strings (type, subtype, slot, job
-list) are indices into small dictionaries. With eleven thousand items the key
-names and the repeated words are most of the file, so this is the difference
-between a payload a phone will download and one it will not.
+Nothing derived from the emulator's `script` column is ever written out. Those
+are rAthena bonus expressions - `bonus2 bSkillAtk,"LG_RAYOFGENESIS",4*(.@r)` -
+and they are reference material for the wiki, not a description. What a player
+reads here is the description the game itself shows them.
+
+Rows are arrays, not objects, and repeated strings (category, slot, zone, job
+list, monster name) are indices into small dictionaries. The key names and the
+repeated words would otherwise be most of the file.
 """
 
+import io
 import json
 import os
+import re
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -26,36 +41,155 @@ import chrome as C
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
+ENCY = os.path.join(HERE, "data", "encyclopedia.json")
 GAME = os.path.join(HERE, "data", "game.json")
 
-# The emulator's internal type names are not what a player calls things.
-TYPE_LABEL = {
-    "Weapon": "Weapon", "Armor": "Armor", "Card": "Card",
-    "Shadowgear": "Shadow gear", "Ammo": "Ammunition",
-    "Usable": "Usable", "Healing": "Usable", "DelayConsume": "Usable",
-    "Delayconsume": "Usable", "Petarmor": "Pet armor", "Etc": "Material",
+# ---------------------------------------------------------------------------
+# categories
+# ---------------------------------------------------------------------------
+
+# The encyclopedia files items under a hundred-odd categories, which is right
+# for a person browsing but far too many to put in a filter list. Every one of
+# them rolls up into one of these, matched on the first pattern that hits, so
+# the coarse filter and the precise label can both be shown.
+GROUPS = [
+    ("Card", (r"^card$",)),
+    ("Shadow gear", (r"shadow",)),
+    ("Costume", (r"costume",)),
+    ("Shield", (r"shield|buckler",)),
+    ("Weapon", (r"sword|dagger|axe|katar|spear|bow|whip|scythe|knuckle|staff|"
+                r"revolver|knife|lance|claw|instrument|musical|weapon|"
+                r"rapier|mace|gun",)),
+    ("Headgear", (r"head",)),
+    ("Armor", (r"armor|armour|garment|shoes|robe|mantle",)),
+    ("Accessory", (r"accessory|pendant|ring|belt",)),
+    # Runes, orbs, decks, codices and cantrips books are all the same kind of
+    # thing from a player's side: the piece of kit a particular class carries
+    # instead of a second weapon.
+    ("Class gear", (r"rune|orb|deck|codex|cantrips|manual|core|book|prowler",)),
+    ("Ammunition", (r"^arrow$|^ammo$|bullet|cannonball",)),
+    ("Usable", (r"healing|restorative|potion|usable|support|taming|container|"
+                r"delayconsume|special",)),
+    ("Material", (r"etc|collectible|valuable|material|quest|key|essential|"
+                  r"forging|refining",)),
+]
+
+# One colour per group, used for the chip on every row. Purely so a list of
+# two thousand names has some shape to it at a glance.
+GROUP_HUE = {
+    "Weapon": "wpn", "Shield": "shd", "Armor": "arm", "Headgear": "hat",
+    "Accessory": "acc", "Card": "crd", "Costume": "cos", "Shadow gear": "sha",
+    "Class gear": "run", "Ammunition": "amm", "Usable": "use",
+    "Material": "mat", "Other": "oth",
 }
 
-SUB_LABEL = {
-    "1hSword": "One-handed sword", "2hSword": "Two-handed sword",
-    "1hSpear": "One-handed spear", "2hSpear": "Two-handed spear",
-    "1hAxe": "One-handed axe", "2hAxe": "Two-handed axe",
-    "Mace": "Mace", "2hMace": "Two-handed mace", "Staff": "Staff",
-    "2hStaff": "Two-handed staff", "Bow": "Bow", "Knuckle": "Knuckle",
-    "Musical": "Instrument", "Whip": "Whip", "Book": "Book",
-    "Katar": "Katar", "Revolver": "Revolver", "Rifle": "Rifle",
-    "Gatling": "Gatling gun", "Shotgun": "Shotgun", "Grenade": "Grenade launcher",
-    "Huuma": "Huuma shuriken", "Dagger": "Dagger", "Shield": "Shield",
-    "Arrow": "Arrow", "Bullet": "Bullet", "Kunai": "Kunai",
-    "Cannonball": "Cannonball", "ThrowWeapon": "Throwing weapon",
-    "Normal": "", "None": "",
+# The same slot is written four ways across the game's own description text -
+# "Mid Headgear", "Middle headgear", "Upper Headgear", "Lower Head". Left
+# alone the filter lists each spelling as its own option.
+SLOT_ALIAS = {
+    "upper head": "Upper headgear", "upper headgear": "Upper headgear",
+    "top headgear": "Upper headgear", "head": "Upper headgear",
+    "mid head": "Middle headgear", "mid headgear": "Middle headgear",
+    "middle head": "Middle headgear", "middle headgear": "Middle headgear",
+    "middle": "Middle headgear",
+    # "Upper, Mid and Lower Headgear" splits into bare words. In a Location
+    # line those only ever mean the headgear rows.
+    "upper": "Upper headgear", "mid": "Middle headgear",
+    "low": "Lower headgear", "lower": "Lower headgear",
+    "acessory": "Accessory",
+    "low head": "Lower headgear", "low headgear": "Lower headgear",
+    "lower head": "Lower headgear", "lower headgear": "Lower headgear",
+    "headgear": "Headgear", "armor": "Armor", "armour": "Armor",
+    "garment": "Garment", "shoes": "Shoes", "shield": "Shield",
+    "accessory": "Accessory", "left accessory": "Accessory",
+    "right accessory": "Accessory", "any slot": "Accessory",
+    "weapon": "Weapon", "two-handed": "Weapon (two-handed)",
+    "two handed": "Weapon (two-handed)", "off-hand": "Off-hand",
+    "offhand": "Off-hand", "ammunition": "Ammunition", "ammo": "Ammunition",
+    "shadow weapon": "Shadow weapon", "shadow armor": "Shadow armor",
+    "shadow shield": "Shadow shield", "shadow shoes": "Shadow shoes",
+    "shadow accessory": "Shadow accessory",
 }
 
+
+def slot_name(raw):
+    key = re.sub(r"\s+", " ", raw.strip().lower())
+    return SLOT_ALIAS.get(key, raw.strip()[:1].upper() + raw.strip()[1:])
+
+
+def group_of(category):
+    low = (category or "").lower()
+    for name, patterns in GROUPS:
+        for pattern in patterns:
+            if re.search(pattern, low):
+                return name
+    return "Other"
+
+
+# ---------------------------------------------------------------------------
+# descriptions
+# ---------------------------------------------------------------------------
+
+# Lines the game uses as a stat header or footer rather than as prose. They are
+# lifted out into their own fields so the description left over is only the
+# part worth reading, and so the same number is not printed twice on one card.
+LIFTED = {
+    "type": None,
+    "weight": "weight",
+    "required level": "lv",
+    "level required": "lv",
+    "location": "slot",
+    "position": "slot",
+    "defense": "def",
+    "magicdef": "mdef",
+    "attack": "atk",
+    "magicatk": "matk",
+    "attack range": "range",
+    "weapon level": "wlv",
+}
+
+RULE = re.compile(r"^[_\-=~.\s]+$")
+FIELD = re.compile(r"^([A-Za-z][A-Za-z ]*?)\s*:\s*(.*)$")
+
+
+def to_int(text):
+    """`045` and `+22%` and `Lv 3` all have a number in them somewhere."""
+    m = re.search(r"-?\d+", str(text))
+    return int(m.group(0)) if m else 0
+
+
+def read_description(text):
+    """Split an in-game description into stat fields and readable prose."""
+    fields, body = {}, []
+    for line in (text or "").split("\n"):
+        line = line.replace("\t", " ").strip()
+        if not line or RULE.match(line):
+            # A row of underscores is the game's separator. Keep it as a blank
+            # so the paragraph breaks survive, but never as a run of glyphs.
+            if body and body[-1] != "":
+                body.append("")
+            continue
+        m = FIELD.match(line)
+        if m and m.group(1).lower() in LIFTED and m.group(2).strip():
+            key = LIFTED[m.group(1).lower()]
+            if key and key not in fields:
+                fields[key] = m.group(2).strip()
+            continue
+        body.append(line)
+
+    while body and body[-1] == "":
+        body.pop()
+    return fields, "\n".join(body).strip()
+
+
+# ---------------------------------------------------------------------------
+# plumbing
+# ---------------------------------------------------------------------------
 
 def write(rel, text, quiet=False):
     path = os.path.join(ROOT, rel)
     os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, "w", encoding="utf-8", newline="\n") as fh:
+    with io.open(path, "w", encoding="utf-8", newline="\n") as fh:
         fh.write(text)
     if not quiet:
         print("  wrote %s - %d kb" % (rel, os.path.getsize(path) // 1024))
@@ -75,93 +209,152 @@ class Dict:
         return self.index[value]
 
 
+def dumps(payload):
+    return json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + "\n"
+
+
+# ---------------------------------------------------------------------------
+# the payloads
+# ---------------------------------------------------------------------------
+
 def build_payload():
-    game = json.load(open(GAME, encoding="utf-8"))
-    items, mobs = game["items"], game["mobs"]
+    ency = json.load(io.open(ENCY, encoding="utf-8"))
+    game = json.load(io.open(GAME, encoding="utf-8"))
 
-    types, subs, locs, jobs = Dict(), Dict(), Dict(), Dict()
+    by_name = {}
+    for row in game["items"]:
+        by_name.setdefault(row["name"], row)
+    mob_stats = {}
+    for row in game["mobs"]:
+        mob_stats.setdefault(row["name"], row)
 
-    # item id -> [[mob index, rate], ...]. Built first so the item rows can
-    # carry a "is this obtainable from a monster" flag for free.
-    drops_by_item = {}
-    for mi, mob in enumerate(mobs):
-        for drop in mob["drops"]:
-            if drop["id"]:
-                drops_by_item.setdefault(drop["id"], []).append(
-                    [mi, drop["rate"], 1 if drop["mvp"] else 0])
-
+    # ---- items ----
+    cats, groups, slots, jobs, zones, mobnames = (
+        Dict(), Dict(), Dict(), Dict(), Dict(), Dict())
+    item_ids = {}
     rows = []
-    for it in items:
-        label = TYPE_LABEL.get(it["type"], it["type"])
-        sub = SUB_LABEL.get(it["sub"], it["sub"] or "")
+
+    for n, it in enumerate(ency["items"]):
+        fields, desc = read_description(it["description"])
+        stat = by_name.get(it["name"], {})
+
+        # The emulator's id is what a staff member would look up, so use it
+        # when the item is in both. The forty-odd items added since that
+        # snapshot get a synthetic id, which only ever has to be stable enough
+        # to put in a link.
+        item_id = stat.get("id") or (900000 + n)
+        item_ids[it["name"]] = item_id
+
+        raw_slots = [s for s in re.split(r"[,/]| and ", fields.get("slot", ""))
+                     if s.strip()] or list(stat.get("loc") or [])
+        slot_names = []
+        for raw in raw_slots:
+            name = slot_name(raw)
+            if name and name not in slot_names:
+                slot_names.append(name)
+
+        sources = []
+        for src in it["sources"]:
+            sources.append([
+                src["id"] or 0,
+                mobnames.id(src["name"]),
+                src["level"],
+                zones.id(src["zone"] or "Unknown"),
+                src["pct"],
+                1 if src["mvp"] else 0,
+            ])
+        sources.sort(key=lambda s: -s[4])
+
         rows.append([
-            it["id"],
+            item_id,
             it["name"],
-            types.id(label),
-            subs.id(sub),
-            it["slots"],
-            it["atk"],
-            it["matk"],
-            it["def"],
-            it["lv"],
-            it["weight"],
-            1 if it["refine"] else 0,
-            [locs.id(x) for x in it["loc"]],
-            jobs.id(", ".join(it["jobs"]) if it["jobs"] else ""),
-            # Scripts are the single biggest thing in the payload. The long
-            # ones are combo text that repeats the same lines; 320 characters
-            # keeps every ordinary bonus list whole.
-            it["script"][:320],
-            len(drops_by_item.get(it["id"], [])),
+            cats.id(it["category"] or "Other"),
+            groups.id(group_of(it["category"])),
+            [slots.id(s) for s in slot_names],
+            to_int(fields.get("lv") or stat.get("lv") or 0),
+            to_int(fields.get("weight") or 0) or (stat.get("weight") or 0) // 10,
+            to_int(fields.get("atk") or stat.get("atk") or 0),
+            to_int(fields.get("matk") or stat.get("matk") or 0),
+            to_int(fields.get("def") or stat.get("def") or 0),
+            to_int(fields.get("mdef") or 0),
+            stat.get("slots") or 0,
+            1 if stat.get("refine") else 0,
+            jobs.id(", ".join(stat.get("jobs") or [])),
+            desc,
+            sources,
+            # The zones the item drops in, flattened, so "show me everything
+            # that drops in Payon" is one column read rather than a walk of
+            # every source on every row.
+            sorted({s[3] for s in sources}),
         ])
 
-    payload = {
-        "cols": ["id", "name", "type", "sub", "slots", "atk", "matk", "def",
-                 "lv", "weight", "refine", "loc", "jobs", "fx", "drops"],
-        "types": types.values,
-        "subs": subs.values,
-        "locs": locs.values,
-        "jobs": jobs.values,
+    write("assets/data/db-items.json", dumps({
+        "cols": ["id", "name", "cat", "grp", "loc", "lv", "weight", "atk",
+                 "matk", "def", "mdef", "slots", "refine", "jobs", "desc",
+                 "src", "zones"],
+        "cats": cats.values, "grps": groups.values, "locs": slots.values,
+        "jobs": jobs.values, "zones": zones.values, "mobs": mobnames.values,
+        "hues": [GROUP_HUE.get(g, "oth") for g in groups.values],
         "rows": rows,
-    }
-    write("assets/data/db-items.json",
-          json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + "\n")
+    }))
 
-    races, elements, sizes = Dict(), Dict(), Dict()
+    # ---- monsters ----
+    races, elements, sizes, mzones, maps, itemnames = (
+        Dict(), Dict(), Dict(), Dict(), Dict(), Dict())
     mrows = []
-    for mob in mobs:
+    for mob in ency["mobs"]:
+        stat = mob_stats.get(mob["name"], {})
         mrows.append([
-            mob["id"], mob["name"], mob["lv"], mob["hp"],
-            mob["atk"], mob["def"], mob["mdef"], mob["exp"], mob["jexp"],
-            sizes.id(mob["size"]), races.id(mob["race"]),
-            elements.id(mob["element"]), mob["elv"],
-            1 if mob["mvp"] else (2 if mob["boss"] else 0),
-            [[d["id"], d["rate"], 1 if d["mvp"] else 0] for d in mob["drops"]],
+            mob["id"],
+            mob["name"],
+            mob["level"],
+            mob["hp"],
+            sizes.id(mob["size"] or "Unknown"),
+            races.id(mob["race"] or "Unknown"),
+            elements.id(mob["element"] or "Unknown"),
+            mob["element_level"],
+            1 if mob["mvp"] else 0,
+            mzones.id(mob["zone"] or "Unknown"),
+            [maps.id(m) for m in mob["maps"]],
+            mob["card_effect"],
+            mob["card_slot"],
+            stat.get("exp") or 0,
+            stat.get("jexp") or 0,
+            stat.get("atk") or 0,
+            stat.get("def") or 0,
+            stat.get("mdef") or 0,
+            [[itemnames.id(d["name"]), d["pct"], item_ids.get(d["name"], 0)]
+             for d in mob["drops"]],
         ])
 
-    write("assets/data/db-mobs.json", json.dumps({
-        "cols": ["id", "name", "lv", "hp", "atk", "def", "mdef", "exp", "jexp",
-                 "size", "race", "element", "elv", "rank", "drops"],
-        "sizes": sizes.values, "races": races.values, "elements": elements.values,
+    write("assets/data/db-mobs.json", dumps({
+        "cols": ["id", "name", "lv", "hp", "size", "race", "element", "elv",
+                 "mvp", "zone", "maps", "card", "cslot", "exp", "jexp", "atk",
+                 "def", "mdef", "drops"],
+        "sizes": sizes.values, "races": races.values,
+        "elements": elements.values, "zones": mzones.values,
+        "maps": maps.values, "items": itemnames.values,
         "rows": mrows,
-    }, ensure_ascii=False, separators=(",", ":")) + "\n")
+    }))
 
-    return len(rows), len(mrows), sum(len(m["drops"]) for m in mobs)
+    return (len(rows), len(mrows),
+            sum(len(m["drops"]) for m in ency["mobs"]),
+            len(mzones.values))
 
 
 # ---------------------------------------------------------------------------
 # the page
 # ---------------------------------------------------------------------------
 
-def build_page(n_items, n_mobs, n_drops):
+def build_page(n_items, n_mobs, n_drops, n_zones):
     trail = [("index.html", "Home"), (None, "Database")]
-    body = f"""<section class="page-hero page-hero--tight">
+    body = """<section class="page-hero page-hero--tight">
   <div class="shell">
-    {C.breadcrumbs("", trail)}
+    %s
     <h1 data-i18n="db.h1">Database</h1>
     <p class="lede" data-i18n="db.lede">
-      Every item and every monster, straight out of the server's own files.
-      Filter it, sort it, and follow a drop in either direction.
+      Every item and every monster, with the description the game itself shows
+      you. Filter it, search it, and follow a drop in either direction.
     </p>
   </div>
 </section>
@@ -212,36 +405,32 @@ def build_page(n_items, n_mobs, n_drops):
 <section class="section section--tight">
   <div class="shell">
     <div class="panel">
-      <p>
-        <strong>These are the original world's numbers.</strong> They are read
-        directly from the server files the project inherited, which makes them
-        the most accurate reference that exists today - and it also means the
-        Refuge's rebalance passes are not in them yet. Where a page on this
-        site says something different, that page wins.
-        <a href="changes.html">See what changed</a>.
+      <p data-i18n="db.note">
+        <strong>This is the live game data.</strong> Names, descriptions and
+        drop rates come straight from the server the team is building on, so
+        they are the most accurate reference that exists. Balance passes land
+        here as they land in game. Where a page on this site says something
+        different, that page wins.
+        <a href="changes.html" data-i18n="db.note.link">See what changed</a>.
       </p>
     </div>
   </div>
 </section>
-"""
+""" % C.breadcrumbs("", trail)
 
     out = C.head("", "Database | Return to Morroc: Refuge",
-                 "Searchable database of %s items and %s monsters with %s drops - "
-                 "filter by type, slot, level, job, race and element."
-                 % (f"{n_items:,}", f"{n_mobs:,}", f"{n_drops:,}"),
+                 "Search %s items and %s monsters across %s zones - filter by "
+                 "category, slot, level, job, race, element and where it drops."
+                 % (f"{n_items:,}", f"{n_mobs:,}", n_zones),
                  "database.html", extra_ld=C.crumb_ld(trail))
     out = out.replace("</head>",
                       '<script>window.RTMR_DB = {items: %d, mobs: %d, drops: %d};</script>\n</head>'
                       % (n_items, n_mobs, n_drops))
     out += C.header("", "database.html")
     out += '<main id="main">\n' + body + "\n</main>\n"
-    out = out.replace('<script src="assets/js/i18n.js" defer></script>',
-                      '<script src="assets/js/database.js" defer></script>\n'
-                      '<script src="assets/js/i18n.js" defer></script>')
     out += C.footer("")
-    # The footer is appended after the head replacement, so wire the script in
-    # here instead - it has to come before i18n.js so its markup exists when
-    # the translation snapshot is taken.
+    # database.js has to run before i18n.js so the markup it owns exists when
+    # the English snapshot is taken.
     out = out.replace('<script src="assets/js/main.js" defer></script>',
                       '<script src="assets/js/main.js" defer></script>\n'
                       '<script src="assets/js/database.js" defer></script>')
@@ -252,4 +441,4 @@ if __name__ == "__main__":
     print("building database")
     counts = build_payload()
     build_page(*counts)
-    print("  %d items, %d monsters, %d drop entries" % counts)
+    print("  %d items, %d monsters, %d drop entries, %d zones" % counts)

@@ -36,8 +36,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="../assets/css/style.css">
-<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
 
 <script>
 /* The only blocking script on the site. It has to run before the first paint
@@ -230,8 +230,9 @@
       <section class="section--tight" id="skills">
         <div class="section-head">
           <h2 data-i18n="ui.skills">Skills</h2>
-          <p>10 entries, as documented for the world the Refuge inherited.
-             Exact numbers are deliberately not listed - they move with balance passes.</p>
+          <p>What each one does, in the words the game itself uses.
+             Numbers are deliberately left out - they move with every balance
+             pass, and a page that quotes them goes stale the day one lands.</p>
         </div>
         <div class="cluster" style="margin-bottom:1rem">
           <label class="visually-hidden" for="sk">Filter skills</label>
@@ -246,59 +247,69 @@
             <tbody>
         <tr data-row>
           <th scope="row">Chain Mastery<span class="skill-max mono">Lv 10</span></th>
-          <td>Increases Damage with Whips and max SP</td>
-          <td><span class="badge sk-other">Pasive</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Trinket Mastery<span class="skill-max mono">Lv 10</span></th>
-          <td>Increases Trinket base damage and Movement speed.<div class="skill-extra"><span class="skill-note">Also Increases ATK vs Boss monsters</span></div></td>
-          <td><span class="badge sk-other">Pasive</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Conviction<span class="skill-max mono">Lv 10</span></th>
-          <td>Quickly slices enemy with whip.<div class="skill-extra"><span class="skill-note">Can trigger on autoattacks. Enters/Changes Combo status.</span><span class="chip chip--sm mono">DEX/Trinket Bonus</span></div></td>
-          <td><span class="badge sk-physical">Physical Melee</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Use Trinket<span class="skill-max mono">Lv 10</span></th>
-          <td>Uses/Breaks Trinkets depending on skill lvl.<div class="skill-extra"><span class="skill-note">Skill lvl 6~10 grants unique effects in turnabout mode</span><span class="chip chip--sm mono">DEX/Trinket Effect</span></div></td>
-          <td><span class="badge sk-physical">Physical Ranged</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Lashing Andromeda<span class="skill-max mono">Lv 10</span></th>
-          <td>Slashes enemy from range using whip<div class="skill-extra"><span class="skill-note">Damage can be critical</span><span class="chip chip--sm mono">DEX/Trinket Effect</span></div></td>
-          <td><span class="badge sk-physical">Physical Ranged</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Eternal Chain<span class="skill-max mono">Lv 10</span></th>
-          <td>Whips enemy in quick succession<div class="skill-extra"><span class="skill-note">Can be used instantly after Conviction</span><span class="chip chip--sm mono">DEX/Trinket Effect</span></div></td>
-          <td><span class="badge sk-physical">Physical Melee</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Wrecking Andromeda<span class="skill-max mono">Lv 10</span></th>
-          <td>Creates Vortex of energy around the caster<div class="skill-extra"><span class="skill-note">Skill ignores flee</span><span class="chip chip--sm mono">DEX/Trinket Effect</span></div></td>
-          <td><span class="badge sk-physical">Physical Melee</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Royal Mastery<span class="skill-max mono">Lv 5</span></th>
-          <td>Increase Whip based skill damage and Neutral element resistance</td>
+          <td><p>Increases Whip class weapon damage and Max SP</p></td>
           <td><span class="badge sk-passive">Passive</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Final Angel<span class="skill-max mono">Lv 5</span></th>
-          <td>Sacrifices Caster hp to ressurect fallen ally</td>
+          <th scope="row">Royal Mastery<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Increases combat efficiency under general conditions.</p></td>
+          <td><span class="badge sk-passive">Passive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Trinket Mastery<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Increases the power of the Trinkets, while improving movement and offense against powerful enemies.</p></td>
+          <td><span class="badge sk-passive">Passive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Conviction<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Quickly slices an enemy. using the whip, dealing flexible amounts of damage.</p><p>Can be manually cast with 1.5s base cooldown</p><p>Whip Combo Starter:</p><p>Whip Combo Follow-up:</p><p>When Combo Ready(from Eternal Chain):</p><p>Enters Turnabout for 3s, boosting all skills</p><p>Turnabout Bonus:</p><p>Deals 5 hits instead of 2, ends Turnabout</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Use Trinket<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Trinkets are unique tools that allow creating new ways to fight.</p><p>Deals damage to 1 enemy</p><p>Deals damage to enemies around self</p><div class="skill-extra"><span class="chip chip--sm">Enemy/AoE around Self</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Assault Mode<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Enters an offensive stance in exchange for defensive power.</p><p>Loses SP when taking damage</p><p>Assault Mode:</p><p>Conviction turns into Dark Element</p><p>Damage dealt has no variation (always max).</p><p>Ignore Weapon Size Penalty</p><p>Ignore Reflected Damage</p></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Wrecking Andromeda<span class="skill-max mono">Lv 10</span></th>
+          <td><p>creates vortices of energy around the caster using the whip.</p><p>Hits all enemies in a 7x7 area</p><p>Skill ignores flee and deals 3 hits</p><p>Whip Combo:</p><p>Turnabout Bonus:</p><p>Deals 5 hits, ends Turnabout Mode</p><div class="skill-extra"><span class="chip chip--sm">AoE on Self</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Eternal Chain<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Creates a flow of hits while attacking chaining quick strikes.</p><p>When Cast Ready:</p><p>Deals 2 hits and activates</p><p>Turnabout Bonus:</p><p>Deals 3 hits, sets Turnabout timer to 7s</p><div class="skill-extra"><span class="chip chip--sm">Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Lashing Andromeda<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Precisely hits the enemy from a distance with a powerful hit.</p><p>Skill can be critical and deals 3 hits</p><p>Whip Combo:</p><p>Turnabout Bonus:</p><p>Deals 5 hits, ends Turnabout Mode</p><div class="skill-extra"><span class="chip chip--sm">Enemy</span></div></td>
           <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Dawn to Dusk<span class="skill-max mono">Lv 10</span></th>
-          <td>Increases resistance against holy and shadow element, while also boosting HP regen</td>
-          <td><span class="badge sk-support">Self-Ally Buff</span></td>
+          <td><p>Temporarily increases ally resistance to Dark and Holy element while boosting natural regeneration.</p><div class="skill-extra"><span class="chip chip--sm">1 Ally</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Final Angel<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Sacrifices your health to revive every party member within the caster's screen.</p><div class="skill-extra"><span class="chip chip--sm">Self and Party</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Peacekeeper Soul<span class="skill-max mono">Lv 1</span></th>
+          <td><p>Peacekeepers bring order and justice no matter what is the cost.</p><p>Conviction allows start and progression of combos.</p><p>Andromeda Skills are powerful finishers for combos.</p><p>Trinkets are special items that provide special bonuses.</p><p>Available Weapons: Whips</p></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
             </tbody>
           </table>
         </div>
       </section>
-    <p class="source-note">Descriptions and the skill list are transcribed from the community wiki for the world the Refuge inherited. Where the Refuge changed something, it is called out above.</p>
+    <p class="source-note">Skill names and descriptions are read straight out of the server's own skill windows, so they say exactly what a player sees in game. Where the Refuge changed something, it is called out above.</p>
     <nav class="pill-row" aria-label="Other expert jobs">
       <span class="dim">More expert jobs:</span> <a class="pill" href="judge.html">Judge</a><a class="pill" href="illusionist.html">Illusionist</a><a class="pill" href="dark-knight.html">Dark Knight</a>
       <a class="pill pill--strong" href="../classes.html">Full tree</a>
@@ -350,7 +361,7 @@
         <h4 data-i18n="foot.col2">Reference</h4>
         <ul>
         <li><a href="../changes.html" data-i18n="foot.changes">Changes from the original</a></li>
-        <li><a href="../database.html" data-i18n="foot.database">Community database</a></li>
+        <li><a href="../database.html" data-i18n="foot.database">Items and monsters</a></li>
         <li><a href="../guides.html" data-i18n="foot.guides">Player-written guides</a></li>
         <li><a href="../llms.txt" data-i18n="foot.llms">llms.txt</a></li>
         <li><a href="../sitemap.xml" data-i18n="foot.sitemap">Sitemap</a></li>

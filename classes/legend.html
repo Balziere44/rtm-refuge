@@ -36,8 +36,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="../assets/css/style.css">
-<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
 
 <script>
 /* The only blocking script on the site. It has to run before the first paint
@@ -200,8 +200,9 @@
       <section class="section--tight" id="skills">
         <div class="section-head">
           <h2 data-i18n="ui.skills">Skills</h2>
-          <p>9 entries, as documented for the world the Refuge inherited.
-             Exact numbers are deliberately not listed - they move with balance passes.</p>
+          <p>What each one does, in the words the game itself uses.
+             Numbers are deliberately left out - they move with every balance
+             pass, and a page that quotes them goes stale the day one lands.</p>
         </div>
         <div class="cluster" style="margin-bottom:1rem">
           <label class="visually-hidden" for="sk">Filter skills</label>
@@ -216,54 +217,59 @@
             <tbody>
         <tr data-row>
           <th scope="row">Advanced Righthand Mastery<span class="skill-max mono">Lv 5</span></th>
-          <td>Restore damage penalty from dual wielding and increases it further at higher levels<div class="skill-extra"><span class="skill-note">Righthand Damage is 55% when dual wielding +10% per level, up to 105%</span><span class="chip chip--sm mono">No</span></div></td>
+          <td><p>Recovers the fading right hand attack when both hands are equipped with a weapon.</p><p>Attack increases more than at level</p><p>5 compared to when using a weapon with one hand.</p></td>
           <td><span class="badge sk-passive">Passive</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Advanced Lefthand Mastery<span class="skill-max mono">Lv 5</span></th>
-          <td>Restore damage penalty from dual wielding and increases it further at higher levels<div class="skill-extra"><span class="skill-note">Lefthand Damage is 55% when dual wielding +10% per level, up to 105%</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-passive">Passive</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Adv. Blade Mastery<span class="skill-max mono">Lv 5</span></th>
-          <td>Increases Attack and hit rate with swords and daggers.<div class="skill-extra"><span class="skill-note">Added as a flat bonus in damage.</span><span class="chip chip--sm mono">No</span></div></td>
+          <th scope="row">Advanced Blade Mastery<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Increases Dagger and Sword class weapon damage and hit rate.</p></td>
           <td><span class="badge sk-passive">Passive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Improve Potion<span class="skill-max mono">Lv 10</span></th>
-          <td>Increases potion healing power by 5% per level<div class="skill-extra"><span class="skill-note">also applies to any potions used with Pitcher skills</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-passive">Passive</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Relentless Daggers<span class="skill-max mono">Lv 10</span></th>
-          <td>Increases attack speed with daggers<div class="skill-extra"><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-passive">Passive</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Final Blade Mastery<span class="skill-max mono">Lv 10</span></th>
-          <td>Increases dagger weapon damage<div class="skill-extra"><span class="skill-note">Increase is larger than usual masteries</span><span class="chip chip--sm mono">No</span></div></td>
+          <td><p>Increases effectiveness of HP Recovery Potion, either consumed or used through skills like -Slim Potion Throw-.</p></td>
           <td><span class="badge sk-passive">Passive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Harness Magic<span class="skill-max mono">Lv 10</span></th>
-          <td>Converts part of the MATK into ATK and part of INT when casting into STR<div class="skill-extra"><span class="skill-note">Change is not applied to status window, high SP cost</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
+          <td><p>Enchants your blades with magic, allowing you to deal additional magic with your physical attacks.</p><p>Damage bonus reduced by enemy MDEF</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Harness Speed<span class="skill-max mono">Lv 10</span></th>
-          <td>Increases ASPD % bonuses even further, also increases Critical and Hit rates<div class="skill-extra"><span class="skill-note">Has little effect without other ASPD % bonuses</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
+          <td><p>Improves your reflexes, making your attacks faster and precise.</p><p>Increases ASPD modifier for duration.</p><p>Increases other ASPD bonuses.</p><p>Skill is removed when equipment is changed.</p><p>Has no ASPD effect with no bonuses.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Advanced Lefthand Mastery<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Recovers the fading left hand attack when both hands are equipped with a weapon.</p></td>
+          <td><span class="badge sk-passive">Passive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Final Blade Mastery<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Increases Dagger class weapon damage by a final amount.</p></td>
+          <td><span class="badge sk-passive">Passive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Relentless Daggers<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Increases Attack Speed with Dual Daggers.</p></td>
+          <td><span class="badge sk-passive">Passive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Safety Wall<span class="skill-max mono">Lv 4</span></th>
-          <td>Block a few short-range physical attacks and skills for a duration according to skill level<div class="skill-extra"><span class="skill-note">High damage skills can break all hits at once</span><span class="chip chip--sm mono">No |}</span></div></td>
-          <td><span class="badge sk-other">Support</span></td>
+          <td><p>Creates a magic barrier on a targeted spot that will block certain number of physical melee attacks and damage.</p><p>The barrier will disappear after a period of time or taking hits.</p><p>A strong hit can break the barrier early.</p><div class="skill-extra"><span class="chip chip--sm">Ground</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Legend Soul<span class="skill-max mono">Lv 1</span></th>
+          <td><p>Skill Cannot be learned.</p><p>Legends are masters of combat who can channel all kinds of power into stronger attacks.</p><p>Legends are very restricted in skills but can break the chains using buffs.</p><p>Legends can convert INT and MATK into. even more raw attack power.</p><p>Can Dual-Wield if prepared.</p><p>Available Weapons: Daggers</p></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
             </tbody>
           </table>
         </div>
       </section>
-    <p class="source-note">Descriptions and the skill list are transcribed from the community wiki for the world the Refuge inherited. Where the Refuge changed something, it is called out above.</p>
+    <p class="source-note">Skill names and descriptions are read straight out of the server's own skill windows, so they say exactly what a player sees in game. Where the Refuge changed something, it is called out above.</p>
     <nav class="pill-row" aria-label="Other final jobs">
       <span class="dim">More final jobs:</span> <a class="pill" href="dracomancer.html">Dracomancer</a><a class="pill" href="revenant.html">Revenant</a><a class="pill" href="pit-boss.html">Pit Boss</a><a class="pill" href="night-raven.html">Night Raven</a><a class="pill" href="satsujin.html">Satsujin</a><a class="pill" href="gravekeeper.html">Gravekeeper</a>
       <a class="pill pill--strong" href="../classes.html">Full tree</a>
@@ -315,7 +321,7 @@
         <h4 data-i18n="foot.col2">Reference</h4>
         <ul>
         <li><a href="../changes.html" data-i18n="foot.changes">Changes from the original</a></li>
-        <li><a href="../database.html" data-i18n="foot.database">Community database</a></li>
+        <li><a href="../database.html" data-i18n="foot.database">Items and monsters</a></li>
         <li><a href="../guides.html" data-i18n="foot.guides">Player-written guides</a></li>
         <li><a href="../llms.txt" data-i18n="foot.llms">llms.txt</a></li>
         <li><a href="../sitemap.xml" data-i18n="foot.sitemap">Sitemap</a></li>

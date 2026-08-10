@@ -36,8 +36,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="../assets/css/style.css">
-<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
 
 <script>
 /* The only blocking script on the site. It has to run before the first paint
@@ -214,8 +214,9 @@
       <section class="section--tight" id="skills">
         <div class="section-head">
           <h2 data-i18n="ui.skills">Skills</h2>
-          <p>10 entries, as documented for the world the Refuge inherited.
-             Exact numbers are deliberately not listed - they move with balance passes.</p>
+          <p>What each one does, in the words the game itself uses.
+             Numbers are deliberately left out - they move with every balance
+             pass, and a page that quotes them goes stale the day one lands.</p>
         </div>
         <div class="cluster" style="margin-bottom:1rem">
           <label class="visually-hidden" for="sk">Filter skills</label>
@@ -229,60 +230,65 @@
             <thead><tr><th scope="col">Skill</th><th scope="col">What it does</th><th scope="col">Type</th></tr></thead>
             <tbody>
         <tr data-row>
-          <th scope="row">Backstab Mastery<span class="skill-max mono">Lv 10</span></th>
-          <td>Increases damage with Backstab per level<div class="skill-extra"><span class="skill-note">Also allows Backstab to generate Combo Ready status, required for multiple skills.</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-passive">Passive</span></td>
-        </tr>
-        <tr data-row>
           <th scope="row">Evasion Mastery<span class="skill-max mono">Lv 10</span></th>
-          <td>Increases multiple evasive bonuses per level.<div class="skill-extra"><span class="skill-note">Increases perfect dodge, flee, dagger attack and Max SP.</span><span class="chip chip--sm mono">No</span></div></td>
+          <td><p>Increases evasiveness and nimbleness for quick combat.</p></td>
           <td><span class="badge sk-passive">Passive</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Shadow Stab<span class="skill-max mono">Lv 10</span></th>
-          <td>Quickly hits an enemy, dealing high damage on a short cooldown<div class="skill-extra"><span class="skill-note">Requires Combo Ready from Backstab for maximum effect</span><span class="chip chip--sm mono">DEX</span></div></td>
-          <td><span class="badge sk-other">Melee</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Whirling Kunai<span class="skill-max mono">Lv 5</span></th>
-          <td>Throws the Rope Kunai around dealing damage according to Evasion Mastery<div class="skill-extra"><span class="skill-note">Requires a Rope Kunai equipped. Damage is split among targets</span><span class="chip chip--sm mono">DEX</span></div></td>
-          <td><span class="badge sk-other">Ranged AoE</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Haze Slasher<span class="skill-max mono">Lv 5</span></th>
-          <td>Quickly strikes an enemy and enters Hiding for a few seconds<div class="skill-extra"><span class="skill-note">While under Macabre effect, won't enter hiding state</span><span class="chip chip--sm mono">AGI/DEX</span></div></td>
-          <td><span class="badge sk-other">Melee</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Camouflage<span class="skill-max mono">Lv 5</span></th>
-          <td>Uses a wall as cover to become invisible, increasing attack over time<div class="skill-extra"><span class="skill-note">Movement speed and attack damage increase when reactivating</span><span class="chip chip--sm mono">AGI</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Macabre<span class="skill-max mono">Lv 5</span></th>
-          <td>Adopts an aggressive stance that improves Attack and DEX scaling on skills<div class="skill-extra"><span class="skill-note">Increasing HP cost per level to use, changes Haze Slasher behavior</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Afterimage<span class="skill-max mono">Lv 5</span></th>
-          <td>Blocks physical attacks and skills in an amount equal skill level<div class="skill-extra"><span class="skill-note">Requires a Shadow Orb. Certain skills ignore the effect.</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Flying Knife<span class="skill-max mono">Lv 5</span></th>
-          <td>Used to throw the Rope Kunai at an enemy, it can pull the enemy close.<div class="skill-extra"><span class="skill-note">Has higher base cooldown due to Rope Kunai than usual.</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Offensive Ranged</span></td>
+          <td><p>Instantly attacks an enemy and vanishes into Hiding.</p><p>Hiding duration increases per level</p><p>Macabre status prevents hiding</p><div class="skill-extra"><span class="chip chip--sm">Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Tunnel Drive<span class="skill-max mono">Lv 5</span></th>
-          <td>Allows walking while under Hiding. Movement speed increases with higher level.<div class="skill-extra"><span class="skill-note">No Changes from original.</span><span class="chip chip--sm mono">No |}</span></div></td>
+          <td><p>Enables Movement while in Hiding status. Movement Speed is slower than normal walk.</p></td>
           <td><span class="badge sk-passive">Passive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Flying Knife<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Throws a Kunai that will strike it's target 2 times. Requires a Kunai or Flying Dagger ammo equipped, but it's not consumed on use. attack's element is affected by the ammo. of Kunai thrown.</p><p>Requires having 1 Kunai Equipped.</p><p>Right Hand Weapon ATK + Ammo ATK is used</p><div class="skill-extra"><span class="chip chip--sm">1 Character</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Backstab Mastery<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Master the potential of the Backstab skill, allowing it to break limits.</p><p>Backstab enables Combo Ready status.</p><p>Combo Ready can improve multiple skills</p></td>
+          <td><span class="badge sk-passive">Passive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Shadowstab<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Quickly stabs an enemy before they can react.</p><p>Deals 3 individual hits, ignoring flee</p><p>Damage reduced when not Combo Ready</p><p>ASPD and After-Cast Delay improve it's speed</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Camouflage<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Hides near obstacles</p><p>And allows sneaking around non-detecting enemies.</p><p>Must be cast near a wall or obstacle.</p><p>Increases atk by 2 per second, up to 20 atk atk bonus is lost after first hit</p><p>Maintenance SP cost decreases per level</p><p>Not affected by Perfect Hiding modifiers</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Afterimage<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Raises evasion to the limit creating afterimages to help avoid any physical damage.</p><p>Requires a Shadow Orb</p><p>Not all skills can be prevented</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Macabre<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Adopts a focused stance that puts enemies under pressure when engaged.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Whirling Kunai<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Throws a Rope Kunai that wraps around enemies to deal damage over an area.</p><p>Requires a Rope Kunai and Dagger equipped.</p><p>Skill always deals 4 distinct hits</p><p>Damage is split among all targets</p><div class="skill-extra"><span class="chip chip--sm">AoE around Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Prowler Soul<span class="skill-max mono">Lv 1</span></th>
+          <td><p>Skill Cannot be learned.</p><p>Prowlers are masters of evasion and quick combat with the use of unique tools and the Armguard.</p><p>Increased use of Backstab in combat with new power.</p><p>Follows-up with Shadowstab for massive damage at high speed.</p><p>Complex positioning of enemies with the Rope Kunai.</p><p>Available Weapons: Daggers, Prowler's Armguard</p></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
             </tbody>
           </table>
         </div>
       </section>
-    <p class="source-note">Descriptions and the skill list are transcribed from the community wiki for the world the Refuge inherited. Where the Refuge changed something, it is called out above.</p>
+    <p class="source-note">Skill names and descriptions are read straight out of the server's own skill windows, so they say exactly what a player sees in game. Where the Refuge changed something, it is called out above.</p>
     <nav class="pill-row" aria-label="Other alternate paths">
       <span class="dim">More alternate paths:</span> <a class="pill" href="merchant.html">Merchant</a><a class="pill" href="shadowseer.html">Shadowseer</a><a class="pill" href="unchained-thief.html">Unchained Thief</a><a class="pill" href="unchained-assassin.html">Unchained Assassin</a><a class="pill" href="unchained-rogue.html">Unchained Rogue</a>
       <a class="pill pill--strong" href="../classes.html">Full tree</a>
@@ -334,7 +340,7 @@
         <h4 data-i18n="foot.col2">Reference</h4>
         <ul>
         <li><a href="../changes.html" data-i18n="foot.changes">Changes from the original</a></li>
-        <li><a href="../database.html" data-i18n="foot.database">Community database</a></li>
+        <li><a href="../database.html" data-i18n="foot.database">Items and monsters</a></li>
         <li><a href="../guides.html" data-i18n="foot.guides">Player-written guides</a></li>
         <li><a href="../llms.txt" data-i18n="foot.llms">llms.txt</a></li>
         <li><a href="../sitemap.xml" data-i18n="foot.sitemap">Sitemap</a></li>

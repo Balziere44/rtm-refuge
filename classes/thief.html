@@ -36,8 +36,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="../assets/css/style.css">
-<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
 
 <script>
 /* The only blocking script on the site. It has to run before the first paint
@@ -197,8 +197,9 @@
       <section class="section--tight" id="skills">
         <div class="section-head">
           <h2 data-i18n="ui.skills">Skills</h2>
-          <p>17 entries, as documented for the world the Refuge inherited.
-             Exact numbers are deliberately not listed - they move with balance passes.</p>
+          <p>What each one does, in the words the game itself uses.
+             Numbers are deliberately left out - they move with every balance
+             pass, and a page that quotes them goes stale the day one lands.</p>
         </div>
         <div class="cluster" style="margin-bottom:1rem">
           <label class="visually-hidden" for="sk">Filter skills</label>
@@ -213,94 +214,99 @@
             <tbody>
         <tr data-row>
           <th scope="row">Improve Dodge<span class="skill-max mono">Lv 10</span></th>
-          <td>Increases flee rate.<div class="skill-extra"><span class="skill-note">+4 Flee per level.</span><span class="chip chip--sm mono">No</span></div></td>
+          <td><p>Increase flee rate</p></td>
+          <td><span class="badge sk-passive">Passive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Back Stab<span class="skill-max mono">Lv 10</span></th>
+          <td><p>teleports the caster behind the enemy to deal damage.</p><p>Requires a Sword or Dagger equipped</p><p>Enemy's back must be unobstructed to use</p><p>Single-Wielding a Dagger:</p><p>AGI bonus is tripled</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Envenom<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Deals Poison elemental damage to a target that has a chance of inflicting Poison status.</p><p>Range is fixed at 5 cells</p><div class="skill-extra"><span class="chip chip--sm">1 Character</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Enchant Poison<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Temporarily coats your equipped weapon with the Poison element. Poison coated weapons have a chance of inflicting the target with the Poison status.</p><p>All physical attacks become poison element</p><div class="skill-extra"><span class="chip chip--sm">1 Character</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Detoxify<span class="skill-max mono">Lv 1</span></th>
+          <td><p>Removes Poison status from a targeted character.</p><div class="skill-extra"><span class="chip chip--sm">1 Character</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Double Strafe<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Requires 2 Arrows to use.</p><p>Shoots an enemy twice.</p><p>Skill activates Combo Ready for follow-up</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Arrow Shower<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Requires 5 Arrows to use.</p><p>Shoots an area and pushes back enemis in it.</p><div class="skill-extra"><span class="chip chip--sm">1Enemy Area</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Improve Defense<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Increase Max HP</p></td>
+          <td><span class="badge sk-passive">Passive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Rolling Cutter<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Inflicts damage to enemies around by spinning very fast</p><p>Your spinning counter is accumulated whenever you spin and it enables and boosts</p><p>Rolling Skills accordingly</p><p>Rolling Counters can stack up to 5</p><p>And are removed on movement</p><p>Requires Katar/Sword/Axe.</p><div class="skill-extra"><span class="chip chip--sm">Enemies Around</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Cross Ripper Slasher<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Requires Rolling Counters from other skills to use.</p><p>Throws a spinning blade at a ranged target</p><p>Requires Katar/Sword/Axe.</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Improve Wisdom<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Increase Max SP</p></td>
           <td><span class="badge sk-passive">Passive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Increase SP Recovery<span class="skill-max mono">Lv 10</span></th>
-          <td>Provides extra SP recovery on top of natural regeneration.<div class="skill-extra"><span class="skill-note">Regens 0.1% + 2 max SP per level.</span><span class="chip chip--sm mono">No</span></div></td>
+          <td><p>Increase SP recovery bonus</p></td>
           <td><span class="badge sk-passive">Passive</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Improve Defense<span class="skill-max mono">Lv 10</span></th>
-          <td>Increases Max HP<div class="skill-extra"><span class="skill-note">HP+50 per level</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-passive">Passive</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Improve Wisdom<span class="skill-max mono">Lv 10</span></th>
-          <td>Increases Max SP<div class="skill-extra"><span class="skill-note">SP+10 per level</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-passive">Passive</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Backstab<span class="skill-max mono">Lv 10</span></th>
-          <td>Teleports behind a target to deal damage.<div class="skill-extra"><span class="skill-note">Deals extra damage with daggers, requires either a sword or dagger</span><span class="chip chip--sm mono">AGI</span></div></td>
-          <td><span class="badge sk-other">Offensive Gap Closer</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Rolling Cutter<span class="skill-max mono">Lv 5</span></th>
-          <td>Spins around dealing damage to all enemies. Grants a Rolling Stack.<div class="skill-extra"><span class="skill-note">Requires a Sword, Axe or Katar.</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Offensive AoE Melee</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Cross Ripper Slasher<span class="skill-max mono">Lv 5</span></th>
-          <td>Throws blades at a distant enemy. Scales with VIT.<div class="skill-extra"><span class="skill-note">Extra damage with Rolling Stacks.</span><span class="chip chip--sm mono">VIT</span></div></td>
-          <td><span class="badge sk-other">Offensive Ranged</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Double Strafe<span class="skill-max mono">Lv 10</span></th>
-          <td>Deals two quick hits against a distant enemy.<div class="skill-extra"><span class="skill-note">Has Cooldown.</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Offensive Ranged</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Arrow Shower<span class="skill-max mono">Lv 10</span></th>
-          <td>Deals area damage to distant enemies.<div class="skill-extra"><span class="skill-note">Knockbacks enemies.</span><span class="chip chip--sm mono">DEX</span></div></td>
-          <td><span class="badge sk-other">Offensive AoE Ranged</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Flaming Petals<span class="skill-max mono">Lv 10</span></th>
-          <td>Deals fire magic damage to 1 enemy. More hits with higher level.<div class="skill-extra"><span class="skill-note">Allowed on Autospell, generates Fire Focus to increase damage.</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-magic">Offensive Magic</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Freezing Spear<span class="skill-max mono">Lv 10</span></th>
-          <td>Deals water magic damage to 1 enemy. More hits with higher level.<div class="skill-extra"><span class="skill-note">Allowed on Autospell, generates Water Focus to increase damage.</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-magic">Offensive Magic</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Wind Blade<span class="skill-max mono">Lv 10</span></th>
-          <td>Deals wind magic damage to 1 enemy. More hits with higher level.<div class="skill-extra"><span class="skill-note">Allowed on Autospell, generates Wind Focus to increase damage.</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-magic">Offensive Magic</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Auto Spell<span class="skill-max mono">Lv 10</span></th>
-          <td>Allows automatic use of magic when attacking an enemy.<div class="skill-extra"><span class="skill-note">Improved chance and spell variety on higher level.</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Self Support</span></td>
+          <td><p>Autocasts certain magic spells by a certain chance while attacking enemies, more skills are available on higher specialized job classes.</p><p>Spells that are auto cast through Auto</p><p>SP and are cast at UP TO half the level of Auto Spell. Autospell chance is 3% per skill level (max 30% at Lv10)</p><p>Skill activates on missed attacks.</p><div class="skill-extra"><span class="chip chip--sm">Caster</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Free Cast<span class="skill-max mono">Lv 1</span></th>
-          <td>Allows walking and attacking while casting at slower speeds.<div class="skill-extra"><span class="skill-note">Higher levels possible with equipment and manual.</span><span class="chip chip--sm mono">No</span></div></td>
+          <th scope="row">Free Cast<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Enables moving and attacking during the casting of magic spells.</p><p>Only Level 1 can be learned by Thief.</p></td>
           <td><span class="badge sk-passive">Passive</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Envenom<span class="skill-max mono">Lv 10</span></th>
-          <td>Deals poison damage to an enemy. Chance to cause poison status.<div class="skill-extra"><span class="skill-note">Flat damage increase per level.</span><span class="chip chip--sm mono">INT</span></div></td>
-          <td><span class="badge sk-other">Offensive Ranged</span></td>
+          <th scope="row">Flaming Petals<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Spell grants elemental focus equal to level cast</p><p>Spell cast can't be interrupted</p><p>Cast Times and SP cost increases per level</p><p>Elemental Focus:</p><p>Half bonus for stacks of different elements</p><p>Lower level spells refresh each stack duration</p><p>Max Fire Focus:</p><p>Endows weapon with fire element</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Enchant Poison<span class="skill-max mono">Lv 10</span></th>
-          <td>Changes weapon element to poison. Chance to cause poison status when attacking.<div class="skill-extra"><span class="skill-note">Chance increases per level.</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Self Offensive Support</span></td>
+          <th scope="row">Freezing Spear<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Spell grants elemental focus equal to level cast</p><p>Spell cast can't be interrupted</p><p>Cast Times and SP cost increases per level</p><p>Elemental Focus:</p><p>Half bonus for stacks of different elements</p><p>Lower level spells refresh each stack duration</p><p>Max Water Focus:</p><p>Endows weapon with water element</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Detoxify<span class="skill-max mono">Lv 1</span></th>
-          <td>Heals poison status from a target.<div class="skill-extra"><span class="skill-note">Can target allies.</span><span class="chip chip--sm mono">No |}</span></div></td>
-          <td><span class="badge sk-other">Support</span></td>
+          <th scope="row">Wind Blade<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Spell grants elemental focus equal to level cast</p><p>Spell cast can't be interrupted</p><p>Cast Times and SP cost increases per level</p><p>Elemental Focus:</p><p>Half bonus for stacks of different elements</p><p>Lower level spells refresh each stack duration</p><p>Max Wind Focus:</p><p>Endows weapon with wind element</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Thief Skills<span class="skill-max mono">Lv 1</span></th>
+          <td><p>Skill Cannot be learned.</p><p>Thieves are resourceful fighters who have massive potential for combat</p><p>Learning all kinds of skills.</p><p>Can fight with daggers with Back Stab</p><p>Can fight with poisons and enchant weapons with it for extra damage vs Neutral.</p><p>Can fight with swords with Rolling Cutter and Cross Ripper Slasher</p><p>Can fight with bows using Double Strafe and Arrow Shower</p><p>Can fight with magic using basic spells, and readying them for auto-casting.</p><p>Available Weapons: Daggers, Swords, Bows</p><p>Can Decide Between Assassins and Rogues.</p></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
             </tbody>
           </table>
         </div>
       </section>
-    <p class="source-note">Descriptions and the skill list are transcribed from the community wiki for the world the Refuge inherited. Where the Refuge changed something, it is called out above.</p>
+    <p class="source-note">Skill names and descriptions are read straight out of the server's own skill windows, so they say exactly what a player sees in game. Where the Refuge changed something, it is called out above.</p>
     <nav class="pill-row" aria-label="Other first jobs">
       <span class="dim">More first jobs:</span> <a class="pill" href="trickster.html">Trickster</a><a class="pill" href="jester.html">Jester</a><a class="pill" href="ronin.html">Ronin</a><a class="pill" href="mimic.html">Mimic</a><a class="pill" href="vagabond.html">Vagabond</a><a class="pill" href="raider.html">Raider</a>
       <a class="pill pill--strong" href="../classes.html">Full tree</a>
@@ -352,7 +358,7 @@
         <h4 data-i18n="foot.col2">Reference</h4>
         <ul>
         <li><a href="../changes.html" data-i18n="foot.changes">Changes from the original</a></li>
-        <li><a href="../database.html" data-i18n="foot.database">Community database</a></li>
+        <li><a href="../database.html" data-i18n="foot.database">Items and monsters</a></li>
         <li><a href="../guides.html" data-i18n="foot.guides">Player-written guides</a></li>
         <li><a href="../llms.txt" data-i18n="foot.llms">llms.txt</a></li>
         <li><a href="../sitemap.xml" data-i18n="foot.sitemap">Sitemap</a></li>

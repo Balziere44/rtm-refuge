@@ -36,8 +36,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="../assets/css/style.css">
-<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
 
 <script>
 /* The only blocking script on the site. It has to run before the first paint
@@ -195,8 +195,9 @@
       <section class="section--tight" id="skills">
         <div class="section-head">
           <h2 data-i18n="ui.skills">Skills</h2>
-          <p>19 entries, as documented for the world the Refuge inherited.
-             Exact numbers are deliberately not listed - they move with balance passes.</p>
+          <p>What each one does, in the words the game itself uses.
+             Numbers are deliberately left out - they move with every balance
+             pass, and a page that quotes them goes stale the day one lands.</p>
         </div>
         <div class="cluster" style="margin-bottom:1rem">
           <label class="visually-hidden" for="sk">Filter skills</label>
@@ -210,105 +211,100 @@
             <thead><tr><th scope="col">Skill</th><th scope="col">What it does</th><th scope="col">Type</th></tr></thead>
             <tbody>
         <tr data-row>
-          <th scope="row">Blade Mastery<span class="skill-max mono">Lv 10</span></th>
-          <td>Increases attack with swords and daggers by 3 per level.<div class="skill-extra"><span class="skill-note">Also increases ASPD by 1% per level.</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-passive">Passive</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Shadow Slash<span class="skill-max mono">Lv 10</span></th>
-          <td>Teleports to an enemy and attemps a critical attack 3 times.<div class="skill-extra"><span class="skill-note">Requires a Dagger or Sword.</span><span class="chip chip--sm mono">LUK</span></div></td>
-          <td><span class="badge sk-other">Offensive</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Fan of Knives<span class="skill-max mono">Lv 5</span></th>
-          <td>Quickly spins throwing daggers around hitting nearby enemies.<div class="skill-extra"><span class="skill-note">Damage is improved by any kunai or flying dagger equipped.</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Offensive AoE</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Hallucination Walk<span class="skill-max mono">Lv 5</span></th>
-          <td>Increases flee by 12 and Magic Dodge by 10% per level for duration.<div class="skill-extra"><span class="skill-note">Requires a Shadow Orb. Duration is 50s, Cooldown is 100s</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Cloaking<span class="skill-max mono">Lv 10</span></th>
-          <td>Become invisible. Does not require a wall to be used at any level.<div class="skill-extra"><span class="skill-note">High cooldown and low SP cost, Increases critical rate.</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Flying Knife<span class="skill-max mono">Lv 5</span></th>
-          <td>Throws an equipped Flying Dagger or Kunai at an enemy.<div class="skill-extra"><span class="skill-note">Element is based on item thrown, item is not spent on use.</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Offensive Ranged</span></td>
+          <th scope="row">Fan of Knives<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Throws Knives to all enemies within a radius around you. Doesn't consume ammo, but damage is increased by different ammo bonuses.</p><p>Damage is completely boosted by raw ATK</p><p>Only Right Hand Weapon ATK + Ammo is used</p><p>Damage increases by agi per learned level of Improve Dodge during Hallucination Walk</p><p>Ignores defense, flee and elements.</p><div class="skill-extra"><span class="chip chip--sm">Caster</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Venom Coat<span class="skill-max mono">Lv 5</span></th>
-          <td>Counters poison attacks with a massive hit. All other elements are countered with Envenom.<div class="skill-extra"><span class="skill-note">Requires a Shadow Orb. Duration is 25+5s per level, Cooldown is 70s</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
+          <td><p>Increases caster's defense to the maximum, countering attacks received.</p><p>Poison attacks get a massive counter damage.</p><p>All other elements are countered by Envenom.</p><p>Doubles Envenom scaling power while active</p><p>Requires a Shadow Orb to Cast</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Fury<span class="skill-max mono">Lv 5</span></th>
-          <td>Enters fury state boosting critical rate by 1 per level. Enables certain Executioner skills.<div class="skill-extra"><span class="skill-note">Requires a Shadow Orb. Duration increases per level, allows constant use at Lv5</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
+          <th scope="row">Cloaking<span class="skill-max mono">Lv 13</span></th>
+          <td><p>Enters Cloaking status, which hide the caster from enemies without disabling movement. At Level 1 to 4, Cloaking will only work when caster is adjacent to a wall. At higher levels, caster can move freely</p><p>Demons, Insects and Bosses are able to detect you.</p><div class="skill-extra"><span class="chip chip--sm">Caster</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Blade Mastery<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Increases Sword and Dagger class weapon damage and attack speed.</p><p>Dual Wield only works if weapons are same type</p><p>Vagabonds cannot wield swords.</p><p>Dark Knights cannot wield daggers.</p></td>
+          <td><span class="badge sk-passive">Passive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Shadow Slash<span class="skill-max mono">Lv 13</span></th>
+          <td><p>Shadow Slash dashes to a target and attempts a critical hit 3 times.</p><p>Only Right Hand Weapon ATK is used</p><p>Requires a Dagger or Sword equipped</p><div class="skill-extra"><span class="chip chip--sm">1 Character</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Shadow Mastery<span class="skill-max mono">Lv 10</span></th>
-          <td>Increases flee by 3 per level.<div class="skill-extra"><span class="skill-note">Also increases ASPD by 1% per level.</span><span class="chip chip--sm mono">No |}</span></div></td>
+          <td><p>Increases flee rate and boosts</p><p>Overall attack speed.</p></td>
           <td><span class="badge sk-passive">Passive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Fury<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Increases caster's power to the maximum, increasing CRIT for the duration and slowing SP regeneration.</p><p>Enables Executioner Class Skills.</p><p>Bonus is doubled with Katars.</p><p>Requires a Shadow Orb to Cast</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Tunnel Drive<span class="skill-max mono">Lv 5</span></th>
-          <td>Allows walking while under Hiding. Movement speed increases with higher level.<div class="skill-extra"><span class="skill-note">No Changes from original.</span><span class="chip chip--sm mono">No</span></div></td>
+          <td><p>Enables Movement while in Hiding status. Movement Speed is slower than normal walk.</p></td>
           <td><span class="badge sk-passive">Passive</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Chase Walk<span class="skill-max mono">Lv 5</span></th>
-          <td>Hides after a short cast and allows walking undetected and can't be revealed.<div class="skill-extra"><span class="skill-note">Leaves footprints when moving. SP Cost is applied every few seconds.</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Sneak Attack<span class="skill-max mono">Lv 5</span></th>
-          <td>Can only be used in hiding status. Appears and deals damage and reduces defenses.<div class="skill-extra"><span class="skill-note">Affects a small area around user. Good Opener.</span><span class="chip chip--sm mono">DEX</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
-        </tr>
-        <tr data-row>
           <th scope="row">Face-Off<span class="skill-max mono">Lv 5</span></th>
-          <td>Smashes into an enemy with great strength, pushing them back.<div class="skill-extra"><span class="skill-note">Deals double damage if enemy is knocked into a wall.</span><span class="chip chip--sm mono">STR</span></div></td>
-          <td><span class="badge sk-other">Offensive Melee</span></td>
+          <td><p>Dashes to an enemy strongly</p><p>Knocking back and dealing double damage if target hits the wall</p><p>Dash range increases per level</p><p>Knockback power increases per level</p><div class="skill-extra"><span class="chip chip--sm">Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Wind Slash<span class="skill-max mono">Lv 10</span></th>
-          <td>Throws a wave of wind from a sword or dagger.<div class="skill-extra"><span class="skill-note">Damage is affected by ranged modifiers.</span><span class="chip chip--sm mono">STR</span></div></td>
-          <td><span class="badge sk-other">Offensive Ranged</span></td>
+          <th scope="row">Hallucination Walk<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Increases caster's speed to the maximum, increases FLEE and certain chance to avoid magic attacks.</p><p>Requires a Shadow Orb to cast</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Chase Walk<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Enters a special Hiding status in which caster can move without being detected by skills. However, the caster will leave footprints and can be damaged by skills that target the ground. Ineffective against Insect, Demon and Boss monsters.</p><p>Skill has a 2s fixed cast time.</p><div class="skill-extra"><span class="chip chip--sm">Caster</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Bow Mastery<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Improves Bow use power with dex bonuses.</p><p>Requires a Bow to take effect</p></td>
+          <td><span class="badge sk-passive">Passive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Arrow Vulcan<span class="skill-max mono">Lv 13</span></th>
+          <td><p>Requires 9 Arrows to use.</p><p>Prepares and shoots many arrows at an enemy</p><div class="skill-extra"><span class="chip chip--sm">Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Gadget Mastery<span class="skill-max mono">Lv 10</span></th>
-          <td>Increases Trap set range and bomb damage power. Also boosts INT and SP.<div class="skill-extra"><span class="skill-note">Trap and bomb skills deal physical or special damage, but have INT scaling.</span><span class="chip chip--sm mono">No</span></div></td>
+          <td><p>Improves all traps and bombs wielded by the user.</p><p>Bombs: Damage bonus per level of this skill</p></td>
           <td><span class="badge sk-passive">Passive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Decoy<span class="skill-max mono">Lv 5</span></th>
-          <td>Creates a clone and becomes invisible, the clone explodes dealing damage.<div class="skill-extra"><span class="skill-note">Dashes back after being used.</span><span class="chip chip--sm mono">INT and LUK</span></div></td>
-          <td><span class="badge sk-other">Offensive AoE</span></td>
+          <td><p>Dashes back and hides while creating a clone that explodes in an area dealing damage to enemies</p><p>Can be detected by insects, demons and bosses</p><div class="skill-extra"><span class="chip chip--sm">Caster</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Bow Mastery<span class="skill-max mono">Lv 10</span></th>
-          <td>Increases DEX per level.<div class="skill-extra"><span class="skill-note">DEX influences most ranged modifiers in the game.</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-passive">Passive</span></td>
+          <th scope="row">Flying Knife<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Throws a Kunai that will strike it's target 2 times. Requires a Kunai or Flying Dagger ammo equipped, but it's not consumed on use. attack's element is affected by the ammo. of Kunai thrown.</p><p>Requires having 1 Kunai Equipped.</p><p>Right Hand Weapon ATK + Ammo ATK is used</p><div class="skill-extra"><span class="chip chip--sm">1 Character</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Arrow Vulcan<span class="skill-max mono">Lv 10</span></th>
-          <td>Throws a long string of arrows at a single enemy.<div class="skill-extra"><span class="skill-note">Deals 50% bonus damage vs enemies under half HP.</span><span class="chip chip--sm mono">DEX and STR</span></div></td>
-          <td><span class="badge sk-other">Offensive</span></td>
+          <th scope="row">Sneak Attack<span class="skill-max mono">Lv 13</span></th>
+          <td><p>Range: 9x9 AoE</p><p>Only usable while in Hiding status and will cancel Hiding once used.</p><p>This attack has a chance of causing Stun and Blind effects on targets within an area of 5x5. A successful hit will cause the enemy to receive more damage for 5 seconds.</p><div class="skill-extra"><span class="chip chip--sm">Enemies around the caster</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Coin Flip<span class="skill-max mono">Lv 5</span></th>
-          <td>Spends 1 zeny to flip a coin. If it lands on heads, 1 coin is added.<div class="skill-extra"><span class="skill-note">Coins add +1 ATK, skills require coins, higher level increases success rate.</span><span class="chip chip--sm mono">None |}</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
+          <th scope="row">Unchained Arts - Thief<span class="skill-max mono">Lv 1</span></th>
+          <td><p>Skill Cannot be learned.</p><p>Thieves breaking chains and forging a new path with no limits.</p><p>Have access to many skills from assassins and rogues.</p><p>Must be specially careful with regular Thief Restrictions.</p><p>Available Weapons: Daggers, Swords, Bows</p></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
             </tbody>
           </table>
         </div>
       </section>
-    <p class="source-note">Descriptions and the skill list are transcribed from the community wiki for the world the Refuge inherited. Where the Refuge changed something, it is called out above.</p>
+    <p class="source-note">Skill names and descriptions are read straight out of the server's own skill windows, so they say exactly what a player sees in game. Where the Refuge changed something, it is called out above.</p>
     <nav class="pill-row" aria-label="Other alternate paths">
       <span class="dim">More alternate paths:</span> <a class="pill" href="merchant.html">Merchant</a><a class="pill" href="prowler.html">Prowler</a><a class="pill" href="shadowseer.html">Shadowseer</a><a class="pill" href="unchained-assassin.html">Unchained Assassin</a><a class="pill" href="unchained-rogue.html">Unchained Rogue</a>
       <a class="pill pill--strong" href="../classes.html">Full tree</a>
@@ -360,7 +356,7 @@
         <h4 data-i18n="foot.col2">Reference</h4>
         <ul>
         <li><a href="../changes.html" data-i18n="foot.changes">Changes from the original</a></li>
-        <li><a href="../database.html" data-i18n="foot.database">Community database</a></li>
+        <li><a href="../database.html" data-i18n="foot.database">Items and monsters</a></li>
         <li><a href="../guides.html" data-i18n="foot.guides">Player-written guides</a></li>
         <li><a href="../llms.txt" data-i18n="foot.llms">llms.txt</a></li>
         <li><a href="../sitemap.xml" data-i18n="foot.sitemap">Sitemap</a></li>

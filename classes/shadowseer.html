@@ -36,8 +36,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="../assets/css/style.css">
-<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
 
 <script>
 /* The only blocking script on the site. It has to run before the first paint
@@ -213,8 +213,9 @@
       <section class="section--tight" id="skills">
         <div class="section-head">
           <h2 data-i18n="ui.skills">Skills</h2>
-          <p>10 entries, as documented for the world the Refuge inherited.
-             Exact numbers are deliberately not listed - they move with balance passes.</p>
+          <p>What each one does, in the words the game itself uses.
+             Numbers are deliberately left out - they move with every balance
+             pass, and a page that quotes them goes stale the day one lands.</p>
         </div>
         <div class="cluster" style="margin-bottom:1rem">
           <label class="visually-hidden" for="sk">Filter skills</label>
@@ -228,60 +229,70 @@
             <thead><tr><th scope="col">Skill</th><th scope="col">What it does</th><th scope="col">Type</th></tr></thead>
             <tbody>
         <tr data-row>
-          <th scope="row">Equinox<span class="skill-max mono">Lv 10</span></th>
-          <td>Deals damage and enables "Cast Ready" status to reduce other spells' cast times<div class="skill-extra"><span class="skill-note">Cast Ready reduces variable cast time by 95% for duration</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-magic">Offensive Magic</span></td>
+          <th scope="row">Astral Weapon<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Generates Spirit Spheres on attack and Increases ASPD and Critical Rate</p><p>ASPD bonus is according to AGI</p><p>Each Sphere increases MATK by 2</p><p>Spheres are required for Stronger Umbral Cut</p><p>Cast can't be canceled</p><p>Maximum of 5 spheres</p><p>Has a very long variable cast time</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Magic Pierce<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Ignores part of the enemy's MDEF against spells</p><p>Can be used on others.</p><div class="skill-extra"><span class="chip chip--sm">1 Character</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Astral Mastery<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Infuses weapons with magic using spell energy for auto attacks.</p><p>Infuses All MATK into ATK for auto-attacks</p><p>Has very high variable cast time</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Equinox<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Deals magical damage to a target and prepares stronger spells.</p><p>Enables use of Umbral Cut for the next 5+1 per level/seconds</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Spectral Mastery<span class="skill-max mono">Lv 5</span></th>
-          <td>Provides different bonuses according to the currently equipped Offhand Dagger<div class="skill-extra"><span class="skill-note">Also increases skills and auto-attack range.</span><span class="chip chip--sm mono">No</span></div></td>
+          <td><p>Increases Range of attacks and certain spells.</p><p>Auto-Attack range varies by Offhand Dagger</p><p>Provides different bonuses according to equipped Offhand Dagger</p><p>Skills affected: Equinox, Umbral Cut</p></td>
           <td><span class="badge sk-passive">Passive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Spectral Servants<span class="skill-max mono">Lv 10</span></th>
-          <td>Summons two servants that will randomly attack enemies along with the Shadowseer<div class="skill-extra"><span class="skill-note">Each hit randomly deals ATK-Physical or MATK-Magical based damage</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-physical">Physical and Magical</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Astral Mastery<span class="skill-max mono">Lv 5</span></th>
-          <td>Energizes the auto-attacks of the user with MATK, increasing damage for duration<div class="skill-extra"><span class="skill-note">The Damage applied is final, making the usual magic defense formula apply</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Astral Weapon<span class="skill-max mono">Lv 10</span></th>
-          <td>Increases ASPD, Critical Rate and generates spirit spheres on attack for duration<div class="skill-extra"><span class="skill-note">Spirit spheres are required for the cast of Umbral Cut</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Umbral Cut<span class="skill-max mono">Lv 10</span></th>
-          <td>Consumes Spirit Spheres to deal heavy damage to an area of enemies on a long cooldown<div class="skill-extra"><span class="skill-note">Requires Equinox to be cast right before it, area and spheres consumed varies by level</span><span class="chip chip--sm mono">INT</span></div></td>
-          <td><span class="badge sk-magic">Offensive Magic AoE</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Soul Guard<span class="skill-max mono">Lv 5</span></th>
-          <td>Greatly reduces all damage taken over a short duration with a long cooldown<div class="skill-extra"><span class="skill-note">The damage reduction is on final damage, and is a fixed percentage</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Soul Charge<span class="skill-max mono">Lv 5</span></th>
-          <td>Exchanges the entire SP of caster with the entire SP of target, ally or enemy<div class="skill-extra"><span class="skill-note">Efficiency of exchange is 50%, regardless of value, can't be over max SP</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-support">Support/Debuff</span></td>
+          <td><p>Summons two spirit servants, to assist the caster in battle.</p><p>Attack can be either Physical or Magical</p><p>Each Servant hits twice.</p><p>Servants cannot miss</p><p>Has very long variable cast time</p><div class="skill-extra"><span class="chip chip--sm">Selfs</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Convention<span class="skill-max mono">Lv 5</span></th>
-          <td>Restricts the movement of the caster while boosting its spell capabilities<div class="skill-extra"><span class="skill-note">Makes thief spells on Autospell always cast at Lv5. Level can be boosted with Umbral Mastery</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
+          <td><p>Equalize with the elements making the caster immobilized, but allows quickcasting of multiple spells.</p><p>Increases ASPD according to AGI for duration.</p><p>Umbral Mastery can increase the Level cast.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Magic Pierce<span class="skill-max mono">Lv 5</span></th>
-          <td>Ignores 5% MDEF of enemy per level for duration.<div class="skill-extra"><span class="skill-note">Also Ignores 1% DEF of enemy per level.</span><span class="chip chip--sm mono">No |}</span></div></td>
-          <td><span class="badge sk-other">Offensive Self-Support</span></td>
+          <th scope="row">Umbral Mastery<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Increases the flow of magic on the soul, increasing the limits of quick casting magic.</p><p>While under Convention, increases the level of Thief Spells cast by 1 per level (max Lv10)</p></td>
+          <td><span class="badge sk-passive">Passive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Umbral Cut<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Deals magical damage to a target and surrounding enemies.</p><p>Skill has multiple conditions to be used.</p><p>Element is same as weapon.</p><p>Deals 5 hits of damage</p><p>Has a very long variable cast time</p><div class="skill-extra"><span class="chip chip--sm">AoE around Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Soul Change<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Exchanges caster's remaining SP with target's remaining</p><p>SP. The SP that the caster receives cannot exceed the caster's MaxSP limit.</p><div class="skill-extra"><span class="chip chip--sm">1 Character</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Soul Guard<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Consumes SP to reduce damage by 80% for 3 seconds.</p></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Shadowseer Soul<span class="skill-max mono">Lv 1</span></th>
+          <td><p>Skill Cannot be learned.</p><p>Shadowseers can master both the physical and magical arts of combat.</p><p>Massive auto-casting powers and potential.</p><p>Can attack from afar with an Offhand Dagger.</p><p>Umbral Cut is a very powerful finisher for long combos.</p><p>Available Weapons: Swords, Daggers</p></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
             </tbody>
           </table>
         </div>
       </section>
-    <p class="source-note">Descriptions and the skill list are transcribed from the community wiki for the world the Refuge inherited. Where the Refuge changed something, it is called out above.</p>
+    <p class="source-note">Skill names and descriptions are read straight out of the server's own skill windows, so they say exactly what a player sees in game. Where the Refuge changed something, it is called out above.</p>
     <nav class="pill-row" aria-label="Other alternate paths">
       <span class="dim">More alternate paths:</span> <a class="pill" href="merchant.html">Merchant</a><a class="pill" href="prowler.html">Prowler</a><a class="pill" href="unchained-thief.html">Unchained Thief</a><a class="pill" href="unchained-assassin.html">Unchained Assassin</a><a class="pill" href="unchained-rogue.html">Unchained Rogue</a>
       <a class="pill pill--strong" href="../classes.html">Full tree</a>
@@ -333,7 +344,7 @@
         <h4 data-i18n="foot.col2">Reference</h4>
         <ul>
         <li><a href="../changes.html" data-i18n="foot.changes">Changes from the original</a></li>
-        <li><a href="../database.html" data-i18n="foot.database">Community database</a></li>
+        <li><a href="../database.html" data-i18n="foot.database">Items and monsters</a></li>
         <li><a href="../guides.html" data-i18n="foot.guides">Player-written guides</a></li>
         <li><a href="../llms.txt" data-i18n="foot.llms">llms.txt</a></li>
         <li><a href="../sitemap.xml" data-i18n="foot.sitemap">Sitemap</a></li>

@@ -36,8 +36,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="../assets/css/style.css">
-<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
 
 <script>
 /* The only blocking script on the site. It has to run before the first paint
@@ -205,8 +205,9 @@
       <section class="section--tight" id="skills">
         <div class="section-head">
           <h2 data-i18n="ui.skills">Skills</h2>
-          <p>13 entries, as documented for the world the Refuge inherited.
-             Exact numbers are deliberately not listed - they move with balance passes.</p>
+          <p>What each one does, in the words the game itself uses.
+             Numbers are deliberately left out - they move with every balance
+             pass, and a page that quotes them goes stale the day one lands.</p>
         </div>
         <div class="cluster" style="margin-bottom:1rem">
           <label class="visually-hidden" for="sk">Filter skills</label>
@@ -220,75 +221,80 @@
             <thead><tr><th scope="col">Skill</th><th scope="col">What it does</th><th scope="col">Type</th></tr></thead>
             <tbody>
         <tr data-row>
-          <th scope="row">Advanced Scythe mastery<span class="skill-max mono">Lv 10</span></th>
-          <td>Passive<div class="skill-extra"><span class="skill-note">Sweeping slash activates Combo Ready</span></div></td>
-          <td><span class="badge sk-other">Increases ATK/Crit/Flee while using Scythe</span></td>
+          <th scope="row">Advanced Scythe Mastery<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Increases Scythe class weapon damage by a large amount</p><p>Learning this skill allows Sweeping Slash to Activate Combo Ready for 3 seconds</p></td>
+          <td><span class="badge sk-passive">Passive</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Ominous Pressence<span class="skill-max mono">Lv 10</span></th>
-          <td>Passive<div class="skill-extra"><span class="chip chip--sm mono">Barrier formula: [(20% x Skill lvl) x (2x Str + 5 x Luk + 100 x Base Level + 5 x Leech Power)]</span></div></td>
-          <td><span class="badge sk-other">Increases Critical Chance and Damage with scythe. Grants Barrier with overleech.</span></td>
+          <th scope="row">Ominous Presence<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Increases critical damage and hit rate of Scythes.</p><p>OverHeal (Scythe HP Leech):</p><p>When HP leech exceeds MaxHP, the excess becomes a Shield.</p><p>Duration: 60s (refreshes on new OverHeal).</p></td>
+          <td><span class="badge sk-passive">Passive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Reaping Slash<span class="skill-max mono">Lv 10</span></th>
-          <td>Active<div class="skill-extra"><span class="skill-note">Grants Overslash Stack, when dealing damage, If caster has Combo Ready.</span><span class="chip chip--sm mono">LUK</span></div></td>
-          <td><span class="badge sk-other">Deals damage to target and its surroundings</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Roaring Overslash<span class="skill-max mono">Lv 10</span></th>
-          <td>Active<div class="skill-extra"><span class="skill-note">Deals 0.2% of target max hp per hit.Dmg is reduced without Combo Ready.</span><span class="chip chip--sm mono">LUK</span></div></td>
-          <td><span class="badge sk-other">Deals damage around caster. Repeat for every Overslash Stack.</span></td>
+          <td><p>Deals damage to all targets in a 3x3 cell radius around the caster.</p><p>Skill can be critical.</p><p>Grants an Overslash Stack per cast, but</p><p>Only goes past 1 if Combo Ready</p><p>Finisher Ready instantly maximizes stacks if character already has 1 stack or higher</p><p>Overslash stack increases Roaring Overslash and Underworld Rainstorm power</p><div class="skill-extra"><span class="chip chip--sm">AoE around Self</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Phantom Slice<span class="skill-max mono">Lv 5</span></th>
-          <td>Active<div class="skill-extra"><span class="skill-note">Can be used on Party Member, without dealing damage, range increases with Skill Level</span><span class="chip chip--sm mono">VIT</span></div></td>
-          <td><span class="badge sk-other">Pulls enemy by using scythe.</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Haunting Slice<span class="skill-max mono">Lv 5</span></th>
-          <td>Active<div class="skill-extra"><span class="chip chip--sm mono">ATK , STR</span></div></td>
-          <td><span class="badge sk-other">Dashes to target and deals damage.</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Underworld Rainstorm<span class="skill-max mono">Lv 10</span></th>
-          <td>Active<div class="skill-extra"><span class="skill-note">Increased damage per Overslash stack. Requires Shadow Orb.</span><span class="chip chip--sm mono">INT , LUK.</span></div></td>
-          <td><span class="badge sk-other">Calls upon Underworld rays, that deals damage in wide AoE.</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Vampire's Mark<span class="skill-max mono">Lv 5</span></th>
-          <td>Active/Buff<div class="skill-extra"><span class="skill-note">Increased leech power with level, Decrease duration with level.</span></div></td>
-          <td><span class="badge sk-other">Grants Leeching power to caster or ally.</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Darkside Shadow<span class="skill-max mono">Lv 10</span></th>
-          <td>Active, Self-Buff<div class="skill-extra"><span class="skill-note">Grants 2% dmg per DEX to skill. Increased Double attack chance with level.</span></div></td>
-          <td><span class="badge sk-summon">Summons shadow clone, which which repeats caster attacks.</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">High Jump<span class="skill-max mono">Lv 5</span></th>
-          <td>Active</td>
-          <td><span class="badge sk-other">Prepares for high Jump which can Go over some terrain.</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Final Orchestra<span class="skill-max mono">Lv 10</span></th>
-          <td>Active<div class="skill-extra"><span class="skill-note">Can heal monsters.</span></div></td>
-          <td><span class="badge sk-magic">Summons Healing area on cast, Undead/Demon monsters takes Half of reco very amount as magic damage.</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Mirror Break<span class="skill-max mono">Lv 5</span></th>
-          <td>Active, Debuff<div class="skill-extra"><span class="skill-note">Skill may fail, if target is already under Mirror Break</span></div></td>
-          <td><span class="badge sk-support">Dispells Reflect damage buff from target.</span></td>
+          <td><p>Throws Scythe and Attacks a distant enemy to pull them close to yourself. Can be used on a party member, but won't deal damage.</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy or Ally</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Flaming Wave<span class="skill-max mono">Lv 10</span></th>
-          <td>Active<div class="skill-extra"><span class="chip chip--sm mono">INT</span></div></td>
-          <td><span class="badge sk-other">Sends out a wave of flame, that burns enemy and surrounding targets.</span></td>
+          <td><p>Sets flames on the ground and inflicts Burning status to enemies around the targeted enemy.</p><p>Cast time, Cooldown and Burn duration. increases 0.1s/0.5s/0.5s per level used.</p><div class="skill-extra"><span class="chip chip--sm">AoE around enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Darkside Shadow<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Summons your shadow to repeat your normal attacks, allowing use of the Double Attack skill with a Scythe.</p><p>Underworld Rainstorm bonus is halved</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Roaring Overslash<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Draws crosses on the skies to cause damage at a range of 5x5.</p><p>Damage reduced if not combo ready</p><p>Deals one extra hit per Roaring Stack</p><p>Skill can be critical</p><div class="skill-extra"><span class="chip chip--sm">AoE in front and sides</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Haunting Slice<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Quickly reaches and attacks</p><p>Damage is fixed based on ATK and Str.</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Mirror Break<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Dispels the reflection effect from a target for a period of time. Skill attempts may fail while under the break effect.</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">High Jump<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Leaps to a cell in front within the skill's range. So long as the cell is accessable on the range, the caster can leap over walls and obstacles.</p><p>Cast decreases and range increases per level</p><div class="skill-extra"><span class="chip chip--sm">Caster</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Underworld Rainstorm<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Summons a rain of rays from the underworld to continuously strike enemies in an 11x11 AoE for a duration.</p><p>Cast can't be interrupted and skill never misses.</p><p>Defenses halved during casting</p><p>Requires a Shadow Orb to cast.</p><div class="skill-extra"><span class="chip chip--sm">Large AoE</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Vampire Mark<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Imbodies blood into an ally or self to allow leeching physical damage.</p><p>Doesn't work with magic damage</p><div class="skill-extra"><span class="chip chip--sm">1 Ally</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Final Orchestra<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Creates a Healing area on the ground that will provide continuous HP restoration for the skill's duration. The duration, recovery amount and maximum amount of targets depends on the skill's level. If an Undead or Demon monster steps on it, it inflicts magical damage equal to half of the recovery amount and knocks it back.</p><p>Requires a Shadow Orb to cast.</p><div class="skill-extra"><span class="chip chip--sm">Ground</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Revenant Soul<span class="skill-max mono">Lv 1</span></th>
+          <td><p>Skill Cannot be learned.</p><p>Revenants can use the powers of spirits and carry a living scythe everywhere.</p><p>Revenants can draw the soul of the Scythe.</p><p>With Invoker's Mark.</p><p>Main Stats: STR and LUK</p><p>Available Weapons: Scythes</p></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
             </tbody>
           </table>
         </div>
       </section>
-    <p class="source-note">Descriptions and the skill list are transcribed from the community wiki for the world the Refuge inherited. Where the Refuge changed something, it is called out above.</p>
+    <p class="source-note">Skill names and descriptions are read straight out of the server's own skill windows, so they say exactly what a player sees in game. Where the Refuge changed something, it is called out above.</p>
     <nav class="pill-row" aria-label="Other final jobs">
       <span class="dim">More final jobs:</span> <a class="pill" href="dracomancer.html">Dracomancer</a><a class="pill" href="legend.html">Legend</a><a class="pill" href="pit-boss.html">Pit Boss</a><a class="pill" href="night-raven.html">Night Raven</a><a class="pill" href="satsujin.html">Satsujin</a><a class="pill" href="gravekeeper.html">Gravekeeper</a>
       <a class="pill pill--strong" href="../classes.html">Full tree</a>
@@ -340,7 +346,7 @@
         <h4 data-i18n="foot.col2">Reference</h4>
         <ul>
         <li><a href="../changes.html" data-i18n="foot.changes">Changes from the original</a></li>
-        <li><a href="../database.html" data-i18n="foot.database">Community database</a></li>
+        <li><a href="../database.html" data-i18n="foot.database">Items and monsters</a></li>
         <li><a href="../guides.html" data-i18n="foot.guides">Player-written guides</a></li>
         <li><a href="../llms.txt" data-i18n="foot.llms">llms.txt</a></li>
         <li><a href="../sitemap.xml" data-i18n="foot.sitemap">Sitemap</a></li>

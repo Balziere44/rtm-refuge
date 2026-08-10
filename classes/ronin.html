@@ -36,8 +36,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="../assets/css/style.css">
-<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
 
 <script>
 /* The only blocking script on the site. It has to run before the first paint
@@ -212,8 +212,9 @@
       <section class="section--tight" id="skills">
         <div class="section-head">
           <h2 data-i18n="ui.skills">Skills</h2>
-          <p>10 entries, as documented for the world the Refuge inherited.
-             Exact numbers are deliberately not listed - they move with balance passes.</p>
+          <p>What each one does, in the words the game itself uses.
+             Numbers are deliberately left out - they move with every balance
+             pass, and a page that quotes them goes stale the day one lands.</p>
         </div>
         <div class="cluster" style="margin-bottom:1rem">
           <label class="visually-hidden" for="sk">Filter skills</label>
@@ -228,59 +229,64 @@
             <tbody>
         <tr data-row>
           <th scope="row">Perfection Mastery<span class="skill-max mono">Lv 10</span></th>
-          <td>Increases Crit rate. Reduces Hit Rate.</td>
+          <td><p>Allows the Ronin to focus on being perfect with all skills used, always focusing on perfect strikes.</p><p>And ignoring anything else.</p><p>All Ronin Skills can be critical</p><p>Reduces Hit Rate by 300 when learned.</p></td>
           <td><span class="badge sk-passive">Passive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Sidestep Mastery<span class="skill-max mono">Lv 10</span></th>
-          <td>Increases Movement speed and Perfect Dodge.</td>
+          <td><p>A Ronin can easily dodge any quick hit with finesse and elegance.</p></td>
           <td><span class="badge sk-passive">Passive</span></td>
         </tr>
         <tr data-row>
+          <th scope="row">Way of the Blade<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Sword-only skill:</p><p>Focuses the spirit at the tip of the blade to maximize the power of skills used.</p><p>Halves next damage received</p><p>Disabled upon taking damage</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
           <th scope="row">Sprint<span class="skill-max mono">Lv 5</span></th>
-          <td>Quickly runs forward preparing for attacks.<div class="skill-extra"><span class="skill-note">Enters Finisher Ready on cast.</span></div></td>
-          <td><span class="badge sk-active">Active</span></td>
+          <td><p>Quickly runs forward at high speed, preparing for attacks.</p><p>Running cannot be canceled without skills</p><p>Knockbacked 7 cells on collision.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Shatter Villain<span class="skill-max mono">Lv 5</span></th>
-          <td>Deals damage and breaks enemy resistance from the inside.<div class="skill-extra"><span class="skill-note">Increases neutral damage taken for duration.</span></div></td>
-          <td><span class="badge sk-physical">Physical Melee</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Waterfall Breeze<span class="skill-max mono">Lv 5</span></th>
-          <td>Increases ATK/MATK.<div class="skill-extra"><span class="skill-note">Removed on taking damage.</span></div></td>
-          <td><span class="badge sk-support">Party-buff</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Way of the Blade<span class="skill-max mono">Lv 5</span></th>
-          <td>Channels power into the blade, granting additional scaling for skills<div class="skill-extra"><span class="skill-note">Gives Buff that evades physical attack/skills. Lost on taking damage</span><span class="chip chip--sm mono">DEX</span></div></td>
-          <td><span class="badge sk-support">Self-buff</span></td>
+          <td><p>Breaks the enemy resistance from the inside, increasing neutral element damage.</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Ascending Steel<span class="skill-max mono">Lv 10</span></th>
-          <td>Strikes an enemy with upward strike.<div class="skill-extra"><span class="skill-note">Enters Combo Ready status.</span><span class="chip chip--sm mono">INT</span></div></td>
-          <td><span class="badge sk-physical">Physical Melee</span></td>
+          <td><p>Strikes an enemy with an upward slash after a short concentration that prepares stronger hits.</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Descending Steel<span class="skill-max mono">Lv 10</span></th>
-          <td>Strikes an enemy with downward strike.<div class="skill-extra"><span class="skill-note">Enters Finisher Ready status.</span><span class="chip chip--sm mono">INT</span></div></td>
-          <td><span class="badge sk-physical">Physical Melee</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Instant Draw<span class="skill-max mono">Lv 5</span></th>
-          <td>Instantly Draws blade dealing damage to the enemy<div class="skill-extra"><span class="skill-note">Consumes Combo/Finisher ready to repeat the skill.</span><span class="chip chip--sm mono">INT/DEX/AGI/ASPD</span></div></td>
-          <td><span class="badge sk-physical">Physical Melee</span></td>
+          <td><p>Strikes an enemy with an upward slash after a short concentration that prepares stronger hits.</p><p>Damage Greatly Reduced and no Finisher Ready</p><p>If used without Combo Ready.</p><p>Finisher Ready is lost when hit</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Void Dash<span class="skill-max mono">Lv 10</span></th>
-          <td>Dashes behind enemy, quickly slashing enemy with delayed hits<div class="skill-extra"><span class="skill-note">Increases Damage and has splash while in Finisher Ready status.</span><span class="chip chip--sm mono">INT/Movement Speed</span></div></td>
-          <td><span class="badge sk-physical">Physical Ranged</span></td>
+          <td><p>Dashes through an enemy quickly slashing multiple times, the cuts explode after a short moment from inside.</p><p>Damage is greatly Reduced without Finisher Ready.</p><p>Skill always hits 3 times</p><p>Can be cast multiple times on the same enemy</p><p>Won't move if there is no space</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Waterfall Breeze<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Follows the focus of meditating in a waterfall to boost the power of all party members.</p><p>Being hit loses the status</p><p>Requires 1 Shadow Orb</p><div class="skill-extra"><span class="chip chip--sm">Nearby Party Members</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Instant Draw<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Instantly draws the sword dealing damage to the enemy.</p><p>Skill cannot miss.</p><p>Skill repeats 1x if Combo Ready</p><p>Skill repeats 2x if Finisher Ready</p><p>Skill consumes any Ready status</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Ronin Soul<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Ronins excel in perfection and won't accept anything less for their enemies.</p><p>Exchanged hit rate for critical hits.</p><p>Sword skills are boosted by it's spirit as INT.</p><p>Unique properties for skill scalings.</p><p>Available Weapons: Swords</p></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
             </tbody>
           </table>
         </div>
       </section>
-    <p class="source-note">Descriptions and the skill list are transcribed from the community wiki for the world the Refuge inherited. Where the Refuge changed something, it is called out above.</p>
+    <p class="source-note">Skill names and descriptions are read straight out of the server's own skill windows, so they say exactly what a player sees in game. Where the Refuge changed something, it is called out above.</p>
     <nav class="pill-row" aria-label="Other first jobs">
       <span class="dim">More first jobs:</span> <a class="pill" href="thief.html">Thief</a><a class="pill" href="trickster.html">Trickster</a><a class="pill" href="jester.html">Jester</a><a class="pill" href="mimic.html">Mimic</a><a class="pill" href="vagabond.html">Vagabond</a><a class="pill" href="raider.html">Raider</a>
       <a class="pill pill--strong" href="../classes.html">Full tree</a>
@@ -332,7 +338,7 @@
         <h4 data-i18n="foot.col2">Reference</h4>
         <ul>
         <li><a href="../changes.html" data-i18n="foot.changes">Changes from the original</a></li>
-        <li><a href="../database.html" data-i18n="foot.database">Community database</a></li>
+        <li><a href="../database.html" data-i18n="foot.database">Items and monsters</a></li>
         <li><a href="../guides.html" data-i18n="foot.guides">Player-written guides</a></li>
         <li><a href="../llms.txt" data-i18n="foot.llms">llms.txt</a></li>
         <li><a href="../sitemap.xml" data-i18n="foot.sitemap">Sitemap</a></li>

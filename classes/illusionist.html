@@ -36,8 +36,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="../assets/css/style.css">
-<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
 
 <script>
 /* The only blocking script on the site. It has to run before the first paint
@@ -232,8 +232,9 @@
       <section class="section--tight" id="skills">
         <div class="section-head">
           <h2 data-i18n="ui.skills">Skills</h2>
-          <p>22 entries, as documented for the world the Refuge inherited.
-             Exact numbers are deliberately not listed - they move with balance passes.</p>
+          <p>What each one does, in the words the game itself uses.
+             Numbers are deliberately left out - they move with every balance
+             pass, and a page that quotes them goes stale the day one lands.</p>
         </div>
         <div class="cluster" style="margin-bottom:1rem">
           <label class="visually-hidden" for="sk">Filter skills</label>
@@ -247,120 +248,80 @@
             <thead><tr><th scope="col">Skill</th><th scope="col">What it does</th><th scope="col">Type</th></tr></thead>
             <tbody>
         <tr data-row>
-          <th scope="row">Advanced Puppet Mastery<span class="skill-max mono">Lv 1</span></th>
-          <td>learns about summoning a puppet to fight<div class="skill-extra"><span class="skill-note">The Puppet levels up, grows and fights along the master</span></div></td>
+          <th scope="row">Puppet Mastery<span class="skill-max mono">Lv 1</span></th>
+          <td><p>Advanced Puppet Mastery</p><p>Allows the study and control of Puppet Homunculus.</p><p>Those are superior forms of homunculus</p><p>Created from a willing soul.</p><p>Puppet Homunculus have fixed stats growth</p><p>And receive a skill point every 3 levels.</p><p>Any deleted or abandoned Puppets cannot</p><p>Be recovered without summoning a new one.</p><p>Must be fed Condensed Souls sparingly</p><p>In orders sparingly to raise intimacy and So it doesn't vanish.</p></td>
           <td><span class="badge sk-passive">Passive</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Summon Puppet<span class="skill-max mono">Lv 1</span></th>
-          <td>Summons a puppet to fight, it must not be dead to be summoned<div class="skill-extra"><span class="skill-note">If the player has no puppet, it'll create a random one, this can be rerolled by deleting the puppet</span></div></td>
+          <th scope="row">Real Magic Attack<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Throws real magic spells against an enemy, dealing damage.</p><p>Element applied is same as weapon.</p><p>Hit amount improves every 2 levels.</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
           <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Dismiss Puppet<span class="skill-max mono">Lv 1</span></th>
-          <td>Dismisses a summoned puppet<div class="skill-extra"><span class="skill-note">Dismissing a puppet won't delete it, just remove it from the field temporarily</span></div></td>
-          <td><span class="badge sk-active">Active</span></td>
+          <td><p>Temporarily dismisses your</p><p>Puppet, can't be used if its HP is low.</p><p>The Puppet can be summoned again with the Summon Puppet skill.</p><div class="skill-extra"><span class="chip chip--sm">Puppet</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Summon<span class="skill-max mono">Lv 1</span></th>
+          <td><p>Summon Puppet</p><p>Summons an existing</p><p>Puppet that was stored by using the Dismiss Puppet or create a Puppet at no cost.</p><div class="skill-extra"><span class="chip chip--sm">Puppet</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Resurrect Puppet<span class="skill-max mono">Lv 5</span></th>
-          <td>Revives a dead puppet by consuming a large amount of SP<div class="skill-extra"><span class="skill-note">Amount of HP regenerated increases per level, along with SP cost</span></div></td>
-          <td><span class="badge sk-other">Support</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Real Magic Attack<span class="skill-max mono">Lv 10</span></th>
-          <td>Strikes an enemy with quick magic, amount of hits increases per level<div class="skill-extra"><span class="skill-note">Can be autocast with the Illusion Glove, element changes according to weapon</span><span class="chip chip--sm mono">INT</span></div></td>
-          <td><span class="badge sk-magic">Magic</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Life Strings<span class="skill-max mono">Lv 5</span></th>
-          <td>Transfers a portion of the player's stats to the Puppet.<div class="skill-extra"><span class="skill-note">All skills except hiding may be used for the duration, the Puppet's stats can be boosted past 99</span></div></td>
+          <td><p>Revives a Puppet that has been defeated in battle.</p><div class="skill-extra"><span class="chip chip--sm">Puppet</span></div></td>
           <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Illusion of Vermillion<span class="skill-max mono">Lv 3</span></th>
-          <td>Deals light damage over a large area with a chance to cause blind status<div class="skill-extra"><span class="skill-note">Damage is lower than average, can be increased with Illusion of Mist</span><span class="chip chip--sm mono">INT</span></div></td>
-          <td><span class="badge sk-magic">Magic AoE</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Illusion of Mist<span class="skill-max mono">Lv 3</span></th>
-          <td>Deals moderate damage over a small area, while applying crystallize to enemies<div class="skill-extra"><span class="skill-note">Crystallize improves damage of other Illusionist skills</span><span class="chip chip--sm mono">INT</span></div></td>
-          <td><span class="badge sk-magic">Magic AoE</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Illusion of Healing<span class="skill-max mono">Lv 5</span></th>
-          <td>Reverses any healing effects on target for a short duration<div class="skill-extra"><span class="skill-note">Also affects heal over time</span></div></td>
-          <td><span class="badge sk-support">Debuff</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Illusion of Exchange<span class="skill-max mono">Lv 5</span></th>
-          <td>Has a high chance to swap places with a targeted enemy, while causing confusion status<div class="skill-extra"><span class="skill-note">Confused enemies may randomly become passive</span></div></td>
-          <td><span class="badge sk-support">Debuff</span></td>
+          <th scope="row">Life Strings<span class="skill-max mono">Lv 10</span></th>
+          <td><p>The Puppet receives the Status points of the master for 10 seconds.</p><p>Cannot raise an attribute Kimi has that is higher</p><p>Cannot use Hiding for the duration</p><div class="skill-extra"><span class="chip chip--sm">Puppet</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Illusion of Silence<span class="skill-max mono">Lv 2</span></th>
-          <td>Has a high chance to cause silence status to an enemy<div class="skill-extra"><span class="skill-note">Chance decreases according to target's INT</span></div></td>
-          <td><span class="badge sk-support">Debuff</span></td>
+          <td><p>Silences an enemy, temporarily disabling it's use of skills, for a set duration. The duration of Silence is affected by the target's immunity. When used a target which is already under Silence status, the effect is canceled.</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Illusion of Shadows<span class="skill-max mono">Lv 3</span></th>
-          <td>Jumps away from hiding to a safe distance<div class="skill-extra"><span class="skill-note">Movement is instant and can go over select barriers</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
+          <td><p>Enables jumping away instantly. from Hiding, ignoring obstacles.</p><p>Requires hiding state to be used.</p><div class="skill-extra"><span class="chip chip--sm">Ground</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Illusion of Exchange<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Has a chance to switch locations between the target and yourself. Has a chance to inflict both the caster and target with the Confuse state at a certain rate.</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Illusion of Mist<span class="skill-max mono">Lv 3</span></th>
+          <td><p>Releases freezing mist over the ground, dealing damage and inflicting Frost status on all enemies. Targets affected by Frost will receive reduced DEF, Movement</p><p>Speed, Attack Speed and increased</p><p>Fixed Casting Time.</p><div class="skill-extra"><span class="chip chip--sm">Ground</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Illusion of Healing<span class="skill-max mono">Lv 5</span></th>
+          <td><p>When a target under this skill effect receives specific HP recovery skills, damage will be inflicted instead of recovering HP.</p><p>Cannot be used on Boss monsters.</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Illusion of Vermilion<span class="skill-max mono">Lv 3</span></th>
+          <td><p>Summons massive lightning explosions that deal low damage to an area and has a chance to cause Burning status.</p><div class="skill-extra"><span class="chip chip--sm">Ground</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Grand Summoning<span class="skill-max mono">Lv 5</span></th>
-          <td>Summons a powerful monster to fight for the Illusionist for a short duration<div class="skill-extra"><span class="skill-note">Cooldown is long but can be reduced with specific bonuses</span><span class="chip chip--sm mono">None |}</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
+          <td><p>Summons strong monsters with special abilities to fight for 50 seconds.</p><p>Summon duration increases by 0.5s per LUK</p><p>Multiple simultaneous summoning require cooldown reduction.</p><p>Deal physical damage</p><p>Support and protection</p><p>Quick attacks and skills</p><p>Strong magic damage</p><p>Heavy attacks and damage</p><div class="skill-extra"><span class="chip chip--sm">Ground</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Master Swap<span class="skill-max mono">Lv 5</span></th>
-          <td>Swaps places with the master<div class="skill-extra"><span class="skill-note">Success chance improves with level</span></div></td>
-          <td><span class="badge sk-other">Ally-Support</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Blood Lust<span class="skill-max mono">Lv 5</span></th>
-          <td>Increases attack and allows leeching part of damage dealt<div class="skill-extra"><span class="skill-note">Consumes high amounts of SP</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Warm Defense<span class="skill-max mono">Lv 5</span></th>
-          <td>Increases the defenses for both the Puppet and the player for a limited time.<div class="skill-extra"><span class="skill-note">Allows the Puppet to hide for 3 seconds</span></div></td>
-          <td><span class="badge sk-other">Support</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Chaotic Heal<span class="skill-max mono">Lv 5</span></th>
-          <td>Heals randomly between puppet and master, increasing power per level<div class="skill-extra"><span class="skill-note">Increased chance of affecting Puppet on higher levels</span></div></td>
-          <td><span class="badge sk-other">Support</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Illusion of Claws<span class="skill-max mono">Lv 5</span></th>
-          <td>Attacks an enemy with its claws, dealing quick damage<div class="skill-extra"><span class="skill-note">ASPD-based spam rate</span></div></td>
-          <td><span class="badge sk-physical">Physical</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Illusion of Breath<span class="skill-max mono">Lv 10</span></th>
-          <td>Inflicts magical damage, piercing part of the enemy's MDEF<div class="skill-extra"><span class="skill-note">Good Range, single target, reliable</span></div></td>
-          <td><span class="badge sk-magic">Magic</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Illusion Crusher<span class="skill-max mono">Lv 5</span></th>
-          <td>Dashes to an enemy and deals heavy damage with a chance to stun target<div class="skill-extra"><span class="skill-note">Requires Cordial Intimacy</span></div></td>
-          <td><span class="badge sk-physical">Ranged Physical</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Illusion of Light<span class="skill-max mono">Lv 10</span></th>
-          <td>Deals holy elemental magic damage to all enemies over a small area<div class="skill-extra"><span class="skill-note">Requires Cordial Intimacy</span></div></td>
-          <td><span class="badge sk-magic">Magic AoE</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Body Double<span class="skill-max mono">Lv 5</span></th>
-          <td>If the master is about to die while this effect is active, the Puppets dies instead<div class="skill-extra"><span class="skill-note">Requires Loyal Intimacy</span><span class="chip chip--sm mono">None |}</span></div></td>
-          <td><span class="badge sk-other">Support</span></td>
+          <th scope="row">Illusionist Skills<span class="skill-max mono">Lv 1</span></th>
+          <td><p>Illusionist Soul</p><p>Skill Cannot be learned.</p><p>Illusionists wield memories and souls in combat to fight enemies directly.</p><p>Illusionist are very vulnerable alone.</p><p>They can Summon Puppets.</p><p>A special type of Magic Homunculus.</p><p>Illusionist can trick enemies and summon special monsters for combat.</p><p>Illusionists can autocast magic.</p><p>Main Stats: INT and DEX</p><p>Available Weapons: Illusion Glove</p><p>Illusion Gloves are a unique weapon.</p><p>Equipping and Removing Illusion Gloves dismiss Kimi.</p></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
             </tbody>
           </table>
         </div>
       </section>
-    <p class="source-note">Descriptions and the skill list are transcribed from the community wiki for the world the Refuge inherited. Where the Refuge changed something, it is called out above.</p>
+    <p class="source-note">Skill names and descriptions are read straight out of the server's own skill windows, so they say exactly what a player sees in game. Where the Refuge changed something, it is called out above.</p>
     <nav class="pill-row" aria-label="Other expert jobs">
       <span class="dim">More expert jobs:</span> <a class="pill" href="judge.html">Judge</a><a class="pill" href="peacekeeper.html">Peacekeeper</a><a class="pill" href="dark-knight.html">Dark Knight</a>
       <a class="pill pill--strong" href="../classes.html">Full tree</a>
@@ -412,7 +373,7 @@
         <h4 data-i18n="foot.col2">Reference</h4>
         <ul>
         <li><a href="../changes.html" data-i18n="foot.changes">Changes from the original</a></li>
-        <li><a href="../database.html" data-i18n="foot.database">Community database</a></li>
+        <li><a href="../database.html" data-i18n="foot.database">Items and monsters</a></li>
         <li><a href="../guides.html" data-i18n="foot.guides">Player-written guides</a></li>
         <li><a href="../llms.txt" data-i18n="foot.llms">llms.txt</a></li>
         <li><a href="../sitemap.xml" data-i18n="foot.sitemap">Sitemap</a></li>

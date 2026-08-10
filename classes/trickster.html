@@ -36,8 +36,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="../assets/css/style.css">
-<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
 
 <script>
 /* The only blocking script on the site. It has to run before the first paint
@@ -209,8 +209,9 @@
       <section class="section--tight" id="skills">
         <div class="section-head">
           <h2 data-i18n="ui.skills">Skills</h2>
-          <p>11 entries, as documented for the world the Refuge inherited.
-             Exact numbers are deliberately not listed - they move with balance passes.</p>
+          <p>What each one does, in the words the game itself uses.
+             Numbers are deliberately left out - they move with every balance
+             pass, and a page that quotes them goes stale the day one lands.</p>
         </div>
         <div class="cluster" style="margin-bottom:1rem">
           <label class="visually-hidden" for="sk">Filter skills</label>
@@ -225,64 +226,69 @@
             <tbody>
         <tr data-row>
           <th scope="row">Scythe Mastery<span class="skill-max mono">Lv 10</span></th>
-          <td>Increase damage with scythes<div class="skill-extra"><span class="skill-note">Also increases flee and critical rate</span></div></td>
-          <td><span class="badge sk-passive">Passive</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Increase SP Recovery<span class="skill-max mono">Lv 10</span></th>
-          <td>Provides extra SP recovery on top of natural regeneration.<div class="skill-extra"><span class="skill-note">Regens 0.1% + 2 max SP per level.</span><span class="chip chip--sm mono">No</span></div></td>
+          <td><p>Increases Scythe class combat capacity and evasiveness.</p></td>
           <td><span class="badge sk-passive">Passive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Scythe Reap<span class="skill-max mono">Lv 10</span></th>
-          <td>Deals damage to the enemy and enables combo follow-up for 3 seconds<div class="skill-extra"><span class="skill-note">Skill can be critical</span><span class="chip chip--sm mono">LUK</span></div></td>
-          <td><span class="badge sk-other">Melee</span></td>
+          <td><p>A multi-strike attack that slices the skin, which can immobilize the enemy for 1 second.</p><p>Requires a Scythe to use.</p><p>Skill can be a critical hit.</p><p>Damage is slightly boosted by weapon weight.</p><p>Skill has decreasing delay per level.</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Sweeping Slash<span class="skill-max mono">Lv 5</span></th>
-          <td>Strikes quickly as a follow-up or by itself with two individual hits<div class="skill-extra"><span class="skill-note">When used as a combo follow-up deals extra job level based bonus and has bonus hit rate. Skill can be critical.</span><span class="chip chip--sm mono">LUK</span></div></td>
-          <td><span class="badge sk-other">Melee</span></td>
+          <th scope="row">Sweeping Slash<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Sweeps the legs with the scythe, Damage is 100+25% per level +2% per LUK per hit</p><p>Skill deals 2 individual hits</p><p>Damage greatly reduced outside combos</p><p>Skill can be critical</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Dark Message<span class="skill-max mono">Lv 5</span></th>
-          <td>Deals light magic damage to an enemy and pushes it back<div class="skill-extra"><span class="skill-note">Deals extra damage vs small enemies but primary use is control Enables Combo Ready Enables Cast Ready</span><span class="chip chip--sm mono">STR</span></div></td>
-          <td><span class="badge sk-magic">Magic</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Dark Messenger<span class="skill-max mono">Lv 10</span></th>
-          <td>Deals heavy magic damage to an enemy, extra damage as a combo follow up<div class="skill-extra"><span class="skill-note">Extra hits per level, same element as scythe</span><span class="chip chip--sm mono">STR</span></div></td>
-          <td><span class="badge sk-magic">Magic</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Hellraiser<span class="skill-max mono">Lv 10</span></th>
-          <td>Smashes the area around dealing fire damage with a halved critical chance<div class="skill-extra"><span class="skill-note">Element of skill is locked to fire regardless of weapon. Skill can be critical</span><span class="chip chip--sm mono">LUK</span></div></td>
-          <td><span class="badge sk-physical">Physical AoE around Self</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">True Sight<span class="skill-max mono">Lv 10</span></th>
-          <td>Increases all stats for a short duration<div class="skill-extra"><span class="skill-note">Any hidden enemies immediately around are revealed when cast</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Mirror Image<span class="skill-max mono">Lv 3</span></th>
-          <td>Quickly reflects magic back to caster on a long cooldown<div class="skill-extra"><span class="skill-note">Receives 4x physical damage over the short duration the skill is active</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
+          <td><p>Pushes back a targeted enemy 5 cells away. Only Small sized targets are fully damaged by this skill.</p><p>Damage is very small and focused on control.</p><p>Damage is calculated based on MATK insteat of ATK</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Shadow Parry<span class="skill-max mono">Lv 10</span></th>
-          <td>Adds a chance to block any physical attacks for the duration<div class="skill-extra"><span class="skill-note">Chance is 10+2% per level, locks player in place for a short moment when activated</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
+          <td><p>Blocks damage from physical attack using a Scythe. When successfully blocking an attack, caster will be forced to pause momentarily.</p><p>Requires a Scythe.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Increase SP Recovery<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Increase SP recovery bonus</p></td>
+          <td><span class="badge sk-passive">Passive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Dark Messenger<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Your scythe throws a whirlwind of crescent blades at an enemy.</p><p>Each level increases hit amount, up to 10.</p><p>Damage is calculated based on MATK, not ATK</p><p>Each hit deals full damage.</p><p>Deals 1.5x damage when combo ready</p><p>Has the same element as your weapon.</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Mirror Image<span class="skill-max mono">Lv 3</span></th>
+          <td><p>Reflects targeted magic spells back at the original caster. Reflected</p><p>Healing spells will not heal the original caster. The magic spells of boss monsters cannot be reflected.</p><p>Received physical damage is quadrupled for duration.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Burning Scythe<span class="skill-max mono">Lv 10</span></th>
-          <td>Endows weapon with fire element<div class="skill-extra"><span class="skill-note">Attacks become full elemental, meaning it gets all bonuses and downsides of fire</span><span class="chip chip--sm mono">None |}</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
+          <td><p>Endows your own weapon with Fire element for the skill's duration.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">True Sight<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Focus to improve</p><p>Current combat capabilities for a short time.</p><p>Increases all stats by 3 for duration.</p><div class="skill-extra"><span class="chip chip--sm">Caster</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Hellraiser<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Strucks weapon to the ground causing strong explosion that damage all enemies around the caster.</p><p>Skill can be critical.</p><p>Skill activates Finisher Ready for 3s</p><p>If cast at max level</p><p>Finisher Ready adds max Overslash Stacks</p><p>If you already have at least 1 stack</p><p>Damage is always Fire Element.</p><div class="skill-extra"><span class="chip chip--sm">AoE around Self</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Trickster Skills<span class="skill-max mono">Lv 1</span></th>
+          <td><p>Skill Cannot be learned.</p><p>Tricksters can use the powers of Niflheim to have an edge in combat.</p><p>Tricksters have access to Fire Elemental Attacks.</p><p>They have low HP but can steal HP from enemies.</p><p>Main Stats: STR and LUK</p><p>Available Weapons: Scythes</p><p>Job Change can be done at Job Level 70.</p></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
             </tbody>
           </table>
         </div>
       </section>
-    <p class="source-note">Descriptions and the skill list are transcribed from the community wiki for the world the Refuge inherited. Where the Refuge changed something, it is called out above.</p>
+    <p class="source-note">Skill names and descriptions are read straight out of the server's own skill windows, so they say exactly what a player sees in game. Where the Refuge changed something, it is called out above.</p>
     <nav class="pill-row" aria-label="Other first jobs">
       <span class="dim">More first jobs:</span> <a class="pill" href="thief.html">Thief</a><a class="pill" href="jester.html">Jester</a><a class="pill" href="ronin.html">Ronin</a><a class="pill" href="mimic.html">Mimic</a><a class="pill" href="vagabond.html">Vagabond</a><a class="pill" href="raider.html">Raider</a>
       <a class="pill pill--strong" href="../classes.html">Full tree</a>
@@ -334,7 +340,7 @@
         <h4 data-i18n="foot.col2">Reference</h4>
         <ul>
         <li><a href="../changes.html" data-i18n="foot.changes">Changes from the original</a></li>
-        <li><a href="../database.html" data-i18n="foot.database">Community database</a></li>
+        <li><a href="../database.html" data-i18n="foot.database">Items and monsters</a></li>
         <li><a href="../guides.html" data-i18n="foot.guides">Player-written guides</a></li>
         <li><a href="../llms.txt" data-i18n="foot.llms">llms.txt</a></li>
         <li><a href="../sitemap.xml" data-i18n="foot.sitemap">Sitemap</a></li>

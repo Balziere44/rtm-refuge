@@ -36,8 +36,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="../assets/css/style.css">
-<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
 
 <script>
 /* The only blocking script on the site. It has to run before the first paint
@@ -221,8 +221,9 @@
       <section class="section--tight" id="skills">
         <div class="section-head">
           <h2 data-i18n="ui.skills">Skills</h2>
-          <p>13 entries, as documented for the world the Refuge inherited.
-             Exact numbers are deliberately not listed - they move with balance passes.</p>
+          <p>What each one does, in the words the game itself uses.
+             Numbers are deliberately left out - they move with every balance
+             pass, and a page that quotes them goes stale the day one lands.</p>
         </div>
         <div class="cluster" style="margin-bottom:1rem">
           <label class="visually-hidden" for="sk">Filter skills</label>
@@ -237,74 +238,79 @@
             <tbody>
         <tr data-row>
           <th scope="row">Card Mastery<span class="skill-max mono">Lv 7</span></th>
-          <td>Increases attack and attack speed with decks<div class="skill-extra"><span class="skill-note">N/A</span></div></td>
+          <td><p>Increases Deck class weapon damage and speed.</p></td>
           <td><span class="badge sk-passive">Passive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Sleight Mastery<span class="skill-max mono">Lv 7</span></th>
-          <td>Increases flee and grants a chance of dodging magical damage<div class="skill-extra"><span class="skill-note">N/A</span></div></td>
+          <td><p>Increases finesse in combat misdirecting enemies with speed.</p></td>
           <td><span class="badge sk-passive">Passive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">First Hand<span class="skill-max mono">Lv 7</span></th>
-          <td>Deals light damage and causes a random short duration debuff. Combo opener.<div class="skill-extra"><span class="skill-note">Can reduce defense, reduce speed, reduce attack or deal double damage. Does activate Combo Ready.</span><span class="chip chip--sm mono">LUK</span></div></td>
-          <td><span class="badge sk-physical">Ranged Physical</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Double Down<span class="skill-max mono">Lv 7</span></th>
-          <td>Deals 2 hits to an enemy with a small chance to cause bleeding<div class="skill-extra"><span class="skill-note">Increased damage if Combo Ready is active Can land critical hits.</span><span class="chip chip--sm mono">LUK</span></div></td>
-          <td><span class="badge sk-physical">Ranged Physical</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Instant Aces<span class="skill-max mono">Lv 7</span></th>
-          <td>Deals quick damage to an enemy and anyone around in a small area<div class="skill-extra"><span class="skill-note">Splits damage amongst all targets. Deals Small Knockback.</span><span class="chip chip--sm mono">INT/LUK</span></div></td>
-          <td><span class="badge sk-magic">Magic Targeted-AoE</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Arcana of Destiny<span class="skill-max mono">Lv 7</span></th>
-          <td>Deals magic damage to an single enemy<div class="skill-extra"><span class="skill-note">Increased damage if Combo Ready is active.</span><span class="chip chip--sm mono">INT/LUK</span></div></td>
-          <td><span class="badge sk-magic">Magic Targeted</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Gift Card<span class="skill-max mono">Lv 7</span></th>
-          <td>Deals heavy area damage to all enemies around a target<div class="skill-extra"><span class="skill-note">Increased damage if Combo Ready is active. Has 100% Perfect Hit Rate.</span><span class="chip chip--sm mono">LUK</span></div></td>
-          <td><span class="badge sk-physical">Physical Ranged Targeted-AoE</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Royal Flush<span class="skill-max mono">Lv 7</span></th>
-          <td>Summons pure energy against a small area of enemies<div class="skill-extra"><span class="skill-note">Increased damage if Combo Ready is active.</span><span class="chip chip--sm mono">LUK/INT</span></div></td>
-          <td><span class="badge sk-magic">Magic Targeted-AoE</span></td>
+          <td><p>A quick attack that cripples enemy and enables combos, causes random multiple status effects.</p><p>Requires a Deck to use.</p><p>Defense Reduction</p><p>Move Speed Reduction</p><p>Attack Reduction</p><p>Double Damage with First Hand.</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Stack Deck<span class="skill-max mono">Lv 1</span></th>
-          <td>Enables drawing Jokers when attacking the enemy with basic attacks<div class="skill-extra"><span class="skill-note">When it activates, Joker's Draw can be quickly activated for a follow-up hit.</span></div></td>
-          <td><span class="badge sk-stance">Stance</span></td>
+          <td><p>Allows use of Joker's Draw.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Arcana of Destiny<span class="skill-max mono">Lv 7</span></th>
+          <td><p>combo action that throws a magic card with flames.</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Double Down<span class="skill-max mono">Lv 7</span></th>
+          <td><p>A follow up of two hits with a small chance to cause bleeding.</p><p>Requires a Deck to use.</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Joker's Draw<span class="skill-max mono">Lv 7</span></th>
-          <td>Deals heavy damage against targeted enemy. Requires Stack Deck activation<div class="skill-extra"><span class="skill-note">Requires Stack Deck Activation. Knocks back other monsters near the target.</span><span class="chip chip--sm mono">LUK</span></div></td>
-          <td><span class="badge sk-physical">Ranged Physical</span></td>
+          <td><p>Throws a strong card that slices target multiple times.</p><p>Requires Stack Deck activation to use.</p><p>Deals small knockback to enemy.</p><p>Can be used while Shuffling a Deck</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Lady Luck's Kiss<span class="skill-max mono">Lv 7</span></th>
-          <td>Heals an ally and cures a large variety of status effects<div class="skill-extra"><span class="skill-note">Can heal stone, freezing, stun, poison, blind, silence, hallucination and burning. Higher skill level increases success chance.</span></div></td>
-          <td><span class="badge sk-other">Support</span></td>
+          <th scope="row">Instant Aces<span class="skill-max mono">Lv 7</span></th>
+          <td><p>Throws a pair of cards that hit enemies in a small area.</p><p>Damage is split among all targets.</p><p>Deals small knockback to enemy.</p><p>No combo interactions.</p><div class="skill-extra"><span class="chip chip--sm">Enemy and AoE</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Gift Card<span class="skill-max mono">Lv 7</span></th>
+          <td><p>Throws an Explosive Card that inflict damage to all enemies.</p><p>Skill has perfect hit rate.</p><p>Skill ignores enemy defense.</p><div class="skill-extra"><span class="chip chip--sm">Enemy + AoE</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Deflect Blades<span class="skill-max mono">Lv 7</span></th>
-          <td>Parries some physical attacks back to the enemy, reflecting half the damage taken<div class="skill-extra"><span class="skill-note">Hits deflected are same amount as skill level. Works against Swords, Daggers and Scythes on PvP.</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
+          <td><p>Deflects attacks back at the enemy, taking half damage and reflecting the other half back.</p><p>Applies vs Swords, Daggers and Scythes.</p><p>Works on all monsters.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Curtain Call<span class="skill-max mono">Lv 7</span></th>
-          <td>Sacrifices current HP to deal heavy damage to a single target, reducing HP to 1<div class="skill-extra"><span class="skill-note">Can't be boosted by ranged modifiers. Deals damage based on HP and current SP.</span><span class="chip chip--sm mono">LUK |}</span></div></td>
-          <td><span class="badge sk-other">Special Ranged Damage</span></td>
+          <td><p>Sacrifices the jester's remaining HP to inflict special damage to the targeted enemy. The HP will be set to 1 after use.</p><p>Damage is fixed at (7 x LUK x Skill Lv)</p><p>Additional damage is current HP and SP</p><p>Not boosted by ranged modifiers</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Lady Luck's Kiss<span class="skill-max mono">Lv 7</span></th>
+          <td><p>Assists and cures an ally's Abnormal Status and recovers the ally's HP. The higher the skill level the higher the chance of success.</p><p>Cures Stone Curse, Freezing, Stun, Blind, Silence, Hallucination, Burning, Freezing and Toxins.</p><p>You can recover yourself from Stone Curse, Freezing and Stun.</p><p>Can heal over some restrictions</p><div class="skill-extra"><span class="chip chip--sm">1 Ally</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Royal Flush<span class="skill-max mono">Lv 7</span></th>
+          <td><p>Summon energy from a card of pure power to deal damage to all enemies.</p><div class="skill-extra"><span class="chip chip--sm">Enemy and AoE</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Jester Soul<span class="skill-max mono">Lv 1</span></th>
+          <td><p>Skill Cannot be learned.</p><p>Jesters can use decks to barrage their enemies with skills.</p><p>Main Stat: LUK</p><p>Shuffle Decks allow quick recovery of SP.</p><p>Normal Decks allow the use skills and fighting.</p><p>Swap between decks according to the situation.</p><p>Available Weapons: Decks</p></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
             </tbody>
           </table>
         </div>
       </section>
-    <p class="source-note">Descriptions and the skill list are transcribed from the community wiki for the world the Refuge inherited. Where the Refuge changed something, it is called out above.</p>
+    <p class="source-note">Skill names and descriptions are read straight out of the server's own skill windows, so they say exactly what a player sees in game. Where the Refuge changed something, it is called out above.</p>
     <nav class="pill-row" aria-label="Other first jobs">
       <span class="dim">More first jobs:</span> <a class="pill" href="thief.html">Thief</a><a class="pill" href="trickster.html">Trickster</a><a class="pill" href="ronin.html">Ronin</a><a class="pill" href="mimic.html">Mimic</a><a class="pill" href="vagabond.html">Vagabond</a><a class="pill" href="raider.html">Raider</a>
       <a class="pill pill--strong" href="../classes.html">Full tree</a>
@@ -356,7 +362,7 @@
         <h4 data-i18n="foot.col2">Reference</h4>
         <ul>
         <li><a href="../changes.html" data-i18n="foot.changes">Changes from the original</a></li>
-        <li><a href="../database.html" data-i18n="foot.database">Community database</a></li>
+        <li><a href="../database.html" data-i18n="foot.database">Items and monsters</a></li>
         <li><a href="../guides.html" data-i18n="foot.guides">Player-written guides</a></li>
         <li><a href="../llms.txt" data-i18n="foot.llms">llms.txt</a></li>
         <li><a href="../sitemap.xml" data-i18n="foot.sitemap">Sitemap</a></li>

@@ -112,15 +112,22 @@ window.RTMR_I18N_REGISTER('pt', {
 
   /* --- database --------------------------------------------------------- */
   'db.h1': 'Database',
-  'db.lede': 'Todo item e todo monstro, direto dos arquivos do servidor. ' +
-    'Filtre, ordene e siga um drop nos dois sentidos.',
+  'db.lede': 'Todo item e todo monstro, com a descrição que o próprio jogo ' +
+    'mostra. Filtre, busque e siga um drop nos dois sentidos.',
   'db.items': 'Itens',
   'db.monsters': 'Monstros',
   'db.search': 'Buscar por nome ou efeito...',
   'db.reset': 'Limpar filtros',
   'db.empty': 'Nada corresponde a esses filtros.',
+  'db.note': '<strong>Estes são os dados vivos do jogo.</strong> Nomes, ' +
+    'descrições e taxas de drop vêm direto do servidor em que o time está ' +
+    'construindo, então são a referência mais precisa que existe. Ajustes de ' +
+    'balanceamento chegam aqui conforme chegam no jogo. Onde uma página deste ' +
+    'site disser algo diferente, ela é que vale. ' +
+    '<a href="changes.html">Veja o que mudou</a>.',
+  'db.note.link': 'Veja o que mudou',
   'nav.database': 'Database',
-  'foot.database': 'Database do servidor',
+  'foot.database': 'Itens e monstros',
 
   /* --- 404 -------------------------------------------------------------- */
   'lost.code': 'Erro 404',

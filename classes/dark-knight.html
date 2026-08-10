@@ -36,8 +36,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="../assets/css/style.css">
-<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
 
 <script>
 /* The only blocking script on the site. It has to run before the first paint
@@ -215,8 +215,9 @@
       <section class="section--tight" id="skills">
         <div class="section-head">
           <h2 data-i18n="ui.skills">Skills</h2>
-          <p>14 entries, as documented for the world the Refuge inherited.
-             Exact numbers are deliberately not listed - they move with balance passes.</p>
+          <p>What each one does, in the words the game itself uses.
+             Numbers are deliberately left out - they move with every balance
+             pass, and a page that quotes them goes stale the day one lands.</p>
         </div>
         <div class="cluster" style="margin-bottom:1rem">
           <label class="visually-hidden" for="sk">Filter skills</label>
@@ -230,80 +231,85 @@
             <thead><tr><th scope="col">Skill</th><th scope="col">What it does</th><th scope="col">Type</th></tr></thead>
             <tbody>
         <tr data-row>
-          <th scope="row">Blade Mastery<span class="skill-max mono">Lv 10</span></th>
-          <td>Increases attack with swords and daggers per level.<div class="skill-extra"><span class="skill-note">Also increases ASPD by 1% per level. Dark Knights can only use swords</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-passive">Passive</span></td>
+          <th scope="row">Dark Knight Soul<span class="skill-max mono">Lv 1</span></th>
+          <td><p>Skill Cannot be learned.</p><p>Dark Knights sacrifice their own vitality to strike their enemy with full power.</p><p>Harvest disables any healing in exchange for more power.</p><p>Increased damage according to missing HP.</p><p>Black Heart allows creating a lifesteal vessel.</p><p>Available Weapons: Swords, Knight Swords</p></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Flesh Mastery<span class="skill-max mono">Lv 10</span></th>
-          <td>Greatly increases the regeneration of stats while sitting<div class="skill-extra"><span class="skill-note">The amount recovered can reach over half the max HP/SP of the Dark Knight</span><span class="chip chip--sm mono">No</span></div></td>
+          <td><p>Regenerates HP and SP every 5 seconds while sitting.</p><p>Can still recover while in Harvest Mode.</p></td>
           <td><span class="badge sk-passive">Passive</span></td>
         </tr>
         <tr data-row>
-          <th scope="row">Harvest<span class="skill-max mono">Lv 5</span></th>
-          <td>Blocks flat healing values from skills in order to boost missing HP damage<div class="skill-extra"><span class="skill-note">Items and Leeching can still heal the caster, also increases STR and INT</span><span class="chip chip--sm mono">No</span></div></td>
-          <td><span class="badge sk-stance">Stance</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Knight Ritual<span class="skill-max mono">Lv 10</span></th>
-          <td>Increases AGI and DEX by a % amount based on total<div class="skill-extra"><span class="skill-note">Also removes Harvest when used</span></div></td>
-          <td><span class="badge sk-support">Self-Buff</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Vengeance<span class="skill-max mono">Lv 10</span></th>
-          <td>Deals damage to an enemy and enables combo follow-up from other skills<div class="skill-extra"><span class="skill-note">Skill has a small chance to freeze if Black Heart is learned</span><span class="chip chip--sm mono">STR</span></div></td>
-          <td><span class="badge sk-other">Offensive Melee</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Devil Raid<span class="skill-max mono">Lv 5</span></th>
-          <td>Dashes to an enemy and deals damage, enables combo follow-up<div class="skill-extra"><span class="skill-note">Can be used to quickly jump to a target for follow-ups</span><span class="chip chip--sm mono">DEX</span></div></td>
-          <td><span class="badge sk-other">Ranged Gap-Closer</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Fatal Menace<span class="skill-max mono">Lv 10</span></th>
-          <td>Damages all enemies around with an aggressive strike<div class="skill-extra"><span class="skill-note">Area increases at Lv5 and Lv10, combo ready adds STR/VIT scaling</span><span class="chip chip--sm mono">STR</span></div></td>
-          <td><span class="badge sk-other">AoE around Self</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Night Menace<span class="skill-max mono">Lv 10</span></th>
-          <td>Deals heavy damage to an enemy based on its defense<div class="skill-extra"><span class="skill-note">Increased by current HP when used by itself, combo ready adds STR scaling</span></div></td>
-          <td><span class="badge sk-other">Melee</span></td>
-        </tr>
-        <tr data-row>
-          <th scope="row">Death Bound<span class="skill-max mono">Lv 5</span></th>
-          <td>Amplifies damage taken and reflects 60% of the value back to enemy, taking 40% of the damage<div class="skill-extra"><span class="skill-note">Cannot be used on boss monsters</span></div></td>
-          <td><span class="badge sk-other">Melee</span></td>
+          <th scope="row">Blade Mastery<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Increases Sword and Dagger class weapon damage and attack speed.</p><p>Dual Wield only works if weapons are same type</p><p>Vagabonds cannot wield swords.</p><p>Dark Knights cannot wield daggers.</p></td>
+          <td><span class="badge sk-passive">Passive</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Conflagration<span class="skill-max mono">Lv 10</span></th>
-          <td>Deals Dark followed by Undead magic damage to enemies around a target<div class="skill-extra"><span class="skill-note">First hit is always dark, 3 follow-up hits are always undead element</span></div></td>
-          <td><span class="badge sk-magic">Magic AoE on target</span></td>
+          <td><p>Burns a target and it's surroundings with dark flames inflicting Dark and elemental magic damage.</p><p>Damage is dealt twice in separate hits</p><div class="skill-extra"><span class="chip chip--sm">Enemy and AoE</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Harvest<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Enters Harvest Mode.</p><p>Harvest Mode:</p><p>Blocks fixed healing from skills</p><p>Can still be healed by leeching and items</p><p>Massive bonuses to offensive skills</p><p>Prevents equipment swapping</p><p>Can be cleansed by casting Knight Ritual.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Vengeance<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Strikes an enemy with dark energy from a sword to deal damage.</p><p>Skill enables Combo Ready for follow-up</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Chilling Frost<span class="skill-max mono">Lv 5</span></th>
-          <td>Freezes the air around the enemy dealing light damage with a high freeze chance<div class="skill-extra"><span class="skill-note">Area is larger at Lv5, damage is always ghost element and physical</span><span class="chip chip--sm mono">INT</span></div></td>
-          <td><span class="badge sk-physical">Physical Ranged AoE</span></td>
+          <td><p>Quickly freezes the air around an enemy dealing Ghost element damage</p><p>Very High chance to freeze enemies</p><p>Very High chance to frost enemies</p><div class="skill-extra"><span class="chip chip--sm">AoE</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Knight Ritual<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Boosts AGI and DEX</p><p>Removes Harvest Mode when used.</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Devil Raid<span class="skill-max mono">Lv 5</span></th>
+          <td><p>Dashes to a distant enemy with a quick sky strike.</p><p>Skill enables Combo Ready for follow-up</p><p>Damage is doubled if under Black Metal</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Shatter Cross<span class="skill-max mono">Lv 10</span></th>
-          <td>Strikes an enemy with a powerful shattering strike<div class="skill-extra"><span class="skill-note">Damage is increased according to current SP, additional STR scaling vs frozen targets</span></div></td>
-          <td><span class="badge sk-physical">Physical Ranged</span></td>
+          <td><p>Breaks the enemy completely</p><p>While absorbing its vital energy.</p><div class="skill-extra"><span class="chip chip--sm">1 Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Death Bound<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Amplifies and retaliates damage received towards your attacker.</p><p>Some of the amplified damage will also reflected on you. Cannot be used on</p><p>Boss monsters.</p><p>Knockbacks attacker 5 cells</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Fatal Menace<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Attacks all enemies around with a very aggressive area strike.</p><div class="skill-extra"><span class="chip chip--sm">AoE</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Black Metal<span class="skill-max mono">Lv 5</span></th>
-          <td>Increases the ATK and MATK of all party members<div class="skill-extra"><span class="skill-note">Consumes 50% of max HP/SP</span></div></td>
-          <td><span class="badge sk-other">Party Support</span></td>
+          <td><p>Enchants the soul of every member of the party to boost offensive power.</p><div class="skill-extra"><span class="chip chip--sm">Whole Party</span></div></td>
+          <td><span class="badge sk-support">Supportive</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Night Menace<span class="skill-max mono">Lv 10</span></th>
+          <td><p>Claws the insides of an enemy dealing collapsing damage.</p><div class="skill-extra"><span class="chip chip--sm">Enemy</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
         <tr data-row>
           <th scope="row">Black Heart<span class="skill-max mono">Lv 1</span></th>
-          <td>Removes a piece of your heart to create a consumable item to be used later, max of 3<div class="skill-extra"><span class="skill-note">Black Heart consumable allows 100% leeching of 10% physical damage dealt for 1 second per Base Level</span><span class="chip chip--sm mono">None |}</span></div></td>
-          <td><span class="badge sk-other">Self-Support</span></td>
+          <td><p>Removes a piece of your heart</p><p>To create a vessel you can use later and regenerate HP while attacking or using skills.</p><p>Up to 3 vessels can be carried at once</p><p>Requires 1 Blue Gemstone</p><div class="skill-extra"><span class="chip chip--sm">Self</span></div></td>
+          <td><span class="badge sk-active">Active</span></td>
         </tr>
             </tbody>
           </table>
         </div>
       </section>
-    <p class="source-note">Descriptions and the skill list are transcribed from the community wiki for the world the Refuge inherited. Where the Refuge changed something, it is called out above.</p>
+    <p class="source-note">Skill names and descriptions are read straight out of the server's own skill windows, so they say exactly what a player sees in game. Where the Refuge changed something, it is called out above.</p>
     <nav class="pill-row" aria-label="Other expert jobs">
       <span class="dim">More expert jobs:</span> <a class="pill" href="judge.html">Judge</a><a class="pill" href="peacekeeper.html">Peacekeeper</a><a class="pill" href="illusionist.html">Illusionist</a>
       <a class="pill pill--strong" href="../classes.html">Full tree</a>
@@ -355,7 +361,7 @@
         <h4 data-i18n="foot.col2">Reference</h4>
         <ul>
         <li><a href="../changes.html" data-i18n="foot.changes">Changes from the original</a></li>
-        <li><a href="../database.html" data-i18n="foot.database">Community database</a></li>
+        <li><a href="../database.html" data-i18n="foot.database">Items and monsters</a></li>
         <li><a href="../guides.html" data-i18n="foot.guides">Player-written guides</a></li>
         <li><a href="../llms.txt" data-i18n="foot.llms">llms.txt</a></li>
         <li><a href="../sitemap.xml" data-i18n="foot.sitemap">Sitemap</a></li>

@@ -1,14 +1,17 @@
 /* The database.
 
-   Eleven thousand items and two thousand monsters, filtered in the browser
-   with no server and no framework. Three things make that work:
+   Two and a half thousand items and seven hundred monsters, filtered in the
+   browser with no server and no framework. Three things make that work:
 
    1. The payload is column arrays with string tables, so the download is a
       third of what objects would cost.
-   2. Filtering runs over plain arrays and a pre-folded lowercase name, so a
+   2. Filtering runs over plain arrays and a pre-folded lowercase string, so a
       keystroke is a linear scan of numbers, not of objects.
    3. Nothing is painted until it is near the viewport. A filter that matches
-      five thousand rows renders sixty of them. */
+      two thousand rows renders sixty of them.
+
+   What it shows is the description the game itself puts in front of a player.
+   The emulator's bonus scripts are deliberately not in the payload. */
 (function () {
   'use strict';
 
@@ -23,7 +26,6 @@
     q: '',
     facets: {},
     sort: 'name',
-    dir: 1,
     data: { items: null, mobs: null },
     matched: [],
     painted: 0
@@ -55,11 +57,29 @@
     return String(n).replace(/\B(?=(\d{3})+(?!\d))/g, ',');
   }
 
-  /* Drop rates are stored the way the server stores them: out of 10000. */
-  function rate(r) {
-    if (r >= 100) return (r / 100).toFixed(r % 100 ? 2 : 0) + '%';
-    if (r >= 10) return (r / 100).toFixed(2) + '%';
-    return (r / 100).toFixed(3).replace(/0+$/, '') + '%';
+  /* Rates arrive as percentages already. A hundred is a guaranteed drop; the
+     rarest things in the game sit at three decimal places. */
+  function rate(p) {
+    if (p >= 100) return '100%';
+    if (p >= 1) return (Math.round(p * 100) / 100) + '%';
+    return (Math.round(p * 1000) / 1000) + '%';
+  }
+
+  /* Anything under a tenth of a percent is worth flagging as a grind. */
+  function rateClass(p) {
+    if (p >= 50) return 'is-common';
+    if (p >= 5) return 'is-uncommon';
+    if (p >= 0.5) return 'is-rare';
+    return 'is-veryrare';
+  }
+
+  function sprite(id, name) {
+    // The box is taller than it is wide because the sprites are: a Poring is
+    // a ball and a Seyren is a man on a horse. Reserving the tall box for all
+    // of them keeps the list from reflowing as they arrive.
+    return '<img class="db-sprite" loading="lazy" decoding="async" width="56" height="64" ' +
+      'src="' + PREFIX + 'assets/sprites/' + id + '.gif" alt="" ' +
+      'onerror="this.style.visibility=\'hidden\'" data-mob="' + esc(name) + '">';
   }
 
   /* ---- loading ---------------------------------------------------------- */
@@ -74,7 +94,15 @@
         raw.cols.forEach(function (name, i) { C[name] = i; });
         raw.rows.forEach(function (row) {
           // One folded string per row, built once, searched on every keystroke.
-          row.__f = fold(row[C.name] + ' ' + (row[C.fx] != null ? row[C.fx] : ''));
+          // The description is in it, so "reduces cast time" finds the gear
+          // that does it without anybody knowing an item name.
+          var extra = tab === 'items'
+            ? raw.cats[row[C.cat]] + ' ' + row[C.desc]
+            : raw.races[row[C.race]] + ' ' + raw.zones[row[C.zone]] + ' ' +
+              row[C.card] + ' ' + row[C.drops].map(function (d) {
+                return raw.items[d[0]];
+              }).join(' ');
+          row.__f = fold(row[C.name] + ' ' + extra);
         });
         raw.C = C;
         state.data[tab] = raw;
@@ -85,39 +113,42 @@
   /* ---- facets ----------------------------------------------------------- */
 
   // Each facet is a column plus how to read it. `multi` means the cell is a
-  // list of indices (an item can occupy two slots), `flag` a 0/1 column, and
-  // `range` a pair of number inputs.
+  // list of indices (an item can occupy two slots), `flag` a 0/1 column,
+  // `flagLen` a list that should not be empty, and `range` two number inputs.
   var FACETS = {
     items: [
-      { key: 'type', label: 'Type', col: 'type', table: 'types' },
-      { key: 'sub', label: 'Weapon / shield type', col: 'sub', table: 'subs', skipEmpty: true },
+      { key: 'grp', label: 'Kind', col: 'grp', table: 'grps' },
+      { key: 'cat', label: 'Category', col: 'cat', table: 'cats', wide: true },
       { key: 'loc', label: 'Equipment slot', col: 'loc', table: 'locs', multi: true },
       { key: 'slots', label: 'Card slots', col: 'slots', numbers: [0, 1, 2, 3, 4] },
       { key: 'lv', label: 'Required level', col: 'lv', range: true },
       { key: 'jobs', label: 'Usable by', col: 'jobs', table: 'jobs', skipEmpty: true, wide: true },
       { key: 'refine', label: 'Refineable', col: 'refine', flag: true },
-      { key: 'drops', label: 'Dropped by a monster', col: 'drops', flagGt: true }
+      { key: 'src', label: 'Dropped by a monster', col: 'src', flagLen: true },
+      { key: 'zones', label: 'Drops in', col: 'zones', table: 'zones', multi: true, wide: true }
     ],
     mobs: [
+      { key: 'zone', label: 'Zone', col: 'zone', table: 'zones', wide: true },
       { key: 'race', label: 'Race', col: 'race', table: 'races' },
       { key: 'element', label: 'Element', col: 'element', table: 'elements' },
       { key: 'size', label: 'Size', col: 'size', table: 'sizes' },
-      { key: 'rank', label: 'Rank', col: 'rank', numbers: [0, 1, 2],
-        numberLabels: { 0: 'Normal', 1: 'MVP', 2: 'Mini-boss' } },
-      { key: 'lv', label: 'Level', col: 'lv', range: true }
+      { key: 'mvp', label: 'MVP only', col: 'mvp', flag: true },
+      { key: 'lv', label: 'Level', col: 'lv', range: true },
+      { key: 'drops', label: 'Drops something', col: 'drops', flagLen: true },
+      { key: 'maps', label: 'Map', col: 'maps', table: 'maps', multi: true, wide: true }
     ]
   };
 
   var SORTS = {
     items: [['name', 'Name'], ['lv', 'Required level'], ['atk', 'Attack'],
-            ['matk', 'Magic attack'], ['def', 'Defense'], ['slots', 'Slots'],
-            ['weight', 'Weight'], ['drops', 'Drop sources']],
-    mobs: [['name', 'Name'], ['lv', 'Level'], ['hp', 'Health'], ['exp', 'Base EXP'],
-           ['jexp', 'Job EXP'], ['atk', 'Attack'], ['def', 'Defense']]
+            ['matk', 'Magic attack'], ['def', 'Defense'], ['slots', 'Card slots'],
+            ['weight', 'Weight'], ['src', 'Drop sources']],
+    mobs: [['name', 'Name'], ['lv', 'Level'], ['hp', 'Health'],
+           ['exp', 'Base EXP'], ['jexp', 'Job EXP'], ['drops', 'Number of drops']]
   };
 
   function facetValues(data, facet) {
-    var C = data.C, col = C[facet.col];
+    var col = data.C[facet.col];
     var counts = {};
     data.rows.forEach(function (row) {
       var cell = row[col];
@@ -146,7 +177,7 @@
           '<input class="field" id="f-' + facet.key + '-max" type="number" inputmode="numeric" placeholder="max"' +
           ' data-range="' + facet.key + '" data-edge="max" value="' + (sel.max != null ? sel.max : '') + '">' +
           '</div>';
-      } else if (facet.flag || facet.flagGt) {
+      } else if (facet.flag || facet.flagLen) {
         var on = state.facets[facet.key] === 1;
         body = '<label class="db-check"><input type="checkbox" data-flag="' + facet.key + '"' +
           (on ? ' checked' : '') + '> <span>Only these</span></label>';
@@ -166,8 +197,8 @@
           return e.label && !(facet.skipEmpty && !e.label.trim());
         }).sort(function (a, b) { return b.n - a.n || a.label.localeCompare(b.label); });
 
-        // A facet with sixty values is a wall. Show the useful ones and let
-        // the rest arrive behind a toggle.
+        // A facet with three hundred values is a wall. Show the useful ones
+        // and let the rest arrive behind a toggle.
         var limit = facet.wide ? 8 : 12;
         body = entries.map(function (e, idx) {
           var picked = (state.facets[facet.key] || []).indexOf(e.i) !== -1;
@@ -182,7 +213,7 @@
         }
       }
 
-      out.push('<details class="db-facet" open>' +
+      out.push('<details class="db-facet"' + (facet.wide ? '' : ' open') + '>' +
         '<summary>' + esc(facet.label) + '</summary>' +
         '<div class="db-facet-body">' + body + '</div></details>');
     });
@@ -212,8 +243,8 @@
         if (picked.max != null && cell > picked.max) ok = false;
       } else if (facet.flag) {
         if (picked === 1 && !cell) ok = false;
-      } else if (facet.flagGt) {
-        if (picked === 1 && !(cell > 0)) ok = false;
+      } else if (facet.flagLen) {
+        if (picked === 1 && !(cell && cell.length)) ok = false;
       } else if (picked.length) {
         if (facet.multi) {
           var hit = (cell || []).some(function (v) { return picked.indexOf(v) !== -1; });
@@ -234,9 +265,12 @@
 
     var col = C[state.sort];
     var byName = state.sort === 'name';
+    var byLength = state.sort === 'src' || state.sort === 'drops';
     state.matched.sort(function (a, b) {
       if (byName) return String(a[C.name]).localeCompare(String(b[C.name]));
-      return (b[col] - a[col]) || String(a[C.name]).localeCompare(String(b[C.name]));
+      var av = byLength ? (a[col] || []).length : a[col];
+      var bv = byLength ? (b[col] || []).length : b[col];
+      return (bv - av) || String(a[C.name]).localeCompare(String(b[C.name]));
     });
 
     els.count.textContent = num(state.matched.length) + ' of ' + num(data.rows.length);
@@ -249,49 +283,62 @@
 
   /* ---- painting --------------------------------------------------------- */
 
+  /* The first line or two of a description is the part that identifies the
+     item. Anything past that is set bonuses and refine tables, which belong
+     in the drawer rather than in a list row. */
+  function blurb(desc) {
+    if (!desc) return '';
+    var lines = desc.split('\n').filter(function (l) { return l.trim(); });
+    return lines.slice(0, 2).join(' · ');
+  }
+
   function itemCard(row, data) {
     var C = data.C;
     var stats = [];
-    if (row[C.atk]) stats.push(['ATK', row[C.atk]]);
-    if (row[C.matk]) stats.push(['MATK', row[C.matk]]);
-    if (row[C.def]) stats.push(['DEF', row[C.def]]);
-    if (row[C.slots]) stats.push(['Slots', row[C.slots]]);
-    if (row[C.lv]) stats.push(['Lv', row[C.lv]]);
-    var sub = data.subs[row[C.sub]];
+    if (row[C.atk]) stats.push('ATK ' + row[C.atk]);
+    if (row[C.matk]) stats.push('MATK ' + row[C.matk]);
+    if (row[C.def]) stats.push('DEF ' + row[C.def]);
+    if (row[C.slots]) stats.push(row[C.slots] + '× slot');
+    if (row[C.lv]) stats.push('Lv ' + row[C.lv]);
     var loc = (row[C.loc] || []).map(function (i) { return data.locs[i]; }).join(' / ');
+    var hue = data.hues[row[C.grp]];
+
     return '<li class="db-row"><button type="button" class="db-entry" data-open="' + row[C.id] + '">' +
-      '<span class="db-name">' + esc(row[C.name]) + '</span>' +
-      '<span class="db-tags">' +
-        '<span class="badge">' + esc(data.types[row[C.type]]) + '</span>' +
-        (sub ? '<span class="db-sub">' + esc(sub) + '</span>' : '') +
-        (loc ? '<span class="db-sub">' + esc(loc) + '</span>' : '') +
-      '</span>' +
-      (stats.length ? '<span class="db-stats mono">' + stats.map(function (s) {
-        return '<span>' + s[0] + ' ' + s[1] + '</span>';
-      }).join('') + '</span>' : '') +
-      (row[C.fx] ? '<span class="db-fx">' + esc(row[C.fx].slice(0, 120)) + '</span>' : '') +
-      '</button></li>';
+      '<span class="db-chip db-chip--' + hue + '" aria-hidden="true"></span>' +
+      '<span class="db-body">' +
+        '<span class="db-name">' + esc(row[C.name]) + '</span>' +
+        '<span class="db-tags">' +
+          '<span class="badge badge--' + hue + '">' + esc(data.cats[row[C.cat]]) + '</span>' +
+          (loc ? '<span class="db-sub">' + esc(loc) + '</span>' : '') +
+        '</span>' +
+        (stats.length ? '<span class="db-stats mono">' + stats.map(function (s) {
+          return '<span>' + s + '</span>';
+        }).join('') + '</span>' : '') +
+        (row[C.desc] ? '<span class="db-fx">' + esc(blurb(row[C.desc])) + '</span>' : '') +
+      '</span></button></li>';
   }
 
   function mobCard(row, data) {
     var C = data.C;
-    var rank = row[C.rank];
-    return '<li class="db-row"><button type="button" class="db-entry" data-open="' + row[C.id] + '">' +
-      '<span class="db-name">' + esc(row[C.name]) +
-        (rank === 1 ? ' <span class="badge rank-ss">MVP</span>' :
-         rank === 2 ? ' <span class="badge rank-a">Boss</span>' : '') +
-      '</span>' +
-      '<span class="db-tags">' +
-        '<span class="badge">Lv ' + row[C.lv] + '</span>' +
-        '<span class="db-sub">' + esc(data.races[row[C.race]]) + '</span>' +
-        '<span class="db-sub">' + esc(data.elements[row[C.element]]) + ' ' + row[C.elv] + '</span>' +
-        '<span class="db-sub">' + esc(data.sizes[row[C.size]]) + '</span>' +
-      '</span>' +
-      '<span class="db-stats mono"><span>HP ' + num(row[C.hp]) + '</span>' +
-      '<span>ATK ' + row[C.atk] + '</span><span>DEF ' + row[C.def] + '</span>' +
-      '<span>EXP ' + num(row[C.exp]) + '</span></span>' +
-      (row[C.drops].length ? '<span class="db-fx">' + row[C.drops].length + ' drops</span>' : '') +
-      '</button></li>';
+    var drops = row[C.drops].length;
+    return '<li class="db-row"><button type="button" class="db-entry db-entry--mob" data-open="' + row[C.id] + '">' +
+      sprite(row[C.id], row[C.name]) +
+      '<span class="db-body">' +
+        '<span class="db-name">' + esc(row[C.name]) +
+          (row[C.mvp] ? ' <span class="badge rank-ss">MVP</span>' : '') +
+        '</span>' +
+        '<span class="db-tags">' +
+          '<span class="badge">Lv ' + row[C.lv] + '</span>' +
+          '<span class="db-sub">' + esc(data.races[row[C.race]]) + '</span>' +
+          '<span class="db-sub">' + esc(data.elements[row[C.element]]) +
+            (row[C.elv] ? ' ' + row[C.elv] : '') + '</span>' +
+          '<span class="db-sub">' + esc(data.sizes[row[C.size]]) + '</span>' +
+        '</span>' +
+        '<span class="db-stats mono"><span>HP ' + num(row[C.hp]) + '</span>' +
+          (row[C.exp] ? '<span>EXP ' + num(row[C.exp]) + '</span>' : '') +
+          '<span>' + esc(data.zones[row[C.zone]]) + '</span></span>' +
+        (drops ? '<span class="db-fx">' + drops + (drops === 1 ? ' drop' : ' drops') + '</span>' : '') +
+      '</span></button></li>';
   }
 
   function paint() {
@@ -330,100 +377,116 @@
     return null;
   }
 
-  function dropSources(itemId) {
-    var mobs = state.data.mobs;
-    if (!mobs) return null;
-    var C = mobs.C, out = [];
-    mobs.rows.forEach(function (row) {
-      row[C.drops].forEach(function (d) {
-        if (d[0] === itemId) out.push({ name: row[C.name], lv: row[C.lv], rate: d[1], mvp: d[2] });
-      });
+  function statList(pairs) {
+    var kept = pairs.filter(function (p) {
+      return p[1] !== '' && p[1] !== 0 && p[1] != null;
     });
-    return out.sort(function (a, b) { return b.rate - a.rate; });
+    return '<dl class="db-detail-stats">' + kept.map(function (p) {
+      return '<div><dt>' + p[0] + '</dt><dd>' + esc(p[1]) + '</dd></div>';
+    }).join('') + '</dl>';
+  }
+
+  function itemDetail(row, data) {
+    var C = data.C;
+    var html = '<p class="db-detail-kind"><span class="badge badge--' +
+      data.hues[row[C.grp]] + '">' + esc(data.cats[row[C.cat]]) + '</span></p>' +
+      '<h2>' + esc(row[C.name]) + '</h2>';
+
+    if (row[C.desc]) {
+      html += '<div class="db-desc">' + row[C.desc].split('\n').map(function (line) {
+        return line.trim() ? '<p>' + esc(line) + '</p>' : '';
+      }).join('') + '</div>';
+    }
+
+    html += statList([
+      ['Slot', (row[C.loc] || []).map(function (i) { return data.locs[i]; }).join(', ')],
+      ['Card slots', row[C.slots]],
+      ['Attack', row[C.atk]], ['Magic attack', row[C.matk]],
+      ['Defense', row[C.def]], ['Magic defense', row[C.mdef]],
+      ['Required level', row[C.lv]], ['Weight', row[C.weight]],
+      ['Refineable', row[C.refine] ? 'Yes' : ''],
+      ['Usable by', data.jobs[row[C.jobs]]]
+    ]);
+
+    html += '<h3>Where it drops</h3>';
+    var src = row[C.src];
+    if (!src.length) {
+      html += '<p class="dim">No monster drops this. It comes from a shop, a ' +
+        'quest, a craft or an exchange.</p>';
+    } else {
+      html += '<ul class="db-drops">' + src.map(function (s) {
+        return '<li>' +
+          '<button type="button" class="db-link" data-jump-mob="' + s[0] + '">' +
+            esc(data.mobs[s[1]]) + '</button>' +
+          '<span class="dim">Lv ' + s[2] + ' · ' + esc(data.zones[s[3]]) + '</span>' +
+          '<span class="mono db-rate ' + rateClass(s[4]) + '">' + rate(s[4]) + '</span>' +
+          (s[5] ? '<span class="badge rank-ss">MVP</span>' : '') +
+          '</li>';
+      }).join('') + '</ul>';
+    }
+    return html;
+  }
+
+  function mobDetail(row, data) {
+    var C = data.C;
+    var html = '<div class="db-detail-head">' + sprite(row[C.id], row[C.name]) +
+      '<div><h2>' + esc(row[C.name]) +
+      (row[C.mvp] ? ' <span class="badge rank-ss">MVP</span>' : '') + '</h2>' +
+      '<p class="dim">Level ' + row[C.lv] + ' · ' +
+      esc(data.races[row[C.race]]) + ' · ' +
+      esc(data.elements[row[C.element]]) + (row[C.elv] ? ' ' + row[C.elv] : '') +
+      '</p></div></div>';
+
+    html += statList([
+      ['Health', num(row[C.hp])],
+      ['Size', data.sizes[row[C.size]]],
+      ['Zone', data.zones[row[C.zone]]],
+      ['Base EXP', row[C.exp] ? num(row[C.exp]) : ''],
+      ['Job EXP', row[C.jexp] ? num(row[C.jexp]) : ''],
+      ['Attack', row[C.atk]], ['Defense', row[C.def]],
+      ['Magic defense', row[C.mdef]]
+    ]);
+
+    if (row[C.card]) {
+      html += '<h3>Its card</h3><div class="db-desc"><p>' + esc(row[C.card]) + '</p>' +
+        (row[C.cslot] ? '<p class="dim">Goes in: ' + esc(row[C.cslot]) + '</p>' : '') +
+        '</div>';
+    }
+
+    html += '<h3>Drops</h3>';
+    if (!row[C.drops].length) {
+      html += '<p class="dim">Drops nothing.</p>';
+    } else {
+      html += '<ul class="db-drops">' + row[C.drops].map(function (d) {
+        var name = esc(data.items[d[0]]);
+        return '<li>' + (d[2]
+            ? '<button type="button" class="db-link" data-jump-item="' + d[2] + '">' + name + '</button>'
+            : '<span>' + name + '</span>') +
+          '<span class="mono db-rate ' + rateClass(d[1]) + '">' + rate(d[1]) + '</span></li>';
+      }).join('') + '</ul>';
+    }
+
+    var maps = (row[C.maps] || []).map(function (i) { return data.maps[i]; });
+    if (maps.length) {
+      html += '<h3>Found on</h3><p class="mono db-maps">' +
+        maps.map(esc).join(', ') + '</p>';
+    }
+    return html;
   }
 
   function openDetail(id) {
     var data = state.data[state.tab];
     var row = findRow(state.tab, id);
     if (!row) return;
-    var C = data.C;
-    var html;
-
-    if (state.tab === 'items') {
-      var rows = [
-        ['Type', data.types[row[C.type]]],
-        ['Subtype', data.subs[row[C.sub]]],
-        ['Slot', (row[C.loc] || []).map(function (i) { return data.locs[i]; }).join(', ')],
-        ['Card slots', row[C.slots]],
-        ['Attack', row[C.atk]], ['Magic attack', row[C.matk]], ['Defense', row[C.def]],
-        ['Required level', row[C.lv]], ['Weight', row[C.weight] / 10],
-        ['Refineable', row[C.refine] ? 'Yes' : 'No'],
-        ['Usable by', data.jobs[row[C.jobs]]],
-        ['Item ID', row[C.id]]
-      ].filter(function (r) { return r[1] !== '' && r[1] !== 0 && r[1] != null; });
-
-      html = '<h2>' + esc(row[C.name]) + '</h2>' +
-        '<dl class="db-detail-stats">' + rows.map(function (r) {
-          return '<div><dt>' + r[0] + '</dt><dd>' + esc(r[1]) + '</dd></div>';
-        }).join('') + '</dl>';
-
-      if (row[C.fx]) {
-        html += '<h3>Effect</h3><pre class="db-script">' +
-          esc(row[C.fx]).split(' | ').join('\n') + '</pre>';
-      }
-
-      html += '<h3>Where it drops</h3>';
-      var sources = dropSources(row[C.id]);
-      if (sources === null) {
-        html += '<p class="dim">Loading monster data...</p>';
-        load('mobs').then(function () { openDetail(id); });
-      } else if (!sources.length) {
-        html += '<p class="dim">No monster drops this. It comes from a shop, a quest or an exchange.</p>';
-      } else {
-        html += '<ul class="db-drops">' + sources.map(function (s) {
-          return '<li><span>' + esc(s.name) + '</span><span class="dim">Lv ' + s.lv + '</span>' +
-            '<span class="mono">' + rate(s.rate) + '</span>' +
-            (s.mvp ? '<span class="badge rank-ss">MVP</span>' : '') + '</li>';
-        }).join('') + '</ul>';
-      }
-    } else {
-      var mrows = [
-        ['Level', row[C.lv]], ['Health', num(row[C.hp])],
-        ['Attack', row[C.atk]], ['Defense', row[C.def]], ['Magic defense', row[C.mdef]],
-        ['Base EXP', num(row[C.exp])], ['Job EXP', num(row[C.jexp])],
-        ['Race', data.races[row[C.race]]],
-        ['Element', data.elements[row[C.element]] + ' ' + row[C.elv]],
-        ['Size', data.sizes[row[C.size]]],
-        ['Monster ID', row[C.id]]
-      ];
-      html = '<h2>' + esc(row[C.name]) + '</h2>' +
-        '<dl class="db-detail-stats">' + mrows.map(function (r) {
-          return '<div><dt>' + r[0] + '</dt><dd>' + esc(r[1]) + '</dd></div>';
-        }).join('') + '</dl><h3>Drops</h3>';
-
-      var itemsData = state.data.items;
-      if (!row[C.drops].length) {
-        html += '<p class="dim">Drops nothing.</p>';
-      } else if (!itemsData) {
-        html += '<p class="dim">Loading item data...</p>';
-        load('items').then(function () { openDetail(id); });
-      } else {
-        var ic = itemsData.C, byId = {};
-        itemsData.rows.forEach(function (r) { byId[r[ic.id]] = r[ic.name]; });
-        html += '<ul class="db-drops">' + row[C.drops].map(function (d) {
-          return '<li><span>' + esc(byId[d[0]] || ('Item ' + d[0])) + '</span>' +
-            '<span class="mono">' + rate(d[1]) + '</span>' +
-            (d[2] ? '<span class="badge rank-ss">MVP reward</span>' : '') + '</li>';
-        }).join('') + '</ul>';
-      }
-    }
 
     els.detailInner.innerHTML =
       '<button type="button" class="icon-btn db-close" data-detail-close aria-label="Close">' +
       '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">' +
-      '<path d="M6 6l12 12M18 6L6 18" stroke-linecap="round"/></svg></button>' + html;
+      '<path d="M6 6l12 12M18 6L6 18" stroke-linecap="round"/></svg></button>' +
+      (state.tab === 'items' ? itemDetail(row, data) : mobDetail(row, data));
     els.detail.hidden = false;
     els.detail.dataset.open = 'true';
+    els.detail.scrollTop = 0;
     saveUrl(id);
   }
 
@@ -431,6 +494,13 @@
     els.detail.dataset.open = 'false';
     els.detail.hidden = true;
     saveUrl();
+  }
+
+  /* Following a drop in either direction is the point of the whole page, so a
+     name in the drawer switches tab, clears the filters and opens the other
+     record. Loading the other payload is the only asynchronous part. */
+  function jump(tab, id) {
+    switchTab(tab, function () { openDetail(id); });
   }
 
   /* ---- url state -------------------------------------------------------- */
@@ -494,8 +564,7 @@
   els.facets.addEventListener('click', function (e) {
     var more = e.target.closest('[data-more]');
     if (!more) return;
-    var body = more.parentNode;
-    body.classList.add('is-expanded');
+    more.parentNode.classList.add('is-expanded');
     more.remove();
   });
 
@@ -513,17 +582,19 @@
   });
 
   document.addEventListener('click', function (e) {
-    if (e.target.closest('[data-detail-close]')) closeDetail();
+    if (e.target.closest('[data-detail-close]')) { closeDetail(); return; }
+    var toMob = e.target.closest('[data-jump-mob]');
+    if (toMob) { jump('mobs', +toMob.dataset.jumpMob); return; }
+    var toItem = e.target.closest('[data-jump-item]');
+    if (toItem) jump('items', +toItem.dataset.jumpItem);
   });
 
   document.addEventListener('keydown', function (e) {
     if (e.key === 'Escape' && els.detail.dataset.open === 'true') closeDetail();
   });
 
-  root.querySelectorAll('[data-db-tab]').forEach(function (tab) {
-    tab.addEventListener('click', function () {
-      var name = tab.dataset.dbTab;
-      if (name === state.tab) return;
+  function switchTab(name, then) {
+    if (name !== state.tab) {
       state.tab = name;
       state.facets = {};
       state.sort = 'name';
@@ -532,11 +603,21 @@
       state.q = '';
       els.q.value = '';
       closeDetail();
-      root.querySelectorAll('[data-db-tab]').forEach(function (t) {
-        t.setAttribute('aria-selected', String(t.dataset.dbTab === name));
-      });
-      els.count.textContent = 'Loading...';
-      load(name).then(function () { renderFacets(); apply(); });
+    }
+    root.querySelectorAll('[data-db-tab]').forEach(function (t) {
+      t.setAttribute('aria-selected', String(t.dataset.dbTab === name));
+    });
+    els.count.textContent = 'Loading...';
+    load(name).then(function () {
+      renderFacets();
+      apply();
+      if (then) then();
+    });
+  }
+
+  root.querySelectorAll('[data-db-tab]').forEach(function (tab) {
+    tab.addEventListener('click', function () {
+      if (tab.dataset.dbTab !== state.tab) switchTab(tab.dataset.dbTab);
     });
   });
 

@@ -36,8 +36,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="../assets/css/style.css">
-<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
+<link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amarante&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap"></noscript>
 
 <script>
 /* The only blocking script on the site. It has to run before the first paint
@@ -168,7 +168,7 @@
     <div class="cluster" style="margin-top:1.4rem">
       <a class="btn btn--primary" href="https://discord.gg/a5P3PFNMhn" rel="noopener" data-i18n="cta.join">Join the community server</a>
       <a class="btn btn--ghost" href="../classes.html">Full class tree</a>
-      
+      <a class="btn btn--ghost" href="#skills">Skills</a>
     </div>
   </div>
 </section>
@@ -184,8 +184,49 @@
     <div class="prose-flow">
       
     </div>
-
-    <p class="source-note">Descriptions and the skill list are transcribed from the community wiki for the world the Refuge inherited. Where the Refuge changed something, it is called out above.</p>
+      <section class="section--tight" id="skills">
+        <div class="section-head">
+          <h2 data-i18n="ui.skills">Skills</h2>
+          <p>What each one does, in the words the game itself uses.
+             Numbers are deliberately left out - they move with every balance
+             pass, and a page that quotes them goes stale the day one lands.</p>
+        </div>
+        <div class="cluster" style="margin-bottom:1rem">
+          <label class="visually-hidden" for="sk">Filter skills</label>
+          <input id="sk" type="search" class="field" placeholder="Filter skills..." data-i18n-attr="placeholder:ui.filterSkills"
+                 data-filter="skilltable" data-filter-count="skcount">
+          <span class="chip mono" id="skcount">-</span>
+        </div>
+        <div class="table-wrap">
+          <table id="skilltable">
+            <caption class="visually-hidden">Unchained Rogue skills</caption>
+            <thead><tr><th scope="col">Skill</th><th scope="col">What it does</th><th scope="col">Type</th></tr></thead>
+            <tbody>
+        <tr data-row>
+          <th scope="row">Wind Slash+<span class="skill-max mono">Lv 13</span></th>
+          <td><p>Enhanced with reduced cooldown. Lv11-13 exclusive.</p></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Arrow Vulcan+<span class="skill-max mono">Lv 13</span></th>
+          <td><p>All cast time removed. Lv11-13 exclusive.</p></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Sneak Attack+<span class="skill-max mono">Lv 13</span></th>
+          <td><p>Enhanced with reduced cooldown.</p></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+        <tr data-row>
+          <th scope="row">Frost Diver+<span class="skill-max mono">Lv 13</span></th>
+          <td><p>No SP cost version. Lv11-13 exclusive.</p></td>
+          <td><span class="badge sk-active">Active</span></td>
+        </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    <p class="source-note">Skill names and descriptions are read straight out of the server's own skill windows, so they say exactly what a player sees in game. Where the Refuge changed something, it is called out above.</p>
     <nav class="pill-row" aria-label="Other alternate paths">
       <span class="dim">More alternate paths:</span> <a class="pill" href="merchant.html">Merchant</a><a class="pill" href="prowler.html">Prowler</a><a class="pill" href="shadowseer.html">Shadowseer</a><a class="pill" href="unchained-thief.html">Unchained Thief</a><a class="pill" href="unchained-assassin.html">Unchained Assassin</a>
       <a class="pill pill--strong" href="../classes.html">Full tree</a>
@@ -237,7 +278,7 @@
         <h4 data-i18n="foot.col2">Reference</h4>
         <ul>
         <li><a href="../changes.html" data-i18n="foot.changes">Changes from the original</a></li>
-        <li><a href="../database.html" data-i18n="foot.database">Community database</a></li>
+        <li><a href="../database.html" data-i18n="foot.database">Items and monsters</a></li>
         <li><a href="../guides.html" data-i18n="foot.guides">Player-written guides</a></li>
         <li><a href="../llms.txt" data-i18n="foot.llms">llms.txt</a></li>
         <li><a href="../sitemap.xml" data-i18n="foot.sitemap">Sitemap</a></li>
